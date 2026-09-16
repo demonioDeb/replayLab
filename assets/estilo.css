@@ -1,0 +1,133 @@
+/* replayLab — hoja única. Mismo idioma visual que el overlay de fcrec:
+   fondo oscuro, rojo para el jugador 1 y azul para el 2, tipografía condensada. */
+:root{
+  --bg:#0a0d15; --panel:#11151f; --panel2:#151a26; --line:#222a3b;
+  --ink:#f3f7ff; --dim:#9fb0d4; --soft:#d3dcf5;
+  --p1:#ff3d57; --p2:#37c8ff; --p1l:#ff8d9b; --p2l:#8fdcff; --gold:#ffcb45;
+  --font:"Bahnschrift","Barlow Condensed","Roboto Condensed","Arial Narrow",
+    "Yu Gothic UI","Meiryo","Microsoft YaHei UI","Noto Sans CJK JP","Noto Sans CJK SC",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.45;
+  background-image:radial-gradient(900px 600px at 15% -10%,rgba(255,61,87,.10),transparent 60%),
+                   radial-gradient(900px 600px at 85% -10%,rgba(55,200,255,.10),transparent 60%)}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+
+/* ---------------------------------------------------------- cabecera */
+header{border-bottom:1px solid var(--line);background:rgba(10,13,21,.82);
+  backdrop-filter:blur(8px);position:sticky;top:0;z-index:10}
+.hrow{display:flex;align-items:center;gap:16px;height:62px}
+.logo{display:flex;align-items:center;gap:9px;font-size:23px;font-weight:700;letter-spacing:1px;flex:none}
+.logo b{color:var(--gold)}
+.hrow .sp{flex:1}
+#buscar{background:var(--panel2);border:1px solid var(--line);border-radius:8px;color:var(--ink);
+  font-family:inherit;font-size:15px;padding:8px 12px;width:260px;max-width:40vw}
+#buscar:focus{outline:none;border-color:#3a4a6d}
+#buscar::placeholder{color:var(--dim)}
+#idioma{background:var(--panel2);border:1px solid var(--line);border-radius:8px;color:var(--soft);
+  font-family:inherit;font-size:14px;padding:8px 10px;cursor:pointer}
+
+/* ---------------------------------------------------------- portada */
+.intro{padding:26px 0 18px}
+.intro h1{font-size:34px;font-weight:700;letter-spacing:.5px}
+.intro p{color:var(--dim);font-size:17px;margin-top:4px}
+.rej{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px;padding-bottom:40px}
+.tarj{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden;
+  display:flex;flex-direction:column;transition:transform .15s,border-color .15s}
+.tarj:hover{transform:translateY(-3px);border-color:#31405e}
+.mini{aspect-ratio:16/9;background:#0c1018;position:relative;display:grid;place-items:center;overflow:hidden}
+.mini img{width:100%;height:100%;object-fit:cover;display:block}
+.mini .sinvid{color:var(--dim);font-size:13px;letter-spacing:2px;text-transform:uppercase}
+/* Sin vídeo no tiene sentido reservar un 16:9 en negro: la tarjeta se queda con un
+   panel compacto que dice el enfrentamiento, y la rejilla no se llena de huecos. */
+.mini.sin{aspect-ratio:auto;padding:16px 14px;background:
+  linear-gradient(135deg,rgba(255,61,87,.13),transparent 46%),
+  linear-gradient(225deg,rgba(55,200,255,.13),transparent 46%),#0c1018}
+.mini.sin .duelo{display:flex;align-items:center;justify-content:center;gap:12px;
+  font-size:21px;font-weight:700;width:100%}
+.mini.sin .duelo .c1{color:var(--p1l);text-align:right;flex:1;min-width:0}
+.mini.sin .duelo .c2{color:var(--p2l);flex:1;min-width:0}
+.mini.sin .duelo span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mini.sin .duelo em{font-style:normal;color:var(--dim);font-size:14px;flex:none}
+.mini.sin .sinvid{margin-top:10px;display:block;text-align:center}
+.mini .dur{position:absolute;right:8px;bottom:8px;background:rgba(6,9,15,.85);border-radius:5px;
+  padding:2px 7px;font:600 13px/1.5 "Consolas",monospace}
+.tcuerpo{padding:12px 14px 14px;display:flex;flex-direction:column;gap:8px;flex:1}
+.vs{display:flex;align-items:center;gap:10px;font-size:19px;font-weight:700;line-height:1.15}
+.vs .n1{color:var(--p1l)}.vs .n2{color:var(--p2l)}
+.vs .m{font:700 19px/1 "Consolas",monospace;color:var(--ink);flex:none}
+.vs span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chars{display:flex;gap:8px;font-size:14px;color:var(--dim)}
+.chars i{font-style:normal}
+.pie{display:flex;gap:12px;font-size:13px;color:var(--dim);letter-spacing:1px;
+  text-transform:uppercase;margin-top:auto;padding-top:4px;border-top:1px solid var(--line)}
+.vacio{padding:60px 0;text-align:center;color:var(--dim)}
+
+/* ---------------------------------------------------------- ficha */
+.volver{display:inline-flex;align-items:center;gap:7px;color:var(--dim);font-size:15px;padding:16px 0 0}
+.volver:hover{color:var(--ink)}
+.cab{display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding:14px 0 18px}
+.cab .lado{flex:1;min-width:200px}
+.cab .lado.d{text-align:right}
+.cab .nom{font-size:31px;font-weight:700;line-height:1.1}
+.cab .lado.i .nom{color:var(--p1l)}.cab .lado.d .nom{color:var(--p2l)}
+.cab .per{color:var(--dim);font-size:15px;letter-spacing:2px;text-transform:uppercase}
+.marc{font:700 44px/1 "Consolas",monospace;letter-spacing:2px;flex:none;
+  background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 20px}
+.marc .g{color:var(--gold)}
+.reproductor{position:relative;aspect-ratio:16/9;background:#05070c;border:1px solid var(--line);
+  border-radius:12px;overflow:hidden}
+.reproductor iframe{width:100%;height:100%;border:0;display:block}
+.sinvideo{height:100%;display:grid;place-items:center;text-align:center;color:var(--dim);padding:20px}
+/* Igual en la ficha: si no hay vídeo, un aviso de una línea en vez de un rectángulo
+   negro de media pantalla. */
+.avisovid{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+  padding:14px 18px;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+.avisovid b{color:var(--soft);font-size:18px}
+.avisovid span{color:var(--dim);font-size:15px}
+
+/* línea de tiempo */
+.linea{margin:16px 0 8px}
+.pista{position:relative;height:42px;background:var(--panel);border:1px solid var(--line);
+  border-radius:8px;overflow:hidden}
+.pista .pel{position:absolute;top:0;bottom:0;border-right:1px solid var(--line);
+  display:flex;align-items:center;justify-content:center;font-size:12px;letter-spacing:1px;
+  color:var(--dim);text-transform:uppercase;overflow:hidden;white-space:nowrap}
+.pista .pel:nth-child(odd){background:rgba(255,255,255,.022)}
+.mk{position:absolute;top:0;bottom:0;width:3px;margin-left:-1px;cursor:pointer;border:0;padding:0;
+  background:var(--c,#fff);opacity:.85;transition:opacity .15s,transform .15s}
+.mk:hover{opacity:1;transform:scaleX(2.2)}
+.leyenda{display:flex;flex-wrap:wrap;gap:12px;padding-top:8px;font-size:13px;color:var(--dim)}
+.leyenda i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:0}
+
+/* saltos y tablas */
+.saltos{display:flex;flex-wrap:wrap;gap:7px;padding:10px 0 22px}
+.salto{background:var(--panel2);border:1px solid var(--line);border-radius:7px;color:var(--soft);
+  font-family:inherit;font-size:14px;padding:6px 11px;cursor:pointer}
+.salto:hover{border-color:#3a4a6d;color:var(--ink)}
+.salto b{font-family:"Consolas",monospace;color:var(--dim);font-weight:400;margin-left:6px}
+.salto.g1{border-left:3px solid var(--p1)}.salto.g2{border-left:3px solid var(--p2)}
+.salto.g0{border-left:3px solid var(--gold)}
+h2{font-size:15px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);
+  padding:22px 0 10px;font-weight:700}
+table.st{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);
+  border-radius:10px;overflow:hidden}
+table.st td{padding:9px 14px;border-top:1px solid var(--line);font-size:16px}
+table.st tr:first-child td{border-top:0}
+table.st td.k{text-align:center;color:var(--dim);font-size:14px;letter-spacing:1px;
+  text-transform:uppercase;width:46%}
+table.st td.a{text-align:left;font-weight:700;color:var(--p1l);width:27%}
+table.st td.b{text-align:right;font-weight:700;color:var(--p2l);width:27%}
+table.st tr.enc td{background:var(--panel2);color:var(--ink)}
+footer{color:var(--dim);font-size:13px;padding:30px 0 40px;border-top:1px solid var(--line);
+  margin-top:30px;display:flex;gap:14px;flex-wrap:wrap}
+@media (max-width:700px){
+  body{font-size:16px}
+  .hrow{height:auto;padding:10px 0;flex-wrap:wrap}
+  #buscar{width:100%;max-width:none;order:3}
+  .cab .lado.d{text-align:left}
+  .marc{font-size:34px}
+  table.st td.k{font-size:12px}
+}

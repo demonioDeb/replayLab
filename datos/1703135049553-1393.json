@@ -1,0 +1,314 @@
+{
+ "version": 1,
+ "quark": "1703135049553-1393",
+ "carpeta": "20260916_damdai_vs_Riz0ne_1703135049553-1393",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "fecha": "2023-12-21",
+ "youtube": null,
+ "titulo": "SSF2X · damdai 🇺🇸 vs Riz0ne 🇺🇸 · Fightcade",
+ "ft": 2,
+ "jugadores": [
+  {
+   "nombre": "damdai",
+   "pais": "us",
+   "rango": 4,
+   "personaje": "Ryu",
+   "clave": "ryu"
+  },
+  {
+   "nombre": "Riz0ne",
+   "pais": "us",
+   "rango": 4,
+   "personaje": "M. Bison",
+   "clave": "dictator"
+  }
+ ],
+ "marcador": [
+  1,
+  2
+ ],
+ "duracion": 370.9,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 8.06,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 8.06,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 69,
+     "perfect": false,
+     "fin": 48.18
+    },
+    {
+     "n": 2,
+     "t": 53.72,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 46,
+     "perfect": false,
+     "fin": 81.72
+    },
+    {
+     "n": 3,
+     "t": 87.27,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 49,
+     "perfect": false,
+     "fin": 116.31
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "fin": 116.79
+  },
+  {
+   "n": 2,
+   "t": 134.15,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 134.15,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 75,
+     "perfect": false,
+     "fin": 177.45
+    },
+    {
+     "n": 2,
+     "t": 182.97,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "fin": 206.83
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    1
+   ],
+   "fin": 207.32
+  },
+  {
+   "n": 3,
+   "t": 223.91,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 223.91,
+     "ganador": 0,
+     "motivo": "doble_ko",
+     "duracion": 44,
+     "perfect": false,
+     "fin": 250.19
+    },
+    {
+     "n": 2,
+     "t": 255.44,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 60,
+     "perfect": false,
+     "fin": 290.75
+    },
+    {
+     "n": 3,
+     "t": 296.1,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 41,
+     "perfect": false,
+     "fin": 320.64
+    },
+    {
+     "n": 4,
+     "t": 325.95,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 66,
+     "perfect": false,
+     "fin": 364.44
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    2
+   ],
+   "fin": 364.93
+  }
+ ],
+ "momentos": [
+  {
+   "t": 36.98,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 48.18,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 74.75,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 81.72,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 81.72,
+   "tipo": "remontada",
+   "jugador": 2,
+   "dato": 60
+  },
+  {
+   "t": 115.63,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 116.31,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 116.31,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 158.49,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 177.45,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 206.83,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 243.54,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 250.19,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 250.19,
+   "tipo": "doble_ko",
+   "jugador": null
+  },
+  {
+   "t": 290.74,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 305.18,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 318.75,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 320.64,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 340.96,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 351.33,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 362.42,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 364.44,
+   "tipo": "ko",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "rondas": 4,
+   "rondas_jugadas": 9,
+   "ko": 4,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1206,
+   "recibido": 1108,
+   "combos": 3,
+   "combo_max": 3,
+   "combo_dano": 54,
+   "supers": 4,
+   "mareos": 0,
+   "ronda_rapida": 39,
+   "al_limite": 0,
+   "remontada": 36,
+   "vida_al_ganar": 33,
+   "dano_barras": 8.38,
+   "recibido_barras": 7.69,
+   "combo_dano_barras": 0.38
+  },
+  {
+   "rondas": 4,
+   "rondas_jugadas": 9,
+   "ko": 4,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1108,
+   "recibido": 1206,
+   "combos": 8,
+   "combo_max": 3,
+   "combo_dano": 55,
+   "supers": 2,
+   "mareos": 0,
+   "ronda_rapida": 46,
+   "al_limite": 2,
+   "remontada": 60,
+   "vida_al_ganar": 16,
+   "dano_barras": 7.69,
+   "recibido_barras": 8.38,
+   "combo_dano_barras": 0.38
+  }
+ ]
+}

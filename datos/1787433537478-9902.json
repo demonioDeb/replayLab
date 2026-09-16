@@ -1,0 +1,266 @@
+{
+ "version": 1,
+ "quark": "1787433537478-9902",
+ "carpeta": "20260915_Young_Placenta_vs_daemonDeb_1787433537478-9902",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "fecha": "2026-08-22",
+ "youtube": null,
+ "titulo": "SSF2X · Young Placenta 🇺🇸 vs daemonDeb 🇲🇽 · Fightcade",
+ "ft": 3,
+ "jugadores": [
+  {
+   "nombre": "Young Placenta",
+   "pais": "us",
+   "rango": 3,
+   "personaje": "Ryu",
+   "clave": "ryu"
+  },
+  {
+   "nombre": "daemonDeb",
+   "pais": "mx",
+   "rango": 4,
+   "personaje": "Chun-Li",
+   "clave": "chunli"
+  }
+ ],
+ "marcador": [
+  0,
+  3
+ ],
+ "duracion": 271.4,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 6.48,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 6.48,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "fin": 24.84
+    },
+    {
+     "n": 2,
+     "t": 32.37,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 42,
+     "perfect": false,
+     "fin": 58.24
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "fin": 58.73
+  },
+  {
+   "n": 2,
+   "t": 75.3,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 75.3,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 42,
+     "perfect": false,
+     "fin": 98.96
+    },
+    {
+     "n": 2,
+     "t": 104.4,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "fin": 123.63
+    },
+    {
+     "n": 3,
+     "t": 128.49,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "fin": 154.14
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    2
+   ],
+   "fin": 154.62
+  },
+  {
+   "n": 3,
+   "t": 171.88,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 171.88,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 29,
+     "perfect": false,
+     "fin": 189.42
+    },
+    {
+     "n": 2,
+     "t": 194.79,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 62,
+     "perfect": false,
+     "fin": 229.51
+    },
+    {
+     "n": 3,
+     "t": 235.58,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 51,
+     "perfect": false,
+     "fin": 264.88
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    3
+   ],
+   "fin": 265.44
+  }
+ ],
+ "momentos": [
+  {
+   "t": 20.62,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 24.84,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 49.59,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 58.24,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 98.96,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 123.63,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 147.99,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 4
+  },
+  {
+   "t": 148.49,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 151.72,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 176.83,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 189.42,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 220.83,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 229.51,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 261.9,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 264.88,
+   "tipo": "ko",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "rondas": 2,
+   "rondas_jugadas": 8,
+   "ko": 2,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 727,
+   "recibido": 1020,
+   "combos": 3,
+   "combo_max": 4,
+   "combo_dano": 47,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 29,
+   "al_limite": 0,
+   "remontada": 42,
+   "vida_al_ganar": 48,
+   "dano_barras": 5.05,
+   "recibido_barras": 7.08,
+   "combo_dano_barras": 0.33
+  },
+  {
+   "rondas": 6,
+   "rondas_jugadas": 8,
+   "ko": 6,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1020,
+   "recibido": 727,
+   "combos": 2,
+   "combo_max": 2,
+   "combo_dano": 49,
+   "supers": 4,
+   "mareos": 1,
+   "ronda_rapida": 30,
+   "al_limite": 0,
+   "remontada": 3,
+   "vida_al_ganar": 49,
+   "dano_barras": 7.08,
+   "recibido_barras": 5.05,
+   "combo_dano_barras": 0.34
+  }
+ ]
+}

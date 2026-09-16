@@ -1,0 +1,189 @@
+{
+ "version": 1,
+ "quark": "1789527048394-9444",
+ "carpeta": "20260915_canguroxx_vs_Duckwins_1789527048394-9444",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "fecha": "2026-09-16",
+ "youtube": null,
+ "titulo": "SSF2X · canguroxx 🇵🇪 vs Duckwins 🇺🇸 · Fightcade",
+ "ft": 2,
+ "jugadores": [
+  {
+   "nombre": "canguroxx",
+   "pais": "pe",
+   "rango": 3,
+   "personaje": "Chun-Li",
+   "clave": "chunli"
+  },
+  {
+   "nombre": "Duckwins",
+   "pais": "us",
+   "rango": 2,
+   "personaje": "Dhalsim",
+   "clave": "dhalsim"
+  }
+ ],
+ "marcador": [
+  2,
+  0
+ ],
+ "duracion": 217.2,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 4.0,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 4.0,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 46,
+     "perfect": false,
+     "fin": 31.47
+    },
+    {
+     "n": 2,
+     "t": 38.3,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 81,
+     "perfect": false,
+     "fin": 85.53
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "fin": 86.0
+  },
+  {
+   "n": 2,
+   "t": 103.68,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 103.68,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 35,
+     "perfect": false,
+     "fin": 125.0
+    },
+    {
+     "n": 2,
+     "t": 131.91,
+     "ganador": null,
+     "motivo": null,
+     "duracion": null,
+     "perfect": false
+    },
+    {
+     "n": 3,
+     "t": 183.04,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 46,
+     "perfect": false,
+     "fin": 210.76
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "fin": 211.24
+  }
+ ],
+ "momentos": [
+  {
+   "t": 31.47,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 80.4,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 124.04,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 125.0,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 164.64,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 182.94,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 182.94,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 210.76,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "rondas": 4,
+   "rondas_jugadas": 4,
+   "ko": 4,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 725,
+   "recibido": 398,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 2,
+   "mareos": 0,
+   "ronda_rapida": 35,
+   "al_limite": 1,
+   "remontada": 22,
+   "vida_al_ganar": 56,
+   "dano_barras": 5.03,
+   "recibido_barras": 2.76,
+   "combo_dano_barras": 0.0
+  },
+  {
+   "rondas": 0,
+   "rondas_jugadas": 4,
+   "ko": 0,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 398,
+   "recibido": 725,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 1,
+   "mareos": 0,
+   "ronda_rapida": 0,
+   "al_limite": 0,
+   "remontada": 0,
+   "vida_al_ganar": null,
+   "dano_barras": 2.76,
+   "recibido_barras": 5.03,
+   "combo_dano_barras": 0.0
+  }
+ ]
+}

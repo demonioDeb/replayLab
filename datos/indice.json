@@ -1,0 +1,229 @@
+{
+ "actualizado": "2026-09-16 19:23",
+ "videos": [
+  {
+   "quark": "1789575152320-9147",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-16",
+   "youtube": null,
+   "duracion": 69.6,
+   "marcador": [
+    0,
+    2
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "Miguel81",
+     "pais": "us",
+     "personaje": "E. Honda",
+     "clave": "honda"
+    },
+    {
+     "nombre": "konnichihuahua",
+     "pais": "my",
+     "personaje": "Dee Jay",
+     "clave": "deejay"
+    }
+   ]
+  },
+  {
+   "quark": "1789527048394-9444",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-16",
+   "youtube": null,
+   "duracion": 217.2,
+   "marcador": [
+    2,
+    0
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "canguroxx",
+     "pais": "pe",
+     "personaje": "Chun-Li",
+     "clave": "chunli"
+    },
+    {
+     "nombre": "Duckwins",
+     "pais": "us",
+     "personaje": "Dhalsim",
+     "clave": "dhalsim"
+    }
+   ]
+  },
+  {
+   "quark": "1789347108237-4228",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-14",
+   "youtube": null,
+   "duracion": 577.5,
+   "marcador": [
+    1,
+    5
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "DJILK-SF2TV",
+     "pais": "us",
+     "personaje": "O. Sagat",
+     "clave": "sagat"
+    },
+    {
+     "nombre": "Fromo",
+     "pais": "us",
+     "personaje": "Blanka",
+     "clave": "blanka"
+    }
+   ]
+  },
+  {
+   "quark": "1789058355677-5475",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-10",
+   "youtube": null,
+   "duracion": 131.6,
+   "marcador": [
+    0,
+    2
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "kazel",
+     "pais": "fr",
+     "personaje": "Blanka",
+     "clave": "blanka"
+    },
+    {
+     "nombre": "wolmar",
+     "pais": "fr",
+     "personaje": "Dhalsim",
+     "clave": "dhalsim"
+    }
+   ]
+  },
+  {
+   "quark": "1788927897720-7868",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-09",
+   "youtube": null,
+   "duracion": 277.5,
+   "marcador": [
+    0,
+    3
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "mrcarabano",
+     "pais": "us",
+     "personaje": "Guile",
+     "clave": "guile"
+    },
+    {
+     "nombre": "_yito2k_",
+     "pais": "mx",
+     "personaje": "Dhalsim",
+     "clave": "dhalsim"
+    }
+   ]
+  },
+  {
+   "quark": "1787433537478-9902",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-08-22",
+   "youtube": null,
+   "duracion": 271.4,
+   "marcador": [
+    0,
+    3
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "Young Placenta",
+     "pais": "us",
+     "personaje": "Ryu",
+     "clave": "ryu"
+    },
+    {
+     "nombre": "daemonDeb",
+     "pais": "mx",
+     "personaje": "Chun-Li",
+     "clave": "chunli"
+    }
+   ]
+  },
+  {
+   "quark": "1703135049553-1393",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2023-12-21",
+   "youtube": null,
+   "duracion": 370.9,
+   "marcador": [
+    1,
+    2
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "damdai",
+     "pais": "us",
+     "personaje": "Ryu",
+     "clave": "ryu"
+    },
+    {
+     "nombre": "Riz0ne",
+     "pais": "us",
+     "personaje": "M. Bison",
+     "clave": "dictator"
+    }
+   ]
+  },
+  {
+   "quark": "1595823262639-8486",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2020-07-27",
+   "youtube": null,
+   "duracion": 231.9,
+   "marcador": [
+    0,
+    2
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "damdai",
+     "pais": "us",
+     "personaje": "Ryu",
+     "clave": "ryu"
+    },
+    {
+     "nombre": "djfrijoles",
+     "pais": "mx",
+     "personaje": "T. Hawk",
+     "clave": "hawk"
+    }
+   ]
+  }
+ ]
+}

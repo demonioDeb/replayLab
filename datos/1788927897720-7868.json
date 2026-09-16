@@ -1,0 +1,260 @@
+{
+ "version": 1,
+ "quark": "1788927897720-7868",
+ "carpeta": "20260915_mrcarabano_vs_yito2k_1788927897720-7868",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "fecha": "2026-09-09",
+ "youtube": null,
+ "titulo": "SSF2X · mrcarabano 🇺🇸 vs _yito2k_ 🇲🇽 · Fightcade",
+ "ft": 3,
+ "jugadores": [
+  {
+   "nombre": "mrcarabano",
+   "pais": "us",
+   "rango": 4,
+   "personaje": "Guile",
+   "clave": "guile"
+  },
+  {
+   "nombre": "_yito2k_",
+   "pais": "mx",
+   "rango": 5,
+   "personaje": "Dhalsim",
+   "clave": "dhalsim"
+  }
+ ],
+ "marcador": [
+  0,
+  3
+ ],
+ "duracion": 277.5,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 8.16,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 8.16,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 63,
+     "perfect": false,
+     "fin": 43.95
+    },
+    {
+     "n": 2,
+     "t": 50.29,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 41,
+     "perfect": false,
+     "fin": 74.75
+    },
+    {
+     "n": 3,
+     "t": 81.83,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 62,
+     "perfect": false,
+     "fin": 118.27
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "fin": 118.75
+  },
+  {
+   "n": 2,
+   "t": 139.4,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 139.4,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 47,
+     "perfect": false,
+     "fin": 167.26
+    },
+    {
+     "n": 2,
+     "t": 174.86,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": false,
+     "fin": 191.52
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    2
+   ],
+   "fin": 192.0
+  },
+  {
+   "n": 3,
+   "t": 212.77,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 212.77,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "fin": 239.67
+    },
+    {
+     "n": 2,
+     "t": 247.27,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "fin": 271.06
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    3
+   ],
+   "fin": 271.54
+  }
+ ],
+ "momentos": [
+  {
+   "t": 43.95,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 64.66,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 69.22,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 70.16,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 99.37,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 107.17,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 117.06,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 155.05,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 167.26,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 184.54,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 190.36,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 191.37,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 234.02,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 237.65,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 258.35,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 271.06,
+   "tipo": "ko",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "rondas": 1,
+   "rondas_jugadas": 7,
+   "ko": 1,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 537,
+   "recibido": 1011,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 1,
+   "mareos": 0,
+   "ronda_rapida": 63,
+   "al_limite": 1,
+   "remontada": 31,
+   "vida_al_ganar": 2,
+   "dano_barras": 3.73,
+   "recibido_barras": 7.02,
+   "combo_dano_barras": 0.0
+  },
+  {
+   "rondas": 6,
+   "rondas_jugadas": 7,
+   "ko": 6,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1011,
+   "recibido": 537,
+   "combos": 6,
+   "combo_max": 2,
+   "combo_dano": 36,
+   "supers": 4,
+   "mareos": 4,
+   "ronda_rapida": 25,
+   "al_limite": 0,
+   "remontada": 37,
+   "vida_al_ganar": 54,
+   "dano_barras": 7.02,
+   "recibido_barras": 3.73,
+   "combo_dano_barras": 0.25
+  }
+ ]
+}

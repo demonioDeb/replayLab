@@ -1,0 +1,213 @@
+{
+ "version": 1,
+ "quark": "1595823262639-8486",
+ "carpeta": "20260916_damdai_vs_djfrijoles_1595823262639-8486",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "fecha": "2020-07-27",
+ "youtube": null,
+ "titulo": "SSF2X · damdai 🇺🇸 vs djfrijoles 🇲🇽 · Fightcade",
+ "ft": 2,
+ "jugadores": [
+  {
+   "nombre": "damdai",
+   "pais": "us",
+   "rango": 4,
+   "personaje": "Ryu",
+   "clave": "ryu"
+  },
+  {
+   "nombre": "djfrijoles",
+   "pais": "mx",
+   "rango": 4,
+   "personaje": "T. Hawk",
+   "clave": "hawk"
+  }
+ ],
+ "marcador": [
+  0,
+  2
+ ],
+ "duracion": 231.9,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 7.2,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 7.2,
+     "ganador": 1,
+     "motivo": "time",
+     "duracion": 99,
+     "perfect": false,
+     "fin": 63.82
+    },
+    {
+     "n": 2,
+     "t": 69.69,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 43,
+     "perfect": false,
+     "fin": 95.66
+    },
+    {
+     "n": 3,
+     "t": 101.34,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 38,
+     "perfect": false,
+     "fin": 124.59
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "fin": 125.09
+  },
+  {
+   "n": 2,
+   "t": 141.04,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 141.04,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 27,
+     "perfect": false,
+     "fin": 158.03
+    },
+    {
+     "n": 2,
+     "t": 163.67,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 46,
+     "perfect": false,
+     "fin": 191.43
+    },
+    {
+     "n": 3,
+     "t": 197.14,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 47,
+     "perfect": false,
+     "fin": 225.44
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    2
+   ],
+   "fin": 225.92
+  }
+ ],
+ "momentos": [
+  {
+   "t": 57.73,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 58.69,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 5
+  },
+  {
+   "t": 79.74,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 95.66,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 124.59,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 158.02,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 175.78,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 191.43,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 221.6,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 225.44,
+   "tipo": "ko",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "rondas": 2,
+   "rondas_jugadas": 6,
+   "ko": 1,
+   "timeup": 1,
+   "perfects": 0,
+   "dano": 508,
+   "recibido": 797,
+   "combos": 3,
+   "combo_max": 5,
+   "combo_dano": 68,
+   "supers": 1,
+   "mareos": 0,
+   "ronda_rapida": 46,
+   "al_limite": 0,
+   "remontada": 25,
+   "vida_al_ganar": 24,
+   "dano_barras": 3.53,
+   "recibido_barras": 5.53,
+   "combo_dano_barras": 0.47
+  },
+  {
+   "rondas": 4,
+   "rondas_jugadas": 6,
+   "ko": 4,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 797,
+   "recibido": 508,
+   "combos": 3,
+   "combo_max": 3,
+   "combo_dano": 31,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 27,
+   "al_limite": 0,
+   "remontada": 35,
+   "vida_al_ganar": 62,
+   "dano_barras": 5.53,
+   "recibido_barras": 3.53,
+   "combo_dano_barras": 0.22
+  }
+ ]
+}

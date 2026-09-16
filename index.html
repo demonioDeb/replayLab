@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>replayLab</title>
+<meta name="description" content="Replays de Fightcade grabados con estadísticas leídas de la propia partida.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🎮</text></svg>">
+<link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+<header><div class="wrap hrow">
+  <a class="logo" href="./">🎮 replay<b>Lab</b></a>
+  <span class="sp"></span>
+  <input id="buscar" type="search" autocomplete="off">
+  <select id="idioma" aria-label="idioma"></select>
+</div></header>
+
+<main class="wrap">
+  <div class="intro"><h1>replayLab</h1><p id="lema"></p></div>
+  <div id="rejilla" class="rej"></div>
+  <div id="vacio" class="vacio" hidden></div>
+</main>
+
+<footer class="wrap" id="pie"></footer>
+
+<script src="assets/app.js"></script>
+<script>
+"use strict";
+let INDICE = { videos: [] };
+
+function tarjeta(v) {
+  const [a, b] = v.jugadores;
+  const m = v.marcador || [0, 0];
+  const dur = v.duracion ? `<span class="dur">${mmss(v.duracion)}</span>` : "";
+  const mini = v.youtube
+    ? `<div class="mini"><img loading="lazy" src="https://i.ytimg.com/vi/${esc(v.youtube)}/hqdefault.jpg" alt="">${dur}</div>`
+    : `<div class="mini sin">
+         <div class="duelo"><span class="c1">${esc(a.personaje || "?")}</span><em>vs</em>
+           <span class="c2">${esc(b.personaje || "?")}</span></div>
+         <span class="sinvid">${esc(T("no_publicado"))}</span>${dur}</div>`;
+  return `<a class="tarj" href="video.html?q=${encodeURIComponent(v.quark)}">
+    ${mini}
+    <div class="tcuerpo">
+      <div class="vs">
+        <span class="n1">${esc(bandera(a.pais))} ${esc(a.nombre)}</span>
+        <span class="m">${m[0]}–${m[1]}</span>
+        <span class="n2" style="text-align:right">${esc(b.nombre)} ${esc(bandera(b.pais))}</span>
+      </div>
+      ${v.youtube ? `<div class="chars"><i>${esc(a.personaje || "?")}</i><i>vs</i><i>${esc(b.personaje || "?")}</i></div>` : ""}
+      <div class="pie">
+        <span>${esc(v.juego_corto || v.juego_nombre || v.juego)}</span>
+        <span>${v.peleas} ${esc(T("peleas"))}</span>
+        <span style="margin-left:auto">${esc(v.fecha || "")}</span>
+      </div>
+    </div></a>`;
+}
+
+function pinta() {
+  document.documentElement.lang = LANG;
+  $("#lema").textContent = T("lema");
+  $("#buscar").placeholder = T("buscar");
+  pintaPie($("#pie"));
+  const q = $("#buscar").value.trim().toLowerCase();
+  const filtra = v => !q || [...v.jugadores.map(j => j.nombre), ...v.jugadores.map(j => j.personaje),
+                             v.juego_nombre, v.fecha].some(x => (x || "").toLowerCase().includes(q));
+  const lista = (INDICE.videos || []).filter(filtra);
+  $("#rejilla").innerHTML = lista.map(tarjeta).join("");
+  const vacio = $("#vacio");
+  vacio.hidden = lista.length > 0;
+  vacio.textContent = (INDICE.videos || []).length ? T("sin_resultados") : T("sin_videos");
+}
+
+montaIdiomas($("#idioma"), pinta);
+$("#buscar").addEventListener("input", pinta);
+pinta();
+json("datos/indice.json").then(d => { INDICE = d; pinta(); })
+  .catch(() => { INDICE = { videos: [] }; pinta(); });
+</script>
+</body>
+</html>
