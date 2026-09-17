@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-16 23:58",
+ "actualizado": "2026-09-17 00:16",
  "videos": [
   {
    "quark": "1789527048394-9444",
@@ -18,16 +18,19 @@
     {
      "nombre": "canguroxx",
      "pais": "pe",
+     "rango_letra": "C",
      "personaje": "Chun-Li",
      "clave": "chunli"
     },
     {
      "nombre": "Duckwins",
      "pais": "us",
+     "rango_letra": "D",
      "personaje": "Dhalsim",
      "clave": "dhalsim"
     }
-   ]
+   ],
+   "rondas": 5
   }
  ]
 }

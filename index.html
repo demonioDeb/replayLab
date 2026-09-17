@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>replayLab</title>
-<meta name="description" content="Replays de Fightcade grabados con estadísticas leídas de la propia partida.">
+<meta name="description" content="Replays de Fightcade grabados, con estadísticas leídas de la propia partida.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🎮</text></svg>">
 <link rel="stylesheet" href="assets/estilo.css">
 </head>
@@ -13,12 +13,17 @@
   <a class="logo" href="./">🎮 replay<b>Lab</b></a>
   <span class="sp"></span>
   <input id="buscar" type="search" autocomplete="off">
+  <div class="vistas" id="vistas" role="group"></div>
+  <select id="orden" aria-label="orden"></select>
   <select id="idioma" aria-label="idioma"></select>
 </div></header>
 
 <main class="wrap">
-  <div class="intro"><h1>replayLab</h1><p id="lema"></p></div>
-  <div id="rejilla" class="rej"></div>
+  <div class="intro">
+    <div><h1>replayLab</h1><p id="lema"></p></div>
+    <span class="cuenta" id="cuenta"></span>
+  </div>
+  <div id="lista" class="lista"></div>
   <div id="vacio" class="vacio" hidden></div>
 </main>
 
@@ -29,31 +34,105 @@
 "use strict";
 let INDICE = { videos: [] };
 
-function tarjeta(v) {
-  const [a, b] = v.jugadores;
-  const m = v.marcador || [0, 0];
-  const dur = v.duracion ? `<span class="dur">${mmss(v.duracion)}</span>` : "";
-  const mini = v.youtube
-    ? `<div class="mini"><img loading="lazy" src="https://i.ytimg.com/vi/${esc(v.youtube)}/hqdefault.jpg" alt="">${dur}</div>`
-    : `<div class="mini sin">
-         <div class="duelo"><span class="c1">${esc(a.personaje || "?")}</span><em>vs</em>
-           <span class="c2">${esc(b.personaje || "?")}</span></div>
-         <span class="sinvid">${esc(T("no_publicado"))}</span>${dur}</div>`;
-  return `<a class="tarj" href="video.html?q=${encodeURIComponent(v.quark)}">
-    ${mini}
-    <div class="tcuerpo">
-      <div class="vs">
-        <span class="n1">${esc(bandera(a.pais))} ${esc(a.nombre)}</span>
-        <span class="m">${m[0]}–${m[1]}</span>
-        <span class="n2" style="text-align:right">${esc(b.nombre)} ${esc(bandera(b.pais))}</span>
-      </div>
-      ${v.youtube ? `<div class="chars"><i>${esc(a.personaje || "?")}</i><i>vs</i><i>${esc(b.personaje || "?")}</i></div>` : ""}
-      <div class="pie">
-        <span>${esc(v.juego_corto || v.juego_nombre || v.juego)}</span>
+/* Las cinco vistas del explorador de Windows, con su icono. El icono va en SVG dentro
+   del propio archivo: nada que descargar y se tiñe con el color del botón. */
+const VISTAS = [
+  ["iconos",     "v_iconos",     "M3 3h7v7H3zm11 0h7v7h-7zM3 14h7v7H3zm11 0h7v7h-7z"],
+  ["miniaturas", "v_miniaturas", "M3 4h18v12H3zm2 14h6v2H5zm8 0h6v2h-6z"],
+  ["mosaico",    "v_mosaico",    "M3 4h8v7H3zm10 0h8v7h-8zM3 13h8v7H3zm10 0h8v7h-8z"],
+  ["lista",      "v_lista",      "M3 5h4v4H3zm6 1h12v2H9zM3 11h4v4H3zm6 1h12v2H9zM3 17h4v4H3zm6 1h12v2H9z"],
+  ["detalles",   "v_detalles",   "M3 5h18v2H3zm0 5h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"],
+];
+const ORDENES = [["fecha","o_fecha"],["duracion","o_duracion"],["jugador","o_jugador"],["peleas","o_peleas"]];
+
+let VISTA = recordado("vista", "miniaturas");
+let ORDEN = recordado("orden", "fecha");
+let DESC = true;
+
+const nom = v => v.jugadores.map(j => j.nombre);
+const caras = (v, alt) => `<span class="caras">
+  ${retrato(v.jugadores[0].clave, v.jugadores[0].personaje)}
+  ${retrato(v.jugadores[1].clave, v.jugadores[1].personaje)}</span>`;
+const duo = v => {
+  const [a, b] = v.jugadores, m = v.marcador || [0, 0];
+  const g = m[0] === m[1] ? 0 : (m[0] > m[1] ? 1 : 2);
+  return `<span class="duo">
+    ${bandera(a.pais)}${rango(a.rango_letra)}<span class="n n1">${esc(a.nombre)}</span>
+    <span class="marcador"><span class="${g === 1 ? "g" : ""}">${m[0]}</span>–<span class="${g === 2 ? "g" : ""}">${m[1]}</span></span>
+    <span class="n n2">${esc(b.nombre)}</span>${rango(b.rango_letra)}${bandera(b.pais)}</span>`;
+};
+const mini = v => v.youtube
+  ? `<div class="mini"><img loading="lazy" src="https://i.ytimg.com/vi/${esc(v.youtube)}/hqdefault.jpg" alt=""></div>`
+  : `<div class="mini sin">${caras(v)}</div>`;
+const chapa = v => (v.duracion ? `<span class="dur">${mmss(v.duracion)}</span>` : "")
+  + (v.youtube ? "" : `<span class="sinvid">${esc(T("no_publicado"))}</span>`);
+const chars = v => v.jugadores.map(j => esc(j.personaje || "?")).join(" vs ");
+const href = v => `video.html?q=${encodeURIComponent(v.quark)}`;
+
+const PINTA = {
+  // En iconos grandes los nombres van en dos líneas: puestos en una sola con el
+  // marcador en medio se cortaban a la mitad ("canguro… 2-0 Duckwi…").
+  iconos: v => {
+    const m = v.marcador || [0, 0];
+    const g = m[0] === m[1] ? 0 : (m[0] > m[1] ? 1 : 2);
+    const linea = (j, n) => `<span class="nombres">${bandera(j.pais)}${rango(j.rango_letra)}
+      <span class="n n${n}" style="${g === n ? "" : "opacity:.72"}">${esc(j.nombre)}</span></span>`;
+    return `<a class="tarj" href="${href(v)}">${chapa(v)}
+      <span class="caras">${retrato(v.jugadores[0].clave, v.jugadores[0].personaje)}
+        <span class="vs">VS</span>${retrato(v.jugadores[1].clave, v.jugadores[1].personaje)}</span>
+      <span class="marcador"><span class="${g === 1 ? "g" : ""}">${m[0]}</span> – <span class="${g === 2 ? "g" : ""}">${m[1]}</span></span>
+      ${linea(v.jugadores[0], 1)}${linea(v.jugadores[1], 2)}
+      <span class="meta">${chars(v)}</span>
+      <span class="meta">${esc(v.fecha || "")} · ${v.peleas} ${esc(T("peleas"))}</span></a>`;
+  },
+
+  miniaturas: v => `<a class="tarj" href="${href(v)}">${mini(v)}${chapa(v)}
+    <span class="cuerpo">
+      <span class="fila">${duo(v)}</span>
+      <span class="meta" style="color:var(--dim);font-size:14px">${chars(v)}</span>
+      <span class="pie"><span>${esc(v.juego_corto || v.juego)}</span>
         <span>${v.peleas} ${esc(T("peleas"))}</span>
-        <span style="margin-left:auto">${esc(v.fecha || "")}</span>
-      </div>
-    </div></a>`;
+        <span style="margin-left:auto">${esc(v.fecha || "")}</span></span>
+    </span></a>`,
+
+  mosaico: v => `<a class="tarj" href="${href(v)}">${caras(v)}
+    <span class="cuerpo"><span class="fila">${duo(v)}</span>
+      <span class="meta">${chars(v)} · ${v.peleas} ${esc(T("peleas"))} · ${esc(v.fecha || "")}</span></span>
+    ${chapa(v)}</a>`,
+
+  lista: v => `<a class="tarj" href="${href(v)}">${caras(v)}${duo(v)}
+    <span class="meta">${chars(v)}</span>
+    <span class="meta">${esc(v.fecha || "")}</span>
+    <span class="meta dur">${v.duracion ? mmss(v.duracion) : "—"}</span></a>`,
+};
+
+function pintaDetalles(lista) {
+  const cols = [["", ""], ["jugador", "o_jugador"], ["peleas", "o_peleas"],
+                ["", "rondas_t"], ["duracion", "o_duracion"], ["fecha", "o_fecha"]];
+  const th = cols.map(([k, t]) =>
+    `<th ${k ? `data-ord="${k}"` : ""}>${t ? esc(T(t)) : ""}${ORDEN === k && k ? ` <span class="ord">${DESC ? "▼" : "▲"}</span>` : ""}</th>`).join("");
+  const filas = lista.map(v => `<tr onclick="location.href='${href(v)}'" style="cursor:pointer">
+      <td>${caras(v)}</td>
+      <td>${duo(v)}</td>
+      <td class="num">${v.peleas}</td>
+      <td class="num">${v.rondas ?? "—"}</td>
+      <td class="num">${v.duracion ? mmss(v.duracion) : "—"}</td>
+      <td class="num">${esc(v.fecha || "")}</td></tr>`).join("");
+  return `<div class="v-detalles"><table><thead><tr>${th}</tr></thead><tbody>${filas}</tbody></table></div>`;
+}
+
+function ordena(lista) {
+  const clave = {
+    fecha: v => (v.fecha || "") + v.quark,
+    duracion: v => v.duracion || 0,
+    jugador: v => nom(v).join(" ").toLowerCase(),
+    peleas: v => v.peleas || 0,
+  }[ORDEN] || (v => v.quark);
+  const out = [...lista].sort((a, b) => {
+    const x = clave(a), y = clave(b);
+    return x < y ? -1 : x > y ? 1 : 0;
+  });
+  return DESC ? out.reverse() : out;
 }
 
 function pinta() {
@@ -61,11 +140,23 @@ function pinta() {
   $("#lema").textContent = T("lema");
   $("#buscar").placeholder = T("buscar");
   pintaPie($("#pie"));
+  $("#vistas").innerHTML = VISTAS.map(([k, t, d]) =>
+    `<button data-v="${k}" aria-pressed="${VISTA === k}" title="${esc(T(t))}" aria-label="${esc(T(t))}">
+       <svg viewBox="0 0 24 24"><path d="${d}"/></svg></button>`).join("");
+  $("#orden").innerHTML = ORDENES.map(([k, t]) =>
+    `<option value="${k}"${ORDEN === k ? " selected" : ""}>${esc(T("orden"))}: ${esc(T(t))}</option>`).join("");
+
   const q = $("#buscar").value.trim().toLowerCase();
-  const filtra = v => !q || [...v.jugadores.map(j => j.nombre), ...v.jugadores.map(j => j.personaje),
-                             v.juego_nombre, v.fecha].some(x => (x || "").toLowerCase().includes(q));
-  const lista = (INDICE.videos || []).filter(filtra);
-  $("#rejilla").innerHTML = lista.map(tarjeta).join("");
+  const casa = v => !q || [...nom(v), ...v.jugadores.map(j => j.personaje),
+                           v.juego_nombre, v.juego_corto, v.fecha]
+                           .some(x => (x || "").toLowerCase().includes(q));
+  const lista = ordena((INDICE.videos || []).filter(casa));
+  $("#cuenta").textContent = `${lista.length} ${T("videos")}`;
+
+  const cont = $("#lista");
+  cont.className = "lista v-" + VISTA;
+  cont.innerHTML = VISTA === "detalles" ? pintaDetalles(lista) : lista.map(PINTA[VISTA]).join("");
+
   const vacio = $("#vacio");
   vacio.hidden = lista.length > 0;
   vacio.textContent = (INDICE.videos || []).length ? T("sin_resultados") : T("sin_videos");
@@ -73,6 +164,21 @@ function pinta() {
 
 montaIdiomas($("#idioma"), pinta);
 $("#buscar").addEventListener("input", pinta);
+$("#orden").addEventListener("change", e => { ORDEN = e.target.value; recuerda("orden", ORDEN); pinta(); });
+$("#vistas").addEventListener("click", e => {
+  const b = e.target.closest("button[data-v]");
+  if (!b) return;
+  VISTA = b.dataset.v; recuerda("vista", VISTA); pinta();
+});
+// en la vista de detalles los encabezados ordenan, como en el explorador
+$("#lista").addEventListener("click", e => {
+  const th = e.target.closest("th[data-ord]");
+  if (!th) return;
+  const k = th.dataset.ord;
+  if (k === ORDEN) DESC = !DESC; else { ORDEN = k; DESC = true; }
+  recuerda("orden", ORDEN); pinta();
+});
+
 pinta();
 json("datos/indice.json").then(d => { INDICE = d; pinta(); })
   .catch(() => { INDICE = { videos: [] }; pinta(); });

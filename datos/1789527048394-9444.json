@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "quark": "1789527048394-9444",
  "carpeta": "20260915_canguroxx_vs_Duckwins_1789527048394-9444",
  "juego": "ssf2xjr1",
@@ -14,6 +14,7 @@
    "nombre": "canguroxx",
    "pais": "pe",
    "rango": 3,
+   "rango_letra": "C",
    "personaje": "Chun-Li",
    "clave": "chunli"
   },
@@ -21,6 +22,7 @@
    "nombre": "Duckwins",
    "pais": "us",
    "rango": 2,
+   "rango_letra": "D",
    "personaje": "Dhalsim",
    "clave": "dhalsim"
   }
@@ -42,6 +44,24 @@
      "motivo": "ko",
      "duracion": 46,
      "perfect": false,
+     "dano": [
+      144,
+      17
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 88,
+     "remontada": 0,
      "fin": 31.47
     },
     {
@@ -51,6 +71,24 @@
      "motivo": "ko",
      "duracion": 81,
      "perfect": false,
+     "dano": [
+      144,
+      135
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 6,
+     "remontada": 14,
      "fin": 85.53
     }
    ],
@@ -59,7 +97,31 @@
     1,
     0
    ],
-   "fin": 86.0
+   "personajes": [
+    "Chun-Li",
+    "Dhalsim"
+   ],
+   "claves": [
+    "chunli",
+    "dhalsim"
+   ],
+   "fin": 86.0,
+   "stats_detector": [
+    {
+     "dmg": 288,
+     "throws": 0,
+     "blocked": 2,
+     "combo": 1,
+     "hits": 19
+    },
+    {
+     "dmg": 152,
+     "throws": 0,
+     "blocked": 1,
+     "combo": 1,
+     "hits": 11
+    }
+   ]
   },
   {
    "n": 2,
@@ -72,6 +134,24 @@
      "motivo": "ko",
      "duracion": 35,
      "perfect": false,
+     "dano": [
+      144,
+      3
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 97,
+     "remontada": 0,
      "fin": 125.0
     },
     {
@@ -80,7 +160,27 @@
      "ganador": null,
      "motivo": null,
      "duracion": null,
-     "perfect": false
+     "perfect": false,
+     "dano": [
+      144,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": null,
+     "remontada": 0,
+     "sin_cierre": true,
+     "fin": 183.04
     },
     {
      "n": 3,
@@ -89,6 +189,24 @@
      "motivo": "ko",
      "duracion": 46,
      "perfect": false,
+     "dano": [
+      144,
+      98
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 31,
+     "remontada": 22,
      "fin": 210.76
     }
    ],
@@ -97,7 +215,31 @@
     2,
     0
    ],
-   "fin": 211.24
+   "personajes": [
+    "Chun-Li",
+    "Dhalsim"
+   ],
+   "claves": [
+    "chunli",
+    "dhalsim"
+   ],
+   "fin": 211.24,
+   "stats_detector": [
+    {
+     "dmg": 432,
+     "throws": 1,
+     "blocked": 4,
+     "combo": 2,
+     "hits": 25
+    },
+    {
+     "dmg": 245,
+     "throws": 0,
+     "blocked": 0,
+     "combo": 1,
+     "hits": 18
+    }
+   ]
   }
  ],
  "momentos": [
@@ -149,8 +291,10 @@
    "ko": 4,
    "timeup": 0,
    "perfects": 0,
-   "dano": 725,
-   "recibido": 398,
+   "dano": 720,
+   "recibido": 397,
+   "golpes": 51,
+   "agarres": 1,
    "combos": 0,
    "combo_max": 0,
    "combo_dano": 0,
@@ -159,8 +303,10 @@
    "ronda_rapida": 35,
    "al_limite": 1,
    "remontada": 22,
+   "racha": 4,
    "vida_al_ganar": 56,
-   "dano_barras": 5.03,
+   "dano_medio": 14.1,
+   "dano_barras": 5.0,
    "recibido_barras": 2.76,
    "combo_dano_barras": 0.0
   },
@@ -170,8 +316,10 @@
    "ko": 0,
    "timeup": 0,
    "perfects": 0,
-   "dano": 398,
-   "recibido": 725,
+   "dano": 397,
+   "recibido": 720,
+   "golpes": 30,
+   "agarres": 0,
    "combos": 0,
    "combo_max": 0,
    "combo_dano": 0,
@@ -180,9 +328,11 @@
    "ronda_rapida": 0,
    "al_limite": 0,
    "remontada": 0,
+   "racha": 0,
    "vida_al_ganar": null,
+   "dano_medio": 13.2,
    "dano_barras": 2.76,
-   "recibido_barras": 5.03,
+   "recibido_barras": 5.0,
    "combo_dano_barras": 0.0
   }
  ]

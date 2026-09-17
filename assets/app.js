@@ -5,6 +5,8 @@
 
 const I18N = {
   es: {
+    al_limite: "Al límite", sin_cierre: "Sin cierre", sin_cierre_ayuda: "El juego no cerró esta ronda: sus tiempos son aproximados", dano: "Daño",
+   vista: "Vista", v_iconos: "Iconos grandes", v_miniaturas: "Miniaturas", v_mosaico: "Mosaico", v_lista: "Lista", v_detalles: "Detalles", orden: "Ordenar", o_fecha: "Fecha", o_duracion: "Duración", o_jugador: "Jugador", o_peleas: "Peleas", videos: "vídeos", rango: "Rango", sin_rango: "Sin rango", rondas_t: "Rondas", resumen_rondas: "Ronda a ronda", gana: "gana", empate: "empate", por_ko: "KO", por_tiempo: "Tiempo", doble: "Doble KO", dano_ronda: "Daño de la ronda", vida_restante: "le quedó", todo: "Todo", nada: "Nada", filtrar: "Filtrar", st_golpes: "Golpes conectados", st_danomedio: "Daño medio por golpe", st_agarres: "Agarres", st_racha: "Mejor racha de rondas", st_rondas_jug: "Rondas jugadas", pie_datos: "Datos leídos de la propia partida", cargando: "Cargando…",
     lema: "Replays de Fightcade, grabados y contados",
     buscar: "Buscar jugador o personaje…",
     sin_videos: "Todavía no hay vídeos.",
@@ -29,6 +31,8 @@ const I18N = {
     cargando: "Cargando…", no_existe: "No encuentro ese vídeo.",
   },
   en: {
+    al_limite: "On the edge", sin_cierre: "Never closed", sin_cierre_ayuda: "The game never closed this round: its times are approximate", dano: "Damage",
+   vista: "View", v_iconos: "Large icons", v_miniaturas: "Thumbnails", v_mosaico: "Tiles", v_lista: "List", v_detalles: "Details", orden: "Sort", o_fecha: "Date", o_duracion: "Length", o_jugador: "Player", o_peleas: "Matches", videos: "videos", rango: "Rank", sin_rango: "Unranked", rondas_t: "Rounds", resumen_rondas: "Round by round", gana: "wins", empate: "draw", por_ko: "KO", por_tiempo: "Time", doble: "Double KO", dano_ronda: "Round damage", vida_restante: "left", todo: "All", nada: "None", filtrar: "Filter", st_golpes: "Hits landed", st_danomedio: "Average damage per hit", st_agarres: "Throws", st_racha: "Best round streak", st_rondas_jug: "Rounds played", pie_datos: "Data read from the match itself", cargando: "Loading…",
     lema: "Fightcade replays, recorded and explained",
     buscar: "Search player or character…",
     sin_videos: "No videos yet.",
@@ -53,6 +57,8 @@ const I18N = {
     cargando: "Loading…", no_existe: "I can't find that video.",
   },
   pt: {
+    al_limite: "No limite", sin_cierre: "Sem fecho", sin_cierre_ayuda: "O jogo não fechou este round: os tempos são aproximados", dano: "Dano",
+   vista: "Exibição", v_iconos: "Ícones grandes", v_miniaturas: "Miniaturas", v_mosaico: "Blocos", v_lista: "Lista", v_detalles: "Detalhes", orden: "Ordenar", o_fecha: "Data", o_duracion: "Duração", o_jugador: "Jogador", o_peleas: "Lutas", videos: "vídeos", rango: "Rank", sin_rango: "Sem rank", rondas_t: "Rounds", resumen_rondas: "Round a round", gana: "vence", empate: "empate", por_ko: "KO", por_tiempo: "Tempo", doble: "Duplo KO", dano_ronda: "Dano do round", vida_restante: "sobrou", todo: "Tudo", nada: "Nada", filtrar: "Filtrar", st_golpes: "Golpes acertados", st_danomedio: "Dano médio por golpe", st_agarres: "Agarrões", st_racha: "Melhor sequência", st_rondas_jug: "Rounds jogados", pie_datos: "Dados lidos da própria partida", cargando: "Carregando…",
     lema: "Replays do Fightcade, gravados e explicados",
     buscar: "Buscar jogador ou personagem…",
     sin_videos: "Ainda não há vídeos.",
@@ -77,6 +83,8 @@ const I18N = {
     cargando: "Carregando…", no_existe: "Não encontro esse vídeo.",
   },
   fr: {
+    al_limite: "De justesse", sin_cierre: "Non close", sin_cierre_ayuda: "Le jeu n'a pas clos cette manche : ses temps sont approximatifs", dano: "Dégâts",
+   vista: "Affichage", v_iconos: "Grandes icônes", v_miniaturas: "Miniatures", v_mosaico: "Tuiles", v_lista: "Liste", v_detalles: "Détails", orden: "Trier", o_fecha: "Date", o_duracion: "Durée", o_jugador: "Joueur", o_peleas: "Matchs", videos: "vidéos", rango: "Rang", sin_rango: "Sans rang", rondas_t: "Manches", resumen_rondas: "Manche par manche", gana: "gagne", empate: "égalité", por_ko: "KO", por_tiempo: "Temps", doble: "Double KO", dano_ronda: "Dégâts de la manche", vida_restante: "restant", todo: "Tout", nada: "Aucun", filtrar: "Filtrer", st_golpes: "Coups portés", st_danomedio: "Dégâts moyens par coup", st_agarres: "Projections", st_racha: "Meilleure série", st_rondas_jug: "Manches jouées", pie_datos: "Données lues du match lui-même", cargando: "Chargement…",
     lema: "Replays Fightcade, enregistrés et racontés",
     buscar: "Chercher un joueur ou un personnage…",
     sin_videos: "Pas encore de vidéos.",
@@ -101,6 +109,8 @@ const I18N = {
     cargando: "Chargement…", no_existe: "Je ne trouve pas cette vidéo.",
   },
   ja: {
+    al_limite: "ぎりぎり", sin_cierre: "未確定", sin_cierre_ayuda: "ゲームがこのラウンドを閉じていません。時間は目安です", dano: "ダメージ",
+   vista: "表示", v_iconos: "大アイコン", v_miniaturas: "サムネイル", v_mosaico: "タイル", v_lista: "一覧", v_detalles: "詳細", orden: "並べ替え", o_fecha: "日付", o_duracion: "長さ", o_jugador: "プレイヤー", o_peleas: "試合数", videos: "本", rango: "ランク", sin_rango: "ランクなし", rondas_t: "ラウンド", resumen_rondas: "ラウンドごと", gana: "の勝ち", empate: "引き分け", por_ko: "KO", por_tiempo: "時間切れ", doble: "ダブルKO", dano_ronda: "ラウンドの与ダメージ", vida_restante: "残り", todo: "すべて", nada: "なし", filtrar: "絞り込み", st_golpes: "命中数", st_danomedio: "1発あたりの平均ダメージ", st_agarres: "投げ", st_racha: "最多連取", st_rondas_jug: "ラウンド数", pie_datos: "試合そのものから読み取ったデータ", cargando: "読み込み中…",
     lema: "Fightcade のリプレイを記録して読み解く",
     buscar: "プレイヤーやキャラクターを検索…",
     sin_videos: "まだ動画がありません。",
@@ -125,6 +135,8 @@ const I18N = {
     cargando: "読み込み中…", no_existe: "その動画が見つかりません。",
   },
   zh: {
+    al_limite: "险胜", sin_cierre: "未结束", sin_cierre_ayuda: "游戏没有结束这一回合，时间为近似值", dano: "伤害",
+   vista: "视图", v_iconos: "大图标", v_miniaturas: "缩略图", v_mosaico: "平铺", v_lista: "列表", v_detalles: "详细信息", orden: "排序", o_fecha: "日期", o_duracion: "时长", o_jugador: "选手", o_peleas: "对局数", videos: "个视频", rango: "段位", sin_rango: "无段位", rondas_t: "回合", resumen_rondas: "逐回合", gana: "获胜", empate: "平局", por_ko: "KO", por_tiempo: "时间到", doble: "双方KO", dano_ronda: "本回合伤害", vida_restante: "剩余", todo: "全部", nada: "无", filtrar: "筛选", st_golpes: "命中次数", st_danomedio: "每击平均伤害", st_agarres: "投技", st_racha: "最佳连胜", st_rondas_jug: "回合数", pie_datos: "数据来自对局本身", cargando: "加载中…",
     lema: "Fightcade 录像，录下来并讲清楚",
     buscar: "搜索选手或角色…",
     sin_videos: "还没有视频。",
@@ -174,7 +186,18 @@ const mmss = s => {
   s = Math.max(0, Math.round(s || 0));
   return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0");
 };
-const bandera = c => c ? String.fromCodePoint(...[...c.toUpperCase()].map(x => 0x1F1A5 + x.charCodeAt(0))) : "";
+/* Banderas y retratos como IMAGEN, no como emoji: Windows no trae tipografía de
+   banderas y los emojis salían como dos letras sueltas o como cajitas. Los dos juegos
+   de imágenes vienen de lo que ya usa el sistema: las banderas del propio Fightcade y
+   los retratos del overlay. */
+const bandera = (c, grande) => c
+  ? `<img class="bandera${grande ? " g" : ""}" src="assets/flags/${esc(c)}.png" alt="${esc(c.toUpperCase())}" title="${esc(c.toUpperCase())}" loading="lazy">`
+  : "";
+const retrato = (clave, alt) => `<img class="retrato" src="assets/chars/${esc(clave || "ryu")}.png" alt="${esc(alt || "")}" title="${esc(alt || "")}" loading="lazy"
+     onerror="this.style.visibility='hidden'">`;
+const rango = letra => letra
+  ? `<span class="rango" title="${esc(T("rango"))} ${esc(letra)}">${esc(letra)}</span>`
+  : `<span class="rango vacio" title="${esc(T("sin_rango"))}">–</span>`;
 const milesDe = n => (n ?? 0).toLocaleString(LANG);
 async function json(url) {
   const r = await fetch(url, { cache: "no-cache" });
@@ -182,6 +205,12 @@ async function json(url) {
   return r.json();
 }
 function pintaPie(el) {
-  el.innerHTML = `<span>${esc(T("pie_hecho"))}</span>
-    <a href="https://github.com/demonioDeb/replayLab" target="_blank" rel="noopener">${esc(T("pie_fuente"))}</a>`;
+  el.innerHTML = `<span>${esc(T("pie_hecho"))}</span><span>·</span>
+    <span>${esc(T("pie_datos"))}</span>
+    <a style="margin-left:auto" href="https://github.com/demonioDeb/replayLab" target="_blank" rel="noopener">${esc(T("pie_fuente"))}</a>`;
 }
+
+/* El idioma y la vista se recuerdan por navegador. Envuelto en try porque en modo
+   privado leer localStorage puede lanzar, y eso no debe tirar la página. */
+function recuerda(clave, valor) { guarda("replaylab." + clave, valor); }
+function recordado(clave, porDefecto) { return guardado("replaylab." + clave) || porDefecto; }

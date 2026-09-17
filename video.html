@@ -16,7 +16,12 @@
 
 <main class="wrap">
   <a class="volver" href="./">← <span id="tvolver"></span></a>
-  <div id="cuerpo"><p class="vacio" id="cargando"></p></div>
+  <div id="cuerpo">
+    <p class="vacio" id="cargando"></p>
+    <div id="cab"></div>
+    <div id="video"></div>
+    <div id="resto"></div>
+  </div>
 </main>
 
 <footer class="wrap" id="pie"></footer>
@@ -26,15 +31,23 @@
 "use strict";
 let F = null, REPRO = null, LISTO = false;
 
-// Colores de los momentos de la línea de tiempo. Cada tipo tiene el suyo para que se
-// lean de un vistazo sin tener que pasar el ratón por encima.
-const COLOR = { combo:"#ffcb45", super:"#b06bff", mareo:"#7dfcb0", ko:"#ff5a5a",
-                perfect:"#ffe58a", remontada:"#ff9a3d", doble_ko:"#ffffff" };
-const ORDEN_MOMENTOS = ["ko", "combo", "super", "mareo", "perfect", "remontada", "doble_ko"];
+/* Cada tipo de momento con su color, para leerlos de un vistazo sin pasar el ratón.
+   El orden es el de la leyenda y el de los filtros. */
+const TIPOS = [
+  ["ko",        "#ff5a5a"],
+  ["combo",     "#ffcb45"],
+  ["super",     "#b06bff"],
+  ["mareo",     "#7dfcb0"],
+  ["perfect",   "#ffe58a"],
+  ["remontada", "#ff9a3d"],
+  ["doble_ko",  "#ffffff"],
+];
+const COLOR = Object.fromEntries(TIPOS);
+let APAGADOS = new Set();          // tipos de momento que el usuario ha ocultado
 
-/* El reproductor de YouTube se controla con su API para poder saltar al segundo de
-   cada pelea y de cada momento. Si la API no carga (sin red, bloqueada), los botones
-   siguen ahí pero sin efecto: la página no se rompe por eso. */
+/* El reproductor se controla con la API de YouTube para poder saltar al segundo de
+   cada pelea, ronda y momento. Si la API no carga, los botones abren el vídeo en una
+   pestaña nueva con el segundo puesto: nunca se quedan sin hacer nada. */
 function cargaApi() {
   if (window.YT && window.YT.Player) return Promise.resolve();
   return new Promise(res => {
@@ -47,107 +60,214 @@ function cargaApi() {
   });
 }
 function salta(t) {
-  if (REPRO && LISTO && REPRO.seekTo) { REPRO.seekTo(Math.max(0, t), true); REPRO.playVideo(); }
+  t = Math.max(0, t);
+  if (REPRO && LISTO && REPRO.seekTo) { REPRO.seekTo(t, true); REPRO.playVideo(); }
   else if (F && F.youtube) window.open(`https://youtu.be/${F.youtube}?t=${Math.floor(t)}`, "_blank");
 }
 
-function fila(k, a, b, enc) {
-  return `<tr${enc ? ' class="enc"' : ""}><td class="a">${esc(a)}</td>
-    <td class="k">${esc(k)}</td><td class="b">${esc(b)}</td></tr>`;
-}
-const dashSi = (v, suf) => (v === null || v === undefined || v === 0 || v === "") ? "—" : v + (suf || "");
+const pc = n => n === 1 ? "var(--p1)" : n === 2 ? "var(--p2)" : "var(--gold)";
+const pcl = n => n === 1 ? "var(--p1l)" : n === 2 ? "var(--p2l)" : "var(--gold)";
+const nombre = n => (F.jugadores[n - 1] || {}).nombre || "";
+const pct = (x, max) => Math.max(0, Math.min(100, max ? x * 100 / max : 0));
 
+/* ---------------------------------------------------------------- cabecera */
+function cabecera() {
+  const [a, b] = F.jugadores, m = F.marcador || [0, 0];
+  const g = m[0] === m[1] ? 0 : (m[0] > m[1] ? 1 : 2);
+  const lado = (j, n) => `<div class="jug p${n}">
+      ${retrato(j.clave, j.personaje)}
+      <div class="datos">
+        <div class="nom">${esc(j.nombre)}</div>
+        <div class="sub">${bandera(j.pais, true)}${rango(j.rango_letra)}
+          <span>${esc(j.personaje || "")}</span></div>
+      </div></div>`;
+  return `<div class="cab">${lado(a, 1)}
+    <div class="marc"><span class="${g === 1 ? "g" : ""}">${m[0]}</span>–<span class="${g === 2 ? "g" : ""}">${m[1]}</span></div>
+    ${lado(b, 2)}</div>`;
+}
+
+/* ---------------------------------------------------------------- línea de tiempo */
+function lineaTiempo() {
+  const peleas = F.peleas || [];
+  const cuenta = {};
+  (F.momentos || []).forEach(x => { cuenta[x.tipo] = (cuenta[x.tipo] || 0) + 1; });
+  const usados = TIPOS.filter(([t]) => cuenta[t]);
+
+  const chips = usados.map(([t, c]) => `<button class="chip" data-tipo="${t}"
+      aria-pressed="${!APAGADOS.has(t)}" style="--c:${c}">
+      <i></i>${esc(T(t) || t)}<span class="n">${cuenta[t]}</span></button>`).join("")
+    + (usados.length > 1 ? `<button class="chip" data-tipo="__todo" aria-pressed="true">${esc(T("todo"))}</button>` : "");
+
+  // Una pista POR PELEA, no una barra continua: antes iban pegadas y no se veía dónde
+  // acababa una y empezaba la otra.
+  const pistas = peleas.map(p => {
+    const ini = p.t || 0, fin = p.fin || (ini + 1), dur = Math.max(0.1, fin - ini);
+    const rondas = (p.rondas || []).map(r => {
+      const a = pct((r.t || ini) - ini, dur), b = pct((r.fin || fin) - ini, dur);
+      return `<button class="rd g${r.ganador ?? 0}" style="left:${a}%;width:${Math.max(0, b - a)}%"
+        data-t="${r.t}" title="${esc(T("ronda"))} ${r.n} — ${mmss(r.t)}">${r.n}</button>`;
+    }).join("");
+    const marcas = (F.momentos || []).filter(x => x.t >= ini && x.t <= fin).map(x => {
+      const quien = x.jugador ? " · " + esc(nombre(x.jugador)) : "";
+      const dato = x.dato ? " " + x.dato : "";
+      return `<button class="mk${APAGADOS.has(x.tipo) ? " oculto" : ""}" data-tipo="${x.tipo}"
+        style="left:${pct(x.t - ini, dur)}%;--c:${COLOR[x.tipo] || "#fff"}" data-t="${x.t}"
+        title="${esc(T(x.tipo) || x.tipo)}${dato}${quien} — ${mmss(x.t)}"></button>`;
+    }).join("");
+    const gan = p.ganador;
+    return `<div class="pista">
+      <span class="et"><b>${esc(T("pelea"))} ${p.n}</b>
+        ${gan ? `<span style="color:${pcl(gan)}">${(p.marcador || []).join("-")}</span>` : ""}</span>
+      <div class="barra" data-t="${ini}">${rondas}${marcas}</div>
+      <span class="tot">${mmss(dur)}</span></div>`;
+  }).join("");
+
+  return `<h2>${esc(T("linea"))}<span class="sub">${esc(T("filtrar"))}</span></h2>
+    <div class="chips" id="chips">${chips}</div>
+    <div class="pistas">${pistas}</div>`;
+}
+
+/* ---------------------------------------------------------------- ronda a ronda */
+function rondaAronda() {
+  const vidaMax = 144;
+  const bloques = (F.peleas || []).map(p => {
+    const gan = p.ganador;
+    const filas = (p.rondas || []).map(r => {
+      const d = r.dano || [0, 0];
+      const como = r.motivo === "time" ? T("por_tiempo") : r.motivo === "doble_ko" ? T("doble") : T("por_ko");
+      const sellos = [];
+      if (r.perfect) sellos.push(["perfect", COLOR.perfect]);
+      if ((r.remontada || 0) >= 50) sellos.push(["remontada", COLOR.remontada]);
+      if (r.motivo === "doble_ko") sellos.push(["doble_ko", COLOR.doble_ko]);
+      if (r.vida_fin !== null && r.vida_fin !== undefined && r.vida_fin <= 10 && r.ganador)
+        sellos.push(["al_limite", "#ff9a3d"]);
+      // Una sola barra que crece desde el centro hacia cada lado. Dos barras pegadas
+      // una encima de otra parecían una sola raya y no se entendía de quién era cada
+      // mitad; así se ve de un vistazo quién pegó más en esa ronda.
+      const tit = `${esc(T("dano_ronda"))}: ${esc(nombre(1))} ${(d[0] / vidaMax).toFixed(1)} · ${esc(nombre(2))} ${(d[1] / vidaMax).toFixed(1)} ${esc(T("barras"))}`;
+      return `<div class="rfila${r.sin_cierre ? " abierta" : ""}" data-t="${r.t}" title="${mmss(r.t)}">
+        <span class="rn">${esc(T("ronda"))} <b>${r.n}</b></span>
+        <span class="tug" title="${tit}">
+          <span class="lado a"><span class="v">${(d[0] / vidaMax).toFixed(1)}</span>
+            <span class="t"><i style="width:${pct(d[0], vidaMax)}%"></i></span></span>
+          <span class="eje"></span>
+          <span class="lado b"><span class="t"><i style="width:${pct(d[1], vidaMax)}%"></i></span>
+            <span class="v">${(d[1] / vidaMax).toFixed(1)}</span></span></span>
+        <span class="como">${r.ganador
+            ? `<b style="color:${pcl(r.ganador)}">${esc(nombre(r.ganador))}</b> <span style="color:var(--dim)">· ${esc(como)}${r.vida_fin ? ` · ${r.vida_fin}%` : ""}</span>`
+            : `<b style="color:var(--gold)">${esc(T("empate"))}</b>`}</span>
+        <span class="dur">${r.duracion ? r.duracion + " " + T("seg") : "—"}</span>
+        <span class="sellos">${sellos.map(([k, c]) =>
+            `<span class="sello" style="--c:${c}">${esc(T(k) || k)}</span>`).join("")}
+          ${r.sin_cierre ? `<span class="sello" style="--c:#7c8aa8" title="${esc(T("sin_cierre_ayuda"))}">${esc(T("sin_cierre"))}</span>` : ""}</span>
+      </div>`;
+    }).join("");
+    return `<div class="gcard">
+      <div class="gh"><span class="t">${esc(T("pelea"))} ${p.n}</span>
+        <span style="color:var(--dim);font-size:14px">${(p.personajes || []).map(esc).join(" vs ")}</span>
+        ${gan ? `<span class="gana" style="color:${pcl(gan)}">${esc(nombre(gan))} ${esc(T("gana"))}</span>` : ""}
+        <span class="res">${(p.marcador || []).join(" – ")}</span></div>
+      ${filas}</div>`;
+  }).join("");
+  return `<h2>${esc(T("resumen_rondas"))}<span class="sub">
+      <span style="color:var(--p1l)">◀ ${esc(nombre(1))}</span> ·
+      ${esc(T("dano"))} (${esc(T("barras"))}) ·
+      <span style="color:var(--p2l)">${esc(nombre(2))} ▶</span></span></h2>
+    <div class="rondas">${bloques}</div>`;
+}
+
+/* ---------------------------------------------------------------- estadísticas */
+function tabla() {
+  const st = F.stats || [{}, {}];
+  const fila = (k, va, vb, na, nb, nota) => {
+    const max = Math.max(na || 0, nb || 0) || 1;
+    return `<tr><td class="ia"><span class="ind"><i style="width:${pct(na || 0, max)}%"></i></span></td>
+      <td class="a">${esc(String(va))}</td>
+      <td class="k">${esc(k)}${nota ? `<span class="nota">${esc(nota)}</span>` : ""}</td>
+      <td class="b">${esc(String(vb))}</td>
+      <td class="ib"><span class="ind"><i style="width:${pct(nb || 0, max)}%"></i></span></td></tr>`;
+  };
+  const guion = (v, suf) => (v === null || v === undefined || v === 0 || v === "") ? "—" : v + (suf || "");
+  const [a, b] = st, m = F.marcador || [0, 0];
+  const barras = v => (v ?? 0) + " " + T("barras");
+  return `<h2>${esc(T("resumen"))}</h2><table class="st">
+    <tr class="enc"><td class="ia"></td><td class="a">${esc(F.jugadores[0].personaje || "")}</td>
+      <td class="k">${esc(F.jugadores[0].nombre)} · ${esc(F.jugadores[1].nombre)}</td>
+      <td class="b">${esc(F.jugadores[1].personaje || "")}</td><td class="ib"></td></tr>
+    ${fila(T("st_peleas"), m[0], m[1], m[0], m[1])}
+    ${fila(T("st_rondas"), `${a.rondas ?? 0} / ${a.rondas_jugadas ?? 0}`,
+                           `${b.rondas ?? 0} / ${b.rondas_jugadas ?? 0}`, a.rondas, b.rondas, T("st_rondas_jug"))}
+    ${fila(T("st_kotiempo"), `${a.ko ?? 0} / ${a.timeup ?? 0}`, `${b.ko ?? 0} / ${b.timeup ?? 0}`, a.ko, b.ko)}
+    ${fila(T("st_rapida"), guion(a.ronda_rapida, " " + T("seg")), guion(b.ronda_rapida, " " + T("seg")),
+           a.ronda_rapida ? 1 / a.ronda_rapida : 0, b.ronda_rapida ? 1 / b.ronda_rapida : 0)}
+    ${fila(T("st_vida"), guion(a.vida_al_ganar, "%"), guion(b.vida_al_ganar, "%"), a.vida_al_ganar, b.vida_al_ganar)}
+    ${fila(T("st_racha"), guion(a.racha), guion(b.racha), a.racha, b.racha)}
+    ${fila(T("st_limite"), a.al_limite ?? 0, b.al_limite ?? 0, a.al_limite, b.al_limite)}
+    ${fila(T("st_remontada"), guion(a.remontada, "%"), guion(b.remontada, "%"), a.remontada, b.remontada)}
+    ${fila(T("st_dano"), barras(a.dano_barras), barras(b.dano_barras), a.dano, b.dano)}
+    ${fila(T("st_recibido"), barras(a.recibido_barras), barras(b.recibido_barras), a.recibido, b.recibido)}
+    ${fila(T("st_golpes"), a.golpes ?? 0, b.golpes ?? 0, a.golpes, b.golpes)}
+    ${fila(T("st_danomedio"), guion(a.dano_medio), guion(b.dano_medio), a.dano_medio, b.dano_medio)}
+    ${fila(T("st_agarres"), a.agarres ?? 0, b.agarres ?? 0, a.agarres, b.agarres)}
+    ${fila(T("st_combos"), a.combos ?? 0, b.combos ?? 0, a.combos, b.combos)}
+    ${fila(T("st_combomax"), guion(a.combo_max, " " + T("golpes")), guion(b.combo_max, " " + T("golpes")), a.combo_max, b.combo_max)}
+    ${fila(T("st_combodano"), guion(a.combo_dano_barras, " " + T("barras")), guion(b.combo_dano_barras, " " + T("barras")), a.combo_dano, b.combo_dano)}
+    ${fila(T("st_supers"), a.supers ?? 0, b.supers ?? 0, a.supers, b.supers)}
+    ${fila(T("st_perfects"), a.perfects ?? 0, b.perfects ?? 0, a.perfects, b.perfects)}
+    ${fila(T("st_mareos"), a.mareos ?? 0, b.mareos ?? 0, a.mareos, b.mareos)}
+  </table>`;
+}
+
+/* El reproductor vive en su propio hueco y NO se vuelve a dibujar: si al cambiar de
+   idioma se rehiciera todo el cuerpo, el iframe de YouTube se destruiría y el vídeo
+   volvería a empezar. Sólo se repintan el texto y las tablas. */
 function pinta() {
   document.documentElement.lang = LANG;
   $("#tvolver").textContent = T("volver");
   pintaPie($("#pie"));
   if (!F) { $("#cargando").textContent = T("no_existe"); return; }
+  $("#cargando").hidden = true;
 
-  const [a, b] = F.jugadores, m = F.marcador || [0, 0], st = F.stats || [{}, {}];
-  const gan = m[0] === m[1] ? 0 : (m[0] > m[1] ? 1 : 2);
-  const dur = F.duracion || 1;
+  $("#cab").innerHTML = cabecera();
+  $("#resto").innerHTML = lineaTiempo() + rondaAronda() + tabla();
 
-  const video = F.youtube
-    ? `<div class="reproductor"><div id="yt"></div></div>`
-    : `<div class="avisovid"><b>${esc(T("no_publicado"))}</b>
-         <span>${esc(T("no_publicado_sub"))}</span></div>`;
-
-  // pista: un tramo por pelea, y encima una marca por momento
-  const tramos = (F.peleas || []).map((p, i) => {
-    const ini = (p.t || 0) / dur * 100;
-    const fin = ((p.fin || dur) / dur) * 100;
-    return `<div class="pel" style="left:${ini}%;width:${Math.max(0, fin - ini)}%">
-      ${esc(T("pelea"))} ${p.n}</div>`;
-  }).join("");
-  const marcas = (F.momentos || []).map(x => {
-    const c = COLOR[x.tipo] || "#fff";
-    const quien = x.jugador ? " · " + esc(F.jugadores[x.jugador - 1].nombre) : "";
-    const dato = x.dato ? " " + x.dato : "";
-    return `<button class="mk" style="left:${(x.t / dur) * 100}%;--c:${c}"
-      data-t="${x.t}" title="${esc(T(x.tipo) || x.tipo)}${dato}${quien} — ${mmss(x.t)}"></button>`;
-  }).join("");
-  const leyenda = ORDEN_MOMENTOS.filter(t => (F.momentos || []).some(x => x.tipo === t))
-    .map(t => `<span><i style="background:${COLOR[t]}"></i>${esc(T(t) || t)}</span>`).join("");
-
-  // botones de salto: una pelea y sus rondas
-  const saltos = (F.peleas || []).map(p => {
-    const cab = `<button class="salto g${p.ganador || 0}" data-t="${p.t}">
-      ${esc(T("pelea"))} ${p.n}<b>${mmss(p.t)}</b></button>`;
-    const rr = (p.rondas || []).map(r => `<button class="salto g${r.ganador || 0}" data-t="${r.t}">
-      ${esc(T("ronda"))} ${r.n}${r.perfect ? " ★" : ""}<b>${mmss(r.t)}</b></button>`).join("");
-    return cab + rr;
-  }).join("");
-
-  const tabla = `<table class="st">
-    ${fila("", a.personaje || "", b.personaje || "", true)}
-    ${fila(T("st_peleas"), m[0], m[1])}
-    ${fila(T("st_rondas"), st[0].rondas ?? 0, st[1].rondas ?? 0)}
-    ${fila(T("st_kotiempo"), `${st[0].ko ?? 0} / ${st[0].timeup ?? 0}`, `${st[1].ko ?? 0} / ${st[1].timeup ?? 0}`)}
-    ${fila(T("st_rapida"), dashSi(st[0].ronda_rapida, " " + T("seg")), dashSi(st[1].ronda_rapida, " " + T("seg")))}
-    ${fila(T("st_vida"), dashSi(st[0].vida_al_ganar, "%"), dashSi(st[1].vida_al_ganar, "%"))}
-    ${fila(T("st_limite"), st[0].al_limite ?? 0, st[1].al_limite ?? 0)}
-    ${fila(T("st_remontada"), dashSi(st[0].remontada, "%"), dashSi(st[1].remontada, "%"))}
-    ${fila(T("st_dano"), (st[0].dano_barras ?? 0) + " " + T("barras"), (st[1].dano_barras ?? 0) + " " + T("barras"))}
-    ${fila(T("st_recibido"), (st[0].recibido_barras ?? 0) + " " + T("barras"), (st[1].recibido_barras ?? 0) + " " + T("barras"))}
-    ${fila(T("st_combos"), st[0].combos ?? 0, st[1].combos ?? 0)}
-    ${fila(T("st_combomax"), dashSi(st[0].combo_max, " " + T("golpes")), dashSi(st[1].combo_max, " " + T("golpes")))}
-    ${fila(T("st_combodano"), dashSi(st[0].combo_dano_barras, " " + T("barras")), dashSi(st[1].combo_dano_barras, " " + T("barras")))}
-    ${fila(T("st_supers"), st[0].supers ?? 0, st[1].supers ?? 0)}
-    ${fila(T("st_perfects"), st[0].perfects ?? 0, st[1].perfects ?? 0)}
-    ${fila(T("st_mareos"), st[0].mareos ?? 0, st[1].mareos ?? 0)}
-  </table>`;
-
-  $("#cuerpo").innerHTML = `
-    <div class="cab">
-      <div class="lado i"><div class="nom">${esc(bandera(a.pais))} ${esc(a.nombre)}</div>
-        <div class="per">${esc(a.personaje || "")}</div></div>
-      <div class="marc"><span class="${gan === 1 ? "g" : ""}">${m[0]}</span> –
-        <span class="${gan === 2 ? "g" : ""}">${m[1]}</span></div>
-      <div class="lado d"><div class="nom">${esc(b.nombre)} ${esc(bandera(b.pais))}</div>
-        <div class="per">${esc(b.personaje || "")}</div></div>
-    </div>
-    ${video}
-    <div class="linea"><h2>${esc(T("linea"))}</h2>
-      <div class="pista">${tramos}${marcas}</div>
-      <div class="leyenda">${leyenda}</div></div>
-    <h2>${esc(T("saltos"))}</h2>
-    <div class="saltos">${saltos}</div>
-    <h2>${esc(T("resumen"))}</h2>
-    ${tabla}`;
-
-  document.querySelectorAll("[data-t]").forEach(el =>
-    el.addEventListener("click", () => salta(parseFloat(el.dataset.t))));
-
-  if (F.youtube && !REPRO) cargaApi().then(() => {
-    if (!window.YT || !window.YT.Player || !document.getElementById("yt")) return;
-    REPRO = new YT.Player("yt", { videoId: F.youtube, host: "https://www.youtube-nocookie.com",
-      playerVars: { rel: 0, modestbranding: 1 },
-      events: { onReady: () => { LISTO = true; } } });
-  });
-  document.title = `${a.nombre} vs ${b.nombre} · replayLab`;
+  if (!$("#video").dataset.hecho) {
+    $("#video").dataset.hecho = "1";
+    $("#video").innerHTML = F.youtube
+      ? `<div class="reproductor"><div id="yt"></div></div>`
+      : `<div class="avisovid"><b>${esc(T("no_publicado"))}</b><span>${esc(T("no_publicado_sub"))}</span></div>`;
+    if (F.youtube) cargaApi().then(() => {
+      if (!window.YT || !window.YT.Player || !document.getElementById("yt")) return;
+      REPRO = new YT.Player("yt", { videoId: F.youtube, host: "https://www.youtube-nocookie.com",
+        playerVars: { rel: 0, modestbranding: 1 },
+        events: { onReady: () => { LISTO = true; } } });
+    });
+  } else if (!F.youtube) {
+    $("#video").innerHTML = `<div class="avisovid"><b>${esc(T("no_publicado"))}</b><span>${esc(T("no_publicado_sub"))}</span></div>`;
+  }
+  document.title = `${F.jugadores[0].nombre} vs ${F.jugadores[1].nombre} · replayLab`;
 }
 
-montaIdiomas($("#idioma"), () => { const g = REPRO; pinta(); REPRO = g; });
+// Un solo oyente para toda la página, puesto una vez: los botones se rehacen al cambiar
+// de idioma, así que escuchar en el contenedor evita volver a engancharlos cada vez.
+$("#cuerpo").addEventListener("click", e => {
+  const chip = e.target.closest(".chip[data-tipo]");
+  if (chip) {
+    const t = chip.dataset.tipo;
+    if (t === "__todo") APAGADOS.clear();
+    else APAGADOS.has(t) ? APAGADOS.delete(t) : APAGADOS.add(t);
+    document.querySelectorAll("#chips .chip").forEach(c => {
+      if (c.dataset.tipo !== "__todo") c.setAttribute("aria-pressed", String(!APAGADOS.has(c.dataset.tipo)));
+    });
+    document.querySelectorAll(".mk").forEach(m =>
+      m.classList.toggle("oculto", APAGADOS.has(m.dataset.tipo)));
+    return;
+  }
+  const salto = e.target.closest("[data-t]");
+  if (salto) salta(parseFloat(salto.dataset.t));
+});
+
+montaIdiomas($("#idioma"), pinta);
 $("#cargando").textContent = T("cargando");
 const quark = (Q.get("q") || "").replace(/[^0-9A-Za-z_-]/g, "");
 json(`datos/${quark}.json`).then(d => { F = d; pinta(); }).catch(() => { F = null; pinta(); });

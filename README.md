@@ -11,6 +11,9 @@ propia partida (no estimadas).
 
 No hay compilación ni servidor: se publica tal cual con GitHub Pages.
 
+## Historial
+Los cambios van en [CHANGELOG.md](CHANGELOG.md).
+
 ## Idiomas
 Español, inglés, portugués, francés, japonés y chino. Todo el texto pasa por el
 diccionario de `assets/app.js`; añadir un idioma es añadir un bloque.
