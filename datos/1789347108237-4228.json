@@ -1,0 +1,888 @@
+{
+ "version": 2,
+ "quark": "1789347108237-4228",
+ "carpeta": "20260915_DJILK-SF2TV_vs_Fromo_1789347108237-4228",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "fecha": "2026-09-14",
+ "youtube": "Vh3liXnLwIU",
+ "titulo": "SSF2X · DJILK-SF2TV 🇺🇸 vs Fromo 🇺🇸 · Fightcade",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "DJILK-SF2TV",
+   "pais": "us",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "O. Sagat",
+   "clave": "sagat"
+  },
+  {
+   "nombre": "Fromo",
+   "pais": "us",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Blanka",
+   "clave": "blanka"
+  }
+ ],
+ "marcador": [
+  1,
+  5
+ ],
+ "duracion": 577.5,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 5.92,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 5.92,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 53,
+     "perfect": false,
+     "dano": [
+      144,
+      142
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 1,
+     "remontada": 27,
+     "fin": 36.51
+    },
+    {
+     "n": 2,
+     "t": 42.26,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 21,
+     "perfect": true,
+     "dano": [
+      0,
+      144
+     ],
+     "combos": [
+      0,
+      2
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 56.3
+    },
+    {
+     "n": 3,
+     "t": 62.0,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 46,
+     "perfect": false,
+     "dano": [
+      135,
+      144
+     ],
+     "combos": [
+      0,
+      2
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 6,
+     "remontada": 81,
+     "fin": 89.29
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "O. Sagat",
+    "Blanka"
+   ],
+   "claves": [
+    "sagat",
+    "blanka"
+   ],
+   "fin": 89.78,
+   "stats_detector": [
+    {
+     "dmg": 279,
+     "throws": 0,
+     "blocked": 0,
+     "combo": 0,
+     "hits": 24
+    },
+    {
+     "dmg": 430,
+     "throws": 4,
+     "blocked": 4,
+     "combo": 0,
+     "hits": 19
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": 106.67,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 106.67,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 59,
+     "perfect": false,
+     "dano": [
+      142,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 1,
+     "remontada": 27,
+     "fin": 140.51
+    },
+    {
+     "n": 2,
+     "t": 146.44,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 43,
+     "perfect": false,
+     "dano": [
+      71,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 50,
+     "remontada": 0,
+     "fin": 172.09
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    2
+   ],
+   "personajes": [
+    "O. Sagat",
+    "Blanka"
+   ],
+   "claves": [
+    "sagat",
+    "blanka"
+   ],
+   "fin": 172.57,
+   "stats_detector": [
+    {
+     "dmg": 213,
+     "throws": 1,
+     "blocked": 1,
+     "combo": 0,
+     "hits": 18
+    },
+    {
+     "dmg": 288,
+     "throws": 3,
+     "blocked": 0,
+     "combo": 0,
+     "hits": 16
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": 188.59,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 188.59,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 51,
+     "perfect": false,
+     "dano": [
+      144,
+      120
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 16,
+     "remontada": 36,
+     "fin": 218.16
+    },
+    {
+     "n": 2,
+     "t": 223.88,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 53,
+     "perfect": false,
+     "dano": [
+      86,
+      144
+     ],
+     "combos": [
+      0,
+      2
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 40,
+     "remontada": 9,
+     "fin": 255.04
+    },
+    {
+     "n": 3,
+     "t": 260.67,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      133,
+      144
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 7,
+     "remontada": 11,
+     "fin": 295.35
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    3
+   ],
+   "personajes": [
+    "O. Sagat",
+    "Blanka"
+   ],
+   "claves": [
+    "sagat",
+    "blanka"
+   ],
+   "fin": 295.83,
+   "stats_detector": [
+    {
+     "dmg": 363,
+     "throws": 0,
+     "blocked": 0,
+     "combo": 0,
+     "hits": 38
+    },
+    {
+     "dmg": 408,
+     "throws": 7,
+     "blocked": 1,
+     "combo": 0,
+     "hits": 21
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "t": 312.07,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 312.07,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      131,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 9,
+     "remontada": 26,
+     "fin": 346.37
+    },
+    {
+     "n": 2,
+     "t": 352.1,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      117,
+      144
+     ],
+     "combos": [
+      0,
+      2
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 18,
+     "remontada": 36,
+     "fin": 375.91
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    4
+   ],
+   "personajes": [
+    "O. Sagat",
+    "Blanka"
+   ],
+   "claves": [
+    "sagat",
+    "blanka"
+   ],
+   "fin": 376.39,
+   "stats_detector": [
+    {
+     "dmg": 248,
+     "throws": 2,
+     "blocked": 1,
+     "combo": 0,
+     "hits": 13
+    },
+    {
+     "dmg": 288,
+     "throws": 2,
+     "blocked": 0,
+     "combo": 0,
+     "hits": 16
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "t": 393.95,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 393.95,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      144,
+      97
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 32,
+     "remontada": 8,
+     "fin": 428.0
+    },
+    {
+     "n": 2,
+     "t": 433.69,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 63,
+     "perfect": false,
+     "dano": [
+      144,
+      79
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 45,
+     "remontada": 13,
+     "fin": 470.38
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    4
+   ],
+   "personajes": [
+    "O. Sagat",
+    "Blanka"
+   ],
+   "claves": [
+    "sagat",
+    "blanka"
+   ],
+   "fin": 470.86,
+   "stats_detector": [
+    {
+     "dmg": 288,
+     "throws": 0,
+     "blocked": 0,
+     "combo": 0,
+     "hits": 26
+    },
+    {
+     "dmg": 176,
+     "throws": 0,
+     "blocked": 0,
+     "combo": 0,
+     "hits": 16
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "t": 487.59,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 487.59,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 66,
+     "perfect": false,
+     "dano": [
+      144,
+      126
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 12,
+     "remontada": 0,
+     "fin": 525.32
+    },
+    {
+     "n": 2,
+     "t": 531.09,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 27,
+     "perfect": false,
+     "dano": [
+      50,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 65,
+     "remontada": 18,
+     "fin": 548.3
+    },
+    {
+     "n": 3,
+     "t": 554.17,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 27,
+     "perfect": false,
+     "dano": [
+      25,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 82,
+     "remontada": 0,
+     "fin": 570.99
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    5
+   ],
+   "personajes": [
+    "O. Sagat",
+    "Blanka"
+   ],
+   "claves": [
+    "sagat",
+    "blanka"
+   ],
+   "fin": 571.48,
+   "stats_detector": [
+    {
+     "dmg": 219,
+     "throws": 0,
+     "blocked": 0,
+     "combo": 0,
+     "hits": 22
+    },
+    {
+     "dmg": 414,
+     "throws": 7,
+     "blocked": 0,
+     "combo": 0,
+     "hits": 17
+    }
+   ]
+  }
+ ],
+ "momentos": [
+  {
+   "t": 36.51,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 47.42,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 48.24,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 50.51,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 56.3,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 56.3,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 87.07,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 87.07,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 88.11,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 89.29,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 89.29,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 89.29,
+   "tipo": "remontada",
+   "jugador": 2,
+   "dato": 81
+  },
+  {
+   "t": 137.04,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 169.85,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 172.09,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 218.16,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 236.39,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 236.39,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 239.02,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 255.04,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 294.93,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 344.11,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 373.12,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 373.93,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 375.91,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 426.25,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 470.38,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 525.32,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 546.9,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 546.9,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 548.3,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 570.99,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 570.99,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  }
+ ],
+ "stats": [
+  {
+   "rondas": 5,
+   "rondas_jugadas": 15,
+   "ko": 5,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1610,
+   "recibido": 2004,
+   "golpes": 146,
+   "agarres": 3,
+   "combos": 1,
+   "combo_max": 2,
+   "combo_dano": 36,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 51,
+   "al_limite": 1,
+   "remontada": 36,
+   "racha": 3,
+   "vida_al_ganar": 21,
+   "dano_medio": 11.0,
+   "dano_barras": 11.18,
+   "recibido_barras": 13.92,
+   "combo_dano_barras": 0.25
+  },
+  {
+   "rondas": 10,
+   "rondas_jugadas": 15,
+   "ko": 10,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 2004,
+   "recibido": 1610,
+   "golpes": 133,
+   "agarres": 23,
+   "combos": 11,
+   "combo_max": 3,
+   "combo_dano": 71,
+   "supers": 1,
+   "mareos": 5,
+   "ronda_rapida": 21,
+   "al_limite": 4,
+   "remontada": 81,
+   "racha": 4,
+   "vida_al_ganar": 38,
+   "dano_medio": 15.1,
+   "dano_barras": 13.92,
+   "recibido_barras": 11.18,
+   "combo_dano_barras": 0.49
+  }
+ ]
+}

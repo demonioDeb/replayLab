@@ -1,0 +1,55 @@
+{
+ "nota": "Resumen por día de lo que se hizo y lo que se descubrió. Lo escribe a mano quien trabaja en el proyecto; no se genera solo.",
+ "dias": [
+  {"fecha": "2026-09-22",
+   "cambios": [
+    {"t": "cambiado", "es": "El overlay se queda con lo esencial: rondas ganadas, daño, combos, súpers, perfects y mareos. Todo lo demás vive aquí.", "en": "The overlay keeps only the essentials: rounds won, damage, combos, supers, perfects and dizzies. Everything else lives here."},
+    {"t": "cambiado", "es": "Se deshizo el reparto de pantalla del día anterior: la franja inferior vuelve a cruzar los 1920 px.", "en": "Yesterday's screen layout was undone: the bottom strip spans the full 1920 px again."},
+    {"t": "añadido", "es": "Esta página de cambios, y un enlace para invitar a un café.", "en": "This changelog page, and a link to buy a coffee."}
+   ]},
+  {"fecha": "2026-09-17",
+   "cambios": [
+    {"t": "añadido", "es": "Cinco vistas en la portada, al estilo del explorador de archivos, con orden y buscador.", "en": "Five views on the home page, explorer style, with sorting and search."},
+    {"t": "añadido", "es": "Banderas de país y retratos de personaje, y la letra de rango junto a cada jugador.", "en": "Country flags and character portraits, plus each player's rank letter."},
+    {"t": "añadido", "es": "Ronda a ronda: resultado, cómo acabó, duración, vida al ganar y sellos; cada fila salta a ese momento del vídeo.", "en": "Round by round: result, how it ended, length, health on win and badges; each row jumps to that moment."},
+    {"t": "añadido", "es": "Filtros en la línea de tiempo, por tipo de momento.", "en": "Timeline filters, by moment type."},
+    {"t": "arreglado", "es": "Las banderas no se veían: estaban puestas como emoji y Windows no trae tipografía de banderas.", "en": "Flags were invisible: they were emoji, and Windows has no flag font."},
+    {"t": "arreglado", "es": "Una ronda sin cierre se comía a la siguiente en la línea de tiempo.", "en": "A round that never closed swallowed the next one in the timeline."},
+    {"t": "arreglado", "es": "El daño por ronda se pasaba del 100%: el golpe de remate contaba uno de más, porque la vida pasa de 0 a -1 y eso no es daño.", "en": "Round damage went over 100%: the finishing hit counted one extra, because health goes from 0 to -1 and that isn't damage."}
+   ]},
+  {"fecha": "2026-09-16",
+   "cambios": [
+    {"t": "hallazgo", "es": "El juego lleva su propio contador de combos. Se leía mal desde el principio: la regla es contador + 1, comprobado contra el «N HIT COMBO» que dibuja en pantalla.", "en": "The game keeps its own combo counter. We had been reading it wrong: the rule is counter + 1, checked against the on-screen \"N HIT COMBO\"."},
+    {"t": "hallazgo", "es": "Quedarse a cero de vida no es KO: en Super Turbo se sigue vivo con la barra a cero. El KO de verdad es cuando baja por debajo. El remate se marcaba hasta 2,4 s antes de tiempo.", "en": "Zero health isn't a KO: in Super Turbo you're still alive at zero. The real KO is below zero. The finish was being marked up to 2.4 s early."},
+    {"t": "hallazgo", "es": "En un doble KO el juego no le sube la ronda a nadie, así que la ronda se quedaba sin cerrar y arrastraba otros fallos.", "en": "On a double KO the game gives the round to nobody, so the round never closed and dragged other bugs with it."},
+    {"t": "hallazgo", "es": "El recorte sin recodificar empieza en el fotograma clave anterior, hasta 4 s antes: los capítulos y la miniatura salían corridos en todos los vídeos anteriores.", "en": "Trimming without re-encoding starts at the previous keyframe, up to 4 s early: chapters and thumbnails were off in every earlier video."},
+    {"t": "añadido", "es": "Seis idiomas en el overlay y en la web: español, inglés, portugués, francés, japonés y chino.", "en": "Six languages in the overlay and the site: Spanish, English, Portuguese, French, Japanese and Chinese."},
+    {"t": "añadido", "es": "Carga masiva a YouTube, con freno de mano si un vídeo no queda como se pidió.", "en": "Bulk upload to YouTube, which stops itself if a video doesn't come out as requested."},
+    {"t": "añadido", "es": "Nace replayLab: la ficha de cada grabación se calcula desde el registro crudo de la partida, no se copia.", "en": "replayLab is born: each recording's data sheet is computed from the raw match log, never copied."}
+   ]},
+  {"fecha": "2026-09-15",
+   "cambios": [
+    {"t": "hallazgo", "es": "La subida a YouTube nunca había funcionado porque la carpeta de credenciales estaba vacía. No era un fallo del código.", "en": "The YouTube upload had never worked because the credentials folder was empty. It wasn't a code bug."},
+    {"t": "añadido", "es": "Nombre del súper de cada personaje junto a su nombre, con un efecto cuando la barra se llena.", "en": "Each character's super name next to their name, with an effect when the meter fills."},
+    {"t": "cambiado", "es": "Los avisos dejaron de saltar en medio de la pantalla: ahora van al pie, en una placa del color de quien lo hizo.", "en": "Notices stopped popping in the middle of the screen: they now sit at the footer, on a plate in the player's colour."},
+    {"t": "añadido", "es": "Insignia de resolución real, porque YouTube arranca los vídeos nuevos en 360p y parecía un fallo de grabación.", "en": "A real-resolution badge, because YouTube starts new videos at 360p and it looked like a recording fault."}
+   ]},
+  {"fecha": "2026-09-12",
+   "cambios": [
+    {"t": "hallazgo", "es": "Se descartó la regla que intentaba distinguir un golpe bloqueado de uno que conecta: fallaba con los súpers bloqueados.", "en": "The rule that tried to tell a blocked hit from a clean one was dropped: it failed on blocked supers."},
+    {"t": "hallazgo", "es": "Los agarres sí se identifican bien, y las bajadas de vida sin congelación resultaron ser agarres aéreos de los que el rival se soltó.", "en": "Throws are identified reliably, and health drops with no hit-freeze turned out to be air throws the opponent escaped."},
+    {"t": "cambiado", "es": "Regla de trabajo: lo que no se puede saber con certeza no se enseña.", "en": "Working rule: what can't be known for certain is not shown."}
+   ]},
+  {"fecha": "2026-09-11",
+   "cambios": [
+    {"t": "hallazgo", "es": "La API de Fightcade está detrás de Cloudflare. Se decidió no evadirla: los datos salen de los archivos del propio emulador.", "en": "Fightcade's API sits behind Cloudflare. We chose not to work around it: the data comes from the emulator's own files."},
+    {"t": "hallazgo", "es": "El emulador escribe nombres, país, rango y marcador en archivos de texto mientras corre el replay.", "en": "The emulator writes names, country, rank and score to text files while the replay runs."},
+    {"t": "añadido", "es": "Avisos de remontada, final cerrado, doble KO, punto de partido y racha.", "en": "Notices for comebacks, close finishes, double KOs, match point and streaks."}
+   ]},
+  {"fecha": "2026-09-10",
+   "cambios": [
+    {"t": "añadido", "es": "Primera grabación real de punta a punta: el emulador abre el replay, el overlay lee la memoria del juego y OBS graba.", "en": "First real end-to-end recording: the emulator opens the replay, the overlay reads the game's memory and OBS records."},
+    {"t": "hallazgo", "es": "Las direcciones de memoria del modo de entrenamiento oficial sirven tal cual en un replay, y el historial de mandos también.", "en": "The official training mode's memory addresses work as-is in a replay, and so does the input history."}
+   ]}
+ ]
+}

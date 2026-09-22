@@ -1,7 +1,21 @@
 # Changelog
 
+La versión que se ve en el sitio está en `datos/cambios.json` y se lee en
+[cambios.html](cambios.html), con un resumen por día en español e inglés.
+
 Los cambios de replayLab, de lo más nuevo a lo más viejo. Las fechas son las del día en
 que se hizo el cambio, no las de publicación.
+
+## 2026-09-22
+
+### Añadido
+- **Página de cambios** (`cambios.html`): resumen por día de lo que se hizo y de lo que
+  se fue descubriendo del juego, con el texto en `datos/cambios.json`.
+- **Ajustes del sitio** en `datos/sitio.json`: enlace al canal y enlace de donación, que
+  sale en el pie en cuanto se pone `activo: true`.
+
+### Cambiado
+- Vuelven al sitio las siete grabaciones que se habían apartado.
 
 ## 2026-09-17
 

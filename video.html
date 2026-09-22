@@ -270,6 +270,7 @@ $("#cuerpo").addEventListener("click", e => {
 montaIdiomas($("#idioma"), pinta);
 $("#cargando").textContent = T("cargando");
 const quark = (Q.get("q") || "").replace(/[^0-9A-Za-z_-]/g, "");
+cargaSitio(pinta);
 json(`datos/${quark}.json`).then(d => { F = d; pinta(); }).catch(() => { F = null; pinta(); });
 </script>
 </body>

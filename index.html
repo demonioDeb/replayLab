@@ -180,6 +180,7 @@ $("#lista").addEventListener("click", e => {
 });
 
 pinta();
+cargaSitio(pinta);
 json("datos/indice.json").then(d => { INDICE = d; pinta(); })
   .catch(() => { INDICE = { videos: [] }; pinta(); });
 </script>

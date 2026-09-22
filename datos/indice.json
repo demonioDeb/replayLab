@@ -1,6 +1,37 @@
 {
- "actualizado": "2026-09-17 00:32",
+ "actualizado": "2026-09-22 15:24",
  "videos": [
+  {
+   "quark": "1789575152320-9147",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-16",
+   "youtube": "XZXzijo4F2I",
+   "duracion": 69.6,
+   "marcador": [
+    0,
+    2
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "Miguel81",
+     "pais": "us",
+     "rango_letra": "D",
+     "personaje": "E. Honda",
+     "clave": "honda"
+    },
+    {
+     "nombre": "konnichihuahua",
+     "pais": "my",
+     "rango_letra": "B",
+     "personaje": "Dee Jay",
+     "clave": "deejay"
+    }
+   ],
+   "rondas": 4
+  },
   {
    "quark": "1789527048394-9444",
    "juego": "ssf2xjr1",
@@ -31,6 +62,192 @@
     }
    ],
    "rondas": 5
+  },
+  {
+   "quark": "1789347108237-4228",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-14",
+   "youtube": "Vh3liXnLwIU",
+   "duracion": 577.5,
+   "marcador": [
+    1,
+    5
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "DJILK-SF2TV",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "O. Sagat",
+     "clave": "sagat"
+    },
+    {
+     "nombre": "Fromo",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Blanka",
+     "clave": "blanka"
+    }
+   ],
+   "rondas": 15
+  },
+  {
+   "quark": "1789058355677-5475",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-10",
+   "youtube": "MleYPq5jp1Y",
+   "duracion": 131.6,
+   "marcador": [
+    0,
+    2
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "kazel",
+     "pais": "fr",
+     "rango_letra": "A",
+     "personaje": "Blanka",
+     "clave": "blanka"
+    },
+    {
+     "nombre": "wolmar",
+     "pais": "fr",
+     "rango_letra": "A",
+     "personaje": "Dhalsim",
+     "clave": "dhalsim"
+    }
+   ],
+   "rondas": 4
+  },
+  {
+   "quark": "1788927897720-7868",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-09",
+   "youtube": "g3AaeTlqAf4",
+   "duracion": 277.5,
+   "marcador": [
+    0,
+    3
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "mrcarabano",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Guile",
+     "clave": "guile"
+    },
+    {
+     "nombre": "_yito2k_",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Dhalsim",
+     "clave": "dhalsim"
+    }
+   ],
+   "rondas": 7
+  },
+  {
+   "quark": "1787433537478-9902",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-08-22",
+   "youtube": "RubN_SEE0t0",
+   "duracion": 271.4,
+   "marcador": [
+    0,
+    3
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "Young Placenta",
+     "pais": "us",
+     "rango_letra": "C",
+     "personaje": "Ryu",
+     "clave": "ryu"
+    },
+    {
+     "nombre": "daemonDeb",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "Chun-Li",
+     "clave": "chunli"
+    }
+   ],
+   "rondas": 8
+  },
+  {
+   "quark": "1703135049553-1393",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2023-12-21",
+   "youtube": "bb9GrVdYVOM",
+   "duracion": 370.9,
+   "marcador": [
+    1,
+    2
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "damdai",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "ryu"
+    },
+    {
+     "nombre": "Riz0ne",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "M. Bison",
+     "clave": "dictator"
+    }
+   ],
+   "rondas": 9
+  },
+  {
+   "quark": "1595823262639-8486",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2020-07-27",
+   "youtube": "HnDtCh5Y0UU",
+   "duracion": 231.9,
+   "marcador": [
+    0,
+    2
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "damdai",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "ryu"
+    },
+    {
+     "nombre": "djfrijoles",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "T. Hawk",
+     "clave": "hawk"
+    }
+   ],
+   "rondas": 6
   }
  ]
 }

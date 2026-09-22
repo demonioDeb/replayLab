@@ -259,6 +259,19 @@ h2 .sub{color:var(--dim);letter-spacing:1px;font-weight:400;font-size:13px;text-
 .st tr.enc td.k{color:var(--dim);font-weight:400}
 .st .nota{display:block;font-size:12px;color:var(--dim);letter-spacing:0;text-transform:none}
 
+/* ---------------------------------------------------------- diario de cambios */
+.diario{display:flex;flex-direction:column;gap:18px;padding-bottom:30px}
+.dia{background:var(--panel);border:1px solid var(--line);border-radius:11px;overflow:hidden}
+.dia h3{display:flex;align-items:center;gap:12px;padding:11px 15px;background:var(--panel2);
+  border-bottom:1px solid var(--line);font-size:16px;font-weight:700;letter-spacing:.5px}
+.dia h3 .fecha{text-transform:capitalize}
+.dia h3 .cuantos{margin-left:auto;font:600 13px/1 var(--mono);color:var(--dim)}
+.cfila{display:flex;gap:12px;align-items:baseline;padding:9px 15px;border-top:1px solid var(--line)}
+.cfila:first-of-type{border-top:0}
+.cfila .sello{flex:none;min-width:86px;text-align:center}
+.cfila .ct{font-size:16px;color:var(--soft)}
+footer .cafe{color:var(--gold)}
+footer .cafe:hover{color:#ffe58a}
 footer{color:var(--dim);font-size:13px;padding:28px 0 40px;border-top:1px solid var(--line);
   margin-top:34px;display:flex;gap:14px;flex-wrap:wrap}
 footer a:hover{color:var(--ink)}

@@ -1,0 +1,492 @@
+{
+ "version": 2,
+ "quark": "1787433537478-9902",
+ "carpeta": "20260915_Young_Placenta_vs_daemonDeb_1787433537478-9902",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "fecha": "2026-08-22",
+ "youtube": "RubN_SEE0t0",
+ "titulo": "SSF2X · Young Placenta 🇺🇸 vs daemonDeb 🇲🇽 · Fightcade",
+ "ft": 3,
+ "jugadores": [
+  {
+   "nombre": "Young Placenta",
+   "pais": "us",
+   "rango": 3,
+   "rango_letra": "C",
+   "personaje": "Ryu",
+   "clave": "ryu"
+  },
+  {
+   "nombre": "daemonDeb",
+   "pais": "mx",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Chun-Li",
+   "clave": "chunli"
+  }
+ ],
+ "marcador": [
+  0,
+  3
+ ],
+ "duracion": 271.4,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 6.48,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 6.48,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      17,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 88,
+     "remontada": 0,
+     "fin": 24.84
+    },
+    {
+     "n": 2,
+     "t": 32.37,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 42,
+     "perfect": false,
+     "dano": [
+      77,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 46,
+     "remontada": 0,
+     "fin": 58.24
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Ryu",
+    "Chun-Li"
+   ],
+   "claves": [
+    "ryu",
+    "chunli"
+   ],
+   "fin": 58.73,
+   "stats_detector": [
+    {
+     "dmg": 94,
+     "throws": 0,
+     "blocked": 0,
+     "combo": 0,
+     "hits": 5
+    },
+    {
+     "dmg": 288,
+     "throws": 0,
+     "blocked": 7,
+     "combo": 0,
+     "hits": 19
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "t": 75.3,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 75.3,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 42,
+     "perfect": false,
+     "dano": [
+      144,
+      110
+     ],
+     "combos": [
+      1,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 23,
+     "remontada": 42,
+     "fin": 98.96
+    },
+    {
+     "n": 2,
+     "t": 104.4,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      46,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 68,
+     "remontada": 0,
+     "fin": 123.63
+    },
+    {
+     "n": 3,
+     "t": 128.49,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "dano": [
+      81,
+      144
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 43,
+     "remontada": 0,
+     "fin": 154.14
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    2
+   ],
+   "personajes": [
+    "O. Ryu",
+    "Chun-Li"
+   ],
+   "claves": [
+    "ryu",
+    "chunli"
+   ],
+   "fin": 154.62,
+   "stats_detector": [
+    {
+     "dmg": 271,
+     "throws": 0,
+     "blocked": 1,
+     "combo": 0,
+     "hits": 18
+    },
+    {
+     "dmg": 398,
+     "throws": 3,
+     "blocked": 3,
+     "combo": 0,
+     "hits": 21
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "t": 171.88,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 171.88,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 29,
+     "perfect": false,
+     "dano": [
+      144,
+      40
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 72,
+     "remontada": 0,
+     "fin": 189.42
+    },
+    {
+     "n": 2,
+     "t": 194.79,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 62,
+     "perfect": false,
+     "dano": [
+      127,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 11,
+     "remontada": 3,
+     "fin": 229.51
+    },
+    {
+     "n": 3,
+     "t": 235.58,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 51,
+     "perfect": false,
+     "dano": [
+      89,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 38,
+     "remontada": 0,
+     "fin": 264.88
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    3
+   ],
+   "personajes": [
+    "Ryu",
+    "Chun-Li"
+   ],
+   "claves": [
+    "ryu",
+    "chunli"
+   ],
+   "fin": 265.44,
+   "stats_detector": [
+    {
+     "dmg": 360,
+     "throws": 2,
+     "blocked": 0,
+     "combo": 0,
+     "hits": 19
+    },
+    {
+     "dmg": 328,
+     "throws": 1,
+     "blocked": 13,
+     "combo": 0,
+     "hits": 19
+    }
+   ]
+  }
+ ],
+ "momentos": [
+  {
+   "t": 20.62,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 24.84,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 49.59,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 58.24,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 98.96,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 123.63,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 147.99,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 4
+  },
+  {
+   "t": 148.49,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 151.72,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 176.83,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 189.42,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 220.83,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 229.51,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 261.9,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 264.88,
+   "tipo": "ko",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "rondas": 2,
+   "rondas_jugadas": 8,
+   "ko": 2,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 725,
+   "recibido": 1014,
+   "golpes": 45,
+   "agarres": 2,
+   "combos": 3,
+   "combo_max": 4,
+   "combo_dano": 47,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 29,
+   "al_limite": 0,
+   "remontada": 42,
+   "racha": 1,
+   "vida_al_ganar": 48,
+   "dano_medio": 16.1,
+   "dano_barras": 5.03,
+   "recibido_barras": 7.04,
+   "combo_dano_barras": 0.33
+  },
+  {
+   "rondas": 6,
+   "rondas_jugadas": 8,
+   "ko": 6,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1014,
+   "recibido": 725,
+   "golpes": 86,
+   "agarres": 4,
+   "combos": 2,
+   "combo_max": 2,
+   "combo_dano": 49,
+   "supers": 4,
+   "mareos": 1,
+   "ronda_rapida": 30,
+   "al_limite": 0,
+   "remontada": 3,
+   "racha": 2,
+   "vida_al_ganar": 49,
+   "dano_medio": 11.8,
+   "dano_barras": 7.04,
+   "recibido_barras": 5.03,
+   "combo_dano_barras": 0.34
+  }
+ ]
+}

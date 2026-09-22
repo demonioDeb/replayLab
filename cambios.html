@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>replayLab</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🎮</text></svg>">
+<link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+<header><div class="wrap hrow">
+  <a class="logo" href="./">🎮 replay<b>Lab</b></a>
+  <span class="sp"></span>
+  <select id="idioma" aria-label="idioma"></select>
+</div></header>
+
+<main class="wrap">
+  <a class="volver" href="./">← <span id="tvolver"></span></a>
+  <div class="intro"><div><h1 id="titulo"></h1><p id="sub"></p></div></div>
+  <div id="cambios" class="diario"></div>
+</main>
+
+<footer class="wrap" id="pie"></footer>
+
+<script src="assets/app.js"></script>
+<script>
+"use strict";
+let DATOS = null;
+
+// Un color por tipo de entrada, igual que los momentos de la ficha: se lee de un vistazo
+// si un día fue de descubrir algo, de añadir, de cambiar o de arreglar.
+const TIPO = {
+  hallazgo:  ["c_hallazgo",  "#7dfcb0"],
+  "añadido": ["c_añadido",   "#37c8ff"],
+  cambiado:  ["c_cambiado",  "#ffcb45"],
+  arreglado: ["c_arreglado", "#ff8d9b"],
+};
+
+// El texto de cada entrada está en español e inglés; en los demás idiomas se cae al
+// español, que es en el que se trabaja. Mejor eso que una traducción inventada.
+const texto = c => c[LANG] || c.es || "";
+
+const fechaLarga = f => {
+  try {
+    const [y, m, d] = f.split("-").map(Number);
+    return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString(LANG,
+      { timeZone: "UTC", year: "numeric", month: "long", day: "numeric" });
+  } catch (e) { return f; }
+};
+
+function pinta() {
+  document.documentElement.lang = LANG;
+  $("#tvolver").textContent = T("volver");
+  $("#titulo").textContent = T("t_cambios");
+  $("#sub").textContent = T("sub_cambios");
+  pintaPie($("#pie"));
+  if (!DATOS) return;
+  $("#cambios").innerHTML = (DATOS.dias || []).map(d => {
+    const filas = (d.cambios || []).map(c => {
+      const [clave, color] = TIPO[c.t] || ["c_cambiado", "#94a6cc"];
+      return `<div class="cfila">
+        <span class="sello" style="--c:${color}">${esc(T(clave))}</span>
+        <span class="ct">${esc(texto(c))}</span></div>`;
+    }).join("");
+    return `<section class="dia">
+      <h3><span class="fecha">${esc(fechaLarga(d.fecha))}</span>
+        <span class="cuantos">${(d.cambios || []).length}</span></h3>
+      ${filas}</section>`;
+  }).join("");
+}
+
+montaIdiomas($("#idioma"), pinta);
+cargaSitio(pinta);
+pinta();
+json("datos/cambios.json").then(d => { DATOS = d; pinta(); }).catch(() => {});
+</script>
+</body>
+</html>
