@@ -5,6 +5,26 @@
    "fecha": "2026-09-22",
    "cambios": [
     {
+     "t": "arreglado",
+     "es": "El overlay se comía texto. La columna es una pila flexible y, cuando el contenido pasaba de los 984 px, las tarjetas se encogían en silencio y recortaban lo de dentro: el título del mando se quedaba en 9 px de alto. Ahora las tarjetas no se encogen, así que si algo no cabe se ve y se quita.",
+     "en": "The overlay was eating text. The column is a flex stack and, once the content went past 984px, the cards silently shrank and clipped their contents: the pad title ended up 9px tall. Cards no longer shrink, so anything that does not fit is visible and gets removed."
+    },
+    {
+     "t": "arreglado",
+     "es": "Las etiquetas de vida, súper y stun tenían un ancho fijo de 84 px y en japonés y chino salían cortadas. Ahora se miden en cada idioma y el ancho sale de la más larga.",
+     "en": "The health, super and stun labels had a fixed 84px width and were cut off in Japanese and Chinese. They are measured per language now, and the width comes from the longest one."
+    },
+    {
+     "t": "cambiado",
+     "es": "El historial de inputs baja a 8 líneas y el sitio que sobra se llena con estadísticas: daño del mejor combo y súpers acumulados en Combate; porcentaje, rondas ganadas al límite y racha en Rondas. Fuera la línea de «estadísticas completas en replayLab», que ocupaba y no decía nada.",
+     "en": "The input history drops to 8 lines and the space freed goes to stats: best combo damage and meter fills in Combat; win rate, clutch rounds and streak in Rounds. The 'full stats on replayLab' line is gone — it took up room and said nothing."
+    },
+    {
+     "t": "añadido",
+     "es": "Un auditor del overlay (tools/auditar_overlay.js) que revisa los seis idiomas de una pasada y avisa de cualquier texto cortado o clave sin traducir. Es lo que habría cazado esto sin tener que mirar.",
+     "en": "An overlay auditor (tools/auditar_overlay.js) that checks all six languages in one run and reports any clipped text or untranslated key. It is what would have caught this without anyone looking."
+    },
+    {
      "t": "cambiado",
      "es": "Sitio vaciado para empezar de cero. Las nueve grabaciones que había eran pruebas de desarrollo, hechas antes de arreglar los combos, el KO por debajo de cero y el doble KO: sus números no eran de fiar. Los vídeos siguen en el disco, sólo marcados como descartados.",
      "en": "The site was emptied to start clean. The nine recordings it had were development tests, made before combos, sub-zero KO and double KO were fixed, so their numbers were not trustworthy. The videos are still on disk, just marked as discarded."
