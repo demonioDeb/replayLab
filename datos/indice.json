@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-22 15:24",
+ "actualizado": "2026-09-22 20:28",
  "videos": [
   {
    "quark": "1789575152320-9147",
@@ -62,6 +62,37 @@
     }
    ],
    "rondas": 5
+  },
+  {
+   "quark": "1789480549416-7315",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-15",
+   "youtube": null,
+   "duracion": null,
+   "marcador": [
+    0,
+    0
+   ],
+   "peleas": 1,
+   "jugadores": [
+    {
+     "nombre": "potato-kids",
+     "pais": "in",
+     "rango_letra": "A",
+     "personaje": "Vega",
+     "clave": "claw"
+    },
+    {
+     "nombre": "Snoopy&Lsc",
+     "pais": "hk",
+     "rango_letra": "A",
+     "personaje": "E. Honda",
+     "clave": "honda"
+    }
+   ],
+   "rondas": 1
   },
   {
    "quark": "1789347108237-4228",

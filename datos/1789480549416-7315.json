@@ -1,0 +1,218 @@
+{
+ "version": 4,
+ "quark": "1789480549416-7315",
+ "carpeta": "20260922_potato-kids_vs_Snoopy_Lsc_1789480549416-7315",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "fecha": "2026-09-15",
+ "youtube": null,
+ "titulo": "SSF2X · potato-kids 🇮🇳 vs Snoopy&Lsc 🇭🇰 · Fightcade",
+ "ft": 3,
+ "jugadores": [
+  {
+   "nombre": "potato-kids",
+   "pais": "in",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Vega",
+   "clave": "claw",
+   "personajes": [
+    "Vega"
+   ],
+   "claves": [
+    "claw"
+   ],
+   "swaps": 0,
+   "super": "Rolling Izuna Drop"
+  },
+  {
+   "nombre": "Snoopy&Lsc",
+   "pais": "hk",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "E. Honda",
+   "clave": "honda",
+   "personajes": [
+    "E. Honda"
+   ],
+   "claves": [
+    "honda"
+   ],
+   "swaps": 0,
+   "super": "Double Headbutt"
+  }
+ ],
+ "marcador": [
+  0,
+  0
+ ],
+ "duracion": null,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 5.07,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 5.07,
+     "ganador": null,
+     "motivo": null,
+     "duracion": null,
+     "perfect": false,
+     "dano": [
+      79,
+      107
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": null,
+     "remontada": 0,
+     "sin_cierre": true,
+     "fin": null
+    }
+   ],
+   "ganador": null,
+   "marcador": null,
+   "personajes": [
+    "Vega",
+    "E. Honda"
+   ],
+   "claves": [
+    "claw",
+    "honda"
+   ],
+   "resumen": {
+    "dano": [
+     79,
+     107
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     0
+    ],
+    "duracion": 0
+   }
+  }
+ ],
+ "momentos": [],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 0,
+   "pelea_rapida": 0,
+   "swaps": 0,
+   "emu_dmg": 0,
+   "emu_hits": 0,
+   "emu_throws": 0,
+   "emu_blocked": 0,
+   "rondas": 0,
+   "rondas_jugadas": 0,
+   "ko": 0,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 79,
+   "recibido": 107,
+   "golpes": 4,
+   "agarres": 1,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 0,
+   "al_limite": 0,
+   "remontada": 0,
+   "racha": 0,
+   "conectados": 3,
+   "bloqueados": 1,
+   "bloqueo": 1,
+   "defensa": 20,
+   "primer_golpe": 0,
+   "verificado": true,
+   "vida_al_ganar": null,
+   "dano_medio": 19.8,
+   "dur_avg": 0,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "emu_dano_barras": 0.0,
+   "vida_perdida_ronda": 0
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 0,
+   "pelea_rapida": 0,
+   "swaps": 0,
+   "emu_dmg": 0,
+   "emu_hits": 0,
+   "emu_throws": 0,
+   "emu_blocked": 0,
+   "rondas": 0,
+   "rondas_jugadas": 0,
+   "ko": 0,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 107,
+   "recibido": 79,
+   "golpes": 5,
+   "agarres": 0,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 0,
+   "al_limite": 0,
+   "remontada": 0,
+   "racha": 0,
+   "conectados": 4,
+   "bloqueados": 1,
+   "bloqueo": 1,
+   "defensa": 25,
+   "primer_golpe": 1,
+   "verificado": true,
+   "vida_al_ganar": null,
+   "dano_medio": 21.4,
+   "dur_avg": 0,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "emu_dano_barras": 0.0,
+   "vida_perdida_ronda": 0,
+   "dano_barras": 0.74,
+   "recibido_barras": 0.55,
+   "combo_dano_barras": 0.0
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 4,
  "quark": "1789058355677-5475",
  "carpeta": "20260915_kazel_vs_wolmar_1789058355677-5475",
  "juego": "ssf2xjr1",
@@ -16,7 +16,15 @@
    "rango": 5,
    "rango_letra": "A",
    "personaje": "Blanka",
-   "clave": "blanka"
+   "clave": "blanka",
+   "personajes": [
+    "Blanka"
+   ],
+   "claves": [
+    "blanka"
+   ],
+   "swaps": 0,
+   "super": "Ground Shave Roll"
   },
   {
    "nombre": "wolmar",
@@ -24,7 +32,15 @@
    "rango": 5,
    "rango_letra": "A",
    "personaje": "Dhalsim",
-   "clave": "dhalsim"
+   "clave": "dhalsim",
+   "personajes": [
+    "Dhalsim"
+   ],
+   "claves": [
+    "dhalsim"
+   ],
+   "swaps": 0,
+   "super": "Yoga Inferno"
   }
  ],
  "marcador": [
@@ -121,7 +137,34 @@
      "combo": 4,
      "hits": 24
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     106,
+     288
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     2
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 69
+   }
   },
   {
    "n": 2,
@@ -211,7 +254,34 @@
      "combo": 5,
      "hits": 24
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     126,
+     288
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     2
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 73
+   }
   }
  ],
  "momentos": [
@@ -268,6 +338,17 @@
  ],
  "stats": [
   {
+   "meter_full": 0,
+   "stun_frames": 409,
+   "stun_peor": 150,
+   "mareado_veces": 3,
+   "dur_sum": 0,
+   "pelea_rapida": 0,
+   "swaps": 0,
+   "emu_dmg": 232,
+   "emu_hits": 12,
+   "emu_throws": 0,
+   "emu_blocked": 0,
    "rondas": 0,
    "rondas_jugadas": 4,
    "ko": 0,
@@ -288,11 +369,24 @@
    "racha": 0,
    "vida_al_ganar": null,
    "dano_medio": 19.3,
-   "dano_barras": 1.61,
-   "recibido_barras": 4.0,
-   "combo_dano_barras": 0.0
+   "dur_avg": 0,
+   "stun_seg": 6.9,
+   "stun_peor_seg": 2.5,
+   "emu_dano_barras": 1.61,
+   "vida_perdida_ronda": 100
   },
   {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 142,
+   "pelea_rapida": 69,
+   "swaps": 0,
+   "emu_dmg": 576,
+   "emu_hits": 48,
+   "emu_throws": 1,
+   "emu_blocked": 2,
    "rondas": 4,
    "rondas_jugadas": 4,
    "ko": 4,
@@ -313,6 +407,11 @@
    "racha": 4,
    "vida_al_ganar": 59,
    "dano_medio": 11.3,
+   "dur_avg": 36,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "emu_dano_barras": 4.0,
+   "vida_perdida_ronda": 40,
    "dano_barras": 4.0,
    "recibido_barras": 1.61,
    "combo_dano_barras": 0.0

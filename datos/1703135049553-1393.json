@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 4,
  "quark": "1703135049553-1393",
  "carpeta": "20260916_damdai_vs_Riz0ne_1703135049553-1393",
  "juego": "ssf2xjr1",
@@ -16,7 +16,15 @@
    "rango": 4,
    "rango_letra": "B",
    "personaje": "Ryu",
-   "clave": "ryu"
+   "clave": "ryu",
+   "personajes": [
+    "Ryu"
+   ],
+   "claves": [
+    "ryu"
+   ],
+   "swaps": 0,
+   "super": "Shinku Hadouken"
   },
   {
    "nombre": "Riz0ne",
@@ -24,7 +32,15 @@
    "rango": 4,
    "rango_letra": "B",
    "personaje": "M. Bison",
-   "clave": "dictator"
+   "clave": "dictator",
+   "personajes": [
+    "M. Bison"
+   ],
+   "claves": [
+    "dictator"
+   ],
+   "swaps": 0,
+   "super": "Knee Press Knightmare"
   }
  ],
  "marcador": [
@@ -148,7 +164,34 @@
      "combo": 0,
      "hits": 19
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     358,
+     390
+    ],
+    "combos": [
+     1,
+     2
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 164
+   }
   },
   {
    "n": 2,
@@ -238,7 +281,34 @@
      "combo": 0,
      "hits": 6
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     288,
+     202
+    ],
+    "combos": [
+     1,
+     0
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 114
+   }
   },
   {
    "n": 3,
@@ -382,7 +452,34 @@
      "combo": 0,
      "hits": 29
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     555,
+     511
+    ],
+    "combos": [
+     1,
+     6
+    ],
+    "supers": [
+     2,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 211
+   }
   }
  ],
  "momentos": [
@@ -505,6 +602,17 @@
  ],
  "stats": [
   {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 224,
+   "pelea_rapida": 114,
+   "swaps": 0,
+   "emu_dmg": 1201,
+   "emu_hits": 113,
+   "emu_throws": 0,
+   "emu_blocked": 5,
    "rondas": 4,
    "rondas_jugadas": 9,
    "ko": 4,
@@ -525,11 +633,24 @@
    "racha": 2,
    "vida_al_ganar": 33,
    "dano_medio": 10.2,
-   "dano_barras": 8.34,
-   "recibido_barras": 7.66,
-   "combo_dano_barras": 0.38
+   "dur_avg": 56,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "emu_dano_barras": 8.34,
+   "vida_perdida_ronda": 85
   },
   {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 221,
+   "pelea_rapida": 164,
+   "swaps": 0,
+   "emu_dmg": 1103,
+   "emu_hits": 54,
+   "emu_throws": 6,
+   "emu_blocked": 13,
    "rondas": 4,
    "rondas_jugadas": 9,
    "ko": 4,
@@ -550,6 +671,11 @@
    "racha": 2,
    "vida_al_ganar": 16,
    "dano_medio": 15.1,
+   "dur_avg": 55,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "emu_dano_barras": 7.66,
+   "vida_perdida_ronda": 93,
    "dano_barras": 7.66,
    "recibido_barras": 8.34,
    "combo_dano_barras": 0.38

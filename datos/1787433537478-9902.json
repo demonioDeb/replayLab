@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 4,
  "quark": "1787433537478-9902",
  "carpeta": "20260915_Young_Placenta_vs_daemonDeb_1787433537478-9902",
  "juego": "ssf2xjr1",
@@ -16,7 +16,17 @@
    "rango": 3,
    "rango_letra": "C",
    "personaje": "Ryu",
-   "clave": "ryu"
+   "clave": "ryu",
+   "personajes": [
+    "Ryu",
+    "O. Ryu"
+   ],
+   "claves": [
+    "ryu",
+    "ryu"
+   ],
+   "swaps": 1,
+   "super": "Shinku Hadouken"
   },
   {
    "nombre": "daemonDeb",
@@ -24,7 +34,15 @@
    "rango": 4,
    "rango_letra": "B",
    "personaje": "Chun-Li",
-   "clave": "chunli"
+   "clave": "chunli",
+   "personajes": [
+    "Chun-Li"
+   ],
+   "claves": [
+    "chunli"
+   ],
+   "swaps": 0,
+   "super": "Senretsu Kyaku"
   }
  ],
  "marcador": [
@@ -121,7 +139,34 @@
      "combo": 0,
      "hits": 19
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     94,
+     288
+    ],
+    "combos": [
+     0,
+     1
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 72
+   }
   },
   {
    "n": 2,
@@ -238,7 +283,34 @@
      "combo": 0,
      "hits": 21
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     271,
+     398
+    ],
+    "combos": [
+     2,
+     1
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 120
+   }
   },
   {
    "n": 3,
@@ -355,7 +427,34 @@
      "combo": 0,
      "hits": 19
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     360,
+     328
+    ],
+    "combos": [
+     1,
+     0
+    ],
+    "supers": [
+     0,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 142
+   }
   }
  ],
  "momentos": [
@@ -439,6 +538,17 @@
  ],
  "stats": [
   {
+   "meter_full": 0,
+   "stun_frames": 132,
+   "stun_peor": 132,
+   "mareado_veces": 1,
+   "dur_sum": 71,
+   "pelea_rapida": 0,
+   "swaps": 1,
+   "emu_dmg": 725,
+   "emu_hits": 42,
+   "emu_throws": 2,
+   "emu_blocked": 1,
    "rondas": 2,
    "rondas_jugadas": 8,
    "ko": 2,
@@ -459,11 +569,24 @@
    "racha": 1,
    "vida_al_ganar": 48,
    "dano_medio": 16.1,
-   "dano_barras": 5.03,
-   "recibido_barras": 7.04,
-   "combo_dano_barras": 0.33
+   "dur_avg": 36,
+   "stun_seg": 2.2,
+   "stun_peor_seg": 2.2,
+   "emu_dano_barras": 5.03,
+   "vida_perdida_ronda": 88
   },
   {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 263,
+   "pelea_rapida": 72,
+   "swaps": 0,
+   "emu_dmg": 1014,
+   "emu_hits": 59,
+   "emu_throws": 4,
+   "emu_blocked": 23,
    "rondas": 6,
    "rondas_jugadas": 8,
    "ko": 6,
@@ -484,6 +607,11 @@
    "racha": 2,
    "vida_al_ganar": 49,
    "dano_medio": 11.8,
+   "dur_avg": 44,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "emu_dano_barras": 7.04,
+   "vida_perdida_ronda": 63,
    "dano_barras": 7.04,
    "recibido_barras": 5.03,
    "combo_dano_barras": 0.34

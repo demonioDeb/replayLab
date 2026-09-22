@@ -176,51 +176,145 @@ function rondaAronda() {
     <div class="rondas">${bloques}</div>`;
 }
 
-/* ---------------------------------------------------------------- estadísticas */
-function tabla() {
-  const st = F.stats || [{}, {}];
+/* ---------------------------------------------------------------- bloques de datos */
+/* Una tabla comparativa con indicador. `nb` marca si el número grande es mejor: sirve
+   para que la barra diga de un vistazo quién va por delante en esa fila. */
+function tabla(filas) {
   const fila = (k, va, vb, na, nb, nota) => {
-    const max = Math.max(na || 0, nb || 0) || 1;
-    return `<tr><td class="ia"><span class="ind"><i style="width:${pct(na || 0, max)}%"></i></span></td>
+    const max = Math.max(Math.abs(na || 0), Math.abs(nb || 0)) || 1;
+    return `<tr><td class="ia"><span class="ind"><i style="width:${pct(Math.abs(na || 0), max)}%"></i></span></td>
       <td class="a">${esc(String(va))}</td>
       <td class="k">${esc(k)}${nota ? `<span class="nota">${esc(nota)}</span>` : ""}</td>
       <td class="b">${esc(String(vb))}</td>
-      <td class="ib"><span class="ind"><i style="width:${pct(nb || 0, max)}%"></i></span></td></tr>`;
+      <td class="ib"><span class="ind"><i style="width:${pct(Math.abs(nb || 0), max)}%"></i></span></td></tr>`;
   };
-  const guion = (v, suf) => (v === null || v === undefined || v === 0 || v === "") ? "—" : v + (suf || "");
-  const [a, b] = st, m = F.marcador || [0, 0];
-  const barras = v => (v ?? 0) + " " + T("barras");
-  return `<h2>${esc(T("resumen"))}</h2><table class="st">
+  return `<table class="st">
     <tr class="enc"><td class="ia"></td><td class="a">${esc(F.jugadores[0].personaje || "")}</td>
-      <td class="k">${esc(F.jugadores[0].nombre)} · ${esc(F.jugadores[1].nombre)}</td>
+      <td class="k">${esc(F.jugadores[0].nombre)} \u00b7 ${esc(F.jugadores[1].nombre)}</td>
       <td class="b">${esc(F.jugadores[1].personaje || "")}</td><td class="ib"></td></tr>
-    ${fila(T("st_peleas"), m[0], m[1], m[0], m[1])}
-    ${fila(T("st_rondas"), `${a.rondas ?? 0} / ${a.rondas_jugadas ?? 0}`,
-                           `${b.rondas ?? 0} / ${b.rondas_jugadas ?? 0}`, a.rondas, b.rondas, T("st_rondas_jug"))}
-    ${fila(T("st_kotiempo"), `${a.ko ?? 0} / ${a.timeup ?? 0}`, `${b.ko ?? 0} / ${b.timeup ?? 0}`, a.ko, b.ko)}
-    ${fila(T("st_rapida"), guion(a.ronda_rapida, " " + T("seg")), guion(b.ronda_rapida, " " + T("seg")),
-           a.ronda_rapida ? 1 / a.ronda_rapida : 0, b.ronda_rapida ? 1 / b.ronda_rapida : 0)}
-    ${fila(T("st_vida"), guion(a.vida_al_ganar, "%"), guion(b.vida_al_ganar, "%"), a.vida_al_ganar, b.vida_al_ganar)}
-    ${fila(T("st_racha"), guion(a.racha), guion(b.racha), a.racha, b.racha)}
-    ${fila(T("st_limite"), a.al_limite ?? 0, b.al_limite ?? 0, a.al_limite, b.al_limite)}
-    ${fila(T("st_remontada"), guion(a.remontada, "%"), guion(b.remontada, "%"), a.remontada, b.remontada)}
-    ${fila(T("st_dano"), barras(a.dano_barras), barras(b.dano_barras), a.dano, b.dano)}
-    ${fila(T("st_recibido"), barras(a.recibido_barras), barras(b.recibido_barras), a.recibido, b.recibido)}
-    ${fila(T("st_golpes"), a.golpes ?? 0, b.golpes ?? 0, a.golpes, b.golpes)}
-    ${fila(T("st_danomedio"), guion(a.dano_medio), guion(b.dano_medio), a.dano_medio, b.dano_medio)}
-    ${fila(T("st_agarres"), a.agarres ?? 0, b.agarres ?? 0, a.agarres, b.agarres)}
-    ${fila(T("st_combos"), a.combos ?? 0, b.combos ?? 0, a.combos, b.combos)}
-    ${fila(T("st_combomax"), guion(a.combo_max, " " + T("golpes")), guion(b.combo_max, " " + T("golpes")), a.combo_max, b.combo_max)}
-    ${fila(T("st_combodano"), guion(a.combo_dano_barras, " " + T("barras")), guion(b.combo_dano_barras, " " + T("barras")), a.combo_dano, b.combo_dano)}
-    ${fila(T("st_supers"), a.supers ?? 0, b.supers ?? 0, a.supers, b.supers)}
-    ${fila(T("st_perfects"), a.perfects ?? 0, b.perfects ?? 0, a.perfects, b.perfects)}
-    ${fila(T("st_mareos"), a.mareos ?? 0, b.mareos ?? 0, a.mareos, b.mareos)}
-  </table>`;
+    ${filas.map(f => fila(...f)).join("")}</table>`;
+}
+const gu = (v, suf) => (v === null || v === undefined || v === 0 || v === "") ? "\u2014" : v + (suf || "");
+const seccion = (id, titulo, cuerpo, sub) =>
+  `<section id="${id}"><h2>${esc(titulo)}${sub ? `<span class="sub">${esc(sub)}</span>` : ""}</h2>${cuerpo}</section>`;
+
+function bloques() {
+  const [a, b] = F.stats, m = F.marcador || [0, 0];
+  const [ja, jb] = F.jugadores;
+  const barras = v => (v ?? 0) + " " + T("barras");
+  const seg = v => gu(v, " " + T("seg"));
+  const out = [];
+
+  // 1 · el set: sólo lo que explica el resultado
+  out.push(seccion("set", T("s_set"), tabla([
+    [T("st_peleas"), m[0], m[1], m[0], m[1]],
+    [T("st_rondas"), `${a.rondas ?? 0} / ${a.rondas_jugadas ?? 0}`, `${b.rondas ?? 0} / ${b.rondas_jugadas ?? 0}`, a.rondas, b.rondas],
+    [T("st_winpct"), pctTxt(a), pctTxt(b), a.rondas, b.rondas],
+    [T("st_kotiempo"), `${a.ko ?? 0} / ${a.timeup ?? 0}`, `${b.ko ?? 0} / ${b.timeup ?? 0}`, a.ko, b.ko],
+    [T("st_racha"), gu(a.racha), gu(b.racha), a.racha, b.racha],
+    [T("st_limite"), a.al_limite ?? 0, b.al_limite ?? 0, a.al_limite, b.al_limite],
+    [T("st_remontada"), gu(a.remontada, "%"), gu(b.remontada, "%"), a.remontada, b.remontada],
+    [T("st_vida"), gu(a.vida_al_ganar, "%"), gu(b.vida_al_ganar, "%"), a.vida_al_ganar, b.vida_al_ganar],
+    [T("st_perfects"), a.perfects ?? 0, b.perfects ?? 0, a.perfects, b.perfects],
+    [T("st_peleapida"), seg(a.pelea_rapida), seg(b.pelea_rapida), a.pelea_rapida ? 1 / a.pelea_rapida : 0, b.pelea_rapida ? 1 / b.pelea_rapida : 0],
+  ])));
+
+  // 2 · pelea por pelea
+  out.push(seccion("peleas", T("s_peleas"), rondaAronda()));
+
+  // 3 · daño
+  out.push(seccion("dano", T("s_dano"), tabla([
+    [T("st_dano"), barras(a.dano_barras), barras(b.dano_barras), a.dano, b.dano],
+    [T("st_recibido"), barras(a.recibido_barras), barras(b.recibido_barras), a.recibido, b.recibido],
+    [T("st_vidaperd"), gu(a.vida_perdida_ronda, "%"), gu(b.vida_perdida_ronda, "%"), a.vida_perdida_ronda, b.vida_perdida_ronda],
+    [T("st_golpes"), a.golpes ?? 0, b.golpes ?? 0, a.golpes, b.golpes],
+    [T("st_danomedio"), gu(a.dano_medio), gu(b.dano_medio), a.dano_medio, b.dano_medio],
+    [T("st_agarres"), a.agarres ?? 0, b.agarres ?? 0, a.agarres, b.agarres],
+  ])));
+
+  // 4 · combos
+  out.push(seccion("combos", T("s_combos"), tabla([
+    [T("st_combos"), a.combos ?? 0, b.combos ?? 0, a.combos, b.combos],
+    [T("st_combomax"), gu(a.combo_max, " " + T("golpes")), gu(b.combo_max, " " + T("golpes")), a.combo_max, b.combo_max],
+    [T("st_combodano"), gu(a.combo_dano_barras, " " + T("barras")), gu(b.combo_dano_barras, " " + T("barras")), a.combo_dano, b.combo_dano],
+  ])));
+
+  // 5 · súpers
+  out.push(seccion("supers", T("s_supers"), tabla([
+    [T("st_supers"), a.supers ?? 0, b.supers ?? 0, a.supers, b.supers],
+    [T("st_meterfull"), gu(a.meter_full), gu(b.meter_full), a.meter_full, b.meter_full],
+    [T("st_supernom"), ja.super || "\u2014", jb.super || "\u2014", 0, 0],
+  ])));
+
+  // 6 · mareos
+  out.push(seccion("mareos", T("s_mareos"), tabla([
+    [T("st_dizzies"), a.mareos ?? 0, b.mareos ?? 0, a.mareos, b.mareos],
+    [T("st_mareado"), gu(a.mareado_veces), gu(b.mareado_veces), a.mareado_veces, b.mareado_veces],
+    [T("st_stuntime"), gu(a.stun_seg, " " + T("seg")), gu(b.stun_seg, " " + T("seg")), a.stun_seg, b.stun_seg],
+    [T("st_stunpeor"), gu(a.stun_peor_seg, " " + T("seg")), gu(b.stun_peor_seg, " " + T("seg")), a.stun_peor_seg, b.stun_peor_seg],
+  ])));
+
+  // 7 · tiempo, con la duración de cada ronda
+  out.push(seccion("tiempo", T("s_tiempo"), tabla([
+    [T("st_rapida"), seg(a.ronda_rapida), seg(b.ronda_rapida), a.ronda_rapida ? 1 / a.ronda_rapida : 0, b.ronda_rapida ? 1 / b.ronda_rapida : 0],
+    [T("st_duravg"), seg(a.dur_avg), seg(b.dur_avg), a.dur_avg, b.dur_avg],
+  ]) + graficaRondas()));
+
+  // 8 · defensa: sólo si la grabación lleva la sonda que lo permite medir
+  if (a.verificado) {
+    out.push(seccion("defensa", T("s_def"), tabla([
+      [T("st_conect"), a.conectados ?? 0, b.conectados ?? 0, a.conectados, b.conectados],
+      [T("st_bloq"), a.bloqueados ?? 0, b.bloqueados ?? 0, a.bloqueados, b.bloqueados],
+      [T("st_bloqueo"), a.bloqueo ?? 0, b.bloqueo ?? 0, a.bloqueo, b.bloqueo],
+      [T("st_defensa"), gu(a.defensa, "%"), gu(b.defensa, "%"), a.defensa, b.defensa],
+      [T("st_primero"), a.primer_golpe ? "\u2713" : "\u2014", b.primer_golpe ? "\u2713" : "\u2014", a.primer_golpe, b.primer_golpe],
+    ])));
+  }
+
+  // 9 · personajes
+  const chars = j => (j.personajes || [j.personaje]).filter(Boolean).join(" \u00b7 ") || "\u2014";
+  out.push(seccion("personajes", T("s_pers"), tabla([
+    ["", chars(ja), chars(jb), 0, 0],
+    [T("rango"), ja.rango_letra || "\u2014", jb.rango_letra || "\u2014", 0, 0],
+    [T("st_swaps"), a.swaps ?? 0, b.swaps ?? 0, a.swaps, b.swaps],
+  ])));
+
+  // 10 · lo que dice el emulador, separado de lo que calcula replayLab
+  out.push(seccion("emulador", T("s_emu"), tabla([
+    [T("st_dano"), barras(a.emu_dano_barras), barras(b.emu_dano_barras), a.emu_dmg, b.emu_dmg],
+    [T("st_golpes"), a.emu_hits ?? 0, b.emu_hits ?? 0, a.emu_hits, b.emu_hits],
+    [T("st_agarres"), a.emu_throws ?? 0, b.emu_throws ?? 0, a.emu_throws, b.emu_throws],
+    [T("st_bloqueo"), a.emu_blocked ?? 0, b.emu_blocked ?? 0, a.emu_blocked, b.emu_blocked],
+  ]), T("emu_nota")));
+
+  return out.join("");
 }
 
-/* El reproductor vive en su propio hueco y NO se vuelve a dibujar: si al cambiar de
-   idioma se rehiciera todo el cuerpo, el iframe de YouTube se destruiría y el vídeo
-   volvería a empezar. Sólo se repintan el texto y las tablas. */
+const pctTxt = s_ => s_.rondas_jugadas ? Math.round((s_.rondas || 0) * 100 / s_.rondas_jugadas) + "%" : "\u2014";
+
+// Duración de cada ronda del set, en una barra por ronda: se ve el ritmo de un vistazo.
+function graficaRondas() {
+  const todas = [];
+  (F.peleas || []).forEach(p => (p.rondas || []).forEach(r =>
+    todas.push({ p: p.n, n: r.n, d: r.duracion || 0, g: r.ganador || 0, t: r.t })));
+  if (!todas.length) return "";
+  const max = Math.max(...todas.map(x => x.d)) || 1;
+  return `<div class="durs"><div class="dtit">${esc(T("dur_rondas"))}</div>` + todas.map(x =>
+    `<button class="dfila" data-t="${x.t}">
+       <span class="et">${esc(T("pelea"))} ${x.p} \u00b7 ${esc(T("ronda"))} ${x.n}</span>
+       <span class="t"><i class="g${x.g}" style="width:${pct(x.d, max)}%"></i></span>
+       <span class="v">${x.d} ${esc(T("seg"))}</span></button>`).join("") + "</div>";
+}
+
+const SECCIONES = [["set","s_set"],["peleas","s_peleas"],["dano","s_dano"],["combos","s_combos"],
+  ["supers","s_supers"],["mareos","s_mareos"],["tiempo","s_tiempo"],["defensa","s_def"],
+  ["personajes","s_pers"],["emulador","s_emu"]];
+function navegacion() {
+  const hay = id => id !== "defensa" || (F.stats[0] || {}).verificado;
+  return `<nav class="secnav">` + SECCIONES.filter(([id]) => hay(id))
+    .map(([id, t]) => `<a href="#${id}">${esc(T(t))}</a>`).join("") + `</nav>`;
+}
+
 function pinta() {
   document.documentElement.lang = LANG;
   $("#tvolver").textContent = T("volver");
@@ -229,7 +323,7 @@ function pinta() {
   $("#cargando").hidden = true;
 
   $("#cab").innerHTML = cabecera();
-  $("#resto").innerHTML = lineaTiempo() + rondaAronda() + tabla();
+  $("#resto").innerHTML = lineaTiempo() + navegacion() + bloques();
 
   if (!$("#video").dataset.hecho) {
     $("#video").dataset.hecho = "1";

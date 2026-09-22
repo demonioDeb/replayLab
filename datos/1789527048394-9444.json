@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 4,
  "quark": "1789527048394-9444",
  "carpeta": "20260915_canguroxx_vs_Duckwins_1789527048394-9444",
  "juego": "ssf2xjr1",
@@ -16,7 +16,15 @@
    "rango": 3,
    "rango_letra": "C",
    "personaje": "Chun-Li",
-   "clave": "chunli"
+   "clave": "chunli",
+   "personajes": [
+    "Chun-Li"
+   ],
+   "claves": [
+    "chunli"
+   ],
+   "swaps": 0,
+   "super": "Senretsu Kyaku"
   },
   {
    "nombre": "Duckwins",
@@ -24,7 +32,15 @@
    "rango": 2,
    "rango_letra": "D",
    "personaje": "Dhalsim",
-   "clave": "dhalsim"
+   "clave": "dhalsim",
+   "personajes": [
+    "Dhalsim"
+   ],
+   "claves": [
+    "dhalsim"
+   ],
+   "swaps": 0,
+   "super": "Yoga Inferno"
   }
  ],
  "marcador": [
@@ -121,7 +137,34 @@
      "combo": 1,
      "hits": 11
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     288,
+     152
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 127
+   }
   },
   {
    "n": 2,
@@ -239,7 +282,34 @@
      "combo": 1,
      "hits": 18
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     432,
+     245
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 81
+   }
   }
  ],
  "momentos": [
@@ -286,6 +356,17 @@
  ],
  "stats": [
   {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 208,
+   "pelea_rapida": 81,
+   "swaps": 0,
+   "emu_dmg": 720,
+   "emu_hits": 44,
+   "emu_throws": 1,
+   "emu_blocked": 6,
    "rondas": 4,
    "rondas_jugadas": 4,
    "ko": 4,
@@ -306,11 +387,24 @@
    "racha": 4,
    "vida_al_ganar": 56,
    "dano_medio": 14.1,
-   "dano_barras": 5.0,
-   "recibido_barras": 2.76,
-   "combo_dano_barras": 0.0
+   "dur_avg": 52,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "emu_dano_barras": 5.0,
+   "vida_perdida_ronda": 69
   },
   {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 0,
+   "pelea_rapida": 0,
+   "swaps": 0,
+   "emu_dmg": 397,
+   "emu_hits": 29,
+   "emu_throws": 0,
+   "emu_blocked": 1,
    "rondas": 0,
    "rondas_jugadas": 4,
    "ko": 0,
@@ -331,6 +425,11 @@
    "racha": 0,
    "vida_al_ganar": null,
    "dano_medio": 13.2,
+   "dur_avg": 0,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "emu_dano_barras": 2.76,
+   "vida_perdida_ronda": 125,
    "dano_barras": 2.76,
    "recibido_barras": 5.0,
    "combo_dano_barras": 0.0

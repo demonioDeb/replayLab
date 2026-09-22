@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 4,
  "quark": "1595823262639-8486",
  "carpeta": "20260916_damdai_vs_djfrijoles_1595823262639-8486",
  "juego": "ssf2xjr1",
@@ -16,7 +16,15 @@
    "rango": 4,
    "rango_letra": "B",
    "personaje": "Ryu",
-   "clave": "ryu"
+   "clave": "ryu",
+   "personajes": [
+    "Ryu"
+   ],
+   "claves": [
+    "ryu"
+   ],
+   "swaps": 0,
+   "super": "Shinku Hadouken"
   },
   {
    "nombre": "djfrijoles",
@@ -24,7 +32,15 @@
    "rango": 4,
    "rango_letra": "B",
    "personaje": "T. Hawk",
-   "clave": "hawk"
+   "clave": "hawk",
+   "personajes": [
+    "T. Hawk"
+   ],
+   "claves": [
+    "hawk"
+   ],
+   "swaps": 0,
+   "super": "Double Typhoon"
   }
  ],
  "marcador": [
@@ -148,7 +164,34 @@
      "combo": 0,
      "hits": 15
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     223,
+     380
+    ],
+    "combos": [
+     1,
+     1
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 180
+   }
   },
   {
    "n": 2,
@@ -265,7 +308,34 @@
      "combo": 0,
      "hits": 18
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     283,
+     413
+    ],
+    "combos": [
+     2,
+     2
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 120
+   }
   }
  ],
  "momentos": [
@@ -326,6 +396,17 @@
  ],
  "stats": [
   {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 145,
+   "pelea_rapida": 0,
+   "swaps": 0,
+   "emu_dmg": 506,
+   "emu_hits": 40,
+   "emu_throws": 2,
+   "emu_blocked": 0,
    "rondas": 2,
    "rondas_jugadas": 6,
    "ko": 1,
@@ -344,13 +425,32 @@
    "al_limite": 0,
    "remontada": 25,
    "racha": 1,
+   "conectados": 21,
+   "bloqueados": 21,
+   "bloqueo": 12,
+   "defensa": 28,
+   "primer_golpe": 1,
+   "verificado": true,
    "vida_al_ganar": 24,
    "dano_medio": 12.0,
-   "dano_barras": 3.51,
-   "recibido_barras": 5.51,
-   "combo_dano_barras": 0.47
+   "dur_avg": 72,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "emu_dano_barras": 3.51,
+   "vida_perdida_ronda": 92
   },
   {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 155,
+   "pelea_rapida": 120,
+   "swaps": 0,
+   "emu_dmg": 793,
+   "emu_hits": 33,
+   "emu_throws": 10,
+   "emu_blocked": 0,
    "rondas": 4,
    "rondas_jugadas": 6,
    "ko": 4,
@@ -369,8 +469,19 @@
    "al_limite": 0,
    "remontada": 35,
    "racha": 3,
+   "conectados": 31,
+   "bloqueados": 12,
+   "bloqueo": 21,
+   "defensa": 50,
+   "primer_golpe": 0,
+   "verificado": true,
    "vida_al_ganar": 62,
    "dano_medio": 18.4,
+   "dur_avg": 39,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "emu_dano_barras": 5.51,
+   "vida_perdida_ronda": 59,
    "dano_barras": 5.51,
    "recibido_barras": 3.51,
    "combo_dano_barras": 0.22

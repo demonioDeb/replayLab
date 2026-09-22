@@ -272,6 +272,31 @@ h2 .sub{color:var(--dim);letter-spacing:1px;font-weight:400;font-size:13px;text-
 .cfila .ct{font-size:16px;color:var(--soft)}
 footer .cafe{color:var(--gold)}
 footer .cafe:hover{color:#ffe58a}
+/* ------------------------------------------------- navegación entre secciones */
+.secnav{display:flex;gap:6px;overflow-x:auto;padding:14px 0 4px;position:sticky;top:62px;
+  background:linear-gradient(180deg,var(--bg) 70%,transparent);z-index:9;scrollbar-width:none}
+.secnav::-webkit-scrollbar{display:none}
+.secnav a{flex:none;background:var(--panel2);border:1px solid var(--line);border-radius:999px;
+  padding:6px 14px;font-size:14px;letter-spacing:.5px;color:var(--dim);white-space:nowrap}
+.secnav a:hover{color:var(--ink);border-color:var(--line2)}
+section{scroll-margin-top:118px}
+
+/* duración de cada ronda */
+.durs{margin-top:14px;background:var(--panel);border:1px solid var(--line);border-radius:11px;
+  padding:12px 14px;display:flex;flex-direction:column;gap:5px}
+.durs .dtit{font-size:13px;letter-spacing:1.5px;text-transform:uppercase;color:var(--dim);
+  padding-bottom:5px}
+.dfila{display:grid;grid-template-columns:150px 1fr 60px;gap:12px;align-items:center;
+  background:none;border:0;padding:3px 0;cursor:pointer;font-family:inherit;text-align:left}
+.dfila:hover .et{color:var(--ink)}
+.dfila .et{font-size:13.5px;color:var(--dim);letter-spacing:.5px;white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis}
+.dfila .t{height:13px;border-radius:7px;background:#0d1119;border:1px solid var(--line);overflow:hidden}
+.dfila .t i{display:block;height:100%}
+.dfila .t i.g1{background:linear-gradient(90deg,#7a1020,var(--p1))}
+.dfila .t i.g2{background:linear-gradient(90deg,#06496b,var(--p2))}
+.dfila .t i.g0{background:linear-gradient(90deg,#7a6210,var(--gold))}
+.dfila .v{font:600 13px/1 var(--mono);color:var(--soft);text-align:right}
 footer{color:var(--dim);font-size:13px;padding:28px 0 40px;border-top:1px solid var(--line);
   margin-top:34px;display:flex;gap:14px;flex-wrap:wrap}
 footer a:hover{color:var(--ink)}
@@ -288,4 +313,11 @@ footer a:hover{color:var(--ink)}
   .pista .et{width:66px;font-size:11px}
   .st td.ia,.st td.ib{display:none}
   .st td.k{width:auto}
+  /* En movil la tabla se desbordaba unos pixeles: nombres que no parten y
+     mucho aire a los lados. Se aprieta el relleno y se deja partir la etiqueta. */
+  .st{table-layout:fixed}
+  .st td{padding:8px 8px;font-size:15px}
+  .st td.a,.st td.b{width:26%;white-space:normal;overflow-wrap:anywhere}
+  .st td.k{font-size:12px;letter-spacing:.5px;overflow-wrap:anywhere}
+  .durs .et{width:auto;min-width:0;overflow-wrap:anywhere}
 }

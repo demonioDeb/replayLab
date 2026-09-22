@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 4,
  "quark": "1789575152320-9147",
  "carpeta": "20260916_Miguel81_vs_konnichihuahua_1789575152320-9147",
  "juego": "ssf2xjr1",
@@ -16,7 +16,15 @@
    "rango": 2,
    "rango_letra": "D",
    "personaje": "E. Honda",
-   "clave": "honda"
+   "clave": "honda",
+   "personajes": [
+    "E. Honda"
+   ],
+   "claves": [
+    "honda"
+   ],
+   "swaps": 0,
+   "super": "Double Headbutt"
   },
   {
    "nombre": "konnichihuahua",
@@ -24,7 +32,15 @@
    "rango": 4,
    "rango_letra": "B",
    "personaje": "Dee Jay",
-   "clave": "deejay"
+   "clave": "deejay",
+   "personajes": [
+    "Dee Jay"
+   ],
+   "claves": [
+    "deejay"
+   ],
+   "swaps": 0,
+   "super": "Sobat Carnival"
   }
  ],
  "marcador": [
@@ -121,7 +137,34 @@
      "combo": 0,
      "hits": 29
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     23,
+     288
+    ],
+    "combos": [
+     0,
+     1
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 89
+   }
   },
   {
    "n": 2,
@@ -192,7 +235,34 @@
    "claves": [
     "honda",
     "deejay"
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     26,
+     230
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     1
+    ],
+    "duracion": 61
+   }
   }
  ],
  "momentos": [
@@ -225,6 +295,17 @@
  ],
  "stats": [
   {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 0,
+   "pelea_rapida": 0,
+   "swaps": 0,
+   "emu_dmg": 23,
+   "emu_hits": 1,
+   "emu_throws": 0,
+   "emu_blocked": 0,
    "rondas": 0,
    "rondas_jugadas": 3,
    "ko": 0,
@@ -243,13 +324,32 @@
    "al_limite": 0,
    "remontada": 0,
    "racha": 0,
+   "conectados": 2,
+   "bloqueados": 1,
+   "bloqueo": 15,
+   "defensa": 29,
+   "primer_golpe": 0,
+   "verificado": true,
    "vida_al_ganar": null,
    "dano_medio": 16.3,
-   "dano_barras": 0.34,
-   "recibido_barras": 3.6,
-   "combo_dano_barras": 0.0
+   "dur_avg": 0,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "emu_dano_barras": 0.16,
+   "vida_perdida_ronda": 120
   },
   {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 150,
+   "pelea_rapida": 89,
+   "swaps": 0,
+   "emu_dmg": 288,
+   "emu_hits": 29,
+   "emu_throws": 0,
+   "emu_blocked": 0,
    "rondas": 3,
    "rondas_jugadas": 3,
    "ko": 3,
@@ -268,8 +368,19 @@
    "al_limite": 0,
    "remontada": 19,
    "racha": 3,
+   "conectados": 36,
+   "bloqueados": 15,
+   "bloqueo": 1,
+   "defensa": 33,
+   "primer_golpe": 1,
+   "verificado": true,
    "vida_al_ganar": 88,
    "dano_medio": 10.2,
+   "dur_avg": 50,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "emu_dano_barras": 2.0,
+   "vida_perdida_ronda": 11,
    "dano_barras": 3.6,
    "recibido_barras": 0.34,
    "combo_dano_barras": 0.22

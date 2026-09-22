@@ -8,7 +8,22 @@ que se hizo el cambio, no las de publicación.
 
 ## 2026-09-22
 
+### Hallazgo
+- **La barra de aturdimiento delata el golpe.** Sube exactamente 1 frame después de un
+  golpe que conecta, no se mueve con uno bloqueado y se queda quieta en los agarres
+  (verificado 7 de 7 contra lo que dibuja el juego). Es la señal que faltaba para separar
+  golpe conectado de golpe bloqueado sin adivinar. La sonda se emite en el Lua
+  (`stun_up`) y la clasificación se hace luego en `web.py`, así que se puede rehacer
+  sobre cualquier grabación que la lleve.
+
 ### Añadido
+- **Sección de defensa** en la ficha: golpes que conectaron, golpes que le bloquearon,
+  golpes que bloqueó, porcentaje de bloqueo y quién pegó primero. Sólo se pinta si
+  `stats[0].verificado`; en las grabaciones anteriores a la sonda no aparece, ni vacía.
+- **La línea de tiempo como navegador**: cada ronda es un botón que salta a ese punto del
+  vídeo, y debajo una barra por ronda con su duración.
+- **Diccionario**: `st_dizzies` (mareos que provocó) en los seis idiomas; faltaba y salía
+  la clave en crudo.
 - **Página de cambios** (`cambios.html`): resumen por día de lo que se hizo y de lo que
   se fue descubriendo del juego, con el texto en `datos/cambios.json`.
 - **Ajustes del sitio** en `datos/sitio.json`: enlace al canal y enlace de donación, que
@@ -16,6 +31,29 @@ que se hizo el cambio, no las de publicación.
 
 ### Cambiado
 - Vuelven al sitio las siete grabaciones que se habían apartado.
+- **La ficha se reorganiza en diez secciones** con un navegador fijo: el set, peleas,
+  daño, combos, súpers, mareos, tiempo, defensa, personajes y datos del emulador. Lo que
+  reporta el emulador va aparte y etiquetado, para no confundirlo con lo que calcula
+  replayLab. Principio: el overlay lleva lo importante durante el combate, la web lleva
+  el análisis completo.
+- **Overlay**: dos fichas de seis campos cada una (combate y rondas) y el historial de
+  inputs con sitio garantizado, 12 líneas a la vista. Si falta espacio se quitan
+  estadísticas antes que historial.
+
+### Arreglado
+- **El daño de una ronda podía pasar del 100 %** (145 de 144): el golpe que remata
+  restaba uno de más, porque la vida pasa de 0 a -1 y eso no es daño.
+- **Un doble KO dejaba la ronda sin cerrar**, y eso arrastraba súpers fantasma a la
+  ronda siguiente.
+- **Quedarse a cero de vida no es KO en Super Turbo.** Pasó cuatro veces en las
+  grabaciones y en una de ellas se siguió peleando 13 segundos; la lectura negativa de
+  verdad llegaba hasta 144 frames más tarde. Ahora el KO sólo vale con la vida por
+  debajo de cero.
+- **Un combo contaba un golpe de más** cuando el que lo cerraba iba bloqueado. El golpe
+  final sólo cuenta si el rival está encajándolo (estado `0x0E`).
+- **Una ronda sin cierre se comía la siguiente** en la línea de tiempo. Ahora se cierra
+  al empezar la siguiente y se marca `sin_cierre`.
+- En móvil la tabla de estadísticas se salía unos píxeles por el lado.
 
 ## 2026-09-17
 

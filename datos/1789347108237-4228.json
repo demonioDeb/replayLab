@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 4,
  "quark": "1789347108237-4228",
  "carpeta": "20260915_DJILK-SF2TV_vs_Fromo_1789347108237-4228",
  "juego": "ssf2xjr1",
@@ -16,7 +16,15 @@
    "rango": 5,
    "rango_letra": "A",
    "personaje": "O. Sagat",
-   "clave": "sagat"
+   "clave": "sagat",
+   "personajes": [
+    "O. Sagat"
+   ],
+   "claves": [
+    "sagat"
+   ],
+   "swaps": 0,
+   "super": "Tiger Genocide"
   },
   {
    "nombre": "Fromo",
@@ -24,7 +32,15 @@
    "rango": 5,
    "rango_letra": "A",
    "personaje": "Blanka",
-   "clave": "blanka"
+   "clave": "blanka",
+   "personajes": [
+    "Blanka"
+   ],
+   "claves": [
+    "blanka"
+   ],
+   "swaps": 0,
+   "super": "Ground Shave Roll"
   }
  ],
  "marcador": [
@@ -148,7 +164,34 @@
      "combo": 0,
      "hits": 19
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     279,
+     430
+    ],
+    "combos": [
+     0,
+     4
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     2
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 120
+   }
   },
   {
    "n": 2,
@@ -238,7 +281,34 @@
      "combo": 0,
      "hits": 16
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     213,
+     288
+    ],
+    "combos": [
+     0,
+     1
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 102
+   }
   },
   {
    "n": 3,
@@ -355,7 +425,34 @@
      "combo": 0,
      "hits": 21
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     363,
+     408
+    ],
+    "combos": [
+     1,
+     2
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 164
+   }
   },
   {
    "n": 4,
@@ -445,7 +542,34 @@
      "combo": 0,
      "hits": 16
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     248,
+     288
+    ],
+    "combos": [
+     0,
+     2
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 99
+   }
   },
   {
    "n": 5,
@@ -535,7 +659,34 @@
      "combo": 0,
      "hits": 16
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     288,
+     176
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 123
+   }
   },
   {
    "n": 6,
@@ -652,7 +803,34 @@
      "combo": 0,
      "hits": 17
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     219,
+     414
+    ],
+    "combos": [
+     0,
+     2
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 120
+   }
   }
  ],
  "momentos": [
@@ -835,6 +1013,17 @@
  ],
  "stats": [
   {
+   "meter_full": 0,
+   "stun_frames": 497,
+   "stun_peor": 122,
+   "mareado_veces": 5,
+   "dur_sum": 293,
+   "pelea_rapida": 123,
+   "swaps": 0,
+   "emu_dmg": 1610,
+   "emu_hits": 141,
+   "emu_throws": 3,
+   "emu_blocked": 2,
    "rondas": 5,
    "rondas_jugadas": 15,
    "ko": 5,
@@ -855,11 +1044,24 @@
    "racha": 3,
    "vida_al_ganar": 21,
    "dano_medio": 11.0,
-   "dano_barras": 11.18,
-   "recibido_barras": 13.92,
-   "combo_dano_barras": 0.25
+   "dur_avg": 59,
+   "stun_seg": 8.3,
+   "stun_peor_seg": 2.0,
+   "emu_dano_barras": 11.18,
+   "vida_perdida_ronda": 93
   },
   {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 435,
+   "pelea_rapida": 99,
+   "swaps": 0,
+   "emu_dmg": 2004,
+   "emu_hits": 105,
+   "emu_throws": 23,
+   "emu_blocked": 5,
    "rondas": 10,
    "rondas_jugadas": 15,
    "ko": 10,
@@ -880,6 +1082,11 @@
    "racha": 4,
    "vida_al_ganar": 38,
    "dano_medio": 15.1,
+   "dur_avg": 44,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "emu_dano_barras": 13.92,
+   "vida_perdida_ronda": 75,
    "dano_barras": 13.92,
    "recibido_barras": 11.18,
    "combo_dano_barras": 0.49

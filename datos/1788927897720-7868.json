@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 4,
  "quark": "1788927897720-7868",
  "carpeta": "20260915_mrcarabano_vs_yito2k_1788927897720-7868",
  "juego": "ssf2xjr1",
@@ -16,7 +16,15 @@
    "rango": 4,
    "rango_letra": "B",
    "personaje": "Guile",
-   "clave": "guile"
+   "clave": "guile",
+   "personajes": [
+    "Guile"
+   ],
+   "claves": [
+    "guile"
+   ],
+   "swaps": 0,
+   "super": "Double Somersault"
   },
   {
    "nombre": "_yito2k_",
@@ -24,7 +32,15 @@
    "rango": 5,
    "rango_letra": "A",
    "personaje": "Dhalsim",
-   "clave": "dhalsim"
+   "clave": "dhalsim",
+   "personajes": [
+    "Dhalsim"
+   ],
+   "claves": [
+    "dhalsim"
+   ],
+   "swaps": 0,
+   "super": "Yoga Inferno"
   }
  ],
  "marcador": [
@@ -148,7 +164,34 @@
      "combo": 0,
      "hits": 40
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     257,
+     429
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     2
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 166
+   }
   },
   {
    "n": 2,
@@ -238,7 +281,34 @@
      "combo": 0,
      "hits": 20
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     142,
+     288
+    ],
+    "combos": [
+     0,
+     4
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     2
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 72
+   }
   },
   {
    "n": 3,
@@ -328,7 +398,34 @@
      "combo": 0,
      "hits": 21
     }
-   ]
+   ],
+   "resumen": {
+    "dano": [
+     137,
+     288
+    ],
+    "combos": [
+     0,
+     2
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 84
+   }
   }
  ],
  "momentos": [
@@ -415,6 +512,17 @@
  ],
  "stats": [
   {
+   "meter_full": 0,
+   "stun_frames": 371,
+   "stun_peor": 105,
+   "mareado_veces": 4,
+   "dur_sum": 63,
+   "pelea_rapida": 0,
+   "swaps": 0,
+   "emu_dmg": 536,
+   "emu_hits": 37,
+   "emu_throws": 0,
+   "emu_blocked": 2,
    "rondas": 1,
    "rondas_jugadas": 7,
    "ko": 1,
@@ -435,11 +543,24 @@
    "racha": 1,
    "vida_al_ganar": 2,
    "dano_medio": 13.4,
-   "dano_barras": 3.72,
-   "recibido_barras": 6.98,
-   "combo_dano_barras": 0.0
+   "dur_avg": 63,
+   "stun_seg": 6.2,
+   "stun_peor_seg": 1.8,
+   "emu_dano_barras": 3.72,
+   "vida_perdida_ronda": 100
   },
   {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 259,
+   "pelea_rapida": 72,
+   "swaps": 0,
+   "emu_dmg": 1005,
+   "emu_hits": 81,
+   "emu_throws": 5,
+   "emu_blocked": 0,
    "rondas": 6,
    "rondas_jugadas": 7,
    "ko": 6,
@@ -460,6 +581,11 @@
    "racha": 6,
    "vida_al_ganar": 54,
    "dano_medio": 11.7,
+   "dur_avg": 43,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "emu_dano_barras": 6.98,
+   "vida_perdida_ronda": 53,
    "dano_barras": 6.98,
    "recibido_barras": 3.72,
    "combo_dano_barras": 0.25
