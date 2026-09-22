@@ -1,4 +1,36 @@
 {
- "actualizado": "2026-09-22 21:22",
- "videos": []
+ "actualizado": "2026-09-22 22:16",
+ "videos": [
+  {
+   "quark": "1675826442557-1668",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2023-02-08",
+   "youtube": null,
+   "duracion": 834.5,
+   "marcador": [
+    3,
+    5
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "SuperrV",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Balrog",
+     "clave": "boxer"
+    },
+    {
+     "nombre": "_yito2k_",
+     "pais": "mx",
+     "rango_letra": "S",
+     "personaje": "Dhalsim",
+     "clave": "dhalsim"
+    }
+   ],
+   "rondas": 21
+  }
+ ]
 }
