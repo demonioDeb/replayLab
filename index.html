@@ -25,6 +25,7 @@
   </div>
   <div id="lista" class="lista"></div>
   <div id="vacio" class="vacio" hidden></div>
+  <div id="apoyo"></div>
 </main>
 
 <footer class="wrap" id="pie"></footer>
@@ -140,6 +141,7 @@ function pinta() {
   $("#lema").textContent = T("lema");
   $("#buscar").placeholder = T("buscar");
   pintaPie($("#pie"));
+  pintaApoyo();
   $("#vistas").innerHTML = VISTAS.map(([k, t, d]) =>
     `<button data-v="${k}" aria-pressed="${VISTA === k}" title="${esc(T(t))}" aria-label="${esc(T(t))}">
        <svg viewBox="0 0 24 24"><path d="${d}"/></svg></button>`).join("");

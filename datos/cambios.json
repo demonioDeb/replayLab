@@ -5,6 +5,21 @@
    "fecha": "2026-09-22",
    "cambios": [
     {
+     "t": "añadido",
+     "es": "Sección de apoyo al proyecto: el enlace del café estaba escondido en el pie y ahora es una sección de verdad, en la portada y al final de cada ficha. Va después de las estadísticas, para no estorbar la lectura.",
+     "en": "Support section: the coffee link was buried in the footer and is now a proper section, on the home page and at the end of every match page. It sits after the stats so it does not get in the way."
+    },
+    {
+     "t": "arreglado",
+     "es": "El daño del jugador 1 salía vacío en todas las fichas. Un bucle reutilizaba la variable del bucle anterior, así que las tres cifras en barras se escribían dos veces en el jugador 2 y ninguna en el 1.",
+     "en": "Player 1's damage was blank on every match page. A loop was reusing the previous loop's variable, so the three life-bar figures were written twice onto player 2 and never onto player 1."
+    },
+    {
+     "t": "cambiado",
+     "es": "Título y descripción de YouTube salen de una plantilla con variables, no escritos a mano. Si un dato no se sabe, la línea entera no se escribe; y si un apartado se queda sin ninguna línea, se va el apartado con su titulillo.",
+     "en": "YouTube titles and descriptions now come from a template with variables, not hand-written text. A line whose value is unknown is dropped, and a heading left with nothing under it is dropped with it."
+    },
+    {
      "t": "hallazgo",
      "es": "La barra de aturdimiento delata el golpe: sube exactamente 1 frame después de un golpe que conecta, no se mueve con uno bloqueado y se queda quieta en los agarres. Con eso ya se puede decir, sin adivinar, qué golpes entraron, cuáles se bloquearon y quién pegó primero.",
      "en": "The stun meter gives the hit away: it rises exactly 1 frame after a hit that connects, does not move on a blocked one, and stays still on throws. That is enough to tell, without guessing, which hits landed, which were blocked and who hit first."

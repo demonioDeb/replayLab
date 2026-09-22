@@ -17,6 +17,11 @@ que se hizo el cambio, no las de publicación.
   sobre cualquier grabación que la lleve.
 
 ### Añadido
+- **Sección «Invítame un café»** (`bloqueApoyo()` en `app.js`, `.apoyo` en el CSS): el
+  enlace estaba sólo en el pie y no lo veía nadie. Ahora es una sección con su texto,
+  su botón y su nota de gracias, en la portada y al final de cada ficha —después de las
+  estadísticas, nunca en medio. Sale sólo si `datos/sitio.json` trae la donación activa,
+  así que se apaga desde ahí sin tocar HTML. Texto en los seis idiomas.
 - **Sección de defensa** en la ficha: golpes que conectaron, golpes que le bloquearon,
   golpes que bloqueó, porcentaje de bloqueo y quién pegó primero. Sólo se pinta si
   `stats[0].verificado`; en las grabaciones anteriores a la sonda no aparece, ni vacía.
@@ -30,6 +35,16 @@ que se hizo el cambio, no las de publicación.
   sale en el pie en cuanto se pone `activo: true`.
 
 ### Cambiado
+- **Título y descripción de YouTube salen de una plantilla**, en `config.toml`
+  (`[youtube] titulo` y `descripcion`), no de código. Variables: `PLAYER1/2`, `CHAR1/2`,
+  `SCORE1/2`, `ROUNDS1/2`, `DAMAGE1/2`, `COMBOS1/2`, `SUPERS1/2`, `PERFECTS1/2`,
+  `DIZZY1/2`, `DURATION`, `GAME`, `GAME_SHORT`, `GAME_FULL`, `DATE`, `FLAG1/2`,
+  `COUNTRY1/2`, `CAPITULOS`, `WEB`. Una línea cuyo dato no se sabe **no se escribe**, y
+  un apartado que se queda sin ninguna línea se va entero con su titulillo: nada de
+  ceros que se leen como si fueran un dato.
+- **`grabar` publica el sitio una sola vez.** La ficha se escribía al terminar el
+  post-proceso (sin el id de YouTube todavía) y otra vez después de subir: dos commits
+  por grabación. Ahora la primera sólo escribe y la segunda publica.
 - Vuelven al sitio las siete grabaciones que se habían apartado.
 - **La ficha se reorganiza en diez secciones** con un navegador fijo: el set, peleas,
   daño, combos, súpers, mareos, tiempo, defensa, personajes y datos del emulador. Lo que
@@ -41,6 +56,10 @@ que se hizo el cambio, no las de publicación.
   estadísticas antes que historial.
 
 ### Arreglado
+- **El daño del jugador 1 salía vacío en todas las fichas.** En `web.py`, el bucle que
+  calcula las barras reutilizaba la `s` del bucle anterior, que había quedado apuntando
+  al jugador 2: `dano_barras`, `recibido_barras` y `combo_dano_barras` se escribían dos
+  veces en el 2 y nunca en el 1. Ahora `s = st[i]`.
 - **El daño de una ronda podía pasar del 100 %** (145 de 144): el golpe que remata
   restaba uno de más, porque la vida pasa de 0 a -1 y eso no es daño.
 - **Un doble KO dejaba la ronda sin cerrar**, y eso arrastraba súpers fantasma a la

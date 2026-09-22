@@ -373,7 +373,10 @@
    "stun_seg": 6.9,
    "stun_peor_seg": 2.5,
    "emu_dano_barras": 1.61,
-   "vida_perdida_ronda": 100
+   "vida_perdida_ronda": 100,
+   "dano_barras": 1.61,
+   "recibido_barras": 4.0,
+   "combo_dano_barras": 0.0
   },
   {
    "meter_full": 0,

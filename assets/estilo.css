@@ -297,6 +297,26 @@ section{scroll-margin-top:118px}
 .dfila .t i.g2{background:linear-gradient(90deg,#06496b,var(--p2))}
 .dfila .t i.g0{background:linear-gradient(90deg,#7a6210,var(--gold))}
 .dfila .v{font:600 13px/1 var(--mono);color:var(--soft);text-align:right}
+/* ------------------------------------------------- invítame un café
+   Estaba sólo en el pie y no lo veía nadie. Aquí es una sección de verdad, pero con
+   freno: viene DESPUÉS de las estadísticas, no interrumpe la lectura, y el dorado es
+   el único color caliente de la página, así que llama sin gritar. */
+.apoyo{margin:34px 0 0;padding:22px 24px;border:1px solid var(--line2);border-radius:14px;
+  background:linear-gradient(180deg,var(--panel2),var(--panel));
+  box-shadow:inset 0 1px 0 rgba(255,203,69,.10);position:relative;overflow:hidden}
+.apoyo::before{content:"";position:absolute;inset:0 0 auto;height:2px;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:.7}
+.apoyo h2{font-size:20px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);
+  margin-bottom:12px}
+.apoyo p{color:var(--soft);font-size:15.5px;max-width:74ch;margin-bottom:9px}
+.apoyo .cafe-btn{display:inline-block;margin:10px 0 8px;padding:11px 22px;border-radius:999px;
+  font-weight:700;font-size:16px;letter-spacing:.5px;color:#241a00;text-decoration:none;
+  background:linear-gradient(180deg,#ffd869,var(--gold));border:1px solid #b8892a;
+  box-shadow:0 2px 0 #8a6414,0 6px 18px rgba(255,203,69,.22);transition:transform .08s,box-shadow .12s}
+.apoyo .cafe-btn:hover{transform:translateY(-1px);box-shadow:0 3px 0 #8a6414,0 9px 22px rgba(255,203,69,.32)}
+.apoyo .cafe-btn:active{transform:translateY(1px);box-shadow:0 1px 0 #8a6414}
+.apoyo .gracias{color:var(--dim);font-size:13px;margin:0}
+
 footer{color:var(--dim);font-size:13px;padding:28px 0 40px;border-top:1px solid var(--line);
   margin-top:34px;display:flex;gap:14px;flex-wrap:wrap}
 footer a:hover{color:var(--ink)}
@@ -311,6 +331,10 @@ footer a:hover{color:var(--ink)}
   .rfila{grid-template-columns:58px 1fr;gap:8px}
   .rfila .como,.rfila .dur,.rfila .sellos{grid-column:2;justify-content:flex-start;text-align:left}
   .pista .et{width:66px;font-size:11px}
+  .apoyo{padding:18px 16px;margin-top:26px}
+  .apoyo h2{font-size:18px}
+  .apoyo p{font-size:15px}
+  .apoyo .cafe-btn{display:block;text-align:center}
   .st td.ia,.st td.ib{display:none}
   .st td.k{width:auto}
   /* En movil la tabla se desbordaba unos pixeles: nombres que no parten y
