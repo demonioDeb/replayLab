@@ -1,10 +1,9 @@
 {
  "_nota": "Ajustes del sitio que no dependen de ninguna grabación. Se edita a mano.",
  "donacion": {
-  "activo": false,
-  "servicio": "Ko-fi",
-  "url": "https://ko-fi.com/TU-USUARIO",
-  "_como": "Crea la cuenta en ko-fi.com, pon aquí tu enlace y cambia activo a true."
+  "activo": true,
+  "servicio": "Buy Me a Coffee",
+  "url": "https://buymeacoffee.com/replayLab"
  },
  "canal": "https://www.youtube.com/@replayLab-b4i"
 }
