@@ -1,0 +1,7 @@
+# Windows escribe los .json con CRLF y el repo los guarda con LF, asi que despues de
+# cada "python -m fcrec web" git marcaba las nueve fichas como modificadas sin que
+# hubiera cambiado ni un dato. Con esto git normaliza al entrar y al salir, y se acabo.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.ico binary
