@@ -1,0 +1,134 @@
+{
+ "version": 2,
+ "quark": "1789480549416-7315",
+ "carpeta": "20260922_potato-kids_vs_Snoopy_Lsc_1789480549416-7315",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "fecha": "2026-09-15",
+ "youtube": null,
+ "titulo": "SSF2X · potato-kids 🇮🇳 vs Snoopy&Lsc 🇭🇰 · Fightcade",
+ "ft": 3,
+ "jugadores": [
+  {
+   "nombre": "potato-kids",
+   "pais": "in",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Vega",
+   "clave": "claw"
+  },
+  {
+   "nombre": "Snoopy&Lsc",
+   "pais": "hk",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "E. Honda",
+   "clave": "honda"
+  }
+ ],
+ "marcador": [
+  0,
+  0
+ ],
+ "duracion": null,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 5.07,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 5.07,
+     "ganador": null,
+     "motivo": null,
+     "duracion": null,
+     "perfect": false,
+     "dano": [
+      79,
+      107
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": null,
+     "remontada": 0,
+     "sin_cierre": true,
+     "fin": null
+    }
+   ],
+   "ganador": null,
+   "marcador": null,
+   "personajes": [
+    "Vega",
+    "E. Honda"
+   ],
+   "claves": [
+    "claw",
+    "honda"
+   ]
+  }
+ ],
+ "momentos": [],
+ "stats": [
+  {
+   "rondas": 0,
+   "rondas_jugadas": 0,
+   "ko": 0,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 79,
+   "recibido": 107,
+   "golpes": 4,
+   "agarres": 1,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 0,
+   "al_limite": 0,
+   "remontada": 0,
+   "racha": 0,
+   "vida_al_ganar": null,
+   "dano_medio": 19.8,
+   "dano_barras": 0.55,
+   "recibido_barras": 0.74,
+   "combo_dano_barras": 0.0
+  },
+  {
+   "rondas": 0,
+   "rondas_jugadas": 0,
+   "ko": 0,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 107,
+   "recibido": 79,
+   "golpes": 5,
+   "agarres": 0,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 0,
+   "al_limite": 0,
+   "remontada": 0,
+   "racha": 0,
+   "vida_al_ganar": null,
+   "dano_medio": 21.4,
+   "dano_barras": 0.74,
+   "recibido_barras": 0.55,
+   "combo_dano_barras": 0.0
+  }
+ ]
+}
