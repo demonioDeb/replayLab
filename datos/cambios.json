@@ -5,6 +5,11 @@
    "fecha": "2026-09-22",
    "cambios": [
     {
+     "t": "cambiado",
+     "es": "Sitio vaciado para empezar de cero. Las nueve grabaciones que había eran pruebas de desarrollo, hechas antes de arreglar los combos, el KO por debajo de cero y el doble KO: sus números no eran de fiar. Los vídeos siguen en el disco, sólo marcados como descartados.",
+     "en": "The site was emptied to start clean. The nine recordings it had were development tests, made before combos, sub-zero KO and double KO were fixed, so their numbers were not trustworthy. The videos are still on disk, just marked as discarded."
+    },
+    {
      "t": "añadido",
      "es": "Sección de apoyo al proyecto: el enlace del café estaba escondido en el pie y ahora es una sección de verdad, en la portada y al final de cada ficha. Va después de las estadísticas, para no estorbar la lectura.",
      "en": "Support section: the coffee link was buried in the footer and is now a proper section, on the home page and at the end of every match page. It sits after the stats so it does not get in the way."
