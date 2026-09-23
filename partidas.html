@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Partidas · replayLab</title>
+<meta name="description" content="Todas las partidas analizadas en Replay Lab, por juego.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🎮</text></svg>">
+<link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+<header id="cabsitio"></header>
+
+<main class="wrap">
+  <div class="intro">
+    <div><h1 id="titulo"></h1><p id="sub"></p></div>
+    <span class="cuenta" id="cuenta"></span>
+  </div>
+  <!-- filtro por juego: con un solo juego queda en una chapa pequeña -->
+  <div class="filtro-juegos" id="filtro" role="group"></div>
+  <div class="barra-lista">
+    <input id="buscar" type="search" autocomplete="off">
+    <div class="vistas" id="vistas" role="group"></div>
+    <select id="orden" aria-label="orden"></select>
+  </div>
+  <div id="lista" class="lista"></div>
+  <div id="vacio" class="vacio" hidden></div>
+</main>
+
+<footer class="wrap" id="pie"></footer>
+
+<script src="assets/app.js"></script>
+<script src="assets/lista.js"></script>
+<script>
+"use strict";
+let INDICE = { videos: [] };
+let VISTA = recordado("vista", "miniaturas");
+let ORDEN = recordado("orden", "fecha");
+let DESC = true;
+// el juego viene por la URL (partidas.html?juego=ssf2x) para que el filtro se pueda enlazar
+let FILTRO = Q.get("juego") || "";
+
+function pintaFiltro(todas) {
+  // sólo los juegos activos que tienen alguna partida; "todos" delante
+  const conPartidas = juegosActivos().filter(j => todas.some(v => juegoDe(v) === j));
+  const el = $("#filtro");
+  el.classList.toggle("unico", conPartidas.length <= 1);
+  const chip = (id, texto, n) =>
+    `<button data-j="${esc(id)}" aria-pressed="${FILTRO === id}">${esc(texto)}<span class="n">${n}</span></button>`;
+  el.innerHTML = chip("", T("p_todos"), todas.length) +
+    conPartidas.map(j => chip(j.id, j.nombre, todas.filter(v => juegoDe(v) === j).length)).join("");
+}
+
+function pinta() {
+  document.documentElement.lang = LANG;
+  textosCabecera(); pintaPie();
+  $("#titulo").textContent = T("n_partidas");
+  $("#sub").textContent = T("h_texto");
+  $("#buscar").placeholder = T("buscar");
+  $("#vistas").innerHTML = VISTAS.map(([k, t, d]) =>
+    `<button data-v="${k}" aria-pressed="${VISTA === k}" title="${esc(T(t))}" aria-label="${esc(T(t))}">
+       <svg viewBox="0 0 24 24"><path d="${d}"/></svg></button>`).join("");
+  $("#orden").innerHTML = ORDENES.map(([k, t]) =>
+    `<option value="${k}"${ORDEN === k ? " selected" : ""}>${esc(T("orden"))}: ${esc(T(t))}</option>`).join("");
+
+  const todas = INDICE.videos || [];
+  pintaFiltro(todas);
+  CHAPA_JUEGO = variosJuegos(todas) && !FILTRO;
+  const q = $("#buscar").value.trim().toLowerCase();
+  const lista = ordenaLista(todas.filter(v =>
+      (!FILTRO || (juegoDe(v) || {}).id === FILTRO) && casaBusqueda(v, q)), ORDEN, DESC);
+  $("#cuenta").textContent = `${lista.length} ${pl(lista.length, "u_partida", "u_partidas")}`;
+  pintaLista($("#lista"), lista, VISTA, ORDEN, DESC);
+  const vacio = $("#vacio");
+  vacio.hidden = lista.length > 0;
+  // con un juego elegido y sin búsqueda, "no coincide" confunde: es que aún no hay
+  vacio.textContent = !todas.length ? T("sin_videos") : (FILTRO && !q ? T("g_sin") : T("sin_resultados"));
+}
+
+montaCabecera("partidas", pinta);
+$("#buscar").addEventListener("input", pinta);
+$("#orden").addEventListener("change", e => { ORDEN = e.target.value; recuerda("orden", ORDEN); pinta(); });
+$("#vistas").addEventListener("click", e => {
+  const b = e.target.closest("button[data-v]");
+  if (!b) return;
+  VISTA = b.dataset.v; recuerda("vista", VISTA); pinta();
+});
+$("#filtro").addEventListener("click", e => {
+  const b = e.target.closest("button[data-j]");
+  if (!b) return;
+  FILTRO = b.dataset.j;
+  // la URL refleja el filtro, así se puede compartir o volver atrás
+  const u = new URL(location.href);
+  if (FILTRO) u.searchParams.set("juego", FILTRO); else u.searchParams.delete("juego");
+  history.replaceState(null, "", u);
+  pinta();
+});
+// en la vista de detalles los encabezados ordenan, como en el explorador
+$("#lista").addEventListener("click", e => {
+  const th = e.target.closest("th[data-ord]");
+  if (!th) return;
+  const k = th.dataset.ord;
+  if (k === ORDEN) DESC = !DESC; else { ORDEN = k; DESC = true; }
+  recuerda("orden", ORDEN); pinta();
+});
+
+pinta();
+Promise.all([cargaBase(), json("datos/indice.json").then(d => { INDICE = d; }).catch(() => {})])
+  .then(pinta);
+</script>
+</body>
+</html>

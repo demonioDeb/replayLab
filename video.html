@@ -8,14 +8,11 @@
 <link rel="stylesheet" href="assets/estilo.css">
 </head>
 <body>
-<header><div class="wrap hrow">
-  <a class="logo" href="./">🎮 replay<b>Lab</b></a>
-  <span class="sp"></span>
-  <select id="idioma" aria-label="idioma"></select>
-</div></header>
+<header id="cabsitio"></header>
 
 <main class="wrap">
-  <a class="volver" href="./">← <span id="tvolver"></span></a>
+  <!-- Inicio › Juegos › el juego › la partida -->
+  <nav class="miga" id="miga" aria-label="breadcrumb"></nav>
   <div id="cuerpo">
     <p class="vacio" id="cargando"></p>
     <div id="cab"></div>
@@ -318,8 +315,8 @@ function navegacion() {
 
 function pinta() {
   document.documentElement.lang = LANG;
-  $("#tvolver").textContent = T("volver");
-  pintaPie($("#pie"));
+  textosCabecera(); pintaPie();
+  pintaMiga();
   pintaApoyo();
   if (!F) { $("#cargando").textContent = T("no_existe"); return; }
   $("#cargando").hidden = true;
@@ -363,10 +360,21 @@ $("#cuerpo").addEventListener("click", e => {
   if (salto) salta(parseFloat(salto.dataset.t));
 });
 
-montaIdiomas($("#idioma"), pinta);
+// La miga de pan: se sabe de qué juego es la partida por su gameid (datos/juegos.json).
+function pintaMiga() {
+  const el = $("#miga");
+  if (!F) { el.innerHTML = `<a href="./">${esc(T("n_inicio"))}</a>`; return; }
+  const j = juegoDe(F);
+  const [a, b] = F.jugadores || [{}, {}];
+  el.innerHTML = `<a href="./">${esc(T("n_inicio"))}</a><span>›</span>
+    <a href="juegos.html">${esc(T("n_juegos"))}</a><span>›</span>
+    ${j ? `<a href="${hrefJuego(j)}">${esc(j.corto)}</a><span>›</span>` : ""}
+    <b>${esc(a.nombre || "")} vs ${esc(b.nombre || "")}</b>`;
+}
+montaCabecera("partidas", pinta);
 $("#cargando").textContent = T("cargando");
 const quark = (Q.get("q") || "").replace(/[^0-9A-Za-z_-]/g, "");
-cargaSitio(pinta);
+cargaBase(pinta);
 json(`datos/${quark}.json`).then(d => { F = d; pinta(); }).catch(() => { F = null; pinta(); });
 </script>
 </body>

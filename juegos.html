@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Juegos · replayLab</title>
+<meta name="description" content="Los juegos de pelea que analiza Replay Lab.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🎮</text></svg>">
+<link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+<header id="cabsitio"></header>
+
+<main class="wrap">
+  <div class="intro"><div><h1 id="titulo"></h1><p id="sub"></p></div></div>
+
+  <!-- Replay Lab es sólo de juegos de pelea: la familia se nombra una vez, discreta,
+       y debajo van los juegos. No hay más categorías porque no hay más géneros. -->
+  <section class="bloque">
+    <div class="bloque-cab"><h2 class="familia" id="t-pelea"></h2></div>
+    <div class="rejilla-juegos" id="activos"></div>
+  </section>
+
+  <section class="bloque" id="b-prox" hidden>
+    <div class="bloque-cab"><h2 class="familia tenue" id="t-prox"></h2></div>
+    <div class="rejilla-juegos" id="prox"></div>
+  </section>
+</main>
+
+<footer class="wrap" id="pie"></footer>
+
+<script src="assets/app.js"></script>
+<script src="assets/lista.js"></script>
+<script>
+"use strict";
+let INDICE = { videos: [] };
+
+function pinta() {
+  document.documentElement.lang = LANG;
+  textosCabecera(); pintaPie();
+  $("#titulo").textContent = T("n_juegos");
+  $("#sub").textContent = T("j_sub");
+  $("#t-pelea").textContent = "🥊 " + T("j_pelea");
+  $("#t-prox").textContent = T("j_prox");
+  const todas = INDICE.videos || [];
+  $("#activos").innerHTML = juegosActivos().map(j => tarjetaJuego(j, todas)).join("");
+  const prox = JUEGOS.filter(j => j.estado === "proximamente");
+  $("#b-prox").hidden = !prox.length;
+  $("#prox").innerHTML = prox.map(j => tarjetaJuego(j, todas)).join("");
+}
+
+montaCabecera("juegos", pinta);
+pinta();
+Promise.all([cargaBase(), json("datos/indice.json").then(d => { INDICE = d; }).catch(() => {})])
+  .then(pinta);
+</script>
+</body>
+</html>

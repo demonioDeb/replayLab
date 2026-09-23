@@ -1,0 +1,26 @@
+{
+ "_nota": "Registro de juegos de replayLab. Se edita a mano. Replay Lab es SOLO de juegos de pelea. Para incorporar un juego: se añade aquí con estado 'activo' y sus gameids de Fightcade; la web lo recoge sola. Las partidas se asignan a un juego por su gameid.",
+ "juegos": [
+  {
+   "id": "ssf2x",
+   "nombre": "Super Street Fighter II X",
+   "subtitulo": "Grand Master Challenge",
+   "corto": "SSF2X",
+   "gameids": ["ssf2xjr1", "ssf2xj", "ssf2t"],
+   "anio": 1994,
+   "compania": "Capcom",
+   "retrato": "ryu",
+   "estado": "activo"
+  },
+  {
+   "id": "sfiii3",
+   "nombre": "Street Fighter III 3rd Strike",
+   "subtitulo": "Fight for the Future",
+   "corto": "3S",
+   "gameids": ["sfiii3nr1", "sfiii3"],
+   "anio": 1999,
+   "compania": "Capcom",
+   "estado": "proximamente"
+  }
+ ]
+}

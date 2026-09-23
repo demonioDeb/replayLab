@@ -31,6 +31,22 @@ const I18N = {
     st_limite: "Ganadas al límite", st_remontada: "Mayor remontada",
     pie_hecho: "Hecho con fcrec", pie_fuente: "Código",
     cargando: "Cargando…", no_existe: "No encuentro ese vídeo.",
+    u_partida: "partida", u_pelea: "pelea", u_peleas: "peleas", ap_procesada: "partida procesada",
+    n_inicio: "Inicio", n_partidas: "Partidas", n_juegos: "Juegos", n_canal: "Canal",
+    n_cambios: "Changelog", n_apoya: "Apoya el proyecto", n_github: "GitHub", n_menu: "Menú",
+    pie_indep: "Proyecto independiente", h_titulo: "Análisis de partidas de juegos de pelea", h_texto: "Replays de Fightcade grabados, con cada ronda, combo y súper leídos directamente del juego.", h_ver: "Ver partidas",
+    h_juegos: "Juegos que analizamos", h_ultimas: "Últimas partidas", h_todas: "Ver todas", j_sub: "Replay Lab analiza juegos de pelea. Cada juego tiene su propio espacio.",
+    j_pelea: "Juegos de pelea", j_disp: "Disponible", j_prox: "Próximamente", j_entrar: "Entrar",
+    u_partidas: "partidas", g_jugadores: "Jugadores", g_stats: "Estadísticas", g_analisis: "Ver análisis",
+    g_jugadas: "Partidas jugadas", g_ganadas: "Peleas ganadas", g_tiempo: "Tiempo de juego", g_njug: "Jugadores distintos",
+    g_npers: "Personajes usados", g_apar: "Apariciones", g_sin: "Todavía no hay partidas de este juego.", g_noexiste: "Ese juego no está en Replay Lab.",
+    p_todos: "Todos los juegos", ap_intro: "Replay Lab es un proyecto independiente. Cada partida que ves aquí se grabó, se procesó y se publicó en un equipo propio.", ap_cuesta: "Lo que cuesta mantenerlo", ap_c1: "Procesamiento: grabar y analizar cada replay",
+    ap_c2: "Almacenamiento: vídeos y datos de cada partida", ap_c3: "Internet: subir los vídeos y servir la web", ap_c4: "Electricidad: horas de grabación y de proceso", ap_c5: "Mantenimiento: que todo siga funcionando",
+    ap_c6: "Desarrollo: nuevas estadísticas y funciones", ap_c7: "Nuevos juegos: descifrar cómo guarda cada juego sus datos", ap_progreso: "Progreso de Replay Lab", ap_procesadas: "partidas procesadas",
+    ap_siguiente: "Siguiente hito", ap_proximo: "Próximo objetivo del proyecto", ap_incorporar: "Incorporar %s", ap_logros: "Logros de Replay Lab",
+    ap_logros_sub: "Los logros son del proyecto, no de quien lo apoya. Se desbloquean solos, con los datos reales del sitio.", ap_ok: "Conseguido", ap_no: "Por conseguir", ap_compacto: "Replay Lab es independiente. Si te sirve, puedes apoyarlo.",
+    ap_como: "Cómo ayuda", l_primero: "Primer replay procesado", l_n: "%s partidas analizadas", l_rondas: "%s rondas analizadas",
+    l_juego1: "Primer juego incorporado", l_juego2: "Segundo juego incorporado",
   },
   en: {
     "s_set": "The set", "s_peleas": "Matches", "s_dano": "Damage", "s_combos": "Combos", "s_supers": "Supers", "s_mareos": "Dizzies", "s_tiempo": "Time", "s_pers": "Characters", "s_emu": "Emulator", "s_def": "Defence", "st_winpct": "Win rate", "st_peleapida": "Fastest match", "st_vidaperd": "Health lost per round", "st_duravg": "Round length", "st_meterfull": "Times the meter filled", "st_supernom": "Their super", "st_stuntime": "Time dizzy", "st_stunpeor": "Longest dizzy", "st_dizzies": "Dizzies they caused", "st_mareado": "Times they were dizzied", "st_swaps": "Character switches", "st_conect": "Hits that landed", "st_bloq": "Hits that got blocked", "st_bloqueo": "Hits they blocked", "st_defensa": "Blocked", "st_primero": "First hit", "emu_nota": "Figures reported by the emulator itself, not computed by replayLab", "dur_rondas": "Length of each round", "nada_aqui": "No data in this recording",
@@ -59,6 +75,22 @@ const I18N = {
     st_limite: "Won on the edge", st_remontada: "Biggest comeback",
     pie_hecho: "Made with fcrec", pie_fuente: "Source",
     cargando: "Loading…", no_existe: "I can't find that video.",
+    u_partida: "match", u_pelea: "game", u_peleas: "games", ap_procesada: "match processed",
+    n_inicio: "Home", n_partidas: "Matches", n_juegos: "Games", n_canal: "Channel",
+    n_cambios: "Changelog", n_apoya: "Support the project", n_github: "GitHub", n_menu: "Menu",
+    pie_indep: "Independent project", h_titulo: "Fighting game match analysis", h_texto: "Fightcade replays, recorded, with every round, combo and super read straight from the game.", h_ver: "Browse matches",
+    h_juegos: "Games we analyse", h_ultimas: "Latest matches", h_todas: "See all", j_sub: "Replay Lab analyses fighting games. Each game has its own space.",
+    j_pelea: "Fighting games", j_disp: "Available", j_prox: "Coming soon", j_entrar: "Open",
+    u_partidas: "matches", g_jugadores: "Players", g_stats: "Stats", g_analisis: "View analysis",
+    g_jugadas: "Matches played", g_ganadas: "Fights won", g_tiempo: "Time played", g_njug: "Different players",
+    g_npers: "Characters used", g_apar: "Appearances", g_sin: "No matches for this game yet.", g_noexiste: "That game is not on Replay Lab.",
+    p_todos: "All games", ap_intro: "Replay Lab is an independent project. Every match you see here was recorded, processed and published on our own machine.", ap_cuesta: "What it takes to keep it running", ap_c1: "Processing: recording and analysing every replay",
+    ap_c2: "Storage: videos and data for every match", ap_c3: "Bandwidth: uploading videos and serving the site", ap_c4: "Power: hours of recording and processing", ap_c5: "Maintenance: keeping everything working",
+    ap_c6: "Development: new stats and features", ap_c7: "New games: working out how each game stores its data", ap_progreso: "Replay Lab progress", ap_procesadas: "matches processed",
+    ap_siguiente: "Next milestone", ap_proximo: "Next project goal", ap_incorporar: "Add %s", ap_logros: "Replay Lab milestones",
+    ap_logros_sub: "These milestones belong to the project, not to its supporters. They unlock on their own, from the site's real data.", ap_ok: "Unlocked", ap_no: "Locked", ap_compacto: "Replay Lab is independent. If it's useful to you, you can support it.",
+    ap_como: "How it helps", l_primero: "First replay processed", l_n: "%s matches analysed", l_rondas: "%s rounds analysed",
+    l_juego1: "First game added", l_juego2: "Second game added",
   },
   pt: {
     "s_set": "O set", "s_peleas": "Lutas", "s_dano": "Dano", "s_combos": "Combos", "s_supers": "Súpers", "s_mareos": "Atordoamentos", "s_tiempo": "Tempo", "s_pers": "Personagens", "s_emu": "Emulador", "s_def": "Defesa", "st_winpct": "Porcentagem", "st_peleapida": "Luta mais rápida", "st_vidaperd": "Vida perdida por round", "st_duravg": "Duração do round", "st_meterfull": "Vezes que encheu a barra", "st_supernom": "Seu súper", "st_stuntime": "Tempo atordoado", "st_stunpeor": "Atordoamento mais longo", "st_dizzies": "Atordoamentos que causou", "st_mareado": "Vezes que foi atordoado", "st_swaps": "Trocas de personagem", "st_conect": "Golpes acertados", "st_bloq": "Golpes bloqueados pelo rival", "st_bloqueo": "Golpes que bloqueou", "st_defensa": "Bloqueou", "st_primero": "Acertou primeiro", "emu_nota": "Dados do próprio emulador, não calculados pelo replayLab", "dur_rondas": "Duração de cada round", "nada_aqui": "Sem dados nesta gravação",
@@ -87,6 +119,22 @@ const I18N = {
     st_limite: "Vencidos no limite", st_remontada: "Maior virada",
     pie_hecho: "Feito com fcrec", pie_fuente: "Código",
     cargando: "Carregando…", no_existe: "Não encontro esse vídeo.",
+    u_partida: "partida", u_pelea: "luta", u_peleas: "lutas", ap_procesada: "partida processada",
+    n_inicio: "Início", n_partidas: "Partidas", n_juegos: "Jogos", n_canal: "Canal",
+    n_cambios: "Changelog", n_apoya: "Apoie o projeto", n_github: "GitHub", n_menu: "Menu",
+    pie_indep: "Projeto independente", h_titulo: "Análise de partidas de jogos de luta", h_texto: "Replays do Fightcade gravados, com cada round, combo e súper lidos direto do jogo.", h_ver: "Ver partidas",
+    h_juegos: "Jogos que analisamos", h_ultimas: "Últimas partidas", h_todas: "Ver todas", j_sub: "O Replay Lab analisa jogos de luta. Cada jogo tem seu próprio espaço.",
+    j_pelea: "Jogos de luta", j_disp: "Disponível", j_prox: "Em breve", j_entrar: "Entrar",
+    u_partidas: "partidas", g_jugadores: "Jogadores", g_stats: "Estatísticas", g_analisis: "Ver análise",
+    g_jugadas: "Partidas jogadas", g_ganadas: "Lutas vencidas", g_tiempo: "Tempo de jogo", g_njug: "Jogadores diferentes",
+    g_npers: "Personagens usados", g_apar: "Aparições", g_sin: "Ainda não há partidas deste jogo.", g_noexiste: "Esse jogo não está no Replay Lab.",
+    p_todos: "Todos os jogos", ap_intro: "O Replay Lab é um projeto independente. Cada partida que você vê aqui foi gravada, processada e publicada numa máquina própria.", ap_cuesta: "O que custa mantê-lo", ap_c1: "Processamento: gravar e analisar cada replay",
+    ap_c2: "Armazenamento: vídeos e dados de cada partida", ap_c3: "Internet: enviar os vídeos e manter o site", ap_c4: "Eletricidade: horas de gravação e processamento", ap_c5: "Manutenção: manter tudo funcionando",
+    ap_c6: "Desenvolvimento: novas estatísticas e funções", ap_c7: "Novos jogos: descobrir como cada jogo guarda seus dados", ap_progreso: "Progresso do Replay Lab", ap_procesadas: "partidas processadas",
+    ap_siguiente: "Próximo marco", ap_proximo: "Próximo objetivo do projeto", ap_incorporar: "Incorporar %s", ap_logros: "Conquistas do Replay Lab",
+    ap_logros_sub: "As conquistas são do projeto, não de quem o apoia. Desbloqueiam sozinhas, com os dados reais do site.", ap_ok: "Conquistado", ap_no: "A conquistar", ap_compacto: "O Replay Lab é independente. Se te é útil, você pode apoiá-lo.",
+    ap_como: "Como ajuda", l_primero: "Primeiro replay processado", l_n: "%s partidas analisadas", l_rondas: "%s rounds analisados",
+    l_juego1: "Primeiro jogo incorporado", l_juego2: "Segundo jogo incorporado",
   },
   fr: {
     "s_set": "Le set", "s_peleas": "Matchs", "s_dano": "Dégâts", "s_combos": "Combos", "s_supers": "Supers", "s_mareos": "Étourdissements", "s_tiempo": "Temps", "s_pers": "Personnages", "s_emu": "Émulateur", "s_def": "Défense", "st_winpct": "Pourcentage", "st_peleapida": "Match le plus rapide", "st_vidaperd": "Vie perdue par manche", "st_duravg": "Durée de manche", "st_meterfull": "Fois où la jauge s'est remplie", "st_supernom": "Son super", "st_stuntime": "Temps étourdi", "st_stunpeor": "Plus long étourdissement", "st_dizzies": "Étourdissements provoqués", "st_mareado": "Fois où il a été étourdi", "st_swaps": "Changements de personnage", "st_conect": "Coups qui ont touché", "st_bloq": "Coups bloqués par l'adversaire", "st_bloqueo": "Coups qu'il a bloqués", "st_defensa": "A bloqué", "st_primero": "A touché en premier", "emu_nota": "Chiffres rapportés par l'émulateur, non calculés par replayLab", "dur_rondas": "Durée de chaque manche", "nada_aqui": "Pas de données dans cet enregistrement",
@@ -115,6 +163,22 @@ const I18N = {
     st_limite: "Gagnées de justesse", st_remontada: "Plus grande remontée",
     pie_hecho: "Fait avec fcrec", pie_fuente: "Code",
     cargando: "Chargement…", no_existe: "Je ne trouve pas cette vidéo.",
+    u_partida: "match", u_pelea: "combat", u_peleas: "combats", ap_procesada: "match traité",
+    n_inicio: "Accueil", n_partidas: "Matchs", n_juegos: "Jeux", n_canal: "Chaîne",
+    n_cambios: "Changelog", n_apoya: "Soutenir le projet", n_github: "GitHub", n_menu: "Menu",
+    pie_indep: "Projet indépendant", h_titulo: "Analyse de matchs de jeux de combat", h_texto: "Des replays Fightcade enregistrés, chaque manche, combo et super lus directement dans le jeu.", h_ver: "Voir les matchs",
+    h_juegos: "Jeux analysés", h_ultimas: "Derniers matchs", h_todas: "Tout voir", j_sub: "Replay Lab analyse des jeux de combat. Chaque jeu a son propre espace.",
+    j_pelea: "Jeux de combat", j_disp: "Disponible", j_prox: "Bientôt", j_entrar: "Ouvrir",
+    u_partidas: "matchs", g_jugadores: "Joueurs", g_stats: "Statistiques", g_analisis: "Voir l'analyse",
+    g_jugadas: "Matchs joués", g_ganadas: "Combats gagnés", g_tiempo: "Temps de jeu", g_njug: "Joueurs différents",
+    g_npers: "Personnages utilisés", g_apar: "Apparitions", g_sin: "Pas encore de matchs pour ce jeu.", g_noexiste: "Ce jeu n'est pas sur Replay Lab.",
+    p_todos: "Tous les jeux", ap_intro: "Replay Lab est un projet indépendant. Chaque match ici a été enregistré, traité et publié sur notre propre machine.", ap_cuesta: "Ce que demande le projet", ap_c1: "Traitement : enregistrer et analyser chaque replay",
+    ap_c2: "Stockage : vidéos et données de chaque match", ap_c3: "Internet : envoyer les vidéos et servir le site", ap_c4: "Électricité : des heures d'enregistrement et de traitement", ap_c5: "Maintenance : que tout continue de fonctionner",
+    ap_c6: "Développement : nouvelles statistiques et fonctions", ap_c7: "Nouveaux jeux : comprendre comment chaque jeu stocke ses données", ap_progreso: "Progression de Replay Lab", ap_procesadas: "matchs traités",
+    ap_siguiente: "Prochain palier", ap_proximo: "Prochain objectif du projet", ap_incorporar: "Intégrer %s", ap_logros: "Succès de Replay Lab",
+    ap_logros_sub: "Ces succès appartiennent au projet, pas à ceux qui le soutiennent. Ils se débloquent seuls, à partir des données réelles du site.", ap_ok: "Débloqué", ap_no: "À débloquer", ap_compacto: "Replay Lab est indépendant. S'il vous est utile, vous pouvez le soutenir.",
+    ap_como: "À quoi ça sert", l_primero: "Premier replay traité", l_n: "%s matchs analysés", l_rondas: "%s manches analysées",
+    l_juego1: "Premier jeu intégré", l_juego2: "Deuxième jeu intégré",
   },
   ja: {
     "s_set": "セット", "s_peleas": "試合", "s_dano": "ダメージ", "s_combos": "コンボ", "s_supers": "スーパー", "s_mareos": "スタン", "s_tiempo": "時間", "s_pers": "キャラクター", "s_emu": "エミュレーター", "s_def": "防御", "st_winpct": "勝率", "st_peleapida": "最速の試合", "st_vidaperd": "1ラウンドの被ダメージ", "st_duravg": "ラウンド時間", "st_meterfull": "ゲージ満タン回数", "st_supernom": "スーパー技", "st_stuntime": "スタン時間", "st_stunpeor": "最長のスタン", "st_dizzies": "スタンさせた回数", "st_mareado": "スタンされた回数", "st_swaps": "キャラ変更", "st_conect": "命中した攻撃", "st_bloq": "ガードされた攻撃", "st_bloqueo": "ガードした回数", "st_defensa": "ガード率", "st_primero": "先制攻撃", "emu_nota": "エミュレーター自身が報告する数値（replayLab の計算ではありません）", "dur_rondas": "各ラウンドの長さ", "nada_aqui": "この録画にはデータがありません",
@@ -143,6 +207,22 @@ const I18N = {
     st_limite: "ぎりぎりの勝利", st_remontada: "最大の逆転",
     pie_hecho: "fcrec で作成", pie_fuente: "ソース",
     cargando: "読み込み中…", no_existe: "その動画が見つかりません。",
+    u_partida: "試合", u_pelea: "戦", u_peleas: "戦", ap_procesada: "試合を処理済み",
+    n_inicio: "ホーム", n_partidas: "試合", n_juegos: "ゲーム", n_canal: "チャンネル",
+    n_cambios: "更新履歴", n_apoya: "プロジェクトを支援", n_github: "GitHub", n_menu: "メニュー",
+    pie_indep: "個人プロジェクト", h_titulo: "格闘ゲームの対戦分析", h_texto: "Fightcadeのリプレイを録画し、ラウンド・コンボ・スーパーをゲームから直接読み取って分析します。", h_ver: "試合を見る",
+    h_juegos: "分析対象のゲーム", h_ultimas: "最新の試合", h_todas: "すべて見る", j_sub: "Replay Labは格闘ゲームを分析します。ゲームごとに専用のページがあります。",
+    j_pelea: "格闘ゲーム", j_disp: "対応中", j_prox: "近日対応", j_entrar: "開く",
+    u_partidas: "試合", g_jugadores: "プレイヤー", g_stats: "統計", g_analisis: "分析を見る",
+    g_jugadas: "試合数", g_ganadas: "勝利数", g_tiempo: "プレイ時間", g_njug: "プレイヤー数",
+    g_npers: "使用キャラクター数", g_apar: "使用回数", g_sin: "このゲームの試合はまだありません。", g_noexiste: "そのゲームはReplay Labにありません。",
+    p_todos: "すべてのゲーム", ap_intro: "Replay Labは個人で運営しているプロジェクトです。ここにある試合はすべて自前の機材で録画・処理・公開しています。", ap_cuesta: "運営に必要なもの", ap_c1: "処理：リプレイの録画と分析",
+    ap_c2: "保存：各試合の動画とデータ", ap_c3: "回線：動画のアップロードとサイトの配信", ap_c4: "電気代：録画と処理にかかる時間", ap_c5: "保守：すべてを動かし続けること",
+    ap_c6: "開発：新しい統計と機能", ap_c7: "新しいゲーム：各ゲームのデータの仕組みを解析すること", ap_progreso: "Replay Labの進捗", ap_procesadas: "試合を処理済み",
+    ap_siguiente: "次の目標", ap_proximo: "次のプロジェクト目標", ap_incorporar: "%sに対応", ap_logros: "Replay Labの実績",
+    ap_logros_sub: "実績は支援者ではなくプロジェクトのものです。サイトの実際のデータから自動で解除されます。", ap_ok: "達成", ap_no: "未達成", ap_compacto: "Replay Labは個人プロジェクトです。役に立ったら応援してください。",
+    ap_como: "支援の使い道", l_primero: "最初のリプレイを処理", l_n: "%s試合を分析", l_rondas: "%sラウンドを分析",
+    l_juego1: "最初のゲームに対応", l_juego2: "2つ目のゲームに対応",
   },
   zh: {
     "s_set": "整场", "s_peleas": "对局", "s_dano": "伤害", "s_combos": "连段", "s_supers": "超必杀", "s_mareos": "眩晕", "s_tiempo": "时间", "s_pers": "角色", "s_emu": "模拟器", "s_def": "防御", "st_winpct": "胜率", "st_peleapida": "最快的一场", "st_vidaperd": "每回合失血", "st_duravg": "回合时长", "st_meterfull": "气槽集满次数", "st_supernom": "超必杀", "st_stuntime": "眩晕时间", "st_stunpeor": "最长眩晕", "st_dizzies": "打晕对手次数", "st_mareado": "被打晕次数", "st_swaps": "更换角色", "st_conect": "命中的攻击", "st_bloq": "被防住的攻击", "st_bloqueo": "防住的攻击", "st_defensa": "防御率", "st_primero": "先手命中", "emu_nota": "由模拟器自身报告的数据，非 replayLab 计算", "dur_rondas": "每回合时长", "nada_aqui": "本次录制没有数据",
@@ -171,6 +251,22 @@ const I18N = {
     st_limite: "险胜", st_remontada: "最大逆转",
     pie_hecho: "由 fcrec 制作", pie_fuente: "源码",
     cargando: "加载中…", no_existe: "找不到这个视频。",
+    u_partida: "场对局", u_pelea: "局", u_peleas: "局", ap_procesada: "场对局已处理",
+    n_inicio: "首页", n_partidas: "对局", n_juegos: "游戏", n_canal: "频道",
+    n_cambios: "更新日志", n_apoya: "支持项目", n_github: "GitHub", n_menu: "菜单",
+    pie_indep: "独立项目", h_titulo: "格斗游戏对局分析", h_texto: "录制 Fightcade 回放，每个回合、连段和超必杀都直接从游戏中读取。", h_ver: "浏览对局",
+    h_juegos: "我们分析的游戏", h_ultimas: "最新对局", h_todas: "查看全部", j_sub: "Replay Lab 专注于格斗游戏，每个游戏都有自己的页面。",
+    j_pelea: "格斗游戏", j_disp: "已支持", j_prox: "即将支持", j_entrar: "进入",
+    u_partidas: "场对局", g_jugadores: "玩家", g_stats: "统计", g_analisis: "查看分析",
+    g_jugadas: "对局数", g_ganadas: "胜场", g_tiempo: "对战时长", g_njug: "不同玩家",
+    g_npers: "使用角色数", g_apar: "出场次数", g_sin: "该游戏暂无对局。", g_noexiste: "Replay Lab 暂无该游戏。",
+    p_todos: "全部游戏", ap_intro: "Replay Lab 是一个独立项目。你在这里看到的每场对局都是在自己的机器上录制、处理并发布的。", ap_cuesta: "维持项目需要什么", ap_c1: "处理：录制并分析每个回放",
+    ap_c2: "存储：每场对局的视频和数据", ap_c3: "网络：上传视频并提供网站服务", ap_c4: "电费：录制和处理所需的时长", ap_c5: "维护：让一切持续运转",
+    ap_c6: "开发：新的统计和功能", ap_c7: "新游戏：弄清每个游戏如何存储数据", ap_progreso: "Replay Lab 进度", ap_procesadas: "场对局已处理",
+    ap_siguiente: "下一个里程碑", ap_proximo: "项目的下一个目标", ap_incorporar: "支持 %s", ap_logros: "Replay Lab 成就",
+    ap_logros_sub: "成就属于项目本身，而不是支持者。它们根据网站的真实数据自动解锁。", ap_ok: "已达成", ap_no: "未达成", ap_compacto: "Replay Lab 是独立项目。如果对你有帮助，欢迎支持。",
+    ap_como: "如何帮助", l_primero: "处理第一个回放", l_n: "分析 %s 场对局", l_rondas: "分析 %s 个回合",
+    l_juego1: "支持第一个游戏", l_juego2: "支持第二个游戏",
   },
 };
 const NOMBRE_IDIOMA = { es:"Español", en:"English", pt:"Português", fr:"Français", ja:"日本語", zh:"中文" };
@@ -211,51 +307,105 @@ const rango = letra => letra
   ? `<span class="rango" title="${esc(T("rango"))} ${esc(letra)}">${esc(letra)}</span>`
   : `<span class="rango vacio" title="${esc(T("sin_rango"))}">–</span>`;
 const milesDe = n => (n ?? 0).toLocaleString(LANG);
+// singular o plural según el número: "1 partida", "8 peleas"
+const pl = (n, uno, varios) => T(n === 1 ? uno : varios);
 async function json(url) {
   const r = await fetch(url, { cache: "no-cache" });
   if (!r.ok) throw new Error(url + " → " + r.status);
   return r.json();
 }
 let SITIO = null;
-// El bloque de apoyo. Antes esto era un enlace suelto en el pie y no lo veia nadie.
-// Sale sólo si datos/sitio.json trae la donación activa: si se apaga ahí, desaparece de
-// todas las páginas sin tocar HTML. Pide sin agobiar: un bloque, no un banner.
-function bloqueApoyo() {
+let JUEGOS = [];
+
+/* ---------------------------------------------------------------- juegos
+   El registro vive en datos/juegos.json. Una partida pertenece al juego cuyo lista de
+   gameids incluye el suyo: así SSF2X y SSF2T son el mismo juego, y añadir 3rd Strike es
+   añadir una entrada al JSON, no tocar código. */
+const juegoPorId = id => JUEGOS.find(j => j.id === id) || null;
+const juegoDe = v => JUEGOS.find(j => (j.gameids || []).includes(v.juego)) || null;
+const juegosActivos = () => JUEGOS.filter(j => j.estado === "activo");
+const hrefJuego = j => `juego.html?id=${encodeURIComponent(j.id)}`;
+
+/* ---------------------------------------------------------------- cabecera
+   Se monta UNA vez (así el selector de idioma no pierde su evento) y los textos se
+   repintan en cada cambio de idioma con textosCabecera(). */
+let PAGINA = "";
+function montaCabecera(activa, alCambiarIdioma) {
+  PAGINA = activa;
+  const cab = document.getElementById("cabsitio");
+  cab.innerHTML = `<div class="wrap hrow">
+      <a class="logo" href="./">🎮 replay<b>Lab</b></a>
+      <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="nav">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+        <span id="menu-txt"></span></button>
+      <nav class="nav" id="nav"></nav>
+      <select id="idioma" aria-label="idioma"></select>
+    </div>`;
+  const btn = document.getElementById("menu-btn");
+  btn.onclick = () => {
+    const abierto = cab.classList.toggle("abierto");
+    btn.setAttribute("aria-expanded", abierto);
+  };
+  montaIdiomas(document.getElementById("idioma"), alCambiarIdioma);
+  textosCabecera();
+}
+function textosCabecera() {
+  const s = SITIO || {};
+  const ext = `target="_blank" rel="noopener"`;
+  const flecha = `<span class="ext" aria-hidden="true">↗</span>`;
+  const item = (k, href, texto, extra = "") =>
+    `<a href="${esc(href)}" data-k="${k}"${PAGINA === k ? ' aria-current="page"' : ""} ${extra}>${texto}</a>`;
+  document.getElementById("nav").innerHTML = [
+    item("inicio", "./", esc(T("n_inicio"))),
+    item("partidas", "partidas.html", esc(T("n_partidas"))),
+    item("juegos", "juegos.html", esc(T("n_juegos"))),
+    s.canal ? item("canal", s.canal, esc(T("n_canal")) + flecha, ext) : "",
+    item("cambios", "cambios.html", esc(T("n_cambios"))),
+    item("apoyo", "apoyo.html", "☕ " + esc(T("n_apoya")), 'class="apoya"'),
+    item("github", s.github || "https://github.com/demonioDeb/replayLab", esc(T("n_github")) + flecha, ext),
+  ].join("");
+  document.getElementById("menu-txt").textContent = T("n_menu");
+}
+
+/* ---------------------------------------------------------------- pie
+   Sólo lo secundario. Los enlaces viven en la cabecera y no se repiten aquí. */
+function pintaPie(el) {
+  el = el || document.getElementById("pie");
+  if (!el) return;
+  el.innerHTML = `<span>© ${new Date().getFullYear()} Replay Lab</span><span>·</span>
+    <span>${esc(T("pie_indep"))}</span><span>·</span><span>${esc(T("pie_datos"))}</span>
+    <span class="sp"></span><span>${esc(T("pie_hecho"))}</span>`;
+}
+
+/* ---------------------------------------------------------------- apoyo
+   La página entera está en apoyo.html. Aquí sólo hay una franja compacta para el final
+   de la portada y de cada partida: una línea y dos botones, nada de banner. Sale sólo
+   si datos/sitio.json trae la donación activa. */
+function franjaApoyo() {
   const d = (SITIO || {}).donacion || {};
   if (!d.activo || !d.url) return "";
-  return `<section class="apoyo">
-    <h2>\u2615 ${esc(T("ap_titulo"))}</h2>
-    <p>${esc(T("ap_p1"))}</p>
-    <p>${esc(T("ap_p2"))}</p>
-    <p>${esc(T("ap_p3"))}</p>
-    <a class="cafe-btn" href="${esc(d.url)}" target="_blank" rel="noopener">\u2615 ${esc(T("donar"))}</a>
-    <p class="gracias">${esc(T("ap_nota"))}</p>
-  </section>`;
+  return `<aside class="franja-apoyo">
+      <span class="fa-txt">☕ ${esc(T("ap_compacto"))}</span>
+      <a class="fa-mas" href="apoyo.html">${esc(T("ap_como"))}</a>
+      <a class="cafe-btn chico" href="${esc(d.url)}" target="_blank" rel="noopener">☕ ${esc(T("donar"))}</a>
+    </aside>`;
 }
-
-// Lo pinta donde haya un <div id="apoyo">. Se llama al cargar y al cambiar de idioma.
 function pintaApoyo() {
   const el = document.getElementById("apoyo");
-  if (el) el.innerHTML = bloqueApoyo();
+  if (el) el.innerHTML = franjaApoyo();
 }
 
-function pintaPie(el) {
-  const d = (SITIO || {}).donacion || {};
-  const canal = (SITIO || {}).canal;
-  el.innerHTML = `<span>${esc(T("pie_hecho"))}</span><span>·</span>
-    <span>${esc(T("pie_datos"))}</span>
-    <span style="margin-left:auto;display:flex;gap:14px;flex-wrap:wrap">
-      <a href="cambios.html">${esc(T("cambios"))}</a>
-      ${canal ? `<a href="${esc(canal)}" target="_blank" rel="noopener">${esc(T("canal"))}</a>` : ""}
-      ${d.activo && d.url ? `<a class="cafe" href="${esc(d.url)}" target="_blank" rel="noopener">☕ ${esc(T("donar"))}</a>` : ""}
-      <a href="https://github.com/demonioDeb/replayLab" target="_blank" rel="noopener">${esc(T("pie_fuente"))}</a>
-    </span>`;
+/* ---------------------------------------------------------------- datos comunes
+   sitio.json (canal, donación, github) y juegos.json se leen una vez. Si falta alguno
+   la página sale igual, sin esos enlaces o con la lista de juegos vacía. */
+function cargaBase(alLlegar) {
+  return Promise.all([
+    json("datos/sitio.json").then(d => { SITIO = d; }).catch(() => {}),
+    json("datos/juegos.json").then(d => { JUEGOS = d.juegos || []; }).catch(() => {}),
+  ]).then(() => { alLlegar && alLlegar(); });
 }
-// Los ajustes del sitio (canal, donación) se leen una vez y el pie se repinta cuando
-// llegan. Si el archivo no está, el pie sale igual sin esos enlaces.
-function cargaSitio(alLlegar) {
-  json("datos/sitio.json").then(d => { SITIO = d; alLlegar && alLlegar(); }).catch(() => {});
-}
+// compatibilidad con lo que ya llamaba a esto
+const cargaSitio = cargaBase;
 
 /* El idioma y la vista se recuerdan por navegador. Envuelto en try porque en modo
    privado leer localStorage puede lanzar, y eso no debe tirar la página. */

@@ -321,6 +321,209 @@ footer{color:var(--dim);font-size:13px;padding:28px 0 40px;border-top:1px solid 
   margin-top:34px;display:flex;gap:14px;flex-wrap:wrap}
 footer a:hover{color:var(--ink)}
 
+/* ================================================================ NAVEGACIÓN
+   Todo lo importante está arriba: Inicio, Partidas, Juegos, Canal, Changelog, Apoya y
+   GitHub. El pie ya no repite enlaces. En móvil la navegación se pliega en un menú. */
+#cabsitio .hrow{flex-wrap:nowrap}
+.nav{display:flex;align-items:center;gap:2px;margin-left:auto;flex-wrap:nowrap}
+.nav a{padding:8px 11px;border-radius:8px;color:var(--soft);font-size:15px;white-space:nowrap;
+  display:inline-flex;align-items:center;gap:4px}
+.nav a:hover{color:var(--ink);background:rgba(255,255,255,.05)}
+.nav a[aria-current="page"]{color:var(--ink);box-shadow:inset 0 -2px 0 var(--gold);border-radius:8px 8px 0 0}
+.nav .ext{font-size:11px;color:var(--dim)}
+/* "Apoya el proyecto": un pelín más presente que el resto, sin parecer un anuncio */
+.nav a.apoya{color:var(--gold);border:1px solid rgba(255,203,69,.38);margin:0 4px;padding:7px 12px}
+.nav a.apoya:hover{background:rgba(255,203,69,.08);border-color:rgba(255,203,69,.6)}
+.nav a.apoya[aria-current="page"]{box-shadow:none;background:rgba(255,203,69,.12)}
+.menu-btn{display:none;align-items:center;gap:7px;margin-left:auto;background:var(--panel2);
+  border:1px solid var(--line);border-radius:8px;padding:7px 11px;cursor:pointer;font-size:14px;color:var(--soft)}
+.menu-btn svg{width:18px;height:18px;fill:currentColor}
+#idioma{flex:none}
+
+/* miga de pan: Inicio › Juegos › SSF2X › partida */
+.miga{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:16px 0 0;font-size:14px;color:var(--dim)}
+.miga a{color:var(--soft)}
+.miga a:hover{color:var(--ink)}
+.miga b{color:var(--ink);font-weight:600;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* ================================================================ INICIO */
+.hero{padding:44px 0 26px;max-width:760px}
+.hero h1{font-size:40px;line-height:1.08;font-weight:700;letter-spacing:.3px}
+.hero p{color:var(--soft);font-size:18px;margin-top:12px;max-width:62ch}
+.hero-cta{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;padding:10px 18px;border-radius:10px;font-weight:600;
+  border:1px solid var(--line2);background:var(--panel2);color:var(--ink)}
+.btn:hover{border-color:var(--dim)}
+.btn.prim{background:linear-gradient(180deg,#ffd869,var(--gold));color:#241a00;border-color:#b8892a}
+.btn.prim:hover{filter:brightness(1.06)}
+.hero-cifras{display:flex;gap:28px;margin-top:26px;flex-wrap:wrap}
+.hero-cifras span{display:flex;flex-direction:column;color:var(--dim);font-size:13px;
+  letter-spacing:1px;text-transform:uppercase}
+.hero-cifras b{font-size:30px;color:var(--ink);letter-spacing:0;font-variant-numeric:tabular-nums;line-height:1.1}
+
+.bloque{padding:18px 0 6px}
+.bloque-cab{display:flex;align-items:baseline;gap:12px;margin-bottom:14px}
+.bloque-cab h2{font-size:15px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);font-weight:700}
+.bloque-cab h2.tenue{color:var(--dim)}
+.ver-todo{margin-left:auto;color:var(--soft);font-size:14px}
+.ver-todo:hover{color:var(--ink)}
+
+/* ---------------------------------------------------------------- tarjeta de juego */
+.rejilla-juegos{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
+.tarj-juego{display:flex;align-items:center;gap:16px;padding:16px;border-radius:14px;
+  background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);
+  transition:transform .12s,border-color .12s;position:relative}
+a.tarj-juego:hover{transform:translateY(-2px);border-color:var(--line2)}
+.tarj-juego .retrato,.tj-mono{width:84px;height:84px;border-radius:10px}
+.tj-mono{display:grid;place-items:center;background:#0c1220;border:1px solid var(--line);
+  font-weight:700;font-size:22px;color:var(--dim)}
+.tj-txt{display:flex;flex-direction:column;gap:2px;min-width:0}
+.tj-estado{align-self:flex-start;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;
+  padding:2px 8px;border-radius:999px;margin-bottom:4px}
+.tj-estado.ok{color:var(--ok);background:rgba(125,252,176,.08);border:1px solid rgba(125,252,176,.3)}
+.tj-estado.prox{color:var(--dim);background:rgba(148,166,204,.06);border:1px solid var(--line2)}
+.tj-nombre{font-size:19px;font-weight:700;line-height:1.15;text-wrap:balance}
+.tj-sub{color:var(--soft);font-size:14px}
+.tj-meta{color:var(--dim);font-size:13px}
+.tj-cifras{color:var(--dim);font-size:13px;margin-top:6px}
+.tj-cifras b{color:var(--ink);font-size:16px}
+.tj-cifras .sep{margin:0 5px}
+.tj-ir{margin-left:auto;color:var(--dim);font-size:20px;flex:none}
+.tarj-juego.prox{opacity:.62}
+.tarj-juego.prox .retrato,.tarj-juego.prox .tj-mono{filter:grayscale(1)}
+
+/* ================================================================ PARTIDAS */
+.barra-lista{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:6px 0 16px}
+.barra-lista #buscar{flex:1;max-width:340px;width:auto}
+.filtro-juegos{display:flex;gap:8px;flex-wrap:wrap;margin:4px 0 6px}
+.filtro-juegos button{background:var(--panel2);border:1px solid var(--line);border-radius:999px;
+  padding:7px 14px;font-size:14px;color:var(--soft);cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.filtro-juegos button:hover{color:var(--ink);border-color:var(--line2)}
+.filtro-juegos button[aria-pressed="true"]{color:var(--ink);border-color:var(--gold);background:rgba(255,203,69,.08)}
+.filtro-juegos .n{font-size:12px;color:var(--dim);font-variant-numeric:tabular-nums}
+/* con un solo juego el filtro no hace falta: se queda en una chapa discreta */
+.filtro-juegos.unico button{padding:4px 11px;font-size:13px}
+.filtro-juegos.unico button[data-j=""]{display:none}
+.chip-juego{display:inline-block;font-size:11px;letter-spacing:1px;font-weight:700;padding:1px 7px;
+  border-radius:5px;margin-right:6px;color:var(--p2l);background:rgba(55,200,255,.09);
+  border:1px solid rgba(55,200,255,.3);vertical-align:1px}
+
+/* ================================================================ PÁGINA DE UN JUEGO */
+.cab-juego{display:flex;align-items:center;gap:20px;padding:22px 0 18px;flex-wrap:wrap}
+.cab-juego .retrato{width:104px;height:104px;border-radius:14px}
+.cj-txt{min-width:0;flex:1}
+.cab-juego h1{font-size:34px;line-height:1.05}
+.cj-sub{color:var(--gold);font-size:15px;letter-spacing:2px;text-transform:uppercase;margin-top:4px}
+.cj-meta{color:var(--dim);font-size:14px;margin-top:6px}
+.cj-cifras{display:flex;gap:24px}
+.cj-cifras span{display:flex;flex-direction:column;align-items:center;color:var(--dim);font-size:12px;
+  letter-spacing:1px;text-transform:uppercase}
+.cj-cifras b{font-size:32px;color:var(--ink);letter-spacing:0;line-height:1.1}
+.pestanas{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:18px;overflow-x:auto;
+  scrollbar-width:none}
+.pestanas::-webkit-scrollbar{display:none}
+.pestanas a{padding:11px 16px;color:var(--dim);font-weight:600;white-space:nowrap;border-bottom:2px solid transparent;
+  margin-bottom:-1px}
+.pestanas a:hover{color:var(--ink)}
+.pestanas a[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--gold)}
+.t-jug .caras{display:flex;gap:4px}
+.t-jug .retrato{width:32px;height:32px;border-radius:6px}
+.rejilla-pers{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.tarj-pers{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px;
+  display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center}
+.tarj-pers .retrato{width:96px;height:96px;border-radius:10px}
+.tp-nombre{font-weight:700}
+.tp-n{color:var(--dim);font-size:13px}
+.tp-n b{color:var(--ink);font-size:17px}
+.rejilla-cifras{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+.cifra{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;
+  display:flex;flex-direction:column;gap:4px}
+.cifra b{font-size:30px;line-height:1.05;font-variant-numeric:tabular-nums}
+.cifra span{color:var(--dim);font-size:13px;letter-spacing:1px;text-transform:uppercase}
+
+/* ================================================================ APOYO */
+.estrecho{max-width:860px}
+.cafe-btn{display:inline-block;margin:10px 0 8px;padding:11px 22px;border-radius:999px;
+  font-weight:700;font-size:16px;letter-spacing:.5px;color:#241a00;text-decoration:none;
+  background:linear-gradient(180deg,#ffd869,var(--gold));border:1px solid #b8892a;
+  box-shadow:0 2px 0 #8a6414,0 6px 18px rgba(255,203,69,.22);transition:transform .08s,box-shadow .12s}
+.cafe-btn:hover{transform:translateY(-1px)}
+.cafe-btn.chico{margin:0;padding:8px 16px;font-size:14px}
+.apoyo h1{font-size:26px;line-height:1.15;color:var(--gold);margin-bottom:14px}
+/* la franja del final de la portada y de cada partida: una línea, no un banner */
+.franja-apoyo{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:34px 0 0;
+  padding:14px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+.fa-txt{color:var(--soft);font-size:15px;flex:1;min-width:220px}
+.fa-mas{color:var(--dim);font-size:14px}
+.fa-mas:hover{color:var(--ink)}
+.costes{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:8px}
+.costes li{display:flex;gap:12px;align-items:flex-start;padding:11px 14px;background:var(--panel);
+  border:1px solid var(--line);border-radius:10px;color:var(--soft);font-size:15px}
+.costes .ic{font-size:18px;line-height:1.3}
+.costes b{color:var(--ink)}
+.progreso{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px 22px;
+  display:flex;flex-direction:column;gap:18px}
+.pg-cifra{display:flex;align-items:baseline;gap:12px}
+.pg-cifra b{font-size:48px;line-height:1;color:var(--gold);font-variant-numeric:tabular-nums}
+.pg-cifra span{color:var(--soft);font-size:17px}
+.pg-linea{display:flex;justify-content:space-between;gap:10px;color:var(--soft);font-size:15px;margin-bottom:8px}
+.pg-n{color:var(--dim);font-variant-numeric:tabular-nums}
+.pg-barra{height:12px;border-radius:7px;background:#0d1119;border:1px solid var(--line);overflow:hidden}
+.pg-barra i{display:block;height:100%;background:linear-gradient(90deg,#b8892a,var(--gold));border-radius:7px}
+.pg-obj{display:flex;flex-direction:column;gap:3px;padding-top:14px;border-top:1px solid var(--line)}
+.pg-obj-t{color:var(--dim);font-size:13px;letter-spacing:1px;text-transform:uppercase}
+.pg-obj-v{font-size:18px;font-weight:600}
+.nota-logros{color:var(--dim);font-size:14px;margin:-6px 0 12px}
+.logros{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px}
+.logros li{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:10px;
+  background:var(--panel);border:1px solid var(--line)}
+.lg-ic{width:28px;height:28px;display:grid;place-items:center;border-radius:50%;flex:none;font-weight:700}
+.logros li.ok .lg-ic{background:rgba(125,252,176,.12);color:var(--ok);border:1px solid rgba(125,252,176,.35)}
+.logros li.no{opacity:.6}
+.logros li.no .lg-ic{background:#0d1119;border:1px solid var(--line);font-size:13px}
+.lg-t{flex:1;font-weight:600}
+.lg-e{font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--dim)}
+.logros li.ok .lg-e{color:var(--ok)}
+
+/* ================================================================ PIE
+   Sólo lo secundario: autoría, que es independiente y de dónde salen los datos. */
+footer .sp{flex:1}
+
+/* ================================================================ MÓVIL / TABLETA */
+@media (max-width:1020px){
+  .menu-btn{display:inline-flex}
+  .nav{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;
+    gap:2px;padding:10px 14px 14px;background:rgba(10,13,21,.98);border-bottom:1px solid var(--line)}
+  #cabsitio.abierto .nav{display:flex}
+  .nav a{padding:12px 12px;font-size:16px}
+  .nav a[aria-current="page"]{box-shadow:inset 3px 0 0 var(--gold);border-radius:0 8px 8px 0}
+  .nav a.apoya{margin:6px 0 0;justify-content:center}
+  #cabsitio .hrow{position:relative}
+}
+@media (max-width:760px){
+  .hero{padding:28px 0 16px}
+  .hero h1{font-size:30px}
+  .hero p{font-size:16px}
+  .rejilla-juegos{grid-template-columns:1fr}
+  .costes,.logros{grid-template-columns:1fr}
+  .cab-juego h1{font-size:26px}
+  .cab-juego .retrato{width:76px;height:76px}
+  .cj-cifras{width:100%;justify-content:flex-start}
+  .barra-lista #buscar{max-width:none;flex-basis:100%}
+  .tarj-juego .retrato,.tj-mono{width:64px;height:64px}
+  .pg-cifra b{font-size:38px}
+  #idioma{max-width:112px}
+}
+/* En un teléfono estrecho la cabecera medía 405px en 390: el botón del menú se queda
+   sólo con el icono (el texto sigue como etiqueta para lectores de pantalla). */
+@media (max-width:480px){
+  #menu-txt{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .menu-btn{padding:7px 9px}
+  .logo{font-size:20px;gap:6px}
+  #cabsitio .hrow{gap:8px}
+  #idioma{max-width:96px;font-size:13px;padding:7px 6px}
+}
+
 @media (max-width:760px){
   body{font-size:16px}
   .wrap{padding:0 14px}

@@ -2,6 +2,41 @@
  "nota": "Resumen por día de lo que se hizo y lo que se descubrió. Lo escribe a mano quien trabaja en el proyecto; no se genera solo.",
  "dias": [
   {
+   "fecha": "2026-09-23",
+   "cambios": [
+    {
+     "t": "cambiado",
+     "es": "Nueva navegación: Inicio, Partidas, Juegos, Canal, Changelog, Apoya el proyecto y GitHub, todo en la cabecera. En móvil se pliega en un menú. El pie ya no repite enlaces.",
+     "en": "New navigation: Home, Matches, Games, Channel, Changelog, Support the project and GitHub, all in the header. On phones it folds into a menu. The footer no longer repeats links."
+    },
+    {
+     "t": "añadido",
+     "es": "Sección Juegos, y una página propia para cada juego con sus partidas, jugadores, personajes y estadísticas. Los juegos salen de un registro (datos/juegos.json): incorporar otro juego de pelea es añadir una entrada, no rehacer el sitio.",
+     "en": "A Games section, and a page of its own for each game with its matches, players, characters and stats. Games come from a registry (datos/juegos.json): adding another fighting game means adding an entry, not rebuilding the site."
+    },
+    {
+     "t": "añadido",
+     "es": "La lista de partidas pasa a su propia página y se puede filtrar por juego. Con un solo juego el filtro se queda en una chapa discreta; en cuanto haya dos, cada partida dice de qué juego es.",
+     "en": "The match list moves to its own page and can be filtered by game. With a single game the filter stays as a small chip; once there are two, every match shows which game it belongs to."
+    },
+    {
+     "t": "añadido",
+     "es": "Página «Apoya el proyecto», con el progreso de Replay Lab y sus logros. Todo se calcula con los datos reales del sitio: ni metas de dinero ni nombres de donantes. Los logros son del proyecto.",
+     "en": "A 'Support the project' page, with Replay Lab's progress and milestones. Everything is computed from the site's real data: no money goals and no donor names. The milestones belong to the project."
+    },
+    {
+     "t": "arreglado",
+     "es": "Un vídeo ya publicado salía «sin publicar» en la web. Al grabar, el id de YouTube se guardaba sólo en la cola y no en el archivo del que lo lee la web.",
+     "en": "A video already published showed as 'not published' on the site. When recording, the YouTube id was stored only in the queue, not in the file the site reads it from."
+    },
+    {
+     "t": "arreglado",
+     "es": "En inglés, francés y japonés «partidas» y «peleas» se traducían igual, y la portada decía cosas como «1 matches · 8 matches». Ahora son dos unidades distintas, y con su singular.",
+     "en": "In English, French and Japanese, 'sets' and 'fights' were translated the same, so the home page read things like '1 matches · 8 matches'. They are now two different units, each with its singular."
+    }
+   ]
+  },
+  {
    "fecha": "2026-09-22",
    "cambios": [
     {

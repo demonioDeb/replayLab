@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>replayLab</title>
+<meta name="description" content="Partidas, jugadores, personajes y estadísticas de un juego en Replay Lab.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🎮</text></svg>">
+<link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+<header id="cabsitio"></header>
+
+<main class="wrap">
+  <nav class="miga" id="miga" aria-label="breadcrumb"></nav>
+  <p class="vacio" id="aviso" hidden></p>
+  <div id="cuerpo" hidden>
+    <section class="cab-juego" id="cabjuego"></section>
+    <!-- las pestañas van por #ancla: se pueden enlazar y el botón atrás funciona -->
+    <nav class="pestanas" id="pestanas" role="tablist"></nav>
+    <section id="panel"></section>
+  </div>
+</main>
+
+<footer class="wrap" id="pie"></footer>
+
+<script src="assets/app.js"></script>
+<script src="assets/lista.js"></script>
+<script>
+"use strict";
+let INDICE = { videos: [] };
+let CARGADO = false;
+const PESTANAS = [["partidas", "n_partidas"], ["jugadores", "g_jugadores"],
+                  ["personajes", "s_pers"], ["estadisticas", "g_stats"]];
+const pestana = () => {
+  const h = location.hash.slice(1);
+  return PESTANAS.some(([k]) => k === h) ? h : "partidas";
+};
+
+// ---- jugadores: se agregan desde el índice, por nombre
+function jugadoresDe(lista) {
+  const m = new Map();
+  lista.forEach(v => v.jugadores.forEach((j, i) => {
+    const r = m.get(j.nombre) || { nombre: j.nombre, pais: j.pais, rango: j.rango_letra,
+                                   partidas: 0, ganadas: 0, claves: new Map() };
+    r.partidas++;
+    r.ganadas += (v.marcador || [0, 0])[i] || 0;
+    (j.claves || [j.clave]).forEach((c, k) => {
+      if (c) r.claves.set(c, (j.personajes || [j.personaje])[k] || c);
+    });
+    if (j.rango_letra) r.rango = j.rango_letra;
+    m.set(j.nombre, r);
+  }));
+  return [...m.values()].sort((a, b) => b.partidas - a.partidas || b.ganadas - a.ganadas);
+}
+
+// ---- personajes: apariciones = sets en los que un jugador lo usó
+function personajesDe(lista) {
+  const m = new Map();
+  lista.forEach(v => v.jugadores.forEach(j => {
+    (j.claves || [j.clave]).forEach((c, k) => {
+      if (!c) return;
+      const r = m.get(c) || { clave: c, nombre: (j.personajes || [j.personaje])[k] || c, n: 0 };
+      r.n++; m.set(c, r);
+    });
+  }));
+  return [...m.values()].sort((a, b) => b.n - a.n || a.nombre.localeCompare(b.nombre));
+}
+
+const PANEL = {
+  partidas: lista => {
+    const div = document.createElement("div");
+    div.className = "lista";
+    pintaLista(div, ordenaLista(lista, "fecha", true), "miniaturas");
+    return lista.length ? div.outerHTML : `<p class="vacio">${esc(T("g_sin"))}</p>`;
+  },
+  jugadores: lista => {
+    const js = jugadoresDe(lista);
+    if (!js.length) return `<p class="vacio">${esc(T("g_sin"))}</p>`;
+    return `<div class="v-detalles"><table class="t-jug"><thead><tr>
+        <th>${esc(T("g_jugadores"))}</th><th>${esc(T("s_pers"))}</th>
+        <th class="num">${esc(T("g_jugadas"))}</th><th class="num">${esc(T("g_ganadas"))}</th></tr></thead><tbody>` +
+      js.map(r => `<tr><td><span class="duo">${bandera(r.pais)}${rango(r.rango)}<span class="n">${esc(r.nombre)}</span></span></td>
+          <td><span class="caras">${[...r.claves].map(([c, n]) => retrato(c, n)).join("")}</span></td>
+          <td class="num">${r.partidas}</td><td class="num">${r.ganadas}</td></tr>`).join("") +
+      `</tbody></table></div>`;
+  },
+  personajes: lista => {
+    const ps = personajesDe(lista);
+    if (!ps.length) return `<p class="vacio">${esc(T("g_sin"))}</p>`;
+    return `<div class="rejilla-pers">` + ps.map(p =>
+      `<div class="tarj-pers">${retrato(p.clave, p.nombre)}
+         <span class="tp-nombre">${esc(p.nombre)}</span>
+         <span class="tp-n"><b>${p.n}</b> ${esc(T("g_apar").toLowerCase())}</span></div>`).join("") + `</div>`;
+  },
+  estadisticas: lista => {
+    const peleas = lista.reduce((a, v) => a + (v.peleas || 0), 0);
+    const rondas = lista.reduce((a, v) => a + (v.rondas || 0), 0);
+    const seg = lista.reduce((a, v) => a + (v.duracion || 0), 0);
+    const horas = seg >= 3600 ? `${Math.floor(seg / 3600)} h ${Math.round(seg % 3600 / 60)} min`
+                              : `${Math.round(seg / 60)} min`;
+    const celdas = [
+      [lista.length, T("g_jugadas")], [peleas, T("u_peleas")], [rondas, T("rondas_t")],
+      [horas, T("g_tiempo")], [jugadoresDe(lista).length, T("g_njug")],
+      [personajesDe(lista).length, T("g_npers")],
+    ];
+    return `<div class="rejilla-cifras">` + celdas.map(([n, t]) =>
+      `<div class="cifra"><b>${typeof n === "number" ? milesDe(n) : esc(n)}</b><span>${esc(t)}</span></div>`).join("") + `</div>`;
+  },
+};
+
+function pinta() {
+  document.documentElement.lang = LANG;
+  textosCabecera(); pintaPie();
+  const j = juegoPorId(Q.get("id") || "");
+  if (!j || j.estado !== "activo") {
+    // hasta que llegan los datos no se sabe si el juego existe: no se avisa antes
+    $("#aviso").hidden = !CARGADO; $("#aviso").textContent = T(CARGADO ? "g_noexiste" : "cargando");
+    $("#cuerpo").hidden = true;
+    return;
+  }
+  document.title = `${j.nombre} · replayLab`;
+  $("#aviso").hidden = true; $("#cuerpo").hidden = false;
+  $("#miga").innerHTML = `<a href="./">${esc(T("n_inicio"))}</a><span>›</span>
+    <a href="juegos.html">${esc(T("n_juegos"))}</a><span>›</span><b>${esc(j.nombre)}</b>`;
+
+  const lista = (INDICE.videos || []).filter(v => juegoDe(v) === j);
+  const peleas = lista.reduce((a, v) => a + (v.peleas || 0), 0);
+  $("#cabjuego").innerHTML = `
+    <span class="cj-arte">${j.retrato ? retrato(j.retrato, j.nombre) : ""}</span>
+    <div class="cj-txt">
+      <h1>${esc(j.nombre)}</h1>
+      <p class="cj-sub">${esc(j.subtitulo || "")}</p>
+      <p class="cj-meta">🥊 ${esc(T("j_pelea"))} · ${esc(j.compania || "")}${j.anio ? " · " + j.anio : ""}</p>
+    </div>
+    <div class="cj-cifras">
+      <span><b>${lista.length}</b>${esc(pl(lista.length, "u_partida", "u_partidas"))}</span>
+      <span><b>${peleas}</b>${esc(pl(peleas, "u_pelea", "u_peleas"))}</span>
+    </div>`;
+
+  const act = pestana();
+  $("#pestanas").innerHTML = PESTANAS.map(([k, t]) =>
+    `<a href="#${k}" role="tab" aria-selected="${act === k}">${esc(T(t))}</a>`).join("");
+  CHAPA_JUEGO = false;             // dentro de un juego todas son de ese juego
+  $("#panel").innerHTML = PANEL[act](lista);
+}
+
+montaCabecera("juegos", pinta);
+window.addEventListener("hashchange", pinta);
+pinta();
+Promise.all([cargaBase(), json("datos/indice.json").then(d => { INDICE = d; }).catch(() => {})])
+  .then(() => { CARGADO = true; pinta(); });
+</script>
+</body>
+</html>

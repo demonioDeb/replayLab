@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Apoya el proyecto · replayLab</title>
+<meta name="description" content="Replay Lab es un proyecto independiente. Cómo apoyarlo, y hasta dónde ha llegado.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>☕</text></svg>">
+<link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+<header id="cabsitio"></header>
+
+<main class="wrap estrecho">
+  <!-- 1 · qué es y el botón. El texto es el que escribió el autor del proyecto. -->
+  <section class="apoyo" id="intro"></section>
+
+  <!-- 2 · a qué va el apoyo: cosas concretas, sin cifras de dinero -->
+  <section class="bloque">
+    <div class="bloque-cab"><h2 id="t-cuesta"></h2></div>
+    <ul class="costes" id="costes"></ul>
+  </section>
+
+  <!-- 3 · progreso. La barra mide partidas procesadas contra el siguiente hito: un
+       objetivo real del proyecto, nunca una meta económica. -->
+  <section class="bloque">
+    <div class="bloque-cab"><h2 id="t-progreso"></h2></div>
+    <div class="progreso" id="progreso"></div>
+  </section>
+
+  <!-- 4 · logros del PROYECTO. No hay nombres de donantes ni rankings: se desbloquean
+       solos con los datos del sitio. -->
+  <section class="bloque">
+    <div class="bloque-cab"><h2 id="t-logros"></h2></div>
+    <p class="nota-logros" id="logros-sub"></p>
+    <ul class="logros" id="logros"></ul>
+  </section>
+</main>
+
+<footer class="wrap" id="pie"></footer>
+
+<script src="assets/app.js"></script>
+<script>
+"use strict";
+let INDICE = { videos: [] };
+const HITOS = [1, 10, 100, 500, 1000];
+const HITOS_RONDAS = [100, 1000];
+const COSTES = [["⚙️", "ap_c1"], ["💾", "ap_c2"], ["🌐", "ap_c3"], ["⚡", "ap_c4"],
+                ["🛠️", "ap_c5"], ["🧪", "ap_c6"], ["🎮", "ap_c7"]];
+const f = (k, x) => T(k).replace("%s", milesDe(x));
+
+function boton() {
+  const d = (SITIO || {}).donacion || {};
+  return d.activo && d.url
+    ? `<a class="cafe-btn" href="${esc(d.url)}" target="_blank" rel="noopener">☕ ${esc(T("donar"))}</a>` : "";
+}
+
+function pinta() {
+  document.documentElement.lang = LANG;
+  textosCabecera(); pintaPie();
+  $("#intro").innerHTML = `<h1>☕ ${esc(T("ap_titulo"))}</h1>
+    <p>${esc(T("ap_p1"))}</p><p>${esc(T("ap_p2"))}</p><p>${esc(T("ap_p3"))}</p>
+    ${boton()}<p class="gracias">${esc(T("ap_nota"))}</p>`;
+  $("#t-cuesta").textContent = T("ap_cuesta");
+  $("#costes").innerHTML = COSTES.map(([ic, k]) => {
+    const [t, ...d] = T(k).split(":");
+    return `<li><span class="ic">${ic}</span><span><b>${esc(t)}</b>${d.length ? " · " + esc(d.join(":").trim()) : ""}</span></li>`;
+  }).join("");
+
+  // ---- cifras reales, del índice
+  const todas = INDICE.videos || [];
+  const n = todas.length;
+  const rondas = todas.reduce((a, v) => a + (v.rondas || 0), 0);
+  const conPartidas = juegosActivos().filter(j => todas.some(v => juegoDe(v) === j)).length;
+
+  const sig = HITOS.find(h => h > n);
+  // la barra dice lo mismo que el texto de al lado: n de sig
+  const pct = sig ? Math.min(100, Math.round(n * 100 / sig)) : 100;
+  const proxJuego = JUEGOS.find(j => j.estado === "proximamente");
+  $("#t-progreso").textContent = "🏆 " + T("ap_progreso");
+  $("#progreso").innerHTML = `
+    <div class="pg-cifra"><b>${milesDe(n)}</b><span>${esc(pl(n, "ap_procesada", "ap_procesadas"))}</span></div>
+    ${sig ? `<div class="pg-hito">
+        <div class="pg-linea"><span>${esc(T("ap_siguiente"))}: <b>${esc(f("l_n", sig))}</b></span>
+          <span class="pg-n">${milesDe(n)} / ${milesDe(sig)}</span></div>
+        <div class="pg-barra" role="progressbar" aria-valuemin="0" aria-valuemax="${sig}" aria-valuenow="${n}">
+          <i style="width:${pct}%"></i></div>
+      </div>` : ""}
+    ${proxJuego ? `<div class="pg-obj"><span class="pg-obj-t">${esc(T("ap_proximo"))}</span>
+        <span class="pg-obj-v">🎮 ${esc(T("ap_incorporar").replace("%s", proxJuego.nombre))}</span></div>` : ""}`;
+
+  // ---- logros: todos calculados, ninguno a mano
+  const L = [
+    [n >= 1, T("l_primero")],
+    ...HITOS.filter(h => h > 1).map(h => [n >= h, f("l_n", h)]),
+    ...HITOS_RONDAS.map(h => [rondas >= h, f("l_rondas", h)]),
+    [conPartidas >= 1, T("l_juego1")],
+    [conPartidas >= 2, T("l_juego2")],
+  ];
+  // primero lo conseguido, en el orden de la lista
+  L.sort((a, b) => (b[0] - a[0]));
+  $("#t-logros").textContent = "🏆 " + T("ap_logros");
+  $("#logros-sub").textContent = T("ap_logros_sub");
+  $("#logros").innerHTML = L.map(([ok, t]) =>
+    `<li class="${ok ? "ok" : "no"}"><span class="lg-ic">${ok ? "✓" : "🔒"}</span>
+       <span class="lg-t">${esc(t)}</span>
+       <span class="lg-e">${esc(T(ok ? "ap_ok" : "ap_no"))}</span></li>`).join("");
+}
+
+montaCabecera("apoyo", pinta);
+pinta();
+Promise.all([cargaBase(), json("datos/indice.json").then(d => { INDICE = d; }).catch(() => {})])
+  .then(pinta);
+</script>
+</body>
+</html>

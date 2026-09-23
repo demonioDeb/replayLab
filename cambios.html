@@ -8,14 +8,9 @@
 <link rel="stylesheet" href="assets/estilo.css">
 </head>
 <body>
-<header><div class="wrap hrow">
-  <a class="logo" href="./">🎮 replay<b>Lab</b></a>
-  <span class="sp"></span>
-  <select id="idioma" aria-label="idioma"></select>
-</div></header>
+<header id="cabsitio"></header>
 
 <main class="wrap">
-  <a class="volver" href="./">← <span id="tvolver"></span></a>
   <div class="intro"><div><h1 id="titulo"></h1><p id="sub"></p></div></div>
   <div id="cambios" class="diario"></div>
 </main>
@@ -50,10 +45,9 @@ const fechaLarga = f => {
 
 function pinta() {
   document.documentElement.lang = LANG;
-  $("#tvolver").textContent = T("volver");
   $("#titulo").textContent = T("t_cambios");
   $("#sub").textContent = T("sub_cambios");
-  pintaPie($("#pie"));
+  textosCabecera(); pintaPie();
   if (!DATOS) return;
   $("#cambios").innerHTML = (DATOS.dias || []).map(d => {
     const filas = (d.cambios || []).map(c => {
@@ -69,8 +63,8 @@ function pinta() {
   }).join("");
 }
 
-montaIdiomas($("#idioma"), pinta);
-cargaSitio(pinta);
+montaCabecera("cambios", pinta);
+cargaBase(pinta);
 pinta();
 json("datos/cambios.json").then(d => { DATOS = d; pinta(); }).catch(() => {});
 </script>
