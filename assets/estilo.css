@@ -493,7 +493,8 @@ footer .sp{flex:1}
 @media (max-width:1020px){
   .menu-btn{display:inline-flex}
   .nav{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;
-    gap:2px;padding:10px 14px 14px;background:rgba(10,13,21,.98);border-bottom:1px solid var(--line)}
+    gap:2px;padding:10px 14px 14px;background:var(--bg);border-bottom:1px solid var(--line);
+    box-shadow:0 18px 30px rgba(0,0,0,.55)}
   #cabsitio.abierto .nav{display:flex}
   .nav a{padding:12px 12px;font-size:16px}
   .nav a[aria-current="page"]{box-shadow:inset 3px 0 0 var(--gold);border-radius:0 8px 8px 0}
