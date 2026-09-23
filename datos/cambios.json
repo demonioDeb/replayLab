@@ -282,6 +282,25 @@
       "juego"
      ],
      "juego": "ssf2x"
+    },
+    {
+     "t": "arreglado",
+     "es": "Las barras de daño se enseñan con dos decimales. Con uno, 142 puntos de 144 salían como «1.0 barras», una barra entera, aunque al rival le quedaba vida.",
+     "en": "Damage bars are shown with two decimals. With one, 142 points out of 144 showed as “1.0 bars”, a full bar, even though the opponent had health left.",
+     "area": [
+      "web",
+      "juego"
+     ],
+     "juego": "ssf2x"
+    },
+    {
+     "t": "añadido",
+     "es": "Grabación de Street Fighter II' Champion Edition: lector propio con sólo lo seguro (vida, reloj, rondas y personajes de las fuentes oficiales de Fightcade). Primera grabación comprobada contra el vídeo: todo cuadra. El overlay oculta lo que CE no tiene (súper, aturdimiento, combos). Aún no sale en la web.",
+     "en": "Recording of Street Fighter II' Champion Edition: its own reader with only safe data (health, timer, rounds and characters from Fightcade's official sources). First recording checked against the video: everything matches. The overlay hides what CE doesn't have (super, stun, combos). Not on the website yet.",
+     "area": [
+      "juego"
+     ],
+     "juego": "sf2ce"
     }
    ]
   },

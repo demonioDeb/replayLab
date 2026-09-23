@@ -157,7 +157,7 @@ function secuencia(n) {
 /* ================================================================ 1 · RESUMEN */
 function resumen() {
   const [a, b] = F.stats;
-  const barrasTxt = `≈ ${(a.dano_barras ?? 0).toFixed(1)} · ${(b.dano_barras ?? 0).toFixed(1)} ${esc(T("barras"))}`;
+  const barrasTxt = `≈ ${(a.dano_barras ?? 0).toFixed(2)} · ${(b.dano_barras ?? 0).toFixed(2)} ${esc(T("barras"))}`;
   const kpis = `<div class="kpis">
     ${kpi(T("s_dano"), "💥", a.dano, b.dano, n0, barrasTxt)}
     ${kpi(T("s_combos"), "🔗", a.combos, b.combos, n0)}
@@ -414,7 +414,7 @@ function analisis() {
   // Las rondas se miden con el reloj del propio juego, que no son segundos reales
   // (en ST un segundo de reloj dura unos 0,6 s): se dice así en la unidad.
   const segR = v => gu(v, " " + esc(T("seg_reloj")));
-  const bar = v => (v ?? 0).toFixed(1) + " " + esc(T("barras"));
+  const bar = v => (v ?? 0).toFixed(2) + " " + esc(T("barras"));
   // cada tema es una pestaña; se ve uno a la vez
   const card = (id, ic, titulo, cuerpo, abierta, sub) =>
     ({ id, ic, titulo, html: cuerpo + (sub ? `<p class="nota-sec">${esc(sub)}</p>` : "") });
