@@ -1,6 +1,49 @@
 {
- "actualizado": "2026-09-23 01:49",
+ "actualizado": "2026-09-23 03:21",
  "videos": [
+  {
+   "quark": "1789616260709-1802",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-17",
+   "youtube": "qEnX9kTTK5U",
+   "duracion": 814.3,
+   "marcador": [
+    5,
+    3
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "RAC | Flavio.Ryu",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    },
+    {
+     "nombre": "thomas_medeiros",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken"
+     ],
+     "claves": [
+      "ken"
+     ]
+    }
+   ],
+   "rondas": 22
+  },
   {
    "quark": "1675826442557-1668",
    "juego": "ssf2xjr1",
