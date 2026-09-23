@@ -222,7 +222,7 @@ h2 .sub{color:var(--dim);letter-spacing:1px;font-weight:400;font-size:13px;text-
 .dia{background:var(--panel);border:1px solid var(--line);border-radius:11px;overflow:hidden}
 .dia h3{display:flex;align-items:center;gap:12px;padding:11px 15px;background:var(--panel2);
   border-bottom:1px solid var(--line);font-size:16px;font-weight:700;letter-spacing:.5px}
-.dia h3 .fecha{text-transform:capitalize}
+.dia h3 .fecha{display:inline-block}.dia h3 .fecha::first-letter{text-transform:uppercase}
 .dia h3 .cuantos{margin-left:auto;font:600 13px/1 var(--mono);color:var(--dim)}
 .cfila{display:flex;gap:12px;align-items:baseline;padding:9px 15px;border-top:1px solid var(--line)}
 .cfila:first-of-type{border-top:0}
