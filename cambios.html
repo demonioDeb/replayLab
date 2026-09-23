@@ -5,19 +5,22 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>replayLab</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🎮</text></svg>">
-<link rel="stylesheet" href="assets/estilo.css?v=8d67a60f0f">
+<link rel="stylesheet" href="assets/estilo.css?v=669543226c">
 </head>
 <body>
 <header id="cabsitio"></header>
 
 <main class="wrap">
   <div class="intro"><div><h1 id="titulo"></h1><p id="sub"></p></div></div>
+  <!-- dos secciones: la web por un lado, y cada juego por otro -->
+  <div class="atabs c-areas" id="areas" role="tablist"></div>
+  <p class="c-desc" id="c-desc"></p>
   <div id="cambios" class="diario"></div>
 </main>
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=1a209fca07"></script>
+<script src="assets/app.js?v=c69cec1271"></script>
 <script>
 "use strict";
 let DATOS = null;
@@ -43,25 +46,60 @@ const fechaLarga = f => {
   } catch (e) { return f; }
 };
 
+// Cada cambio lleva su área: "web" (lo que se ve en replayLab) y/o "juego" (overlay,
+// grabación, lo que se descubrió del juego, YouTube), con el id del juego.
+let AREA = ["web", "juego"].includes(Q.get("area")) ? Q.get("area") : "";
+const areas = c => c.area || ["web"];
+const nombreJuego = id => (juegoPorId(id) || {}).nombre || id || "";
+
+function grupo(icono, titulo, lista) {
+  if (!lista.length) return "";
+  return `<div class="c-grupo"><div class="c-gt">${icono} ${esc(titulo)}<span class="cuantos">${lista.length}</span></div>` +
+    lista.map(c => {
+      const [clave, color] = TIPO[c.t] || ["c_cambiado", "#94a6cc"];
+      return `<div class="cfila">
+        <span class="sello" style="--c:${color}">${esc(T(clave))}</span>
+        <span class="ct">${esc(texto(c))}</span></div>`;
+    }).join("") + `</div>`;
+}
+
 function pinta() {
   document.documentElement.lang = LANG;
   $("#titulo").textContent = T("t_cambios");
   $("#sub").textContent = T("sub_cambios");
   textosCabecera(); pintaPie();
   if (!DATOS) return;
+  const todas = (DATOS.dias || []).flatMap(d => d.cambios || []);
+  const n = a => todas.filter(c => !a || areas(c).includes(a)).length;
+  $("#areas").innerHTML = [["", "c_todo", ""], ["web", "c_web", "🌐"], ["juego", "c_juegos", "🎮"]]
+    .map(([a, t, ic]) => `<button class="atab" role="tab" data-area="${a}" aria-selected="${AREA === a}">
+      ${ic} ${esc(T(t))} <span class="n">${n(a)}</span></button>`).join("");
+  $("#c-desc").textContent = AREA === "web" ? T("c_web_d") : AREA === "juego" ? T("c_juego_d") : "";
+  $("#c-desc").hidden = !AREA;
+
   $("#cambios").innerHTML = (DATOS.dias || []).map(d => {
-    const filas = (d.cambios || []).map(c => {
-      const [clave, color] = TIPO[c.t] || ["c_cambiado", "#94a6cc"];
-      return `<div class="cfila">
-        <span class="sello" style="--c:${color}">${esc(T(clave))}</span>
-        <span class="ct">${esc(texto(c))}</span></div>`;
-    }).join("");
+    const cs = d.cambios || [];
+    const web = AREA === "juego" ? [] : cs.filter(c => areas(c).includes("web"));
+    const deJuego = AREA === "web" ? [] : cs.filter(c => areas(c).includes("juego"));
+    const ids = [...new Set(deJuego.map(c => c.juego || ""))];
+    const cuerpo = grupo("🌐", T("c_web"), web) +
+      ids.map(id => grupo("🎮", nombreJuego(id) || T("c_juegos"), deJuego.filter(c => (c.juego || "") === id))).join("");
+    if (!cuerpo) return "";
     return `<section class="dia">
-      <h3><span class="fecha">${esc(fechaLarga(d.fecha))}</span>
-        <span class="cuantos">${(d.cambios || []).length}</span></h3>
-      ${filas}</section>`;
+      <h3><span class="fecha">${esc(fechaLarga(d.fecha))}</span></h3>
+      ${cuerpo}</section>`;
   }).join("");
 }
+
+$("#areas").addEventListener("click", e => {
+  const b = e.target.closest("[data-area]");
+  if (!b) return;
+  AREA = b.dataset.area;
+  const u = new URL(location.href);
+  if (AREA) u.searchParams.set("area", AREA); else u.searchParams.delete("area");
+  history.replaceState(null, "", u);
+  pinta();
+});
 
 montaCabecera("cambios", pinta);
 cargaBase(pinta);

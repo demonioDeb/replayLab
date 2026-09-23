@@ -5,10 +5,10 @@
 
 const I18N = {
   es: {
-    "s_set": "El set", "s_peleas": "Peleas", "s_dano": "Daño", "s_combos": "Combos", "s_supers": "Súpers", "s_mareos": "Mareos", "s_tiempo": "Tiempo", "s_pers": "Personajes", "s_emu": "Emulador", "s_def": "Defensa", "st_winpct": "Porcentaje", "st_peleapida": "Su pelea más rápida", "st_vidaperd": "Vida perdida por ronda", "st_duravg": "Duración de ronda", "st_meterfull": "Veces que llenó la barra", "st_supernom": "Su súper", "st_stuntime": "Tiempo mareado", "st_stunpeor": "Su mareo más largo", "st_dizzies": "Mareos que provocó", "st_mareado": "Veces que lo marearon", "st_swaps": "Cambios de personaje", "st_conect": "Golpes que conectaron", "st_bloq": "Golpes que le bloquearon", "st_bloqueo": "Golpes que bloqueó", "st_defensa": "Bloqueó el", "st_primero": "Pegó primero", "emu_nota": "Datos que reporta el propio emulador, no calculados por replayLab", "dur_rondas": "Duración de cada ronda", "nada_aqui": "Sin datos en esta grabación",
+    "s_set": "El set", "s_peleas": "Peleas", "s_dano": "Daño", "s_combos": "Combos", "s_supers": "Súpers", "s_mareos": "Mareos", "s_tiempo": "Tiempo", "s_pers": "Personajes", "s_emu": "Emulador", "s_def": "Defensa", "st_winpct": "% de rondas ganadas", "st_peleapida": "Pelea más corta que ganó", "st_vidaperd": "Vida que pierde por ronda (media)", "st_duravg": "Lo que tarda en ganar una ronda (media)", "st_meterfull": "Veces que tuvo el súper cargado", "st_supernom": "Nombre de su súper", "st_stuntime": "Tiempo que pasó mareado", "st_stunpeor": "Mareo más largo que sufrió", "st_dizzies": "Veces que mareó al rival", "st_mareado": "Veces que lo marearon", "st_swaps": "Cambios de personaje", "st_conect": "Golpes que entraron limpios", "st_bloq": "Golpes suyos que el rival bloqueó", "st_bloqueo": "Golpes del rival que bloqueó", "st_defensa": "% de golpes del rival que bloqueó", "st_primero": "Dio el primer golpe", "emu_nota": "Datos que reporta el propio emulador, no calculados por replayLab", "dur_rondas": "Cuánto duró cada ronda", "nada_aqui": "Sin datos en esta grabación",
     "cambios": "Cambios", "t_cambios": "Lo que fuimos haciendo", "sub_cambios": "Resumen por día de los cambios y de lo que fuimos descubriendo del juego", "c_hallazgo": "Hallazgo", "c_añadido": "Nuevo", "c_cambiado": "Cambio", "c_arreglado": "Arreglo", "donar": "Invítame un café", "ap_titulo": "¿Te gusta Replay Lab? Invítame un café", "ap_p1": "Replay Lab es un proyecto independiente creado para analizar, conservar y presentar partidas de videojuegos de una manera diferente. Procesar cada replay implica tiempo, almacenamiento, internet y recursos para mantener el proyecto funcionando.", "ap_p2": "Si Replay Lab te resulta útil o simplemente disfrutas viendo tus partidas con estadísticas, puedes apoyar el proyecto invitándome un café. ☕🎮", "ap_p3": "Tu apoyo ayuda a mantener Replay Lab funcionando y a seguir agregando nuevas funciones, juegos y estadísticas.", "ap_nota": "Gracias por apoyar el proyecto. Cada café ayuda a mantener la máquina encendida. ❤️", "canal": "Canal",
-    al_limite: "Al límite", sin_cierre: "Sin cierre", sin_cierre_ayuda: "El juego no cerró esta ronda: sus tiempos son aproximados", dano: "Daño",
-   vista: "Vista", v_iconos: "Iconos grandes", v_miniaturas: "Miniaturas", v_mosaico: "Mosaico", v_lista: "Lista", v_detalles: "Detalles", orden: "Ordenar", o_fecha: "Fecha", o_duracion: "Duración", o_jugador: "Jugador", o_peleas: "Peleas", videos: "vídeos", rango: "Rango", sin_rango: "Sin rango", rondas_t: "Rondas", resumen_rondas: "Ronda a ronda", gana: "gana", empate: "empate", por_ko: "KO", por_tiempo: "Tiempo", doble: "Doble KO", dano_ronda: "Daño de la ronda", vida_restante: "le quedó", todo: "Todo", nada: "Nada", filtrar: "Filtrar", st_golpes: "Golpes conectados", st_danomedio: "Daño medio por golpe", st_agarres: "Agarres", st_racha: "Mejor racha de rondas", st_rondas_jug: "Rondas jugadas", pie_datos: "Datos leídos de la propia partida", cargando: "Cargando…",
+    al_limite: "Casi sin vida", sin_cierre: "Ronda incompleta", sin_cierre_ayuda: "El juego no cerró esta ronda: sus tiempos son aproximados", dano: "Daño",
+   vista: "Vista", v_iconos: "Iconos grandes", v_miniaturas: "Miniaturas", v_mosaico: "Mosaico", v_lista: "Lista", v_detalles: "Detalles", orden: "Ordenar", o_fecha: "Fecha", o_duracion: "Duración", o_jugador: "Jugador", o_peleas: "Peleas", videos: "vídeos", rango: "Rango", sin_rango: "Sin rango", rondas_t: "Rondas", resumen_rondas: "Ronda a ronda", gana: "gana", empate: "empate", por_ko: "KO", por_tiempo: "Tiempo", doble: "Doble KO", dano_ronda: "Daño de la ronda", vida_restante: "le quedó", todo: "Todo", nada: "Nada", filtrar: "Filtrar", st_golpes: "Veces que quitó vida", st_danomedio: "Daño por golpe (media)", st_agarres: "Agarres", st_racha: "Más rondas ganadas seguidas", st_rondas_jug: "Rondas jugadas", pie_datos: "Datos leídos de la propia partida", cargando: "Cargando…",
     lema: "Replays de Fightcade, grabados y contados",
     buscar: "Buscar jugador o personaje…",
     sin_videos: "Todavía no hay vídeos.",
@@ -18,25 +18,32 @@ const I18N = {
     volver: "Volver",
     peleas: "peleas", pelea: "Pelea", ronda: "Ronda",
     linea: "Línea de tiempo", saltos: "Saltar a",
-    resumen: "El set", combate: "Combate", rondas_t: "Rondas",
-    combo: "Combo", super: "Súper", mareo: "Mareo", ko: "Remate",
+    resumen: "El set", combate: "Combate",     combo: "Combo", super: "Súper", mareo: "Mareo", ko: "Remate",
     perfect: "Perfect", remontada: "Remontada", doble_ko: "Doble KO",
-    golpes: "golpes", barras: "barras", seg: "s",
+    golpes: "golpes", barras: "barras de vida", seg: "s",
     st_peleas: "Peleas ganadas", st_rondas: "Rondas ganadas",
-    st_kotiempo: "Por KO / por tiempo", st_perfects: "Perfects",
+    st_kotiempo: "Ganadas por KO / por tiempo", st_perfects: "Perfects",
     st_dano: "Daño hecho", st_recibido: "Daño recibido",
-    st_combos: "Combos", st_combomax: "Combo más largo", st_combodano: "Mejor combo",
+    st_combos: "Combos", st_combomax: "Combo más largo (golpes)", st_combodano: "Combo que más quitó",
     st_supers: "Súpers lanzados", st_mareos: "Mareos que provocó",
-    st_rapida: "Su ronda más rápida", st_vida: "Vida al ganar (prom.)",
-    st_limite: "Ganadas al límite", st_remontada: "Mayor remontada",
+    st_rapida: "Ronda más corta que ganó", st_vida: "Vida que le quedaba al ganar (media)",
+    st_limite: "Rondas ganadas casi sin vida", st_remontada: "Mayor remontada (vida en contra)",
     pie_hecho: "Hecho con fcrec", pie_fuente: "Código",
-    cargando: "Cargando…", no_existe: "No encuentro ese vídeo.",
+    no_existe: "No encuentro ese vídeo.",
     s_resumen: "Resumen", s_analisis: "Análisis", s_tecnico: "Detalle técnico", r_destacados: "Momentos destacados",
-    r_dif: "%s de diferencia", r_igual: "Igualados", r_vidafin: "Vida al final de cada ronda", r_remontada: "%s % abajo → victoria",
-    r_seguidas: "%s rondas seguidas", r_gana_set: "gana el set", r_cero: "a 0 % y en pie", r_cero_ayuda: "En Super Turbo quedarse a cero de vida no es KO: sigue en pie.",
+    r_dif: "%s de diferencia", r_igual: "Igualados", r_vidafin: "Vida al final de cada ronda", r_remontada: "Remontó %s % de vida en contra",
+    r_seguidas: "%s rondas seguidas", r_gana_set: "gana el set", r_cero: "ganó con 0 % de vida", r_cero_ayuda: "En Super Turbo quedarse a cero de vida no es KO: sigue en pie.",
     p_de: "Pelea %s de %s", p_ant: "Pelea anterior", p_sig: "Pelea siguiente",
     p_video: "Ver en el vídeo", p_set_tl: "El set completo", p_ley: "Color: quién ganó · en medio: rondas de esa pelea · abajo: cómo iba el set. Pulsa una para ver su detalle.",
     u_partida: "partida", u_pelea: "pelea", u_peleas: "peleas", ap_procesada: "partida procesada",
+    n_enviar: "Enviar replay", n_pronto: "Pronto", e_titulo: "Envía tu replay",
+    e_sub: "Pega el enlace de un replay de Fightcade y Replay Lab lo grabará, lo analizará y lo publicará con todas sus estadísticas.", e_aviso: "Todavía no funciona. La estamos preparando y aquí verás cuándo se abre.", e_campo: "Enlace del replay",
+    e_boton: "Enviar replay", e_como: "Cómo funcionará", e_p1: "Pegas el enlace del replay de Fightcade.",
+    e_p2: "Se comprueba que el juego esté en Replay Lab y que la partida no esté ya publicada.", e_p3: "La partida entra en la cola.", e_p4: "Se graba con el overlay y se calculan sus estadísticas.",
+    e_p5: "Aparece en Partidas y en el canal de YouTube.", e_juegos: "Juegos que se podrán enviar", ap_viene: "Lo que viene",
+    ap_enviar: "Que la comunidad pueda enviar sus replays", ap_en_curso: "En preparación",
+    c_todo: "Todo", c_web: "Web", c_juegos: "Juegos",
+    c_web_d: "Lo que ves en replayLab: páginas, estadísticas, navegación.", c_juego_d: "Lo de cada juego: overlay, grabación, lo que descubrimos de la partida y los vídeos.",
     n_inicio: "Inicio", n_partidas: "Partidas", n_juegos: "Juegos", n_canal: "Canal",
     n_cambios: "Changelog", n_apoya: "Apoya el proyecto", n_github: "GitHub", n_menu: "Menú",
     pie_indep: "Proyecto independiente", h_titulo: "Análisis de partidas de juegos de pelea", h_texto: "Replays de Fightcade grabados, con cada ronda, combo y súper leídos directamente del juego.", h_ver: "Ver partidas",
@@ -44,7 +51,7 @@ const I18N = {
     j_pelea: "Juegos de pelea", j_disp: "Disponible", j_prox: "Próximamente", j_entrar: "Entrar",
     u_partidas: "partidas", g_jugadores: "Jugadores", g_stats: "Estadísticas", g_analisis: "Ver análisis",
     g_jugadas: "Partidas jugadas", g_ganadas: "Peleas ganadas", g_tiempo: "Tiempo de juego", g_njug: "Jugadores distintos",
-    g_npers: "Personajes usados", g_apar: "Apariciones", g_sin: "Todavía no hay partidas de este juego.", g_noexiste: "Ese juego no está en Replay Lab.",
+    g_npers: "Personajes usados", g_apar: "Veces elegido", g_sin: "Todavía no hay partidas de este juego.", g_noexiste: "Ese juego no está en Replay Lab.",
     p_todos: "Todos los juegos", ap_intro: "Replay Lab es un proyecto independiente. Cada partida que ves aquí se grabó, se procesó y se publicó en un equipo propio.", ap_cuesta: "Lo que cuesta mantenerlo", ap_c1: "Procesamiento: grabar y analizar cada replay",
     ap_c2: "Almacenamiento: vídeos y datos de cada partida", ap_c3: "Internet: subir los vídeos y servir la web", ap_c4: "Electricidad: horas de grabación y de proceso", ap_c5: "Mantenimiento: que todo siga funcionando",
     ap_c6: "Desarrollo: nuevas estadísticas y funciones", ap_c7: "Nuevos juegos: descifrar cómo guarda cada juego sus datos", ap_progreso: "Progreso de Replay Lab", ap_procesadas: "partidas procesadas",
@@ -54,10 +61,10 @@ const I18N = {
     l_juego1: "Primer juego incorporado", l_juego2: "Segundo juego incorporado",
   },
   en: {
-    "s_set": "The set", "s_peleas": "Matches", "s_dano": "Damage", "s_combos": "Combos", "s_supers": "Supers", "s_mareos": "Dizzies", "s_tiempo": "Time", "s_pers": "Characters", "s_emu": "Emulator", "s_def": "Defence", "st_winpct": "Win rate", "st_peleapida": "Fastest match", "st_vidaperd": "Health lost per round", "st_duravg": "Round length", "st_meterfull": "Times the meter filled", "st_supernom": "Their super", "st_stuntime": "Time dizzy", "st_stunpeor": "Longest dizzy", "st_dizzies": "Dizzies they caused", "st_mareado": "Times they were dizzied", "st_swaps": "Character switches", "st_conect": "Hits that landed", "st_bloq": "Hits that got blocked", "st_bloqueo": "Hits they blocked", "st_defensa": "Blocked", "st_primero": "First hit", "emu_nota": "Figures reported by the emulator itself, not computed by replayLab", "dur_rondas": "Length of each round", "nada_aqui": "No data in this recording",
+    "s_set": "The set", "s_peleas": "Games", "s_dano": "Damage", "s_combos": "Combos", "s_supers": "Supers", "s_mareos": "Dizzies", "s_tiempo": "Time", "s_pers": "Characters", "s_emu": "Emulator", "s_def": "Defence", "st_winpct": "% of rounds won", "st_peleapida": "Shortest game won", "st_vidaperd": "Health lost per round (avg.)", "st_duravg": "Time to win a round (avg.)", "st_meterfull": "Times the super was charged", "st_supernom": "Their super's name", "st_stuntime": "Time spent dizzy", "st_stunpeor": "Longest time dizzy", "st_dizzies": "Times they dizzied the opponent", "st_mareado": "Times they got dizzied", "st_swaps": "Character switches", "st_conect": "Clean hits landed", "st_bloq": "Their hits the opponent blocked", "st_bloqueo": "Opponent's hits they blocked", "st_defensa": "% of opponent's hits blocked", "st_primero": "Landed the first hit", "emu_nota": "Figures reported by the emulator itself, not computed by replayLab", "dur_rondas": "How long each round lasted", "nada_aqui": "No data in this recording",
     "cambios": "Changes", "t_cambios": "What we've been doing", "sub_cambios": "A day-by-day summary of the changes and of what we kept finding out about the game", "c_hallazgo": "Finding", "c_añadido": "New", "c_cambiado": "Change", "c_arreglado": "Fix", "donar": "Buy me a coffee", "ap_titulo": "Enjoying Replay Lab? Buy me a coffee", "ap_p1": "Replay Lab is an independent project built to analyse, preserve and present game matches in a different way. Processing every replay takes time, storage, bandwidth and the machines that keep it running.", "ap_p2": "If Replay Lab is useful to you, or you simply enjoy watching your own matches with stats, you can support the project by buying me a coffee. ☕🎮", "ap_p3": "Your support keeps Replay Lab running and helps add new features, games and stats.", "ap_nota": "Thanks for supporting the project. Every coffee helps keep the machine on. ❤️", "canal": "Channel",
-    al_limite: "On the edge", sin_cierre: "Never closed", sin_cierre_ayuda: "The game never closed this round: its times are approximate", dano: "Damage",
-   vista: "View", v_iconos: "Large icons", v_miniaturas: "Thumbnails", v_mosaico: "Tiles", v_lista: "List", v_detalles: "Details", orden: "Sort", o_fecha: "Date", o_duracion: "Length", o_jugador: "Player", o_peleas: "Matches", videos: "videos", rango: "Rank", sin_rango: "Unranked", rondas_t: "Rounds", resumen_rondas: "Round by round", gana: "wins", empate: "draw", por_ko: "KO", por_tiempo: "Time", doble: "Double KO", dano_ronda: "Round damage", vida_restante: "left", todo: "All", nada: "None", filtrar: "Filter", st_golpes: "Hits landed", st_danomedio: "Average damage per hit", st_agarres: "Throws", st_racha: "Best round streak", st_rondas_jug: "Rounds played", pie_datos: "Data read from the match itself", cargando: "Loading…",
+    al_limite: "Almost no health", sin_cierre: "Unfinished round", sin_cierre_ayuda: "The game never closed this round: its times are approximate", dano: "Damage",
+   vista: "View", v_iconos: "Large icons", v_miniaturas: "Thumbnails", v_mosaico: "Tiles", v_lista: "List", v_detalles: "Details", orden: "Sort", o_fecha: "Date", o_duracion: "Length", o_jugador: "Player", o_peleas: "Matches", videos: "videos", rango: "Rank", sin_rango: "Unranked", rondas_t: "Rounds", resumen_rondas: "Round by round", gana: "wins", empate: "draw", por_ko: "KO", por_tiempo: "Time", doble: "Double KO", dano_ronda: "Round damage", vida_restante: "left", todo: "All", nada: "None", filtrar: "Filter", st_golpes: "Times they took health", st_danomedio: "Damage per hit (avg.)", st_agarres: "Throws", st_racha: "Most rounds won in a row", st_rondas_jug: "Rounds played", pie_datos: "Data read from the match itself", cargando: "Loading…",
     lema: "Fightcade replays, recorded and explained",
     buscar: "Search player or character…",
     sin_videos: "No videos yet.",
@@ -67,33 +74,40 @@ const I18N = {
     volver: "Back",
     peleas: "matches", pelea: "Match", ronda: "Round",
     linea: "Timeline", saltos: "Jump to",
-    resumen: "The set", combate: "Combat", rondas_t: "Rounds",
-    combo: "Combo", super: "Super", mareo: "Dizzy", ko: "Finish",
+    resumen: "The set", combate: "Combat",     combo: "Combo", super: "Super", mareo: "Dizzy", ko: "Finish",
     perfect: "Perfect", remontada: "Comeback", doble_ko: "Double KO",
-    golpes: "hits", barras: "bars", seg: "s",
-    st_peleas: "Matches won", st_rondas: "Rounds won",
-    st_kotiempo: "By KO / by time", st_perfects: "Perfects",
+    golpes: "hits", barras: "health bars", seg: "s",
+    st_peleas: "Games won", st_rondas: "Rounds won",
+    st_kotiempo: "Won by KO / on time", st_perfects: "Perfects",
     st_dano: "Damage dealt", st_recibido: "Damage taken",
-    st_combos: "Combos", st_combomax: "Longest combo", st_combodano: "Best combo",
+    st_combos: "Combos", st_combomax: "Longest combo (hits)", st_combodano: "Most damaging combo",
     st_supers: "Supers thrown", st_mareos: "Dizzies caused",
-    st_rapida: "Fastest round", st_vida: "Health on win (avg.)",
-    st_limite: "Won on the edge", st_remontada: "Biggest comeback",
+    st_rapida: "Shortest round won", st_vida: "Health left when winning (avg.)",
+    st_limite: "Rounds won on almost no health", st_remontada: "Biggest comeback (health behind)",
     pie_hecho: "Made with fcrec", pie_fuente: "Source",
-    cargando: "Loading…", no_existe: "I can't find that video.",
+    no_existe: "I can't find that video.",
     s_resumen: "Summary", s_analisis: "Analysis", s_tecnico: "Technical detail", r_destacados: "Highlights",
-    r_dif: "%s ahead", r_igual: "Level", r_vidafin: "Health at the end of each round", r_remontada: "%s% down → win",
-    r_seguidas: "%s rounds in a row", r_gana_set: "wins the set", r_cero: "0% and standing", r_cero_ayuda: "In Super Turbo, hitting zero health is not a KO: they are still standing.",
+    r_dif: "%s ahead", r_igual: "Level", r_vidafin: "Health at the end of each round", r_remontada: "Came back from %s% health behind",
+    r_seguidas: "%s rounds in a row", r_gana_set: "wins the set", r_cero: "won on 0% health", r_cero_ayuda: "In Super Turbo, hitting zero health is not a KO: they are still standing.",
     p_de: "Game %s of %s", p_ant: "Previous game", p_sig: "Next game",
     p_video: "Watch in the video", p_set_tl: "The whole set", p_ley: "Colour: who won · middle: rounds in that game · bottom: set score after it. Tap one to see its detail.",
     u_partida: "match", u_pelea: "game", u_peleas: "games", ap_procesada: "match processed",
+    n_enviar: "Send a replay", n_pronto: "Soon", e_titulo: "Send us your replay",
+    e_sub: "Paste a Fightcade replay link and Replay Lab will record it, analyse it and publish it with all its stats.", e_aviso: "It doesn't work yet. We're getting it ready — you'll see here when it opens.", e_campo: "Replay link",
+    e_boton: "Send replay", e_como: "How it will work", e_p1: "You paste the Fightcade replay link.",
+    e_p2: "We check the game is on Replay Lab and the match isn't already published.", e_p3: "The match joins the queue.", e_p4: "It gets recorded with the overlay and its stats are worked out.",
+    e_p5: "It shows up in Matches and on the YouTube channel.", e_juegos: "Games you'll be able to send", ap_viene: "What's next",
+    ap_enviar: "Let the community send in their replays", ap_en_curso: "In progress",
+    c_todo: "All", c_web: "Website", c_juegos: "Games",
+    c_web_d: "What you see on replayLab: pages, stats, navigation.", c_juego_d: "Each game's side: overlay, recording, what we found out about the match, and the videos.",
     n_inicio: "Home", n_partidas: "Matches", n_juegos: "Games", n_canal: "Channel",
     n_cambios: "Changelog", n_apoya: "Support the project", n_github: "GitHub", n_menu: "Menu",
     pie_indep: "Independent project", h_titulo: "Fighting game match analysis", h_texto: "Fightcade replays, recorded, with every round, combo and super read straight from the game.", h_ver: "Browse matches",
     h_juegos: "Games we analyse", h_ultimas: "Latest matches", h_todas: "See all", j_sub: "Replay Lab analyses fighting games. Each game has its own space.",
     j_pelea: "Fighting games", j_disp: "Available", j_prox: "Coming soon", j_entrar: "Open",
     u_partidas: "matches", g_jugadores: "Players", g_stats: "Stats", g_analisis: "View analysis",
-    g_jugadas: "Matches played", g_ganadas: "Fights won", g_tiempo: "Time played", g_njug: "Different players",
-    g_npers: "Characters used", g_apar: "Appearances", g_sin: "No matches for this game yet.", g_noexiste: "That game is not on Replay Lab.",
+    g_jugadas: "Matches played", g_ganadas: "Games won", g_tiempo: "Time played", g_njug: "Different players",
+    g_npers: "Characters used", g_apar: "Times picked", g_sin: "No matches for this game yet.", g_noexiste: "That game is not on Replay Lab.",
     p_todos: "All games", ap_intro: "Replay Lab is an independent project. Every match you see here was recorded, processed and published on our own machine.", ap_cuesta: "What it takes to keep it running", ap_c1: "Processing: recording and analysing every replay",
     ap_c2: "Storage: videos and data for every match", ap_c3: "Bandwidth: uploading videos and serving the site", ap_c4: "Power: hours of recording and processing", ap_c5: "Maintenance: keeping everything working",
     ap_c6: "Development: new stats and features", ap_c7: "New games: working out how each game stores its data", ap_progreso: "Replay Lab progress", ap_procesadas: "matches processed",
@@ -103,10 +117,10 @@ const I18N = {
     l_juego1: "First game added", l_juego2: "Second game added",
   },
   pt: {
-    "s_set": "O set", "s_peleas": "Lutas", "s_dano": "Dano", "s_combos": "Combos", "s_supers": "Súpers", "s_mareos": "Atordoamentos", "s_tiempo": "Tempo", "s_pers": "Personagens", "s_emu": "Emulador", "s_def": "Defesa", "st_winpct": "Porcentagem", "st_peleapida": "Luta mais rápida", "st_vidaperd": "Vida perdida por round", "st_duravg": "Duração do round", "st_meterfull": "Vezes que encheu a barra", "st_supernom": "Seu súper", "st_stuntime": "Tempo atordoado", "st_stunpeor": "Atordoamento mais longo", "st_dizzies": "Atordoamentos que causou", "st_mareado": "Vezes que foi atordoado", "st_swaps": "Trocas de personagem", "st_conect": "Golpes acertados", "st_bloq": "Golpes bloqueados pelo rival", "st_bloqueo": "Golpes que bloqueou", "st_defensa": "Bloqueou", "st_primero": "Acertou primeiro", "emu_nota": "Dados do próprio emulador, não calculados pelo replayLab", "dur_rondas": "Duração de cada round", "nada_aqui": "Sem dados nesta gravação",
+    "s_set": "O set", "s_peleas": "Lutas", "s_dano": "Dano", "s_combos": "Combos", "s_supers": "Súpers", "s_mareos": "Atordoamentos", "s_tiempo": "Tempo", "s_pers": "Personagens", "s_emu": "Emulador", "s_def": "Defesa", "st_winpct": "% de rounds vencidos", "st_peleapida": "Luta mais curta que venceu", "st_vidaperd": "Vida perdida por round (média)", "st_duravg": "Tempo para vencer um round (média)", "st_meterfull": "Vezes com o súper carregado", "st_supernom": "Nome do seu súper", "st_stuntime": "Tempo que passou atordoado", "st_stunpeor": "Atordoamento mais longo que sofreu", "st_dizzies": "Vezes que atordoou o rival", "st_mareado": "Vezes que foi atordoado", "st_swaps": "Trocas de personagem", "st_conect": "Golpes que entraram limpos", "st_bloq": "Golpes seus que o rival bloqueou", "st_bloqueo": "Golpes do rival que bloqueou", "st_defensa": "% dos golpes do rival bloqueados", "st_primero": "Deu o primeiro golpe", "emu_nota": "Dados do próprio emulador, não calculados pelo replayLab", "dur_rondas": "Quanto durou cada round", "nada_aqui": "Sem dados nesta gravação",
     "cambios": "Mudanças", "t_cambios": "O que fomos fazendo", "sub_cambios": "Resumo por dia das mudanças e do que fomos descobrindo do jogo", "c_hallazgo": "Descoberta", "c_añadido": "Novo", "c_cambiado": "Mudança", "c_arreglado": "Correção", "donar": "Me pague um café", "ap_titulo": "Gosta do Replay Lab? Me pague um café", "ap_p1": "O Replay Lab é um projeto independente criado para analisar, preservar e apresentar partidas de videogame de um jeito diferente. Processar cada replay exige tempo, armazenamento, internet e recursos para manter o projeto no ar.", "ap_p2": "Se o Replay Lab te é útil ou você simplesmente gosta de ver suas partidas com estatísticas, pode apoiar o projeto me pagando um café. ☕🎮", "ap_p3": "Seu apoio ajuda a manter o Replay Lab funcionando e a seguir adicionando novos recursos, jogos e estatísticas.", "ap_nota": "Obrigado por apoiar o projeto. Cada café ajuda a manter a máquina ligada. ❤️", "canal": "Canal",
-    al_limite: "No limite", sin_cierre: "Sem fecho", sin_cierre_ayuda: "O jogo não fechou este round: os tempos são aproximados", dano: "Dano",
-   vista: "Exibição", v_iconos: "Ícones grandes", v_miniaturas: "Miniaturas", v_mosaico: "Blocos", v_lista: "Lista", v_detalles: "Detalhes", orden: "Ordenar", o_fecha: "Data", o_duracion: "Duração", o_jugador: "Jogador", o_peleas: "Lutas", videos: "vídeos", rango: "Rank", sin_rango: "Sem rank", rondas_t: "Rounds", resumen_rondas: "Round a round", gana: "vence", empate: "empate", por_ko: "KO", por_tiempo: "Tempo", doble: "Duplo KO", dano_ronda: "Dano do round", vida_restante: "sobrou", todo: "Tudo", nada: "Nada", filtrar: "Filtrar", st_golpes: "Golpes acertados", st_danomedio: "Dano médio por golpe", st_agarres: "Agarrões", st_racha: "Melhor sequência", st_rondas_jug: "Rounds jogados", pie_datos: "Dados lidos da própria partida", cargando: "Carregando…",
+    al_limite: "Quase sem vida", sin_cierre: "Round incompleto", sin_cierre_ayuda: "O jogo não fechou este round: os tempos são aproximados", dano: "Dano",
+   vista: "Exibição", v_iconos: "Ícones grandes", v_miniaturas: "Miniaturas", v_mosaico: "Blocos", v_lista: "Lista", v_detalles: "Detalhes", orden: "Ordenar", o_fecha: "Data", o_duracion: "Duração", o_jugador: "Jogador", o_peleas: "Lutas", videos: "vídeos", rango: "Rank", sin_rango: "Sem rank", rondas_t: "Rounds", resumen_rondas: "Round a round", gana: "vence", empate: "empate", por_ko: "KO", por_tiempo: "Tempo", doble: "Duplo KO", dano_ronda: "Dano do round", vida_restante: "sobrou", todo: "Tudo", nada: "Nada", filtrar: "Filtrar", st_golpes: "Vezes que tirou vida", st_danomedio: "Dano por golpe (média)", st_agarres: "Agarrões", st_racha: "Mais rounds vencidos seguidos", st_rondas_jug: "Rounds jogados", pie_datos: "Dados lidos da própria partida", cargando: "Carregando…",
     lema: "Replays do Fightcade, gravados e explicados",
     buscar: "Buscar jogador ou personagem…",
     sin_videos: "Ainda não há vídeos.",
@@ -116,25 +130,32 @@ const I18N = {
     volver: "Voltar",
     peleas: "lutas", pelea: "Luta", ronda: "Round",
     linea: "Linha do tempo", saltos: "Ir para",
-    resumen: "O set", combate: "Combate", rondas_t: "Rounds",
-    combo: "Combo", super: "Súper", mareo: "Atordoamento", ko: "Finalização",
+    resumen: "O set", combate: "Combate",     combo: "Combo", super: "Súper", mareo: "Atordoamento", ko: "Finalização",
     perfect: "Perfect", remontada: "Virada", doble_ko: "Duplo KO",
-    golpes: "golpes", barras: "barras", seg: "s",
+    golpes: "golpes", barras: "barras de vida", seg: "s",
     st_peleas: "Lutas vencidas", st_rondas: "Rounds vencidos",
-    st_kotiempo: "Por KO / por tempo", st_perfects: "Perfects",
+    st_kotiempo: "Vencidos por KO / por tempo", st_perfects: "Perfects",
     st_dano: "Dano causado", st_recibido: "Dano recebido",
-    st_combos: "Combos", st_combomax: "Combo mais longo", st_combodano: "Melhor combo",
+    st_combos: "Combos", st_combomax: "Combo mais longo (golpes)", st_combodano: "Combo que mais tirou",
     st_supers: "Súpers usados", st_mareos: "Atordoamentos causados",
-    st_rapida: "Round mais rápido", st_vida: "Vida ao vencer (méd.)",
-    st_limite: "Vencidos no limite", st_remontada: "Maior virada",
+    st_rapida: "Round mais curto que venceu", st_vida: "Vida restante ao vencer (média)",
+    st_limite: "Rounds vencidos quase sem vida", st_remontada: "Maior virada (vida atrás)",
     pie_hecho: "Feito com fcrec", pie_fuente: "Código",
-    cargando: "Carregando…", no_existe: "Não encontro esse vídeo.",
+    no_existe: "Não encontro esse vídeo.",
     s_resumen: "Resumo", s_analisis: "Análise", s_tecnico: "Detalhe técnico", r_destacados: "Destaques",
-    r_dif: "%s de diferença", r_igual: "Empatados", r_vidafin: "Vida no fim de cada round", r_remontada: "%s% atrás → vitória",
-    r_seguidas: "%s rounds seguidos", r_gana_set: "vence o set", r_cero: "a 0% e de pé", r_cero_ayuda: "No Super Turbo, ficar com zero de vida não é KO: continua de pé.",
+    r_dif: "%s de diferença", r_igual: "Empatados", r_vidafin: "Vida no fim de cada round", r_remontada: "Virou com %s% de vida atrás",
+    r_seguidas: "%s rounds seguidos", r_gana_set: "vence o set", r_cero: "venceu com 0% de vida", r_cero_ayuda: "No Super Turbo, ficar com zero de vida não é KO: continua de pé.",
     p_de: "Luta %s de %s", p_ant: "Luta anterior", p_sig: "Próxima luta",
     p_video: "Ver no vídeo", p_set_tl: "O set completo", p_ley: "Cor: quem venceu · no meio: rounds dessa luta · embaixo: placar do set. Toque em uma para ver o detalhe.",
     u_partida: "partida", u_pelea: "luta", u_peleas: "lutas", ap_procesada: "partida processada",
+    n_enviar: "Enviar replay", n_pronto: "Em breve", e_titulo: "Envie seu replay",
+    e_sub: "Cole o link de um replay do Fightcade e o Replay Lab vai gravá-lo, analisá-lo e publicá-lo com todas as estatísticas.", e_aviso: "Ainda não funciona. Estamos preparando e aqui você verá quando abrir.", e_campo: "Link do replay",
+    e_boton: "Enviar replay", e_como: "Como vai funcionar", e_p1: "Você cola o link do replay do Fightcade.",
+    e_p2: "Verificamos se o jogo está no Replay Lab e se a partida ainda não foi publicada.", e_p3: "A partida entra na fila.", e_p4: "É gravada com o overlay e as estatísticas são calculadas.",
+    e_p5: "Aparece em Partidas e no canal do YouTube.", e_juegos: "Jogos que poderão ser enviados", ap_viene: "O que vem aí",
+    ap_enviar: "Que a comunidade possa enviar seus replays", ap_en_curso: "Em preparação",
+    c_todo: "Tudo", c_web: "Site", c_juegos: "Jogos",
+    c_web_d: "O que você vê no replayLab: páginas, estatísticas, navegação.", c_juego_d: "O de cada jogo: overlay, gravação, o que descobrimos da partida e os vídeos.",
     n_inicio: "Início", n_partidas: "Partidas", n_juegos: "Jogos", n_canal: "Canal",
     n_cambios: "Changelog", n_apoya: "Apoie o projeto", n_github: "GitHub", n_menu: "Menu",
     pie_indep: "Projeto independente", h_titulo: "Análise de partidas de jogos de luta", h_texto: "Replays do Fightcade gravados, com cada round, combo e súper lidos direto do jogo.", h_ver: "Ver partidas",
@@ -142,7 +163,7 @@ const I18N = {
     j_pelea: "Jogos de luta", j_disp: "Disponível", j_prox: "Em breve", j_entrar: "Entrar",
     u_partidas: "partidas", g_jugadores: "Jogadores", g_stats: "Estatísticas", g_analisis: "Ver análise",
     g_jugadas: "Partidas jogadas", g_ganadas: "Lutas vencidas", g_tiempo: "Tempo de jogo", g_njug: "Jogadores diferentes",
-    g_npers: "Personagens usados", g_apar: "Aparições", g_sin: "Ainda não há partidas deste jogo.", g_noexiste: "Esse jogo não está no Replay Lab.",
+    g_npers: "Personagens usados", g_apar: "Vezes escolhido", g_sin: "Ainda não há partidas deste jogo.", g_noexiste: "Esse jogo não está no Replay Lab.",
     p_todos: "Todos os jogos", ap_intro: "O Replay Lab é um projeto independente. Cada partida que você vê aqui foi gravada, processada e publicada numa máquina própria.", ap_cuesta: "O que custa mantê-lo", ap_c1: "Processamento: gravar e analisar cada replay",
     ap_c2: "Armazenamento: vídeos e dados de cada partida", ap_c3: "Internet: enviar os vídeos e manter o site", ap_c4: "Eletricidade: horas de gravação e processamento", ap_c5: "Manutenção: manter tudo funcionando",
     ap_c6: "Desenvolvimento: novas estatísticas e funções", ap_c7: "Novos jogos: descobrir como cada jogo guarda seus dados", ap_progreso: "Progresso do Replay Lab", ap_procesadas: "partidas processadas",
@@ -152,10 +173,10 @@ const I18N = {
     l_juego1: "Primeiro jogo incorporado", l_juego2: "Segundo jogo incorporado",
   },
   fr: {
-    "s_set": "Le set", "s_peleas": "Matchs", "s_dano": "Dégâts", "s_combos": "Combos", "s_supers": "Supers", "s_mareos": "Étourdissements", "s_tiempo": "Temps", "s_pers": "Personnages", "s_emu": "Émulateur", "s_def": "Défense", "st_winpct": "Pourcentage", "st_peleapida": "Match le plus rapide", "st_vidaperd": "Vie perdue par manche", "st_duravg": "Durée de manche", "st_meterfull": "Fois où la jauge s'est remplie", "st_supernom": "Son super", "st_stuntime": "Temps étourdi", "st_stunpeor": "Plus long étourdissement", "st_dizzies": "Étourdissements provoqués", "st_mareado": "Fois où il a été étourdi", "st_swaps": "Changements de personnage", "st_conect": "Coups qui ont touché", "st_bloq": "Coups bloqués par l'adversaire", "st_bloqueo": "Coups qu'il a bloqués", "st_defensa": "A bloqué", "st_primero": "A touché en premier", "emu_nota": "Chiffres rapportés par l'émulateur, non calculés par replayLab", "dur_rondas": "Durée de chaque manche", "nada_aqui": "Pas de données dans cet enregistrement",
+    "s_set": "Le set", "s_peleas": "Combats", "s_dano": "Dégâts", "s_combos": "Combos", "s_supers": "Supers", "s_mareos": "Étourdissements", "s_tiempo": "Temps", "s_pers": "Personnages", "s_emu": "Émulateur", "s_def": "Défense", "st_winpct": "% de manches gagnées", "st_peleapida": "Combat le plus court gagné", "st_vidaperd": "Vie perdue par manche (moy.)", "st_duravg": "Temps pour gagner une manche (moy.)", "st_meterfull": "Fois où le super était chargé", "st_supernom": "Nom de son super", "st_stuntime": "Temps passé étourdi", "st_stunpeor": "Plus long étourdissement subi", "st_dizzies": "Fois où il a étourdi l'adversaire", "st_mareado": "Fois où il a été étourdi", "st_swaps": "Changements de personnage", "st_conect": "Coups placés sans être bloqués", "st_bloq": "Ses coups bloqués par l'adversaire", "st_bloqueo": "Coups adverses bloqués", "st_defensa": "% des coups adverses bloqués", "st_primero": "A porté le premier coup", "emu_nota": "Chiffres rapportés par l'émulateur, non calculés par replayLab", "dur_rondas": "Durée de chaque manche", "nada_aqui": "Pas de données dans cet enregistrement",
     "cambios": "Changements", "t_cambios": "Ce qu'on a fait", "sub_cambios": "Résumé au jour le jour des changements et de ce qu'on a découvert du jeu", "c_hallazgo": "Découverte", "c_añadido": "Nouveau", "c_cambiado": "Changement", "c_arreglado": "Correction", "donar": "Offrez-moi un café", "ap_titulo": "Replay Lab vous plaît ? Offrez-moi un café", "ap_p1": "Replay Lab est un projet indépendant créé pour analyser, conserver et présenter des parties de jeux vidéo autrement. Traiter chaque replay demande du temps, du stockage, de la bande passante et des ressources pour faire tourner le projet.", "ap_p2": "Si Replay Lab vous est utile, ou si vous aimez simplement revoir vos parties avec des statistiques, vous pouvez soutenir le projet en m'offrant un café. ☕🎮", "ap_p3": "Votre soutien permet de garder Replay Lab en ligne et d'ajouter de nouvelles fonctions, de nouveaux jeux et de nouvelles statistiques.", "ap_nota": "Merci de soutenir le projet. Chaque café aide à garder la machine allumée. ❤️", "canal": "Chaîne",
-    al_limite: "De justesse", sin_cierre: "Non close", sin_cierre_ayuda: "Le jeu n'a pas clos cette manche : ses temps sont approximatifs", dano: "Dégâts",
-   vista: "Affichage", v_iconos: "Grandes icônes", v_miniaturas: "Miniatures", v_mosaico: "Tuiles", v_lista: "Liste", v_detalles: "Détails", orden: "Trier", o_fecha: "Date", o_duracion: "Durée", o_jugador: "Joueur", o_peleas: "Matchs", videos: "vidéos", rango: "Rang", sin_rango: "Sans rang", rondas_t: "Manches", resumen_rondas: "Manche par manche", gana: "gagne", empate: "égalité", por_ko: "KO", por_tiempo: "Temps", doble: "Double KO", dano_ronda: "Dégâts de la manche", vida_restante: "restant", todo: "Tout", nada: "Aucun", filtrar: "Filtrer", st_golpes: "Coups portés", st_danomedio: "Dégâts moyens par coup", st_agarres: "Projections", st_racha: "Meilleure série", st_rondas_jug: "Manches jouées", pie_datos: "Données lues du match lui-même", cargando: "Chargement…",
+    al_limite: "Presque sans vie", sin_cierre: "Manche incomplète", sin_cierre_ayuda: "Le jeu n'a pas clos cette manche : ses temps sont approximatifs", dano: "Dégâts",
+   vista: "Affichage", v_iconos: "Grandes icônes", v_miniaturas: "Miniatures", v_mosaico: "Tuiles", v_lista: "Liste", v_detalles: "Détails", orden: "Trier", o_fecha: "Date", o_duracion: "Durée", o_jugador: "Joueur", o_peleas: "Matchs", videos: "vidéos", rango: "Rang", sin_rango: "Sans rang", rondas_t: "Manches", resumen_rondas: "Manche par manche", gana: "gagne", empate: "égalité", por_ko: "KO", por_tiempo: "Temps", doble: "Double KO", dano_ronda: "Dégâts de la manche", vida_restante: "restant", todo: "Tout", nada: "Aucun", filtrar: "Filtrer", st_golpes: "Fois où il a retiré de la vie", st_danomedio: "Dégâts par coup (moy.)", st_agarres: "Projections", st_racha: "Plus de manches gagnées d'affilée", st_rondas_jug: "Manches jouées", pie_datos: "Données lues du match lui-même", cargando: "Chargement…",
     lema: "Replays Fightcade, enregistrés et racontés",
     buscar: "Chercher un joueur ou un personnage…",
     sin_videos: "Pas encore de vidéos.",
@@ -165,25 +186,32 @@ const I18N = {
     volver: "Retour",
     peleas: "matchs", pelea: "Match", ronda: "Manche",
     linea: "Chronologie", saltos: "Aller à",
-    resumen: "Le set", combate: "Combat", rondas_t: "Manches",
-    combo: "Combo", super: "Super", mareo: "Étourdissement", ko: "Finition",
+    resumen: "Le set", combate: "Combat",     combo: "Combo", super: "Super", mareo: "Étourdissement", ko: "Finition",
     perfect: "Perfect", remontada: "Remontée", doble_ko: "Double KO",
-    golpes: "coups", barras: "barres", seg: "s",
-    st_peleas: "Matchs gagnés", st_rondas: "Manches gagnées",
-    st_kotiempo: "Par KO / au temps", st_perfects: "Perfects",
+    golpes: "coups", barras: "barres de vie", seg: "s",
+    st_peleas: "Combats gagnés", st_rondas: "Manches gagnées",
+    st_kotiempo: "Gagnées par KO / au temps", st_perfects: "Perfects",
     st_dano: "Dégâts infligés", st_recibido: "Dégâts subis",
-    st_combos: "Combos", st_combomax: "Plus long combo", st_combodano: "Meilleur combo",
+    st_combos: "Combos", st_combomax: "Plus long combo (coups)", st_combodano: "Combo le plus dévastateur",
     st_supers: "Supers lancés", st_mareos: "Étourdissements provoqués",
-    st_rapida: "Manche la plus rapide", st_vida: "Vie à la victoire (moy.)",
-    st_limite: "Gagnées de justesse", st_remontada: "Plus grande remontée",
+    st_rapida: "Manche la plus courte gagnée", st_vida: "Vie restante en gagnant (moy.)",
+    st_limite: "Manches gagnées presque sans vie", st_remontada: "Plus grosse remontée (vie de retard)",
     pie_hecho: "Fait avec fcrec", pie_fuente: "Code",
-    cargando: "Chargement…", no_existe: "Je ne trouve pas cette vidéo.",
+    no_existe: "Je ne trouve pas cette vidéo.",
     s_resumen: "Résumé", s_analisis: "Analyse", s_tecnico: "Détail technique", r_destacados: "Temps forts",
-    r_dif: "%s d'écart", r_igual: "À égalité", r_vidafin: "Vie en fin de chaque manche", r_remontada: "%s % de retard → victoire",
-    r_seguidas: "%s manches d'affilée", r_gana_set: "remporte le set", r_cero: "à 0 % et debout", r_cero_ayuda: "Dans Super Turbo, tomber à zéro n'est pas un KO : le joueur reste debout.",
+    r_dif: "%s d'écart", r_igual: "À égalité", r_vidafin: "Vie en fin de chaque manche", r_remontada: "A remonté %s % de vie de retard",
+    r_seguidas: "%s manches d'affilée", r_gana_set: "remporte le set", r_cero: "gagné à 0 % de vie", r_cero_ayuda: "Dans Super Turbo, tomber à zéro n'est pas un KO : le joueur reste debout.",
     p_de: "Combat %s sur %s", p_ant: "Combat précédent", p_sig: "Combat suivant",
     p_video: "Voir dans la vidéo", p_set_tl: "Le set complet", p_ley: "Couleur : le vainqueur · au centre : manches de ce combat · en bas : score du set. Touchez-en un pour le détail.",
     u_partida: "match", u_pelea: "combat", u_peleas: "combats", ap_procesada: "match traité",
+    n_enviar: "Envoyer un replay", n_pronto: "Bientôt", e_titulo: "Envoyez votre replay",
+    e_sub: "Collez le lien d'un replay Fightcade : Replay Lab l'enregistrera, l'analysera et le publiera avec toutes ses statistiques.", e_aviso: "Ça ne fonctionne pas encore. Nous la préparons : vous verrez ici quand elle ouvrira.", e_campo: "Lien du replay",
+    e_boton: "Envoyer le replay", e_como: "Comment ça marchera", e_p1: "Vous collez le lien du replay Fightcade.",
+    e_p2: "On vérifie que le jeu est sur Replay Lab et que le match n'est pas déjà publié.", e_p3: "Le match rejoint la file d'attente.", e_p4: "Il est enregistré avec l'overlay et ses statistiques sont calculées.",
+    e_p5: "Il apparaît dans Matchs et sur la chaîne YouTube.", e_juegos: "Jeux que l'on pourra envoyer", ap_viene: "À venir",
+    ap_enviar: "Permettre à la communauté d'envoyer ses replays", ap_en_curso: "En préparation",
+    c_todo: "Tout", c_web: "Site web", c_juegos: "Jeux",
+    c_web_d: "Ce que vous voyez sur replayLab : pages, statistiques, navigation.", c_juego_d: "Côté jeu : overlay, enregistrement, ce qu'on a découvert du match et les vidéos.",
     n_inicio: "Accueil", n_partidas: "Matchs", n_juegos: "Jeux", n_canal: "Chaîne",
     n_cambios: "Changelog", n_apoya: "Soutenir le projet", n_github: "GitHub", n_menu: "Menu",
     pie_indep: "Projet indépendant", h_titulo: "Analyse de matchs de jeux de combat", h_texto: "Des replays Fightcade enregistrés, chaque manche, combo et super lus directement dans le jeu.", h_ver: "Voir les matchs",
@@ -191,7 +219,7 @@ const I18N = {
     j_pelea: "Jeux de combat", j_disp: "Disponible", j_prox: "Bientôt", j_entrar: "Ouvrir",
     u_partidas: "matchs", g_jugadores: "Joueurs", g_stats: "Statistiques", g_analisis: "Voir l'analyse",
     g_jugadas: "Matchs joués", g_ganadas: "Combats gagnés", g_tiempo: "Temps de jeu", g_njug: "Joueurs différents",
-    g_npers: "Personnages utilisés", g_apar: "Apparitions", g_sin: "Pas encore de matchs pour ce jeu.", g_noexiste: "Ce jeu n'est pas sur Replay Lab.",
+    g_npers: "Personnages utilisés", g_apar: "Fois choisi", g_sin: "Pas encore de matchs pour ce jeu.", g_noexiste: "Ce jeu n'est pas sur Replay Lab.",
     p_todos: "Tous les jeux", ap_intro: "Replay Lab est un projet indépendant. Chaque match ici a été enregistré, traité et publié sur notre propre machine.", ap_cuesta: "Ce que demande le projet", ap_c1: "Traitement : enregistrer et analyser chaque replay",
     ap_c2: "Stockage : vidéos et données de chaque match", ap_c3: "Internet : envoyer les vidéos et servir le site", ap_c4: "Électricité : des heures d'enregistrement et de traitement", ap_c5: "Maintenance : que tout continue de fonctionner",
     ap_c6: "Développement : nouvelles statistiques et fonctions", ap_c7: "Nouveaux jeux : comprendre comment chaque jeu stocke ses données", ap_progreso: "Progression de Replay Lab", ap_procesadas: "matchs traités",
@@ -201,10 +229,10 @@ const I18N = {
     l_juego1: "Premier jeu intégré", l_juego2: "Deuxième jeu intégré",
   },
   ja: {
-    "s_set": "セット", "s_peleas": "試合", "s_dano": "ダメージ", "s_combos": "コンボ", "s_supers": "スーパー", "s_mareos": "スタン", "s_tiempo": "時間", "s_pers": "キャラクター", "s_emu": "エミュレーター", "s_def": "防御", "st_winpct": "勝率", "st_peleapida": "最速の試合", "st_vidaperd": "1ラウンドの被ダメージ", "st_duravg": "ラウンド時間", "st_meterfull": "ゲージ満タン回数", "st_supernom": "スーパー技", "st_stuntime": "スタン時間", "st_stunpeor": "最長のスタン", "st_dizzies": "スタンさせた回数", "st_mareado": "スタンされた回数", "st_swaps": "キャラ変更", "st_conect": "命中した攻撃", "st_bloq": "ガードされた攻撃", "st_bloqueo": "ガードした回数", "st_defensa": "ガード率", "st_primero": "先制攻撃", "emu_nota": "エミュレーター自身が報告する数値（replayLab の計算ではありません）", "dur_rondas": "各ラウンドの長さ", "nada_aqui": "この録画にはデータがありません",
+    "s_set": "セット", "s_peleas": "試合", "s_dano": "ダメージ", "s_combos": "コンボ", "s_supers": "スーパー", "s_mareos": "スタン", "s_tiempo": "時間", "s_pers": "キャラクター", "s_emu": "エミュレーター", "s_def": "防御", "st_winpct": "ラウンド勝率", "st_peleapida": "最短で勝った試合", "st_vidaperd": "1ラウンドで失う体力（平均）", "st_duravg": "ラウンド勝利までの時間（平均）", "st_meterfull": "スーパーゲージが満タンになった回数", "st_supernom": "スーパー技の名前", "st_stuntime": "スタンしていた時間", "st_stunpeor": "最長のスタン時間", "st_dizzies": "相手をスタンさせた回数", "st_mareado": "スタンされた回数", "st_swaps": "キャラ変更", "st_conect": "ガードされずに当たった攻撃", "st_bloq": "相手にガードされた攻撃", "st_bloqueo": "相手の攻撃をガードした回数", "st_defensa": "相手の攻撃のガード率", "st_primero": "先に攻撃を当てた", "emu_nota": "エミュレーター自身が報告する数値（replayLab の計算ではありません）", "dur_rondas": "各ラウンドの長さ", "nada_aqui": "この録画にはデータがありません",
     "cambios": "更新履歴", "t_cambios": "これまでにやったこと", "sub_cambios": "日ごとの変更と、ゲームについて分かったことのまとめ", "c_hallazgo": "発見", "c_añadido": "追加", "c_cambiado": "変更", "c_arreglado": "修正", "donar": "コーヒーを一杯", "ap_titulo": "Replay Lab が気に入りましたか？コーヒーを一杯", "ap_p1": "Replay Lab は、対戦を別の角度から分析し、保存し、見せるために作った個人プロジェクトです。リプレイを1本処理するたびに、時間・保存容量・回線・機材がかかります。", "ap_p2": "Replay Lab が役に立っている、あるいは自分の対戦を数字付きで見るのが楽しいと思ってもらえたら、コーヒー一杯で応援できます。☕🎮", "ap_p3": "その支援が Replay Lab を動かし続け、新しい機能・ゲーム・統計を増やす力になります。", "ap_nota": "応援ありがとうございます。コーヒー一杯が、この機械の電源を入れ続けます。❤️", "canal": "チャンネル",
-    al_limite: "ぎりぎり", sin_cierre: "未確定", sin_cierre_ayuda: "ゲームがこのラウンドを閉じていません。時間は目安です", dano: "ダメージ",
-   vista: "表示", v_iconos: "大アイコン", v_miniaturas: "サムネイル", v_mosaico: "タイル", v_lista: "一覧", v_detalles: "詳細", orden: "並べ替え", o_fecha: "日付", o_duracion: "長さ", o_jugador: "プレイヤー", o_peleas: "試合数", videos: "本", rango: "ランク", sin_rango: "ランクなし", rondas_t: "ラウンド", resumen_rondas: "ラウンドごと", gana: "の勝ち", empate: "引き分け", por_ko: "KO", por_tiempo: "時間切れ", doble: "ダブルKO", dano_ronda: "ラウンドの与ダメージ", vida_restante: "残り", todo: "すべて", nada: "なし", filtrar: "絞り込み", st_golpes: "命中数", st_danomedio: "1発あたりの平均ダメージ", st_agarres: "投げ", st_racha: "最多連取", st_rondas_jug: "ラウンド数", pie_datos: "試合そのものから読み取ったデータ", cargando: "読み込み中…",
+    al_limite: "残り体力わずか", sin_cierre: "未完了のラウンド", sin_cierre_ayuda: "ゲームがこのラウンドを閉じていません。時間は目安です", dano: "ダメージ",
+   vista: "表示", v_iconos: "大アイコン", v_miniaturas: "サムネイル", v_mosaico: "タイル", v_lista: "一覧", v_detalles: "詳細", orden: "並べ替え", o_fecha: "日付", o_duracion: "長さ", o_jugador: "プレイヤー", o_peleas: "試合数", videos: "本", rango: "ランク", sin_rango: "ランクなし", rondas_t: "ラウンド", resumen_rondas: "ラウンドごと", gana: "の勝ち", empate: "引き分け", por_ko: "KO", por_tiempo: "時間切れ", doble: "ダブルKO", dano_ronda: "ラウンドの与ダメージ", vida_restante: "残り", todo: "すべて", nada: "なし", filtrar: "絞り込み", st_golpes: "体力を削った回数", st_danomedio: "1回あたりのダメージ（平均）", st_agarres: "投げ", st_racha: "最多連続ラウンド勝利", st_rondas_jug: "ラウンド数", pie_datos: "試合そのものから読み取ったデータ", cargando: "読み込み中…",
     lema: "Fightcade のリプレイを記録して読み解く",
     buscar: "プレイヤーやキャラクターを検索…",
     sin_videos: "まだ動画がありません。",
@@ -214,32 +242,39 @@ const I18N = {
     volver: "戻る",
     peleas: "試合", pelea: "試合", ronda: "ラウンド",
     linea: "タイムライン", saltos: "ジャンプ",
-    resumen: "セット", combate: "戦績", rondas_t: "ラウンド",
-    combo: "コンボ", super: "スーパー", mareo: "スタン", ko: "決着",
+    resumen: "セット", combate: "戦績",     combo: "コンボ", super: "スーパー", mareo: "スタン", ko: "決着",
     perfect: "パーフェクト", remontada: "逆転", doble_ko: "ダブルKO",
-    golpes: "ヒット", barras: "本", seg: "秒",
-    st_peleas: "試合勝利", st_rondas: "ラウンド勝利",
+    golpes: "ヒット", barras: "本（体力ゲージ）", seg: "秒",
+    st_peleas: "勝った試合", st_rondas: "ラウンド勝利",
     st_kotiempo: "KO勝ち / 時間切れ勝ち", st_perfects: "パーフェクト",
     st_dano: "与ダメージ", st_recibido: "被ダメージ",
-    st_combos: "コンボ", st_combomax: "最長コンボ", st_combodano: "最大コンボダメージ",
+    st_combos: "コンボ", st_combomax: "最長コンボ（ヒット数）", st_combodano: "最大ダメージのコンボ",
     st_supers: "スーパー使用", st_mareos: "スタンを奪った回数",
-    st_rapida: "最速ラウンド", st_vida: "勝利時の体力（平均）",
-    st_limite: "ぎりぎりの勝利", st_remontada: "最大の逆転",
+    st_rapida: "最短で勝ったラウンド", st_vida: "勝利時の残り体力（平均）",
+    st_limite: "残り体力わずかで勝ったラウンド", st_remontada: "最大の逆転（体力差）",
     pie_hecho: "fcrec で作成", pie_fuente: "ソース",
-    cargando: "読み込み中…", no_existe: "その動画が見つかりません。",
+    no_existe: "その動画が見つかりません。",
     s_resumen: "サマリー", s_analisis: "分析", s_tecnico: "技術データ", r_destacados: "ハイライト",
-    r_dif: "%s の差", r_igual: "互角", r_vidafin: "各ラウンド終了時の体力", r_remontada: "%s%劣勢から勝利",
-    r_seguidas: "%sラウンド連続", r_gana_set: "セット勝利", r_cero: "体力0で生存", r_cero_ayuda: "スーパーターボでは体力0はKOではなく、まだ立っています。",
+    r_dif: "%s の差", r_igual: "互角", r_vidafin: "各ラウンド終了時の体力", r_remontada: "体力%s%差から逆転",
+    r_seguidas: "%sラウンド連続", r_gana_set: "セット勝利", r_cero: "体力0で勝利", r_cero_ayuda: "スーパーターボでは体力0はKOではなく、まだ立っています。",
     p_de: "第%s戦 / 全%s戦", p_ant: "前の試合", p_sig: "次の試合",
     p_video: "動画で見る", p_set_tl: "セット全体", p_ley: "色：勝者 ・ 中央：その試合のラウンド ・ 下：セットのスコア。タップで詳細。",
     u_partida: "試合", u_pelea: "戦", u_peleas: "戦", ap_procesada: "試合を処理済み",
+    n_enviar: "リプレイを送る", n_pronto: "近日", e_titulo: "リプレイを送ろう",
+    e_sub: "FightcadeのリプレイのリンクをはるとReplay Labが録画・分析し、統計つきで公開します。", e_aviso: "まだ使えません。準備中で、公開されたらここでお知らせします。", e_campo: "リプレイのリンク",
+    e_boton: "送信", e_como: "使い方", e_p1: "Fightcadeのリプレイのリンクをはる。",
+    e_p2: "ゲームが対応しているか、すでに公開済みでないかを確認。", e_p3: "試合が順番待ちに入る。", e_p4: "オーバーレイつきで録画し、統計を計算。",
+    e_p5: "「試合」とYouTubeチャンネルに公開。", e_juegos: "送れるゲーム", ap_viene: "今後の予定",
+    ap_enviar: "コミュニティからリプレイを受け付ける", ap_en_curso: "準備中",
+    c_todo: "すべて", c_web: "ウェブ", c_juegos: "ゲーム",
+    c_web_d: "replayLabで見えるもの：ページ・統計・ナビゲーション。", c_juego_d: "各ゲーム側：オーバーレイ・録画・試合から分かったこと・動画。",
     n_inicio: "ホーム", n_partidas: "試合", n_juegos: "ゲーム", n_canal: "チャンネル",
     n_cambios: "更新履歴", n_apoya: "プロジェクトを支援", n_github: "GitHub", n_menu: "メニュー",
     pie_indep: "個人プロジェクト", h_titulo: "格闘ゲームの対戦分析", h_texto: "Fightcadeのリプレイを録画し、ラウンド・コンボ・スーパーをゲームから直接読み取って分析します。", h_ver: "試合を見る",
     h_juegos: "分析対象のゲーム", h_ultimas: "最新の試合", h_todas: "すべて見る", j_sub: "Replay Labは格闘ゲームを分析します。ゲームごとに専用のページがあります。",
     j_pelea: "格闘ゲーム", j_disp: "対応中", j_prox: "近日対応", j_entrar: "開く",
     u_partidas: "試合", g_jugadores: "プレイヤー", g_stats: "統計", g_analisis: "分析を見る",
-    g_jugadas: "試合数", g_ganadas: "勝利数", g_tiempo: "プレイ時間", g_njug: "プレイヤー数",
+    g_jugadas: "試合数", g_ganadas: "勝った試合", g_tiempo: "プレイ時間", g_njug: "プレイヤー数",
     g_npers: "使用キャラクター数", g_apar: "使用回数", g_sin: "このゲームの試合はまだありません。", g_noexiste: "そのゲームはReplay Labにありません。",
     p_todos: "すべてのゲーム", ap_intro: "Replay Labは個人で運営しているプロジェクトです。ここにある試合はすべて自前の機材で録画・処理・公開しています。", ap_cuesta: "運営に必要なもの", ap_c1: "処理：リプレイの録画と分析",
     ap_c2: "保存：各試合の動画とデータ", ap_c3: "回線：動画のアップロードとサイトの配信", ap_c4: "電気代：録画と処理にかかる時間", ap_c5: "保守：すべてを動かし続けること",
@@ -250,10 +285,10 @@ const I18N = {
     l_juego1: "最初のゲームに対応", l_juego2: "2つ目のゲームに対応",
   },
   zh: {
-    "s_set": "整场", "s_peleas": "对局", "s_dano": "伤害", "s_combos": "连段", "s_supers": "超必杀", "s_mareos": "眩晕", "s_tiempo": "时间", "s_pers": "角色", "s_emu": "模拟器", "s_def": "防御", "st_winpct": "胜率", "st_peleapida": "最快的一场", "st_vidaperd": "每回合失血", "st_duravg": "回合时长", "st_meterfull": "气槽集满次数", "st_supernom": "超必杀", "st_stuntime": "眩晕时间", "st_stunpeor": "最长眩晕", "st_dizzies": "打晕对手次数", "st_mareado": "被打晕次数", "st_swaps": "更换角色", "st_conect": "命中的攻击", "st_bloq": "被防住的攻击", "st_bloqueo": "防住的攻击", "st_defensa": "防御率", "st_primero": "先手命中", "emu_nota": "由模拟器自身报告的数据，非 replayLab 计算", "dur_rondas": "每回合时长", "nada_aqui": "本次录制没有数据",
+    "s_set": "整场", "s_peleas": "对局", "s_dano": "伤害", "s_combos": "连段", "s_supers": "超必杀", "s_mareos": "眩晕", "s_tiempo": "时间", "s_pers": "角色", "s_emu": "模拟器", "s_def": "防御", "st_winpct": "回合胜率", "st_peleapida": "最短获胜局", "st_vidaperd": "每回合损失血量（平均）", "st_duravg": "赢下一回合的用时（平均）", "st_meterfull": "超必杀槽集满次数", "st_supernom": "超必杀名称", "st_stuntime": "被晕时长", "st_stunpeor": "最长被晕时间", "st_dizzies": "打晕对手次数", "st_mareado": "被打晕次数", "st_swaps": "更换角色", "st_conect": "未被防住的命中", "st_bloq": "被对手防住的攻击", "st_bloqueo": "防住对手攻击的次数", "st_defensa": "对手攻击的防御率", "st_primero": "先命中对手", "emu_nota": "由模拟器自身报告的数据，非 replayLab 计算", "dur_rondas": "每回合时长", "nada_aqui": "本次录制没有数据",
     "cambios": "更新日志", "t_cambios": "我们做了什么", "sub_cambios": "按日期整理的改动，以及我们对游戏的发现", "c_hallazgo": "发现", "c_añadido": "新增", "c_cambiado": "改动", "c_arreglado": "修复", "donar": "请我喝杯咖啡", "ap_titulo": "喜欢 Replay Lab 吗？请我喝杯咖啡", "ap_p1": "Replay Lab 是一个独立项目，用另一种方式分析、保存和呈现对战记录。处理每一场回放都要花时间、存储、带宽和维持项目运转的资源。", "ap_p2": "如果 Replay Lab 对你有用，或者你只是喜欢看带数据的自己的对战，可以请我喝杯咖啡来支持这个项目。☕🎮", "ap_p3": "你的支持让 Replay Lab 继续运转，也让新功能、新游戏和新统计得以不断加入。", "ap_nota": "谢谢你支持这个项目。每一杯咖啡都让这台机器继续开着。❤️", "canal": "频道",
-    al_limite: "险胜", sin_cierre: "未结束", sin_cierre_ayuda: "游戏没有结束这一回合，时间为近似值", dano: "伤害",
-   vista: "视图", v_iconos: "大图标", v_miniaturas: "缩略图", v_mosaico: "平铺", v_lista: "列表", v_detalles: "详细信息", orden: "排序", o_fecha: "日期", o_duracion: "时长", o_jugador: "选手", o_peleas: "对局数", videos: "个视频", rango: "段位", sin_rango: "无段位", rondas_t: "回合", resumen_rondas: "逐回合", gana: "获胜", empate: "平局", por_ko: "KO", por_tiempo: "时间到", doble: "双方KO", dano_ronda: "本回合伤害", vida_restante: "剩余", todo: "全部", nada: "无", filtrar: "筛选", st_golpes: "命中次数", st_danomedio: "每击平均伤害", st_agarres: "投技", st_racha: "最佳连胜", st_rondas_jug: "回合数", pie_datos: "数据来自对局本身", cargando: "加载中…",
+    al_limite: "残血", sin_cierre: "未完成回合", sin_cierre_ayuda: "游戏没有结束这一回合，时间为近似值", dano: "伤害",
+   vista: "视图", v_iconos: "大图标", v_miniaturas: "缩略图", v_mosaico: "平铺", v_lista: "列表", v_detalles: "详细信息", orden: "排序", o_fecha: "日期", o_duracion: "时长", o_jugador: "选手", o_peleas: "对局数", videos: "个视频", rango: "段位", sin_rango: "无段位", rondas_t: "回合", resumen_rondas: "逐回合", gana: "获胜", empate: "平局", por_ko: "KO", por_tiempo: "时间到", doble: "双方KO", dano_ronda: "本回合伤害", vida_restante: "剩余", todo: "全部", nada: "无", filtrar: "筛选", st_golpes: "造成伤害次数", st_danomedio: "每次伤害（平均）", st_agarres: "投技", st_racha: "最多连胜回合", st_rondas_jug: "回合数", pie_datos: "数据来自对局本身", cargando: "加载中…",
     lema: "Fightcade 录像，录下来并讲清楚",
     buscar: "搜索选手或角色…",
     sin_videos: "还没有视频。",
@@ -263,33 +298,40 @@ const I18N = {
     volver: "返回",
     peleas: "对局", pelea: "对局", ronda: "回合",
     linea: "时间轴", saltos: "跳转到",
-    resumen: "整场", combate: "战斗", rondas_t: "回合",
-    combo: "连段", super: "超必杀", mareo: "眩晕", ko: "终结",
+    resumen: "整场", combate: "战斗",     combo: "连段", super: "超必杀", mareo: "眩晕", ko: "终结",
     perfect: "完美胜利", remontada: "逆转", doble_ko: "双方KO",
-    golpes: "段", barras: "格", seg: "秒",
-    st_peleas: "获胜场次", st_rondas: "获胜回合",
-    st_kotiempo: "KO获胜 / 时间获胜", st_perfects: "完美胜利",
+    golpes: "段", barras: "条血", seg: "秒",
+    st_peleas: "获胜局数", st_rondas: "获胜回合",
+    st_kotiempo: "KO 胜 / 时间胜", st_perfects: "完美胜利",
     st_dano: "造成伤害", st_recibido: "承受伤害",
-    st_combos: "连段", st_combomax: "最长连段", st_combodano: "最强连段",
+    st_combos: "连段", st_combomax: "最长连段（击数）", st_combodano: "伤害最高的连段",
     st_supers: "超必杀发动", st_mareos: "打晕对手次数",
-    st_rapida: "最快回合", st_vida: "获胜时血量（平均）",
-    st_limite: "险胜", st_remontada: "最大逆转",
+    st_rapida: "最短获胜回合", st_vida: "获胜时剩余血量（平均）",
+    st_limite: "残血获胜回合", st_remontada: "最大逆转（血量落后）",
     pie_hecho: "由 fcrec 制作", pie_fuente: "源码",
-    cargando: "加载中…", no_existe: "找不到这个视频。",
+    no_existe: "找不到这个视频。",
     s_resumen: "概要", s_analisis: "详细分析", s_tecnico: "技术细节", r_destacados: "精彩时刻",
-    r_dif: "领先 %s", r_igual: "持平", r_vidafin: "每回合结束时血量", r_remontada: "落后 %s% → 获胜",
-    r_seguidas: "连胜 %s 回合", r_gana_set: "赢得整场", r_cero: "0% 血量仍站着", r_cero_ayuda: "在 Super Turbo 中血量为 0 并不算 KO，角色仍然站着。",
+    r_dif: "领先 %s", r_igual: "持平", r_vidafin: "每回合结束时血量", r_remontada: "逆转 %s% 血量劣势",
+    r_seguidas: "连胜 %s 回合", r_gana_set: "赢得整场", r_cero: "0% 血量获胜", r_cero_ayuda: "在 Super Turbo 中血量为 0 并不算 KO，角色仍然站着。",
     p_de: "第 %s 局 / 共 %s 局", p_ant: "上一局", p_sig: "下一局",
     p_video: "在视频中观看", p_set_tl: "整场对局", p_ley: "颜色：胜者 · 中间：该局回合比分 · 下方：整场比分。点击查看详情。",
     u_partida: "场对局", u_pelea: "局", u_peleas: "局", ap_procesada: "场对局已处理",
+    n_enviar: "提交回放", n_pronto: "即将", e_titulo: "提交你的回放",
+    e_sub: "粘贴 Fightcade 回放链接，Replay Lab 会录制、分析并连同全部统计一起发布。", e_aviso: "暂时还不能使用。我们正在准备，开放时会在这里通知。", e_campo: "回放链接",
+    e_boton: "提交", e_como: "使用方法", e_p1: "粘贴 Fightcade 回放链接。",
+    e_p2: "检查游戏是否受支持、对局是否已发布。", e_p3: "对局进入队列。", e_p4: "带叠加层录制并计算统计。",
+    e_p5: "出现在「对局」和 YouTube 频道。", e_juegos: "可提交的游戏", ap_viene: "接下来",
+    ap_enviar: "让社区可以提交回放", ap_en_curso: "筹备中",
+    c_todo: "全部", c_web: "网站", c_juegos: "游戏",
+    c_web_d: "replayLab 上能看到的：页面、统计、导航。", c_juego_d: "各游戏相关：叠加层、录制、对局中的发现以及视频。",
     n_inicio: "首页", n_partidas: "对局", n_juegos: "游戏", n_canal: "频道",
     n_cambios: "更新日志", n_apoya: "支持项目", n_github: "GitHub", n_menu: "菜单",
     pie_indep: "独立项目", h_titulo: "格斗游戏对局分析", h_texto: "录制 Fightcade 回放，每个回合、连段和超必杀都直接从游戏中读取。", h_ver: "浏览对局",
     h_juegos: "我们分析的游戏", h_ultimas: "最新对局", h_todas: "查看全部", j_sub: "Replay Lab 专注于格斗游戏，每个游戏都有自己的页面。",
     j_pelea: "格斗游戏", j_disp: "已支持", j_prox: "即将支持", j_entrar: "进入",
     u_partidas: "场对局", g_jugadores: "玩家", g_stats: "统计", g_analisis: "查看分析",
-    g_jugadas: "对局数", g_ganadas: "胜场", g_tiempo: "对战时长", g_njug: "不同玩家",
-    g_npers: "使用角色数", g_apar: "出场次数", g_sin: "该游戏暂无对局。", g_noexiste: "Replay Lab 暂无该游戏。",
+    g_jugadas: "对局数", g_ganadas: "获胜局数", g_tiempo: "对战时长", g_njug: "不同玩家",
+    g_npers: "使用角色数", g_apar: "被选次数", g_sin: "该游戏暂无对局。", g_noexiste: "Replay Lab 暂无该游戏。",
     p_todos: "全部游戏", ap_intro: "Replay Lab 是一个独立项目。你在这里看到的每场对局都是在自己的机器上录制、处理并发布的。", ap_cuesta: "维持项目需要什么", ap_c1: "处理：录制并分析每个回放",
     ap_c2: "存储：每场对局的视频和数据", ap_c3: "网络：上传视频并提供网站服务", ap_c4: "电费：录制和处理所需的时长", ap_c5: "维护：让一切持续运转",
     ap_c6: "开发：新的统计和功能", ap_c7: "新游戏：弄清每个游戏如何存储数据", ap_progreso: "Replay Lab 进度", ap_procesadas: "场对局已处理",
@@ -389,13 +431,31 @@ function textosCabecera() {
     item("inicio", "./", esc(T("n_inicio"))),
     item("partidas", "partidas.html", esc(T("n_partidas"))),
     item("juegos", "juegos.html", esc(T("n_juegos"))),
+    item("enviar", "enviar.html", esc(T("n_enviar")) + `<span class="pronto">${esc(T("n_pronto"))}</span>`),
     s.canal ? item("canal", s.canal, esc(T("n_canal")) + flecha, ext) : "",
     item("cambios", "cambios.html", esc(T("n_cambios"))),
     item("apoyo", "apoyo.html", "☕ " + esc(T("n_apoya")), 'class="apoya"'),
     item("github", s.github || "https://github.com/demonioDeb/replayLab", esc(T("n_github")) + flecha, ext),
   ].join("");
   document.getElementById("menu-txt").textContent = T("n_menu");
+  ajustaCabecera();
 }
+// ¿Caben los enlaces en una línea con este idioma y este ancho? Se mide, no se supone.
+function ajustaCabecera() {
+  const cab = document.getElementById("cabsitio");
+  if (!cab) return;
+  const fila = cab.querySelector(".hrow");
+  cab.classList.remove("plegada");
+  cab.classList.add("midiendo");
+  const cabe = fila.scrollWidth <= fila.clientWidth + 1;
+  cab.classList.remove("midiendo");
+  cab.classList.toggle("plegada", !cabe);
+  if (cabe) cab.classList.remove("abierto");
+}
+let _cabT = 0;
+addEventListener("resize", () => { clearTimeout(_cabT); _cabT = setTimeout(ajustaCabecera, 80); });
+// la tipografía puede llegar después del primer pintado y cambiar lo que ocupa
+if (document.fonts) document.fonts.ready.then(() => ajustaCabecera());
 
 /* ---------------------------------------------------------------- pie
    Sólo lo secundario. Los enlaces viven en la cabecera y no se repiten aquí. */
@@ -441,3 +501,82 @@ const cargaSitio = cargaBase;
    privado leer localStorage puede lanzar, y eso no debe tirar la página. */
 function recuerda(clave, valor) { guarda("replaylab." + clave, valor); }
 function recordado(clave, porDefecto) { return guardado("replaylab." + clave) || porDefecto; }
+
+/* ---------------------------------------------------------------- rejilla viva
+   La rejilla de puntos del fondo reacciona al ratón como un imán: los puntos cercanos
+   se acercan al cursor y se encienden, y al irse vuelven a su sitio con un muelle.
+   Se dibuja en un <canvas> fijo detrás de todo, en las mismas posiciones que la
+   rejilla de CSS, que se apaga en cuanto el canvas arranca (html.rejilla-viva).
+   No arranca —y se queda la rejilla quieta de CSS— si:
+   - la persona pidió menos movimiento en su sistema (prefers-reduced-motion);
+   - no hay ratón (móviles y tabletas: no hay cursor que seguir).
+   Sólo anima mientras algo se mueve: con el ratón quieto no gasta nada. */
+(function rejillaViva() {
+  if (!window.matchMedia) return;
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  if (!matchMedia("(hover: hover) and (pointer: fine)").matches) return;
+
+  const PASO = 24, RADIO = 180, TIRON = 16, MUELLE = 0.16;
+  const cv = document.createElement("canvas");
+  cv.id = "rejilla"; cv.setAttribute("aria-hidden", "true");
+  let ctx, w = 0, h = 0, dpr = 1, cols = 0, filas = 0;
+  let dx, dy, luz;                     // desplazamiento y brillo actuales de cada punto
+  let mx = -9999, my = -9999, activo = false, raf = 0;
+
+  function mide() {
+    dpr = Math.min(2, window.devicePixelRatio || 1);
+    w = innerWidth; h = innerHeight;
+    cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr);
+    ctx = cv.getContext("2d"); ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    cols = Math.ceil(w / PASO) + 1; filas = Math.ceil(h / PASO) + 1;
+    dx = new Float32Array(cols * filas); dy = new Float32Array(cols * filas);
+    luz = new Float32Array(cols * filas);
+    pide();
+  }
+  function paso() {
+    raf = 0;
+    ctx.clearRect(0, 0, w, h);
+    let vivo = false;
+    for (let j = 0; j < filas; j++) {
+      const y0 = PASO / 2 + j * PASO;
+      for (let i = 0; i < cols; i++) {
+        const k = j * cols + i, x0 = PASO / 2 + i * PASO;
+        let tx = 0, ty = 0, tl = 0;
+        if (activo) {
+          const ex = mx - x0, ey = my - y0, d = Math.hypot(ex, ey);
+          if (d < RADIO && d > 0.01) {
+            const f = (1 - d / RADIO) ** 2;
+            tx = ex / d * f * TIRON; ty = ey / d * f * TIRON; tl = f;
+          }
+        }
+        dx[k] += (tx - dx[k]) * MUELLE; dy[k] += (ty - dy[k]) * MUELLE; luz[k] += (tl - luz[k]) * MUELLE;
+        if (Math.abs(tx - dx[k]) > 0.05 || Math.abs(ty - dy[k]) > 0.05 || Math.abs(tl - luz[k]) > 0.01) vivo = true;
+        const l = luz[k];
+        // el mismo gris-azulado de la rejilla de CSS; cerca del cursor, hacia el dorado
+        ctx.fillStyle = l > 0.02
+          ? `rgba(${148 + 107 * l | 0},${166 + 37 * l | 0},${204 - 135 * l | 0},${0.16 + 0.72 * l})`
+          : "rgba(148,166,204,.16)";
+        const r = 1 + l * 1.6;
+        ctx.fillRect(x0 + dx[k] - r, y0 + dy[k] - r, r * 2, r * 2);
+      }
+    }
+    if (vivo) pide();                  // con todo quieto, se para: no gasta nada
+  }
+  const pide = () => { if (!raf && !document.hidden) raf = requestAnimationFrame(paso); };
+
+  addEventListener("pointermove", e => {
+    if (e.pointerType !== "mouse") return;
+    mx = e.clientX; my = e.clientY; activo = true; pide();
+  }, { passive: true });
+  document.addEventListener("pointerleave", () => { activo = false; pide(); });
+  addEventListener("blur", () => { activo = false; pide(); });
+  addEventListener("resize", mide);
+  document.addEventListener("visibilitychange", pide);
+
+  const arranca = () => {
+    document.body.prepend(cv);
+    document.documentElement.classList.add("rejilla-viva");
+    mide();
+  };
+  if (document.body) arranca(); else document.addEventListener("DOMContentLoaded", arranca);
+})();

@@ -1,5 +1,5 @@
 {
- "_nota": "Registro de juegos de replayLab. Se edita a mano. Replay Lab es SOLO de juegos de pelea. Para incorporar un juego: se añade aquí con estado 'activo' y sus gameids de Fightcade; la web lo recoge sola. Las partidas se asignan a un juego por su gameid.",
+ "_nota": "Registro de juegos de replayLab. Se edita a mano. Replay Lab es SOLO de juegos de pelea. Para incorporar un juego: se añade aquí con estado 'activo' y sus gameids de Fightcade; la web lo recoge sola. Las partidas se asignan a un juego por su gameid. 'nombre_completo' (opcional) es el nombre para una frase suelta, cuando 'nombre' solo no basta (\"Street Fighter II'\" a secas no dice cuál es).",
  "juegos": [
   {
    "id": "ssf2x",
@@ -43,7 +43,8 @@
    ],
    "anio": 1992,
    "compania": "Capcom",
-   "estado": "proximamente"
+   "estado": "proximamente",
+   "nombre_completo": "Street Fighter II' Champion Edition"
   }
  ]
 }

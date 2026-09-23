@@ -1,5 +1,5 @@
 {
- "nota": "Resumen por día de lo que se hizo y lo que se descubrió. Lo escribe a mano quien trabaja en el proyecto; no se genera solo.",
+ "nota": "Resumen por día de lo que se hizo y lo que se descubrió. Lo escribe a mano quien trabaja en el proyecto; no se genera solo. Cada cambio lleva 'area': 'web' (lo que se ve en replayLab) y/o 'juego' (overlay, grabación, lo descubierto del juego, YouTube), y si es de juego, 'juego' con su id de datos/juegos.json.",
  "dias": [
   {
    "fecha": "2026-09-23",
@@ -7,77 +7,197 @@
     {
      "t": "cambiado",
      "es": "Las peleas ya no se despliegan todas: un set puede llegar a FT100 y serían casi 200. Ahora hay una tira con el set entero, una lista compacta (una baldosa por pelea) y el detalle sólo de la que eliges, con ◀ ▶ y las flechas del teclado. Con más de 40 peleas la lista va en una caja con scroll. La pelea elegida queda en la dirección, así que se puede compartir.",
-     "en": "Fights are no longer all expanded: a set can reach FT100, which is almost 200 of them. There is now a strip with the whole set, a compact list (one tile per game) and the detail of only the one you pick, with ◀ ▶ and the arrow keys. Past 40 games the list sits in a scrolling box. The chosen game is kept in the address, so it can be shared."
+     "en": "Fights are no longer all expanded: a set can reach FT100, which is almost 200 of them. There is now a strip with the whole set, a compact list (one tile per game) and the detail of only the one you pick, with ◀ ▶ and the arrow keys. Past 40 games the list sits in a scrolling box. The chosen game is kept in the address, so it can be shared.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "cambiado",
      "es": "La línea de tiempo va dentro de cada pelea y se reparte en tres carriles: rondas, momentos y una regla de tiempo. Los momentos que caen casi en el mismo segundo se reparten en filas en vez de taparse.",
-     "en": "The timeline now lives inside each game and is split into three lanes: rounds, moments and a time ruler. Moments that land almost on the same second are spread into rows instead of covering each other."
+     "en": "The timeline now lives inside each game and is split into three lanes: rounds, moments and a time ruler. Moments that land almost on the same second are spread into rows instead of covering each other.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "cambiado",
      "es": "El análisis va en pestañas, un tema a la vez, en vez de ocho tarjetas seguidas.",
-     "en": "The analysis is now in tabs, one topic at a time, instead of eight cards in a row."
+     "en": "The analysis is now in tabs, one topic at a time, instead of eight cards in a row.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "arreglado",
      "es": "En las páginas con poco contenido el fondo se cortaba y debajo quedaba una franja de otro color. Ahora el fondo es una capa fija y el pie baja solo hasta el final de la pantalla. De paso el fondo tiene textura: una rejilla de puntos y una retícula suave.",
-     "en": "On pages with little content the background stopped short, leaving a band of a different colour below. The background is now a fixed layer and the footer drops to the bottom on its own. It also has some texture now: a dot grid and a faint grid."
+     "en": "On pages with little content the background stopped short, leaving a band of a different colour below. The background is now a fixed layer and the footer drops to the bottom on its own. It also has some texture now: a dot grid and a faint grid.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "añadido",
      "es": "Street Fighter II' Champion Edition, en próximamente.",
-     "en": "Street Fighter II' Champion Edition, under coming soon."
+     "en": "Street Fighter II' Champion Edition, under coming soon.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "arreglado",
      "es": "Tras publicar, quien ya había visitado la web podía verla en blanco durante unos minutos: su navegador mezclaba archivos viejos con la página nueva. Ahora cada archivo lleva una huella de su contenido y eso no puede pasar.",
-     "en": "After publishing, anyone who had visited the site before could see it blank for a few minutes: their browser mixed old files with the new page. Every file now carries a fingerprint of its contents, so that can no longer happen."
+     "en": "After publishing, anyone who had visited the site before could see it blank for a few minutes: their browser mixed old files with the new page. Every file now carries a fingerprint of its contents, so that can no longer happen.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "cambiado",
      "es": "La ficha de cada partida cambia de criterio: no todo es una barra. Antes cada estadística llevaba dos barras, unas 80 en una sola partida. Ahora manda el número, se resalta a quien va por delante (y se respeta cuándo menos es mejor, como el daño recibido) y la diferencia va en una chapa. No se ha quitado ninguna estadística: siguen las 40.",
-     "en": "Each match page follows a new rule: not everything is a bar. Every stat used to carry two bars, about 80 in a single match. Now the number leads, whoever is ahead is highlighted (respecting when less is better, like damage taken) and the difference goes in a chip. No stat was removed: all 40 are still there."
+     "en": "Each match page follows a new rule: not everything is a bar. Every stat used to carry two bars, about 80 in a single match. Now the number leads, whoever is ahead is highlighted (respecting when less is better, like damage taken) and the difference goes in a chip. No stat was removed: all 40 are still there.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "añadido",
      "es": "La única barra que queda es la que significa algo: la vida con la que acaba cada ronda cada jugador. Sale de la lectura directa del juego y cuadra con el daño recibido en las 21 rondas comprobadas. Si un ganador termina a 0 % se marca, porque en Super Turbo quedarse a cero no es KO.",
-     "en": "The only bar left is the one that means something: the health each player ends every round with. It comes from the game's own reading and matches the damage taken in all 21 rounds checked. A winner ending at 0% is flagged, because in Super Turbo hitting zero is not a KO."
+     "en": "The only bar left is the one that means something: the health each player ends every round with. It comes from the game's own reading and matches the damage taken in all 21 rounds checked. A winner ending at 0% is flagged, because in Super Turbo hitting zero is not a KO.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "cambiado",
      "es": "La ficha se ordena como Resultado → Resumen → Peleas → Análisis → Detalle técnico. El resumen son cuatro cifras grandes y los momentos destacados; lo secundario va plegado, a un clic. La racha se ve como una secuencia de rondas (● ● ● ●), no como una barra.",
-     "en": "The match page now reads Result → Summary → Fights → Analysis → Technical detail. The summary is four big figures plus the highlights; secondary stats are folded, one click away. Streaks show as a sequence of rounds (● ● ● ●), not as a bar."
+     "en": "The match page now reads Result → Summary → Fights → Analysis → Technical detail. The summary is four big figures plus the highlights; secondary stats are folded, one click away. Streaks show as a sequence of rounds (● ● ● ●), not as a bar.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "cambiado",
      "es": "Nueva navegación: Inicio, Partidas, Juegos, Canal, Changelog, Apoya el proyecto y GitHub, todo en la cabecera. En móvil se pliega en un menú. El pie ya no repite enlaces.",
-     "en": "New navigation: Home, Matches, Games, Channel, Changelog, Support the project and GitHub, all in the header. On phones it folds into a menu. The footer no longer repeats links."
+     "en": "New navigation: Home, Matches, Games, Channel, Changelog, Support the project and GitHub, all in the header. On phones it folds into a menu. The footer no longer repeats links.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "añadido",
      "es": "Sección Juegos, y una página propia para cada juego con sus partidas, jugadores, personajes y estadísticas. Los juegos salen de un registro (datos/juegos.json): incorporar otro juego de pelea es añadir una entrada, no rehacer el sitio.",
-     "en": "A Games section, and a page of its own for each game with its matches, players, characters and stats. Games come from a registry (datos/juegos.json): adding another fighting game means adding an entry, not rebuilding the site."
+     "en": "A Games section, and a page of its own for each game with its matches, players, characters and stats. Games come from a registry (datos/juegos.json): adding another fighting game means adding an entry, not rebuilding the site.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "añadido",
      "es": "La lista de partidas pasa a su propia página y se puede filtrar por juego. Con un solo juego el filtro se queda en una chapa discreta; en cuanto haya dos, cada partida dice de qué juego es.",
-     "en": "The match list moves to its own page and can be filtered by game. With a single game the filter stays as a small chip; once there are two, every match shows which game it belongs to."
+     "en": "The match list moves to its own page and can be filtered by game. With a single game the filter stays as a small chip; once there are two, every match shows which game it belongs to.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "añadido",
      "es": "Página «Apoya el proyecto», con el progreso de Replay Lab y sus logros. Todo se calcula con los datos reales del sitio: ni metas de dinero ni nombres de donantes. Los logros son del proyecto.",
-     "en": "A 'Support the project' page, with Replay Lab's progress and milestones. Everything is computed from the site's real data: no money goals and no donor names. The milestones belong to the project."
+     "en": "A 'Support the project' page, with Replay Lab's progress and milestones. Everything is computed from the site's real data: no money goals and no donor names. The milestones belong to the project.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "arreglado",
      "es": "Un vídeo ya publicado salía «sin publicar» en la web. Al grabar, el id de YouTube se guardaba sólo en la cola y no en el archivo del que lo lee la web.",
-     "en": "A video already published showed as 'not published' on the site. When recording, the YouTube id was stored only in the queue, not in the file the site reads it from."
+     "en": "A video already published showed as 'not published' on the site. When recording, the YouTube id was stored only in the queue, not in the file the site reads it from.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "arreglado",
      "es": "En inglés, francés y japonés «partidas» y «peleas» se traducían igual, y la portada decía cosas como «1 matches · 8 matches». Ahora son dos unidades distintas, y con su singular.",
-     "en": "In English, French and Japanese, 'sets' and 'fights' were translated the same, so the home page read things like '1 matches · 8 matches'. They are now two different units, each with its singular."
+     "en": "In English, French and Japanese, 'sets' and 'fights' were translated the same, so the home page read things like '1 matches · 8 matches'. They are now two different units, each with its singular.",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "añadido",
+     "es": "Nueva página «Enviar replay»: pegarás el enlace de un replay de Fightcade y se procesará para subirlo al canal. De momento está bloqueada (se ve cómo funcionará, pero aún no acepta enlaces).",
+     "en": "New “Send a replay” page: you will paste a Fightcade replay link and it will be processed and uploaded to the channel. It is locked for now (you can see how it will work, but it doesn't accept links yet).",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "cambiado",
+     "es": "El registro de cambios se separa en Web y Juegos, con pestañas. Lo de cada juego va bajo su nombre.",
+     "en": "The changelog is split into Web and Games, with tabs. Each game's changes sit under its name.",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "cambiado",
+     "es": "Textos de las estadísticas más sencillos: se cambian los que eran difíciles de entender o se podían leer de dos maneras. Los números no cambian.",
+     "en": "Simpler stat labels: the ones that were hard to understand or could be read two ways were rewritten. The numbers don't change.",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "cambiado",
+     "es": "«Invítame a un café» ahora muestra lo que viene: el envío de replays, Street Fighter III: 3rd Strike y Street Fighter II' Champion Edition (antes faltaba CE).",
+     "en": "“Buy me a coffee” now shows what's coming: replay sending, Street Fighter III: 3rd Strike and Street Fighter II' Champion Edition (CE was missing before).",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "añadido",
+     "es": "La rejilla del fondo reacciona al ratón: los puntos se acercan al cursor como atraídos por un imán y vuelven a su sitio al alejarse. No se activa en móviles ni si el sistema pide reducir el movimiento.",
+     "en": "The background grid reacts to the mouse: dots are drawn toward the cursor as if by a magnet and spring back when it moves away. It is off on phones and when the system asks for reduced motion.",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "cambiado",
+     "es": "El pie de página se separa más del contenido y tiene su propio fondo con un borde, para que se distinga bien.",
+     "en": "The footer sits further from the content and has its own background with a border, so it stands out clearly.",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "arreglado",
+     "es": "El menú se plegaba por un ancho fijo y en algunos idiomas se salía de la pantalla. Ahora mide si cabe y se pliega sólo cuando hace falta.",
+     "en": "The menu folded at a fixed width and in some languages overflowed the screen. It now measures whether it fits and folds only when needed.",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "arreglado",
+     "es": "Overlay: el historial de inputs deja de estirarse y ya no deja un hueco vacío. En el espacio sobrante aparecen más estadísticas (daño recibido, daño por ronda, veces mareado…), sólo las que caben en el idioma más largo.",
+     "en": "Overlay: the input history no longer stretches and leaves no empty gap. The spare room shows extra stats (damage taken, damage per round, times dizzied…), only as many as fit in the longest language.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
+    },
+    {
+     "t": "arreglado",
+     "es": "Overlay: en español algunos textos salían en inglés y en portugués faltaban, porque unas líneas del diccionario estaban en el idioma equivocado. Corregido y añadida una comprobación que avisa de claves repetidas o que faltan.",
+     "en": "Overlay: some Spanish labels showed in English and some Portuguese ones were missing, because a few dictionary lines sat in the wrong language. Fixed, plus a check that warns about repeated or missing keys.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     }
    ]
   },
@@ -87,107 +207,182 @@
     {
      "t": "arreglado",
      "es": "El overlay se comía texto. La columna es una pila flexible y, cuando el contenido pasaba de los 984 px, las tarjetas se encogían en silencio y recortaban lo de dentro: el título del mando se quedaba en 9 px de alto. Ahora las tarjetas no se encogen, así que si algo no cabe se ve y se quita.",
-     "en": "The overlay was eating text. The column is a flex stack and, once the content went past 984px, the cards silently shrank and clipped their contents: the pad title ended up 9px tall. Cards no longer shrink, so anything that does not fit is visible and gets removed."
+     "en": "The overlay was eating text. The column is a flex stack and, once the content went past 984px, the cards silently shrank and clipped their contents: the pad title ended up 9px tall. Cards no longer shrink, so anything that does not fit is visible and gets removed.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "arreglado",
      "es": "Las etiquetas de vida, súper y stun tenían un ancho fijo de 84 px y en japonés y chino salían cortadas. Ahora se miden en cada idioma y el ancho sale de la más larga.",
-     "en": "The health, super and stun labels had a fixed 84px width and were cut off in Japanese and Chinese. They are measured per language now, and the width comes from the longest one."
+     "en": "The health, super and stun labels had a fixed 84px width and were cut off in Japanese and Chinese. They are measured per language now, and the width comes from the longest one.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "cambiado",
      "es": "El historial de inputs baja a 8 líneas y el sitio que sobra se llena con estadísticas: daño del mejor combo y súpers acumulados en Combate; porcentaje, rondas ganadas al límite y racha en Rondas. Fuera la línea de «estadísticas completas en replayLab», que ocupaba y no decía nada.",
-     "en": "The input history drops to 8 lines and the space freed goes to stats: best combo damage and meter fills in Combat; win rate, clutch rounds and streak in Rounds. The 'full stats on replayLab' line is gone — it took up room and said nothing."
+     "en": "The input history drops to 8 lines and the space freed goes to stats: best combo damage and meter fills in Combat; win rate, clutch rounds and streak in Rounds. The 'full stats on replayLab' line is gone — it took up room and said nothing.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "añadido",
      "es": "Un auditor del overlay (tools/auditar_overlay.js) que revisa los seis idiomas de una pasada y avisa de cualquier texto cortado o clave sin traducir. Es lo que habría cazado esto sin tener que mirar.",
-     "en": "An overlay auditor (tools/auditar_overlay.js) that checks all six languages in one run and reports any clipped text or untranslated key. It is what would have caught this without anyone looking."
+     "en": "An overlay auditor (tools/auditar_overlay.js) that checks all six languages in one run and reports any clipped text or untranslated key. It is what would have caught this without anyone looking.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "cambiado",
      "es": "Sitio vaciado para empezar de cero. Las nueve grabaciones que había eran pruebas de desarrollo, hechas antes de arreglar los combos, el KO por debajo de cero y el doble KO: sus números no eran de fiar. Los vídeos siguen en el disco, sólo marcados como descartados.",
-     "en": "The site was emptied to start clean. The nine recordings it had were development tests, made before combos, sub-zero KO and double KO were fixed, so their numbers were not trustworthy. The videos are still on disk, just marked as discarded."
+     "en": "The site was emptied to start clean. The nine recordings it had were development tests, made before combos, sub-zero KO and double KO were fixed, so their numbers were not trustworthy. The videos are still on disk, just marked as discarded.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "añadido",
      "es": "Sección de apoyo al proyecto: el enlace del café estaba escondido en el pie y ahora es una sección de verdad, en la portada y al final de cada ficha. Va después de las estadísticas, para no estorbar la lectura.",
-     "en": "Support section: the coffee link was buried in the footer and is now a proper section, on the home page and at the end of every match page. It sits after the stats so it does not get in the way."
+     "en": "Support section: the coffee link was buried in the footer and is now a proper section, on the home page and at the end of every match page. It sits after the stats so it does not get in the way.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "arreglado",
      "es": "El daño del jugador 1 salía vacío en todas las fichas. Un bucle reutilizaba la variable del bucle anterior, así que las tres cifras en barras se escribían dos veces en el jugador 2 y ninguna en el 1.",
-     "en": "Player 1's damage was blank on every match page. A loop was reusing the previous loop's variable, so the three life-bar figures were written twice onto player 2 and never onto player 1."
+     "en": "Player 1's damage was blank on every match page. A loop was reusing the previous loop's variable, so the three life-bar figures were written twice onto player 2 and never onto player 1.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "cambiado",
      "es": "Título y descripción de YouTube salen de una plantilla con variables, no escritos a mano. Si un dato no se sabe, la línea entera no se escribe; y si un apartado se queda sin ninguna línea, se va el apartado con su titulillo.",
-     "en": "YouTube titles and descriptions now come from a template with variables, not hand-written text. A line whose value is unknown is dropped, and a heading left with nothing under it is dropped with it."
+     "en": "YouTube titles and descriptions now come from a template with variables, not hand-written text. A line whose value is unknown is dropped, and a heading left with nothing under it is dropped with it.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "hallazgo",
      "es": "La barra de aturdimiento delata el golpe: sube exactamente 1 frame después de un golpe que conecta, no se mueve con uno bloqueado y se queda quieta en los agarres. Con eso ya se puede decir, sin adivinar, qué golpes entraron, cuáles se bloquearon y quién pegó primero.",
-     "en": "The stun meter gives the hit away: it rises exactly 1 frame after a hit that connects, does not move on a blocked one, and stays still on throws. That is enough to tell, without guessing, which hits landed, which were blocked and who hit first."
+     "en": "The stun meter gives the hit away: it rises exactly 1 frame after a hit that connects, does not move on a blocked one, and stays still on throws. That is enough to tell, without guessing, which hits landed, which were blocked and who hit first.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "añadido",
      "es": "Sección de defensa: golpes que conectaron, golpes que le bloquearon, golpes que bloqueó, porcentaje de bloqueo y quién pegó primero. Sólo aparece en las grabaciones que llevan la sonda; en las viejas no se inventa nada.",
-     "en": "Defence section: hits that landed, hits that got blocked, hits they blocked, block rate and who hit first. It only shows up on recordings that carry the probe; nothing is invented for the older ones."
+     "en": "Defence section: hits that landed, hits that got blocked, hits they blocked, block rate and who hit first. It only shows up on recordings that carry the probe; nothing is invented for the older ones.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "cambiado",
      "es": "La ficha de cada partida se reorganizó en diez secciones con un navegador fijo: el set, peleas, daño, combos, súpers, mareos, tiempo, defensa, personajes y datos del emulador. Lo que reporta el emulador va aparte y etiquetado, para no confundirlo con lo que calcula replayLab.",
-     "en": "Each match page was reorganised into ten sections with a sticky nav: the set, matches, damage, combos, supers, dizzies, time, defence, characters and emulator figures. What the emulator reports is kept apart and labelled, so it is not mistaken for what replayLab computes."
+     "en": "Each match page was reorganised into ten sections with a sticky nav: the set, matches, damage, combos, supers, dizzies, time, defence, characters and emulator figures. What the emulator reports is kept apart and labelled, so it is not mistaken for what replayLab computes.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "añadido",
      "es": "La línea de tiempo sirve de navegador: cada ronda es un botón que salta a ese punto del vídeo. Debajo, una barra por ronda con su duración.",
-     "en": "The timeline doubles as a navigator: every round is a button that jumps to that point of the video. Below it, one bar per round with its length."
+     "en": "The timeline doubles as a navigator: every round is a button that jumps to that point of the video. Below it, one bar per round with its length.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "cambiado",
      "es": "En el overlay el historial de inputs tiene sitio garantizado (12 líneas a la vista). Si falta espacio se quitan estadísticas antes que historial.",
-     "en": "In the overlay the input history has guaranteed room (12 lines visible). If space runs short, stats go before the history does."
+     "en": "In the overlay the input history has guaranteed room (12 lines visible). If space runs short, stats go before the history does.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "arreglado",
      "es": "El daño de una ronda podía pasar del 100 %: el golpe que remata restaba uno de más, porque la vida pasa de 0 a -1 y eso no es daño.",
-     "en": "A round's damage could go over 100%: the finishing hit counted one too many, because health goes from 0 to -1 and that is not damage."
+     "en": "A round's damage could go over 100%: the finishing hit counted one too many, because health goes from 0 to -1 and that is not damage.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "arreglado",
      "es": "Un doble KO dejaba la ronda sin cerrar, y eso arrastraba súpers fantasma a la ronda siguiente.",
-     "en": "A double KO left the round open, which dragged phantom supers into the next round."
+     "en": "A double KO left the round open, which dragged phantom supers into the next round.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "arreglado",
      "es": "Quedarse a cero de vida no es KO en Super Turbo: pasó cuatro veces y en una de ellas se siguió peleando 13 segundos. Ahora el KO se da por bueno sólo con la vida por debajo de cero.",
-     "en": "Hitting zero health is not a KO in Super Turbo: it happened four times and in one of them the fight went on for 13 more seconds. A KO now only counts with health below zero."
+     "en": "Hitting zero health is not a KO in Super Turbo: it happened four times and in one of them the fight went on for 13 more seconds. A KO now only counts with health below zero.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "arreglado",
      "es": "Un combo contaba un golpe de más cuando el que lo cerraba iba bloqueado. Ahora el golpe final sólo cuenta si el rival lo está encajando.",
-     "en": "A combo counted one hit too many when the closing hit was blocked. The final hit now only counts if the opponent is actually taking it."
+     "en": "A combo counted one hit too many when the closing hit was blocked. The final hit now only counts if the opponent is actually taking it.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "arreglado",
      "es": "En móvil la tabla de estadísticas se salía unos píxeles por el lado.",
-     "en": "On phones the stats table stuck out a few pixels to the side."
+     "en": "On phones the stats table stuck out a few pixels to the side.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "cambiado",
      "es": "El overlay se queda con lo esencial: rondas ganadas, daño, combos, súpers, perfects y mareos. Todo lo demás vive aquí.",
-     "en": "The overlay keeps only the essentials: rounds won, damage, combos, supers, perfects and dizzies. Everything else lives here."
+     "en": "The overlay keeps only the essentials: rounds won, damage, combos, supers, perfects and dizzies. Everything else lives here.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "cambiado",
      "es": "Se deshizo el reparto de pantalla del día anterior: la franja inferior vuelve a cruzar los 1920 px.",
-     "en": "Yesterday's screen layout was undone: the bottom strip spans the full 1920 px again."
+     "en": "Yesterday's screen layout was undone: the bottom strip spans the full 1920 px again.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "añadido",
      "es": "Esta página de cambios, y un enlace para invitar a un café.",
-     "en": "This changelog page, and a link to buy a coffee."
+     "en": "This changelog page, and a link to buy a coffee.",
+     "area": [
+      "web"
+     ]
     }
    ]
   },
@@ -197,37 +392,58 @@
     {
      "t": "añadido",
      "es": "Cinco vistas en la portada, al estilo del explorador de archivos, con orden y buscador.",
-     "en": "Five views on the home page, explorer style, with sorting and search."
+     "en": "Five views on the home page, explorer style, with sorting and search.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "añadido",
      "es": "Banderas de país y retratos de personaje, y la letra de rango junto a cada jugador.",
-     "en": "Country flags and character portraits, plus each player's rank letter."
+     "en": "Country flags and character portraits, plus each player's rank letter.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "añadido",
      "es": "Ronda a ronda: resultado, cómo acabó, duración, vida al ganar y sellos; cada fila salta a ese momento del vídeo.",
-     "en": "Round by round: result, how it ended, length, health on win and badges; each row jumps to that moment."
+     "en": "Round by round: result, how it ended, length, health on win and badges; each row jumps to that moment.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "añadido",
      "es": "Filtros en la línea de tiempo, por tipo de momento.",
-     "en": "Timeline filters, by moment type."
+     "en": "Timeline filters, by moment type.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "arreglado",
      "es": "Las banderas no se veían: estaban puestas como emoji y Windows no trae tipografía de banderas.",
-     "en": "Flags were invisible: they were emoji, and Windows has no flag font."
+     "en": "Flags were invisible: they were emoji, and Windows has no flag font.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "arreglado",
      "es": "Una ronda sin cierre se comía a la siguiente en la línea de tiempo.",
-     "en": "A round that never closed swallowed the next one in the timeline."
+     "en": "A round that never closed swallowed the next one in the timeline.",
+     "area": [
+      "web"
+     ]
     },
     {
      "t": "arreglado",
      "es": "El daño por ronda se pasaba del 100%: el golpe de remate contaba uno de más, porque la vida pasa de 0 a -1 y eso no es daño.",
-     "en": "Round damage went over 100%: the finishing hit counted one extra, because health goes from 0 to -1 and that isn't damage."
+     "en": "Round damage went over 100%: the finishing hit counted one extra, because health goes from 0 to -1 and that isn't damage.",
+     "area": [
+      "web"
+     ]
     }
    ]
   },
@@ -237,37 +453,65 @@
     {
      "t": "hallazgo",
      "es": "El juego lleva su propio contador de combos. Se leía mal desde el principio: la regla es contador + 1, comprobado contra el «N HIT COMBO» que dibuja en pantalla.",
-     "en": "The game keeps its own combo counter. We had been reading it wrong: the rule is counter + 1, checked against the on-screen \"N HIT COMBO\"."
+     "en": "The game keeps its own combo counter. We had been reading it wrong: the rule is counter + 1, checked against the on-screen \"N HIT COMBO\".",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "hallazgo",
      "es": "Quedarse a cero de vida no es KO: en Super Turbo se sigue vivo con la barra a cero. El KO de verdad es cuando baja por debajo. El remate se marcaba hasta 2,4 s antes de tiempo.",
-     "en": "Zero health isn't a KO: in Super Turbo you're still alive at zero. The real KO is below zero. The finish was being marked up to 2.4 s early."
+     "en": "Zero health isn't a KO: in Super Turbo you're still alive at zero. The real KO is below zero. The finish was being marked up to 2.4 s early.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "hallazgo",
      "es": "En un doble KO el juego no le sube la ronda a nadie, así que la ronda se quedaba sin cerrar y arrastraba otros fallos.",
-     "en": "On a double KO the game gives the round to nobody, so the round never closed and dragged other bugs with it."
+     "en": "On a double KO the game gives the round to nobody, so the round never closed and dragged other bugs with it.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "hallazgo",
      "es": "El recorte sin recodificar empieza en el fotograma clave anterior, hasta 4 s antes: los capítulos y la miniatura salían corridos en todos los vídeos anteriores.",
-     "en": "Trimming without re-encoding starts at the previous keyframe, up to 4 s early: chapters and thumbnails were off in every earlier video."
+     "en": "Trimming without re-encoding starts at the previous keyframe, up to 4 s early: chapters and thumbnails were off in every earlier video.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "añadido",
      "es": "Seis idiomas en el overlay y en la web: español, inglés, portugués, francés, japonés y chino.",
-     "en": "Six languages in the overlay and the site: Spanish, English, Portuguese, French, Japanese and Chinese."
+     "en": "Six languages in the overlay and the site: Spanish, English, Portuguese, French, Japanese and Chinese.",
+     "area": [
+      "web",
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "añadido",
      "es": "Carga masiva a YouTube, con freno de mano si un vídeo no queda como se pidió.",
-     "en": "Bulk upload to YouTube, which stops itself if a video doesn't come out as requested."
+     "en": "Bulk upload to YouTube, which stops itself if a video doesn't come out as requested.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "añadido",
      "es": "Nace replayLab: la ficha de cada grabación se calcula desde el registro crudo de la partida, no se copia.",
-     "en": "replayLab is born: each recording's data sheet is computed from the raw match log, never copied."
+     "en": "replayLab is born: each recording's data sheet is computed from the raw match log, never copied.",
+     "area": [
+      "web"
+     ]
     }
    ]
   },
@@ -277,22 +521,38 @@
     {
      "t": "hallazgo",
      "es": "La subida a YouTube nunca había funcionado porque la carpeta de credenciales estaba vacía. No era un fallo del código.",
-     "en": "The YouTube upload had never worked because the credentials folder was empty. It wasn't a code bug."
+     "en": "The YouTube upload had never worked because the credentials folder was empty. It wasn't a code bug.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "añadido",
      "es": "Nombre del súper de cada personaje junto a su nombre, con un efecto cuando la barra se llena.",
-     "en": "Each character's super name next to their name, with an effect when the meter fills."
+     "en": "Each character's super name next to their name, with an effect when the meter fills.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "cambiado",
      "es": "Los avisos dejaron de saltar en medio de la pantalla: ahora van al pie, en una placa del color de quien lo hizo.",
-     "en": "Notices stopped popping in the middle of the screen: they now sit at the footer, on a plate in the player's colour."
+     "en": "Notices stopped popping in the middle of the screen: they now sit at the footer, on a plate in the player's colour.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "añadido",
      "es": "Insignia de resolución real, porque YouTube arranca los vídeos nuevos en 360p y parecía un fallo de grabación.",
-     "en": "A real-resolution badge, because YouTube starts new videos at 360p and it looked like a recording fault."
+     "en": "A real-resolution badge, because YouTube starts new videos at 360p and it looked like a recording fault.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     }
    ]
   },
@@ -302,17 +562,30 @@
     {
      "t": "hallazgo",
      "es": "Se descartó la regla que intentaba distinguir un golpe bloqueado de uno que conecta: fallaba con los súpers bloqueados.",
-     "en": "The rule that tried to tell a blocked hit from a clean one was dropped: it failed on blocked supers."
+     "en": "The rule that tried to tell a blocked hit from a clean one was dropped: it failed on blocked supers.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "hallazgo",
      "es": "Los agarres sí se identifican bien, y las bajadas de vida sin congelación resultaron ser agarres aéreos de los que el rival se soltó.",
-     "en": "Throws are identified reliably, and health drops with no hit-freeze turned out to be air throws the opponent escaped."
+     "en": "Throws are identified reliably, and health drops with no hit-freeze turned out to be air throws the opponent escaped.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "cambiado",
      "es": "Regla de trabajo: lo que no se puede saber con certeza no se enseña.",
-     "en": "Working rule: what can't be known for certain is not shown."
+     "en": "Working rule: what can't be known for certain is not shown.",
+     "area": [
+      "web",
+      "juego"
+     ],
+     "juego": "ssf2x"
     }
    ]
   },
@@ -322,17 +595,29 @@
     {
      "t": "hallazgo",
      "es": "La API de Fightcade está detrás de Cloudflare. Se decidió no evadirla: los datos salen de los archivos del propio emulador.",
-     "en": "Fightcade's API sits behind Cloudflare. We chose not to work around it: the data comes from the emulator's own files."
+     "en": "Fightcade's API sits behind Cloudflare. We chose not to work around it: the data comes from the emulator's own files.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "hallazgo",
      "es": "El emulador escribe nombres, país, rango y marcador en archivos de texto mientras corre el replay.",
-     "en": "The emulator writes names, country, rank and score to text files while the replay runs."
+     "en": "The emulator writes names, country, rank and score to text files while the replay runs.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "añadido",
      "es": "Avisos de remontada, final cerrado, doble KO, punto de partido y racha.",
-     "en": "Notices for comebacks, close finishes, double KOs, match point and streaks."
+     "en": "Notices for comebacks, close finishes, double KOs, match point and streaks.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     }
    ]
   },
@@ -342,12 +627,20 @@
     {
      "t": "añadido",
      "es": "Primera grabación real de punta a punta: el emulador abre el replay, el overlay lee la memoria del juego y OBS graba.",
-     "en": "First real end-to-end recording: the emulator opens the replay, the overlay reads the game's memory and OBS records."
+     "en": "First real end-to-end recording: the emulator opens the replay, the overlay reads the game's memory and OBS records.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     },
     {
      "t": "hallazgo",
      "es": "Las direcciones de memoria del modo de entrenamiento oficial sirven tal cual en un replay, y el historial de mandos también.",
-     "en": "The official training mode's memory addresses work as-is in a replay, and so does the input history."
+     "en": "The official training mode's memory addresses work as-is in a replay, and so does the input history.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     }
    ]
   }

@@ -6,7 +6,7 @@
 <title>Apoya el proyecto · replayLab</title>
 <meta name="description" content="Replay Lab es un proyecto independiente. Cómo apoyarlo, y hasta dónde ha llegado.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>☕</text></svg>">
-<link rel="stylesheet" href="assets/estilo.css?v=8d67a60f0f">
+<link rel="stylesheet" href="assets/estilo.css?v=669543226c">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -39,7 +39,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=1a209fca07"></script>
+<script src="assets/app.js?v=c69cec1271"></script>
 <script>
 "use strict";
 let INDICE = { videos: [] };
@@ -76,7 +76,12 @@ function pinta() {
   const sig = HITOS.find(h => h > n);
   // la barra dice lo mismo que el texto de al lado: n de sig
   const pct = sig ? Math.min(100, Math.round(n * 100 / sig)) : 100;
-  const proxJuego = JUEGOS.find(j => j.estado === "proximamente");
+  // Lo que viene: la función de enviar replays y todos los juegos en "próximamente"
+  const viene = [
+    `<li><a href="enviar.html">📨 ${esc(T("ap_enviar"))}</a><span class="pg-est">${esc(T("ap_en_curso"))}</span></li>`,
+    ...JUEGOS.filter(j => j.estado === "proximamente").map(j =>
+      `<li>🎮 ${esc(T("ap_incorporar").replace("%s", j.nombre_completo || j.nombre))}</li>`),
+  ];
   $("#t-progreso").textContent = "🏆 " + T("ap_progreso");
   $("#progreso").innerHTML = `
     <div class="pg-cifra"><b>${milesDe(n)}</b><span>${esc(pl(n, "ap_procesada", "ap_procesadas"))}</span></div>
@@ -86,8 +91,8 @@ function pinta() {
         <div class="pg-barra" role="progressbar" aria-valuemin="0" aria-valuemax="${sig}" aria-valuenow="${n}">
           <i style="width:${pct}%"></i></div>
       </div>` : ""}
-    ${proxJuego ? `<div class="pg-obj"><span class="pg-obj-t">${esc(T("ap_proximo"))}</span>
-        <span class="pg-obj-v">🎮 ${esc(T("ap_incorporar").replace("%s", proxJuego.nombre))}</span></div>` : ""}`;
+    <div class="pg-obj"><span class="pg-obj-t">${esc(T("ap_viene"))}</span>
+      <ul class="pg-viene">${viene.join("")}</ul></div>`;
 
   // ---- logros: todos calculados, ninguno a mano
   const L = [

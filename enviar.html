@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Enviar replay · replayLab</title>
+<meta name="description" content="Pronto podrás enviar a Replay Lab el enlace de un replay de Fightcade para que se grabe, se analice y se publique.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🎮</text></svg>">
+<link rel="stylesheet" href="assets/estilo.css?v=669543226c">
+</head>
+<body>
+<header id="cabsitio"></header>
+
+<main class="wrap estrecho">
+  <!-- La función aún no existe: la página está para que se sepa que viene. El campo y
+       el botón están desactivados de verdad (disabled), no sólo pintados en gris. -->
+  <section class="enviar">
+    <span class="e-chapa" id="e-chapa"></span>
+    <h1 id="e-titulo"></h1>
+    <p class="e-sub" id="e-sub"></p>
+    <form class="e-form" onsubmit="return false" aria-describedby="e-aviso">
+      <label for="e-url" id="e-campo"></label>
+      <div class="e-fila">
+        <input id="e-url" type="url" disabled placeholder="https://replay.fightcade.com/fbneo/ssf2xjr1/…">
+        <button type="submit" disabled id="e-boton"></button>
+      </div>
+      <p class="e-aviso" id="e-aviso"></p>
+    </form>
+  </section>
+
+  <section class="bloque">
+    <div class="bloque-cab"><h2 id="t-como"></h2></div>
+    <ol class="pasos" id="pasos"></ol>
+  </section>
+
+  <section class="bloque">
+    <div class="bloque-cab"><h2 id="t-juegos"></h2></div>
+    <div class="rejilla-juegos" id="juegos"></div>
+  </section>
+
+  <div id="apoyo"></div>
+</main>
+
+<footer class="wrap" id="pie"></footer>
+
+<script src="assets/app.js?v=c69cec1271"></script>
+<script src="assets/lista.js?v=82a0d35d3c"></script>
+<script>
+"use strict";
+let INDICE = { videos: [] };
+function pinta() {
+  document.documentElement.lang = LANG;
+  textosCabecera(); pintaPie(); pintaApoyo();
+  $("#e-chapa").textContent = "🔒 " + T("n_pronto");
+  $("#e-titulo").textContent = "📨 " + T("e_titulo");
+  $("#e-sub").textContent = T("e_sub");
+  $("#e-campo").textContent = T("e_campo");
+  $("#e-boton").textContent = "🔒 " + T("e_boton");
+  $("#e-aviso").textContent = T("e_aviso");
+  $("#t-como").textContent = T("e_como");
+  $("#pasos").innerHTML = ["e_p1", "e_p2", "e_p3", "e_p4", "e_p5"]
+    .map(k => `<li>${esc(T(k))}</li>`).join("");
+  $("#t-juegos").textContent = T("e_juegos");
+  const orden = [...juegosActivos(), ...JUEGOS.filter(j => j.estado !== "activo")];
+  $("#juegos").innerHTML = orden.map(j => tarjetaJuego(j, INDICE.videos || [])).join("");
+}
+montaCabecera("enviar", pinta);
+pinta();
+Promise.all([cargaBase(), json("datos/indice.json").then(d => { INDICE = d; }).catch(() => {})])
+  .then(pinta);
+</script>
+</body>
+</html>
