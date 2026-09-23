@@ -12,12 +12,34 @@
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.45;
-  background-image:radial-gradient(900px 600px at 12% -10%,rgba(255,61,87,.10),transparent 60%),
-                   radial-gradient(900px 600px at 88% -10%,rgba(55,200,255,.10),transparent 60%)}
+/* El fondo va en una capa FIJA detrás de todo. Antes estaba pintado en el body y, en
+   las páginas con poco contenido, se acababa donde acababa el body: debajo quedaba una
+   franja de otro color. Ahora el body ocupa como mínimo la pantalla entera (el pie baja
+   solo) y la textura no se corta nunca.
+   La textura: los dos brillos de siempre (rojo del jugador 1, azul del 2), una rejilla
+   de puntos y unas líneas de retícula muy suaves, como la pantalla de un HUD. */
+html{background:var(--bg)}
+body{color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.45;
+  min-height:100vh;display:grid;grid-template-rows:auto 1fr auto;
+  /* minmax(0,1fr): sin esto la columna crece hasta lo más ancho que haya dentro (una
+     fila de pestañas, una tabla) y la página se sale de lado en el móvil */
+  grid-template-columns:minmax(0,1fr)}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:
+    radial-gradient(900px 600px at 10% -12%,rgba(255,61,87,.13),transparent 62%),
+    radial-gradient(900px 600px at 90% -12%,rgba(55,200,255,.13),transparent 62%),
+    radial-gradient(1200px 700px at 50% 120%,rgba(255,203,69,.05),transparent 60%),
+    radial-gradient(circle at center,rgba(148,166,204,.16) 1px,transparent 1.6px) 0 0/24px 24px,
+    linear-gradient(rgba(148,166,204,.06) 1px,transparent 1px) 0 0/120px 120px,
+    linear-gradient(90deg,rgba(148,166,204,.06) 1px,transparent 1px) 0 0/120px 120px,
+    var(--bg)}
+/* un velo que apaga la textura detrás del contenido central: se ve en los márgenes y
+   no estorba la lectura */
+body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:radial-gradient(ellipse 70% 80% at 50% 45%,rgba(10,13,21,.55),transparent 75%)}
 a{color:inherit;text-decoration:none}
 img{display:block}
-.wrap{max-width:1240px;margin:0 auto;padding:0 20px}
+.wrap{max-width:1240px;width:100%;margin:0 auto;padding:0 20px}
 .sp{flex:1}
 
 /* ---------------------------------------------------------- cabecera */
@@ -183,26 +205,6 @@ h2 .sub{color:var(--dim);letter-spacing:1px;font-weight:400;font-size:13px;text-
 .chip[aria-pressed="false"] i{opacity:.28}
 .chip .n{font-family:var(--mono);font-size:12px;color:var(--dim)}
 
-/* línea de tiempo: una pista POR PELEA, separadas */
-.pistas{display:flex;flex-direction:column;gap:9px}
-.pista{display:flex;align-items:center;gap:11px}
-.pista .et{width:92px;flex:none;font-size:13px;letter-spacing:1px;text-transform:uppercase;
-  color:var(--dim);display:flex;align-items:center;gap:7px}
-.pista .et b{color:var(--soft);font-weight:700}
-.barra{position:relative;flex:1;height:38px;background:var(--panel);border:1px solid var(--line);
-  border-radius:7px;overflow:hidden;min-width:0}
-.barra .rd{position:absolute;top:0;bottom:0;border-right:1px solid var(--line);
-  display:grid;place-items:center;font-size:11px;letter-spacing:1px;color:#5f6d8c;overflow:hidden}
-.barra .rd:last-child{border-right:0}
-.barra .rd.g1{background:linear-gradient(180deg,rgba(255,61,87,.16),rgba(255,61,87,.05))}
-.barra .rd.g2{background:linear-gradient(180deg,rgba(55,200,255,.16),rgba(55,200,255,.05))}
-.barra .rd.g0{background:linear-gradient(180deg,rgba(255,203,69,.16),rgba(255,203,69,.05))}
-.mk{position:absolute;top:0;bottom:0;width:3px;margin-left:-1px;cursor:pointer;border:0;padding:0;
-  background:var(--c,#fff);opacity:.9;transition:opacity .12s,transform .12s;z-index:2}
-.mk:hover{opacity:1;transform:scaleX(2.6)}
-.mk.oculto{display:none}
-.pista .tot{width:52px;flex:none;text-align:right;font:600 13px/1 var(--mono);color:var(--dim)}
-
 /* resumen de rondas */
 /* Daño de la ronda: una barra que sale del centro hacia cada lado. Lo de antes eran
    dos barras apiladas y se leían como una sola raya. */
@@ -356,7 +358,6 @@ footer a:hover{color:var(--ink)}
 .r-dano{font-size:12px;color:var(--dim);margin-right:auto;font-variant-numeric:tabular-nums}
 
 /* ---- análisis: tarjetas por tema, comparación directa sin barras */
-.acards{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:12px;align-items:start}
 .acard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 16px 10px}
 .acard h3{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:6px}
 details.acard>summary{list-style:none;cursor:pointer;display:flex;align-items:center}
@@ -384,11 +385,9 @@ details.acard[open]>summary{margin-bottom:6px}
 .cmp-f .v.b .seq{justify-content:flex-end}
 .nota-sec{font-size:13px;color:var(--dim);margin:4px 0 8px}
 .acard .durs{margin-top:10px;background:none;border:0;padding:4px 0 0}
-.acard.tecnico{grid-column:1/-1}
 
 @media (max-width:900px){
   .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .acards{grid-template-columns:1fr}
 }
 @media (max-width:760px){
   .cab .centro{order:-1;width:100%}
@@ -407,6 +406,135 @@ details.acard[open]>summary{margin-bottom:6px}
   .kpi-v{gap:8px}
   .kpi-v b{font-size:23px}
   .kpi-t{font-size:11px;letter-spacing:1.5px}
+}
+
+/* ================================================================ PELEAS (una a la vez)
+   Tira del set entero → lista de peleas → detalle de la elegida. */
+.tset{margin-bottom:14px}
+.ts-bar{display:flex;height:30px;border-radius:8px;overflow:hidden;background:#0d1119;
+  border:1px solid var(--line)}
+.ts-seg{all:unset;box-sizing:border-box;flex-basis:0;min-width:0;cursor:pointer;display:grid;place-items:center;
+  font:700 11px/1 var(--mono);color:rgba(255,255,255,.72);box-shadow:inset -1px 0 0 rgba(10,13,21,.9);
+  transition:filter .12s}
+.ts-seg:last-child{box-shadow:none}
+.ts-seg.g1{background:linear-gradient(180deg,rgba(255,61,87,.62),rgba(255,61,87,.32))}
+.ts-seg.g2{background:linear-gradient(180deg,rgba(55,200,255,.58),rgba(55,200,255,.28))}
+.ts-seg.g0{background:linear-gradient(180deg,rgba(255,203,69,.5),rgba(255,203,69,.24))}
+.ts-seg:hover{filter:brightness(1.35)}
+.ts-seg[aria-pressed="true"]{box-shadow:inset 0 0 0 2px var(--ink);filter:brightness(1.25);color:#fff}
+.ts-seg:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+.ts-eje{display:flex;justify-content:space-between;font-size:11.5px;letter-spacing:1px;color:var(--dim);
+  text-transform:uppercase;margin-top:5px}
+
+/* baldosas: pocas → en una rejilla; muchas (FT100) → caja con scroll */
+.plist{position:relative;display:grid;grid-template-columns:repeat(auto-fill,minmax(68px,1fr));gap:6px}
+.plist.muchas{max-height:252px;overflow-y:auto;padding:2px 6px 2px 2px;scrollbar-width:thin;
+  scrollbar-color:var(--line2) transparent}
+.pt{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:1px;
+  padding:6px 4px 5px;border-radius:9px;background:var(--panel);border:1px solid var(--line);
+  border-top:3px solid var(--c,var(--line2));transition:transform .1s,border-color .12s,background .12s}
+.pt.g1{--c:var(--p1)}.pt.g2{--c:var(--p2)}.pt.g0{--c:var(--gold)}
+.pt:hover{transform:translateY(-1px);background:var(--panel2)}
+.pt[aria-pressed="true"]{background:var(--panel3);border-color:var(--c);
+  box-shadow:0 0 0 1px var(--c),0 6px 18px color-mix(in srgb,var(--c) 22%,transparent)}
+.pt:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.pt-n{font-size:11px;letter-spacing:1px;color:var(--dim)}
+.pt-r{font:700 18px/1.1 var(--mono);display:flex;gap:2px;align-items:baseline}
+.pt-r .a{color:var(--p1l)}.pt-r .b{color:var(--p2l)}
+.pt-r i{font-style:normal;color:var(--dim);font-size:13px}
+.pt-s{font:600 10.5px/1 var(--mono);color:#6d7a99}
+.pley{font-size:12.5px;color:var(--dim);margin:8px 0 14px}
+
+/* el detalle de la pelea elegida */
+.pdet{background:var(--panel);border:1px solid var(--line2);border-radius:14px;overflow:hidden;
+  animation:aparece .18s ease-out}
+@keyframes aparece{from{opacity:0;transform:translateY(4px)}}
+.pd-cab{display:flex;align-items:center;gap:12px;padding:12px 14px;background:var(--panel2);
+  border-bottom:1px solid var(--line)}
+.pd-nav{all:unset;cursor:pointer;width:34px;height:34px;flex:none;display:grid;place-items:center;border-radius:9px;
+  border:1px solid var(--line2);color:var(--soft);font-size:13px}
+.pd-nav:hover:not([disabled]){background:var(--panel3);color:var(--ink)}
+.pd-nav[disabled]{opacity:.28;cursor:default}
+.pd-nav:focus-visible{outline:2px solid var(--gold)}
+.pd-tit{display:flex;flex-direction:column;min-width:0;flex:1}
+.pd-n{font-size:17px;font-weight:700;letter-spacing:.5px}
+.pd-pj{font-size:13.5px;color:var(--dim);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pd-res{display:flex;align-items:center;gap:8px;font-size:13px;letter-spacing:1px;text-transform:uppercase;
+  color:var(--dim);flex:none}
+.pd-res b{letter-spacing:.5px;text-transform:none;font-size:15px}
+.pd-marc{font:700 24px/1 var(--mono);margin-left:6px;letter-spacing:0}
+.pd-marc .a{color:var(--p1l)}.pd-marc .b{color:var(--p2l)}
+
+.fms{display:flex;flex-wrap:wrap;gap:8px;padding:12px 14px;border-bottom:1px solid var(--line)}
+.fm{display:flex;flex-direction:column;gap:2px;padding:7px 12px;border-radius:9px;background:var(--panel2);
+  border:1px solid var(--line);min-width:96px}
+.fm-k{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--dim)}
+.fm-v{display:flex;gap:10px;align-items:baseline;justify-content:space-between}
+.fm-v b{font:700 18px/1.1 var(--mono);opacity:.55;font-variant-numeric:tabular-nums}
+.fm-v b.lid{opacity:1}
+.fm-v b.a{color:var(--p1l)}.fm-v b.b{color:var(--p2l)}
+.fm-v b.t{opacity:1;color:var(--ink)}
+.fm-video{all:unset;cursor:pointer;margin-left:auto;align-self:center;padding:9px 14px;border-radius:9px;
+  font-size:14px;font-weight:700;color:#241a00;background:linear-gradient(180deg,#ffd869,var(--gold));
+  border:1px solid #b8892a}
+.fm-video:hover{filter:brightness(1.06)}
+.fm-video:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+
+/* línea de tiempo de UNA pelea: carril de rondas, carril de momentos y regla */
+.tl{padding:12px 14px 6px;border-bottom:1px solid var(--line)}
+.tl-cab{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.tl-t{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--dim);font-weight:700}
+.tl-cab .chips{padding-bottom:8px}
+.tl-cab .chip{font-size:12.5px;padding:3px 10px}
+.tl-caja{position:relative}
+.tl-rondas{position:relative;height:30px;border-radius:7px;background:#0d1119;border:1px solid var(--line)}
+.tl-r{all:unset;box-sizing:border-box;position:absolute;top:0;bottom:0;cursor:pointer;display:grid;place-items:center;
+  font:700 11px/1 var(--mono);color:rgba(255,255,255,.62);border-right:1px solid #0a0d15;overflow:hidden}
+.tl-r.g1{background:linear-gradient(180deg,rgba(255,61,87,.42),rgba(255,61,87,.16))}
+.tl-r.g2{background:linear-gradient(180deg,rgba(55,200,255,.4),rgba(55,200,255,.15))}
+.tl-r.g0{background:linear-gradient(180deg,rgba(255,203,69,.36),rgba(255,203,69,.12))}
+.tl-r:hover{filter:brightness(1.3);color:#fff}
+.tl-r:first-child{border-radius:6px 0 0 6px}.tl-r:last-child{border-right:0;border-radius:0 6px 6px 0}
+.tl-moms{position:relative;margin-top:2px}
+.tl-g{position:absolute;top:0;bottom:0;width:1px;background:rgba(148,166,204,.09)}
+.tl-p{all:unset;position:absolute;width:10px;height:10px;margin-left:-5px;border-radius:50%;cursor:pointer;
+  background:var(--c);box-shadow:0 0 0 2px var(--panel),0 0 8px color-mix(in srgb,var(--c) 55%,transparent);
+  transition:transform .1s}
+.tl-p:hover,.tl-p:focus-visible{transform:scale(1.5);z-index:2}
+.tl-p.oculto{display:none}
+.tl-eje{position:relative;height:18px;border-top:1px solid var(--line)}
+.tl-eje span{position:absolute;top:3px;transform:translateX(-50%);font:600 10.5px/1 var(--mono);color:#6d7a99;
+  white-space:nowrap}
+.tl-eje span:first-child{transform:none}
+.tl-eje span:last-child:not(:first-child){transform:translateX(-100%)}
+.tl-eje span::before{content:"";position:absolute;left:50%;top:-4px;width:1px;height:4px;background:var(--line2)}
+.pdet .rondas-g{border-top:0}
+
+/* ================================================================ ANÁLISIS EN PESTAÑAS */
+.atabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:10px;scrollbar-width:none;justify-content:safe center}
+.atabs::-webkit-scrollbar{display:none}
+.atab{all:unset;cursor:pointer;flex:none;padding:8px 14px;border-radius:999px;font-size:14px;letter-spacing:.3px;
+  color:var(--dim);background:var(--panel);border:1px solid var(--line);white-space:nowrap}
+.atab:hover{color:var(--ink);border-color:var(--line2)}
+.atab[aria-selected="true"]{color:var(--ink);background:var(--panel3);border-color:var(--gold);
+  box-shadow:0 0 0 1px rgba(255,203,69,.25)}
+.atab:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.apanel{max-width:760px;margin:0 auto}
+.apanel .acard{animation:aparece .18s ease-out}
+.apanel .durs{max-height:340px;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--line2) transparent}
+
+@media (max-width:760px){
+  .pd-cab{flex-wrap:wrap;gap:10px}
+  .pd-tit{order:1;flex-basis:calc(100% - 100px)}
+  .pd-nav:first-child{order:0}
+  .pd-nav:last-child{order:2}
+  .pd-res{order:3;width:100%}
+  .pd-marc{margin-left:auto}
+  .fm{flex:1 1 calc(50% - 8px);min-width:0}
+  .fm-video{margin-left:0;flex-basis:100%;text-align:center}
+  .plist{grid-template-columns:repeat(auto-fill,minmax(58px,1fr))}
+  .pt-r{font-size:16px}
+  .apanel{max-width:none}
 }
 
 /* ================================================================ NAVEGACIÓN
@@ -620,7 +748,6 @@ footer .sp{flex:1}
   .jug.p2{flex-direction:row;text-align:left}
   .jug.p2 .sub{flex-direction:row}
   .marc{font-size:32px;margin:0 auto}
-  .pista .et{width:66px;font-size:11px}
   .apoyo{padding:18px 16px;margin-top:26px}
   .apoyo h2{font-size:18px}
   .apoyo p{font-size:15px}

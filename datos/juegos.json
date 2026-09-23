@@ -6,7 +6,11 @@
    "nombre": "Super Street Fighter II X",
    "subtitulo": "Grand Master Challenge",
    "corto": "SSF2X",
-   "gameids": ["ssf2xjr1", "ssf2xj", "ssf2t"],
+   "gameids": [
+    "ssf2xjr1",
+    "ssf2xj",
+    "ssf2t"
+   ],
    "anio": 1994,
    "compania": "Capcom",
    "retrato": "ryu",
@@ -17,8 +21,27 @@
    "nombre": "Street Fighter III 3rd Strike",
    "subtitulo": "Fight for the Future",
    "corto": "3S",
-   "gameids": ["sfiii3nr1", "sfiii3"],
+   "gameids": [
+    "sfiii3nr1",
+    "sfiii3"
+   ],
    "anio": 1999,
+   "compania": "Capcom",
+   "estado": "proximamente"
+  },
+  {
+   "id": "sf2ce",
+   "nombre": "Street Fighter II'",
+   "subtitulo": "Champion Edition",
+   "corto": "CE",
+   "gameids": [
+    "sf2ce",
+    "sf2ceua",
+    "sf2ceub",
+    "sf2ceuc",
+    "sf2cej"
+   ],
+   "anio": 1992,
    "compania": "Capcom",
    "estado": "proximamente"
   }

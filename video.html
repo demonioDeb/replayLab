@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>replayLab</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🎮</text></svg>">
-<link rel="stylesheet" href="assets/estilo.css">
+<link rel="stylesheet" href="assets/estilo.css?v=8d67a60f0f">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -24,7 +24,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js"></script>
+<script src="assets/app.js?v=1a209fca07"></script>
 <script>
 "use strict";
 let F = null, REPRO = null, LISTO = false;
@@ -90,47 +90,6 @@ function cabecera() {
       <div class="res-datos">${datos.map(x => `<span>${esc(x)}</span>`).join("")}</div>
     </div>
     ${lado(b, 2)}</div>`;
-}
-
-/* ---------------------------------------------------------------- línea de tiempo */
-function lineaTiempo() {
-  const peleas = F.peleas || [];
-  const cuenta = {};
-  (F.momentos || []).forEach(x => { cuenta[x.tipo] = (cuenta[x.tipo] || 0) + 1; });
-  const usados = TIPOS.filter(([t]) => cuenta[t]);
-
-  const chips = usados.map(([t, c]) => `<button class="chip" data-tipo="${t}"
-      aria-pressed="${!APAGADOS.has(t)}" style="--c:${c}">
-      <i></i>${esc(T(t) || t)}<span class="n">${cuenta[t]}</span></button>`).join("")
-    + (usados.length > 1 ? `<button class="chip" data-tipo="__todo" aria-pressed="true">${esc(T("todo"))}</button>` : "");
-
-  // Una pista POR PELEA, no una barra continua: antes iban pegadas y no se veía dónde
-  // acababa una y empezaba la otra.
-  const pistas = peleas.map(p => {
-    const ini = p.t || 0, fin = p.fin || (ini + 1), dur = Math.max(0.1, fin - ini);
-    const rondas = (p.rondas || []).map(r => {
-      const a = pct((r.t || ini) - ini, dur), b = pct((r.fin || fin) - ini, dur);
-      return `<button class="rd g${r.ganador ?? 0}" style="left:${a}%;width:${Math.max(0, b - a)}%"
-        data-t="${r.t}" title="${esc(T("ronda"))} ${r.n} — ${mmss(r.t)}">${r.n}</button>`;
-    }).join("");
-    const marcas = (F.momentos || []).filter(x => x.t >= ini && x.t <= fin).map(x => {
-      const quien = x.jugador ? " · " + esc(nombre(x.jugador)) : "";
-      const dato = x.dato ? " " + x.dato : "";
-      return `<button class="mk${APAGADOS.has(x.tipo) ? " oculto" : ""}" data-tipo="${x.tipo}"
-        style="left:${pct(x.t - ini, dur)}%;--c:${COLOR[x.tipo] || "#fff"}" data-t="${x.t}"
-        title="${esc(T(x.tipo) || x.tipo)}${dato}${quien} — ${mmss(x.t)}"></button>`;
-    }).join("");
-    const gan = p.ganador;
-    return `<div class="pista">
-      <span class="et"><b>${esc(T("pelea"))} ${p.n}</b>
-        ${gan ? `<span style="color:${pcl(gan)}">${(p.marcador || []).join("-")}</span>` : ""}</span>
-      <div class="barra" data-t="${ini}">${rondas}${marcas}</div>
-      <span class="tot">${mmss(dur)}</span></div>`;
-  }).join("");
-
-  return `<h2>${esc(T("linea"))}<span class="sub">${esc(T("filtrar"))}</span></h2>
-    <div class="chips" id="chips">${chips}</div>
-    <div class="pistas">${pistas}</div>`;
 }
 
 /* ================================================================ CRITERIO VISUAL
@@ -230,63 +189,232 @@ function resumen() {
   return kpis + (dest.length ? `<h3 class="sub-t">${esc(T("r_destacados"))}</h3><div class="dests">${dest.join("")}</div>` : "");
 }
 
-/* ================================================================ 2 · PELEAS Y RONDAS
-   Aquí SÍ hay barra: la vida con la que acaba cada ronda cada jugador. De un vistazo
-   se ve cómo terminó: 82 % contra 0 %, o un final al límite. */
-function peleasYRondas() {
-  const cards = (F.peleas || []).map(p => {
-    const gan = p.ganador;
-    const rondas = (p.rondas || []).map(r => {
-      const vf = r.vida_final || [null, null];
-      const como = r.motivo === "time" ? T("por_tiempo") : r.motivo === "doble_ko" ? T("doble") : T("por_ko");
-      const sellos = [];
-      if (r.perfect) sellos.push([T("perfect"), COLOR.perfect]);
-      if ((r.remontada || 0) >= 50) sellos.push([T("remontada"), COLOR.remontada]);
-      if (r.ganador && vf[r.ganador - 1] === 0) sellos.push([T("r_cero"), "#ff9a3d", T("r_cero_ayuda")]);
-      else if (r.ganador && vf[r.ganador - 1] != null && vf[r.ganador - 1] <= 10) sellos.push([T("al_limite"), "#ff9a3d"]);
-      if (r.sin_cierre) sellos.push([T("sin_cierre"), "#7c8aa8", T("sin_cierre_ayuda")]);
-      const vida = n => {
-        const v = vf[n - 1];
-        return `<div class="rv p${n}${r.ganador === n ? " gano" : ""}">
-          <span class="rv-n">${esc(nombre(n))}</span>
-          <span class="rv-b"><i style="width:${v == null ? 0 : Math.max(0, Math.min(100, v))}%"></i></span>
-          <b class="rv-p">${v == null ? "—" : v + "%"}</b></div>`;
-      };
-      const d = r.dano || [0, 0];
-      return `<button class="ronda${r.sin_cierre ? " abierta" : ""}" data-t="${r.t}" title="${mmss(r.t)}">
-        <span class="r-cab"><span class="rn">${esc(T("ronda"))} ${r.n}</span>
-          <span class="r-res">${r.ganador
-            ? `<b style="color:${pcl(r.ganador)}">${esc(nombre(r.ganador))}</b>`
-            : `<b style="color:var(--gold)">${esc(T(r.motivo === "doble_ko" ? "doble" : "empate"))}</b>`}
-            <span class="r-como">${r.ganador ? esc(como) + " · " : ""}${r.duracion ? r.duracion + " " + esc(T("seg")) : ""}</span></span></span>
-        ${vida(1)}${vida(2)}
-        <span class="r-pie"><span class="r-dano">${esc(T("dano"))} <span class="a">${d[0]}</span> · <span class="b">${d[1]}</span></span>
-          ${sellos.map(([t, c, ay]) => `<span class="sello" style="--c:${c}"${ay ? ` title="${esc(ay)}"` : ""}>${esc(t)}</span>`).join("")}</span>
-      </button>`;
-    }).join("");
-    return `<div class="pelea">
-      <div class="p-cab" data-t="${p.t}">
-        <span class="p-n">${esc(T("pelea"))} ${p.n}</span>
-        <span class="p-pj">${(p.personajes || []).map(esc).join(" vs ")}</span>
-        ${gan ? `<span class="p-gana" style="color:${pcl(gan)}">${esc(nombre(gan))} ${esc(T("gana"))}</span>` : ""}
-        <span class="p-res">${(p.marcador || []).join(" – ")}</span></div>
-      <div class="rondas-g">${rondas}</div></div>`;
+/* ================================================================ 2 · PELEAS
+   Un set puede llegar a FT100: casi 200 peleas. Desplegarlas todas hacía la página
+   interminable. Ahora hay tres piezas: una tira con el set entero, la lista compacta de
+   peleas, y el detalle SÓLO de la pelea elegida (su línea de tiempo y sus rondas). */
+let PELEA = Math.max(0, (parseInt(Q.get("pelea"), 10) || 1) - 1);
+const MUCHAS = 40;               // desde aquí la lista vive en una caja con scroll
+
+// rondas ganadas por cada uno EN esa pelea (no el marcador del set)
+const rondasDe = p => {
+  const r = [0, 0];
+  (p.rondas || []).forEach(x => { if (x.ganador === 1 || x.ganador === 2) r[x.ganador - 1]++; });
+  return r;
+};
+const durPelea = p => Math.max(0, (p.fin || p.t || 0) - (p.t || 0));
+
+/* ---- la tira del set: cada pelea es un tramo tan ancho como lo que duró, del color
+   de quien la ganó. Se entiende el set entero de un vistazo y se puede pulsar. */
+function tiraSet() {
+  const ps = F.peleas || [];
+  if (ps.length < 2) return "";
+  const tot = ps.reduce((a, p) => a + Math.max(1, durPelea(p)), 0);
+  const segs = ps.map((p, i) => {
+    const w = Math.max(1, durPelea(p)) * 100 / tot;
+    return `<button class="ts-seg g${p.ganador || 0}" data-pelea="${i}" aria-pressed="${i === PELEA}"
+      style="flex-grow:${w.toFixed(3)}"
+      title="${esc(T("pelea"))} ${p.n} · ${esc(p.ganador ? nombre(p.ganador) : T("empate"))} · ${mmss(durPelea(p))}"
+      >${w > 3.5 ? p.n : ""}</button>`;
   }).join("");
-  return `<p class="leyenda">${esc(T("r_vidafin"))} ·
-      <span class="a">■ ${esc(nombre(1))}</span> <span class="b">■ ${esc(nombre(2))}</span></p>
-    <div class="peleas">${cards}</div>`;
+  return `<div class="tset"><div class="ts-bar">${segs}</div>
+    <div class="ts-eje"><span>${esc(T("pelea"))} 1</span><span>${esc(T("p_set_tl"))}</span>
+      <span>${esc(T("pelea"))} ${ps[ps.length - 1].n}</span></div></div>`;
+}
+
+/* ---- la lista: una baldosa por pelea. Arriba el número, en medio las rondas de ESA
+   pelea, abajo cómo iba el set después. El borde lleva el color del ganador. */
+function listaPeleas() {
+  const ps = F.peleas || [];
+  const baldosas = ps.map((p, i) => {
+    const r = rondasDe(p), m = p.marcador || [0, 0];
+    return `<button class="pt g${p.ganador || 0}" data-pelea="${i}" aria-pressed="${i === PELEA}"
+      title="${esc(T("pelea"))} ${p.n} · ${esc(p.ganador ? nombre(p.ganador) + " " + T("gana") : T("empate"))} · ${mmss(durPelea(p))}">
+      <span class="pt-n">${p.n}</span>
+      <span class="pt-r"><b class="a">${r[0]}</b><i>–</i><b class="b">${r[1]}</b></span>
+      <span class="pt-s">${m[0]}–${m[1]}</span></button>`;
+  }).join("");
+  return `<div class="plist${ps.length > MUCHAS ? " muchas" : ""}" id="plist">${baldosas}</div>
+    <p class="pley">${esc(T("p_ley"))}</p>`;
+}
+
+/* ---- la línea de tiempo de UNA pelea: un carril para las rondas, otro para los
+   momentos y una regla de tiempo. Los momentos que caen casi en el mismo segundo se
+   reparten en tres filas en vez de taparse unos a otros. */
+function pistaPelea(p) {
+  const ini = p.t || 0, fin = p.fin || ini + 1, dur = Math.max(1, fin - ini);
+  const X = t => pct(t - ini, dur);
+  const rondas = (p.rondas || []).map(r => {
+    const a = X(r.t ?? ini), b = X(r.fin ?? fin);
+    return `<button class="tl-r g${r.ganador ?? 0}" style="left:${a}%;width:${Math.max(0.6, b - a)}%"
+      data-t="${r.t}" title="${esc(T("ronda"))} ${r.n} · ${mmss(r.t)}"><span>R${r.n}</span></button>`;
+  }).join("");
+  const moms = (F.momentos || []).filter(x => x.t >= ini && x.t <= fin).sort((a, b) => a.t - b.t);
+  const cuenta = {};
+  moms.forEach(x => { cuenta[x.tipo] = (cuenta[x.tipo] || 0) + 1; });
+  const FILAS = 3, HUECO = 2.2, ult = Array(FILAS).fill(-99);
+  let usadas = 1;
+  const puntos = moms.map(x => {
+    const px = X(x.t);
+    let f = ult.findIndex(u => px - u >= HUECO);
+    if (f < 0) f = ult.indexOf(Math.min(...ult));
+    ult[f] = px; usadas = Math.max(usadas, f + 1);
+    return `<button class="tl-p${APAGADOS.has(x.tipo) ? " oculto" : ""}" data-tipo="${x.tipo}" data-t="${x.t}"
+      style="left:${px}%;top:${4 + f * 14}px;--c:${COLOR[x.tipo] || "#fff"}"
+      title="${esc(T(x.tipo) || x.tipo)}${x.jugador ? " · " + esc(nombre(x.jugador)) : ""} · ${mmss(x.t)}"></button>`;
+  }).join("");
+  const paso = dur <= 90 ? 15 : dur <= 240 ? 30 : 60;
+  const marcas = [], guias = [];
+  for (let s = 0; s <= dur + 0.01; s += paso) {
+    marcas.push(`<span style="left:${pct(s, dur)}%">${mmss(s)}</span>`);
+    if (s > 0) guias.push(`<i class="tl-g" style="left:${pct(s, dur)}%"></i>`);
+  }
+  const chips = TIPOS.filter(([tp]) => cuenta[tp]).map(([tp, c]) =>
+    `<button class="chip" data-tipo="${tp}" aria-pressed="${!APAGADOS.has(tp)}" style="--c:${c}">
+      <i></i>${esc(T(tp) || tp)}<span class="n">${cuenta[tp]}</span></button>`).join("");
+  return `<div class="tl">
+      <div class="tl-cab"><span class="tl-t">${esc(T("linea"))}</span><div class="chips">${chips}</div></div>
+      <div class="tl-caja">
+        <div class="tl-rondas">${rondas}</div>
+        <div class="tl-moms" style="height:${8 + usadas * 14}px">${guias.join("")}${puntos}</div>
+        <div class="tl-eje">${marcas.join("")}</div>
+      </div>
+    </div>`;
+}
+
+/* ---- una ronda: la única barra de las estadísticas, la vida con la que acabó cada uno */
+function tarjetaRonda(r) {
+  const vf = r.vida_final || [null, null];
+  const como = r.motivo === "time" ? T("por_tiempo") : r.motivo === "doble_ko" ? T("doble") : T("por_ko");
+  const sellos = [];
+  if (r.perfect) sellos.push([T("perfect"), COLOR.perfect]);
+  if ((r.remontada || 0) >= 50) sellos.push([T("remontada"), COLOR.remontada]);
+  if (r.ganador && vf[r.ganador - 1] === 0) sellos.push([T("r_cero"), "#ff9a3d", T("r_cero_ayuda")]);
+  else if (r.ganador && vf[r.ganador - 1] != null && vf[r.ganador - 1] <= 10) sellos.push([T("al_limite"), "#ff9a3d"]);
+  if (r.sin_cierre) sellos.push([T("sin_cierre"), "#7c8aa8", T("sin_cierre_ayuda")]);
+  const vida = n => {
+    const v = vf[n - 1];
+    return `<div class="rv p${n}${r.ganador === n ? " gano" : ""}">
+      <span class="rv-n">${esc(nombre(n))}</span>
+      <span class="rv-b"><i style="width:${v == null ? 0 : Math.max(0, Math.min(100, v))}%"></i></span>
+      <b class="rv-p">${v == null ? "—" : v + "%"}</b></div>`;
+  };
+  const d = r.dano || [0, 0];
+  return `<button class="ronda${r.sin_cierre ? " abierta" : ""}" data-t="${r.t}" title="${mmss(r.t)}">
+    <span class="r-cab"><span class="rn">${esc(T("ronda"))} ${r.n}</span>
+      <span class="r-res">${r.ganador
+        ? `<b style="color:${pcl(r.ganador)}">${esc(nombre(r.ganador))}</b>`
+        : `<b style="color:var(--gold)">${esc(T(r.motivo === "doble_ko" ? "doble" : "empate"))}</b>`}
+        <span class="r-como">${r.ganador ? esc(como) + " · " : ""}${r.duracion ? r.duracion + " " + esc(T("seg")) : ""}</span></span></span>
+    ${vida(1)}${vida(2)}
+    <span class="r-pie"><span class="r-dano">${esc(T("dano"))} <span class="a">${d[0]}</span> · <span class="b">${d[1]}</span></span>
+      ${sellos.map(([t, c, ay]) => `<span class="sello" style="--c:${c}"${ay ? ` title="${esc(ay)}"` : ""}>${esc(t)}</span>`).join("")}</span>
+  </button>`;
+}
+
+/* ---- el detalle de la pelea elegida */
+function detallePelea() {
+  const ps = F.peleas || [];
+  const p = ps[PELEA];
+  if (!p) return "";
+  const r = rondasDe(p), res = p.resumen || {}, g = p.ganador;
+  const mini = (k, par) => {
+    const [a, b] = par || [0, 0], l = quienLidera(a, b);
+    return `<div class="fm"><span class="fm-k">${esc(k)}</span>
+      <span class="fm-v"><b class="a${l === 1 ? " lid" : ""}">${n0(a)}</b><b class="b${l === 2 ? " lid" : ""}">${n0(b)}</b></span></div>`;
+  };
+  const pf = res.perfects || [0, 0];
+  return `<div class="pdet">
+    <div class="pd-cab">
+      <button class="pd-nav" data-pelea="${PELEA - 1}"${PELEA === 0 ? " disabled" : ""} aria-label="${esc(T("p_ant"))}" title="${esc(T("p_ant"))}">◀</button>
+      <div class="pd-tit">
+        <span class="pd-n">${esc(T("p_de").replace("%s", p.n).replace("%s", ps.length))}</span>
+        <span class="pd-pj">${(p.personajes || []).map(esc).join(" vs ")}</span>
+      </div>
+      <div class="pd-res">
+        ${g ? `<b style="color:${pcl(g)}">${esc(nombre(g))}</b><span>${esc(T("gana"))}</span>`
+            : `<b style="color:var(--gold)">${esc(T("empate"))}</b>`}
+        <span class="pd-marc"><span class="a">${r[0]}</span>–<span class="b">${r[1]}</span></span>
+      </div>
+      <button class="pd-nav" data-pelea="${PELEA + 1}"${PELEA >= ps.length - 1 ? " disabled" : ""} aria-label="${esc(T("p_sig"))}" title="${esc(T("p_sig"))}">▶</button>
+    </div>
+    <div class="fms">
+      ${mini(T("s_dano"), res.dano)}${mini(T("s_combos"), res.combos)}${mini(T("s_supers"), res.supers)}
+      ${mini(T("st_dizzies"), res.mareos)}${pf[0] + pf[1] ? mini(T("st_perfects"), pf) : ""}
+      <div class="fm"><span class="fm-k">${esc(T("s_tiempo"))}</span><span class="fm-v"><b class="t">${mmss(durPelea(p))}</b></span></div>
+      ${F.youtube ? `<button class="fm-video" data-t="${p.t}">▶ ${esc(T("p_video"))}</button>` : ""}
+    </div>
+    ${pistaPelea(p)}
+    <div class="rondas-g">${(p.rondas || []).map(tarjetaRonda).join("")}</div>
+  </div>`;
+}
+
+function peleasYRondas() {
+  return tiraSet() + listaPeleas() + `<div id="pdet">${detallePelea()}</div>`;
+}
+
+// Elegir una pelea: sólo se repinta el detalle, no la página entera.
+function eligePelea(i, desdeTeclado) {
+  const ps = F.peleas || [];
+  if (i < 0 || i >= ps.length || i === PELEA) return;
+  PELEA = i;
+  document.querySelectorAll("[data-pelea].pt, [data-pelea].ts-seg").forEach(b =>
+    b.setAttribute("aria-pressed", String(+b.dataset.pelea === PELEA)));
+  $("#pdet").innerHTML = detallePelea();
+  enfocaBaldosa(desdeTeclado);
+  recuerdaUrl();
+}
+// Con muchas peleas la lista es una caja con scroll: se mueve la caja, no la página.
+function enfocaBaldosa(foco) {
+  const caja = $("#plist"), el = caja && caja.querySelector(`.pt[data-pelea="${PELEA}"]`);
+  if (!el) return;
+  if (caja.classList.contains("muchas")) {
+    const arriba = el.offsetTop - 6, abajo = el.offsetTop + el.offsetHeight + 6 - caja.clientHeight;
+    if (caja.scrollTop > arriba) caja.scrollTop = arriba;
+    else if (caja.scrollTop < abajo) caja.scrollTop = abajo;
+  }
+  if (foco) el.focus({ preventScroll: true });
 }
 
 /* ================================================================ 3 · ANÁLISIS
-   Tarjetas por tema. Las principales abiertas; las secundarias plegadas, a un clic. */
+   Por temas, en pestañas: se ve UNO a la vez. Antes eran ocho tarjetas seguidas. */
+let TEMA = "a-" + (Q.get("tema") || "rondas");
+let TEMAS = [];
+function pestanasAnalisis(lista) {
+  TEMAS = lista;
+  if (!TEMAS.some(t => t.id === TEMA)) TEMA = TEMAS[0].id;
+  const tabs = TEMAS.map(t => `<button class="atab" role="tab" data-tema="${t.id}" aria-selected="${t.id === TEMA}">
+      <span aria-hidden="true">${t.ic}</span> ${esc(t.titulo)}</button>`).join("");
+  return `<div class="atabs" role="tablist">${tabs}</div><div class="apanel" id="apanel">${panelTema()}</div>`;
+}
+function panelTema() {
+  const t = TEMAS.find(x => x.id === TEMA) || TEMAS[0];
+  return `<div class="acard">${nombresCmp()}${t.html}</div>`;
+}
+function eligeTema(id) {
+  if (id === TEMA || !TEMAS.some(t => t.id === id)) return;
+  TEMA = id;
+  document.querySelectorAll(".atab").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tema === TEMA)));
+  $("#apanel").innerHTML = panelTema();
+  recuerdaUrl();
+}
+
+// La pelea y el tema elegidos quedan en la dirección: se puede compartir tal cual.
+function recuerdaUrl() {
+  const u = new URL(location.href);
+  u.searchParams.set("pelea", PELEA + 1);
+  u.searchParams.set("tema", TEMA.replace(/^a-/, ""));
+  history.replaceState(null, "", u);
+}
+
 function analisis() {
   const [a, b] = F.stats, m = F.marcador || [0, 0];
   const [ja, jb] = F.jugadores;
   const seg = v => gu(v, " " + esc(T("seg")));
   const bar = v => (v ?? 0).toFixed(1) + " " + esc(T("barras"));
-  const card = (id, ic, titulo, cuerpo, abierta, sub) => abierta
-    ? `<section class="acard" id="${id}"><h3>${ic} ${esc(titulo)}</h3>${nombresCmp()}${cuerpo}${sub ? `<p class="nota-sec">${esc(sub)}</p>` : ""}</section>`
-    : `<details class="acard" id="${id}"><summary><h3>${ic} ${esc(titulo)}</h3></summary>${nombresCmp()}${cuerpo}${sub ? `<p class="nota-sec">${esc(sub)}</p>` : ""}</details>`;
+  // cada tema es una pestaña; se ve uno a la vez
+  const card = (id, ic, titulo, cuerpo, abierta, sub) =>
+    ({ id, ic, titulo, html: cuerpo + (sub ? `<p class="nota-sec">${esc(sub)}</p>` : "") });
   // En la fila sólo la racha misma (● ● ● ● 4). La secuencia de toda la partida, con
   // la racha marcada, ya está en Momentos destacados; aquí 21 puntos no se leían.
   const racha = n => {
@@ -351,7 +479,7 @@ function analisis() {
     [T("rango"), esc(ja.rango_letra || "—"), esc(jb.rango_letra || "—"), 0, 0, 0],
     [T("st_swaps"), a.swaps ?? 0, b.swaps ?? 0, 0, 0, 0],
   ]), false));
-  return `<div class="acards">${out.join("")}</div>`;
+  return pestanasAnalisis(out);
 }
 
 /* ================================================================ 4 · DETALLE TÉCNICO
@@ -407,7 +535,9 @@ function pinta() {
   $("#cargando").hidden = true;
 
   $("#cab").innerHTML = cabecera();
-  $("#resto").innerHTML = lineaTiempo() + navegacion() + bloques();
+  PELEA = Math.min(PELEA, Math.max(0, (F.peleas || []).length - 1));
+  $("#resto").innerHTML = navegacion() + bloques();
+  enfocaBaldosa();
 
   if (!$("#video").dataset.hecho) {
     $("#video").dataset.hecho = "1";
@@ -437,12 +567,27 @@ $("#cuerpo").addEventListener("click", e => {
     document.querySelectorAll("#chips .chip").forEach(c => {
       if (c.dataset.tipo !== "__todo") c.setAttribute("aria-pressed", String(!APAGADOS.has(c.dataset.tipo)));
     });
-    document.querySelectorAll(".mk").forEach(m =>
+    document.querySelectorAll(".tl-p").forEach(m =>
       m.classList.toggle("oculto", APAGADOS.has(m.dataset.tipo)));
     return;
   }
+  const pel = e.target.closest("[data-pelea]");
+  if (pel) { eligePelea(+pel.dataset.pelea); return; }
+  const tema = e.target.closest("[data-tema]");
+  if (tema) { eligeTema(tema.dataset.tema); return; }
   const salto = e.target.closest("[data-t]");
   if (salto) salta(parseFloat(salto.dataset.t));
+});
+
+$("#cuerpo").addEventListener("keydown", e => {
+  if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+  const d = e.key === "ArrowRight" ? 1 : -1;
+  if (e.target.closest("#plist")) { e.preventDefault(); eligePelea(PELEA + d, true); }
+  else if (e.target.closest(".atabs")) {
+    e.preventDefault();
+    const i = TEMAS.findIndex(t => t.id === TEMA) + d;
+    if (TEMAS[i]) { eligeTema(TEMAS[i].id); document.querySelector(`.atab[data-tema="${TEMA}"]`).focus(); }
+  }
 });
 
 // La miga de pan: se sabe de qué juego es la partida por su gameid (datos/juegos.json).

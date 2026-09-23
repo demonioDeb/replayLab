@@ -6,6 +6,36 @@
    "cambios": [
     {
      "t": "cambiado",
+     "es": "Las peleas ya no se despliegan todas: un set puede llegar a FT100 y serían casi 200. Ahora hay una tira con el set entero, una lista compacta (una baldosa por pelea) y el detalle sólo de la que eliges, con ◀ ▶ y las flechas del teclado. Con más de 40 peleas la lista va en una caja con scroll. La pelea elegida queda en la dirección, así que se puede compartir.",
+     "en": "Fights are no longer all expanded: a set can reach FT100, which is almost 200 of them. There is now a strip with the whole set, a compact list (one tile per game) and the detail of only the one you pick, with ◀ ▶ and the arrow keys. Past 40 games the list sits in a scrolling box. The chosen game is kept in the address, so it can be shared."
+    },
+    {
+     "t": "cambiado",
+     "es": "La línea de tiempo va dentro de cada pelea y se reparte en tres carriles: rondas, momentos y una regla de tiempo. Los momentos que caen casi en el mismo segundo se reparten en filas en vez de taparse.",
+     "en": "The timeline now lives inside each game and is split into three lanes: rounds, moments and a time ruler. Moments that land almost on the same second are spread into rows instead of covering each other."
+    },
+    {
+     "t": "cambiado",
+     "es": "El análisis va en pestañas, un tema a la vez, en vez de ocho tarjetas seguidas.",
+     "en": "The analysis is now in tabs, one topic at a time, instead of eight cards in a row."
+    },
+    {
+     "t": "arreglado",
+     "es": "En las páginas con poco contenido el fondo se cortaba y debajo quedaba una franja de otro color. Ahora el fondo es una capa fija y el pie baja solo hasta el final de la pantalla. De paso el fondo tiene textura: una rejilla de puntos y una retícula suave.",
+     "en": "On pages with little content the background stopped short, leaving a band of a different colour below. The background is now a fixed layer and the footer drops to the bottom on its own. It also has some texture now: a dot grid and a faint grid."
+    },
+    {
+     "t": "añadido",
+     "es": "Street Fighter II' Champion Edition, en próximamente.",
+     "en": "Street Fighter II' Champion Edition, under coming soon."
+    },
+    {
+     "t": "arreglado",
+     "es": "Tras publicar, quien ya había visitado la web podía verla en blanco durante unos minutos: su navegador mezclaba archivos viejos con la página nueva. Ahora cada archivo lleva una huella de su contenido y eso no puede pasar.",
+     "en": "After publishing, anyone who had visited the site before could see it blank for a few minutes: their browser mixed old files with the new page. Every file now carries a fingerprint of its contents, so that can no longer happen."
+    },
+    {
+     "t": "cambiado",
      "es": "La ficha de cada partida cambia de criterio: no todo es una barra. Antes cada estadística llevaba dos barras, unas 80 en una sola partida. Ahora manda el número, se resalta a quien va por delante (y se respeta cuándo menos es mejor, como el daño recibido) y la diferencia va en una chapa. No se ha quitado ninguna estadística: siguen las 40.",
      "en": "Each match page follows a new rule: not everything is a bar. Every stat used to carry two bars, about 80 in a single match. Now the number leads, whoever is ahead is highlighted (respecting when less is better, like damage taken) and the difference goes in a chip. No stat was removed: all 40 are still there."
     },
