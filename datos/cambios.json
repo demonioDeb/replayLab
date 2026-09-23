@@ -6,6 +6,21 @@
    "cambios": [
     {
      "t": "cambiado",
+     "es": "La ficha de cada partida cambia de criterio: no todo es una barra. Antes cada estadística llevaba dos barras, unas 80 en una sola partida. Ahora manda el número, se resalta a quien va por delante (y se respeta cuándo menos es mejor, como el daño recibido) y la diferencia va en una chapa. No se ha quitado ninguna estadística: siguen las 40.",
+     "en": "Each match page follows a new rule: not everything is a bar. Every stat used to carry two bars, about 80 in a single match. Now the number leads, whoever is ahead is highlighted (respecting when less is better, like damage taken) and the difference goes in a chip. No stat was removed: all 40 are still there."
+    },
+    {
+     "t": "añadido",
+     "es": "La única barra que queda es la que significa algo: la vida con la que acaba cada ronda cada jugador. Sale de la lectura directa del juego y cuadra con el daño recibido en las 21 rondas comprobadas. Si un ganador termina a 0 % se marca, porque en Super Turbo quedarse a cero no es KO.",
+     "en": "The only bar left is the one that means something: the health each player ends every round with. It comes from the game's own reading and matches the damage taken in all 21 rounds checked. A winner ending at 0% is flagged, because in Super Turbo hitting zero is not a KO."
+    },
+    {
+     "t": "cambiado",
+     "es": "La ficha se ordena como Resultado → Resumen → Peleas → Análisis → Detalle técnico. El resumen son cuatro cifras grandes y los momentos destacados; lo secundario va plegado, a un clic. La racha se ve como una secuencia de rondas (● ● ● ●), no como una barra.",
+     "en": "The match page now reads Result → Summary → Fights → Analysis → Technical detail. The summary is four big figures plus the highlights; secondary stats are folded, one click away. Streaks show as a sequence of rounds (● ● ● ●), not as a bar."
+    },
+    {
+     "t": "cambiado",
      "es": "Nueva navegación: Inicio, Partidas, Juegos, Canal, Changelog, Apoya el proyecto y GitHub, todo en la cabecera. En móvil se pliega en un menú. El pie ya no repite enlaces.",
      "en": "New navigation: Home, Matches, Games, Channel, Changelog, Support the project and GitHub, all in the header. On phones it folds into a menu. The footer no longer repeats links."
     },

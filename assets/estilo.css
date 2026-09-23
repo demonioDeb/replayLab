@@ -204,60 +204,11 @@ h2 .sub{color:var(--dim);letter-spacing:1px;font-weight:400;font-size:13px;text-
 .pista .tot{width:52px;flex:none;text-align:right;font:600 13px/1 var(--mono);color:var(--dim)}
 
 /* resumen de rondas */
-.rondas{display:flex;flex-direction:column;gap:14px}
-.gcard{background:var(--panel);border:1px solid var(--line);border-radius:11px;overflow:hidden}
-.gcard .gh{display:flex;align-items:center;gap:12px;padding:10px 14px;background:var(--panel2);
-  border-bottom:1px solid var(--line);flex-wrap:wrap}
-.gcard .gh .t{font-size:17px;font-weight:700;letter-spacing:1px}
-.gcard .gh .gana{font-size:13.5px;letter-spacing:1px;text-transform:uppercase}
-.gcard .gh .res{margin-left:auto;font:700 17px/1 var(--mono)}
-.rfila{display:grid;grid-template-columns:72px minmax(160px,1fr) minmax(150px,auto) 58px auto;
-  gap:14px;align-items:center;padding:9px 14px;border-top:1px solid var(--line);cursor:pointer}
-.rfila.abierta{background:repeating-linear-gradient(135deg,transparent,transparent 8px,rgba(124,138,168,.05) 8px,rgba(124,138,168,.05) 16px)}
-.rfila:first-child{border-top:0}
-.rfila:hover{background:rgba(255,255,255,.03)}
-.rfila .rn{font-size:14px;letter-spacing:1px;text-transform:uppercase;color:var(--dim)}
-.rfila .rn b{color:var(--soft)}
 /* Daño de la ronda: una barra que sale del centro hacia cada lado. Lo de antes eran
    dos barras apiladas y se leían como una sola raya. */
-.tug{display:flex;align-items:center;gap:6px;min-width:0}
-.tug .lado{flex:1;display:flex;align-items:center;gap:7px;min-width:0}
-.tug .v{width:30px;flex:none;font:600 12px/1 var(--mono);color:var(--dim);text-align:right}
-.tug .lado.b .v{text-align:left}
-.tug .t{flex:1;height:11px;background:#0d1119;overflow:hidden;border:1px solid var(--line);display:flex}
-.tug .lado.a .t{justify-content:flex-end;border-radius:6px 0 0 6px}
-.tug .lado.b .t{border-radius:0 6px 6px 0}
-.tug .t i{display:block;height:100%}
-.tug .lado.a .t i{background:linear-gradient(270deg,#ff6a7c,#7a1020)}
-.tug .lado.b .t i{background:linear-gradient(90deg,#06496b,#5fd6ff)}
-.tug .eje{width:2px;height:15px;background:var(--line2);flex:none;border-radius:1px}
-.rfila .como{font-size:13.5px;letter-spacing:.5px;color:var(--dim);
-  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.rfila .como b{font-weight:700}
-.rfila .dur{font:600 13px/1 var(--mono);color:var(--soft);text-align:right}
-.rfila .sellos{display:flex;gap:5px;justify-content:flex-end;flex-wrap:wrap}
 .sello{font-size:11px;letter-spacing:1px;text-transform:uppercase;padding:2px 7px;border-radius:5px;
   border:1px solid var(--c,var(--line));color:var(--c,var(--dim));white-space:nowrap}
 
-/* tabla de estadísticas con indicador */
-.st{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);
-  border-radius:11px;overflow:hidden}
-.st td{padding:8px 14px;border-top:1px solid var(--line);font-size:16px}
-.st tr:first-child td{border-top:0}
-.st td.k{text-align:center;color:var(--dim);font-size:13.5px;letter-spacing:1px;
-  text-transform:uppercase;width:40%}
-.st td.a{text-align:right;font-weight:700;color:var(--p1l);width:15%;white-space:nowrap}
-.st td.b{text-align:left;font-weight:700;color:var(--p2l);width:15%;white-space:nowrap}
-.st td.ia,.st td.ib{width:15%}
-.st .ind{height:8px;border-radius:4px;background:#0d1119;border:1px solid var(--line);overflow:hidden;
-  display:flex}
-.st .ind i{display:block;height:100%}
-.st td.ia .ind{justify-content:flex-end}
-.st td.ia .ind i{background:linear-gradient(270deg,#7a1020,var(--p1))}
-.st td.ib .ind i{background:linear-gradient(90deg,#06496b,var(--p2))}
-.st tr.enc td{background:var(--panel2);color:var(--ink);font-weight:700}
-.st tr.enc td.k{color:var(--dim);font-weight:400}
-.st .nota{display:block;font-size:12px;color:var(--dim);letter-spacing:0;text-transform:none}
 
 /* ---------------------------------------------------------- diario de cambios */
 .diario{display:flex;flex-direction:column;gap:18px;padding-bottom:30px}
@@ -320,6 +271,143 @@ section{scroll-margin-top:118px}
 footer{color:var(--dim);font-size:13px;padding:28px 0 40px;border-top:1px solid var(--line);
   margin-top:34px;display:flex;gap:14px;flex-wrap:wrap}
 footer a:hover{color:var(--ink)}
+
+/* ================================================================ FICHA DE LA PARTIDA
+   Resultado → Resumen → Peleas → Análisis → Detalle técnico.
+   Criterio: no todo es una barra. La única barra de las estadísticas es la vida con la
+   que acaba cada ronda. Lo demás: números grandes, comparación directa, secuencias. */
+.cab .centro{flex:none;align-self:center;display:flex;flex-direction:column;align-items:center;gap:8px}
+.gana-set{font-size:13px;letter-spacing:2px;text-transform:uppercase;font-weight:700;color:var(--dim)}
+.res-datos{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}
+.res-datos span{font-size:12px;letter-spacing:1px;color:var(--dim);background:var(--panel2);
+  border:1px solid var(--line);border-radius:999px;padding:2px 9px;font-variant-numeric:tabular-nums}
+.fsec h2{padding-top:30px}
+.sub-t{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:var(--dim);margin:20px 0 10px;font-weight:700}
+/* rojo el 1, azul el 2: sólo dentro de la ficha, que .a/.b son nombres muy genéricos */
+#resto .a{color:var(--p1l)}#resto .b{color:var(--p2l)}
+
+/* ---- resumen: cuatro cifras grandes */
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.kpi{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);
+  border-radius:14px;padding:14px 16px 12px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.kpi-t{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--dim);font-weight:700}
+.kpi-v{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.kpi-v b{font-size:34px;line-height:1;font-weight:700;font-variant-numeric:tabular-nums;opacity:.55}
+.kpi-v b.lid{opacity:1}
+.kpi-v b.a{color:var(--p1l)}.kpi-v b.b{color:var(--p2l)}
+.kpi-v b.lid.a{text-shadow:0 0 18px rgba(255,61,87,.35)}
+.kpi-v b.lid.b{text-shadow:0 0 18px rgba(55,200,255,.35)}
+.kpi-dif{align-self:flex-start;font-size:12px;font-weight:700;letter-spacing:.5px;color:var(--c);
+  background:color-mix(in srgb,var(--c) 12%,transparent);border:1px solid color-mix(in srgb,var(--c) 38%,transparent);
+  border-radius:999px;padding:2px 9px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.kpi-dif.igual{color:var(--dim);background:none;border-color:var(--line)}
+.kpi-x{font-size:12px;color:var(--dim);font-variant-numeric:tabular-nums}
+
+/* ---- momentos destacados: cada uno con su forma */
+.dests{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
+.dest{--c:var(--gold);background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--c);
+  border-radius:12px;padding:12px 14px;display:grid;grid-template-columns:auto 1fr;column-gap:10px;align-items:center}
+.dest-ic{font-size:24px;grid-row:span 3}
+.dest-t{font-size:11.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--dim)}
+.dest-v{font-size:22px;line-height:1.2;font-weight:700}
+.dest-s{font-size:13px;color:var(--soft)}
+
+/* ---- racha como secuencia: ● ganada ○ perdida × nadie */
+.seq{display:inline-flex;flex-wrap:wrap;gap:3px;align-items:center;vertical-align:middle;max-width:200px}
+.seq i{width:9px;height:9px;border-radius:50%;display:block;flex:none}
+.seq i.g{background:var(--c);opacity:.7}
+.seq i.p{border:1.5px solid #3a4460}
+.seq i.x{background:#3a4460;border-radius:2px;width:7px;height:7px}
+.seq i.racha{opacity:1;box-shadow:0 0 0 2px var(--bg),0 0 0 3.5px var(--gold)}
+.seq-n{margin-left:8px;font-variant-numeric:tabular-nums}
+.dest .seq{margin:4px 0 2px}
+
+/* ---- peleas: cada ronda con la vida con la que acabó cada uno (la única barra) */
+.leyenda{font-size:13px;color:var(--dim);margin:-2px 0 12px}
+.peleas{display:flex;flex-direction:column;gap:14px}
+.pelea{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.p-cab{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:10px 14px;background:var(--panel2);
+  border-bottom:1px solid var(--line);cursor:pointer}
+.p-cab:hover{background:var(--panel3)}
+.p-n{font-size:16px;font-weight:700;letter-spacing:1px}
+.p-pj{color:var(--dim);font-size:14px}
+.p-gana{font-size:13px;letter-spacing:1px;text-transform:uppercase;font-weight:700}
+.p-res{margin-left:auto;font:700 18px/1 var(--mono)}
+.rondas-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.ronda{all:unset;box-sizing:border-box;display:flex;flex-direction:column;gap:7px;padding:12px 14px;
+  border-right:1px solid var(--line);border-top:1px solid var(--line);margin-top:-1px;cursor:pointer}
+.ronda:hover{background:rgba(255,255,255,.03)}
+.ronda:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+.ronda.abierta{background:repeating-linear-gradient(135deg,transparent,transparent 8px,rgba(124,138,168,.05) 8px,rgba(124,138,168,.05) 16px)}
+.r-cab{display:flex;align-items:baseline;gap:10px;min-width:0}
+.rn{font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--dim);flex:none}
+.r-res{font-size:14px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.r-como{color:var(--dim);font-size:13px}
+.rv{display:grid;grid-template-columns:minmax(0,78px) 1fr 40px;gap:8px;align-items:center;opacity:.72}
+.rv.gano{opacity:1}
+.rv-n{font-size:12.5px;color:var(--soft);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rv-b{height:10px;border-radius:5px;background:#0d1119;border:1px solid var(--line);overflow:hidden}
+.rv-b i{display:block;height:100%;border-radius:5px}
+.rv.p1 .rv-b i{background:linear-gradient(90deg,#7a1020,var(--p1))}
+.rv.p2 .rv-b i{background:linear-gradient(90deg,#06496b,var(--p2))}
+.rv-p{font:700 13px/1 var(--mono);text-align:right;font-variant-numeric:tabular-nums}
+.rv.p1 .rv-p{color:var(--p1l)}.rv.p2 .rv-p{color:var(--p2l)}
+.r-pie{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.r-dano{font-size:12px;color:var(--dim);margin-right:auto;font-variant-numeric:tabular-nums}
+
+/* ---- análisis: tarjetas por tema, comparación directa sin barras */
+.acards{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:12px;align-items:start}
+.acard{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 16px 10px}
+.acard h3{font-size:14px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:6px}
+details.acard>summary{list-style:none;cursor:pointer;display:flex;align-items:center}
+details.acard>summary::-webkit-details-marker{display:none}
+details.acard>summary h3{margin:0;flex:1;color:var(--soft)}
+details.acard>summary::after{content:"＋";color:var(--dim);font-size:16px}
+details.acard[open]>summary::after{content:"－"}
+details.acard[open]>summary{margin-bottom:6px}
+.cmp-nom{display:flex;justify-content:space-between;font-size:12px;letter-spacing:1px;font-weight:700;
+  padding:4px 0 6px;border-bottom:1px solid var(--line)}
+.cmp{display:flex;flex-direction:column}
+.cmp-f{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:12px;align-items:center;
+  padding:7px 0;border-bottom:1px solid rgba(34,42,59,.6)}
+.cmp-f:last-child{border-bottom:0}
+.cmp-f .k{text-align:center;color:var(--dim);font-size:12.5px;letter-spacing:1px;text-transform:uppercase;max-width:190px}
+.cmp-f .v{font-size:17px;font-weight:600;font-variant-numeric:tabular-nums;opacity:.6;min-width:0}
+.cmp-f .v.a{color:var(--p1l);text-align:left}
+.cmp-f .v.b{color:var(--p2l);text-align:right}
+.cmp-f .v.lid{opacity:1;font-weight:800}
+.cmp-f .v.lid.a::after{content:" ◂";font-size:11px;color:var(--p1)}
+.cmp-f .v.lid.b::before{content:"▸ ";font-size:11px;color:var(--p2)}
+.cmp-f .nota{display:block;font-size:11.5px;letter-spacing:0;text-transform:none;color:#6d7a99;margin-top:2px}
+.cmp-f .v .seq{max-width:150px;gap:4px}
+.cmp-f .v .seq i.racha{box-shadow:none;opacity:1}
+.cmp-f .v.b .seq{justify-content:flex-end}
+.nota-sec{font-size:13px;color:var(--dim);margin:4px 0 8px}
+.acard .durs{margin-top:10px;background:none;border:0;padding:4px 0 0}
+.acard.tecnico{grid-column:1/-1}
+
+@media (max-width:900px){
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .acards{grid-template-columns:1fr}
+}
+@media (max-width:760px){
+  .cab .centro{order:-1;width:100%}
+  .kpi-v b{font-size:28px}
+  .rondas-g{grid-template-columns:1fr}
+  .ronda{border-right:0}
+  .cmp-f .k{max-width:130px;font-size:11.5px}
+  .cmp-f .v{font-size:15px}
+  .dests{grid-template-columns:1fr}
+  .dfila{grid-template-columns:118px 1fr 52px}
+}
+/* en un teléfono estrecho las dos cifras de 4 dígitos de una tarjeta se juntaban */
+@media (max-width:480px){
+  .kpis{gap:8px}
+  .kpi{padding:11px 12px 10px}
+  .kpi-v{gap:8px}
+  .kpi-v b{font-size:23px}
+  .kpi-t{font-size:11px;letter-spacing:1.5px}
+}
 
 /* ================================================================ NAVEGACIÓN
    Todo lo importante está arriba: Inicio, Partidas, Juegos, Canal, Changelog, Apoya y
@@ -532,20 +620,10 @@ footer .sp{flex:1}
   .jug.p2{flex-direction:row;text-align:left}
   .jug.p2 .sub{flex-direction:row}
   .marc{font-size:32px;margin:0 auto}
-  .rfila{grid-template-columns:58px 1fr;gap:8px}
-  .rfila .como,.rfila .dur,.rfila .sellos{grid-column:2;justify-content:flex-start;text-align:left}
   .pista .et{width:66px;font-size:11px}
   .apoyo{padding:18px 16px;margin-top:26px}
   .apoyo h2{font-size:18px}
   .apoyo p{font-size:15px}
   .apoyo .cafe-btn{display:block;text-align:center}
-  .st td.ia,.st td.ib{display:none}
-  .st td.k{width:auto}
-  /* En movil la tabla se desbordaba unos pixeles: nombres que no parten y
-     mucho aire a los lados. Se aprieta el relleno y se deja partir la etiqueta. */
-  .st{table-layout:fixed}
-  .st td{padding:8px 8px;font-size:15px}
-  .st td.a,.st td.b{width:26%;white-space:normal;overflow-wrap:anywhere}
-  .st td.k{font-size:12px;letter-spacing:.5px;overflow-wrap:anywhere}
   .durs .et{width:auto;min-width:0;overflow-wrap:anywhere}
 }

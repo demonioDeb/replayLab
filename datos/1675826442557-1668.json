@@ -1,5 +1,5 @@
 {
- "version": 4,
+ "version": 5,
  "quark": "1675826442557-1668",
  "carpeta": "20260922_SuperrV_vs_yito2k_1675826442557-1668",
  "juego": "ssf2xjr1",
@@ -78,7 +78,11 @@
      ],
      "vida_fin": 2,
      "remontada": 31,
-     "fin": 43.74
+     "fin": 43.74,
+     "vida_final": [
+      0,
+      2
+     ]
     },
     {
      "n": 2,
@@ -105,7 +109,11 @@
      ],
      "vida_fin": 0,
      "remontada": 0,
-     "fin": 102.76
+     "fin": 102.76,
+     "vida_final": [
+      0,
+      0
+     ]
     },
     {
      "n": 3,
@@ -132,7 +140,11 @@
      ],
      "vida_fin": 81,
      "remontada": 19,
-     "fin": 139.18
+     "fin": 139.18,
+     "vida_final": [
+      0,
+      81
+     ]
     }
    ],
    "ganador": 2,
@@ -222,7 +234,11 @@
      ],
      "vida_fin": 3,
      "remontada": 13,
-     "fin": 177.37
+     "fin": 177.37,
+     "vida_final": [
+      3,
+      0
+     ]
     },
     {
      "n": 2,
@@ -249,7 +265,11 @@
      ],
      "vida_fin": 56,
      "remontada": 0,
-     "fin": 208.06
+     "fin": 208.06,
+     "vida_final": [
+      0,
+      56
+     ]
     },
     {
      "n": 3,
@@ -276,7 +296,11 @@
      ],
      "vida_fin": 12,
      "remontada": 23,
-     "fin": 251.76
+     "fin": 251.76,
+     "vida_final": [
+      12,
+      0
+     ]
     }
    ],
    "ganador": 1,
@@ -366,7 +390,11 @@
      ],
      "vida_fin": 69,
      "remontada": 0,
-     "fin": 291.89
+     "fin": 291.89,
+     "vida_final": [
+      0,
+      69
+     ]
     },
     {
      "n": 2,
@@ -393,7 +421,11 @@
      ],
      "vida_fin": 25,
      "remontada": 0,
-     "fin": 328.68
+     "fin": 328.68,
+     "vida_final": [
+      0,
+      25
+     ]
     }
    ],
    "ganador": 2,
@@ -483,7 +515,11 @@
      ],
      "vida_fin": 71,
      "remontada": 0,
-     "fin": 370.06
+     "fin": 370.06,
+     "vida_final": [
+      0,
+      71
+     ]
     },
     {
      "n": 2,
@@ -510,7 +546,11 @@
      ],
      "vida_fin": 0,
      "remontada": 22,
-     "fin": 415.81
+     "fin": 415.81,
+     "vida_final": [
+      0,
+      0
+     ]
     },
     {
      "n": 3,
@@ -537,7 +577,11 @@
      ],
      "vida_fin": 4,
      "remontada": 17,
-     "fin": 453.7
+     "fin": 453.7,
+     "vida_final": [
+      0,
+      4
+     ]
     }
    ],
    "ganador": 2,
@@ -627,7 +671,11 @@
      ],
      "vida_fin": 69,
      "remontada": 0,
-     "fin": 492.93
+     "fin": 492.93,
+     "vida_final": [
+      69,
+      0
+     ]
     },
     {
      "n": 2,
@@ -654,7 +702,11 @@
      ],
      "vida_fin": 40,
      "remontada": 29,
-     "fin": 519.64
+     "fin": 519.64,
+     "vida_final": [
+      40,
+      0
+     ]
     }
    ],
    "ganador": 1,
@@ -744,7 +796,11 @@
      ],
      "vida_fin": 32,
      "remontada": 10,
-     "fin": 558.64
+     "fin": 558.64,
+     "vida_final": [
+      32,
+      0
+     ]
     },
     {
      "n": 2,
@@ -771,7 +827,11 @@
      ],
      "vida_fin": 0,
      "remontada": 65,
-     "fin": 596.64
+     "fin": 596.64,
+     "vida_final": [
+      0,
+      0
+     ]
     }
    ],
    "ganador": 1,
@@ -861,7 +921,11 @@
      ],
      "vida_fin": 83,
      "remontada": 0,
-     "fin": 640.02
+     "fin": 640.02,
+     "vida_final": [
+      0,
+      83
+     ]
     },
     {
      "n": 2,
@@ -888,7 +952,11 @@
      ],
      "vida_fin": 12,
      "remontada": 19,
-     "fin": 681.33
+     "fin": 681.33,
+     "vida_final": [
+      12,
+      0
+     ]
     },
     {
      "n": 3,
@@ -915,7 +983,11 @@
      ],
      "vida_fin": 20,
      "remontada": 70,
-     "fin": 713.48
+     "fin": 713.48,
+     "vida_final": [
+      0,
+      20
+     ]
     }
    ],
    "ganador": 2,
@@ -1005,7 +1077,11 @@
      ],
      "vida_fin": 0,
      "remontada": 45,
-     "fin": 765.7
+     "fin": 765.7,
+     "vida_final": [
+      0,
+      0
+     ]
     },
     {
      "n": 2,
@@ -1032,7 +1108,11 @@
      ],
      "vida_fin": 54,
      "remontada": 7,
-     "fin": 806.08
+     "fin": 806.08,
+     "vida_final": [
+      0,
+      54
+     ]
     },
     {
      "n": 3,
@@ -1059,7 +1139,11 @@
      ],
      "vida_fin": 80,
      "remontada": 6,
-     "fin": 827.98
+     "fin": 827.98,
+     "vida_final": [
+      0,
+      80
+     ]
     }
    ],
    "ganador": 2,
