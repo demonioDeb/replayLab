@@ -1,5 +1,5 @@
 {
- "version": 5,
+ "version": 6,
  "quark": "1675826442557-1668",
  "carpeta": "20260922_SuperrV_vs_yito2k_1675826442557-1668",
  "juego": "ssf2xjr1",
@@ -161,22 +161,6 @@
     "dhalsim"
    ],
    "fin": 139.66,
-   "stats_detector": [
-    {
-     "dmg": 312,
-     "throws": 0,
-     "blocked": 8,
-     "combo": 0,
-     "hits": 16
-    },
-    {
-     "dmg": 432,
-     "throws": 2,
-     "blocked": 0,
-     "combo": 0,
-     "hits": 54
-    }
-   ],
    "resumen": {
     "dano": [
      312,
@@ -317,22 +301,6 @@
     "dhalsim"
    ],
    "fin": 252.24,
-   "stats_detector": [
-    {
-     "dmg": 350,
-     "throws": 0,
-     "blocked": 7,
-     "combo": 0,
-     "hits": 17
-    },
-    {
-     "dmg": 409,
-     "throws": 2,
-     "blocked": 0,
-     "combo": 0,
-     "hits": 33
-    }
-   ],
    "resumen": {
     "dano": [
      350,
@@ -442,22 +410,6 @@
     "dhalsim"
    ],
    "fin": 329.18,
-   "stats_detector": [
-    {
-     "dmg": 152,
-     "throws": 0,
-     "blocked": 0,
-     "combo": 0,
-     "hits": 6
-    },
-    {
-     "dmg": 288,
-     "throws": 1,
-     "blocked": 0,
-     "combo": 0,
-     "hits": 23
-    }
-   ],
    "resumen": {
     "dano": [
      152,
@@ -598,22 +550,6 @@
     "dhalsim"
    ],
    "fin": 454.19,
-   "stats_detector": [
-    {
-     "dmg": 323,
-     "throws": 2,
-     "blocked": 3,
-     "combo": 0,
-     "hits": 16
-    },
-    {
-     "dmg": 431,
-     "throws": 0,
-     "blocked": 1,
-     "combo": 0,
-     "hits": 42
-    }
-   ],
    "resumen": {
     "dano": [
      323,
@@ -723,22 +659,6 @@
     "dhalsim"
    ],
    "fin": 520.12,
-   "stats_detector": [
-    {
-     "dmg": 288,
-     "throws": 0,
-     "blocked": 7,
-     "combo": 0,
-     "hits": 13
-    },
-    {
-     "dmg": 130,
-     "throws": 0,
-     "blocked": 1,
-     "combo": 0,
-     "hits": 9
-    }
-   ],
    "resumen": {
     "dano": [
      288,
@@ -848,22 +768,6 @@
     "dhalsim"
    ],
    "fin": 597.11,
-   "stats_detector": [
-    {
-     "dmg": 288,
-     "throws": 0,
-     "blocked": 8,
-     "combo": 0,
-     "hits": 12
-    },
-    {
-     "dmg": 240,
-     "throws": 0,
-     "blocked": 0,
-     "combo": 0,
-     "hits": 21
-    }
-   ],
    "resumen": {
     "dano": [
      288,
@@ -1004,22 +908,6 @@
     "dhalsim"
    ],
    "fin": 713.97,
-   "stats_detector": [
-    {
-     "dmg": 283,
-     "throws": 2,
-     "blocked": 1,
-     "combo": 0,
-     "hits": 14
-    },
-    {
-     "dmg": 414,
-     "throws": 0,
-     "blocked": 2,
-     "combo": 0,
-     "hits": 38
-    }
-   ],
    "resumen": {
     "dano": [
      283,
@@ -1160,22 +1048,6 @@
     "dhalsim"
    ],
    "fin": 828.49,
-   "stats_detector": [
-    {
-     "dmg": 237,
-     "throws": 0,
-     "blocked": 5,
-     "combo": 0,
-     "hits": 14
-    },
-    {
-     "dmg": 432,
-     "throws": 2,
-     "blocked": 0,
-     "combo": 0,
-     "hits": 44
-    }
-   ],
    "resumen": {
     "dano": [
      237,
@@ -1508,12 +1380,8 @@
    "stun_peor": 137,
    "mareado_veces": 3,
    "dur_sum": 426,
-   "pelea_rapida": 66,
+   "pelea_rapida": 48,
    "swaps": 0,
-   "emu_dmg": 2233,
-   "emu_hits": 108,
-   "emu_throws": 4,
-   "emu_blocked": 39,
    "rondas": 9,
    "rondas_jugadas": 21,
    "ko": 9,
@@ -1521,8 +1389,7 @@
    "perfects": 0,
    "dano": 2233,
    "recibido": 2776,
-   "golpes": 151,
-   "agarres": 4,
+   "golpes": 148,
    "combos": 7,
    "combo_max": 5,
    "combo_dano": 75,
@@ -1532,18 +1399,11 @@
    "al_limite": 4,
    "remontada": 65,
    "racha": 4,
-   "conectados": 93,
-   "bloqueados": 58,
-   "bloqueo": 108,
-   "defensa": 39,
-   "primer_golpe": 0,
-   "verificado": true,
    "vida_al_ganar": 19,
-   "dano_medio": 14.8,
+   "dano_medio": 15.1,
    "dur_avg": 47,
    "stun_seg": 6.3,
    "stun_peor_seg": 2.3,
-   "emu_dano_barras": 15.51,
    "vida_perdida_ronda": 92,
    "dano_barras": 15.51,
    "recibido_barras": 19.28,
@@ -1555,12 +1415,8 @@
    "stun_peor": 137,
    "mareado_veces": 1,
    "dur_sum": 493,
-   "pelea_rapida": 85,
+   "pelea_rapida": 60,
    "swaps": 0,
-   "emu_dmg": 2776,
-   "emu_hits": 264,
-   "emu_throws": 7,
-   "emu_blocked": 4,
    "rondas": 11,
    "rondas_jugadas": 21,
    "ko": 11,
@@ -1568,8 +1424,7 @@
    "perfects": 0,
    "dano": 2776,
    "recibido": 2233,
-   "golpes": 275,
-   "agarres": 7,
+   "golpes": 270,
    "combos": 14,
    "combo_max": 5,
    "combo_dano": 48,
@@ -1579,18 +1434,11 @@
    "al_limite": 2,
    "remontada": 70,
    "racha": 3,
-   "conectados": 167,
-   "bloqueados": 108,
-   "bloqueo": 58,
-   "defensa": 38,
-   "primer_golpe": 1,
-   "verificado": true,
    "vida_al_ganar": 50,
-   "dano_medio": 10.1,
+   "dano_medio": 10.3,
    "dur_avg": 45,
    "stun_seg": 2.3,
    "stun_peor_seg": 2.3,
-   "emu_dano_barras": 19.28,
    "vida_perdida_ronda": 74,
    "dano_barras": 19.28,
    "recibido_barras": 15.51,

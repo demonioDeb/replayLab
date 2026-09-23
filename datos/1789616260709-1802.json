@@ -1,5 +1,5 @@
 {
- "version": 5,
+ "version": 6,
  "quark": "1789616260709-1802",
  "carpeta": "20260922_RAC_Flavio_Ryu_vs_thomas_medeiros_1789616260709-1802",
  "juego": "ssf2xjr1",
@@ -161,22 +161,6 @@
     "ken"
    ],
    "fin": 102.54,
-   "stats_detector": [
-    {
-     "dmg": 280,
-     "throws": 0,
-     "blocked": 1,
-     "combo": 0,
-     "hits": 22
-    },
-    {
-     "dmg": 407,
-     "throws": 3,
-     "blocked": 1,
-     "combo": 0,
-     "hits": 27
-    }
-   ],
    "resumen": {
     "dano": [
      280,
@@ -286,22 +270,6 @@
     "ken"
    ],
    "fin": 176.81,
-   "stats_detector": [
-    {
-     "dmg": 288,
-     "throws": 0,
-     "blocked": 1,
-     "combo": 0,
-     "hits": 20
-    },
-    {
-     "dmg": 123,
-     "throws": 0,
-     "blocked": 0,
-     "combo": 0,
-     "hits": 13
-    }
-   ],
    "resumen": {
     "dano": [
      288,
@@ -442,22 +410,6 @@
     "ken"
    ],
    "fin": 286.62,
-   "stats_detector": [
-    {
-     "dmg": 303,
-     "throws": 1,
-     "blocked": 0,
-     "combo": 0,
-     "hits": 25
-    },
-    {
-     "dmg": 372,
-     "throws": 4,
-     "blocked": 0,
-     "combo": 0,
-     "hits": 17
-    }
-   ],
    "resumen": {
     "dano": [
      303,
@@ -564,7 +516,7 @@
       75
      ],
      "combos": [
-      1,
+      2,
       0
      ],
      "supers": [
@@ -598,29 +550,13 @@
     "ken"
    ],
    "fin": 411.26,
-   "stats_detector": [
-    {
-     "dmg": 428,
-     "throws": 0,
-     "blocked": 1,
-     "combo": 0,
-     "hits": 37
-    },
-    {
-     "dmg": 258,
-     "throws": 0,
-     "blocked": 1,
-     "combo": 0,
-     "hits": 15
-    }
-   ],
    "resumen": {
     "dano": [
      428,
      258
     ],
     "combos": [
-     2,
+     3,
      0
     ],
     "supers": [
@@ -785,22 +721,6 @@
     "ken"
    ],
    "fin": 542.77,
-   "stats_detector": [
-    {
-     "dmg": 388,
-     "throws": 0,
-     "blocked": 1,
-     "combo": 0,
-     "hits": 32
-    },
-    {
-     "dmg": 540,
-     "throws": 6,
-     "blocked": 0,
-     "combo": 0,
-     "hits": 29
-    }
-   ],
    "resumen": {
     "dano": [
      388,
@@ -941,22 +861,6 @@
     "ken"
    ],
    "fin": 644.35,
-   "stats_detector": [
-    {
-     "dmg": 324,
-     "throws": 1,
-     "blocked": 1,
-     "combo": 0,
-     "hits": 31
-    },
-    {
-     "dmg": 332,
-     "throws": 0,
-     "blocked": 0,
-     "combo": 0,
-     "hits": 19
-    }
-   ],
    "resumen": {
     "dano": [
      324,
@@ -1066,22 +970,6 @@
     "ken"
    ],
    "fin": 723.5,
-   "stats_detector": [
-    {
-     "dmg": 288,
-     "throws": 0,
-     "blocked": 1,
-     "combo": 0,
-     "hits": 22
-    },
-    {
-     "dmg": 114,
-     "throws": 0,
-     "blocked": 0,
-     "combo": 0,
-     "hits": 10
-    }
-   ],
    "resumen": {
     "dano": [
      288,
@@ -1191,22 +1079,6 @@
     "ken"
    ],
    "fin": 808.31,
-   "stats_detector": [
-    {
-     "dmg": 288,
-     "throws": 0,
-     "blocked": 0,
-     "combo": 0,
-     "hits": 23
-    },
-    {
-     "dmg": 148,
-     "throws": 0,
-     "blocked": 0,
-     "combo": 0,
-     "hits": 13
-    }
-   ],
    "resumen": {
     "dano": [
      288,
@@ -1501,12 +1373,8 @@
    "stun_peor": 113,
    "mareado_veces": 2,
    "dur_sum": 638,
-   "pelea_rapida": 88,
+   "pelea_rapida": 59,
    "swaps": 0,
-   "emu_dmg": 2587,
-   "emu_hits": 212,
-   "emu_throws": 2,
-   "emu_blocked": 6,
    "rondas": 13,
    "rondas_jugadas": 22,
    "ko": 13,
@@ -1514,8 +1382,7 @@
    "perfects": 0,
    "dano": 2587,
    "recibido": 2294,
-   "golpes": 220,
-   "agarres": 2,
+   "golpes": 217,
    "combos": 8,
    "combo_max": 5,
    "combo_dano": 66,
@@ -1525,18 +1392,11 @@
    "al_limite": 1,
    "remontada": 56,
    "racha": 6,
-   "conectados": 106,
-   "bloqueados": 114,
-   "bloqueo": 76,
-   "defensa": 45,
-   "primer_golpe": 0,
-   "verificado": true,
    "vida_al_ganar": 46,
-   "dano_medio": 11.8,
+   "dano_medio": 11.9,
    "dur_avg": 49,
    "stun_seg": 3.6,
    "stun_peor_seg": 1.9,
-   "emu_dano_barras": 17.97,
    "vida_perdida_ronda": 72,
    "dano_barras": 17.97,
    "recibido_barras": 15.93,
@@ -1548,12 +1408,8 @@
    "stun_peor": 0,
    "mareado_veces": 0,
    "dur_sum": 322,
-   "pelea_rapida": 136,
+   "pelea_rapida": 94,
    "swaps": 0,
-   "emu_dmg": 2294,
-   "emu_hits": 143,
-   "emu_throws": 13,
-   "emu_blocked": 2,
    "rondas": 8,
    "rondas_jugadas": 22,
    "ko": 8,
@@ -1561,8 +1417,7 @@
    "perfects": 0,
    "dano": 2294,
    "recibido": 2587,
-   "golpes": 170,
-   "agarres": 13,
+   "golpes": 168,
    "combos": 7,
    "combo_max": 5,
    "combo_dano": 81,
@@ -1572,18 +1427,11 @@
    "al_limite": 1,
    "remontada": 21,
    "racha": 2,
-   "conectados": 94,
-   "bloqueados": 76,
-   "bloqueo": 114,
-   "defensa": 52,
-   "primer_golpe": 1,
-   "verificado": true,
    "vida_al_ganar": 50,
-   "dano_medio": 13.5,
+   "dano_medio": 13.7,
    "dur_avg": 40,
    "stun_seg": 0.0,
    "stun_peor_seg": 0.0,
-   "emu_dano_barras": 15.93,
    "vida_perdida_ronda": 82,
    "dano_barras": 15.93,
    "recibido_barras": 17.97,

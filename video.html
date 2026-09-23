@@ -24,7 +24,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=c69cec1271"></script>
+<script src="assets/app.js?v=e68b17f5f3"></script>
 <script>
 "use strict";
 let F = null, REPRO = null, LISTO = false;
@@ -305,7 +305,7 @@ function tarjetaRonda(r) {
       <span class="r-res">${r.ganador
         ? `<b style="color:${pcl(r.ganador)}">${esc(nombre(r.ganador))}</b>`
         : `<b style="color:var(--gold)">${esc(T(r.motivo === "doble_ko" ? "doble" : "empate"))}</b>`}
-        <span class="r-como">${r.ganador ? esc(como) + " · " : ""}${r.duracion ? r.duracion + " " + esc(T("seg")) : ""}</span></span></span>
+        <span class="r-como">${r.ganador ? esc(como) + " · " : ""}${r.duracion ? r.duracion + " " + esc(T("seg_reloj")) : ""}</span></span></span>
     ${vida(1)}${vida(2)}
     <span class="r-pie"><span class="r-dano">${esc(T("dano"))} <span class="a">${d[0]}</span> · <span class="b">${d[1]}</span></span>
       ${sellos.map(([t, c, ay]) => `<span class="sello" style="--c:${c}"${ay ? ` title="${esc(ay)}"` : ""}>${esc(t)}</span>`).join("")}</span>
@@ -411,6 +411,9 @@ function analisis() {
   const [a, b] = F.stats, m = F.marcador || [0, 0];
   const [ja, jb] = F.jugadores;
   const seg = v => gu(v, " " + esc(T("seg")));
+  // Las rondas se miden con el reloj del propio juego, que no son segundos reales
+  // (en ST un segundo de reloj dura unos 0,6 s): se dice así en la unidad.
+  const segR = v => gu(v, " " + esc(T("seg_reloj")));
   const bar = v => (v ?? 0).toFixed(1) + " " + esc(T("barras"));
   // cada tema es una pestaña; se ve uno a la vez
   const card = (id, ic, titulo, cuerpo, abierta, sub) =>
@@ -441,7 +444,6 @@ function analisis() {
     [T("st_vidaperd"), gu(a.vida_perdida_ronda, "%"), gu(b.vida_perdida_ronda, "%"), a.vida_perdida_ronda, b.vida_perdida_ronda, -1],
     [T("st_golpes"), a.golpes ?? 0, b.golpes ?? 0, a.golpes, b.golpes],
     [T("st_danomedio"), gu(a.dano_medio), gu(b.dano_medio), a.dano_medio, b.dano_medio],
-    [T("st_agarres"), a.agarres ?? 0, b.agarres ?? 0, a.agarres, b.agarres],
   ]), true));
   out.push(card("a-combos", "🔗", T("s_combos"), comparar([
     [T("st_combos"), a.combos ?? 0, b.combos ?? 0, a.combos, b.combos],
@@ -461,18 +463,10 @@ function analisis() {
     [T("st_stunpeor"), seg(a.stun_peor_seg), seg(b.stun_peor_seg), a.stun_peor_seg, b.stun_peor_seg, -1],
   ]), false));
   out.push(card("a-tiempo", "⏱️", T("s_tiempo"), comparar([
-    [T("st_rapida"), seg(a.ronda_rapida), seg(b.ronda_rapida), a.ronda_rapida, b.ronda_rapida, -1],
+    [T("st_rapida"), segR(a.ronda_rapida), segR(b.ronda_rapida), a.ronda_rapida, b.ronda_rapida, -1],
     [T("st_peleapida"), a.pelea_rapida ? esc(mmss(a.pelea_rapida)) : "—", b.pelea_rapida ? esc(mmss(b.pelea_rapida)) : "—", a.pelea_rapida, b.pelea_rapida, -1],
-    [T("st_duravg"), seg(a.dur_avg), seg(b.dur_avg), a.dur_avg, b.dur_avg, 0],
+    [T("st_duravg"), segR(a.dur_avg), segR(b.dur_avg), a.dur_avg, b.dur_avg, 0],
   ]) + graficaRondas(), false));
-  // la defensa sólo existe si la grabación lleva la sonda que permite medirla
-  if (a.verificado) out.push(card("a-defensa", "🛡️", T("s_def"), comparar([
-    [T("st_conect"), a.conectados ?? 0, b.conectados ?? 0, a.conectados, b.conectados],
-    [T("st_bloq"), a.bloqueados ?? 0, b.bloqueados ?? 0, a.bloqueados, b.bloqueados, -1],
-    [T("st_bloqueo"), a.bloqueo ?? 0, b.bloqueo ?? 0, a.bloqueo, b.bloqueo],
-    [T("st_defensa"), gu(a.defensa, "%"), gu(b.defensa, "%"), a.defensa, b.defensa],
-    [T("st_primero"), a.primer_golpe ? "✓" : "—", b.primer_golpe ? "✓" : "—", a.primer_golpe ? 1 : 0, b.primer_golpe ? 1 : 0],
-  ]), false));
   const chars = j => esc((j.personajes || [j.personaje]).filter(Boolean).join(" · ") || "—");
   out.push(card("a-pers", "🎭", T("s_pers"), comparar([
     [T("s_pers"), chars(ja), chars(jb), 0, 0, 0],
@@ -480,21 +474,6 @@ function analisis() {
     [T("st_swaps"), a.swaps ?? 0, b.swaps ?? 0, 0, 0, 0],
   ]), false));
   return pestanasAnalisis(out);
-}
-
-/* ================================================================ 4 · DETALLE TÉCNICO
-   Lo que reporta el propio emulador, separado y plegado: no es lo que calcula
-   replayLab y no se mezcla con lo demás. */
-function tecnico() {
-  const [a, b] = F.stats;
-  const bar = v => (v ?? 0) + " " + esc(T("barras"));
-  return `<details class="acard tecnico"><summary><h3>🔧 ${esc(T("s_emu"))}</h3></summary>
-    <p class="nota-sec">${esc(T("emu_nota"))}</p>${nombresCmp()}${comparar([
-      [T("st_dano"), bar(a.emu_dano_barras), bar(b.emu_dano_barras), 0, 0, 0],
-      [T("st_golpes"), a.emu_hits ?? 0, b.emu_hits ?? 0, 0, 0, 0],
-      [T("st_agarres"), a.emu_throws ?? 0, b.emu_throws ?? 0, 0, 0, 0],
-      [T("st_bloqueo"), a.emu_blocked ?? 0, b.emu_blocked ?? 0, 0, 0, 0],
-    ])}</details>`;
 }
 
 // Duración de cada ronda: aquí la barra compara magnitudes (cuánto duró cada una) y
@@ -509,19 +488,19 @@ function graficaRondas() {
     `<button class="dfila" data-t="${x.t}">
        <span class="et">${esc(T("pelea"))} ${x.p} · ${esc(T("ronda"))} ${x.n}</span>
        <span class="t"><i class="g${x.g}" style="width:${pct(x.d, max)}%"></i></span>
-       <span class="v">${x.d} ${esc(T("seg"))}</span></button>`).join("") + "</div>";
+       <span class="v">${x.d} ${esc(T("seg_reloj"))}</span></button>`).join("") + "</div>";
 }
 
 const seccion = (id, titulo, cuerpo) => `<section id="${id}" class="fsec"><h2>${esc(titulo)}</h2>${cuerpo}</section>`;
 function bloques() {
   return seccion("resumen", T("s_resumen"), resumen())
        + seccion("peleas", T("s_peleas"), peleasYRondas())
-       + seccion("analisis", T("s_analisis"), analisis())
-       + seccion("tecnico", T("s_tecnico"), tecnico());
+       + seccion("analisis", T("s_analisis"), analisis());
 }
 
-// Resultado → Resumen → Peleas → Análisis → Detalle técnico
-const SECCIONES = [["resumen","s_resumen"],["peleas","s_peleas"],["analisis","s_analisis"],["tecnico","s_tecnico"]];
+// Resultado → Resumen → Peleas → Análisis. La sección "Detalle técnico" (datos "del
+// emulador") se quitó el 23 sep: no venían del emulador y no eran seguros.
+const SECCIONES = [["resumen","s_resumen"],["peleas","s_peleas"],["analisis","s_analisis"]];
 function navegacion() {
   return `<nav class="secnav">` + SECCIONES.map(([id, t]) => `<a href="#${id}">${esc(T(t))}</a>`).join("") + `</nav>`;
 }

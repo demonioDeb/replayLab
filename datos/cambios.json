@@ -198,6 +198,90 @@
       "juego"
      ],
      "juego": "ssf2x"
+    },
+    {
+     "t": "hallazgo",
+     "es": "Auditoría de todos los datos de Super Turbo, comparando cada número con lo que el propio juego dibuja en el vídeo: combos (35 de 36 iguales al «N HIT COMBO» del juego), súpers (35 de 35 vacían la barra SUPER), mareos, vida, rondas y marcador. El daño cuadra al punto en las 43 rondas.",
+     "en": "Audit of every Super Turbo figure, checking each number against what the game itself draws in the video: combos (35 of 36 match the game's “N HIT COMBO”), supers (35 of 35 empty the SUPER bar), dizzies, health, rounds and score. Damage matches to the point in all 43 rounds.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
+    },
+    {
+     "t": "cambiado",
+     "es": "Fuera los agarres, los golpes bloqueados/limpios, el % de defensa y «dio el primer golpe»: la auditoría demostró que no se pueden separar con seguridad (un agarre o un remate salían como «bloqueados», y los agarres de varios golpes contaban varias veces). Sólo se enseña lo comprobado.",
+     "en": "Throws, blocked/clean hits, defence % and “landed the first hit” are gone: the audit showed they can't be told apart reliably (a throw or a finishing blow counted as “blocked”, and multi-hit throws counted several times). Only verified data is shown.",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "arreglado",
+     "es": "Fuera la sección «Emulador»: decía que esos números venían del emulador y los calculábamos nosotros con una regla ya descartada.",
+     "en": "The “Emulator” section is gone: it said those numbers came from the emulator, but we computed them with a rule already discarded.",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "arreglado",
+     "es": "«Pelea más corta que ganó» salía como la suma del reloj de sus rondas (1:28 para una pelea que duró 0:59). Ahora es el tiempo real, el mismo que enseña cada pelea.",
+     "en": "“Shortest game won” was the sum of its rounds' clock time (1:28 for a game that lasted 0:59). It is now real time, the same shown for each game.",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "arreglado",
+     "es": "El combo que termina con el KO no se contaba en su pelea ni en su ronda (sí en el total del set).",
+     "en": "A combo ending in a KO wasn't counted in its game or round (it was in the set total).",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "cambiado",
+     "es": "Las duraciones de ronda dicen ahora «s de reloj»: son segundos del reloj del juego, que en Super Turbo corre más deprisa que el tiempo real.",
+     "en": "Round lengths now say “s on the clock”: they are the game's own clock seconds, which in Super Turbo run faster than real time.",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "arreglado",
+     "es": "«Veces que quitó vida» ya no cuenta el remate que deja la vida de 0 a −1, que no quita nada.",
+     "en": "“Times they took health” no longer counts the finishing blow that takes health from 0 to −1, which takes nothing.",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "arreglado",
+     "es": "Overlay: un doble KO no cortaba la racha, y la fila enseñaba unas veces la racha en curso y otras la mejor. Ahora es siempre la mejor racha del set, igual que la web.",
+     "en": "Overlay: a double KO didn't break the streak, and the row sometimes showed the current streak and sometimes the best one. It is now always the best streak of the set, as on the website.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
+    },
+    {
+     "t": "arreglado",
+     "es": "Overlay: «Vida al ganar» y la duración media redondeaban hacia abajo y la web al más cercano (18 % frente a 19 %). Ahora redondean igual.",
+     "en": "Overlay: “Health left on win” and the average length rounded down while the website rounded to nearest (18% vs 19%). They now round the same way.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
+    },
+    {
+     "t": "arreglado",
+     "es": "Grabación: al acabarse el tiempo el juego pone a −1 la vida del perdedor; eso ya no se cuenta como daño del ganador. Probado con una ronda simulada; falta confirmarlo con una ronda real ganada por tiempo.",
+     "en": "Recording: when time runs out the game sets the loser's health to −1; that no longer counts as damage by the winner. Tested with a simulated round; still to be confirmed with a real round won on time.",
+     "area": [
+      "juego"
+     ],
+     "juego": "ssf2x"
     }
    ]
   },
