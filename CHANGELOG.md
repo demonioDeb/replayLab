@@ -6,6 +6,33 @@ La versión que se ve en el sitio está en `datos/cambios.json` y se lee en
 Los cambios de replayLab, de lo más nuevo a lo más viejo. Las fechas son las del día en
 que se hizo el cambio, no las de publicación.
 
+## 2026-09-24
+
+### Cambiado
+- **Overlay en tres tarjetas: Combate, Rondas y Promedios**, mismo orden en todos los juegos.
+  Promedios sólo lleva medias. Salen del overlay (siguen en la web) las cifras deducidas,
+  al límite, remontada y rondas ganadas.
+- **Análisis de la ficha con las mismas pestañas que el overlay** (`video.html`, `analisis()`):
+  Combate · Rondas · Promedios · Personajes. Lo que el overlay no enseña va debajo de «Más
+  detalle». `TEMA_VIEJO` lleva los enlaces viejos (`tema=dano`…) a su pestaña nueva.
+- **Changelog por juego** (`cambios.html`): Todo · Web · una pestaña por juego
+  (`?juego=<id>`). `juego` en `cambios.json` puede ser una lista.
+- **«Lo que viene»** conserva los juegos desbloqueados (`desbloqueado` en `juegos.json`) con
+  su sello. La portada enseña dos juegos por venir y «ver todos».
+
+### Añadido
+- Media «lo que tarda en ganar una pelea» (overlay y web: `peleaMedia()`).
+- Animaciones del overlay: récord, cifras que cuentan, combo en vivo (ST), retrato que
+  reacciona, reloj en apuros, cambio de líder, primer golpe.
+- The King of Fighters '94–2002 en «Próximamente».
+- Favicon (`favicon.svg`, `.ico`, `apple-touch-icon.png`, manifiesto) y vista previa para
+  redes (`assets/og.png`, Open Graph y Twitter).
+
+### Arreglado
+- **Saltos al pulsar pestañas y botones.** `fijaAltos()` (ficha: la caja del análisis y la
+  del detalle de pelea miden el alto de la más alta) y `sinSalto()` en `app.js` (juego,
+  partidas, changelog: la página no encoge bajo lo que estás viendo).
+
 ## 2026-09-22
 
 ### Hallazgo

@@ -822,3 +822,13 @@ footer .sp{flex:1}
   .apoyo .cafe-btn{display:block;text-align:center}
   .durs .et{width:auto;min-width:0;overflow-wrap:anywhere}
 }
+
+/* ---- 24 sep: análisis igual que el overlay (Combate · Rondas · Promedios). Lo que el
+   overlay no enseña va debajo de esta raya, más apagado: es el detalle de la web. */
+.cmp-mas{margin:12px 0 2px;padding-top:8px;border-top:1px dashed var(--line2);font-size:11px;
+  letter-spacing:1.5px;text-transform:uppercase;color:var(--dim);font-weight:700;text-align:center}
+/* «Lo que viene»: lo ya desbloqueado se queda, con su sello verde */
+.pg-viene li.hecho a{color:var(--soft)}
+.pg-est.ok{color:var(--ok);border-color:rgba(125,252,176,.45)}
+/* portada: la tarjeta que lleva a todos los juegos */
+.tarj-juego.ver-todos .tj-mono{font-size:22px;color:var(--gold)}

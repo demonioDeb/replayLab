@@ -1,9 +1,105 @@
 {
- "nota": "Resumen por día de lo que se hizo y lo que se descubrió. Lo escribe a mano quien trabaja en el proyecto; no se genera solo. Cada cambio lleva 'area': 'web' (lo que se ve en replayLab) y/o 'juego' (overlay, grabación, lo descubierto del juego, YouTube), y si es de juego, 'juego' con su id de datos/juegos.json.",
+ "nota": "Resumen por día de lo que se hizo y lo que se descubrió. Lo escribe a mano quien trabaja en el proyecto; no se genera solo. Cada cambio lleva 'area': 'web' (lo que se ve en replayLab) y/o 'juego' (overlay, grabación, lo descubierto del juego, YouTube), y 'juego' con el id de datos/juegos.json (o una lista de ids si el cambio vale para varios juegos). cambios.html tiene una pestaña por juego.",
  "dias": [
   {
    "fecha": "2026-09-24",
    "cambios": [
+    {
+     "t": "cambiado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce"
+     ],
+     "es": "El overlay tiene ahora tres tarjetas por jugador: Combate, Rondas y Promedios, con el mismo orden en todos los juegos (el público se acostumbra a un sitio para cada cifra). Promedios lleva sólo medias: daño por ronda, vida al ganar y lo que tarda en ganar una ronda y una pelea. Salen del overlay, y siguen en la web: veces que quitó vida, golpe más fuerte, rondas en que pegó primero, tiempo con el rival mareado, rondas ganadas al límite, mayor remontada y rondas ganadas (ya está en «Ganadas por KO / tiempo»).",
+     "en": "The overlay now has three cards per player: Combat, Rounds and Averages, in the same order in every game (viewers learn where each number lives). Averages holds only averages: damage per round, health left on win, and time to win a round and a game. Moved off the overlay, still on the website: times they took health, hardest hit, rounds where they hit first, time with the rival dizzy, rounds won on the edge, biggest comeback and rounds won (already in “Won by KO / time”)."
+    },
+    {
+     "t": "añadido",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce"
+     ],
+     "es": "Nueva media: lo que tarda en ganar una pelea, contando sólo las peleas que ganó y en tiempo real, igual que «su pelea más rápida».",
+     "en": "New average: time to win a game, counting only the games they won, in real time, like “fastest game”."
+    },
+    {
+     "t": "añadido",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce"
+     ],
+     "es": "Animaciones nuevas en el overlay, cada una con su interruptor: récord batido (la fila brilla en dorado), cifras que suben contando, combo en vivo sobre el retrato (Super Turbo), el retrato reacciona a un golpe fuerte y al ganar la ronda, el cronómetro parpadea con 10 s o menos, destello cuando cambia quién va delante y aviso de primer golpe.",
+     "en": "New overlay animations, each with its own switch: record broken (the row glows gold), numbers that count up, live combo over the portrait (Super Turbo), the portrait reacts to a heavy hit and to winning the round, the timer blinks at 10 s or less, a flash when the lead changes hands and a first-hit badge."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce"
+     ],
+     "es": "Fuera los avisos de remontada y de final al límite. El historial de inputs ya no lleva la cabecera Frames / Palanca / Botones: ese sitio es una línea más de historial.",
+     "en": "Comeback and close-call alerts removed. The input history no longer has the Frames / Stick / Buttons header: that space is one more line of history."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "web"
+     ],
+     "es": "El análisis de cada partida tiene las mismas pestañas que el overlay: Combate, Rondas y Promedios (más Personajes), con las filas en el mismo orden. Lo que el overlay no enseña sigue ahí, debajo de «Más detalle». Los enlaces viejos a una pestaña siguen funcionando.",
+     "en": "Each match's analysis now has the same tabs as the overlay: Combat, Rounds and Averages (plus Characters), with rows in the same order. What the overlay doesn't show is still there, under “More detail”. Old links to a tab still work."
+    },
+    {
+     "t": "arreglado",
+     "area": [
+      "web"
+     ],
+     "es": "Las pestañas y los botones ya no hacen saltar la página: al cambiar de pestaña, de pelea o de vista lo que estás viendo se queda en su sitio.",
+     "en": "Tabs and buttons no longer make the page jump: switching tab, game or view keeps what you're looking at in place."
+    },
+    {
+     "t": "añadido",
+     "area": [
+      "web"
+     ],
+     "es": "The King of Fighters, del '94 al 2002, en la lista de juegos por desbloquear.",
+     "en": "The King of Fighters, from '94 to 2002, on the list of games to unlock."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "web"
+     ],
+     "es": "En «Lo que viene» (Apoya el proyecto) los juegos que ya se desbloquearon se quedan en la lista, con el sello «Desbloqueado». La portada enseña dos juegos por venir y una tarjeta para ver todos.",
+     "en": "In “What's next” (Support the project) games that are already unlocked stay on the list with an “Unlocked” badge. The home page shows two upcoming games and a card to see them all."
+    },
+    {
+     "t": "añadido",
+     "area": [
+      "web"
+     ],
+     "es": "Icono propio del sitio y vista previa al compartir un enlace en redes (imagen, título y descripción).",
+     "en": "Site icon and a preview when a link is shared on social media (image, title and description)."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "web"
+     ],
+     "es": "El changelog se lee por juego: una pestaña para la web y otra para cada juego.",
+     "en": "The changelog is now read by game: one tab for the website and one for each game."
+    },
     {
      "t": "añadido",
      "es": "En Daño: «Su golpe más fuerte» (la mayor bajada de vida de una vez) y «Rondas en que pegó primero». Se deducen del registro de golpes, así que valen en todos los juegos.",
@@ -18,6 +114,10 @@
      "en": "The overlay cards, ordered and without repeats: each column only counts what its player did (no more “damage taken” or “times dizzied”, which are already the row across), the percentage sits next to rounds won and every game follows the same order. Champion Edition gains three rows: times they took health, hardest hit and rounds where they hit first.",
      "area": [
       "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce"
      ]
     },
     {
@@ -51,6 +151,10 @@
      "en": "Same overlay in every game: same cards, same order and the same spacing; the input history fills the rest. Each game has its own list of on-screen events.",
      "area": [
       "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce"
      ]
     },
     {

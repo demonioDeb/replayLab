@@ -5,8 +5,27 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Apoya el proyecto · replayLab</title>
 <meta name="description" content="Replay Lab es un proyecto independiente. Cómo apoyarlo, y hasta dónde ha llegado.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>☕</text></svg>">
-<link rel="stylesheet" href="assets/estilo.css?v=52559c8f71">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#0a0d15">
+<!-- vista previa al compartir (Open Graph / X): imagen de 1200 × 630 en assets/og.png -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="replayLab">
+<meta property="og:title" content="Apoya el proyecto · replayLab">
+<meta property="og:description" content="Replay Lab es un proyecto independiente. Cómo apoyarlo, y hasta dónde ha llegado.">
+<meta property="og:url" content="https://demoniodeb.github.io/replayLab/apoyo.html">
+<meta property="og:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="replayLab: replays de juegos de pelea de Fightcade con estadísticas">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Apoya el proyecto · replayLab">
+<meta name="twitter:description" content="Replay Lab es un proyecto independiente. Cómo apoyarlo, y hasta dónde ha llegado.">
+<meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
+<link rel="stylesheet" href="assets/estilo.css?v=72868a111a">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -39,7 +58,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=be1ccf5051"></script>
+<script src="assets/app.js?v=ff3ddd79e1"></script>
 <script>
 "use strict";
 let INDICE = { videos: [] };
@@ -79,6 +98,11 @@ function pinta() {
   // Lo que viene: la función de enviar replays y todos los juegos en "próximamente"
   const viene = [
     `<li><a href="enviar.html">📨 ${esc(T("ap_enviar"))}</a><span class="pg-est">${esc(T("ap_en_curso"))}</span></li>`,
+    // Los que ya se desbloquearon siguen en la lista, tachados de pendientes y con su
+    // sello: es lo que el apoyo ya consiguió. Van primero, luego lo que falta.
+    ...JUEGOS.filter(j => j.estado === "activo" && j.desbloqueado).map(j =>
+      `<li class="hecho"><a href="${hrefJuego(j)}">✅ ${esc(T("ap_incorporar").replace("%s", j.nombre_completo || j.nombre))}</a>
+         <span class="pg-est ok">${esc(T("ap_desbloqueado"))}</span></li>`),
     ...JUEGOS.filter(j => j.estado === "proximamente").map(j =>
       `<li>🎮 ${esc(T("ap_incorporar").replace("%s", j.nombre_completo || j.nombre))}</li>`),
   ];

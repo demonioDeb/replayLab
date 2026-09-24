@@ -4,15 +4,35 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>replayLab</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🎮</text></svg>">
-<link rel="stylesheet" href="assets/estilo.css?v=52559c8f71">
+<meta name="description" content="Qué cambió en replayLab y en cada juego, día a día.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#0a0d15">
+<!-- vista previa al compartir (Open Graph / X): imagen de 1200 × 630 en assets/og.png -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="replayLab">
+<meta property="og:title" content="Cambios · replayLab">
+<meta property="og:description" content="Qué cambió en replayLab y en cada juego, día a día.">
+<meta property="og:url" content="https://demoniodeb.github.io/replayLab/cambios.html">
+<meta property="og:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="replayLab: replays de juegos de pelea de Fightcade con estadísticas">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cambios · replayLab">
+<meta name="twitter:description" content="Qué cambió en replayLab y en cada juego, día a día.">
+<meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
+<link rel="stylesheet" href="assets/estilo.css?v=72868a111a">
 </head>
 <body>
 <header id="cabsitio"></header>
 
 <main class="wrap">
   <div class="intro"><div><h1 id="titulo"></h1><p id="sub"></p></div></div>
-  <!-- dos secciones: la web por un lado, y cada juego por otro -->
+  <!-- pestañas: todo, la web, y una por juego -->
   <div class="atabs c-areas" id="areas" role="tablist"></div>
   <p class="c-desc" id="c-desc"></p>
   <div id="cambios" class="diario"></div>
@@ -20,7 +40,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=be1ccf5051"></script>
+<script src="assets/app.js?v=ff3ddd79e1"></script>
 <script>
 "use strict";
 let DATOS = null;
@@ -47,10 +67,15 @@ const fechaLarga = f => {
 };
 
 // Cada cambio lleva su área: "web" (lo que se ve en replayLab) y/o "juego" (overlay,
-// grabación, lo que se descubrió del juego, YouTube), con el id del juego.
-let AREA = ["web", "juego"].includes(Q.get("area")) ? Q.get("area") : "";
+// grabación, lo que se descubrió del juego, YouTube), y el juego o juegos a los que toca
+// ("juego": un id de datos/juegos.json, o una lista si vale para varios).
+// Pestañas: Todo · 🌐 Web · una por juego. ?area=web o ?juego=<id>, para poder compartir.
 const areas = c => c.area || ["web"];
-const nombreJuego = id => (juegoPorId(id) || {}).nombre || id || "";
+const juegosDe = c => [].concat(c.juego || []);
+const nombreJuego = id => (juegoPorId(id) || {}).nombre_completo || (juegoPorId(id) || {}).nombre || id || "";
+const cortoJuego = id => (juegoPorId(id) || {}).corto || id;
+let FILTRO = Q.get("juego") ? "j:" + Q.get("juego") : (Q.get("area") === "web" ? "web" : "");
+const pasa = (c, f) => !f || (f === "web" ? areas(c).includes("web") : juegosDe(c).includes(f.slice(2)));
 
 function grupo(icono, titulo, lista) {
   if (!lista.length) return "";
@@ -70,20 +95,36 @@ function pinta() {
   textosCabecera(); pintaPie();
   if (!DATOS) return;
   const todas = (DATOS.dias || []).flatMap(d => d.cambios || []);
-  const n = a => todas.filter(c => !a || areas(c).includes(a)).length;
-  $("#areas").innerHTML = [["", "c_todo", ""], ["web", "c_web", "🌐"], ["juego", "c_juegos", "🎮"]]
-    .map(([a, t, ic]) => `<button class="atab" role="tab" data-area="${a}" aria-selected="${AREA === a}">
-      ${ic} ${esc(T(t))} <span class="n">${n(a)}</span></button>`).join("");
-  $("#c-desc").textContent = AREA === "web" ? T("c_web_d") : AREA === "juego" ? T("c_juego_d") : "";
-  $("#c-desc").hidden = !AREA;
+  // un juego tiene pestaña si tiene cambios; en el orden de datos/juegos.json
+  const conCambios = new Set(todas.flatMap(juegosDe));
+  const ids = [...(JUEGOS || []).map(j => j.id).filter(id => conCambios.has(id)),
+               ...[...conCambios].filter(id => !juegoPorId(id))];
+  if (FILTRO.startsWith("j:") && !ids.includes(FILTRO.slice(2))) FILTRO = "";
+  const tabs = [["", "📋", T("c_todo"), ""], ["web", "🌐", T("c_web"), ""],
+                ...ids.map(id => ["j:" + id, "🎮", cortoJuego(id), nombreJuego(id)])];
+  $("#areas").innerHTML = tabs.map(([f, ic, t, largo]) =>
+    `<button class="atab" role="tab" data-f="${esc(f)}" aria-selected="${FILTRO === f}"${largo ? ` title="${esc(largo)}"` : ""}>
+      ${ic} ${esc(t)} <span class="n">${todas.filter(c => pasa(c, f)).length}</span></button>`).join("");
+  const desc = FILTRO === "web" ? T("c_web_d") : FILTRO ? nombreJuego(FILTRO.slice(2)) + " · " + T("c_juego_d") : "";
+  $("#c-desc").textContent = desc;
+  $("#c-desc").hidden = !desc;
 
   $("#cambios").innerHTML = (DATOS.dias || []).map(d => {
-    const cs = d.cambios || [];
-    const web = AREA === "juego" ? [] : cs.filter(c => areas(c).includes("web"));
-    const deJuego = AREA === "web" ? [] : cs.filter(c => areas(c).includes("juego"));
-    const ids = [...new Set(deJuego.map(c => c.juego || ""))];
-    const cuerpo = grupo("🌐", T("c_web"), web) +
-      ids.map(id => grupo("🎮", nombreJuego(id) || T("c_juegos"), deJuego.filter(c => (c.juego || "") === id))).join("");
+    const cs = (d.cambios || []).filter(c => pasa(c, FILTRO));
+    let cuerpo = "";
+    if (FILTRO.startsWith("j:")) {
+      // dentro de un juego, todo lo suyo junto: lo del juego y lo que cambió en su web
+      cuerpo = grupo("🎮", nombreJuego(FILTRO.slice(2)), cs.filter(c => areas(c).includes("juego")))
+             + grupo("🌐", T("c_web"), cs.filter(c => !areas(c).includes("juego")));
+    } else {
+      const web = FILTRO === "web" || !FILTRO ? cs.filter(c => areas(c).includes("web")) : [];
+      const deJuego = FILTRO ? [] : cs.filter(c => areas(c).includes("juego"));
+      // un cambio que vale para varios juegos sale una vez, en «Todos los juegos»
+      const clave = c => juegosDe(c).length > 1 ? "*" : (juegosDe(c)[0] || "");
+      const grupos = [...new Set(deJuego.map(clave))];
+      cuerpo = grupo("🌐", T("c_web"), web) + grupos.map(k =>
+        grupo("🎮", k === "*" ? T("c_varios") : (nombreJuego(k) || T("c_juegos")), deJuego.filter(c => clave(c) === k))).join("");
+    }
     if (!cuerpo) return "";
     return `<section class="dia">
       <h3><span class="fecha">${esc(fechaLarga(d.fecha))}</span></h3>
@@ -92,13 +133,15 @@ function pinta() {
 }
 
 $("#areas").addEventListener("click", e => {
-  const b = e.target.closest("[data-area]");
+  const b = e.target.closest("[data-f]");
   if (!b) return;
-  AREA = b.dataset.area;
+  FILTRO = b.dataset.f;
   const u = new URL(location.href);
-  if (AREA) u.searchParams.set("area", AREA); else u.searchParams.delete("area");
+  u.searchParams.delete("area"); u.searchParams.delete("juego");
+  if (FILTRO === "web") u.searchParams.set("area", "web");
+  else if (FILTRO) u.searchParams.set("juego", FILTRO.slice(2));
   history.replaceState(null, "", u);
-  pinta();
+  sinSalto(pinta, "#areas");
 });
 
 montaCabecera("cambios", pinta);
