@@ -9,6 +9,14 @@
      "area": [
       "web"
      ],
+     "es": "Nuevo orden de la ficha: la línea de tiempo del set queda sola encima del vídeo y el resumen pasa debajo. «Peleas» y su tira van en la misma línea. El título de cada pelea se lee como un marcador: a cada lado el jugador con su personaje, en medio las rondas (2 – 1), el ganador marcado y el perdedor atenuado; a la izquierda qué pelea es (1/8) y a la derecha cómo quedó el set.",
+     "en": "New match page order: the set timeline sits alone above the video and the summary moves below it. “Games” and its bar share one line. Each game's title reads like a scoreboard: a player and their character on each side, the rounds in the middle (2 – 1), the winner marked and the loser dimmed; on the left which game it is (1/8) and on the right the set score after it."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "web"
+     ],
      "es": "La ficha gana más espacio: fuera la barra Resumen / Peleas / Análisis y el título «Resumen». La tira de peleas y las pestañas del análisis llevan una flecha a cada lado para moverse cuando no caben (un set largo, o más pestañas en el futuro), y la pelea elegida siempre queda a la vista. «Análisis del set» y sus pestañas van en la misma línea, con botones planos. Se quitó el hueco vacío entre Peleas y Análisis.",
      "en": "The match page gets more room: the Summary / Games / Analysis bar and the “Summary” title are gone. The games bar and the analysis tabs have an arrow on each side to move along when they don't fit (a long set, or more tabs later), and the selected game always stays in view. “Set analysis” and its tabs share one line, with flat buttons. The empty gap between Games and Analysis is gone."
     },

@@ -9,6 +9,10 @@ que se hizo el cambio, no las de publicación.
 ## 2026-09-24
 
 ### Cambiado
+- **Ficha, 4.ª pasada.** Orden: cabecera → línea de tiempo del set → vídeo → resumen →
+  peleas → análisis. «Peleas» y la tira en `.sec-cab`. Título de la pelea como marcador
+  (`.pd-duelo`: jugador + personaje · rondas · personaje + jugador, `.pd-w` «gana», el que
+  pierde al 50 %), con «Pelea N/M» y «Set x–y» (`p_set`, `p_set_ayuda`) a los lados.
 - **Ficha, 3.ª pasada.** Fuera la barra de secciones (`navegacion()`, `vigilaNav()`) y el
   título «Resumen». `carrusel()` + `estadoCarruseles()` + `aLaVista()`: la tira de peleas
   (tramos de 54 px mínimo, número y marcador siempre) y las pestañas del análisis se

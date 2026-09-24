@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Partida · replayLab">
 <meta name="twitter:description" content="Una partida de Fightcade analizada: rondas, daño, tiempos y momentos, leídos de la propia partida.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=5847ad92fa">
+<link rel="stylesheet" href="assets/estilo.css?v=23e5229718">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -36,11 +36,11 @@
   <div id="cuerpo">
     <p class="vacio" id="cargando"></p>
     <div id="cab"></div>
-    <!-- resumen en horizontal → línea de tiempo de TODO el set (pulsar un momento lo pone en
-         el vídeo) → el vídeo → peleas → análisis -->
-    <div id="resumen-caja"></div>
+    <!-- línea de tiempo de TODO el set (pulsar un momento lo pone en el vídeo) → el vídeo →
+         resumen en horizontal → peleas → análisis -->
     <div id="tlset"></div>
     <div id="video"></div>
+    <div id="resumen-caja"></div>
     <div id="resto"></div>
     <div id="apoyo"></div>
   </div>
@@ -48,7 +48,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=53d960e98d"></script>
+<script src="assets/app.js?v=7101535b8f"></script>
 <script>
 "use strict";
 let F = null, REPRO = null, LISTO = false;
@@ -420,12 +420,13 @@ function detallePelea() {
   return `<div class="pdet">
     <div class="pd-cab">
       <button class="pd-nav" data-pelea="${PELEA - 1}"${PELEA === 0 ? " disabled" : ""} aria-label="${esc(T("p_ant"))}" title="${esc(T("p_ant"))}">◀</button>
-      <span class="pd-n">${esc(T("p_de").replace("%s", p.n).replace("%s", ps.length))}</span>
-      <span class="pd-pj">${(p.personajes || []).map(esc).join(" vs ")}</span>
-      <span class="pd-res">${g ? `<b style="color:${pcl(g)}">${esc(nombre(g))}</b><span>${esc(T("gana"))}</span>`
-                               : `<b style="color:var(--soft)">${esc(T("empate"))}</b>`}
-        <span class="pd-marc"><span class="a">${r[0]}</span>–<span class="b">${r[1]}</span></span>
-        <span class="pd-set">${esc(T("s_set"))} ${(p.marcador || [0, 0]).join("–")}</span></span>
+      <span class="pd-n">${esc(T("pelea"))} <b>${p.n}</b><span>/${ps.length}</span></span>
+      <div class="pd-duelo">
+        <span class="pd-j a${g === 1 ? " gana" : g ? " pierde" : ""}">${g === 1 ? `<span class="pd-w">${esc(T("gana"))}</span>` : ""}<b>${esc(nombre(1))}</b><span class="pd-pj">${esc((p.personajes || [])[0] || "")}</span></span>
+        <span class="pd-marc" title="${esc(T("rondas_t"))}"><span class="a">${r[0]}</span><i>–</i><span class="b">${r[1]}</span></span>
+        <span class="pd-j b${g === 2 ? " gana" : g ? " pierde" : ""}"><span class="pd-pj">${esc((p.personajes || [])[1] || "")}</span><b>${esc(nombre(2))}</b>${g === 2 ? `<span class="pd-w">${esc(T("gana"))}</span>` : ""}</span>
+      </div>
+      <span class="pd-set" title="${esc(T("p_set_ayuda"))}">${esc(T("p_set"))} <b><span class="a">${(p.marcador || [0, 0])[0]}</span>–<span class="b">${(p.marcador || [0, 0])[1]}</span></b></span>
       <button class="pd-nav" data-pelea="${PELEA + 1}"${PELEA >= ps.length - 1 ? " disabled" : ""} aria-label="${esc(T("p_sig"))}" title="${esc(T("p_sig"))}">▶</button>
     </div>
     <div class="pd-et">${esc(T("s_resumen"))}</div>
@@ -442,7 +443,8 @@ function detallePelea() {
 }
 
 function peleasYRondas() {
-  return tiraSet() + `<div id="pdet" class="pdet-caja">${detallePelea()}</div>`;
+  return `<div class="sec-cab"><h2>${esc(T("s_peleas"))}</h2>${tiraSet()}</div>`
+       + `<div id="pdet" class="pdet-caja">${detallePelea()}</div>`;
 }
 
 // Elegir una pelea: sólo se repinta el detalle, no la página entera.
@@ -617,7 +619,7 @@ function graficaRondas() {
 const seccion = (id, titulo, cuerpo, sub) =>
   `<section id="${id}" class="fsec"><h2>${esc(titulo)}${sub ? `<span class="sub">${esc(sub)}</span>` : ""}</h2>${cuerpo}</section>`;
 function bloques() {
-  return seccion("peleas", T("s_peleas"), peleasYRondas())
+  return `<section id="peleas" class="fsec">${peleasYRondas()}</section>`
        + `<section id="analisis" class="fsec">${analisis()}</section>`;
 }
 
