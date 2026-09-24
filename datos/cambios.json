@@ -5,6 +5,14 @@
    "fecha": "2026-09-24",
    "cambios": [
     {
+     "t": "añadido",
+     "area": [
+      "web"
+     ],
+     "es": "Línea de tiempo de todo el set, encima del vídeo, con cada momento (remates, combos, súpers, mareos, remontadas) y cada pelea: se pulsa y el vídeo salta ahí, dos segundos antes para ver de dónde viene la jugada. La ficha queda en este orden: cabecera más baja, resumen en horizontal, línea de tiempo, vídeo, peleas y análisis. En Peleas sobra la lista repetida: la tira del set lleva el marcador de cada pelea y el título de la pelea elegida va en una sola línea.",
+     "en": "A timeline of the whole set, above the video, with every moment (finishers, combos, supers, dizzies, comebacks) and every game: click one and the video jumps there, two seconds early so you see the build-up. The match page now goes: lower header, horizontal summary, timeline, video, games and analysis. The repeated list in Games is gone: the set bar shows each game's score and the selected game's title fits on one line."
+    },
+    {
      "t": "cambiado",
      "area": [
       "web"

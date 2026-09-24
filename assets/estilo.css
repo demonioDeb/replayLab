@@ -947,3 +947,75 @@ footer .sp{flex:1}
 /* la barra de secciones vive en su caja, pero tiene que poder quedarse fija en toda la ficha */
 #secnav-caja{display:contents}
 @media (max-width:480px){ .secnav .sn-id b{display:none} .secnav .sn-id{margin-right:2px} }
+
+/* ================================================================ FICHA, 2.ª pasada (24 sep)
+   Orden pedido por el usuario: cabecera baja → resumen en horizontal → línea de tiempo de
+   todo el set (se pulsa un momento y el vídeo salta ahí) → vídeo → peleas → análisis. */
+/* cabecera: la misma información, menos alto */
+.cab{padding:8px 0 10px;gap:10px}
+.jug{padding:8px 12px;gap:10px}
+.jug .retrato{width:52px;height:52px}
+.jug .nom{font-size:22px}
+.jug .sub{font-size:13px}
+.marc{font-size:30px;padding:8px 14px;gap:8px}
+.cab .centro{gap:4px}
+.gana-set{font-size:12px}
+.res-datos span{font-size:11px;padding:1px 7px}
+/* resumen: una fila de cifras y una fila de momentos, bajas */
+.kfila{display:flex;gap:10px;align-items:stretch}
+.kfila .kpi-main{flex:2.2 1 0;min-width:0;padding:10px 14px;gap:4px;flex-direction:row;flex-wrap:wrap;align-items:center;column-gap:16px}
+.kfila .kpi-main .kpi-t{flex-basis:100%}
+.kfila .kpi-main .kpi-v{flex:1 1 200px;gap:14px}
+.kfila .kpi-main .kpi-v b{font-size:32px}
+.kfila .kpi-main .kpi-pie{flex:0 1 auto;flex-direction:column;align-items:flex-end;gap:3px}
+.kfila .kmini{flex:1 1 0;justify-content:center}
+.kfila .kmini-v b{font-size:24px}
+#resumen .dests{margin-top:10px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px}
+#resumen .dest{padding:8px 12px;column-gap:10px}
+#resumen .dest-ic{font-size:20px}
+#resumen .dest-t{font-size:10.5px;letter-spacing:1.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#resumen .dest-v{font-size:18px;line-height:1.15}
+#resumen .dest-s{font-size:12px}
+#resumen .dest .seq{max-width:100%}
+/* la línea de tiempo del set entero */
+.lset{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 14px 6px;margin:14px 0}
+.ls-peleas{position:relative;height:24px;border-radius:7px;background:#0d1119;border:1px solid var(--line)}
+.ls-p{all:unset;box-sizing:border-box;position:absolute;top:0;bottom:0;cursor:pointer;display:grid;place-items:center;
+  font:700 10.5px/1 var(--mono);color:rgba(255,255,255,.72);border-right:1px solid #0a0d15;overflow:hidden}
+.ls-p.g1{background:linear-gradient(180deg,rgba(255,61,87,.5),rgba(255,61,87,.2))}
+.ls-p.g2{background:linear-gradient(180deg,rgba(55,200,255,.46),rgba(55,200,255,.18))}
+.ls-p.g0{background:linear-gradient(180deg,rgba(148,166,204,.34),rgba(148,166,204,.12))}
+.ls-p:hover{filter:brightness(1.35);color:#fff}
+.ls-p:focus-visible,.tl-p:focus-visible{outline:2px solid var(--ink);outline-offset:1px}
+#video{margin-bottom:6px}
+/* peleas: la tira es el selector, con el marcador de cada pelea dentro */
+.ts-bar{height:28px}
+.ts-seg b{margin-right:5px;font-size:11px}
+.ts-r{font:600 11px/1 var(--mono);opacity:.9}
+.tset{margin-bottom:12px}
+/* el título de la pelea, en una sola línea */
+.pd-cab{flex-wrap:nowrap;padding:8px 10px;gap:10px;align-items:center}
+.pd-nav{width:30px;height:30px}
+.pd-n{font-size:15px;white-space:nowrap}
+.pd-pj{flex:1 1 auto;min-width:0;font-size:13px;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pd-res{margin-left:auto;white-space:nowrap;display:flex;align-items:baseline;gap:7px}
+.pd-marc{font-size:19px;margin-left:2px}
+@media (max-width:760px){
+  .kfila{flex-wrap:wrap}
+  .kfila .kpi-main{flex-basis:100%}
+  .kfila .kpi-main .kpi-pie{align-items:flex-start;flex-direction:row;flex-wrap:wrap}
+  .pd-cab{flex-wrap:nowrap}
+  .pd-pj,.pd-set{display:none}
+  .pd-res{order:0;width:auto}
+  .pd-marc{margin-left:2px}
+  .lset .chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+}
+.ts-seg{display:flex;align-items:center;justify-content:center;gap:4px;white-space:nowrap;overflow:hidden}
+.lset .chip{flex:none}
+@media (max-width:760px){
+  #resumen .dests{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  #resumen .dest{grid-template-columns:1fr;padding:8px 10px}
+  #resumen .dest-ic{display:none}
+  .lset{padding:8px 10px 4px}
+  .lset .tl-eje span:nth-child(even){display:none}
+}

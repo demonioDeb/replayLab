@@ -9,6 +9,11 @@ que se hizo el cambio, no las de publicación.
 ## 2026-09-24
 
 ### Cambiado
+- **Ficha, 2.ª pasada.** Orden: cabecera (más baja) → barra → resumen en dos filas
+  horizontales (`.kfila`, momentos en fila) → **línea de tiempo del set** (`lineaSet()`: tramos
+  de pelea + todos los momentos; clic = `salta(t − 2 s)` y el vídeo se trae a la vista) →
+  vídeo → peleas → análisis. Fuera `listaPeleas()`: la tira lleva número y marcador. Título
+  de la pelea en una línea. Los filtros de momentos valen en las dos líneas de tiempo.
 - **Ficha: jerarquía y densidad** (`video.html`). Cabecera → barra de secciones que se
   queda fija y enseña jugadores y marcador (`vigilaNav()`, `marcaSeccion()`) → vídeo con el
   resumen al lado en pantalla ancha (`.arriba`; sin vídeo, una columna) → peleas → análisis.

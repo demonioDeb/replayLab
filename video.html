@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Partida · replayLab">
 <meta name="twitter:description" content="Una partida de Fightcade analizada: rondas, daño, tiempos y momentos, leídos de la propia partida.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=bcb1278596">
+<link rel="stylesheet" href="assets/estilo.css?v=956b8e1936">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -37,8 +37,11 @@
     <p class="vacio" id="cargando"></p>
     <div id="cab"></div>
     <div id="secnav-caja"></div>
-    <!-- lo primero que se ve: el vídeo y, al lado, quién hizo más y lo más interesante -->
-    <div class="arriba" id="arriba"><div id="video"></div><div id="resumen-caja"></div></div>
+    <!-- resumen en horizontal → línea de tiempo de TODO el set (pulsar un momento lo pone en
+         el vídeo) → el vídeo → peleas → análisis -->
+    <div id="resumen-caja"></div>
+    <div id="tlset"></div>
+    <div id="video"></div>
     <div id="resto"></div>
     <div id="apoyo"></div>
   </div>
@@ -90,7 +93,12 @@ function cargaApi() {
 }
 function salta(t) {
   t = Math.max(0, t);
-  if (REPRO && LISTO && REPRO.seekTo) { REPRO.seekTo(t, true); REPRO.playVideo(); }
+  if (REPRO && LISTO && REPRO.seekTo) {
+    REPRO.seekTo(t, true); REPRO.playVideo();
+    // si el vídeo no está a la vista, se lleva a la vista: se pulsa un momento y se VE
+    const v = $("#video"), q = v && v.getBoundingClientRect();
+    if (q && (q.top < 70 || q.bottom > innerHeight)) v.scrollIntoView({ behavior: "smooth", block: "center" });
+  }
   else if (F && F.youtube) window.open(`https://youtu.be/${F.youtube}?t=${Math.floor(t)}`, "_blank");
 }
 
@@ -215,8 +223,8 @@ function resumen() {
   if (D.stun && (a.mareos || 0) + (b.mareos || 0))
     tarjeta("💫", T("st_dizzies"), `<span class="a">${a.mareos || 0}</span> · <span class="b">${b.mareos || 0}</span>`, "");
 
-  return `<div class="kpis2">${dano}${minis.length ? `<div class="kminis n${minis.length}">${minis.join("")}</div>` : ""}</div>`
-    + (dest.length ? `<h3 class="sub-t">${esc(T("r_destacados"))}</h3><div class="dests">${dest.slice(0, 4).join("")}</div>` : "");
+  return `<div class="kfila">${dano}${minis.join("")}</div>`
+    + (dest.length ? `<div class="dests" aria-label="${esc(T("r_destacados"))}">${dest.slice(0, 4).join("")}</div>` : "");
 }
 
 /* ================================================================ 2 · PELEAS
@@ -238,32 +246,62 @@ const durPelea = p => Math.max(0, (p.fin || p.t || 0) - (p.t || 0));
    de quien la ganó. Se entiende el set entero de un vistazo y se puede pulsar. */
 function tiraSet() {
   const ps = F.peleas || [];
-  if (ps.length < 2) return "";
+  if (!ps.length) return "";
   const tot = ps.reduce((a, p) => a + Math.max(1, durPelea(p)), 0);
   const segs = ps.map((p, i) => {
     const w = Math.max(1, durPelea(p)) * 100 / tot;
     return `<button class="ts-seg g${p.ganador || 0}" data-pelea="${i}" aria-pressed="${i === PELEA}"
       style="flex-grow:${w.toFixed(3)}"
       title="${esc(T("pelea"))} ${p.n} · ${esc(p.ganador ? nombre(p.ganador) : T("empate"))} · ${mmss(durPelea(p))}"
-      >${w > 3.5 ? p.n : ""}</button>`;
+      >${w > 7 ? `<b>${p.n}</b><span class="ts-r">${rondasDe(p).join("–")}</span>` : w > 3.5 ? p.n : ""}</button>`;
   }).join("");
-  return `<div class="tset"><div class="ts-bar">${segs}</div>
-    <div class="ts-eje"><span>${esc(T("pelea"))} 1</span><span>${esc(T("p_set_tl"))}</span>
-      <span>${esc(T("pelea"))} ${ps[ps.length - 1].n}</span></div></div>`;
+  return `<div class="tset"><div class="ts-bar" role="tablist" aria-label="${esc(T("s_peleas"))}">${segs}</div></div>`;
 }
 
-/* ---- la lista: una baldosa por pelea. Arriba el número, en medio las rondas de ESA
-   pelea, abajo cómo iba el set después. El borde lleva el color del ganador. */
-function listaPeleas() {
+/* ---- la línea de tiempo de TODO el set: las peleas como tramos y encima todos los
+   momentos. Se pulsa un momento y el vídeo salta ahí (un par de segundos antes, para ver
+   de dónde viene la jugada); se pulsa una pelea y el vídeo va a su inicio. */
+const ANTES = 2;                       // segundos de margen antes de cada momento
+function lineaSet() {
   const ps = F.peleas || [];
-  const baldosas = ps.map((p, i) => {
-    const r = rondasDe(p), m = p.marcador || [0, 0];
-    return `<button class="pt g${p.ganador || 0}" data-pelea="${i}" aria-pressed="${i === PELEA}"
-      title="${esc(T("pelea"))} ${p.n} · ${esc(p.ganador ? nombre(p.ganador) + " " + T("gana") : T("empate"))} · ${mmss(durPelea(p))} · ${esc(T("s_set"))} ${m[0]}–${m[1]}">
-      <span class="pt-n">${p.n}</span>
-      <span class="pt-r"><b class="a">${r[0]}</b><i>–</i><b class="b">${r[1]}</b></span></button>`;
+  if (!ps.length) return "";
+  const ini = ps[0].t || 0, fin = Math.max(...ps.map(p => p.fin || p.t || 0), ini + 1), dur = fin - ini;
+  const X = t => pct(t - ini, dur);
+  const tramos = ps.map((p, i) => {
+    const a = X(p.t || ini), b = X(p.fin || fin), r = rondasDe(p);
+    return `<button class="ls-p g${p.ganador || 0}" data-pelea-t="${i}" data-t="${p.t}" style="left:${a}%;width:${Math.max(0.4, b - a)}%"
+      title="${esc(T("pelea"))} ${p.n} · ${esc(p.ganador ? nombre(p.ganador) + " " + T("gana") : T("empate"))} ${r[0]}–${r[1]} · ${mmss(durPelea(p))}"><span>${p.n}</span></button>`;
   }).join("");
-  return `<div class="plist${ps.length > MUCHAS ? " muchas" : ""}" id="plist" title="${esc(T("p_ley"))}">${baldosas}</div>`;
+  const moms = (F.momentos || []).filter(x => x.t >= ini && x.t <= fin).sort((a, b) => a.t - b.t);
+  const cuenta = {};
+  moms.forEach(x => { cuenta[x.tipo] = (cuenta[x.tipo] || 0) + 1; });
+  const FILAS = 4, HUECO = 0.9, ult = Array(FILAS).fill(-99);
+  let usadas = 1;
+  const puntos = moms.map(x => {
+    const px = X(x.t);
+    let f = ult.findIndex(u => px - u >= HUECO);
+    if (f < 0) f = ult.indexOf(Math.min(...ult));
+    ult[f] = px; usadas = Math.max(usadas, f + 1);
+    return `<button class="tl-p${APAGADOS.has(x.tipo) ? " oculto" : ""}" data-tipo="${x.tipo}" data-t="${Math.max(0, x.t - ANTES)}"
+      data-forma="${FORMA[x.tipo] || "circulo"}" style="left:${px}%;top:${4 + f * 13}px;--c:${colorMomento(x)}"
+      title="${esc(T(x.tipo) || x.tipo)}${x.jugador ? " · " + esc(nombre(x.jugador)) : ""} · ${mmss(x.t)}"></button>`;
+  }).join("");
+  const paso = dur <= 300 ? 60 : dur <= 900 ? 120 : dur <= 1800 ? 300 : 600;
+  const marcas = [], guias = [];
+  for (let s = 0; s <= dur + 0.01; s += paso) {
+    marcas.push(`<span style="left:${pct(s, dur)}%">${mmss(s)}</span>`);
+    if (s > 0) guias.push(`<i class="tl-g" style="left:${pct(s, dur)}%"></i>`);
+  }
+  const chips = TIPOS.filter(([tp]) => cuenta[tp]).map(([tp, forma]) =>
+    `<button class="chip" data-tipo="${tp}" data-forma="${forma}" aria-pressed="${!APAGADOS.has(tp)}"${ESPECIAL.has(tp) ? ` style="--c:var(--gold)"` : ""}>
+      <i></i>${esc(T(tp) || tp)}<span class="n">${cuenta[tp]}</span></button>`).join("");
+  return `<section class="lset" id="linea" aria-label="${esc(T("linea"))}">
+    <div class="tl-cab"><span class="tl-t">${esc(T("linea"))} · ${esc(T("s_set"))}</span><div class="chips">${chips}</div></div>
+    <div class="tl-caja">
+      <div class="ls-peleas">${tramos}</div>
+      <div class="tl-moms" style="height:${8 + usadas * 13}px">${guias.join("")}${puntos}</div>
+      <div class="tl-eje">${marcas.join("")}</div>
+    </div></section>`;
 }
 
 /* ---- la línea de tiempo de UNA pelea: un carril para las rondas, otro para los
@@ -287,7 +325,7 @@ function pistaPelea(p) {
     let f = ult.findIndex(u => px - u >= HUECO);
     if (f < 0) f = ult.indexOf(Math.min(...ult));
     ult[f] = px; usadas = Math.max(usadas, f + 1);
-    return `<button class="tl-p${APAGADOS.has(x.tipo) ? " oculto" : ""}" data-tipo="${x.tipo}" data-t="${x.t}"
+    return `<button class="tl-p${APAGADOS.has(x.tipo) ? " oculto" : ""}" data-tipo="${x.tipo}" data-t="${Math.max(0, x.t - ANTES)}"
       data-forma="${FORMA[x.tipo] || "circulo"}" style="left:${px}%;top:${4 + f * 14}px;--c:${colorMomento(x)}"
       title="${esc(T(x.tipo) || x.tipo)}${x.jugador ? " · " + esc(nombre(x.jugador)) : ""} · ${mmss(x.t)}"></button>`;
   }).join("");
@@ -355,16 +393,12 @@ function detallePelea() {
   return `<div class="pdet">
     <div class="pd-cab">
       <button class="pd-nav" data-pelea="${PELEA - 1}"${PELEA === 0 ? " disabled" : ""} aria-label="${esc(T("p_ant"))}" title="${esc(T("p_ant"))}">◀</button>
-      <div class="pd-tit">
-        <span class="pd-n">${esc(T("p_de").replace("%s", p.n).replace("%s", ps.length))}</span>
-        <span class="pd-pj">${(p.personajes || []).map(esc).join(" vs ")}</span>
-      </div>
-      <div class="pd-res">
-        ${g ? `<b style="color:${pcl(g)}">${esc(nombre(g))}</b><span>${esc(T("gana"))}</span>`
-            : `<b style="color:var(--soft)">${esc(T("empate"))}</b>`}
+      <span class="pd-n">${esc(T("p_de").replace("%s", p.n).replace("%s", ps.length))}</span>
+      <span class="pd-pj">${(p.personajes || []).map(esc).join(" vs ")}</span>
+      <span class="pd-res">${g ? `<b style="color:${pcl(g)}">${esc(nombre(g))}</b><span>${esc(T("gana"))}</span>`
+                               : `<b style="color:var(--soft)">${esc(T("empate"))}</b>`}
         <span class="pd-marc"><span class="a">${r[0]}</span>–<span class="b">${r[1]}</span></span>
-        <span class="pd-set">${esc(T("s_set"))} ${(p.marcador || [0, 0]).join("–")}</span>
-      </div>
+        <span class="pd-set">${esc(T("s_set"))} ${(p.marcador || [0, 0]).join("–")}</span></span>
       <button class="pd-nav" data-pelea="${PELEA + 1}"${PELEA >= ps.length - 1 ? " disabled" : ""} aria-label="${esc(T("p_sig"))}" title="${esc(T("p_sig"))}">▶</button>
     </div>
     <div class="pd-et">${esc(T("s_resumen"))}</div>
@@ -381,7 +415,7 @@ function detallePelea() {
 }
 
 function peleasYRondas() {
-  return tiraSet() + listaPeleas() + `<div id="pdet" class="pdet-caja">${detallePelea()}</div>`;
+  return tiraSet() + `<div id="pdet" class="pdet-caja">${detallePelea()}</div>`;
 }
 
 // Elegir una pelea: sólo se repinta el detalle, no la página entera.
@@ -627,7 +661,7 @@ function pinta() {
   PELEA = Math.min(PELEA, Math.max(0, (F.peleas || []).length - 1));
   $("#secnav-caja").innerHTML = navegacion();
   $("#resumen-caja").innerHTML = seccion("resumen", T("s_resumen"), resumen());
-  $("#arriba").classList.toggle("sin-video", !F.youtube);
+  $("#tlset").innerHTML = lineaSet();
   $("#resto").innerHTML = bloques();
   vigilaNav();
   fijaAltos();
@@ -658,13 +692,15 @@ $("#cuerpo").addEventListener("click", e => {
     const t = chip.dataset.tipo;
     if (t === "__todo") APAGADOS.clear();
     else APAGADOS.has(t) ? APAGADOS.delete(t) : APAGADOS.add(t);
-    document.querySelectorAll("#chips .chip").forEach(c => {
+    document.querySelectorAll(".chip[data-tipo]").forEach(c => {
       if (c.dataset.tipo !== "__todo") c.setAttribute("aria-pressed", String(!APAGADOS.has(c.dataset.tipo)));
     });
     document.querySelectorAll(".tl-p").forEach(m =>
       m.classList.toggle("oculto", APAGADOS.has(m.dataset.tipo)));
     return;
   }
+  const tramo = e.target.closest("[data-pelea-t]");
+  if (tramo) { eligePelea(+tramo.dataset.peleaT); salta(parseFloat(tramo.dataset.t)); return; }
   const pel = e.target.closest("[data-pelea]");
   if (pel) { eligePelea(+pel.dataset.pelea); return; }
   const tema = e.target.closest("[data-tema]");
@@ -676,7 +712,8 @@ $("#cuerpo").addEventListener("click", e => {
 $("#cuerpo").addEventListener("keydown", e => {
   if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
   const d = e.key === "ArrowRight" ? 1 : -1;
-  if (e.target.closest("#plist")) { e.preventDefault(); eligePelea(PELEA + d, true); }
+  if (e.target.closest("#plist, .ts-bar")) { e.preventDefault(); eligePelea(PELEA + d, true);
+    const t = document.querySelector(`.ts-seg[data-pelea="${PELEA}"]`); if (t && e.target.closest(".ts-bar")) t.focus(); }
   else if (e.target.closest(".atabs")) {
     e.preventDefault();
     const i = TEMAS.findIndex(t => t.id === TEMA) + d;
