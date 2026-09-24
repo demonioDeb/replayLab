@@ -832,3 +832,118 @@ footer .sp{flex:1}
 .pg-est.ok{color:var(--ok);border-color:rgba(125,252,176,.45)}
 /* portada: la tarjeta que lleva a todos los juegos */
 .tarj-juego.ver-todos .tj-mono{font-size:22px;color:var(--gold)}
+
+/* ================================================================ FICHA: JERARQUÍA (24 sep)
+   Lo que responde la pantalla, en orden: ¿quién jugó y quién ganó? (cabecera y barra fija)
+   → ¿qué fue lo más interesante? (resumen junto al vídeo) → ¿qué pasó en cada pelea? →
+   ¿qué dicen las estadísticas? Regla de color: rojo y azul = los jugadores; dorado sólo
+   para lo excepcional (perfect, remontada, ganar casi sin vida, la racha); el resto neutro. */
+#cuerpo h2{color:var(--soft)}
+#cuerpo .fsec h2{padding-top:22px;margin-bottom:12px}
+#cuerpo h2 .sub{margin-left:10px}
+#resumen-caja .a,.secnav .a{color:var(--p1l)} #resumen-caja .b,.secnav .b{color:var(--p2l)}
+
+/* la barra de secciones: al quedarse fija, enseña quién juega y el marcador */
+.secnav{align-items:center;padding:10px 0 8px}
+.secnav .sn-id{display:none;align-items:center;gap:8px;margin-right:6px;font-size:15px;white-space:nowrap}
+.secnav.fija .sn-id{display:inline-flex}
+.secnav .sn-id b{font-weight:700;max-width:160px;overflow:hidden;text-overflow:ellipsis}
+.sn-m{font:700 16px/1 var(--mono);background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:4px 8px}
+.sn-m .g{color:var(--gold)}
+.secnav a[aria-current]{color:var(--ink);border-color:var(--soft);background:var(--panel3)}
+
+/* arriba: el vídeo y, al lado, el resumen (en pantalla ancha) */
+.arriba{display:grid;grid-template-columns:minmax(0,1fr);gap:16px 20px;align-items:start}
+.arriba #resumen .fsec,.arriba section{scroll-margin-top:118px}
+@media (min-width:1100px){
+  .arriba:not(.sin-video){grid-template-columns:minmax(0,1.62fr) minmax(0,1fr)}
+  .arriba:not(.sin-video) #resumen h2{padding-top:0}
+  .arriba:not(.sin-video) .kpis2{grid-template-columns:1fr}
+  .arriba:not(.sin-video) .dests{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .arriba:not(.sin-video) .sub-t{margin-top:14px}
+}
+
+/* resumen: el daño manda, lo demás acompaña */
+.kpis2{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,2fr);gap:10px;align-items:stretch}
+.kpi-main{padding:14px 18px 12px;gap:8px}
+.kpi-main .kpi-v b{font-size:44px}
+.kpi-pie{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.kminis{display:grid;gap:8px}
+.kminis.n3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.kminis.n2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.kminis.n1{grid-template-columns:minmax(0,1fr)}
+.kmini{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px;
+  display:flex;flex-direction:column;gap:4px;min-width:0}
+.kmini .kpi-t{font-size:11px;letter-spacing:1.5px}
+.kmini-v{display:flex;align-items:baseline;justify-content:space-between;gap:6px}
+.kmini-v b{font:700 22px/1 var(--font);font-variant-numeric:tabular-nums;opacity:.55}
+.kmini-v b.lid{opacity:1}
+.kmini-v i{font-style:normal;color:var(--line2)}
+/* momentos destacados: más protagonismo, borde del color de quien lo hizo */
+.dests{grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+.dest{--c:var(--line2);border-left:3px solid var(--c);padding:12px 14px;background:linear-gradient(180deg,var(--panel2),var(--panel))}
+.dest.p1{--c:var(--p1)} .dest.p2{--c:var(--p2)}
+.dest-v{font-size:21px}
+
+/* peleas: tira fina y baldosas de una línea */
+.ts-bar{height:22px}
+.ts-seg{font-size:10.5px}
+.ts-seg.g0,.tl-r.g0{background:linear-gradient(180deg,rgba(148,166,204,.34),rgba(148,166,204,.12))}
+.dfila .t i.g0{background:linear-gradient(90deg,#3a4460,#94a6cc)}
+.ts-eje{margin-top:4px;font-size:10.5px}
+.plist{grid-template-columns:repeat(auto-fill,minmax(66px,1fr));gap:5px;margin-bottom:12px}
+.pt{flex-direction:row;justify-content:center;gap:7px;padding:5px 6px;border-top-width:2px}
+.pt.g0{--c:#94a6cc}
+.pt-r{font-size:15px}
+.pt-n{font-size:11px}
+/* detalle: resultado → resumen → desarrollo → rondas */
+.pd-et{padding:10px 14px 0;font-size:11.5px;letter-spacing:2px;text-transform:uppercase;color:var(--dim);font-weight:700}
+.pdet .fms{padding-top:8px}
+.pd-set{font-size:12px;letter-spacing:1px;color:var(--dim);margin-left:4px;text-transform:none;font-variant-numeric:tabular-nums}
+.tl-t{font-size:11.5px}
+.pdet .rondas-g{margin-top:8px}
+.fm-video{color:var(--ink);background:var(--panel3);border:1px solid var(--line2)}
+.fm-video:hover{border-color:var(--soft);filter:none}
+
+/* línea de tiempo: forma = tipo de momento, color = jugador */
+.tl-p{border-radius:0}
+.tl-p[data-forma="circulo"]{border-radius:50%}
+.tl-p[data-forma="triangulo"]{clip-path:polygon(50% 0,100% 100%,0 100%);box-shadow:none;width:11px;height:11px}
+.tl-p[data-forma="rombo"]{clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);box-shadow:none;width:12px;height:12px;margin-left:-6px}
+.tl-p[data-forma="estrella"]{clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);box-shadow:none;width:14px;height:14px;margin-left:-7px}
+.tl-p[data-forma="flecha"]{clip-path:polygon(50% 0,100% 55%,70% 55%,70% 100%,30% 100%,30% 55%,0 55%);box-shadow:none;width:12px;height:12px;margin-left:-6px}
+.tl-p[data-forma="cuadro"]{border-radius:2px;width:9px;height:9px;margin-left:-4.5px}
+.chip[data-forma] i{background:var(--c,var(--soft));border-radius:0}
+.chip[data-forma="circulo"] i{border-radius:50%}
+.chip[data-forma="triangulo"] i{clip-path:polygon(50% 0,100% 100%,0 100%);width:10px;height:10px}
+.chip[data-forma="rombo"] i{clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%);width:11px;height:11px}
+.chip[data-forma="estrella"] i{clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);width:12px;height:12px}
+.chip[data-forma="flecha"] i{clip-path:polygon(50% 0,100% 55%,70% 55%,70% 100%,30% 100%,30% 55%,0 55%);width:11px;height:11px}
+.chip[data-forma="cuadro"] i{border-radius:2px}
+
+/* análisis: una sección de verdad, con sus pestañas y dos columnas en pantalla ancha */
+#analisis .atabs{justify-content:safe center;padding:4px;gap:4px;background:var(--panel);border:1px solid var(--line);
+  border-radius:999px;width:max-content;max-width:100%;margin:0 auto 12px}
+#analisis .atab{border-color:transparent;background:none;padding:8px 16px;font-size:15px}
+#analisis .atab[aria-selected="true"]{background:var(--panel3);border-color:var(--line2);box-shadow:none}
+.atab:focus-visible{outline-color:var(--soft)}
+.acols{display:grid;grid-template-columns:minmax(0,1fr);gap:4px 28px}
+.acol-mas{border-top:1px dashed var(--line2);margin-top:6px;padding-top:4px}
+.acol-mas .cmp-mas{margin:6px 0 0;padding:0;border:0;text-align:left}
+.cmp-f{padding:6px 0}
+@media (min-width:1000px){
+  .apanel{max-width:none}
+  .acols:not(.uno){grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .acols:not(.uno) .acol-mas{border-top:0;margin-top:0;padding-top:0;border-left:1px dashed var(--line2);padding-left:28px}
+  .acols.uno{max-width:760px;margin:0 auto}
+}
+@media (max-width:760px){
+  .kpis2{grid-template-columns:1fr}
+  .kpi-main .kpi-v b{font-size:34px}
+  .kminis.n3{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .kmini-v b{font-size:18px}
+  .secnav .sn-id b{max-width:90px}
+}
+/* la barra de secciones vive en su caja, pero tiene que poder quedarse fija en toda la ficha */
+#secnav-caja{display:contents}
+@media (max-width:480px){ .secnav .sn-id b{display:none} .secnav .sn-id{margin-right:2px} }

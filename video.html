@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Partida · replayLab">
 <meta name="twitter:description" content="Una partida de Fightcade analizada: rondas, daño, tiempos y momentos, leídos de la propia partida.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=72868a111a">
+<link rel="stylesheet" href="assets/estilo.css?v=bcb1278596">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -36,7 +36,9 @@
   <div id="cuerpo">
     <p class="vacio" id="cargando"></p>
     <div id="cab"></div>
-    <div id="video"></div>
+    <div id="secnav-caja"></div>
+    <!-- lo primero que se ve: el vídeo y, al lado, quién hizo más y lo más interesante -->
+    <div class="arriba" id="arriba"><div id="video"></div><div id="resumen-caja"></div></div>
     <div id="resto"></div>
     <div id="apoyo"></div>
   </div>
@@ -44,23 +46,28 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=ff3ddd79e1"></script>
+<script src="assets/app.js?v=29cf01c273"></script>
 <script>
 "use strict";
 let F = null, REPRO = null, LISTO = false;
 
-/* Cada tipo de momento con su color, para leerlos de un vistazo sin pasar el ratón.
+/* Cada tipo de momento con su FORMA; el color es del jugador que lo hizo (rojo el 1,
+   azul el 2). El dorado queda sólo para lo excepcional (perfect, remontada) y el doble KO,
+   que no es de nadie, va en gris claro. Así el color siempre significa lo mismo.
    El orden es el de la leyenda y el de los filtros. */
 const TIPOS = [
-  ["ko",        "#ff5a5a"],
-  ["combo",     "#ffcb45"],
-  ["super",     "#b06bff"],
-  ["mareo",     "#7dfcb0"],
-  ["perfect",   "#ffe58a"],
-  ["remontada", "#ff9a3d"],
-  ["doble_ko",  "#ffffff"],
+  ["ko",        "circulo"],
+  ["combo",     "triangulo"],
+  ["super",     "rombo"],
+  ["mareo",     "estrella"],
+  ["perfect",   "estrella"],
+  ["remontada", "flecha"],
+  ["doble_ko",  "cuadro"],
 ];
-const COLOR = Object.fromEntries(TIPOS);
+const FORMA = Object.fromEntries(TIPOS);
+const ESPECIAL = new Set(["perfect", "remontada"]);
+const colorMomento = x => ESPECIAL.has(x.tipo) ? "var(--gold)" : x.tipo === "doble_ko" ? "#cfd6e6"
+  : x.jugador === 1 ? "var(--p1)" : x.jugador === 2 ? "var(--p2)" : "#cfd6e6";
 // Qué da el juego de esta partida (la ficha lo trae desde la versión 7). Lo que el juego
 // no da no se enseña: en Champion Edition no hay súper, y mareos y combos todavía no
 // son datos seguros. Una ficha vieja sin `datos` es de ST, que lo da todo.
@@ -148,18 +155,6 @@ const gu = (v, suf) => (v === null || v === undefined || v === 0 || v === "") ? 
 const n0 = v => milesDe(v ?? 0);
 const pctTxt = s_ => s_.rondas_jugadas ? Math.round((s_.rondas || 0) * 100 / s_.rondas_jugadas) + "%" : "—";
 
-/* ---- tarjeta de cifra grande (resumen): el número manda, la etiqueta acompaña */
-function kpi(titulo, icono, na, nb, fmt, extra) {
-  const l = quienLidera(na, nb);
-  const d = Math.abs((na || 0) - (nb || 0));
-  const dif = l ? `<span class="kpi-dif" style="--c:${pcl(l)}">+${fmt(d)} · ${esc(nombre(l))}</span>`
-                : `<span class="kpi-dif igual">${esc(T("r_igual"))}</span>`;
-  return `<div class="kpi">
-    <span class="kpi-t">${icono ? icono + " " : ""}${esc(titulo)}</span>
-    <div class="kpi-v"><b class="a${l === 1 ? " lid" : ""}">${fmt(na || 0)}</b><b class="b${l === 2 ? " lid" : ""}">${fmt(nb || 0)}</b></div>
-    ${dif}${extra ? `<span class="kpi-x">${extra}</span>` : ""}</div>`;
-}
-
 /* ---- racha: secuencia de rondas, no una barra. ● ganada, ○ perdida, × nadie.
    La mejor racha va resaltada. */
 function secuencia(n) {
@@ -178,30 +173,38 @@ function secuencia(n) {
   }).join("") + `</span>`;
 }
 
-/* ================================================================ 1 · RESUMEN */
+/* ================================================================ 1 · RESUMEN
+   Lo que tiene que quedar claro en tres segundos: quién hizo más y lo más interesante.
+   El daño es LA cifra (grande, con la diferencia); combos, súpers y perfects van en
+   pequeño al lado. Debajo, los momentos destacados, que es donde está la historia. */
 function resumen() {
-  const [a, b] = F.stats;
-  const barrasTxt = `≈ ${(a.dano_barras ?? 0).toFixed(2)} · ${(b.dano_barras ?? 0).toFixed(2)} ${esc(T("barras"))}`;
-  const kpis = `<div class="kpis">
-    ${kpi(T("s_dano"), "💥", a.dano, b.dano, n0, barrasTxt)}
-    ${DATOS().combos ? kpi(T("s_combos"), "🔗", a.combos, b.combos, n0) : ""}
-    ${DATOS().super ? kpi(T("s_supers"), "⚡", a.supers, b.supers, n0) : ""}
-    ${kpi(T("st_perfects"), "🏆", a.perfects, b.perfects, n0)}
+  const [a, b] = F.stats, D = DATOS();
+  const l = quienLidera(a.dano, b.dano), dif = Math.abs((a.dano || 0) - (b.dano || 0));
+  const dano = `<div class="kpi kpi-main">
+    <span class="kpi-t">💥 ${esc(T("s_dano"))}</span>
+    <div class="kpi-v"><b class="a${l === 1 ? " lid" : ""}">${n0(a.dano)}</b><b class="b${l === 2 ? " lid" : ""}">${n0(b.dano)}</b></div>
+    <div class="kpi-pie">${l ? `<span class="kpi-dif" style="--c:${pcl(l)}">+${n0(dif)} · ${esc(nombre(l))}</span>`
+                            : `<span class="kpi-dif igual">${esc(T("r_igual"))}</span>`}
+      <span class="kpi-x">≈ ${(a.dano_barras ?? 0).toFixed(2)} · ${(b.dano_barras ?? 0).toFixed(2)} ${esc(T("barras"))}</span></div>
   </div>`;
+  const mini = (ic, t, na, nb) => {
+    const q = quienLidera(na, nb);
+    return `<div class="kmini"><span class="kpi-t">${ic} ${esc(t)}</span>
+      <div class="kmini-v"><b class="a${q === 1 ? " lid" : ""}">${n0(na)}</b><i>·</i><b class="b${q === 2 ? " lid" : ""}">${n0(nb)}</b></div></div>`;
+  };
+  const minis = [D.combos && mini("🔗", T("s_combos"), a.combos, b.combos),
+                 D.super && mini("⚡", T("s_supers"), a.supers, b.supers),
+                 mini("🏆", T("st_perfects"), a.perfects, b.perfects)].filter(Boolean);
 
-  // Momentos destacados: sólo lo que pasó de verdad. Si nadie remontó, no hay tarjeta
-  // de remontada (el número sigue en Análisis).
+  // Momentos destacados: sólo lo que pasó de verdad, del más jugoso al menos. El color
+  // del borde es el de quien lo hizo; si es de los dos, neutro.
   const dest = [];
-  const tarjeta = (ic, t, v, sub, n) => dest.push(`<div class="dest" ${n ? `style="--c:${pc(n)}"` : ""}>
+  const tarjeta = (ic, t, v, sub, n) => dest.push(`<div class="dest${n ? " p" + n : ""}">
       <span class="dest-ic">${ic}</span><span class="dest-t">${esc(t)}</span>
       <b class="dest-v">${v}</b>${sub ? `<span class="dest-s">${sub}</span>` : ""}</div>`);
-  if ((a.perfects || 0) + (b.perfects || 0))
-    tarjeta("🏆", T("st_perfects"), `<span class="a">${a.perfects || 0}</span> · <span class="b">${b.perfects || 0}</span>`, "");
-  if (DATOS().stun && (a.mareos || 0) + (b.mareos || 0))
-    tarjeta("💫", T("st_dizzies"), `<span class="a">${a.mareos || 0}</span> · <span class="b">${b.mareos || 0}</span>`, "");
   const rem = (a.remontada || 0) >= (b.remontada || 0) ? 1 : 2, remv = F.stats[rem - 1].remontada || 0;
   if (remv >= 20)
-    tarjeta("🔥", T("st_remontada"), esc(T("r_remontada").replace("%s", remv)), esc(nombre(rem)), rem);
+    tarjeta("🔥", T("st_remontada"), `${remv} %`, esc(nombre(rem)), rem);
   const rch = (a.racha || 0) >= (b.racha || 0) ? 1 : 2, rchv = F.stats[rch - 1].racha || 0;
   if (rchv > 1)
     tarjeta("🔗", T("st_racha"), secuencia(rch), esc(T("r_seguidas").replace("%s", rchv)) + " · " + esc(nombre(rch)), rch);
@@ -209,8 +212,11 @@ function resumen() {
   const prn = pr[0] && (!pr[1] || pr[0] <= pr[1]) ? 1 : (pr[1] ? 2 : 0);
   if (prn)
     tarjeta("⏱️", T("st_peleapida"), esc(mmss(pr[prn - 1])), esc(nombre(prn)), prn);
+  if (D.stun && (a.mareos || 0) + (b.mareos || 0))
+    tarjeta("💫", T("st_dizzies"), `<span class="a">${a.mareos || 0}</span> · <span class="b">${b.mareos || 0}</span>`, "");
 
-  return kpis + (dest.length ? `<h3 class="sub-t">${esc(T("r_destacados"))}</h3><div class="dests">${dest.join("")}</div>` : "");
+  return `<div class="kpis2">${dano}${minis.length ? `<div class="kminis n${minis.length}">${minis.join("")}</div>` : ""}</div>`
+    + (dest.length ? `<h3 class="sub-t">${esc(T("r_destacados"))}</h3><div class="dests">${dest.slice(0, 4).join("")}</div>` : "");
 }
 
 /* ================================================================ 2 · PELEAS
@@ -253,13 +259,11 @@ function listaPeleas() {
   const baldosas = ps.map((p, i) => {
     const r = rondasDe(p), m = p.marcador || [0, 0];
     return `<button class="pt g${p.ganador || 0}" data-pelea="${i}" aria-pressed="${i === PELEA}"
-      title="${esc(T("pelea"))} ${p.n} · ${esc(p.ganador ? nombre(p.ganador) + " " + T("gana") : T("empate"))} · ${mmss(durPelea(p))}">
+      title="${esc(T("pelea"))} ${p.n} · ${esc(p.ganador ? nombre(p.ganador) + " " + T("gana") : T("empate"))} · ${mmss(durPelea(p))} · ${esc(T("s_set"))} ${m[0]}–${m[1]}">
       <span class="pt-n">${p.n}</span>
-      <span class="pt-r"><b class="a">${r[0]}</b><i>–</i><b class="b">${r[1]}</b></span>
-      <span class="pt-s">${m[0]}–${m[1]}</span></button>`;
+      <span class="pt-r"><b class="a">${r[0]}</b><i>–</i><b class="b">${r[1]}</b></span></button>`;
   }).join("");
-  return `<div class="plist${ps.length > MUCHAS ? " muchas" : ""}" id="plist">${baldosas}</div>
-    <p class="pley">${esc(T("p_ley"))}</p>`;
+  return `<div class="plist${ps.length > MUCHAS ? " muchas" : ""}" id="plist" title="${esc(T("p_ley"))}">${baldosas}</div>`;
 }
 
 /* ---- la línea de tiempo de UNA pelea: un carril para las rondas, otro para los
@@ -284,7 +288,7 @@ function pistaPelea(p) {
     if (f < 0) f = ult.indexOf(Math.min(...ult));
     ult[f] = px; usadas = Math.max(usadas, f + 1);
     return `<button class="tl-p${APAGADOS.has(x.tipo) ? " oculto" : ""}" data-tipo="${x.tipo}" data-t="${x.t}"
-      style="left:${px}%;top:${4 + f * 14}px;--c:${COLOR[x.tipo] || "#fff"}"
+      data-forma="${FORMA[x.tipo] || "circulo"}" style="left:${px}%;top:${4 + f * 14}px;--c:${colorMomento(x)}"
       title="${esc(T(x.tipo) || x.tipo)}${x.jugador ? " · " + esc(nombre(x.jugador)) : ""} · ${mmss(x.t)}"></button>`;
   }).join("");
   const paso = dur <= 90 ? 15 : dur <= 240 ? 30 : 60;
@@ -293,8 +297,8 @@ function pistaPelea(p) {
     marcas.push(`<span style="left:${pct(s, dur)}%">${mmss(s)}</span>`);
     if (s > 0) guias.push(`<i class="tl-g" style="left:${pct(s, dur)}%"></i>`);
   }
-  const chips = TIPOS.filter(([tp]) => cuenta[tp]).map(([tp, c]) =>
-    `<button class="chip" data-tipo="${tp}" aria-pressed="${!APAGADOS.has(tp)}" style="--c:${c}">
+  const chips = TIPOS.filter(([tp]) => cuenta[tp]).map(([tp, forma]) =>
+    `<button class="chip" data-tipo="${tp}" data-forma="${forma}" aria-pressed="${!APAGADOS.has(tp)}"${ESPECIAL.has(tp) ? ` style="--c:var(--gold)"` : ""}>
       <i></i>${esc(T(tp) || tp)}<span class="n">${cuenta[tp]}</span></button>`).join("");
   return `<div class="tl">
       <div class="tl-cab"><span class="tl-t">${esc(T("linea"))}</span><div class="chips">${chips}</div></div>
@@ -311,10 +315,10 @@ function tarjetaRonda(r) {
   const vf = r.vida_final || [null, null];
   const como = r.motivo === "time" ? T("por_tiempo") : r.motivo === "doble_ko" ? T("doble") : T("por_ko");
   const sellos = [];
-  if (r.perfect) sellos.push([T("perfect"), COLOR.perfect]);
-  if ((r.remontada || 0) >= 50) sellos.push([T("remontada"), COLOR.remontada]);
-  if (r.ganador && vf[r.ganador - 1] === 0) sellos.push([T("r_cero"), "#ff9a3d", T("r_cero_ayuda")]);
-  else if (r.ganador && vf[r.ganador - 1] != null && vf[r.ganador - 1] <= 10) sellos.push([T("al_limite"), "#ff9a3d"]);
+  if (r.perfect) sellos.push([T("perfect"), "var(--gold)"]);
+  if ((r.remontada || 0) >= 50) sellos.push([T("remontada"), "var(--gold)"]);
+  if (r.ganador && vf[r.ganador - 1] === 0) sellos.push([T("r_cero"), "var(--gold)", T("r_cero_ayuda")]);
+  else if (r.ganador && vf[r.ganador - 1] != null && vf[r.ganador - 1] <= 10) sellos.push([T("al_limite"), "var(--gold)"]);
   if (r.sin_cierre) sellos.push([T("sin_cierre"), "#7c8aa8", T("sin_cierre_ayuda")]);
   const vida = n => {
     const v = vf[n - 1];
@@ -328,7 +332,7 @@ function tarjetaRonda(r) {
     <span class="r-cab"><span class="rn">${esc(T("ronda"))} ${r.n}</span>
       <span class="r-res">${r.ganador
         ? `<b style="color:${pcl(r.ganador)}">${esc(nombre(r.ganador))}</b>`
-        : `<b style="color:var(--gold)">${esc(T(r.motivo === "doble_ko" ? "doble" : "empate"))}</b>`}
+        : `<b style="color:var(--soft)">${esc(T(r.motivo === "doble_ko" ? "doble" : "empate"))}</b>`}
         <span class="r-como">${r.ganador ? esc(como) + " · " : ""}${r.duracion ? r.duracion + " " + esc(T("seg_reloj")) : ""}</span></span></span>
     ${vida(1)}${vida(2)}
     <span class="r-pie"><span class="r-dano">${esc(T("dano"))} <span class="a">${d[0]}</span> · <span class="b">${d[1]}</span></span>
@@ -357,11 +361,13 @@ function detallePelea() {
       </div>
       <div class="pd-res">
         ${g ? `<b style="color:${pcl(g)}">${esc(nombre(g))}</b><span>${esc(T("gana"))}</span>`
-            : `<b style="color:var(--gold)">${esc(T("empate"))}</b>`}
+            : `<b style="color:var(--soft)">${esc(T("empate"))}</b>`}
         <span class="pd-marc"><span class="a">${r[0]}</span>–<span class="b">${r[1]}</span></span>
+        <span class="pd-set">${esc(T("s_set"))} ${(p.marcador || [0, 0]).join("–")}</span>
       </div>
       <button class="pd-nav" data-pelea="${PELEA + 1}"${PELEA >= ps.length - 1 ? " disabled" : ""} aria-label="${esc(T("p_sig"))}" title="${esc(T("p_sig"))}">▶</button>
     </div>
+    <div class="pd-et">${esc(T("s_resumen"))}</div>
     <div class="fms">
       ${mini(T("s_dano"), res.dano)}${DATOS().combos ? mini(T("s_combos"), res.combos) : ""}${DATOS().super ? mini(T("s_supers"), res.supers) : ""}
       ${DATOS().stun ? mini(T("st_dizzies"), res.mareos) : ""}${pf[0] + pf[1] ? mini(T("st_perfects"), pf) : ""}
@@ -369,6 +375,7 @@ function detallePelea() {
       ${F.youtube ? `<button class="fm-video" data-t="${p.t}">▶ ${esc(T("p_video"))}</button>` : ""}
     </div>
     ${pistaPelea(p)}
+    <div class="pd-et">${esc(T("rondas_t"))}</div>
     <div class="rondas-g">${(p.rondas || []).map(tarjetaRonda).join("")}</div>
   </div>`;
 }
@@ -415,7 +422,7 @@ function pestanasAnalisis(lista) {
 }
 function panelTema() {
   const t = TEMAS.find(x => x.id === TEMA) || TEMAS[0];
-  return `<div class="acard">${nombresCmp()}${t.html}</div>`;
+  return `<div class="acard">${t.html}</div>`;
 }
 function eligeTema(id) {
   if (id === TEMA || !TEMAS.some(t => t.id === id)) return;
@@ -443,8 +450,12 @@ function analisis() {
   const bar = v => (v ?? 0).toFixed(2) + " " + esc(T("barras"));
   const mm = v => v ? esc(mmss(v)) : "—";
   // cada tema es una pestaña; se ve uno a la vez
-  const card = (id, ic, titulo, cuerpo, sub) =>
-    ({ id, ic, titulo, html: cuerpo + (sub ? `<p class="nota-sec">${esc(sub)}</p>` : "") });
+  // Dos columnas en pantalla ancha: lo mismo que el overlay a la izquierda y el detalle
+  // de la web a la derecha. Así cabe el doble sin bajar (en el móvil, una debajo de otra).
+  const card = (id, ic, titulo, principal, extra) => ({ id, ic, titulo,
+    html: `<div class="acols${extra ? "" : " uno"}"><div class="acol">${nombresCmp()}${principal}</div>`
+        + (extra ? `<div class="acol acol-mas"><div class="cmp-mas">${esc(T("mas_detalle"))}</div>${nombresCmp()}${extra}</div>` : "")
+        + `</div>` });
   // En la fila sólo la racha misma (● ● ● ● 4). La secuencia de toda la partida, con
   // la racha marcada, ya está en Momentos destacados; aquí 21 puntos no se leían.
   const racha = n => {
@@ -452,8 +463,7 @@ function analisis() {
     if (!v) return "—";
     return `<span class="seq" style="--c:${pc(n)}">${'<i class="g racha"></i>'.repeat(Math.min(v, 10))}</span><span class="seq-n">${v}</span>`;
   };
-  // Lo que el overlay no enseña va debajo, separado: la web es el análisis completo.
-  const mas = filas => filas.length ? `<div class="cmp-mas">${esc(T("mas_detalle"))}</div>` + comparar(filas) : "";
+  const mas = filas => filas.length ? comparar(filas) : "";
   const D = DATOS();
   // medias que la ficha no trae hechas: se sacan de lo que sí trae
   const porRonda = s_ => s_.rondas_jugadas ? (s_.dano_barras || 0) / s_.rondas_jugadas : null;
@@ -478,7 +488,7 @@ function analisis() {
     ...(D.super ? [[T("st_supers"), `⚡ ${a.supers ?? 0}`, `⚡ ${b.supers ?? 0}`, a.supers, b.supers]] : []),
     ...(D.stun ? [[T("st_dizzies"), a.mareos ?? 0, b.mareos ?? 0, a.mareos, b.mareos]] : []),
     ...(D.super ? [[T("st_meterfull"), gu(a.meter_full), gu(b.meter_full), a.meter_full, b.meter_full]] : []),
-  ]) + mas([
+  ]), mas([
     [T("st_recibido"), n0(a.recibido), n0(b.recibido), a.recibido, b.recibido, -1],
     [T("st_golpes"), a.golpes ?? 0, b.golpes ?? 0, a.golpes, b.golpes],
     [T("st_golpemax"), gu(a.golpe_max), gu(b.golpe_max), a.golpe_max, b.golpe_max, 1,
@@ -494,20 +504,20 @@ function analisis() {
     [T("st_kotiempo"), `${a.ko ?? 0} / ${a.timeup ?? 0}`, `${b.ko ?? 0} / ${b.timeup ?? 0}`, a.ko, b.ko],
     [T("st_racha"), racha(1), racha(2), a.racha, b.racha],
     [T("st_rapida"), segR(a.ronda_rapida), segR(b.ronda_rapida), a.ronda_rapida, b.ronda_rapida, -1],
-  ]) + mas([
+  ]) + graficaRondas(), mas([
     [T("st_peleas"), m[0], m[1], m[0], m[1]],
     [T("st_rondas"), `${a.rondas ?? 0} / ${a.rondas_jugadas ?? 0}`, `${b.rondas ?? 0} / ${b.rondas_jugadas ?? 0}`, a.rondas, b.rondas],
     [T("st_winpct"), pctTxt(a), pctTxt(b), a.rondas, b.rondas],
     [T("st_primero"), `${a.primero ?? 0} / ${a.rondas_jugadas ?? 0}`, `${b.primero ?? 0} / ${b.rondas_jugadas ?? 0}`, a.primero, b.primero],
     [T("st_limite"), a.al_limite ?? 0, b.al_limite ?? 0, a.al_limite, b.al_limite],
     [T("st_remontada"), gu(a.remontada, "%"), gu(b.remontada, "%"), a.remontada, b.remontada],
-  ]) + graficaRondas()));
+  ])));
   out.push(card("a-promedios", "📊", T("s_promedios"), comparar([
     [T("st_dmgronda"), ra == null ? "—" : bar(ra), rb == null ? "—" : bar(rb), ra, rb],
     [T("st_vida"), gu(a.vida_al_ganar, "%"), gu(b.vida_al_ganar, "%"), a.vida_al_ganar, b.vida_al_ganar],
     [T("st_duravg"), segR(a.dur_avg), segR(b.dur_avg), a.dur_avg, b.dur_avg, 0],
     [T("st_gameavg"), mm(pa), mm(pb), pa, pb, 0],
-  ]) + mas([
+  ]), mas([
     [T("st_vidaperd"), gu(a.vida_perdida_ronda, "%"), gu(b.vida_perdida_ronda, "%"), a.vida_perdida_ronda, b.vida_perdida_ronda, -1],
     [T("st_danomedio"), gu(a.dano_medio), gu(b.dano_medio), a.dano_medio, b.dano_medio],
   ])));
@@ -542,7 +552,7 @@ function fijaAltos() {
     prueba.remove();
     caja.style.minHeight = Math.ceil(alto) + "px";
   };
-  medir($("#apanel"), TEMAS.map(t => `<div class="acard">${nombresCmp()}${t.html}</div>`));
+  medir($("#apanel"), TEMAS.map(t => `<div class="acard">${t.html}</div>`));
   const ps = F.peleas || [], guarda = PELEA, htmls = [];
   for (let i = 0; i < Math.min(ps.length, 120); i++) { PELEA = i; htmls.push(detallePelea()); }
   PELEA = guarda;
@@ -566,19 +576,44 @@ function graficaRondas() {
        <span class="v">${x.d} ${esc(T("seg_reloj"))}</span></button>`).join("") + "</div>";
 }
 
-const seccion = (id, titulo, cuerpo) => `<section id="${id}" class="fsec"><h2>${esc(titulo)}</h2>${cuerpo}</section>`;
+const seccion = (id, titulo, cuerpo, sub) =>
+  `<section id="${id}" class="fsec"><h2>${esc(titulo)}${sub ? `<span class="sub">${esc(sub)}</span>` : ""}</h2>${cuerpo}</section>`;
 function bloques() {
-  return seccion("resumen", T("s_resumen"), resumen())
-       + seccion("peleas", T("s_peleas"), peleasYRondas())
-       + seccion("analisis", T("s_analisis"), analisis());
+  return seccion("peleas", T("s_peleas"), peleasYRondas())
+       + seccion("analisis", T("s_analisis_set"), analisis());
 }
 
-// Resultado → Resumen → Peleas → Análisis. La sección "Detalle técnico" (datos "del
-// emulador") se quitó el 23 sep: no venían del emulador y no eran seguros.
+// Resultado → Resumen → Peleas → Análisis. La barra se queda fija arriba al bajar y
+// entonces enseña quién juega y cómo va el set, para no perder el contexto.
 const SECCIONES = [["resumen","s_resumen"],["peleas","s_peleas"],["analisis","s_analisis"]];
 function navegacion() {
-  return `<nav class="secnav">` + SECCIONES.map(([id, t]) => `<a href="#${id}">${esc(T(t))}</a>`).join("") + `</nav>`;
+  const [a, b] = F.jugadores, m = F.marcador || [0, 0];
+  const g = m[0] === m[1] ? 0 : (m[0] > m[1] ? 1 : 2);
+  return `<nav class="secnav" id="secnav">
+    <span class="sn-id"><b class="a">${esc(a.nombre)}</b><span class="sn-m"><span class="${g === 1 ? "g" : ""}">${m[0]}</span>–<span class="${g === 2 ? "g" : ""}">${m[1]}</span></span><b class="b">${esc(b.nombre)}</b></span>`
+    + SECCIONES.map(([id, t]) => `<a href="#${id}" data-sec="${id}">${esc(T(t))}</a>`).join("") + `</nav>`;
 }
+// La barra: «fija» cuando la cabecera ya no se ve, y marca la sección en la que estás.
+let NAV_OBS = null;
+function vigilaNav() {
+  const nav = $("#secnav"), cab = $("#cab");
+  if (!nav || !cab) return;
+  if (NAV_OBS) NAV_OBS.disconnect();
+  if (window.IntersectionObserver) {
+    NAV_OBS = new IntersectionObserver(([e]) => nav.classList.toggle("fija", !e.isIntersecting), { rootMargin: "-70px 0px 0px 0px" });
+    NAV_OBS.observe(cab);
+  }
+  marcaSeccion();
+}
+function marcaSeccion() {
+  const nav = $("#secnav");
+  if (!nav) return;
+  let cual = "resumen";
+  SECCIONES.forEach(([id]) => { const el = document.getElementById(id); if (el && el.getBoundingClientRect().top < 160) cual = id; });
+  nav.querySelectorAll("a[data-sec]").forEach(x => x.toggleAttribute("aria-current", x.dataset.sec === cual));
+}
+let secRaf = 0;
+addEventListener("scroll", () => { if (!secRaf) secRaf = requestAnimationFrame(() => { secRaf = 0; marcaSeccion(); }); }, { passive: true });
 
 function pinta() {
   document.documentElement.lang = LANG;
@@ -590,7 +625,11 @@ function pinta() {
 
   $("#cab").innerHTML = cabecera();
   PELEA = Math.min(PELEA, Math.max(0, (F.peleas || []).length - 1));
-  $("#resto").innerHTML = navegacion() + bloques();
+  $("#secnav-caja").innerHTML = navegacion();
+  $("#resumen-caja").innerHTML = seccion("resumen", T("s_resumen"), resumen());
+  $("#arriba").classList.toggle("sin-video", !F.youtube);
+  $("#resto").innerHTML = bloques();
+  vigilaNav();
   fijaAltos();
   enfocaBaldosa();
 

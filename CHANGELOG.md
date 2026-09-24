@@ -9,6 +9,14 @@ que se hizo el cambio, no las de publicación.
 ## 2026-09-24
 
 ### Cambiado
+- **Ficha: jerarquía y densidad** (`video.html`). Cabecera → barra de secciones que se
+  queda fija y enseña jugadores y marcador (`vigilaNav()`, `marcaSeccion()`) → vídeo con el
+  resumen al lado en pantalla ancha (`.arriba`; sin vídeo, una columna) → peleas → análisis.
+  Resumen: daño grande con la diferencia, combos/súpers/perfects en pequeño, hasta cuatro
+  momentos. Baldosas de pelea de una línea. Detalle: resultado (con cómo iba el set) →
+  resumen → línea de tiempo → rondas. Análisis del set a dos columnas (≥1000 px).
+  Color: rojo/azul = jugadores, dorado = excepcional; en la línea de tiempo forma = tipo y
+  color = jugador. Página de 3133 a 2307 px de alto (1280 px de ancho).
 - **Overlay en tres tarjetas: Combate, Rondas y Promedios**, mismo orden en todos los juegos.
   Promedios sólo lleva medias. Salen del overlay (siguen en la web) las cifras deducidas,
   al límite, remontada y rondas ganadas.

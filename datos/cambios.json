@@ -7,6 +7,14 @@
     {
      "t": "cambiado",
      "area": [
+      "web"
+     ],
+     "es": "La ficha de cada partida, más clara y más corta: arriba quién jugó y quién ganó; al lado del vídeo, el daño en grande, combos, súpers y perfects en pequeño y los momentos destacados; al bajar, una barra fija recuerda quién juega y cómo quedó el set. Las peleas, en baldosas de una línea, y la pelea elegida ordenada en resultado, resumen, línea de tiempo y rondas. El análisis, a dos columnas en pantalla ancha. Los colores tienen significado: rojo y azul son los jugadores, el dorado sólo lo excepcional, y en la línea de tiempo cada momento tiene su forma y el color de quien lo hizo.",
+     "en": "Each match page is clearer and shorter: who played and who won at the top; next to the video, damage in large type, combos, supers and perfects in small and the highlights; when you scroll, a sticky bar keeps who's playing and the set score in view. Games in one-line tiles, and the selected game ordered as result, summary, timeline and rounds. The analysis goes two columns on wide screens. Colours mean something: red and blue are the players, gold is only for the exceptional, and on the timeline each moment has its own shape and the colour of whoever did it."
+    },
+    {
+     "t": "cambiado",
+     "area": [
       "juego"
      ],
      "juego": [
