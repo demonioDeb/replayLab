@@ -24,7 +24,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=e68b17f5f3"></script>
+<script src="assets/app.js?v=be1ccf5051"></script>
 <script>
 "use strict";
 let F = null, REPRO = null, LISTO = false;
@@ -448,6 +448,9 @@ function analisis() {
     [T("st_vidaperd"), gu(a.vida_perdida_ronda, "%"), gu(b.vida_perdida_ronda, "%"), a.vida_perdida_ronda, b.vida_perdida_ronda, -1],
     [T("st_golpes"), a.golpes ?? 0, b.golpes ?? 0, a.golpes, b.golpes],
     [T("st_danomedio"), gu(a.dano_medio), gu(b.dano_medio), a.dano_medio, b.dano_medio],
+    [T("st_golpemax"), gu(a.golpe_max), gu(b.golpe_max), a.golpe_max, b.golpe_max, 1,
+      a.golpe_max || b.golpe_max ? `≈ ${bar(a.golpe_max_barras)} · ${bar(b.golpe_max_barras)}` : ""],
+    [T("st_primero"), `${a.primero ?? 0} / ${a.rondas_jugadas ?? 0}`, `${b.primero ?? 0} / ${b.rondas_jugadas ?? 0}`, a.primero, b.primero],
   ]), true));
   const D = DATOS();
   if (D.combos) out.push(card("a-combos", "🔗", T("s_combos"), comparar([

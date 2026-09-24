@@ -1,5 +1,5 @@
 {
- "version": 7,
+ "version": 8,
  "quark": "1789616260709-1802",
  "carpeta": "20260922_RAC_Flavio_Ryu_vs_thomas_medeiros_1789616260709-1802",
  "juego": "ssf2xjr1",
@@ -1388,6 +1388,8 @@
    "dano": 2587,
    "recibido": 2294,
    "golpes": 217,
+   "golpe_max": 34,
+   "primero": 16,
    "combos": 8,
    "combo_max": 5,
    "combo_dano": 66,
@@ -1405,7 +1407,8 @@
    "vida_perdida_ronda": 72,
    "dano_barras": 17.97,
    "recibido_barras": 15.93,
-   "combo_dano_barras": 0.46
+   "combo_dano_barras": 0.46,
+   "golpe_max_barras": 0.24
   },
   {
    "meter_full": 16,
@@ -1423,6 +1426,8 @@
    "dano": 2294,
    "recibido": 2587,
    "golpes": 168,
+   "golpe_max": 38,
+   "primero": 6,
    "combos": 7,
    "combo_max": 5,
    "combo_dano": 81,
@@ -1440,7 +1445,8 @@
    "vida_perdida_ronda": 82,
    "dano_barras": 15.93,
    "recibido_barras": 17.97,
-   "combo_dano_barras": 0.56
+   "combo_dano_barras": 0.56,
+   "golpe_max_barras": 0.26
   }
  ]
 }

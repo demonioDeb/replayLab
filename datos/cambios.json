@@ -6,6 +6,22 @@
    "cambios": [
     {
      "t": "añadido",
+     "es": "En Daño: «Su golpe más fuerte» (la mayor bajada de vida de una vez) y «Rondas en que pegó primero». Se deducen del registro de golpes, así que valen en todos los juegos.",
+     "en": "In Damage: “Hardest hit” (the biggest single health drop) and “Rounds where they hit first”. They are worked out from the hit log, so they apply to every game.",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "cambiado",
+     "es": "Las tarjetas del overlay, ordenadas y sin repetir: cada columna cuenta sólo lo que hizo su jugador (fuera «daño recibido» y «veces que lo marearon», que ya son la fila de enfrente), el porcentaje va junto a las rondas ganadas y todos los juegos siguen el mismo orden. Champion Edition gana tres filas: veces que quitó vida, golpe más fuerte y rondas en que pegó primero.",
+     "en": "The overlay cards, ordered and without repeats: each column only counts what its player did (no more “damage taken” or “times dizzied”, which are already the row across), the percentage sits next to rounds won and every game follows the same order. Champion Edition gains three rows: times they took health, hardest hit and rounds where they hit first.",
+     "area": [
+      "juego"
+     ]
+    },
+    {
+     "t": "añadido",
      "es": "Street Fighter II' Champion Edition ya está en la web. Su ficha enseña sólo lo que el juego da con seguridad (daño, rondas, KO, perfects, vida, remontadas y tiempos); no hay pestañas de súpers, combos ni mareos porque CE no tiene súper y lo demás todavía no está comprobado. Las partidas de CE aparecen al subir su vídeo.",
      "en": "Street Fighter II' Champion Edition is now on the website. Its page shows only what the game reliably gives (damage, rounds, KOs, perfects, health, comebacks and times); there are no supers, combos or dizzies tabs because CE has no super and the rest isn't verified yet. CE matches appear once their video is uploaded.",
      "area": [

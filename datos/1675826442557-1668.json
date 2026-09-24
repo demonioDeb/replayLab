@@ -1,5 +1,5 @@
 {
- "version": 7,
+ "version": 8,
  "quark": "1675826442557-1668",
  "carpeta": "20260922_SuperrV_vs_yito2k_1675826442557-1668",
  "juego": "ssf2xjr1",
@@ -1395,6 +1395,8 @@
    "dano": 2233,
    "recibido": 2776,
    "golpes": 148,
+   "golpe_max": 54,
+   "primero": 7,
    "combos": 7,
    "combo_max": 5,
    "combo_dano": 75,
@@ -1412,7 +1414,8 @@
    "vida_perdida_ronda": 92,
    "dano_barras": 15.51,
    "recibido_barras": 19.28,
-   "combo_dano_barras": 0.52
+   "combo_dano_barras": 0.52,
+   "golpe_max_barras": 0.38
   },
   {
    "meter_full": 16,
@@ -1430,6 +1433,8 @@
    "dano": 2776,
    "recibido": 2233,
    "golpes": 270,
+   "golpe_max": 34,
+   "primero": 14,
    "combos": 14,
    "combo_max": 5,
    "combo_dano": 48,
@@ -1447,7 +1452,8 @@
    "vida_perdida_ronda": 74,
    "dano_barras": 19.28,
    "recibido_barras": 15.51,
-   "combo_dano_barras": 0.33
+   "combo_dano_barras": 0.33,
+   "golpe_max_barras": 0.24
   }
  ]
 }
