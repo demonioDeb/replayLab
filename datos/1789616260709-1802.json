@@ -1,10 +1,15 @@
 {
- "version": 6,
+ "version": 7,
  "quark": "1789616260709-1802",
  "carpeta": "20260922_RAC_Flavio_Ryu_vs_thomas_medeiros_1789616260709-1802",
  "juego": "ssf2xjr1",
  "juego_nombre": "Super Street Fighter II X",
  "juego_corto": "SSF2X",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": true
+ },
  "fecha": "2026-09-17",
  "youtube": "qEnX9kTTK5U",
  "titulo": "RAC | Flavio.Ryu vs thomas_medeiros | Ryu vs Ken | 5-3",

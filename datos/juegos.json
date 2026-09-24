@@ -43,8 +43,24 @@
    ],
    "anio": 1992,
    "compania": "Capcom",
+   "estado": "activo",
+   "nombre_completo": "Street Fighter II' Champion Edition",
+   "retrato": "guile"
+  },
+  {
+   "id": "sf2hf",
+   "nombre": "Street Fighter II'",
+   "subtitulo": "Hyper Fighting",
+   "corto": "HF",
+   "gameids": [
+    "sf2hf",
+    "sf2hfu",
+    "sf2hfj"
+   ],
+   "anio": 1992,
+   "compania": "Capcom",
    "estado": "proximamente",
-   "nombre_completo": "Street Fighter II' Champion Edition"
+   "nombre_completo": "Street Fighter II' Hyper Fighting"
   }
  ]
 }

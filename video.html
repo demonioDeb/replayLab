@@ -41,6 +41,10 @@ const TIPOS = [
   ["doble_ko",  "#ffffff"],
 ];
 const COLOR = Object.fromEntries(TIPOS);
+// Qué da el juego de esta partida (la ficha lo trae desde la versión 7). Lo que el juego
+// no da no se enseña: en Champion Edition no hay súper, y mareos y combos todavía no
+// son datos seguros. Una ficha vieja sin `datos` es de ST, que lo da todo.
+const DATOS = () => Object.assign({ super: true, stun: true, combos: true }, (F && F.datos) || {});
 let APAGADOS = new Set();          // tipos de momento que el usuario ha ocultado
 
 /* El reproductor se controla con la API de YouTube para poder saltar al segundo de
@@ -160,8 +164,8 @@ function resumen() {
   const barrasTxt = `≈ ${(a.dano_barras ?? 0).toFixed(2)} · ${(b.dano_barras ?? 0).toFixed(2)} ${esc(T("barras"))}`;
   const kpis = `<div class="kpis">
     ${kpi(T("s_dano"), "💥", a.dano, b.dano, n0, barrasTxt)}
-    ${kpi(T("s_combos"), "🔗", a.combos, b.combos, n0)}
-    ${kpi(T("s_supers"), "⚡", a.supers, b.supers, n0)}
+    ${DATOS().combos ? kpi(T("s_combos"), "🔗", a.combos, b.combos, n0) : ""}
+    ${DATOS().super ? kpi(T("s_supers"), "⚡", a.supers, b.supers, n0) : ""}
     ${kpi(T("st_perfects"), "🏆", a.perfects, b.perfects, n0)}
   </div>`;
 
@@ -173,7 +177,7 @@ function resumen() {
       <b class="dest-v">${v}</b>${sub ? `<span class="dest-s">${sub}</span>` : ""}</div>`);
   if ((a.perfects || 0) + (b.perfects || 0))
     tarjeta("🏆", T("st_perfects"), `<span class="a">${a.perfects || 0}</span> · <span class="b">${b.perfects || 0}</span>`, "");
-  if ((a.mareos || 0) + (b.mareos || 0))
+  if (DATOS().stun && (a.mareos || 0) + (b.mareos || 0))
     tarjeta("💫", T("st_dizzies"), `<span class="a">${a.mareos || 0}</span> · <span class="b">${b.mareos || 0}</span>`, "");
   const rem = (a.remontada || 0) >= (b.remontada || 0) ? 1 : 2, remv = F.stats[rem - 1].remontada || 0;
   if (remv >= 20)
@@ -339,8 +343,8 @@ function detallePelea() {
       <button class="pd-nav" data-pelea="${PELEA + 1}"${PELEA >= ps.length - 1 ? " disabled" : ""} aria-label="${esc(T("p_sig"))}" title="${esc(T("p_sig"))}">▶</button>
     </div>
     <div class="fms">
-      ${mini(T("s_dano"), res.dano)}${mini(T("s_combos"), res.combos)}${mini(T("s_supers"), res.supers)}
-      ${mini(T("st_dizzies"), res.mareos)}${pf[0] + pf[1] ? mini(T("st_perfects"), pf) : ""}
+      ${mini(T("s_dano"), res.dano)}${DATOS().combos ? mini(T("s_combos"), res.combos) : ""}${DATOS().super ? mini(T("s_supers"), res.supers) : ""}
+      ${DATOS().stun ? mini(T("st_dizzies"), res.mareos) : ""}${pf[0] + pf[1] ? mini(T("st_perfects"), pf) : ""}
       <div class="fm"><span class="fm-k">${esc(T("s_tiempo"))}</span><span class="fm-v"><b class="t">${mmss(durPelea(p))}</b></span></div>
       ${F.youtube ? `<button class="fm-video" data-t="${p.t}">▶ ${esc(T("p_video"))}</button>` : ""}
     </div>
@@ -445,18 +449,19 @@ function analisis() {
     [T("st_golpes"), a.golpes ?? 0, b.golpes ?? 0, a.golpes, b.golpes],
     [T("st_danomedio"), gu(a.dano_medio), gu(b.dano_medio), a.dano_medio, b.dano_medio],
   ]), true));
-  out.push(card("a-combos", "🔗", T("s_combos"), comparar([
+  const D = DATOS();
+  if (D.combos) out.push(card("a-combos", "🔗", T("s_combos"), comparar([
     [T("st_combos"), a.combos ?? 0, b.combos ?? 0, a.combos, b.combos],
     [T("st_combomax"), gu(a.combo_max, " " + esc(T("golpes"))), gu(b.combo_max, " " + esc(T("golpes"))), a.combo_max, b.combo_max],
     [T("st_combodano"), gu(a.combo_dano), gu(b.combo_dano), a.combo_dano, b.combo_dano, 1,
       a.combo_dano || b.combo_dano ? `≈ ${bar(a.combo_dano_barras)} · ${bar(b.combo_dano_barras)}` : ""],
   ]), true));
-  out.push(card("a-supers", "⚡", T("s_supers"), comparar([
+  if (D.super) out.push(card("a-supers", "⚡", T("s_supers"), comparar([
     [T("st_supers"), `⚡ ${a.supers ?? 0}`, `⚡ ${b.supers ?? 0}`, a.supers, b.supers],
     [T("st_meterfull"), gu(a.meter_full), gu(b.meter_full), a.meter_full, b.meter_full],
     [T("st_supernom"), esc(ja.super || "—"), esc(jb.super || "—"), 0, 0, 0],
   ]), true));
-  out.push(card("a-mareos", "💫", T("s_mareos"), comparar([
+  if (D.stun) out.push(card("a-mareos", "💫", T("s_mareos"), comparar([
     [T("st_dizzies"), a.mareos ?? 0, b.mareos ?? 0, a.mareos, b.mareos],
     [T("st_mareado"), gu(a.mareado_veces), gu(b.mareado_veces), a.mareado_veces, b.mareado_veces, -1],
     [T("st_stuntime"), seg(a.stun_seg), seg(b.stun_seg), a.stun_seg, b.stun_seg, -1],

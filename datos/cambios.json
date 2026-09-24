@@ -2,6 +2,53 @@
  "nota": "Resumen por día de lo que se hizo y lo que se descubrió. Lo escribe a mano quien trabaja en el proyecto; no se genera solo. Cada cambio lleva 'area': 'web' (lo que se ve en replayLab) y/o 'juego' (overlay, grabación, lo descubierto del juego, YouTube), y si es de juego, 'juego' con su id de datos/juegos.json.",
  "dias": [
   {
+   "fecha": "2026-09-24",
+   "cambios": [
+    {
+     "t": "añadido",
+     "es": "Street Fighter II' Champion Edition ya está en la web. Su ficha enseña sólo lo que el juego da con seguridad (daño, rondas, KO, perfects, vida, remontadas y tiempos); no hay pestañas de súpers, combos ni mareos porque CE no tiene súper y lo demás todavía no está comprobado. Las partidas de CE aparecen al subir su vídeo.",
+     "en": "Street Fighter II' Champion Edition is now on the website. Its page shows only what the game reliably gives (damage, rounds, KOs, perfects, health, comebacks and times); there are no supers, combos or dizzies tabs because CE has no super and the rest isn't verified yet. CE matches appear once their video is uploaded.",
+     "area": [
+      "web"
+     ],
+     "juego": "sf2ce"
+    },
+    {
+     "t": "añadido",
+     "es": "Street Fighter II' Hyper Fighting, en «Próximamente».",
+     "en": "Street Fighter II' Hyper Fighting, under “Coming soon”.",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "cambiado",
+     "es": "Cada partida sabe qué datos da su juego: lo que un juego no mide no sale como un cero.",
+     "en": "Each match knows which data its game gives: whatever a game doesn't measure no longer shows up as a zero.",
+     "area": [
+      "web"
+     ]
+    },
+    {
+     "t": "cambiado",
+     "es": "Overlay igual en todos los juegos: mismas tarjetas, mismo orden y la misma separación; el historial de inputs llena lo que sobra. Cada juego tiene su propia lista de eventos en pantalla.",
+     "en": "Same overlay in every game: same cards, same order and the same spacing; the input history fills the rest. Each game has its own list of on-screen events.",
+     "area": [
+      "juego"
+     ]
+    },
+    {
+     "t": "hallazgo",
+     "es": "Perfect en Champion Edition comprobado contra el vídeo (M. Bison, ronda de 24 s de reloj, vida llena).",
+     "en": "Perfect in Champion Edition checked against the video (M. Bison, a 24-clock-second round, full health).",
+     "area": [
+      "juego"
+     ],
+     "juego": "sf2ce"
+    }
+   ]
+  },
+  {
    "fecha": "2026-09-23",
    "cambios": [
     {

@@ -1,10 +1,15 @@
 {
- "version": 6,
+ "version": 7,
  "quark": "1675826442557-1668",
  "carpeta": "20260922_SuperrV_vs_yito2k_1675826442557-1668",
  "juego": "ssf2xjr1",
  "juego_nombre": "Super Street Fighter II X",
  "juego_corto": "SSF2X",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": true
+ },
  "fecha": "2023-02-08",
  "youtube": "HyNpBReKzPM",
  "titulo": "SuperrV vs _yito2k_ | Balrog vs Dhalsim | 3-5",

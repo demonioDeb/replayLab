@@ -48,7 +48,7 @@ function pintaFiltro(todas) {
   const chip = (id, texto, n) =>
     `<button data-j="${esc(id)}" aria-pressed="${FILTRO === id}">${esc(texto)}<span class="n">${n}</span></button>`;
   el.innerHTML = chip("", T("p_todos"), todas.length) +
-    conPartidas.map(j => chip(j.id, j.nombre, todas.filter(v => juegoDe(v) === j).length)).join("");
+    conPartidas.map(j => chip(j.id, j.nombre_completo || j.nombre, todas.filter(v => juegoDe(v) === j).length)).join("");
 }
 
 function pinta() {
