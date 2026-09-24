@@ -9,6 +9,11 @@ que se hizo el cambio, no las de publicación.
 ## 2026-09-24
 
 ### Cambiado
+- **Ficha, 3.ª pasada.** Fuera la barra de secciones (`navegacion()`, `vigilaNav()`) y el
+  título «Resumen». `carrusel()` + `estadoCarruseles()` + `aLaVista()`: la tira de peleas
+  (tramos de 54 px mínimo, número y marcador siempre) y las pestañas del análisis se
+  desplazan con ◀ ▶. «Análisis del set» y las pestañas en una línea (`.sec-cab`), pestañas
+  planas. Fuera `fijaAltos()` (dejaba el hueco entre Peleas y Análisis): ahora `sinSalto()`.
 - **Ficha, 2.ª pasada.** Orden: cabecera (más baja) → barra → resumen en dos filas
   horizontales (`.kfila`, momentos en fila) → **línea de tiempo del set** (`lineaSet()`: tramos
   de pelea + todos los momentos; clic = `salta(t − 2 s)` y el vídeo se trae a la vista) →

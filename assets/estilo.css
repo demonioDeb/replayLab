@@ -1019,3 +1019,29 @@ footer .sp{flex:1}
   .lset{padding:8px 10px 4px}
   .lset .tl-eje span:nth-child(even){display:none}
 }
+
+/* ================================================================ FICHA, 3.ª pasada (24 sep)
+   Sin la barra Resumen/Peleas/Análisis ni el título «Resumen»; la tira de peleas y las
+   pestañas del análisis son carruseles con una flecha a cada lado. */
+#resumen.sin-tit{padding-top:4px}
+.carrusel{display:flex;align-items:center;gap:6px;min-width:0}
+.car-pista{flex:1 1 auto;min-width:0;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;display:flex;scroll-behavior:smooth}
+.car-pista::-webkit-scrollbar{display:none}
+.car-f{all:unset;box-sizing:border-box;cursor:pointer;flex:none;width:30px;height:30px;display:grid;place-items:center;
+  border-radius:8px;background:var(--panel2);border:1px solid var(--line);color:var(--soft);font-size:11px}
+.car-f:not([disabled]):hover{border-color:var(--line2);color:var(--ink);background:var(--panel3)}
+.car-f[disabled]{opacity:.28;cursor:default}
+.car-f:focus-visible{outline:2px solid var(--soft);outline-offset:2px}
+/* la tira de peleas: cada tramo como mínimo lo bastante ancho para leerse; si no caben, se desplaza */
+.tset .ts-bar{height:30px;border-radius:8px;gap:0}
+.tset .ts-seg{min-width:54px}
+.tset.una .car-f{display:none}
+/* «Análisis del set» y sus pestañas en la misma línea; pestañas planas, sin caja alrededor */
+.sec-cab{display:flex;align-items:center;gap:10px 18px;flex-wrap:wrap;padding-top:22px;margin-bottom:12px}
+#cuerpo .sec-cab h2{padding:0;margin:0;flex:none}
+.sec-cab .carrusel{flex:1 1 320px}
+.sec-cab .car-pista{flex:0 1 auto}
+#analisis .atabs{background:none;border:0;border-radius:0;padding:0;margin:0;width:auto;max-width:none;gap:6px;justify-content:flex-start}
+#analisis .atab{border:1px solid var(--line);background:var(--panel);padding:6px 13px;font-size:14px;box-shadow:none}
+#analisis .atab:hover{border-color:var(--line2);color:var(--ink)}
+#analisis .atab[aria-selected="true"]{background:var(--panel3);border-color:var(--soft);color:var(--ink);box-shadow:none}

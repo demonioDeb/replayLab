@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Partida · replayLab">
 <meta name="twitter:description" content="Una partida de Fightcade analizada: rondas, daño, tiempos y momentos, leídos de la propia partida.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=956b8e1936">
+<link rel="stylesheet" href="assets/estilo.css?v=5847ad92fa">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -36,7 +36,6 @@
   <div id="cuerpo">
     <p class="vacio" id="cargando"></p>
     <div id="cab"></div>
-    <div id="secnav-caja"></div>
     <!-- resumen en horizontal → línea de tiempo de TODO el set (pulsar un momento lo pone en
          el vídeo) → el vídeo → peleas → análisis -->
     <div id="resumen-caja"></div>
@@ -49,7 +48,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=29cf01c273"></script>
+<script src="assets/app.js?v=53d960e98d"></script>
 <script>
 "use strict";
 let F = null, REPRO = null, LISTO = false;
@@ -242,6 +241,34 @@ const rondasDe = p => {
 };
 const durPelea = p => Math.max(0, (p.fin || p.t || 0) - (p.t || 0));
 
+/* ---- carrusel: una fila que puede ser más larga que la pantalla (un FT100 tiene hasta
+   ~200 peleas; el análisis puede tener más pestañas) con una flecha a cada lado que la
+   desplaza. Si todo cabe, las flechas se quedan apagadas. */
+const carrusel = (clase, dentro, etiqueta) => `<div class="carrusel">
+    <button class="car-f" data-car="-1" aria-label="${esc(T("car_izq"))}" title="${esc(T("car_izq"))}" disabled>◀</button>
+    <div class="car-pista ${clase}" role="tablist" aria-label="${esc(etiqueta)}">${dentro}</div>
+    <button class="car-f" data-car="1" aria-label="${esc(T("car_der"))}" title="${esc(T("car_der"))}" disabled>▶</button></div>`;
+function estadoCarruseles() {
+  document.querySelectorAll(".carrusel").forEach(c => {
+    const p = c.querySelector(".car-pista"), [a, b] = c.querySelectorAll(".car-f");
+    if (!p) return;
+    const max = p.scrollWidth - p.clientWidth;
+    c.classList.toggle("desborda", max > 1);
+    a.disabled = p.scrollLeft <= 1;
+    b.disabled = p.scrollLeft >= max - 1;
+  });
+}
+// deja a la vista, dentro de su carrusel, el elemento elegido (sin mover la página)
+function aLaVista(el) {
+  const p = el && el.closest(".car-pista");
+  if (!p) return;
+  const i = el.offsetLeft - p.offsetLeft, f = i + el.offsetWidth;
+  if (i < p.scrollLeft) p.scrollLeft = i - 8;
+  else if (f > p.scrollLeft + p.clientWidth) p.scrollLeft = f - p.clientWidth + 8;
+}
+addEventListener("resize", () => estadoCarruseles());
+document.addEventListener("scroll", e => { if (e.target.classList && e.target.classList.contains("car-pista")) estadoCarruseles(); }, true);
+
 /* ---- la tira del set: cada pelea es un tramo tan ancho como lo que duró, del color
    de quien la ganó. Se entiende el set entero de un vistazo y se puede pulsar. */
 function tiraSet() {
@@ -253,9 +280,9 @@ function tiraSet() {
     return `<button class="ts-seg g${p.ganador || 0}" data-pelea="${i}" aria-pressed="${i === PELEA}"
       style="flex-grow:${w.toFixed(3)}"
       title="${esc(T("pelea"))} ${p.n} · ${esc(p.ganador ? nombre(p.ganador) : T("empate"))} · ${mmss(durPelea(p))}"
-      >${w > 7 ? `<b>${p.n}</b><span class="ts-r">${rondasDe(p).join("–")}</span>` : w > 3.5 ? p.n : ""}</button>`;
+      ><b>${p.n}</b><span class="ts-r">${rondasDe(p).join("–")}</span></button>`;
   }).join("");
-  return `<div class="tset"><div class="ts-bar" role="tablist" aria-label="${esc(T("s_peleas"))}">${segs}</div></div>`;
+  return `<div class="tset${ps.length > 1 ? "" : " una"}">${carrusel("ts-bar", segs, T("s_peleas"))}</div>`;
 }
 
 /* ---- la línea de tiempo de TODO el set: las peleas como tramos y encima todos los
@@ -425,7 +452,8 @@ function eligePelea(i, desdeTeclado) {
   PELEA = i;
   document.querySelectorAll("[data-pelea].pt, [data-pelea].ts-seg").forEach(b =>
     b.setAttribute("aria-pressed", String(+b.dataset.pelea === PELEA)));
-  $("#pdet").innerHTML = detallePelea();
+  sinSalto(() => { $("#pdet").innerHTML = detallePelea(); }, ".ts-bar");
+  aLaVista(document.querySelector('.ts-seg[aria-pressed="true"]'));
   enfocaBaldosa(desdeTeclado);
   recuerdaUrl();
 }
@@ -452,7 +480,8 @@ function pestanasAnalisis(lista) {
   if (!TEMAS.some(t => t.id === TEMA)) TEMA = TEMAS[0].id;
   const tabs = TEMAS.map(t => `<button class="atab" role="tab" data-tema="${t.id}" aria-selected="${t.id === TEMA}">
       <span aria-hidden="true">${t.ic}</span> ${esc(t.titulo)}</button>`).join("");
-  return `<div class="atabs" role="tablist">${tabs}</div><div class="apanel" id="apanel">${panelTema()}</div>`;
+  return `<div class="sec-cab"><h2>${esc(T("s_analisis_set"))}</h2>${carrusel("atabs", tabs, T("s_analisis_set"))}</div>
+    <div class="apanel" id="apanel">${panelTema()}</div>`;
 }
 function panelTema() {
   const t = TEMAS.find(x => x.id === TEMA) || TEMAS[0];
@@ -462,7 +491,8 @@ function eligeTema(id) {
   if (id === TEMA || !TEMAS.some(t => t.id === id)) return;
   TEMA = id;
   document.querySelectorAll(".atab").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tema === TEMA)));
-  $("#apanel").innerHTML = panelTema();
+  sinSalto(() => { $("#apanel").innerHTML = panelTema(); }, ".atabs");
+  aLaVista(document.querySelector('.atab[aria-selected="true"]'));
   recuerdaUrl();
 }
 
@@ -569,32 +599,6 @@ function peleaMedia(n) {
   return ds.length ? Math.round(ds.reduce((x, y) => x + y, 0) / ds.length) : null;
 }
 
-/* ---- sin saltos al cambiar de pestaña o de pelea. Cada pestaña y cada pelea tienen su
-   alto; al cambiar, la página crecía o encogía y, si estabas cerca del final, el
-   navegador te subía de golpe (y el pie y la franja del café bailaban). Se miden todas
-   fuera de la vista y la caja se queda con el alto de la más alta. */
-function fijaAltos() {
-  const medir = (caja, htmls) => {
-    if (!caja || !htmls.length) return;
-    const prueba = document.createElement("div");
-    prueba.className = caja.className;
-    prueba.setAttribute("aria-hidden", "true");
-    prueba.style.cssText = `position:absolute;visibility:hidden;pointer-events:none;left:-99999px;top:0;width:${caja.getBoundingClientRect().width}px`;
-    caja.parentNode.appendChild(prueba);
-    let alto = 0;
-    htmls.forEach(h => { prueba.innerHTML = h; alto = Math.max(alto, prueba.getBoundingClientRect().height); });
-    prueba.remove();
-    caja.style.minHeight = Math.ceil(alto) + "px";
-  };
-  medir($("#apanel"), TEMAS.map(t => `<div class="acard">${t.html}</div>`));
-  const ps = F.peleas || [], guarda = PELEA, htmls = [];
-  for (let i = 0; i < Math.min(ps.length, 120); i++) { PELEA = i; htmls.push(detallePelea()); }
-  PELEA = guarda;
-  medir($("#pdet"), htmls);
-}
-let altosT = 0;
-addEventListener("resize", () => { clearTimeout(altosT); altosT = setTimeout(() => F && fijaAltos(), 120); });
-
 // Duración de cada ronda: aquí la barra compara magnitudes (cuánto duró cada una) y
 // además sirve para saltar al vídeo. Va plegada dentro de Tiempo, no a la vista.
 function graficaRondas() {
@@ -614,40 +618,8 @@ const seccion = (id, titulo, cuerpo, sub) =>
   `<section id="${id}" class="fsec"><h2>${esc(titulo)}${sub ? `<span class="sub">${esc(sub)}</span>` : ""}</h2>${cuerpo}</section>`;
 function bloques() {
   return seccion("peleas", T("s_peleas"), peleasYRondas())
-       + seccion("analisis", T("s_analisis_set"), analisis());
+       + `<section id="analisis" class="fsec">${analisis()}</section>`;
 }
-
-// Resultado → Resumen → Peleas → Análisis. La barra se queda fija arriba al bajar y
-// entonces enseña quién juega y cómo va el set, para no perder el contexto.
-const SECCIONES = [["resumen","s_resumen"],["peleas","s_peleas"],["analisis","s_analisis"]];
-function navegacion() {
-  const [a, b] = F.jugadores, m = F.marcador || [0, 0];
-  const g = m[0] === m[1] ? 0 : (m[0] > m[1] ? 1 : 2);
-  return `<nav class="secnav" id="secnav">
-    <span class="sn-id"><b class="a">${esc(a.nombre)}</b><span class="sn-m"><span class="${g === 1 ? "g" : ""}">${m[0]}</span>–<span class="${g === 2 ? "g" : ""}">${m[1]}</span></span><b class="b">${esc(b.nombre)}</b></span>`
-    + SECCIONES.map(([id, t]) => `<a href="#${id}" data-sec="${id}">${esc(T(t))}</a>`).join("") + `</nav>`;
-}
-// La barra: «fija» cuando la cabecera ya no se ve, y marca la sección en la que estás.
-let NAV_OBS = null;
-function vigilaNav() {
-  const nav = $("#secnav"), cab = $("#cab");
-  if (!nav || !cab) return;
-  if (NAV_OBS) NAV_OBS.disconnect();
-  if (window.IntersectionObserver) {
-    NAV_OBS = new IntersectionObserver(([e]) => nav.classList.toggle("fija", !e.isIntersecting), { rootMargin: "-70px 0px 0px 0px" });
-    NAV_OBS.observe(cab);
-  }
-  marcaSeccion();
-}
-function marcaSeccion() {
-  const nav = $("#secnav");
-  if (!nav) return;
-  let cual = "resumen";
-  SECCIONES.forEach(([id]) => { const el = document.getElementById(id); if (el && el.getBoundingClientRect().top < 160) cual = id; });
-  nav.querySelectorAll("a[data-sec]").forEach(x => x.toggleAttribute("aria-current", x.dataset.sec === cual));
-}
-let secRaf = 0;
-addEventListener("scroll", () => { if (!secRaf) secRaf = requestAnimationFrame(() => { secRaf = 0; marcaSeccion(); }); }, { passive: true });
 
 function pinta() {
   document.documentElement.lang = LANG;
@@ -659,12 +631,12 @@ function pinta() {
 
   $("#cab").innerHTML = cabecera();
   PELEA = Math.min(PELEA, Math.max(0, (F.peleas || []).length - 1));
-  $("#secnav-caja").innerHTML = navegacion();
-  $("#resumen-caja").innerHTML = seccion("resumen", T("s_resumen"), resumen());
+  $("#resumen-caja").innerHTML = `<section id="resumen" class="fsec sin-tit" aria-label="${esc(T("s_resumen"))}">${resumen()}</section>`;
   $("#tlset").innerHTML = lineaSet();
   $("#resto").innerHTML = bloques();
-  vigilaNav();
-  fijaAltos();
+  estadoCarruseles();
+  aLaVista(document.querySelector('.ts-seg[aria-pressed="true"]'));
+  aLaVista(document.querySelector('.atab[aria-selected="true"]'));
   enfocaBaldosa();
 
   if (!$("#video").dataset.hecho) {
@@ -699,6 +671,12 @@ $("#cuerpo").addEventListener("click", e => {
       m.classList.toggle("oculto", APAGADOS.has(m.dataset.tipo)));
     return;
   }
+  const flecha = e.target.closest("[data-car]");
+  if (flecha) {
+    const p = flecha.parentNode.querySelector(".car-pista");
+    p.scrollBy({ left: +flecha.dataset.car * Math.max(120, p.clientWidth * 0.8), behavior: "smooth" });
+    return;
+  }
   const tramo = e.target.closest("[data-pelea-t]");
   if (tramo) { eligePelea(+tramo.dataset.peleaT); salta(parseFloat(tramo.dataset.t)); return; }
   const pel = e.target.closest("[data-pelea]");
@@ -714,7 +692,7 @@ $("#cuerpo").addEventListener("keydown", e => {
   const d = e.key === "ArrowRight" ? 1 : -1;
   if (e.target.closest("#plist, .ts-bar")) { e.preventDefault(); eligePelea(PELEA + d, true);
     const t = document.querySelector(`.ts-seg[data-pelea="${PELEA}"]`); if (t && e.target.closest(".ts-bar")) t.focus(); }
-  else if (e.target.closest(".atabs")) {
+  else if (e.target.closest(".atabs") && !e.target.closest("[data-car]")) {
     e.preventDefault();
     const i = TEMAS.findIndex(t => t.id === TEMA) + d;
     if (TEMAS[i]) { eligeTema(TEMAS[i].id); document.querySelector(`.atab[data-tema="${TEMA}"]`).focus(); }
