@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Partida · replayLab">
 <meta name="twitter:description" content="Una partida de Fightcade analizada: rondas, daño, tiempos y momentos, leídos de la propia partida.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=b1e1219015">
+<link rel="stylesheet" href="assets/estilo.css?v=9c73b0873d">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -208,10 +208,24 @@ function tiraSet() {
 }
 
 /* ---- la línea de tiempo de TODO el set: las peleas como tramos y encima todos los
-   momentos. Se pulsa un momento y el vídeo salta ahí (un par de segundos antes, para ver
-   de dónde viene la jugada); se pulsa una pelea y el vídeo va a su inicio. Los filtros son
+   momentos. Es el mando rápido del vídeo:
+   · se pulsa un momento → el vídeo salta ahí (un par de segundos antes, para ver de dónde
+     viene la jugada); se pulsa una pelea → la elige y el vídeo va a su inicio;
+   · se pulsa cualquier otro punto de la línea → el vídeo va a ese segundo;
+   · un cabezal dorado dice por dónde va el vídeo y la pelea que se está viendo lleva una
+     raya dorada; con el ratón, una guía enseña el minuto que hay debajo.
+   Si no caben las peleas o los momentos (un set largo, o el móvil), la línea se hace más
+   ancha que la pantalla y se mueve con ◀ ▶, como la tira de peleas. Los filtros son
    leyenda: sin contadores, que ya están en las estadísticas. */
 const ANTES = 2;                       // segundos de margen antes de cada momento
+const LS_PELEA = 46, LS_SEG = 0.9;     // px mínimos por pelea y por segundo de vídeo
+const hms = s => {
+  s = Math.max(0, Math.round(s));
+  return s < 3600 ? mmss(s)
+    : Math.floor(s / 3600) + ":" + String(Math.floor(s % 3600 / 60)).padStart(2, "0") + ":" + String(s % 60).padStart(2, "0");
+};
+let LS = null;                         // {ini, fin, dur} de la línea pintada
+let LS_TOCADO = 0;                     // cuándo movió la línea la persona (el cabezal no la pisa)
 const chipsDe = moms => {
   const hay = new Set(moms.map(x => x.tipo));
   return TIPOS.filter(([tp]) => hay.has(tp)).map(([tp, forma]) =>
@@ -220,16 +234,23 @@ const chipsDe = moms => {
 };
 function lineaSet() {
   const ps = F.peleas || [];
-  if (!ps.length) return "";
+  if (!ps.length) { LS = null; return ""; }
   const ini = ps[0].t || 0, fin = Math.max(...ps.map(p => p.fin || p.t || 0), ini + 1), dur = fin - ini;
+  LS = { ini, fin, dur };
   const X = t => pct(t - ini, dur);
+  // ancho del lienzo: el de la caja, o más si así no caben las peleas o los momentos
+  const caja = Math.max(200, (($("#tlset") && $("#tlset").clientWidth) || innerWidth) - 104);
+  const minimo = Math.ceil(Math.max(ps.length * LS_PELEA, dur * LS_SEG));
+  const W = Math.max(caja, minimo);
   const tramos = ps.map((p, i) => {
     const a = X(p.t || ini), b = X(p.fin || fin), r = rondasDe(p);
-    return `<button class="ls-p g${p.ganador || 0}" data-pelea-t="${i}" data-t="${p.t}" style="left:${a}%;width:${Math.max(0.4, b - a)}%"
-      title="${esc(T("pelea"))} ${p.n} · ${esc(p.ganador ? nombre(p.ganador) + " " + T("gana") : T("empate"))} ${r[0]}–${r[1]} · ${mmss(durPelea(p))}"><span>${p.n}</span></button>`;
+    const cabe = (b - a) * W / 100 >= String(p.n).length * 7 + 8;       // el número sólo si se lee
+    return `<button class="ls-p g${p.ganador || 0}" data-pelea-t="${i}" data-t="${p.t}" aria-pressed="${i === PELEA}"
+      style="left:${a}%;width:${Math.max(0.4, b - a)}%"
+      title="${esc(T("pelea"))} ${p.n} · ${esc(p.ganador ? nombre(p.ganador) + " " + T("gana") : T("empate"))} ${r[0]}–${r[1]} · ${mmss(durPelea(p))}">${cabe ? `<span>${p.n}</span>` : ""}</button>`;
   }).join("");
   const moms = (F.momentos || []).filter(x => x.t >= ini && x.t <= fin).sort((a, b) => a.t - b.t);
-  const FILAS = 4, HUECO = 0.9, ult = Array(FILAS).fill(-99);
+  const FILAS = 4, HUECO = 13 * 100 / W, ult = Array(FILAS).fill(-99);   // 13 px entre momentos de una fila
   let usadas = 1;
   const puntos = moms.map(x => {
     const px = X(x.t);
@@ -238,22 +259,88 @@ function lineaSet() {
     ult[f] = px; usadas = Math.max(usadas, f + 1);
     return `<button class="tl-p${APAGADOS.has(x.tipo) ? " oculto" : ""}" data-tipo="${x.tipo}" data-t="${Math.max(0, x.t - ANTES)}"
       data-forma="${FORMA[x.tipo] || "circulo"}" style="left:${px}%;top:${4 + f * 13}px;--c:${colorMomento(x)}"
-      title="${esc(T(x.tipo) || x.tipo)}${x.jugador ? " · " + esc(nombre(x.jugador)) : ""} · ${mmss(x.t)}"></button>`;
+      title="${esc(T(x.tipo) || x.tipo)}${x.jugador ? " · " + esc(nombre(x.jugador)) : ""} · ${hms(x.t - ini)}"></button>`;
   }).join("");
-  const paso = dur <= 300 ? 60 : dur <= 900 ? 120 : dur <= 1800 ? 300 : 600;
+  // marcas de tiempo: las justas para que no se pisen (al menos 72 px entre una y otra)
+  const paso = [15, 30, 60, 120, 300, 600, 900, 1800, 3600, 7200].find(s => s * W / dur >= 72) || 7200;
   const marcas = [], guias = [];
   for (let s = 0; s <= dur + 0.01; s += paso) {
-    marcas.push(`<span style="left:${pct(s, dur)}%">${mmss(s)}</span>`);
+    marcas.push(`<span style="left:${pct(s, dur)}%">${hms(s)}</span>`);
     if (s > 0) guias.push(`<i class="tl-g" style="left:${pct(s, dur)}%"></i>`);
   }
   return `<section class="lset" id="linea" aria-label="${esc(T("linea"))}">
     <div class="tl-cab"><span class="tl-t">${esc(T("linea"))} · ${esc(T("s_set"))}</span><div class="chips">${chipsDe(moms)}</div></div>
-    <div class="tl-caja">
-      <div class="ls-peleas">${tramos}</div>
-      <div class="tl-moms" style="height:${8 + usadas * 13}px">${guias.join("")}${puntos}</div>
-      <div class="tl-eje">${marcas.join("")}</div>
+    <div class="carrusel ls-car">
+      <button class="car-f" data-car="-1" aria-label="${esc(T("car_izq"))}" title="${esc(T("car_izq"))}" disabled>◀</button>
+      <div class="car-pista ls-pista">
+        <div class="tl-caja ls-lienzo" style="width:${minimo > caja ? minimo + "px" : "calc(100% - 14px)"}">
+          <div class="ls-peleas">${tramos}</div>
+          <div class="tl-moms" style="height:${8 + usadas * 13}px">${guias.join("")}${puntos}</div>
+          <div class="tl-eje">${marcas.join("")}</div>
+          <i class="ls-cabezal" hidden></i><i class="ls-guia" hidden><b></b></i>
+        </div>
+      </div>
+      <button class="car-f" data-car="1" aria-label="${esc(T("car_der"))}" title="${esc(T("car_der"))}" disabled>▶</button>
     </div></section>`;
 }
+// La pelea elegida queda marcada en la línea y a la vista dentro de ella (sólo se mueve la línea).
+function lsElegida() {
+  document.querySelectorAll(".ls-p").forEach(b => b.setAttribute("aria-pressed", String(+b.dataset.peleaT === PELEA)));
+  const el = document.querySelector('.ls-p[aria-pressed="true"]'), p = el && el.closest(".ls-pista");
+  if (!p || p.scrollWidth <= p.clientWidth + 1) return;
+  const x = el.offsetLeft, w = el.offsetWidth;
+  if (x < p.scrollLeft) p.scrollLeft = x - 12;
+  else if (x + w > p.scrollLeft + p.clientWidth) p.scrollLeft = x + w - p.clientWidth + 12;
+}
+// Al cambiar el ancho de la ventana se rehace (las marcas y el ancho dependen de él), sin perder la posición.
+let LS_ANCHO = innerWidth, LS_RELOJ = 0;
+addEventListener("resize", () => {
+  if (Math.abs(innerWidth - LS_ANCHO) < 2) return;     // en el móvil la barra del navegador también «redimensiona»
+  LS_ANCHO = innerWidth;
+  clearTimeout(LS_RELOJ);
+  LS_RELOJ = setTimeout(() => {
+    if (!F || !$("#tlset")) return;
+    const p = $(".ls-pista"), f = p ? p.scrollLeft / Math.max(1, p.scrollWidth) : 0;
+    $("#tlset").innerHTML = lineaSet();
+    const q = $(".ls-pista");
+    if (q) { q.style.scrollBehavior = "auto"; q.scrollLeft = f * q.scrollWidth; q.style.scrollBehavior = ""; }
+    estadoCarruseles();
+  }, 150);
+});
+// El cabezal: por dónde va el vídeo. Si el vídeo avanza y el cabezal se sale de la vista,
+// la línea lo sigue, salvo que la persona la haya movido hace poco.
+setInterval(() => {
+  const cab = $(".ls-cabezal");
+  if (!cab || !LS || !REPRO || !LISTO || typeof REPRO.getCurrentTime !== "function") return;
+  const t = REPRO.getCurrentTime();
+  const dentro = t >= LS.ini - 0.5 && t <= LS.fin + 0.5;
+  cab.hidden = !dentro;
+  const i = dentro ? (F.peleas || []).findIndex(p => t >= (p.t || 0) && t < (p.fin || p.t || 0)) : -1;
+  document.querySelectorAll(".ls-p").forEach(b => b.classList.toggle("viendo", +b.dataset.peleaT === i));
+  if (!dentro) return;
+  cab.style.left = pct(t - LS.ini, LS.dur) + "%";
+  const pista = cab.closest(".ls-pista");
+  const va = typeof REPRO.getPlayerState === "function" && REPRO.getPlayerState() === 1;
+  if (va && pista && pista.scrollWidth > pista.clientWidth + 1 && Date.now() - LS_TOCADO > 4000) {
+    const x = cab.offsetLeft;
+    if (x < pista.scrollLeft + 16 || x > pista.scrollLeft + pista.clientWidth - 16) pista.scrollLeft = x - pista.clientWidth * 0.25;
+  }
+}, 250);
+// La guía del ratón: una raya fina con el minuto que hay debajo.
+document.addEventListener("pointermove", e => {
+  const g = $(".ls-guia");
+  if (!g || !LS) return;
+  const lien = e.pointerType === "mouse" && e.target.closest && e.target.closest(".ls-lienzo");
+  if (!lien) { g.hidden = true; return; }
+  const q = lien.getBoundingClientRect(), f = Math.max(0, Math.min(1, (e.clientX - q.left) / q.width));
+  g.hidden = false;
+  g.style.left = (f * 100) + "%";
+  g.classList.toggle("izq", f > 0.9);
+  g.firstChild.textContent = hms(f * LS.dur);
+});
+["wheel", "touchstart", "pointerdown"].forEach(ev => document.addEventListener(ev, e => {
+  if (e.target.closest && e.target.closest(".ls-pista, .ls-car .car-f")) LS_TOCADO = Date.now();
+}, { passive: true }));
 
 /* ---- la pelea elegida: una banda de rondas en vez de tres tarjetas. Cada tramo lleva
    quién la ganó, cómo y cuánto duró; la barrita es la vida que le quedó al ganador (la del
@@ -344,6 +431,7 @@ function eligePelea(i) {
     b.setAttribute("aria-pressed", String(+b.dataset.pelea === PELEA)));
   repintaDetalle(".ts-bar");
   aLaVista(document.querySelector('.ts-seg[aria-pressed="true"]'));
+  lsElegida();
 }
 
 /* ================================================================ 3 · ESTADÍSTICAS
@@ -515,6 +603,7 @@ function pinta() {
   $("#resto").innerHTML = bloques();
   estadoCarruseles();
   aLaVista(document.querySelector('.ts-seg[aria-pressed="true"]'));
+  lsElegida();
 
   if (!$("#video").dataset.hecho) {
     $("#video").dataset.hecho = "1";
@@ -548,8 +637,18 @@ $("#cuerpo").addEventListener("click", e => {
   }
   const flecha = e.target.closest("[data-car]");
   if (flecha) {
+    if (flecha.closest(".ls-car")) LS_TOCADO = Date.now();
     const p = flecha.parentNode.querySelector(".car-pista");
     p.scrollBy({ left: +flecha.dataset.car * Math.max(120, p.clientWidth * 0.8), behavior: "smooth" });
+    return;
+  }
+  // un punto cualquiera de la línea del set (fuera de peleas y momentos): el vídeo va a ese segundo
+  const lien = e.target.closest(".ls-lienzo");
+  if (lien && LS && !e.target.closest("button")) {
+    const q = lien.getBoundingClientRect(), t = LS.ini + Math.max(0, Math.min(1, (e.clientX - q.left) / q.width)) * LS.dur;
+    const i = (F.peleas || []).findIndex(p => t >= (p.t || 0) && t < (p.fin || p.t || 0));
+    if (i >= 0) eligePelea(i);
+    salta(t);
     return;
   }
   // alcance de las estadísticas: pastillas y tramos de la banda de rondas

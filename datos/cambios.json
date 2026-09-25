@@ -9,6 +9,14 @@
      "area": [
       "web"
      ],
+     "es": "La línea de tiempo del set, encima del vídeo, es ahora un mando del vídeo: un cabezal dorado dice por dónde va, la pelea que se está viendo lleva una raya dorada y la elegida queda marcada. Pulsar cualquier punto de la línea lleva el vídeo a ese segundo, y con el ratón una guía enseña el minuto que hay debajo. Si el set es largo o la pantalla es pequeña, la línea se ensancha para que las peleas y los momentos no se pisen y se mueve con las flechas ◀ ▶, como la tira de peleas. Las marcas de tiempo se reparten para no montarse (con horas si el set pasa de una).",
+     "en": "The set timeline above the video is now a video remote: a gold playhead shows where the video is, the game being watched gets a gold line and the selected one is outlined. Tapping any point on the line sends the video to that second, and with a mouse a guide shows the minute underneath. On long sets or small screens the line widens so games and moments don't overlap, and it scrolls with the ◀ ▶ arrows, like the games bar. Time marks are spaced so they never overlap (with hours when a set runs past one)."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "web"
+     ],
      "es": "La ficha deja de repetir datos. Una sola tabla de estadísticas sustituye al resumen de debajo del vídeo, al resumen de cada pelea y a las pestañas Combate, Rondas, Promedios y Personajes; con unas pastillas eliges de qué habla: 🌐 todo el set, 🥊 la pelea elegida o una de sus rondas. Con el set completo, «Por ronda» cambia los totales por medias. Fuera lo que era espejo del rival (daño recibido, veces que lo marearon) y la misma cifra en dos unidades: el daño va en barras de vida (los puntos, al pasar el ratón). Cada fila cabe en una línea en los seis idiomas y cada grupo (💥 Daño, 🔗 Combos, ⚡ Súpers, 💫 Mareos, 🥋 Rondas) lleva su título en dorado. Lo que está a cero para los dos va en una línea al pie.",
      "en": "The match page stops repeating itself. A single stats table replaces the summary under the video, each game's summary and the Combat, Rounds, Averages and Characters tabs; pills choose what it covers: 🌐 the whole set, 🥊 the selected game or one of its rounds. For the whole set, “Per round” swaps totals for averages. Gone are the mirror stats (damage taken, times dizzied) and the same number in two units: damage is shown in health bars (points on hover). Every row fits on one line in all six languages and each group (💥 Damage, 🔗 Combos, ⚡ Supers, 💫 Dizzies, 🥋 Rounds) has a gold title. Whatever is zero for both goes in one line at the bottom."
     },

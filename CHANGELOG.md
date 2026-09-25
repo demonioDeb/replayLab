@@ -9,6 +9,12 @@ que se hizo el cambio, no las de publicación.
 ## 2026-09-25
 
 ### Cambiado
+- **Línea de tiempo del set, 6.ª pasada.** Flechas ◀ ▶ (carrusel) cuando no cabe: el lienzo
+  mide al menos 46 px por pelea y 0,9 px por segundo. Cabezal dorado del vídeo (lo sigue si
+  se sale de la vista, salvo que la acabes de mover), pelea que se está viendo con raya
+  dorada, pelea elegida marcada, clic en cualquier punto = ir a ese segundo, guía del ratón
+  con el minuto. Marcas de tiempo a 72 px como mínimo y con horas (`hms()`); números de
+  pelea sólo si caben. Se rehace al cambiar el ancho de la ventana.
 - **Ficha, 5.ª pasada: cada dato una vez.** Una sola tabla de estadísticas con alcance
   (🌐 todo el set · 🥊 pelea N · R1…Rn) sustituye al resumen de debajo del vídeo, al resumen
   de cada pelea y a las pestañas del análisis. «Total / Por ronda» sustituye a Promedios.
