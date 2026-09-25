@@ -2,6 +2,27 @@
  "nota": "Resumen por día de lo que se hizo y lo que se descubrió. Lo escribe a mano quien trabaja en el proyecto; no se genera solo. Cada cambio lleva 'area': 'web' (lo que se ve en replayLab) y/o 'juego' (overlay, grabación, lo descubierto del juego, YouTube), y 'juego' con el id de datos/juegos.json (o una lista de ids si el cambio vale para varios juegos). cambios.html tiene una pestaña por juego.",
  "dias": [
   {
+   "fecha": "2026-09-25",
+   "cambios": [
+    {
+     "t": "cambiado",
+     "area": [
+      "web"
+     ],
+     "es": "La ficha deja de repetir datos. Una sola tabla de estadísticas sustituye al resumen de debajo del vídeo, al resumen de cada pelea y a las pestañas Combate, Rondas, Promedios y Personajes; con unas pastillas eliges de qué habla: 🌐 todo el set, 🥊 la pelea elegida o una de sus rondas. Con el set completo, «Por ronda» cambia los totales por medias. Fuera lo que era espejo del rival (daño recibido, veces que lo marearon) y la misma cifra en dos unidades: el daño va en barras de vida (los puntos, al pasar el ratón). Cada fila cabe en una línea en los seis idiomas y cada grupo (💥 Daño, 🔗 Combos, ⚡ Súpers, 💫 Mareos, 🥋 Rondas) lleva su título en dorado. Lo que está a cero para los dos va en una línea al pie.",
+     "en": "The match page stops repeating itself. A single stats table replaces the summary under the video, each game's summary and the Combat, Rounds, Averages and Characters tabs; pills choose what it covers: 🌐 the whole set, 🥊 the selected game or one of its rounds. For the whole set, “Per round” swaps totals for averages. Gone are the mirror stats (damage taken, times dizzied) and the same number in two units: damage is shown in health bars (points on hover). Every row fits on one line in all six languages and each group (💥 Damage, 🔗 Combos, ⚡ Supers, 💫 Dizzies, 🥋 Rounds) has a gold title. Whatever is zero for both goes in one line at the bottom."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "web"
+     ],
+     "es": "Las tres tarjetas de ronda se convierten en una banda: cada tramo dice quién ganó, cómo y cuánto duró, y la barrita es la vida que le quedó al ganador (con 🔥 si remontó y 🏆 si fue perfect). Pulsar una ronda muestra sus estadísticas. La pelea más corta que ganó cada uno lleva ⚡ en la tira de peleas, y los filtros de las líneas de tiempo ya no llevan contadores.",
+     "en": "The three round cards become one band: each segment says who won, how and how long it lasted, and the thin bar is the winner's remaining health (🔥 for a comeback, 🏆 for a perfect). Tapping a round shows its stats. Each player's shortest win gets ⚡ in the games bar, and the timeline filters no longer carry counts."
+    }
+   ]
+  },
+  {
    "fecha": "2026-09-24",
    "cambios": [
     {

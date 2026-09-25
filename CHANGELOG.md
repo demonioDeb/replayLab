@@ -6,6 +6,19 @@ La versión que se ve en el sitio está en `datos/cambios.json` y se lee en
 Los cambios de replayLab, de lo más nuevo a lo más viejo. Las fechas son las del día en
 que se hizo el cambio, no las de publicación.
 
+## 2026-09-25
+
+### Cambiado
+- **Ficha, 5.ª pasada: cada dato una vez.** Una sola tabla de estadísticas con alcance
+  (🌐 todo el set · 🥊 pelea N · R1…Rn) sustituye al resumen de debajo del vídeo, al resumen
+  de cada pelea y a las pestañas del análisis. «Total / Por ronda» sustituye a Promedios.
+  Fuera los espejos (daño recibido, veces que lo marearon), «≈ barras» debajo de cada cifra,
+  «peleas ganadas», «% de rondas» y la pestaña Personajes. Filas de una línea en los seis
+  idiomas, grupos con emoji y título dorado, filas 0 · 0 en una línea al pie.
+- **Banda de rondas** en lugar de las tarjetas: ganador, KO/tiempo, segundos y la vida que
+  le quedó al ganador; 🔥 remontada, 🏆 perfect. Pulsar una ronda = sus estadísticas.
+- ⚡ en la tira de peleas para la pelea más corta que ganó cada uno. Filtros sin contadores.
+
 ## 2026-09-24
 
 ### Cambiado

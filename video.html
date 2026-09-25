@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Partida · replayLab">
 <meta name="twitter:description" content="Una partida de Fightcade analizada: rondas, daño, tiempos y momentos, leídos de la propia partida.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=23e5229718">
+<link rel="stylesheet" href="assets/estilo.css?v=b1e1219015">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -37,10 +37,9 @@
     <p class="vacio" id="cargando"></p>
     <div id="cab"></div>
     <!-- línea de tiempo de TODO el set (pulsar un momento lo pone en el vídeo) → el vídeo →
-         resumen en horizontal → peleas → análisis -->
+         peleas (la tira y la pelea elegida) → estadísticas (una tabla: set · pelea · ronda) -->
     <div id="tlset"></div>
     <div id="video"></div>
-    <div id="resumen-caja"></div>
     <div id="resto"></div>
     <div id="apoyo"></div>
   </div>
@@ -48,7 +47,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=7101535b8f"></script>
+<script src="assets/app.js?v=247d3a9c6d"></script>
 <script>
 "use strict";
 let F = null, REPRO = null, LISTO = false;
@@ -131,107 +130,22 @@ function cabecera() {
 }
 
 /* ================================================================ CRITERIO VISUAL
-   No todo es una barra. Una barra sólo donde la longitud significa algo: aquí, la vida
-   con la que termina cada ronda. Para lo demás, el número es el protagonista y la
-   comparación se hace resaltando al que va por delante, no dibujando dos barras.
+   Cada dato sale UNA vez. La página habla del set, de una pelea o de una ronda con la
+   MISMA tabla de estadísticas: sólo cambia el alcance. Nada de espejos (lo que hizo uno
+   ya dice lo que recibió el otro) ni de la misma cifra en dos unidades.
    Colores fijos por jugador en toda la página: rojo el 1, azul el 2. */
 
-const lado = n => n === 1 ? "a" : "b";
 // 1 si va por delante el jugador 1, 2 si el 2, 0 si van igual o no aplica.
-// mejor: +1 cuanto más mejor, -1 cuanto menos mejor, 0 no hay "mejor" (un nombre, un rango).
+// mejor: +1 cuanto más mejor, -1 cuanto menos mejor, 0 no hay "mejor".
 const quienLidera = (na, nb, mejor = 1) => {
   if (!mejor || na == null || nb == null || na === nb) return 0;
   return (na > nb) === (mejor > 0) ? 1 : 2;
 };
 
-/* ---- comparación directa: sustituye a la vieja tabla con dos barras por fila.
-   Misma forma de llamarla, así el cambio es igual en todas las secciones. */
-function comparar(filas) {
-  return `<div class="cmp">` + filas.map(([k, va, vb, na, nb, mejor, nota]) => {
-    const l = quienLidera(na, nb, mejor === undefined ? 1 : mejor);
-    return `<div class="cmp-f">
-      <b class="v a${l === 1 ? " lid" : ""}">${va}</b>
-      <span class="k">${esc(k)}${nota ? `<span class="nota">${esc(nota)}</span>` : ""}</span>
-      <b class="v b${l === 2 ? " lid" : ""}">${vb}</b></div>`;
-  }).join("") + `</div>`;
-}
-// cabecera de nombres para una tarjeta de comparación
-const nombresCmp = () => `<div class="cmp-nom"><span class="a">${esc(nombre(1))}</span><span class="b">${esc(nombre(2))}</span></div>`;
-
-const gu = (v, suf) => (v === null || v === undefined || v === 0 || v === "") ? "—" : esc(v) + (suf || "");
-const n0 = v => milesDe(v ?? 0);
-const pctTxt = s_ => s_.rondas_jugadas ? Math.round((s_.rondas || 0) * 100 / s_.rondas_jugadas) + "%" : "—";
-
-/* ---- racha: secuencia de rondas, no una barra. ● ganada, ○ perdida, × nadie.
-   La mejor racha va resaltada. */
-function secuencia(n) {
-  const rs = [];
-  (F.peleas || []).forEach(p => (p.rondas || []).forEach(r => rs.push(r)));
-  let mejor = [0, -1], cur = 0;
-  rs.forEach((r, i) => {
-    cur = r.ganador === n ? cur + 1 : 0;
-    if (cur > mejor[0]) mejor = [cur, i];
-  });
-  const [lar, fin] = mejor;
-  return `<span class="seq" style="--c:${pc(n)}">` + rs.map((r, i) => {
-    const cls = r.ganador === n ? "g" : (r.ganador ? "p" : "x");
-    const en = lar > 1 && i > fin - lar && i <= fin;
-    return `<i class="${cls}${en ? " racha" : ""}"></i>`;
-  }).join("") + `</span>`;
-}
-
-/* ================================================================ 1 · RESUMEN
-   Lo que tiene que quedar claro en tres segundos: quién hizo más y lo más interesante.
-   El daño es LA cifra (grande, con la diferencia); combos, súpers y perfects van en
-   pequeño al lado. Debajo, los momentos destacados, que es donde está la historia. */
-function resumen() {
-  const [a, b] = F.stats, D = DATOS();
-  const l = quienLidera(a.dano, b.dano), dif = Math.abs((a.dano || 0) - (b.dano || 0));
-  const dano = `<div class="kpi kpi-main">
-    <span class="kpi-t">💥 ${esc(T("s_dano"))}</span>
-    <div class="kpi-v"><b class="a${l === 1 ? " lid" : ""}">${n0(a.dano)}</b><b class="b${l === 2 ? " lid" : ""}">${n0(b.dano)}</b></div>
-    <div class="kpi-pie">${l ? `<span class="kpi-dif" style="--c:${pcl(l)}">+${n0(dif)} · ${esc(nombre(l))}</span>`
-                            : `<span class="kpi-dif igual">${esc(T("r_igual"))}</span>`}
-      <span class="kpi-x">≈ ${(a.dano_barras ?? 0).toFixed(2)} · ${(b.dano_barras ?? 0).toFixed(2)} ${esc(T("barras"))}</span></div>
-  </div>`;
-  const mini = (ic, t, na, nb) => {
-    const q = quienLidera(na, nb);
-    return `<div class="kmini"><span class="kpi-t">${ic} ${esc(t)}</span>
-      <div class="kmini-v"><b class="a${q === 1 ? " lid" : ""}">${n0(na)}</b><i>·</i><b class="b${q === 2 ? " lid" : ""}">${n0(nb)}</b></div></div>`;
-  };
-  const minis = [D.combos && mini("🔗", T("s_combos"), a.combos, b.combos),
-                 D.super && mini("⚡", T("s_supers"), a.supers, b.supers),
-                 mini("🏆", T("st_perfects"), a.perfects, b.perfects)].filter(Boolean);
-
-  // Momentos destacados: sólo lo que pasó de verdad, del más jugoso al menos. El color
-  // del borde es el de quien lo hizo; si es de los dos, neutro.
-  const dest = [];
-  const tarjeta = (ic, t, v, sub, n) => dest.push(`<div class="dest${n ? " p" + n : ""}">
-      <span class="dest-ic">${ic}</span><span class="dest-t">${esc(t)}</span>
-      <b class="dest-v">${v}</b>${sub ? `<span class="dest-s">${sub}</span>` : ""}</div>`);
-  const rem = (a.remontada || 0) >= (b.remontada || 0) ? 1 : 2, remv = F.stats[rem - 1].remontada || 0;
-  if (remv >= 20)
-    tarjeta("🔥", T("st_remontada"), `${remv} %`, esc(nombre(rem)), rem);
-  const rch = (a.racha || 0) >= (b.racha || 0) ? 1 : 2, rchv = F.stats[rch - 1].racha || 0;
-  if (rchv > 1)
-    tarjeta("🔗", T("st_racha"), secuencia(rch), esc(T("r_seguidas").replace("%s", rchv)) + " · " + esc(nombre(rch)), rch);
-  const pr = [a.pelea_rapida, b.pelea_rapida];
-  const prn = pr[0] && (!pr[1] || pr[0] <= pr[1]) ? 1 : (pr[1] ? 2 : 0);
-  if (prn)
-    tarjeta("⏱️", T("st_peleapida"), esc(mmss(pr[prn - 1])), esc(nombre(prn)), prn);
-  if (D.stun && (a.mareos || 0) + (b.mareos || 0))
-    tarjeta("💫", T("st_dizzies"), `<span class="a">${a.mareos || 0}</span> · <span class="b">${b.mareos || 0}</span>`, "");
-
-  return `<div class="kfila">${dano}${minis.join("")}</div>`
-    + (dest.length ? `<div class="dests" aria-label="${esc(T("r_destacados"))}">${dest.slice(0, 4).join("")}</div>` : "");
-}
-
 /* ================================================================ 2 · PELEAS
-   Un set puede llegar a FT100: casi 200 peleas. Desplegarlas todas hacía la página
-   interminable. Ahora hay tres piezas: una tira con el set entero, la lista compacta de
-   peleas, y el detalle SÓLO de la pelea elegida (su línea de tiempo y sus rondas). */
+   Un set puede llegar a FT100: casi 200 peleas. La tira es el selector; debajo, SÓLO la
+   pelea elegida: su marcador, la banda de rondas y sus momentos. */
 let PELEA = Math.max(0, (parseInt(Q.get("pelea"), 10) || 1) - 1);
-const MUCHAS = 40;               // desde aquí la lista vive en una caja con scroll
 
 // rondas ganadas por cada uno EN esa pelea (no el marcador del set)
 const rondasDe = p => {
@@ -242,8 +156,8 @@ const rondasDe = p => {
 const durPelea = p => Math.max(0, (p.fin || p.t || 0) - (p.t || 0));
 
 /* ---- carrusel: una fila que puede ser más larga que la pantalla (un FT100 tiene hasta
-   ~200 peleas; el análisis puede tener más pestañas) con una flecha a cada lado que la
-   desplaza. Si todo cabe, las flechas se quedan apagadas. */
+   ~200 peleas) con una flecha a cada lado que la desplaza. Si todo cabe, las flechas se
+   quedan apagadas. */
 const carrusel = (clase, dentro, etiqueta) => `<div class="carrusel">
     <button class="car-f" data-car="-1" aria-label="${esc(T("car_izq"))}" title="${esc(T("car_izq"))}" disabled>◀</button>
     <div class="car-pista ${clase}" role="tablist" aria-label="${esc(etiqueta)}">${dentro}</div>
@@ -269,26 +183,41 @@ function aLaVista(el) {
 addEventListener("resize", () => estadoCarruseles());
 document.addEventListener("scroll", e => { if (e.target.classList && e.target.classList.contains("car-pista")) estadoCarruseles(); }, true);
 
+// La pelea más corta que ganó cada uno lleva ⚡ en la tira (antes era una tarjeta aparte).
+const rapidas = () => [1, 2].map(n => {
+  const g = (F.peleas || []).filter(p => p.ganador === n && durPelea(p) > 0);
+  return g.length ? g.reduce((a, p) => durPelea(p) < durPelea(a) ? p : a).n : null;
+});
+
 /* ---- la tira del set: cada pelea es un tramo tan ancho como lo que duró, del color
    de quien la ganó. Se entiende el set entero de un vistazo y se puede pulsar. */
 function tiraSet() {
   const ps = F.peleas || [];
   if (!ps.length) return "";
+  const rap = rapidas();
   const tot = ps.reduce((a, p) => a + Math.max(1, durPelea(p)), 0);
   const segs = ps.map((p, i) => {
     const w = Math.max(1, durPelea(p)) * 100 / tot;
+    const r = rap.includes(p.n) && p.ganador ? `<span class="ts-rap" title="${esc(T("st_peleapida"))} · ${esc(nombre(p.ganador))}">⚡</span>` : "";
     return `<button class="ts-seg g${p.ganador || 0}" data-pelea="${i}" aria-pressed="${i === PELEA}"
       style="flex-grow:${w.toFixed(3)}"
       title="${esc(T("pelea"))} ${p.n} · ${esc(p.ganador ? nombre(p.ganador) : T("empate"))} · ${mmss(durPelea(p))}"
-      ><b>${p.n}</b><span class="ts-r">${rondasDe(p).join("–")}</span></button>`;
+      ><b>${p.n}</b><span class="ts-r">${rondasDe(p).join("–")}</span>${r}</button>`;
   }).join("");
   return `<div class="tset${ps.length > 1 ? "" : " una"}">${carrusel("ts-bar", segs, T("s_peleas"))}</div>`;
 }
 
 /* ---- la línea de tiempo de TODO el set: las peleas como tramos y encima todos los
    momentos. Se pulsa un momento y el vídeo salta ahí (un par de segundos antes, para ver
-   de dónde viene la jugada); se pulsa una pelea y el vídeo va a su inicio. */
+   de dónde viene la jugada); se pulsa una pelea y el vídeo va a su inicio. Los filtros son
+   leyenda: sin contadores, que ya están en las estadísticas. */
 const ANTES = 2;                       // segundos de margen antes de cada momento
+const chipsDe = moms => {
+  const hay = new Set(moms.map(x => x.tipo));
+  return TIPOS.filter(([tp]) => hay.has(tp)).map(([tp, forma]) =>
+    `<button class="chip" data-tipo="${tp}" data-forma="${forma}" aria-pressed="${!APAGADOS.has(tp)}"${ESPECIAL.has(tp) ? ` style="--c:var(--gold)"` : ""}>
+      <i></i>${esc(T(tp) || tp)}</button>`).join("");
+};
 function lineaSet() {
   const ps = F.peleas || [];
   if (!ps.length) return "";
@@ -300,8 +229,6 @@ function lineaSet() {
       title="${esc(T("pelea"))} ${p.n} · ${esc(p.ganador ? nombre(p.ganador) + " " + T("gana") : T("empate"))} ${r[0]}–${r[1]} · ${mmss(durPelea(p))}"><span>${p.n}</span></button>`;
   }).join("");
   const moms = (F.momentos || []).filter(x => x.t >= ini && x.t <= fin).sort((a, b) => a.t - b.t);
-  const cuenta = {};
-  moms.forEach(x => { cuenta[x.tipo] = (cuenta[x.tipo] || 0) + 1; });
   const FILAS = 4, HUECO = 0.9, ult = Array(FILAS).fill(-99);
   let usadas = 1;
   const puntos = moms.map(x => {
@@ -319,11 +246,8 @@ function lineaSet() {
     marcas.push(`<span style="left:${pct(s, dur)}%">${mmss(s)}</span>`);
     if (s > 0) guias.push(`<i class="tl-g" style="left:${pct(s, dur)}%"></i>`);
   }
-  const chips = TIPOS.filter(([tp]) => cuenta[tp]).map(([tp, forma]) =>
-    `<button class="chip" data-tipo="${tp}" data-forma="${forma}" aria-pressed="${!APAGADOS.has(tp)}"${ESPECIAL.has(tp) ? ` style="--c:var(--gold)"` : ""}>
-      <i></i>${esc(T(tp) || tp)}<span class="n">${cuenta[tp]}</span></button>`).join("");
   return `<section class="lset" id="linea" aria-label="${esc(T("linea"))}">
-    <div class="tl-cab"><span class="tl-t">${esc(T("linea"))} · ${esc(T("s_set"))}</span><div class="chips">${chips}</div></div>
+    <div class="tl-cab"><span class="tl-t">${esc(T("linea"))} · ${esc(T("s_set"))}</span><div class="chips">${chipsDe(moms)}</div></div>
     <div class="tl-caja">
       <div class="ls-peleas">${tramos}</div>
       <div class="tl-moms" style="height:${8 + usadas * 13}px">${guias.join("")}${puntos}</div>
@@ -331,20 +255,27 @@ function lineaSet() {
     </div></section>`;
 }
 
-/* ---- la línea de tiempo de UNA pelea: un carril para las rondas, otro para los
-   momentos y una regla de tiempo. Los momentos que caen casi en el mismo segundo se
-   reparten en tres filas en vez de taparse unos a otros. */
+/* ---- la pelea elegida: una banda de rondas en vez de tres tarjetas. Cada tramo lleva
+   quién la ganó, cómo y cuánto duró; la barrita es la vida que le quedó al ganador (la del
+   perdedor por KO siempre es 0 y sobraba). Pulsar una ronda = ver sus estadísticas. */
 function pistaPelea(p) {
   const ini = p.t || 0, fin = p.fin || ini + 1, dur = Math.max(1, fin - ini);
   const X = t => pct(t - ini, dur);
-  const rondas = (p.rondas || []).map(r => {
-    const a = X(r.t ?? ini), b = X(r.fin ?? fin);
-    return `<button class="tl-r g${r.ganador ?? 0}" style="left:${a}%;width:${Math.max(0.6, b - a)}%"
-      data-t="${r.t}" title="${esc(T("ronda"))} ${r.n} · ${mmss(r.t)}"><span>R${r.n}</span></button>`;
+  const rondas = (p.rondas || []).map((r, i) => {
+    const a = X(r.t ?? ini), b = X(r.fin ?? fin), g = r.ganador || 0;
+    const vida = g ? (r.vida_final || [])[g - 1] : null;
+    const como = r.motivo === "time" ? T("por_tiempo") : r.motivo === "doble_ko" ? T("doble") : T("por_ko");
+    const quien = g ? nombre(g) : T(r.motivo === "doble_ko" ? "doble" : "empate");
+    const sellos = [];
+    if (r.perfect) sellos.push(`<span class="tl-sello" title="${esc(T("perfect"))}">🏆</span>`);
+    if (g && (r.remontada || 0) >= 50)
+      sellos.push(`<span class="tl-sello" title="${esc(T("r_remontada").replace("%s", r.remontada))}">🔥 ${r.remontada}%</span>`);
+    return `<button class="tl-r g${g}" data-ron="${i}" aria-pressed="${ALC === "ronda" && RON === i}" style="left:${a}%;width:${Math.max(0.6, b - a)}%"
+      title="${esc(T("ronda"))} ${r.n} · ${esc(quien)} · ${esc(como)}${r.duracion ? " · " + r.duracion + " " + esc(T("seg_reloj")) : ""}${vida != null ? " · " + esc(T("vida_restante")) + " " + vida + "%" : ""}">
+      <span class="tl-r1"><b>R${r.n}</b>${g ? `<span class="tl-rq">${esc(quien)}</span>` : ""}<span class="tl-rc${g ? "" : " sol"}">${esc(como)}${r.duracion ? " · " + r.duracion + "s" : ""}</span>${sellos.join("")}</span>
+      <span class="tl-rv">${vida != null ? `<i style="width:${Math.max(0, Math.min(100, vida))}%"></i>` : ""}</span></button>`;
   }).join("");
   const moms = (F.momentos || []).filter(x => x.t >= ini && x.t <= fin).sort((a, b) => a.t - b.t);
-  const cuenta = {};
-  moms.forEach(x => { cuenta[x.tipo] = (cuenta[x.tipo] || 0) + 1; });
   const FILAS = 3, HUECO = 2.2, ult = Array(FILAS).fill(-99);
   let usadas = 1;
   const puntos = moms.map(x => {
@@ -362,11 +293,8 @@ function pistaPelea(p) {
     marcas.push(`<span style="left:${pct(s, dur)}%">${mmss(s)}</span>`);
     if (s > 0) guias.push(`<i class="tl-g" style="left:${pct(s, dur)}%"></i>`);
   }
-  const chips = TIPOS.filter(([tp]) => cuenta[tp]).map(([tp, forma]) =>
-    `<button class="chip" data-tipo="${tp}" data-forma="${forma}" aria-pressed="${!APAGADOS.has(tp)}"${ESPECIAL.has(tp) ? ` style="--c:var(--gold)"` : ""}>
-      <i></i>${esc(T(tp) || tp)}<span class="n">${cuenta[tp]}</span></button>`).join("");
   return `<div class="tl">
-      <div class="tl-cab"><span class="tl-t">${esc(T("linea"))}</span><div class="chips">${chips}</div></div>
+      <div class="tl-cab"><span class="tl-t">${esc(T("linea"))}</span><div class="chips">${chipsDe(moms)}</div></div>
       <div class="tl-caja">
         <div class="tl-rondas">${rondas}</div>
         <div class="tl-moms" style="height:${8 + usadas * 14}px">${guias.join("")}${puntos}</div>
@@ -375,48 +303,14 @@ function pistaPelea(p) {
     </div>`;
 }
 
-/* ---- una ronda: la única barra de las estadísticas, la vida con la que acabó cada uno */
-function tarjetaRonda(r) {
-  const vf = r.vida_final || [null, null];
-  const como = r.motivo === "time" ? T("por_tiempo") : r.motivo === "doble_ko" ? T("doble") : T("por_ko");
-  const sellos = [];
-  if (r.perfect) sellos.push([T("perfect"), "var(--gold)"]);
-  if ((r.remontada || 0) >= 50) sellos.push([T("remontada"), "var(--gold)"]);
-  if (r.ganador && vf[r.ganador - 1] === 0) sellos.push([T("r_cero"), "var(--gold)", T("r_cero_ayuda")]);
-  else if (r.ganador && vf[r.ganador - 1] != null && vf[r.ganador - 1] <= 10) sellos.push([T("al_limite"), "var(--gold)"]);
-  if (r.sin_cierre) sellos.push([T("sin_cierre"), "#7c8aa8", T("sin_cierre_ayuda")]);
-  const vida = n => {
-    const v = vf[n - 1];
-    return `<div class="rv p${n}${r.ganador === n ? " gano" : ""}">
-      <span class="rv-n">${esc(nombre(n))}</span>
-      <span class="rv-b"><i style="width:${v == null ? 0 : Math.max(0, Math.min(100, v))}%"></i></span>
-      <b class="rv-p">${v == null ? "—" : v + "%"}</b></div>`;
-  };
-  const d = r.dano || [0, 0];
-  return `<button class="ronda${r.sin_cierre ? " abierta" : ""}" data-t="${r.t}" title="${mmss(r.t)}">
-    <span class="r-cab"><span class="rn">${esc(T("ronda"))} ${r.n}</span>
-      <span class="r-res">${r.ganador
-        ? `<b style="color:${pcl(r.ganador)}">${esc(nombre(r.ganador))}</b>`
-        : `<b style="color:var(--soft)">${esc(T(r.motivo === "doble_ko" ? "doble" : "empate"))}</b>`}
-        <span class="r-como">${r.ganador ? esc(como) + " · " : ""}${r.duracion ? r.duracion + " " + esc(T("seg_reloj")) : ""}</span></span></span>
-    ${vida(1)}${vida(2)}
-    <span class="r-pie"><span class="r-dano">${esc(T("dano"))} <span class="a">${d[0]}</span> · <span class="b">${d[1]}</span></span>
-      ${sellos.map(([t, c, ay]) => `<span class="sello" style="--c:${c}"${ay ? ` title="${esc(ay)}"` : ""}>${esc(t)}</span>`).join("")}</span>
-  </button>`;
-}
-
-/* ---- el detalle de la pelea elegida */
+/* ---- el detalle de la pelea elegida: el marcador y la banda. Sus cifras están en
+   Estadísticas (alcance «Pelea N»), no repetidas aquí. */
 function detallePelea() {
   const ps = F.peleas || [];
   const p = ps[PELEA];
   if (!p) return "";
-  const r = rondasDe(p), res = p.resumen || {}, g = p.ganador;
-  const mini = (k, par) => {
-    const [a, b] = par || [0, 0], l = quienLidera(a, b);
-    return `<div class="fm"><span class="fm-k">${esc(k)}</span>
-      <span class="fm-v"><b class="a${l === 1 ? " lid" : ""}">${n0(a)}</b><b class="b${l === 2 ? " lid" : ""}">${n0(b)}</b></span></div>`;
-  };
-  const pf = res.perfects || [0, 0];
+  const r = rondasDe(p), g = p.ganador;
+  const ron = ALC === "ronda" && p.rondas && p.rondas[RON];
   return `<div class="pdet">
     <div class="pd-cab">
       <button class="pd-nav" data-pelea="${PELEA - 1}"${PELEA === 0 ? " disabled" : ""} aria-label="${esc(T("p_ant"))}" title="${esc(T("p_ant"))}">◀</button>
@@ -427,18 +321,11 @@ function detallePelea() {
         <span class="pd-j b${g === 2 ? " gana" : g ? " pierde" : ""}"><span class="pd-pj">${esc((p.personajes || [])[1] || "")}</span><b>${esc(nombre(2))}</b>${g === 2 ? `<span class="pd-w">${esc(T("gana"))}</span>` : ""}</span>
       </div>
       <span class="pd-set" title="${esc(T("p_set_ayuda"))}">${esc(T("p_set"))} <b><span class="a">${(p.marcador || [0, 0])[0]}</span>–<span class="b">${(p.marcador || [0, 0])[1]}</span></b></span>
+      <span class="pd-dur" title="${esc(T("s_tiempo"))}">${mmss(durPelea(p))}</span>
+      ${F.youtube ? `<button class="pd-video" data-t="${ron ? ron.t : p.t}" title="${esc(T("p_video"))}">▶<span> ${esc(T("p_video"))}</span></button>` : ""}
       <button class="pd-nav" data-pelea="${PELEA + 1}"${PELEA >= ps.length - 1 ? " disabled" : ""} aria-label="${esc(T("p_sig"))}" title="${esc(T("p_sig"))}">▶</button>
     </div>
-    <div class="pd-et">${esc(T("s_resumen"))}</div>
-    <div class="fms">
-      ${mini(T("s_dano"), res.dano)}${DATOS().combos ? mini(T("s_combos"), res.combos) : ""}${DATOS().super ? mini(T("s_supers"), res.supers) : ""}
-      ${DATOS().stun ? mini(T("st_dizzies"), res.mareos) : ""}${pf[0] + pf[1] ? mini(T("st_perfects"), pf) : ""}
-      <div class="fm"><span class="fm-k">${esc(T("s_tiempo"))}</span><span class="fm-v"><b class="t">${mmss(durPelea(p))}</b></span></div>
-      ${F.youtube ? `<button class="fm-video" data-t="${p.t}">▶ ${esc(T("p_video"))}</button>` : ""}
-    </div>
     ${pistaPelea(p)}
-    <div class="pd-et">${esc(T("rondas_t"))}</div>
-    <div class="rondas-g">${(p.rondas || []).map(tarjetaRonda).join("")}</div>
   </div>`;
 }
 
@@ -447,180 +334,169 @@ function peleasYRondas() {
        + `<div id="pdet" class="pdet-caja">${detallePelea()}</div>`;
 }
 
-// Elegir una pelea: sólo se repinta el detalle, no la página entera.
-function eligePelea(i, desdeTeclado) {
+// Elegir una pelea: sólo se repinta su detalle y la tabla, no la página entera.
+function eligePelea(i) {
   const ps = F.peleas || [];
   if (i < 0 || i >= ps.length || i === PELEA) return;
-  PELEA = i;
-  document.querySelectorAll("[data-pelea].pt, [data-pelea].ts-seg").forEach(b =>
+  PELEA = i; RON = 0;
+  if (ALC === "ronda") ALC = "pelea";
+  document.querySelectorAll("[data-pelea].ts-seg").forEach(b =>
     b.setAttribute("aria-pressed", String(+b.dataset.pelea === PELEA)));
-  sinSalto(() => { $("#pdet").innerHTML = detallePelea(); }, ".ts-bar");
+  repintaDetalle(".ts-bar");
   aLaVista(document.querySelector('.ts-seg[aria-pressed="true"]'));
-  enfocaBaldosa(desdeTeclado);
-  recuerdaUrl();
-}
-// Con muchas peleas la lista es una caja con scroll: se mueve la caja, no la página.
-function enfocaBaldosa(foco) {
-  const caja = $("#plist"), el = caja && caja.querySelector(`.pt[data-pelea="${PELEA}"]`);
-  if (!el) return;
-  if (caja.classList.contains("muchas")) {
-    const arriba = el.offsetTop - 6, abajo = el.offsetTop + el.offsetHeight + 6 - caja.clientHeight;
-    if (caja.scrollTop > arriba) caja.scrollTop = arriba;
-    else if (caja.scrollTop < abajo) caja.scrollTop = abajo;
-  }
-  if (foco) el.focus({ preventScroll: true });
 }
 
-/* ================================================================ 3 · ANÁLISIS
-   Por temas, en pestañas: se ve UNO a la vez. Antes eran ocho tarjetas seguidas. */
-// Los enlaces viejos (tema=dano, combos…) siguen valiendo: van a la pestaña donde está ahora eso.
-const TEMA_VIEJO = { set: "rondas", dano: "combate", combos: "combate", supers: "combate", mareos: "combate", tiempo: "promedios" };
-let TEMA = "a-" + (TEMA_VIEJO[Q.get("tema")] || Q.get("tema") || "combate");
-let TEMAS = [];
-function pestanasAnalisis(lista) {
-  TEMAS = lista;
-  if (!TEMAS.some(t => t.id === TEMA)) TEMA = TEMAS[0].id;
-  const tabs = TEMAS.map(t => `<button class="atab" role="tab" data-tema="${t.id}" aria-selected="${t.id === TEMA}">
-      <span aria-hidden="true">${t.ic}</span> ${esc(t.titulo)}</button>`).join("");
-  return `<div class="sec-cab"><h2>${esc(T("s_analisis_set"))}</h2>${carrusel("atabs", tabs, T("s_analisis_set"))}</div>
-    <div class="apanel" id="apanel">${panelTema()}</div>`;
-}
-function panelTema() {
-  const t = TEMAS.find(x => x.id === TEMA) || TEMAS[0];
-  return `<div class="acard">${t.html}</div>`;
-}
-function eligeTema(id) {
-  if (id === TEMA || !TEMAS.some(t => t.id === id)) return;
-  TEMA = id;
-  document.querySelectorAll(".atab").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tema === TEMA)));
-  sinSalto(() => { $("#apanel").innerHTML = panelTema(); }, ".atabs");
-  aLaVista(document.querySelector('.atab[aria-selected="true"]'));
-  recuerdaUrl();
-}
+/* ================================================================ 3 · ESTADÍSTICAS
+   UNA tabla. El alcance dice de qué parte habla: todo el set, la pelea elegida o una de
+   sus rondas. Cada fila sabe sacar su valor en cada alcance; si ahí no existe, no sale.
+   Con el set completo, «Por ronda» cambia los totales por medias (antes, pestaña Promedios).
+   Las etiquetas caben en UNA línea en los seis idiomas; la unidad va entre paréntesis. */
+let ALC = ["set", "pelea", "ronda"].includes(Q.get("ver")) ? Q.get("ver") : "set";
+let RON = Math.max(0, (parseInt(Q.get("ronda"), 10) || 1) - 1);
+let MODO = Q.get("modo") === "ronda" ? "media" : "total";
 
-// La pelea y el tema elegidos quedan en la dirección: se puede compartir tal cual.
-function recuerdaUrl() {
-  const u = new URL(location.href);
-  u.searchParams.set("pelea", PELEA + 1);
-  u.searchParams.set("tema", TEMA.replace(/^a-/, ""));
-  history.replaceState(null, "", u);
-}
+const GRUPOS = [["dano", "💥", "s_dano"], ["combos", "🔗", "s_combos"], ["super", "⚡", "s_supers"],
+                ["mareos", "💫", "s_mareos"], ["rondas", "🥋", "rondas_t"]];
 
-function analisis() {
-  const [a, b] = F.stats, m = F.marcador || [0, 0];
-  const [ja, jb] = F.jugadores;
-  const seg = v => gu(v, " " + esc(T("seg")));
-  // Las rondas se miden con el reloj del propio juego, que no son segundos reales
-  // (en ST un segundo de reloj dura unos 0,6 s): se dice así en la unidad.
-  const segR = v => gu(v, " " + esc(T("seg_reloj")));
-  const bar = v => (v ?? 0).toFixed(2) + " " + esc(T("barras"));
-  const mm = v => v ? esc(mmss(v)) : "—";
-  // cada tema es una pestaña; se ve uno a la vez
-  // Dos columnas en pantalla ancha: lo mismo que el overlay a la izquierda y el detalle
-  // de la web a la derecha. Así cabe el doble sin bajar (en el móvil, una debajo de otra).
-  const card = (id, ic, titulo, principal, extra) => ({ id, ic, titulo,
-    html: `<div class="acols${extra ? "" : " uno"}"><div class="acol">${nombresCmp()}${principal}</div>`
-        + (extra ? `<div class="acol acol-mas"><div class="cmp-mas">${esc(T("mas_detalle"))}</div>${nombresCmp()}${extra}</div>` : "")
-        + `</div>` });
-  // En la fila sólo la racha misma (● ● ● ● 4). La secuencia de toda la partida, con
-  // la racha marcada, ya está en Momentos destacados; aquí 21 puntos no se leían.
-  const racha = n => {
-    const v = F.stats[n - 1].racha || 0;
-    if (!v) return "—";
-    return `<span class="seq" style="--c:${pc(n)}">${'<i class="g racha"></i>'.repeat(Math.min(v, 10))}</span><span class="seq-n">${v}</span>`;
-  };
-  const mas = filas => filas.length ? comparar(filas) : "";
-  const D = DATOS();
-  // medias que la ficha no trae hechas: se sacan de lo que sí trae
-  const porRonda = s_ => s_.rondas_jugadas ? (s_.dano_barras || 0) / s_.rondas_jugadas : null;
-  const [ra, rb] = [porRonda(a), porRonda(b)];
-  const [pa, pb] = [peleaMedia(1), peleaMedia(2)];
-
-  /* Mismo reparto y mismo orden que el overlay (claude/fcrec-overlay-orden.md):
-     💥 Combate · 🥋 Rondas · 📊 Promedios. Cada juego se salta lo que no da, nunca
-     reordena. Promedios = sólo lo que es una media (suma ÷ cuántas). */
-  const out = [];
-  out.push(card("a-combate", "💥", T("s_combate"), comparar([
-    [T("st_dano"), n0(a.dano), n0(b.dano), a.dano, b.dano, 1, `≈ ${bar(a.dano_barras)} · ${bar(b.dano_barras)}`],
-    [T("st_perfects"), a.perfects ?? 0, b.perfects ?? 0, a.perfects, b.perfects],
-    [T("st_swaps"), a.swaps ?? 0, b.swaps ?? 0, 0, 0, 0],
-    [T("st_peleapida"), mm(a.pelea_rapida), mm(b.pelea_rapida), a.pelea_rapida, b.pelea_rapida, -1],
+function filasEst() {
+  const S = F.stats, J = F.jugadores, D = DATOS();
+  // una barra = una vida entera; la escala la da la propia ficha (144 en Super Turbo)
+  const BAR = S[0].dano && S[0].dano_barras ? S[0].dano / S[0].dano_barras : 144;
+  const bar = v => (v / BAR).toFixed(2);
+  const ent = v => milesDe(v);
+  const dec = v => String(Math.round(v * 100) / 100);
+  const uno = v => v.toFixed(1);
+  const seg = v => v + " s";
+  const pc = v => v + "%";
+  const por = (v, n) => S[n].rondas_jugadas && v != null ? v / S[n].rondas_jugadas : null;
+  const de = (k) => (p, n) => ((p.resumen || {})[k] || [])[n];
+  const dr = (k) => (r, n) => (r[k] || [])[n];
+  return [
+    { g: "dano", k: "est_dano", set: n => S[n].dano, pel: de("dano"), ron: dr("dano"), f: bar, pts: true,
+      med: n => por(S[n].dano, n), km: "est_dano_r" },
+    { g: "dano", k: "est_golpes", set: n => S[n].golpes, f: ent, med: n => por(S[n].golpes, n), km: "est_golpes_r", fm: uno },
+    { g: "dano", k: "est_golpe_max", set: n => S[n].golpe_max, f: bar, pts: true },
+    { g: "dano", k: "est_por_golpe", med: n => S[n].dano_medio, f: bar, pts: true },
     ...(D.combos ? [
-      [T("st_combos"), a.combos ?? 0, b.combos ?? 0, a.combos, b.combos],
-      [T("st_combomax"), gu(a.combo_max, " " + esc(T("golpes"))), gu(b.combo_max, " " + esc(T("golpes"))), a.combo_max, b.combo_max],
-      [T("st_combodano"), gu(a.combo_dano), gu(b.combo_dano), a.combo_dano, b.combo_dano, 1,
-        a.combo_dano || b.combo_dano ? `≈ ${bar(a.combo_dano_barras)} · ${bar(b.combo_dano_barras)}` : ""],
+      { g: "combos", k: "s_combos", set: n => S[n].combos, pel: de("combos"), ron: dr("combos"), f: ent,
+        med: n => por(S[n].combos, n), km: "est_combos_r", fm: dec },
+      { g: "combos", k: "est_combo_max", set: n => S[n].combo_max, f: ent },
+      { g: "combos", k: "est_combo_dano", set: n => S[n].combo_dano, f: bar, pts: true },
     ] : []),
-    ...(D.super ? [[T("st_supers"), `⚡ ${a.supers ?? 0}`, `⚡ ${b.supers ?? 0}`, a.supers, b.supers]] : []),
-    ...(D.stun ? [[T("st_dizzies"), a.mareos ?? 0, b.mareos ?? 0, a.mareos, b.mareos]] : []),
-    ...(D.super ? [[T("st_meterfull"), gu(a.meter_full), gu(b.meter_full), a.meter_full, b.meter_full]] : []),
-  ]), mas([
-    [T("st_recibido"), n0(a.recibido), n0(b.recibido), a.recibido, b.recibido, -1],
-    [T("st_golpes"), a.golpes ?? 0, b.golpes ?? 0, a.golpes, b.golpes],
-    [T("st_golpemax"), gu(a.golpe_max), gu(b.golpe_max), a.golpe_max, b.golpe_max, 1,
-      a.golpe_max || b.golpe_max ? `≈ ${bar(a.golpe_max_barras)} · ${bar(b.golpe_max_barras)}` : ""],
-    ...(D.super ? [[T("st_supernom"), esc(ja.super || "—"), esc(jb.super || "—"), 0, 0, 0]] : []),
+    ...(D.super ? [
+      { g: "super", k: "est_cargado", set: n => S[n].meter_full, f: ent },
+      { g: "super", k: "est_supers", set: n => S[n].supers, pel: de("supers"), ron: dr("supers"), f: ent,
+        med: n => por(S[n].supers, n), km: "est_supers_r", fm: dec },
+    ] : []),
     ...(D.stun ? [
-      [T("st_mareado"), gu(a.mareado_veces), gu(b.mareado_veces), a.mareado_veces, b.mareado_veces, -1],
-      [T("st_stuntime"), seg(a.stun_seg), seg(b.stun_seg), a.stun_seg, b.stun_seg, -1],
-      [T("st_stunpeor"), seg(a.stun_peor_seg), seg(b.stun_peor_seg), a.stun_peor_seg, b.stun_peor_seg, -1],
+      { g: "mareos", k: "est_mareo", set: n => S[n].mareos, pel: de("mareos"), ron: dr("mareos"), f: ent },
+      // lo cuenta quien mareó: el tiempo que el RIVAL pasó mareado
+      { g: "mareos", k: "est_mareo_t", set: n => S[1 - n].stun_seg, f: seg },
+      { g: "mareos", k: "est_mareo_max", set: n => S[1 - n].stun_peor_seg, f: seg },
     ] : []),
-  ])));
-  out.push(card("a-rondas", "🥋", T("rondas_t"), comparar([
-    [T("st_kotiempo"), `${a.ko ?? 0} / ${a.timeup ?? 0}`, `${b.ko ?? 0} / ${b.timeup ?? 0}`, a.ko, b.ko],
-    [T("st_racha"), racha(1), racha(2), a.racha, b.racha],
-    [T("st_rapida"), segR(a.ronda_rapida), segR(b.ronda_rapida), a.ronda_rapida, b.ronda_rapida, -1],
-  ]) + graficaRondas(), mas([
-    [T("st_peleas"), m[0], m[1], m[0], m[1]],
-    [T("st_rondas"), `${a.rondas ?? 0} / ${a.rondas_jugadas ?? 0}`, `${b.rondas ?? 0} / ${b.rondas_jugadas ?? 0}`, a.rondas, b.rondas],
-    [T("st_winpct"), pctTxt(a), pctTxt(b), a.rondas, b.rondas],
-    [T("st_primero"), `${a.primero ?? 0} / ${a.rondas_jugadas ?? 0}`, `${b.primero ?? 0} / ${b.rondas_jugadas ?? 0}`, a.primero, b.primero],
-    [T("st_limite"), a.al_limite ?? 0, b.al_limite ?? 0, a.al_limite, b.al_limite],
-    [T("st_remontada"), gu(a.remontada, "%"), gu(b.remontada, "%"), a.remontada, b.remontada],
-  ])));
-  out.push(card("a-promedios", "📊", T("s_promedios"), comparar([
-    [T("st_dmgronda"), ra == null ? "—" : bar(ra), rb == null ? "—" : bar(rb), ra, rb],
-    [T("st_vida"), gu(a.vida_al_ganar, "%"), gu(b.vida_al_ganar, "%"), a.vida_al_ganar, b.vida_al_ganar],
-    [T("st_duravg"), segR(a.dur_avg), segR(b.dur_avg), a.dur_avg, b.dur_avg, 0],
-    [T("st_gameavg"), mm(pa), mm(pb), pa, pb, 0],
-  ]), mas([
-    [T("st_vidaperd"), gu(a.vida_perdida_ronda, "%"), gu(b.vida_perdida_ronda, "%"), a.vida_perdida_ronda, b.vida_perdida_ronda, -1],
-    [T("st_danomedio"), gu(a.dano_medio), gu(b.dano_medio), a.dano_medio, b.dano_medio],
-  ])));
-  const chars = j => esc((j.personajes || [j.personaje]).filter(Boolean).join(" · ") || "—");
-  out.push(card("a-pers", "🎭", T("s_pers"), comparar([
-    [T("s_pers"), chars(ja), chars(jb), 0, 0, 0],
-    [T("rango"), esc(ja.rango_letra || "—"), esc(jb.rango_letra || "—"), 0, 0, 0],
-  ])));
-  return pestanasAnalisis(out);
+    { g: "rondas", k: "est_rondas", set: n => S[n].rondas, pel: (p, n) => rondasDe(p)[n], f: ent },
+    { g: "rondas", k: "est_tiempo", set: n => S[n].timeup, f: ent },
+    { g: "rondas", k: "est_perfects", set: n => S[n].perfects, pel: de("perfects"),
+      ron: (r, n) => r.perfect && r.ganador === n + 1 ? 1 : 0, f: ent },
+    { g: "rondas", k: "est_primero", set: n => S[n].primero, f: ent },
+    { g: "rondas", k: "est_racha", set: n => S[n].racha, f: ent },
+    { g: "rondas", k: "est_remontada", set: n => S[n].remontada, ron: (r, n) => r.ganador === n + 1 ? (r.remontada || 0) : null,
+      f: pc, ay: "st_remontada" },
+    { g: "rondas", k: "est_vida_m", kr: "est_vida", set: n => S[n].vida_al_ganar, med: n => S[n].vida_al_ganar,
+      ron: (r, n) => r.ganador === n + 1 ? (r.vida_final || [])[n] : null, f: pc },
+    { g: "rondas", k: "est_limite", set: n => S[n].al_limite, f: ent, ay: "st_limite" },
+    { g: "rondas", k: "est_pelea_corta", set: n => S[n].pelea_rapida, f: mmss, mejor: -1 },
+    { g: "rondas", k: "est_ronda_rapida", set: n => S[n].ronda_rapida, f: seg, mejor: -1, ay: "seg_reloj" },
+    { g: "rondas", k: "est_dur_media", med: n => S[n].dur_avg, f: seg, mejor: 0, ay: "seg_reloj" },
+    { g: "rondas", k: "est_pelea_media", med: n => peleaMedia(n + 1), f: mmss, mejor: 0 },
+    { g: "rondas", k: "st_swaps", set: n => J[n].swaps, f: ent, mejor: 0 },
+  ];
 }
-// Lo que tarda de media en ganar una pelea: sólo las peleas que GANÓ, en tiempo real
-// (fin − t, como «su pelea más rápida»). null si no ganó ninguna.
+// Lo que tarda de media en ganar una pelea: sólo las peleas que GANÓ, en tiempo real.
 function peleaMedia(n) {
   const ds = (F.peleas || []).filter(p => p.ganador === n).map(durPelea).filter(d => d > 0);
   return ds.length ? Math.round(ds.reduce((x, y) => x + y, 0) / ds.length) : null;
 }
 
-// Duración de cada ronda: aquí la barra compara magnitudes (cuánto duró cada una) y
-// además sirve para saltar al vídeo. Va plegada dentro de Tiempo, no a la vista.
-function graficaRondas() {
-  const todas = [];
-  (F.peleas || []).forEach(p => (p.rondas || []).forEach(r =>
-    todas.push({ p: p.n, n: r.n, d: r.duracion || 0, g: r.ganador || 0, t: r.t })));
-  if (!todas.length) return "";
-  const max = Math.max(...todas.map(x => x.d)) || 1;
-  return `<div class="durs"><div class="dtit">${esc(T("dur_rondas"))}</div>` + todas.map(x =>
-    `<button class="dfila" data-t="${x.t}">
-       <span class="et">${esc(T("pelea"))} ${x.p} · ${esc(T("ronda"))} ${x.n}</span>
-       <span class="t"><i class="g${x.g}" style="width:${pct(x.d, max)}%"></i></span>
-       <span class="v">${x.d} ${esc(T("seg_reloj"))}</span></button>`).join("") + "</div>";
+function panelEst() {
+  const p = (F.peleas || [])[PELEA], r = p && (p.rondas || [])[RON];
+  const media = ALC === "set" && MODO === "media";
+  const valor = (f, n) => {
+    if (ALC === "set") return media ? (f.med ? f.med(n) : undefined) : (f.set ? f.set(n) : undefined);
+    if (ALC === "pelea") return f.pel && p ? f.pel(p, n) : undefined;
+    return f.ron && r ? f.ron(r, n) : undefined;
+  };
+  const porG = {}, ceros = [];
+  for (const f of filasEst()) {
+    let a = valor(f, 0), b = valor(f, 1);
+    if (a === undefined && b === undefined) continue;          // no existe en este alcance
+    a = a ?? null; b = b ?? null;
+    if (a == null && b == null) continue;
+    const et = T(media && f.km ? f.km : ALC === "ronda" && f.kr ? f.kr : f.k);
+    if (a === 0 && b === 0) { ceros.push(et); continue; }     // 0 · 0 va en una línea al pie
+    const fmt = media && f.fm ? f.fm : f.f;
+    const l = quienLidera(a, b, f.mejor === undefined ? 1 : f.mejor);
+    const celda = (v, lado, lid) => `<b class="v ${lado}${lid ? " lid" : ""}"${f.pts && v != null
+      ? ` title="${esc(milesDe(Math.round(v)))} ${esc(T("est_puntos"))}"` : ""}>${v == null ? "—" : esc(fmt(v))}</b>`;
+    const ayuda = f.ay ? et + " · " + T(f.ay) : et;
+    (porG[f.g] = porG[f.g] || []).push(`<div class="ef">${celda(a, "a", l === 1)}<span class="k" title="${esc(ayuda)}">${esc(et)}</span>${celda(b, "b", l === 2)}</div>`);
+  }
+  const J = F.jugadores;
+  const sup = J[0].super || J[1].super
+    ? `<i class="eg-sup"><span class="a">${esc(J[0].super || "—")}</span> · <span class="b">${esc(J[1].super || "—")}</span></i>` : "";
+  const grupo = ([id, ic, t]) => porG[id] ? `<div class="eg"><div class="eg-t"><span class="eg-ic" aria-hidden="true">${ic}</span><span>${esc(T(t))}</span>${id === "super" ? sup : ""}</div>${porG[id].join("")}</div>` : "";
+  const colA = GRUPOS.slice(0, 4).map(grupo).join(""), colB = grupo(GRUPOS[4]);
+  const nom = `<div class="e-nom"><span class="a">${esc(nombre(1))}</span><span class="b">${esc(nombre(2))}</span></div>`;
+  if (!colA && !colB) return `<div class="ecard"><p class="vacio">${esc(T("nada_aqui"))}</p></div>`;
+  return `<div class="ecard"><div class="ecols">${colA ? `<div class="ecol">${nom}${colA}</div>` : ""}${colB ? `<div class="ecol">${nom}${colB}</div>` : ""}</div>`
+    + (ceros.length ? `<p class="e-ceros">${esc(T("est_ceros"))}: ${ceros.map(esc).join(" · ")}</p>` : "") + `</div>`;
 }
 
-const seccion = (id, titulo, cuerpo, sub) =>
-  `<section id="${id}" class="fsec"><h2>${esc(titulo)}${sub ? `<span class="sub">${esc(sub)}</span>` : ""}</h2>${cuerpo}</section>`;
+// las pastillas del alcance: 🌐 todo el set · 🥊 pelea N · R1 R2 R3 (subrayada con el color de quien la ganó)
+function pastillas() {
+  const p = (F.peleas || [])[PELEA];
+  const b = (alc, txt, sel, extra = "", clase = "") =>
+    `<button class="epill${clase}" data-alc="${alc}"${extra} aria-pressed="${sel}">${txt}</button>`;
+  return b("set", `🌐 ${esc(T("est_set"))}`, ALC === "set")
+    + (p ? b("pelea", `🥊 ${esc(T("pelea"))} ${p.n}`, ALC === "pelea") : "")
+    + (p ? (p.rondas || []).map((r, i) => b("ronda", `R${r.n}`, ALC === "ronda" && RON === i, ` data-ron="${i}"`, ` g${r.ganador || 0}`)).join("") : "");
+}
+const modoEst = () => ALC !== "set" ? "" : `<div class="emodo" role="group">
+    <button data-modo="total" aria-pressed="${MODO === "total"}">${esc(T("est_total"))}</button>
+    <button data-modo="media" aria-pressed="${MODO === "media"}">${esc(T("est_media"))}</button></div>`;
+
+function estadisticas() {
+  return `<div class="sec-cab"><h2>${esc(T("est_titulo"))}</h2>
+      <div class="epills" id="epills" role="group" aria-label="${esc(T("est_titulo"))}">${pastillas()}</div>
+      <div id="emodo">${modoEst()}</div></div>
+    <div id="epanel">${panelEst()}</div>`;
+}
+
+// Cambió la pelea, la ronda o el alcance: se repintan el detalle y la tabla sin mover la página.
+function repintaDetalle(ancla) {
+  sinSalto(() => {
+    $("#pdet").innerHTML = detallePelea();
+    $("#epills").innerHTML = pastillas();
+    $("#emodo").innerHTML = modoEst();
+    $("#epanel").innerHTML = panelEst();
+  }, ancla);
+  recuerdaUrl();
+}
+
+// La pelea y lo que se está mirando quedan en la dirección: se puede compartir tal cual.
+function recuerdaUrl() {
+  const u = new URL(location.href);
+  u.searchParams.set("pelea", PELEA + 1);
+  u.searchParams.delete("tema");
+  if (ALC === "set") u.searchParams.delete("ver"); else u.searchParams.set("ver", ALC);
+  if (ALC === "ronda") u.searchParams.set("ronda", RON + 1); else u.searchParams.delete("ronda");
+  if (ALC === "set" && MODO === "media") u.searchParams.set("modo", "ronda"); else u.searchParams.delete("modo");
+  history.replaceState(null, "", u);
+}
+
 function bloques() {
   return `<section id="peleas" class="fsec">${peleasYRondas()}</section>`
-       + `<section id="analisis" class="fsec">${analisis()}</section>`;
+       + `<section id="estadisticas" class="fsec">${estadisticas()}</section>`;
 }
 
 function pinta() {
@@ -633,13 +509,12 @@ function pinta() {
 
   $("#cab").innerHTML = cabecera();
   PELEA = Math.min(PELEA, Math.max(0, (F.peleas || []).length - 1));
-  $("#resumen-caja").innerHTML = `<section id="resumen" class="fsec sin-tit" aria-label="${esc(T("s_resumen"))}">${resumen()}</section>`;
+  const pr = (F.peleas || [])[PELEA];
+  if (ALC === "ronda" && !(pr && (pr.rondas || [])[RON])) { ALC = "pelea"; RON = 0; }
   $("#tlset").innerHTML = lineaSet();
   $("#resto").innerHTML = bloques();
   estadoCarruseles();
   aLaVista(document.querySelector('.ts-seg[aria-pressed="true"]'));
-  aLaVista(document.querySelector('.atab[aria-selected="true"]'));
-  enfocaBaldosa();
 
   if (!$("#video").dataset.hecho) {
     $("#video").dataset.hecho = "1";
@@ -664,11 +539,9 @@ $("#cuerpo").addEventListener("click", e => {
   const chip = e.target.closest(".chip[data-tipo]");
   if (chip) {
     const t = chip.dataset.tipo;
-    if (t === "__todo") APAGADOS.clear();
-    else APAGADOS.has(t) ? APAGADOS.delete(t) : APAGADOS.add(t);
-    document.querySelectorAll(".chip[data-tipo]").forEach(c => {
-      if (c.dataset.tipo !== "__todo") c.setAttribute("aria-pressed", String(!APAGADOS.has(c.dataset.tipo)));
-    });
+    APAGADOS.has(t) ? APAGADOS.delete(t) : APAGADOS.add(t);
+    document.querySelectorAll(".chip[data-tipo]").forEach(c =>
+      c.setAttribute("aria-pressed", String(!APAGADOS.has(c.dataset.tipo))));
     document.querySelectorAll(".tl-p").forEach(m =>
       m.classList.toggle("oculto", APAGADOS.has(m.dataset.tipo)));
     return;
@@ -679,12 +552,33 @@ $("#cuerpo").addEventListener("click", e => {
     p.scrollBy({ left: +flecha.dataset.car * Math.max(120, p.clientWidth * 0.8), behavior: "smooth" });
     return;
   }
+  // alcance de las estadísticas: pastillas y tramos de la banda de rondas
+  const alc = e.target.closest("[data-alc]");
+  if (alc) {
+    const nuevo = alc.dataset.alc, r = alc.dataset.ron != null ? +alc.dataset.ron : RON;
+    if (nuevo === ALC && r === RON) return;
+    ALC = nuevo; RON = r;
+    repintaDetalle("#epills");
+    return;
+  }
+  const ron = e.target.closest(".tl-r[data-ron]");
+  if (ron) {
+    const i = +ron.dataset.ron;
+    if (ALC === "ronda" && RON === i) ALC = "pelea"; else { ALC = "ronda"; RON = i; }
+    repintaDetalle(".ts-bar");      // .pdet entra con animación: el ancla va fuera
+    return;
+  }
+  const modo = e.target.closest("[data-modo]");
+  if (modo) {
+    if (modo.dataset.modo === MODO) return;
+    MODO = modo.dataset.modo;
+    repintaDetalle("#epills");
+    return;
+  }
   const tramo = e.target.closest("[data-pelea-t]");
   if (tramo) { eligePelea(+tramo.dataset.peleaT); salta(parseFloat(tramo.dataset.t)); return; }
   const pel = e.target.closest("[data-pelea]");
   if (pel) { eligePelea(+pel.dataset.pelea); return; }
-  const tema = e.target.closest("[data-tema]");
-  if (tema) { eligeTema(tema.dataset.tema); return; }
   const salto = e.target.closest("[data-t]");
   if (salto) salta(parseFloat(salto.dataset.t));
 });
@@ -692,12 +586,9 @@ $("#cuerpo").addEventListener("click", e => {
 $("#cuerpo").addEventListener("keydown", e => {
   if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
   const d = e.key === "ArrowRight" ? 1 : -1;
-  if (e.target.closest("#plist, .ts-bar")) { e.preventDefault(); eligePelea(PELEA + d, true);
-    const t = document.querySelector(`.ts-seg[data-pelea="${PELEA}"]`); if (t && e.target.closest(".ts-bar")) t.focus(); }
-  else if (e.target.closest(".atabs") && !e.target.closest("[data-car]")) {
-    e.preventDefault();
-    const i = TEMAS.findIndex(t => t.id === TEMA) + d;
-    if (TEMAS[i]) { eligeTema(TEMAS[i].id); document.querySelector(`.atab[data-tema="${TEMA}"]`).focus(); }
+  if (e.target.closest(".ts-bar")) {
+    e.preventDefault(); eligePelea(PELEA + d);
+    const t = document.querySelector(`.ts-seg[data-pelea="${PELEA}"]`); if (t) t.focus();
   }
 });
 
