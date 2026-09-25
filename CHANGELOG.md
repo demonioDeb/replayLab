@@ -8,6 +8,12 @@ que se hizo el cambio, no las de publicación.
 
 ## 2026-09-25
 
+### Arreglado
+- **Móvil: la pantalla ya no salta al vídeo.** `salta()` sólo actúa si se ve menos del 60 % del
+  vídeo (descontando la cabecera fija). En pantallas táctiles (`hover:none` o `pointer:coarse`)
+  no mueve la página: enseña el botón flotante `#ir-video` («▶ Ver en el vídeo», 4 s). Con
+  ratón, `scrollIntoView` como antes.
+
 ### Cambiado
 - **Línea de tiempo del set, 6.ª pasada.** Flechas ◀ ▶ (carrusel) cuando no cabe: el lienzo
   mide al menos 46 px por pelea y 0,9 px por segundo. Cabezal dorado del vídeo (lo sigue si

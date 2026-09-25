@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Partida · replayLab">
 <meta name="twitter:description" content="Una partida de Fightcade analizada: rondas, daño, tiempos y momentos, leídos de la propia partida.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=9c73b0873d">
+<link rel="stylesheet" href="assets/estilo.css?v=3e535085b8">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -93,11 +93,39 @@ function salta(t) {
   t = Math.max(0, t);
   if (REPRO && LISTO && REPRO.seekTo) {
     REPRO.seekTo(t, true); REPRO.playVideo();
-    // si el vídeo no está a la vista, se lleva a la vista: se pulsa un momento y se VE
+    // ¿se ve el vídeo? (lo que queda debajo de la cabecera fija del sitio)
     const v = $("#video"), q = v && v.getBoundingClientRect();
-    if (q && (q.top < 70 || q.bottom > innerHeight)) v.scrollIntoView({ behavior: "smooth", block: "center" });
+    if (!q || !q.height) return;
+    const tapa = ($("#cabsitio") && $("#cabsitio").getBoundingClientRect().bottom) || 0;
+    const visto = Math.max(0, Math.min(q.bottom, innerHeight) - Math.max(q.top, tapa)) / q.height;
+    if (visto >= 0.6) return;
+    // En el móvil la pantalla NO se mueve sola (se estaba navegando): sale un botón que
+    // lleva al vídeo si quieres. Con ratón, el vídeo se trae a la vista como antes.
+    if (TACTIL) avisoVideo();
+    else v.scrollIntoView({ behavior: "smooth", block: "center" });
   }
   else if (F && F.youtube) window.open(`https://youtu.be/${F.youtube}?t=${Math.floor(t)}`, "_blank");
+}
+const TACTIL = matchMedia("(hover: none), (pointer: coarse)").matches;
+function avisoVideo() {
+  let b = $("#ir-video");
+  if (!b) {
+    b = document.createElement("button");
+    b.id = "ir-video"; b.type = "button";
+    document.body.appendChild(b);
+    b.addEventListener("click", () => {
+      b.classList.remove("ver");
+      $("#video").scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+    // si el vídeo entra en la pantalla, el botón sobra
+    if ("IntersectionObserver" in window)
+      new IntersectionObserver(es => { if (es[0].intersectionRatio >= 0.6) b.classList.remove("ver"); },
+        { threshold: [0.6] }).observe($("#video"));
+  }
+  b.textContent = "▶ " + T("p_video");
+  b.classList.add("ver");
+  clearTimeout(b._reloj);
+  b._reloj = setTimeout(() => b.classList.remove("ver"), 4000);
 }
 
 const pc = n => n === 1 ? "var(--p1)" : n === 2 ? "var(--p2)" : "var(--gold)";

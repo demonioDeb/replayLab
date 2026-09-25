@@ -5,6 +5,14 @@
    "fecha": "2026-09-25",
    "cambios": [
     {
+     "t": "arreglado",
+     "area": [
+      "web"
+     ],
+     "es": "En el móvil, pulsar un momento de la línea de tiempo ya no arrastra la pantalla hasta el vídeo mientras navegas: el vídeo salta a ese segundo y, si no está a la vista, aparece abajo un botón «▶ Ver en el vídeo» para ir cuando quieras (se va solo a los 4 segundos). En la computadora sigue llevándote al vídeo, y sólo si no se ve.",
+     "en": "On phones, tapping a timeline moment no longer drags the screen to the video while you browse: the video jumps to that second and, if it's off screen, a “▶ Watch in the video” button appears at the bottom so you can go when you want (it hides after 4 seconds). On a computer it still takes you to the video, and only when it isn't visible."
+    },
+    {
      "t": "cambiado",
      "area": [
       "web"
