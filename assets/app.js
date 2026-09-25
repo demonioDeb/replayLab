@@ -29,7 +29,7 @@ const I18N = {
     st_supers: "Súpers lanzados", st_mareos: "Mareos que provocó",
     st_rapida: "Ronda más corta que ganó", st_vida: "Vida que le quedaba al ganar (media)",
     st_limite: "Rondas ganadas casi sin vida", st_remontada: "Mayor remontada (vida en contra)",
-    pie_hecho: "Hecho con fcrec", pie_fuente: "Código",
+    pie_privacidad: "Privacidad", pie_terminos: "Términos", pie_hecho: "Hecho con fcrec", pie_fuente: "Código",
     no_existe: "No encuentro ese vídeo.",
     s_resumen: "Resumen", s_analisis: "Análisis", r_destacados: "Momentos destacados",
     r_dif: "%s de diferencia", r_igual: "Igualados", r_vidafin: "Vida al final de cada ronda", r_remontada: "Remontó %s % de vida en contra",
@@ -86,7 +86,7 @@ const I18N = {
     st_supers: "Supers thrown", st_mareos: "Dizzies caused",
     st_rapida: "Shortest round won", st_vida: "Health left when winning (avg.)",
     st_limite: "Rounds won on almost no health", st_remontada: "Biggest comeback (health behind)",
-    pie_hecho: "Made with fcrec", pie_fuente: "Source",
+    pie_privacidad: "Privacy", pie_terminos: "Terms", pie_hecho: "Made with fcrec", pie_fuente: "Source",
     no_existe: "I can't find that video.",
     s_resumen: "Summary", s_analisis: "Analysis", r_destacados: "Highlights",
     r_dif: "%s ahead", r_igual: "Level", r_vidafin: "Health at the end of each round", r_remontada: "Came back from %s% health behind",
@@ -143,7 +143,7 @@ const I18N = {
     st_supers: "Súpers usados", st_mareos: "Atordoamentos causados",
     st_rapida: "Round mais curto que venceu", st_vida: "Vida restante ao vencer (média)",
     st_limite: "Rounds vencidos quase sem vida", st_remontada: "Maior virada (vida atrás)",
-    pie_hecho: "Feito com fcrec", pie_fuente: "Código",
+    pie_privacidad: "Privacidade", pie_terminos: "Termos", pie_hecho: "Feito com fcrec", pie_fuente: "Código",
     no_existe: "Não encontro esse vídeo.",
     s_resumen: "Resumo", s_analisis: "Análise", r_destacados: "Destaques",
     r_dif: "%s de diferença", r_igual: "Empatados", r_vidafin: "Vida no fim de cada round", r_remontada: "Virou com %s% de vida atrás",
@@ -200,7 +200,7 @@ const I18N = {
     st_supers: "Supers lancés", st_mareos: "Étourdissements provoqués",
     st_rapida: "Manche la plus courte gagnée", st_vida: "Vie restante en gagnant (moy.)",
     st_limite: "Manches gagnées presque sans vie", st_remontada: "Plus grosse remontée (vie de retard)",
-    pie_hecho: "Fait avec fcrec", pie_fuente: "Code",
+    pie_privacidad: "Confidentialité", pie_terminos: "Conditions", pie_hecho: "Fait avec fcrec", pie_fuente: "Code",
     no_existe: "Je ne trouve pas cette vidéo.",
     s_resumen: "Résumé", s_analisis: "Analyse", r_destacados: "Temps forts",
     r_dif: "%s d'écart", r_igual: "À égalité", r_vidafin: "Vie en fin de chaque manche", r_remontada: "A remonté %s % de vie de retard",
@@ -257,7 +257,7 @@ const I18N = {
     st_supers: "スーパー使用", st_mareos: "スタンを奪った回数",
     st_rapida: "最短で勝ったラウンド", st_vida: "勝利時の残り体力（平均）",
     st_limite: "残り体力わずかで勝ったラウンド", st_remontada: "最大の逆転（体力差）",
-    pie_hecho: "fcrec で作成", pie_fuente: "ソース",
+    pie_privacidad: "プライバシー", pie_terminos: "利用規約", pie_hecho: "fcrec で作成", pie_fuente: "ソース",
     no_existe: "その動画が見つかりません。",
     s_resumen: "サマリー", s_analisis: "分析", r_destacados: "ハイライト",
     r_dif: "%s の差", r_igual: "互角", r_vidafin: "各ラウンド終了時の体力", r_remontada: "体力%s%差から逆転",
@@ -314,7 +314,7 @@ const I18N = {
     st_supers: "超必杀发动", st_mareos: "打晕对手次数",
     st_rapida: "最短获胜回合", st_vida: "获胜时剩余血量（平均）",
     st_limite: "残血获胜回合", st_remontada: "最大逆转（血量落后）",
-    pie_hecho: "由 fcrec 制作", pie_fuente: "源码",
+    pie_privacidad: "隐私政策", pie_terminos: "服务条款", pie_hecho: "由 fcrec 制作", pie_fuente: "源码",
     no_existe: "找不到这个视频。",
     s_resumen: "概要", s_analisis: "详细分析", r_destacados: "精彩时刻",
     r_dif: "领先 %s", r_igual: "持平", r_vidafin: "每回合结束时血量", r_remontada: "逆转 %s% 血量劣势",
@@ -470,6 +470,8 @@ function pintaPie(el) {
   if (!el) return;
   el.innerHTML = `<span>© ${new Date().getFullYear()} Replay Lab</span><span>·</span>
     <span>${esc(T("pie_indep"))}</span><span>·</span><span>${esc(T("pie_datos"))}</span>
+    <span>·</span><a href="privacidad.html">${esc(T("pie_privacidad"))}</a>
+    <span>·</span><a href="terminos.html">${esc(T("pie_terminos"))}</a>
     <span class="sp"></span><span>${esc(T("pie_hecho"))}</span>`;
 }
 
