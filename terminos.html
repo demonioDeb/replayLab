@@ -61,9 +61,10 @@
 <script src="assets/app.js?v=57bd190b28"></script>
 <script>
 "use strict";
-document.documentElement.lang = LANG;
-montaCabecera("terminos", () => { textosCabecera(); pintaPie(); });
-cargaBase();
+const pinta = () => { document.documentElement.lang = LANG; textosCabecera(); pintaPie(); };
+montaCabecera("terminos", pinta);
+pinta();
+cargaBase(pinta);
 </script>
 </body>
 </html>
