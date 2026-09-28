@@ -1,4 +1,48 @@
 {
- "actualizado": "2026-09-28 00:00",
- "videos": []
+ "actualizado": "2026-09-28 20:07",
+ "videos": [
+  {
+   "quark": "1790372106237-7758",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-25",
+   "youtube": "l_q-Mm-qxI4",
+   "duracion": 641.6,
+   "marcador": [
+    5,
+    1
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "H-Zero",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "O. Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "O. Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    },
+    {
+     "nombre": "hassasin10",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "Cammy",
+     "clave": "cammy",
+     "personajes": [
+      "Cammy"
+     ],
+     "claves": [
+      "cammy"
+     ]
+    }
+   ],
+   "rondas": 17
+  }
+ ]
 }

@@ -1,0 +1,1084 @@
+{
+ "version": 8,
+ "quark": "1790372106237-7758",
+ "carpeta": "20260928_H-Zero_vs_hassasin10_1790372106237-7758",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": true
+ },
+ "fecha": "2026-09-25",
+ "youtube": "l_q-Mm-qxI4",
+ "titulo": "H-Zero vs hassasin10 | O. Ryu vs Cammy | 5-1",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "H-Zero",
+   "pais": "mx",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "O. Ryu",
+   "clave": "ryu",
+   "personajes": [
+    "O. Ryu"
+   ],
+   "claves": [
+    "ryu"
+   ],
+   "swaps": 0,
+   "super": "Shinku Hadouken"
+  },
+  {
+   "nombre": "hassasin10",
+   "pais": "mx",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Cammy",
+   "clave": "cammy",
+   "personajes": [
+    "Cammy"
+   ],
+   "claves": [
+    "cammy"
+   ],
+   "swaps": 0,
+   "super": "Spin Drive Smasher"
+  }
+ ],
+ "marcador": [
+  5,
+  1
+ ],
+ "duracion": 641.6,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 7.35,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 7.35,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      79,
+      144
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 45,
+     "remontada": 43,
+     "fin": 24.48,
+     "vida_final": [
+      0,
+      45
+     ]
+    },
+    {
+     "n": 2,
+     "t": 29.93,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 73,
+     "perfect": false,
+     "dano": [
+      144,
+      130
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 9,
+     "remontada": 1,
+     "fin": 71.4,
+     "vida_final": [
+      9,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 76.95,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 63,
+     "perfect": false,
+     "dano": [
+      143,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 0,
+     "remontada": 31,
+     "fin": 113.07,
+     "vida_final": [
+      0,
+      0
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "O. Ryu",
+    "Cammy"
+   ],
+   "claves": [
+    "ryu",
+    "cammy"
+   ],
+   "fin": 113.57,
+   "resumen": {
+    "dano": [
+     366,
+     418
+    ],
+    "combos": [
+     1,
+     1
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 164
+   }
+  },
+  {
+   "n": 2,
+   "t": 129.77,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 129.77,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 53,
+     "perfect": false,
+     "dano": [
+      90,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 37,
+     "remontada": 18,
+     "fin": 160.37,
+     "vida_final": [
+      0,
+      37
+     ]
+    },
+    {
+     "n": 2,
+     "t": 165.92,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 69,
+     "perfect": false,
+     "dano": [
+      144,
+      116
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 19,
+     "remontada": 9,
+     "fin": 205.2,
+     "vida_final": [
+      19,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 210.92,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 52,
+     "perfect": false,
+     "dano": [
+      144,
+      133
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 7,
+     "remontada": 44,
+     "fin": 241.5,
+     "vida_final": [
+      7,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    1
+   ],
+   "personajes": [
+    "O. Ryu",
+    "Cammy"
+   ],
+   "claves": [
+    "ryu",
+    "cammy"
+   ],
+   "fin": 241.98,
+   "resumen": {
+    "dano": [
+     378,
+     393
+    ],
+    "combos": [
+     0,
+     2
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 174
+   }
+  },
+  {
+   "n": 3,
+   "t": 260.19,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 260.19,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 48,
+     "perfect": false,
+     "dano": [
+      144,
+      128
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 11,
+     "remontada": 27,
+     "fin": 287.76,
+     "vida_final": [
+      11,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 293.4,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 43,
+     "perfect": false,
+     "dano": [
+      79,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 45,
+     "remontada": 14,
+     "fin": 318.73,
+     "vida_final": [
+      0,
+      45
+     ]
+    },
+    {
+     "n": 3,
+     "t": 324.2,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 48,
+     "perfect": false,
+     "dano": [
+      144,
+      94
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 34,
+     "remontada": 37,
+     "fin": 352.65,
+     "vida_final": [
+      34,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    1
+   ],
+   "personajes": [
+    "O. Ryu",
+    "Cammy"
+   ],
+   "claves": [
+    "ryu",
+    "cammy"
+   ],
+   "fin": 353.13,
+   "resumen": {
+    "dano": [
+     367,
+     366
+    ],
+    "combos": [
+     2,
+     0
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 139
+   }
+  },
+  {
+   "n": 4,
+   "t": 370.1,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 370.1,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 20,
+     "perfect": false,
+     "dano": [
+      144,
+      32
+     ],
+     "combos": [
+      2,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 77,
+     "remontada": 9,
+     "fin": 382.64,
+     "vida_final": [
+      77,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 388.47,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 69,
+     "perfect": false,
+     "dano": [
+      124,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 13,
+     "remontada": 8,
+     "fin": 428.04,
+     "vida_final": [
+      0,
+      13
+     ]
+    },
+    {
+     "n": 3,
+     "t": 433.83,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      144,
+      123
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 14,
+     "remontada": 35,
+     "fin": 468.27,
+     "vida_final": [
+      14,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    1
+   ],
+   "personajes": [
+    "O. Ryu",
+    "Cammy"
+   ],
+   "claves": [
+    "ryu",
+    "cammy"
+   ],
+   "fin": 468.76,
+   "resumen": {
+    "dano": [
+     412,
+     299
+    ],
+    "combos": [
+     2,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 149
+   }
+  },
+  {
+   "n": 5,
+   "t": 489.74,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 489.74,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 54,
+     "perfect": false,
+     "dano": [
+      140,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 2,
+     "remontada": 28,
+     "fin": 520.86,
+     "vida_final": [
+      0,
+      2
+     ]
+    },
+    {
+     "n": 2,
+     "t": 526.94,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 23,
+     "perfect": true,
+     "dano": [
+      144,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 541.72,
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 547.27,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      144,
+      66
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 54,
+     "remontada": 0,
+     "fin": 570.55,
+     "vida_final": [
+      54,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    4,
+    1
+   ],
+   "personajes": [
+    "O. Ryu",
+    "Cammy"
+   ],
+   "claves": [
+    "ryu",
+    "cammy"
+   ],
+   "fin": 571.03,
+   "resumen": {
+    "dano": [
+     428,
+     210
+    ],
+    "combos": [
+     0,
+     1
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     2,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 116
+   }
+  },
+  {
+   "n": 6,
+   "t": 589.83,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 589.84,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      144,
+      21
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 85,
+     "remontada": 0,
+     "fin": 607.04,
+     "vida_final": [
+      85,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 613.34,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 36,
+     "perfect": false,
+     "dano": [
+      144,
+      40
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 72,
+     "remontada": 0,
+     "fin": 635.16,
+     "vida_final": [
+      72,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    5,
+    1
+   ],
+   "personajes": [
+    "O. Ryu",
+    "Cammy"
+   ],
+   "claves": [
+    "ryu",
+    "cammy"
+   ],
+   "fin": 635.64,
+   "resumen": {
+    "dano": [
+     288,
+     61
+    ],
+    "combos": [
+     2,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 64
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 12.35,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 24.48,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 68.09,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 71.4,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 113.07,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 160.37,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 205.2,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 241.5,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 283.69,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 287.76,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 318.73,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 352.65,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 379.62,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 380.37,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 382.63,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 428.04,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 468.27,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 514.27,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 519.84,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 520.86,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 541.72,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 541.72,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 568.44,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 570.55,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 598.96,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 607.04,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 635.16,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 496,
+   "pelea_rapida": 46,
+   "swaps": 0,
+   "rondas": 11,
+   "rondas_jugadas": 17,
+   "ko": 11,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 2239,
+   "recibido": 1747,
+   "golpes": 156,
+   "golpe_max": 34,
+   "primero": 12,
+   "combos": 7,
+   "combo_max": 3,
+   "combo_dano": 63,
+   "supers": 0,
+   "mareos": 4,
+   "ronda_rapida": 20,
+   "al_limite": 2,
+   "remontada": 44,
+   "racha": 4,
+   "vida_al_ganar": 44,
+   "dano_medio": 14.4,
+   "dur_avg": 45,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 71,
+   "dano_barras": 15.55,
+   "recibido_barras": 12.13,
+   "combo_dano_barras": 0.44,
+   "golpe_max_barras": 0.24
+  },
+  {
+   "meter_full": 12,
+   "stun_frames": 434,
+   "stun_peor": 126,
+   "mareado_veces": 4,
+   "dur_sum": 310,
+   "pelea_rapida": 106,
+   "swaps": 0,
+   "rondas": 6,
+   "rondas_jugadas": 17,
+   "ko": 6,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1747,
+   "recibido": 2239,
+   "golpes": 92,
+   "golpe_max": 34,
+   "primero": 5,
+   "combos": 4,
+   "combo_max": 2,
+   "combo_dano": 46,
+   "supers": 3,
+   "mareos": 0,
+   "ronda_rapida": 28,
+   "al_limite": 2,
+   "remontada": 43,
+   "racha": 2,
+   "vida_al_ganar": 24,
+   "dano_medio": 19.0,
+   "dur_avg": 52,
+   "stun_seg": 7.3,
+   "stun_peor_seg": 2.1,
+   "vida_perdida_ronda": 91,
+   "dano_barras": 12.13,
+   "recibido_barras": 15.55,
+   "combo_dano_barras": 0.32,
+   "golpe_max_barras": 0.24
+  }
+ ]
+}
