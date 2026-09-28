@@ -1,0 +1,29 @@
+# Plantilla de «Pedir un replay». La página enviar.html abre esta plantilla con los
+# campos ya rellenos (?template=pedir-replay.yml&enlace=…&juego=…&nota=…).
+# pedidos.bat (en C:\fcrec-v3) lista los issues abiertos cuyo título empieza por [Replay].
+name: "🎮 Pedir un replay / Request a replay"
+description: "Pide que un replay de Fightcade se grabe y se analice en replayLab · Ask for a Fightcade replay to be recorded and analysed"
+title: "[Replay] "
+labels: ["pedido"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por pedir un replay. Revisa el enlace y pulsa **Create** (abajo).
+        Thanks for your request. Check the link and press **Create** (below).
+  - type: input
+    id: enlace
+    attributes:
+      label: "Enlace del replay de Fightcade · Fightcade replay link"
+      placeholder: "https://replay.fightcade.com/fbneo/ssf2xjr1/1234567890123-1234"
+    validations:
+      required: true
+  - type: input
+    id: juego
+    attributes:
+      label: "Juego (gameid) · Game"
+      placeholder: "ssf2xjr1"
+  - type: textarea
+    id: nota
+    attributes:
+      label: "¿Algo que debamos saber? · Anything we should know? (opcional/optional)"

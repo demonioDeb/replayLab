@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Enviar replay · replayLab</title>
+<title>Pedir un replay · replayLab</title>
 <meta name="description" content="Pronto podrás enviar a Replay Lab el enlace de un replay de Fightcade para que se grabe, se analice y se publique.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
@@ -13,7 +13,7 @@
 <!-- vista previa al compartir (Open Graph / X): imagen de 1200 × 630 en assets/og.png -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="replayLab">
-<meta property="og:title" content="Enviar replay · replayLab">
+<meta property="og:title" content="Pedir un replay · replayLab">
 <meta property="og:description" content="Pronto podrás enviar a Replay Lab el enlace de un replay de Fightcade para que se grabe, se analice y se publique.">
 <meta property="og:url" content="https://demoniodeb.github.io/replayLab/enviar.html">
 <meta property="og:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
@@ -22,29 +22,43 @@
 <meta property="og:image:alt" content="replayLab: replays de juegos de pelea de Fightcade con estadísticas">
 <meta property="og:locale" content="es_ES">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Enviar replay · replayLab">
+<meta name="twitter:title" content="Pedir un replay · replayLab">
 <meta name="twitter:description" content="Pronto podrás enviar a Replay Lab el enlace de un replay de Fightcade para que se grabe, se analice y se publique.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=d5f40a5ddc">
+<link rel="stylesheet" href="assets/estilo.css?v=a91bc23654">
 </head>
 <body>
 <header id="cabsitio"></header>
 
 <main class="wrap estrecho">
-  <!-- La función aún no existe: la página está para que se sepa que viene. El campo y
-       el botón están desactivados de verdad (disabled), no sólo pintados en gris. -->
-  <section class="enviar">
-    <span class="e-chapa" id="e-chapa"></span>
+  <!-- Pedir un replay. El sitio es estático, así que la solicitud se envía como un issue
+       de GitHub ya escrito (plantilla .github/ISSUE_TEMPLATE/pedir-replay.yml): al dueño
+       le llega el aviso por correo y pedidos.bat los lista. Si en datos/sitio.json se pone
+       pedidos.formulario (un Google Forms, por ejemplo) sale también para quien no tiene
+       cuenta de GitHub. -->
+  <section class="enviar activa">
     <h1 id="e-titulo"></h1>
     <p class="e-sub" id="e-sub"></p>
-    <form class="e-form" onsubmit="return false" aria-describedby="e-aviso">
+    <form class="e-form" id="e-form" novalidate>
       <label for="e-url" id="e-campo"></label>
       <div class="e-fila">
-        <input id="e-url" type="url" disabled placeholder="https://replay.fightcade.com/fbneo/ssf2xjr1/…">
-        <button type="submit" disabled id="e-boton"></button>
+        <input id="e-url" type="url" inputmode="url" autocomplete="off" spellcheck="false"
+               placeholder="https://replay.fightcade.com/fbneo/ssf2xjr1/…">
       </div>
-      <p class="e-aviso" id="e-aviso"></p>
+      <p class="e-estado" id="e-estado" aria-live="polite"></p>
+      <label for="e-nota" id="e-nota-l" class="e-nota-l"></label>
+      <textarea id="e-nota" rows="2" maxlength="500"></textarea>
+      <div class="e-acciones">
+        <button type="submit" class="btn prim" id="e-boton" disabled></button>
+        <a class="e-alt" id="e-alt" target="_blank" rel="noopener" hidden></a>
+      </div>
+      <p class="e-aviso" id="e-github"></p>
     </form>
+  </section>
+
+  <section class="bloque" id="b-cola" hidden>
+    <div class="bloque-cab"><h2 id="t-cola"></h2></div>
+    <ul class="cola" id="cola"></ul>
   </section>
 
   <section class="bloque">
@@ -62,31 +76,155 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=e06ad88df4"></script>
+<script src="assets/app.js?v=57bd190b28"></script>
 <script src="assets/lista.js?v=005562bfb5"></script>
 <script>
 "use strict";
 let INDICE = { videos: [] };
+let COLA = null;             // pedidos abiertos en GitHub: [{n, quark, juego, fecha, url}] · null = sin cargar
+let COLA_ERROR = false;
+let PEDIDO = null;           // lo que se va a pedir: {url, quark, gameid, juego}
+
+// El mismo patrón que fcrec/fightcade.py (parse_link): …/<gameid>/<quark> o el quark suelto.
+const RE_ENLACE = /(?:replay\/(?:fbneo\/|flycast\/|[a-z0-9]+\/)?)?([a-z0-9_]+)\/(\d{10,}-\d+)(?:\.\d+)?/i;
+const RE_QUARK = /^\d{10,}-\d+$/;
+function leeEnlace(txt) {
+  txt = (txt || "").trim();
+  if (!txt) return null;
+  if (RE_QUARK.test(txt)) return { url: txt, quark: txt, gameid: "" };
+  const m = txt.match(RE_ENLACE);
+  return m ? { url: txt, quark: m[2], gameid: m[1].toLowerCase() } : { mal: true };
+}
+const juegoDeId = gid => JUEGOS.find(j => (j.gameids || []).includes(gid)) || null;
+const repoGitHub = () => {
+  const m = String((SITIO || {}).github || "https://github.com/demonioDeb/replayLab").match(/github\.com\/([^/]+)\/([^/?#]+)/);
+  return m ? { dueno: m[1], repo: m[2].replace(/\.git$/, "") } : null;
+};
+
+// Comprueba el enlace mientras se escribe y deja el botón listo o dice por qué no.
+function revisa() {
+  const r = leeEnlace($("#e-url").value), est = $("#e-estado");
+  PEDIDO = null;
+  est.className = "e-estado";
+  if (!r) { est.textContent = ""; }
+  else if (r.mal) { est.textContent = T("e_mal"); est.classList.add("mal"); }
+  else {
+    const ya = (INDICE.videos || []).find(v => v.quark === r.quark);
+    const pedida = (COLA || []).find(c => c.quark === r.quark);
+    const j = r.gameid ? juegoDeId(r.gameid) : null;
+    if (ya) {
+      est.innerHTML = `✅ ${esc(T("e_ya"))} <a href="video.html?q=${encodeURIComponent(r.quark)}">${esc(T("e_ver"))} →</a>`;
+      est.classList.add("ok");
+    } else if (pedida) {
+      est.innerHTML = `⏳ ${esc(T("e_pedida"))} <a href="${esc(pedida.url)}" target="_blank" rel="noopener">#${pedida.n} ↗</a>`;
+      est.classList.add("aviso");
+    } else if (r.gameid && !j) {
+      est.textContent = T("e_nojuego"); est.classList.add("mal");
+    } else if (j && j.estado !== "activo") {
+      est.textContent = T("e_prox").replace("%s", j.nombre_completo || j.nombre); est.classList.add("mal");
+    } else {
+      PEDIDO = { ...r, juego: j };
+      est.textContent = "✔ " + (j ? T("e_ok").replace("%s", j.nombre_completo || j.nombre) : T("e_ok_sin"));
+      est.classList.add("ok");
+    }
+  }
+  $("#e-boton").disabled = !PEDIDO;
+  const alt = $("#e-alt"), f = ((SITIO || {}).pedidos || {});
+  alt.hidden = !f.formulario;
+  if (f.formulario) {
+    // Google Forms deja rellenar un campo por la URL: ?usp=pp_url&entry.<n>=<valor>
+    const u = new URL(f.formulario);
+    if (f.campo_enlace && PEDIDO) { u.searchParams.set("usp", "pp_url"); u.searchParams.set(f.campo_enlace, PEDIDO.url); }
+    alt.href = u.toString();
+  }
+}
+
+// Enviar = abrir GitHub con el issue escrito. Los campos de la plantilla (enlace, juego,
+// nota) se rellenan por la URL; el título lleva el quark para que pedidos.bat lo lea.
+$("#e-form").addEventListener("submit", e => {
+  e.preventDefault();
+  revisa();
+  const g = repoGitHub();
+  if (!PEDIDO || !g) return;
+  const gid = PEDIDO.gameid || "?";
+  const u = new URL(`https://github.com/${g.dueno}/${g.repo}/issues/new`);
+  u.searchParams.set("template", "pedir-replay.yml");
+  u.searchParams.set("title", `[Replay] ${PEDIDO.juego ? PEDIDO.juego.corto : gid} · ${PEDIDO.quark}`);
+  u.searchParams.set("enlace", PEDIDO.url);
+  u.searchParams.set("juego", gid);
+  const nota = $("#e-nota").value.trim();
+  if (nota) u.searchParams.set("nota", nota);
+  window.open(u.toString(), "_blank", "noopener");
+});
+$("#e-url").addEventListener("input", revisa);
+
+// La cola: los issues abiertos que son pedidos (título «[Replay] …» o etiqueta «pedido»).
+// La API de GitHub es pública y admite CORS; si falla, la sección no sale y ya.
+async function cargaCola() {
+  const g = repoGitHub();
+  if (!g) return;
+  try {
+    const r = await fetch(`https://api.github.com/repos/${g.dueno}/${g.repo}/issues?state=open&per_page=100`,
+                          { headers: { Accept: "application/vnd.github+json" } });
+    if (!r.ok) throw new Error(r.status);
+    const lista = await r.json();
+    COLA = lista.filter(i => !i.pull_request && (/^\[replay\]/i.test(i.title || "") ||
+                             (i.labels || []).some(l => (l.name || l) === "pedido")))
+      .map(i => {
+        const m = ((i.title || "") + "\n" + (i.body || "")).match(/(\d{10,}-\d+)/);
+        const gm = (i.body || "").match(/([a-z0-9_]+)\/\d{10,}-\d+/i);
+        return { n: i.number, url: i.html_url, quark: m ? m[1] : "", gameid: gm ? gm[1].toLowerCase() : "",
+                 fecha: (i.created_at || "").slice(0, 10) };
+      });
+  } catch (err) { COLA = []; COLA_ERROR = true; }
+  pinta();
+}
+
+function pintaCola() {
+  $("#b-cola").hidden = COLA === null;
+  if (COLA === null) return;
+  $("#t-cola").textContent = "⏳ " + T("e_cola");
+  if (COLA_ERROR) { $("#cola").innerHTML = `<li class="vacio">${esc(T("e_cola_error"))}</li>`; return; }
+  if (!COLA.length) { $("#cola").innerHTML = `<li class="vacio">${esc(T("e_cola_vacia"))}</li>`; return; }
+  $("#cola").innerHTML = COLA.map(c => {
+    const hecha = (INDICE.videos || []).some(v => v.quark === c.quark);
+    const j = c.gameid ? juegoDeId(c.gameid) : null;
+    return `<li class="${hecha ? "hecha" : ""}">
+      <span class="c-n">#${c.n}</span>
+      <span class="c-j">${esc(j ? j.corto : (c.gameid || "?"))}</span>
+      <span class="c-q">${esc(c.quark || "—")}</span>
+      <span class="c-f">${esc(c.fecha)}</span>
+      ${hecha ? `<a class="c-e ok" href="video.html?q=${encodeURIComponent(c.quark)}">✅ ${esc(T("e_publicada"))}</a>`
+              : `<a class="c-e" href="${esc(c.url)}" target="_blank" rel="noopener">${esc(T("e_en_cola"))} ↗</a>`}</li>`;
+  }).join("");
+}
+
 function pinta() {
   document.documentElement.lang = LANG;
+  document.title = T("e_titulo") + " · replayLab";
   textosCabecera(); pintaPie(); pintaApoyo();
-  $("#e-chapa").textContent = "🔒 " + T("n_pronto");
   $("#e-titulo").textContent = "📨 " + T("e_titulo");
   $("#e-sub").textContent = T("e_sub");
   $("#e-campo").textContent = T("e_campo");
-  $("#e-boton").textContent = "🔒 " + T("e_boton");
-  $("#e-aviso").textContent = T("e_aviso");
+  $("#e-nota-l").textContent = T("e_nota");
+  $("#e-nota").placeholder = T("e_nota_ph");
+  $("#e-boton").textContent = T("e_boton") + " ↗";
+  $("#e-alt").textContent = T("e_sin_cuenta") + " ↗";
+  $("#e-github").textContent = T("e_github");
   $("#t-como").textContent = T("e_como");
-  $("#pasos").innerHTML = ["e_p1", "e_p2", "e_p3", "e_p4", "e_p5"]
-    .map(k => `<li>${esc(T(k))}</li>`).join("");
+  $("#pasos").innerHTML = ["e_p1", "e_p2", "e_p3", "e_p4", "e_p5"].map(k => `<li>${esc(T(k))}</li>`).join("");
   $("#t-juegos").textContent = T("e_juegos");
   const orden = [...juegosActivos(), ...JUEGOS.filter(j => j.estado !== "activo")];
   $("#juegos").innerHTML = orden.map(j => tarjetaJuego(j, INDICE.videos || [])).join("");
+  pintaCola();
+  revisa();
 }
 montaCabecera("enviar", pinta);
+// se puede enlazar con el replay ya puesto: enviar.html?replay=<enlace>
+if (Q.get("replay")) $("#e-url").value = Q.get("replay");
 pinta();
 Promise.all([cargaBase(), json("datos/indice.json").then(d => { INDICE = d; }).catch(() => {})])
-  .then(pinta);
+  .then(() => { pinta(); cargaCola(); });
 </script>
 </body>
 </html>

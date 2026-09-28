@@ -1339,3 +1339,38 @@ a.jug-enlace:hover .n,.jug a.nom:hover{text-decoration:underline;text-decoration
 .jug a.nom{display:block}
 .hero-guia{display:inline-block;margin-top:14px;font-size:15px;color:var(--gold);font-weight:600}
 .hero-guia:hover{text-decoration:underline}
+
+/* ================================================================ PEDIR UN REPLAY (28 sep)
+   Ya funciona: el enlace se comprueba al escribirlo y la solicitud sale como un issue de
+   GitHub ya escrito. Debajo, la cola de pedidos abiertos. */
+.enviar.activa{border-style:solid}
+.enviar.activa .e-fila input{color:var(--ink);cursor:text;background:#0b0e16}
+.enviar.activa .e-fila input:focus{outline:none;border-color:var(--gold)}
+.e-estado{min-height:22px;font-size:14.5px;margin:8px 2px 12px;color:var(--dim);overflow-wrap:anywhere}
+.e-estado.ok{color:var(--ok)} .e-estado.mal{color:var(--mal)} .e-estado.aviso{color:var(--gold)}
+.e-estado a{color:var(--gold);font-weight:600;white-space:nowrap}
+.e-nota-l{margin-top:4px}
+#e-nota{width:100%;resize:vertical;min-height:52px;font:inherit;font-size:15px;padding:10px 14px;border-radius:10px;
+  background:#0b0e16;border:1px solid var(--line);color:var(--ink)}
+#e-nota:focus{outline:none;border-color:var(--line2)}
+.e-acciones{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin-top:14px}
+.e-acciones .btn[disabled]{opacity:.45;cursor:not-allowed;filter:grayscale(.6)}
+.e-alt{font-size:14px;color:var(--gold);font-weight:600}
+.e-alt:hover{text-decoration:underline}
+.cola{list-style:none;display:flex;flex-direction:column;gap:6px}
+.cola li{display:grid;grid-template-columns:auto auto minmax(0,1fr) auto auto;align-items:center;gap:12px;
+  padding:10px 14px;border-radius:10px;background:var(--panel);border:1px solid var(--line);font-size:15px}
+.cola li.vacio{display:block;color:var(--dim)}
+.cola .c-n{font:600 13px/1 var(--mono);color:var(--dim)}
+.cola .c-j{font-weight:700;color:var(--gold)}
+.cola .c-q{font:500 13.5px/1.2 var(--mono);color:var(--soft);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cola .c-f{font-size:13px;color:var(--dim)}
+.cola .c-e{font-size:12px;letter-spacing:1px;text-transform:uppercase;font-weight:700;color:var(--gold);
+  border:1px solid rgba(255,203,69,.4);border-radius:999px;padding:2px 9px;white-space:nowrap}
+.cola .c-e.ok{color:var(--ok);border-color:rgba(125,252,176,.4)}
+.cola li.hecha{opacity:.8}
+@media (max-width:560px){
+  .cola li{grid-template-columns:auto minmax(0,1fr) auto;gap:4px 10px}
+  .cola .c-q{grid-column:1/-1;grid-row:2}
+  .cola .c-f{display:none}
+}
