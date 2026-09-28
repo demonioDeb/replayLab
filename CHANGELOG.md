@@ -6,6 +6,43 @@ La versión que se ve en el sitio está en `datos/cambios.json` y se lee en
 Los cambios de replayLab, de lo más nuevo a lo más viejo. Las fechas son las del día en
 que se hizo el cambio, no las de publicación.
 
+## 2026-09-28
+
+### Arreglado
+- **Móvil: la página se movía sola al deslizar.** `ajustaCabecera()` corría en cada `resize`,
+  y en el móvil llega un `resize` cada vez que la barra del navegador aparece o se esconde.
+  Para medir desplegaba el menú en línea un instante: la página se ensanchaba, el alto del
+  documento cambiaba y el navegador recolocaba el scroll (en la prueba, saltos de 148 a
+  1.135 px). Ahora mide una copia `position:fixed` fuera de la página (`.nav-medida`) y sólo
+  cuando cambia el ancho. Prueba con gestos táctiles reales y la barra del navegador
+  simulada en 6 páginas: deriva 0.
+
+### Cambiado
+- **Menú por grupos (`MENU` en `app.js`).** «ver» (Partidas, Juegos, Pedir un replay) en la
+  barra; «mas» (Guía, Novedades, Canal, GitHub) en el desplegable «Más ▾»; Apoyar
+  (`n_apoya_c`) e idioma a la derecha; el logo es Inicio (`aria-current`). Plegado: panel con
+  títulos de grupo (`n_explorar`, `n_proyecto`), en columnas desde 620 px. Se cierra al pulsar
+  fuera o con Escape. «Changelog» pasa a llamarse «Novedades».
+- **Para crecer.** `pintaLista(…, cuantas, alVerMas)` + `botonVerMas()` en `lista.js`
+  (`PASO = 24`): partidas y la pestaña Partidas de cada juego; jugadores de 30 en 30 y cada
+  nombre enlaza a `partidas.html?juego=…&q=…`; novedades de 7 en 7 días (`#c-mas`). La
+  búsqueda de Partidas va en la URL (`?q=`). En la ficha el nombre del jugador enlaza a sus
+  partidas. En la portada, enlace a la guía.
+
+### Añadido
+- **Guía de estadísticas (`guia.html`).** Seis conceptos («cómo leer una partida»), una fila
+  de ejemplo y el glosario con buscador. La lista es `GUIA` en `app.js`; la explicación de
+  la etiqueta `est_x` es `h_x` (`ayudaDe()`), 30 estadísticas en 6 idiomas.
+- **Ayuda en la tabla de la ficha.** La etiqueta de cada fila es un botón: enseña debajo
+  (`.ef-ay`) su explicación y un enlace a `guia.html#h_x`. Lo abierto se recuerda al
+  repintar (`AYU`).
+- **Pedir un replay (`enviar.html`).** Comprueba el enlace al escribirlo (mismo patrón que
+  `fightcade.parse_link`): juego activo, no publicada, no pedida. Envía abriendo un issue
+  con la plantilla `.github/ISSUE_TEMPLATE/pedir-replay.yml` (título `[Replay] <juego> ·
+  <quark>`, campos `enlace`, `juego`, `nota` por URL). La cola se lee de la API pública de
+  GitHub. `sitio.json → pedidos.formulario` (opcional) añade un formulario para quien no
+  tenga cuenta de GitHub. Del lado de fcrec, `pedidos.bat` + `tools/pedidos.py`.
+
 ## 2026-09-25
 
 ### Arreglado

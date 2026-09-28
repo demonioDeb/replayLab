@@ -2,6 +2,51 @@
  "nota": "Resumen por día de lo que se hizo y lo que se descubrió. Lo escribe a mano quien trabaja en el proyecto; no se genera solo. Cada cambio lleva 'area': 'web' (lo que se ve en replayLab) y/o 'juego' (overlay, grabación, lo descubierto del juego, YouTube), y 'juego' con el id de datos/juegos.json (o una lista de ids si el cambio vale para varios juegos). cambios.html tiene una pestaña por juego.",
  "dias": [
   {
+   "fecha": "2026-09-28",
+   "cambios": [
+    {
+     "t": "arreglado",
+     "area": [
+      "web"
+     ],
+     "es": "En el móvil la pantalla ya no se mueve sola al deslizar. Cada vez que la barra del navegador aparecía o se escondía, la web volvía a medir el menú y el navegador recolocaba la página, con saltos de hasta 1.000 px. Ahora lo mide sin tocar la página y sólo cuando cambia el ancho.",
+     "en": "On phones the screen no longer moves by itself while scrolling. Every time the browser bar appeared or hid, the site re-measured the menu and the browser repositioned the page, with jumps of up to 1,000 px. It now measures without touching the page, and only when the width changes."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "web"
+     ],
+     "es": "Menú de arriba ordenado por grupos: en la barra sólo lo que se viene a ver (Partidas, Juegos, Pedir un replay); la guía, las novedades, el canal y GitHub van en «Más ▾», y Apoyar y el idioma a la derecha. El logo lleva a Inicio. En el móvil sale un panel con los grupos titulados. Crecer ya no ensancha la barra.",
+     "en": "Top menu organised in groups: the bar only holds what people come to see (Matches, Games, Request a replay); the guide, what's new, the channel and GitHub live under “More ▾”, with Support and the language on the right. The logo goes home. On phones, a panel with titled groups. Adding pages no longer widens the bar."
+    },
+    {
+     "t": "añadido",
+     "area": [
+      "web"
+     ],
+     "es": "Guía de estadísticas: qué significa cada dato, en una frase, con buscador y un «cómo leer una partida» (set, pelea y ronda, colores, barras de vida, reloj del juego). En la tabla de cada partida, pulsar una estadística enseña su explicación justo debajo.",
+     "en": "Stats guide: what every number means, in one sentence, with a search box and a “how to read a match” section (set, game and round, colours, health bars, game timer). In each match's table, tapping a stat shows its explanation right below it."
+    },
+    {
+     "t": "añadido",
+     "area": [
+      "web"
+     ],
+     "es": "Pedir un replay ya funciona: pegas el enlace de Fightcade y la página comprueba que el juego esté en replayLab y que la partida no esté ya publicada ni pedida. La solicitud se envía como un issue de GitHub ya escrito y debajo se ve la cola de pedidos, con los ya publicados marcados.",
+     "en": "Request a replay now works: paste the Fightcade link and the page checks that the game is on replayLab and that the match isn't already published or requested. The request is sent as a ready-written GitHub issue, and the queue is shown below with published ones marked."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "web"
+     ],
+     "es": "Preparado para muchas más partidas: las listas de partidas enseñan 24 y un botón «Ver más» (también en la página de cada juego), la de jugadores 30, y las novedades los últimos 7 días. El nombre de cada jugador lleva a todas sus partidas y la búsqueda se puede enlazar.",
+     "en": "Ready for many more matches: match lists show 24 with a “Show more” button (also on each game's page), the player list 30, and what's new the last 7 days. Each player's name leads to all their matches and searches can be linked."
+    }
+   ]
+  },
+  {
    "fecha": "2026-09-25",
    "cambios": [
     {
@@ -35,6 +80,14 @@
      ],
      "es": "Las tres tarjetas de ronda se convierten en una banda: cada tramo dice quién ganó, cómo y cuánto duró, y la barrita es la vida que le quedó al ganador (con 🔥 si remontó y 🏆 si fue perfect). Pulsar una ronda muestra sus estadísticas. La pelea más corta que ganó cada uno lleva ⚡ en la tira de peleas, y los filtros de las líneas de tiempo ya no llevan contadores.",
      "en": "The three round cards become one band: each segment says who won, how and how long it lasted, and the thin bar is the winner's remaining health (🔥 for a comeback, 🏆 for a perfect). Tapping a round shows its stats. Each player's shortest win gets ⚡ in the games bar, and the timeline filters no longer carry counts."
+    },
+    {
+     "t": "añadido",
+     "area": [
+      "web"
+     ],
+     "es": "Páginas de Privacidad y Términos, enlazadas desde el pie en los seis idiomas.",
+     "en": "Privacy and Terms pages, linked from the footer in all six languages."
     }
    ]
   },
