@@ -23,14 +23,12 @@
    "personaje": "Balrog",
    "clave": "boxer",
    "personajes": [
-    "Balrog",
-    "Blanka"
+    "Balrog"
    ],
    "claves": [
-    "boxer",
-    "blanka"
+    "boxer"
    ],
-   "swaps": 2,
+   "swaps": 0,
    "super": ""
   },
   {
@@ -696,42 +694,10 @@
   },
   {
    "n": 6,
-   "t": 478.59,
+   "t": 485.16,
    "rondas": [
     {
      "n": 1,
-     "t": 478.59,
-     "ganador": null,
-     "motivo": null,
-     "duracion": null,
-     "perfect": false,
-     "dano": [
-      144,
-      144
-     ],
-     "combos": [
-      0,
-      0
-     ],
-     "supers": [
-      0,
-      0
-     ],
-     "mareos": [
-      0,
-      0
-     ],
-     "vida_fin": null,
-     "remontada": 0,
-     "sin_cierre": true,
-     "fin": 485.16,
-     "vida_final": [
-      0,
-      0
-     ]
-    },
-    {
-     "n": 2,
      "t": 485.16,
      "ganador": 1,
      "motivo": "ko",
@@ -762,7 +728,7 @@
      ]
     },
     {
-     "n": 3,
+     "n": 2,
      "t": 517.93,
      "ganador": 1,
      "motivo": "ko",
@@ -799,18 +765,18 @@
     3
    ],
    "personajes": [
-    "Blanka",
+    "Balrog",
     "Balrog"
    ],
    "claves": [
-    "blanka",
+    "boxer",
     "boxer"
    ],
    "fin": 548.29,
    "resumen": {
     "dano": [
-     432,
-     369
+     288,
+     225
     ],
     "combos": [
      0,
@@ -1330,16 +1296,16 @@
    "mareado_veces": 0,
    "dur_sum": 403,
    "pelea_rapida": 51,
-   "swaps": 2,
+   "swaps": 0,
    "rondas": 13,
    "rondas_jugadas": 22,
    "ko": 13,
    "timeup": 0,
    "perfects": 2,
-   "dano": 2732,
-   "recibido": 2418,
-   "golpes": 200,
-   "golpe_max": 144,
+   "dano": 2588,
+   "recibido": 2274,
+   "golpes": 199,
+   "golpe_max": 35,
    "primero": 12,
    "combos": 0,
    "combo_max": 0,
@@ -1351,15 +1317,15 @@
    "remontada": 40,
    "racha": 4,
    "vida_al_ganar": 47,
-   "dano_medio": 13.7,
+   "dano_medio": 13.0,
    "dur_avg": 31,
    "stun_seg": 0.0,
    "stun_peor_seg": 0.0,
-   "vida_perdida_ronda": 76,
-   "dano_barras": 18.97,
-   "recibido_barras": 16.79,
+   "vida_perdida_ronda": 72,
+   "dano_barras": 17.97,
+   "recibido_barras": 15.79,
    "combo_dano_barras": 0.0,
-   "golpe_max_barras": 1.0
+   "golpe_max_barras": 0.24
   },
   {
    "meter_full": 0,
@@ -1374,11 +1340,11 @@
    "ko": 9,
    "timeup": 0,
    "perfects": 0,
-   "dano": 2418,
-   "recibido": 2732,
-   "golpes": 163,
-   "golpe_max": 144,
-   "primero": 11,
+   "dano": 2274,
+   "recibido": 2588,
+   "golpes": 162,
+   "golpe_max": 37,
+   "primero": 10,
    "combos": 0,
    "combo_max": 0,
    "combo_dano": 0,
@@ -1389,15 +1355,15 @@
    "remontada": 56,
    "racha": 2,
    "vida_al_ganar": 44,
-   "dano_medio": 14.8,
+   "dano_medio": 14.0,
    "dur_avg": 33,
    "stun_seg": 0.0,
    "stun_peor_seg": 0.0,
-   "vida_perdida_ronda": 86,
-   "dano_barras": 16.79,
-   "recibido_barras": 18.97,
+   "vida_perdida_ronda": 82,
+   "dano_barras": 15.79,
+   "recibido_barras": 17.97,
    "combo_dano_barras": 0.0,
-   "golpe_max_barras": 1.0
+   "golpe_max_barras": 0.26
   }
  ]
 }

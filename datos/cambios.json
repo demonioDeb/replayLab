@@ -27,6 +27,18 @@
      ],
      "es": "Guía de estadísticas: qué significa cada dato, en una frase, con buscador y un «cómo leer una partida» (set, pelea y ronda, colores, barras de vida, reloj del juego). En la tabla de cada partida, pulsar una estadística enseña su explicación justo debajo.",
      "en": "Stats guide: what every number means, in one sentence, with a search box and a “how to read a match” section (set, game and round, colours, health bars, game timer). In each match's table, tapping a stat shows its explanation right below it."
+    },
+    {
+     "t": "arreglado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce"
+     ],
+     "es": "Si quien pierde tarda en volver a entrar y la máquina pone a la CPU en su lado, esa ronda cortada ya no cuenta: no suma golpes, no cambia el personaje de la pelea ni cuenta como cambio de personaje.",
+     "en": "If the loser takes a while to rejoin and the machine puts the CPU in their place, that cut-off round no longer counts: it adds no hits, doesn't change the game's character and isn't counted as a character switch."
     }
    ]
   },

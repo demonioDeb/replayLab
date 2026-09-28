@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-28 20:31",
+ "actualizado": "2026-09-28 20:55",
  "videos": [
   {
    "quark": "1790480084344-5884",
@@ -22,12 +22,10 @@
      "personaje": "Balrog",
      "clave": "boxer",
      "personajes": [
-      "Balrog",
-      "Blanka"
+      "Balrog"
      ],
      "claves": [
-      "boxer",
-      "blanka"
+      "boxer"
      ]
     },
     {
@@ -44,7 +42,7 @@
      ]
     }
    ],
-   "rondas": 23
+   "rondas": 22
   },
   {
    "quark": "1790372106237-7758",

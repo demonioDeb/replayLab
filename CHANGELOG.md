@@ -6,6 +6,20 @@ La versión que se ve en el sitio está en `datos/cambios.json` y se lee en
 Los cambios de replayLab, de lo más nuevo a lo más viejo. Las fechas son las del día en
 que se hizo el cambio, no las de publicación.
 
+## 2026-09-28 (noche, 2) — la CPU del «new challenger»
+
+- Caso: CE, MT Yurikowa vs Nostrax, pelea 6. Quien perdió tardó en volver, la máquina
+  puso a la CPU (Blanka) y empezó una ronda; al entrar el jugador el juego la cortó y dejó
+  las dos vidas a 0 en el mismo frame. Salían «golpe más fuerte 1.00» para los dos, un
+  «pegó primero» de más para el jugador 2, la pelea como «Blanka vs Balrog», 2 cambios de
+  personaje y la pelea empezando en la «ronda 2».
+- `fcrec/limpieza.py` (lo usan la ficha y los textos de YouTube): una vida entera en un
+  frame no es un golpe; la ronda sin cerrar que tuvo ese reinicio se anula; si era la
+  primera, la pelea toma los personajes de su final y empieza en su primera ronda buena;
+  rondas renumeradas. Los Lua de ST y CE ya no cuentan ese reinicio y emiten `round_abort`.
+- «Pedir un replay»: aviso de que el pedido tarda un minuto en salir en la cola (caché de
+  la API de GitHub).
+
 ## 2026-09-28 (noche) — instalación nueva
 
 - **Sitio vaciado para el lanzamiento.** Fuera las 6 fichas de prueba; `datos/indice.json`

@@ -76,7 +76,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=57bd190b28"></script>
+<script src="assets/app.js?v=ec9092be94"></script>
 <script src="assets/lista.js?v=005562bfb5"></script>
 <script>
 "use strict";
@@ -155,6 +155,9 @@ $("#e-form").addEventListener("submit", e => {
   const nota = $("#e-nota").value.trim();
   if (nota) u.searchParams.set("nota", nota);
   window.open(u.toString(), "_blank", "noopener");
+  const est = $("#e-estado");
+  est.className = "e-estado aviso";
+  est.textContent = "⏳ " + T("e_tarda");
 });
 $("#e-url").addEventListener("input", revisa);
 
@@ -210,7 +213,7 @@ function pinta() {
   $("#e-nota").placeholder = T("e_nota_ph");
   $("#e-boton").textContent = T("e_boton") + " ↗";
   $("#e-alt").textContent = T("e_sin_cuenta") + " ↗";
-  $("#e-github").textContent = T("e_github");
+  $("#e-github").textContent = T("e_github") + " " + T("e_tarda");
   $("#t-como").textContent = T("e_como");
   $("#pasos").innerHTML = ["e_p1", "e_p2", "e_p3", "e_p4", "e_p5"].map(k => `<li>${esc(T(k))}</li>`).join("");
   $("#t-juegos").textContent = T("e_juegos");
