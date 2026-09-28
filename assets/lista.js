@@ -108,11 +108,29 @@ function ordenaLista(lista, orden, desc) {
 }
 
 // Pinta la lista en `cont` con la vista pedida. Devuelve cuántas pintó.
-function pintaLista(cont, lista, vista, orden, desc) {
+// Con `cuantas` sólo pinta las primeras y deja debajo un botón «Ver más · quedan N»:
+// con cientos de partidas la página no puede pintarlas todas de golpe.
+const PASO = 24;
+function pintaLista(cont, lista, vista, orden, desc, cuantas, alVerMas) {
+  const parte = cuantas ? lista.slice(0, cuantas) : lista;
   cont.className = "lista v-" + vista;
-  cont.innerHTML = vista === "detalles" ? pintaDetalles(lista, orden, desc)
-                                         : lista.map(PINTA[vista]).join("");
-  return lista.length;
+  cont.innerHTML = vista === "detalles" ? pintaDetalles(parte, orden, desc)
+                                         : parte.map(PINTA[vista]).join("");
+  botonVerMas(cont, lista.length - parte.length, alVerMas);
+  return parte.length;
+}
+// El botón va justo DESPUÉS del contenedor (dentro de la rejilla sería una tarjeta más).
+function botonVerMas(cont, quedan, alPulsar) {
+  let b = cont.nextElementSibling;
+  if (!b || !b.classList.contains("ver-mas")) {
+    b = document.createElement("div");
+    b.className = "ver-mas";
+    cont.after(b);
+  }
+  b.hidden = !(quedan > 0 && alPulsar);
+  if (b.hidden) { b.innerHTML = ""; return; }
+  b.innerHTML = `<button type="button" class="btn">${esc(T("ver_mas"))} <span>· ${esc(T("quedan").replace("%s", milesDe(quedan)))}</span></button>`;
+  b.firstChild.onclick = alPulsar;
 }
 
 // Búsqueda por jugador, personaje, juego o fecha.

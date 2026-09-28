@@ -26,7 +26,7 @@
 <meta name="twitter:title" content="replayLab · replays de juegos de pelea">
 <meta name="twitter:description" content="Análisis de partidas de juegos de pelea: replays de Fightcade grabados, con estadísticas leídas de la propia partida.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=cc8c07d81e">
+<link rel="stylesheet" href="assets/estilo.css?v=d5f40a5ddc">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -40,6 +40,7 @@
       <a class="btn prim" href="partidas.html" id="h-ver"></a>
       <a class="btn" href="juegos.html" id="h-juegos-btn"></a>
     </div>
+    <a class="hero-guia" href="guia.html" id="h-guia"></a>
     <div class="hero-cifras" id="cifras"></div>
   </section>
 
@@ -59,8 +60,8 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=0fb73f337f"></script>
-<script src="assets/lista.js?v=82a0d35d3c"></script>
+<script src="assets/app.js?v=e06ad88df4"></script>
+<script src="assets/lista.js?v=005562bfb5"></script>
 <script>
 "use strict";
 let INDICE = { videos: [] };
@@ -72,6 +73,7 @@ function pinta() {
   $("#h-titulo").textContent = T("h_titulo");
   $("#h-texto").textContent = T("h_texto");
   $("#h-ver").textContent = T("h_ver");
+  $("#h-guia").textContent = "📖 " + T("h_guia") + " →";
   $("#h-juegos-btn").textContent = T("n_juegos");
   $("#t-juegos").textContent = T("h_juegos");
   $("#t-ultimas").textContent = T("h_ultimas");

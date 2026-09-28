@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Partida · replayLab">
 <meta name="twitter:description" content="Una partida de Fightcade analizada: rondas, daño, tiempos y momentos, leídos de la propia partida.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=cc8c07d81e">
+<link rel="stylesheet" href="assets/estilo.css?v=d5f40a5ddc">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -47,7 +47,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=0fb73f337f"></script>
+<script src="assets/app.js?v=e06ad88df4"></script>
 <script>
 "use strict";
 let F = null, REPRO = null, LISTO = false;
@@ -140,7 +140,7 @@ function cabecera() {
   const lado = (j, n) => `<div class="jug p${n}">
       ${retrato(j.clave, j.personaje)}
       <div class="datos">
-        <div class="nom">${esc(j.nombre)}</div>
+        <a class="nom" href="partidas.html?q=${encodeURIComponent(j.nombre)}" title="${esc(T("sus_partidas").replace("%s", j.nombre))}">${esc(j.nombre)}</a>
         <div class="sub">${bandera(j.pais, true)}${rango(j.rango_letra)}
           <span>${esc(j.personaje || "")}</span></div>
       </div></div>`;

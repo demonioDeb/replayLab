@@ -1327,3 +1327,15 @@ footer .sp{flex:1}
   .g-lista dd{padding-top:0}
   .g-grupo{padding:2px 12px 6px}
 }
+
+/* ================================================================ PARA CRECER (28 sep)
+   Listas que no se pintan enteras: «Ver más · quedan N» debajo. */
+.ver-mas{display:flex;justify-content:center;margin:16px 0 4px}
+.ver-mas .btn{gap:6px}
+.ver-mas .btn span{color:var(--dim);font-weight:500}
+.ver-mas[hidden]{display:none}
+/* el nombre de un jugador lleva a todas sus partidas */
+a.jug-enlace:hover .n,.jug a.nom:hover{text-decoration:underline;text-decoration-color:rgba(255,255,255,.35);text-underline-offset:4px}
+.jug a.nom{display:block}
+.hero-guia{display:inline-block;margin-top:14px;font-size:15px;color:var(--gold);font-weight:600}
+.hero-guia:hover{text-decoration:underline}

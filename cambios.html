@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Cambios · replayLab">
 <meta name="twitter:description" content="Qué cambió en replayLab y en cada juego, día a día.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=cc8c07d81e">
+<link rel="stylesheet" href="assets/estilo.css?v=d5f40a5ddc">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -36,14 +36,19 @@
   <div class="atabs c-areas" id="areas" role="tablist"></div>
   <p class="c-desc" id="c-desc"></p>
   <div id="cambios" class="diario"></div>
+  <div class="ver-mas" id="c-mas" hidden></div>
 </main>
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=0fb73f337f"></script>
+<script src="assets/app.js?v=e06ad88df4"></script>
 <script>
 "use strict";
 let DATOS = null;
+// Se enseñan los últimos días y el resto con «Ver días anteriores»: el historial sólo
+// crece y en el móvil ya pasaba de 20.000 px.
+const DIAS_PASO = 7;
+let DIAS = DIAS_PASO;
 
 // Un color por tipo de entrada, igual que los momentos de la ficha: se lee de un vistazo
 // si un día fue de descubrir algo, de añadir, de cambiar o de arreglar.
@@ -109,7 +114,7 @@ function pinta() {
   $("#c-desc").textContent = desc;
   $("#c-desc").hidden = !desc;
 
-  $("#cambios").innerHTML = (DATOS.dias || []).map(d => {
+  const secciones = (DATOS.dias || []).map(d => {
     const cs = (d.cambios || []).filter(c => pasa(c, FILTRO));
     let cuerpo = "";
     if (FILTRO.startsWith("j:")) {
@@ -129,13 +134,19 @@ function pinta() {
     return `<section class="dia">
       <h3><span class="fecha">${esc(fechaLarga(d.fecha))}</span></h3>
       ${cuerpo}</section>`;
-  }).join("");
+  }).filter(Boolean);
+  $("#cambios").innerHTML = secciones.slice(0, DIAS).join("");
+  const quedan = secciones.length - DIAS;
+  $("#c-mas").hidden = quedan <= 0;
+  $("#c-mas").innerHTML = quedan > 0
+    ? `<button type="button" class="btn">${esc(T("c_anteriores"))} <span>· ${esc(T("quedan").replace("%s", milesDe(quedan)))}</span></button>` : "";
 }
+$("#c-mas").addEventListener("click", e => { if (e.target.closest("button")) { DIAS += DIAS_PASO; pinta(); } });
 
 $("#areas").addEventListener("click", e => {
   const b = e.target.closest("[data-f]");
   if (!b) return;
-  FILTRO = b.dataset.f;
+  FILTRO = b.dataset.f; DIAS = DIAS_PASO;
   const u = new URL(location.href);
   u.searchParams.delete("area"); u.searchParams.delete("juego");
   if (FILTRO === "web") u.searchParams.set("area", "web");

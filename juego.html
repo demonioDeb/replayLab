@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Juego · replayLab">
 <meta name="twitter:description" content="Partidas, jugadores, personajes y estadísticas de un juego en Replay Lab.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=cc8c07d81e">
+<link rel="stylesheet" href="assets/estilo.css?v=d5f40a5ddc">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -43,12 +43,13 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=0fb73f337f"></script>
-<script src="assets/lista.js?v=82a0d35d3c"></script>
+<script src="assets/app.js?v=e06ad88df4"></script>
+<script src="assets/lista.js?v=005562bfb5"></script>
 <script>
 "use strict";
 let INDICE = { videos: [] };
 let CARGADO = false;
+let CUANTAS = PASO, CUANTOS_J = 30;       // partidas y jugadores que se ven; «Ver más» suma
 const PESTANAS = [["partidas", "n_partidas"], ["jugadores", "g_jugadores"],
                   ["personajes", "s_pers"], ["estadisticas", "g_stats"]];
 const pestana = () => {
@@ -87,22 +88,19 @@ function personajesDe(lista) {
 }
 
 const PANEL = {
-  partidas: lista => {
-    const div = document.createElement("div");
-    div.className = "lista";
-    pintaLista(div, ordenaLista(lista, "fecha", true), "miniaturas");
-    return lista.length ? div.outerHTML : `<p class="vacio">${esc(T("g_sin"))}</p>`;
-  },
+  partidas: lista => lista.length ? `<div class="lista" id="g-lista"></div>` : `<p class="vacio">${esc(T("g_sin"))}</p>`,
   jugadores: lista => {
     const js = jugadoresDe(lista);
     if (!js.length) return `<p class="vacio">${esc(T("g_sin"))}</p>`;
     return `<div class="v-detalles"><table class="t-jug"><thead><tr>
         <th>${esc(T("g_jugadores"))}</th><th>${esc(T("s_pers"))}</th>
         <th class="num">${esc(T("g_jugadas"))}</th><th class="num">${esc(T("g_ganadas"))}</th></tr></thead><tbody>` +
-      js.map(r => `<tr><td><span class="duo">${bandera(r.pais)}${rango(r.rango)}<span class="n">${esc(r.nombre)}</span></span></td>
+      js.slice(0, CUANTOS_J).map(r => `<tr><td><a class="duo jug-enlace" href="partidas.html?juego=${encodeURIComponent(Q.get("id") || "")}&q=${encodeURIComponent(r.nombre)}"
+            title="${esc(T("sus_partidas").replace("%s", r.nombre))}">${bandera(r.pais)}${rango(r.rango)}<span class="n">${esc(r.nombre)}</span></a></td>
           <td><span class="caras">${[...r.claves].map(([c, n]) => retrato(c, n)).join("")}</span></td>
           <td class="num">${r.partidas}</td><td class="num">${r.ganadas}</td></tr>`).join("") +
-      `</tbody></table></div>`;
+      `</tbody></table></div>` + (js.length > CUANTOS_J
+        ? `<div class="ver-mas"><button type="button" class="btn" id="mas-jug">${esc(T("ver_mas"))} <span>· ${esc(T("quedan").replace("%s", milesDe(js.length - CUANTOS_J)))}</span></button></div>` : "");
   },
   personajes: lista => {
     const ps = personajesDe(lista);
@@ -162,6 +160,11 @@ function pinta() {
     `<a href="#${k}" role="tab" aria-selected="${act === k}">${esc(T(t))}</a>`).join("");
   CHAPA_JUEGO = false;             // dentro de un juego todas son de ese juego
   $("#panel").innerHTML = PANEL[act](lista);
+  if (act === "partidas" && $("#g-lista"))
+    pintaLista($("#g-lista"), ordenaLista(lista, "fecha", true), "miniaturas", "fecha", true, CUANTAS,
+      () => { CUANTAS += PASO; pinta(); });
+  const mj = $("#mas-jug");
+  if (mj) mj.onclick = () => { CUANTOS_J += 30; pinta(); };
 }
 
 montaCabecera("juegos", pinta);

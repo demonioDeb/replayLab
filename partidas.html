@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Partidas · replayLab">
 <meta name="twitter:description" content="Todas las partidas analizadas en Replay Lab, por juego.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=cc8c07d81e">
+<link rel="stylesheet" href="assets/estilo.css?v=d5f40a5ddc">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -48,8 +48,8 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=0fb73f337f"></script>
-<script src="assets/lista.js?v=82a0d35d3c"></script>
+<script src="assets/app.js?v=e06ad88df4"></script>
+<script src="assets/lista.js?v=005562bfb5"></script>
 <script>
 "use strict";
 let INDICE = { videos: [] };
@@ -58,6 +58,11 @@ let ORDEN = recordado("orden", "fecha");
 let DESC = true;
 // el juego viene por la URL (partidas.html?juego=ssf2x) para que el filtro se pueda enlazar
 let FILTRO = Q.get("juego") || "";
+// cuántas se ven; «Ver más» suma PASO. Cambiar filtro, búsqueda u orden vuelve al principio.
+let CUANTAS = PASO;
+// la búsqueda también va en la URL (partidas.html?q=nombre): así se enlazan todas las
+// partidas de un jugador desde su ficha, hasta que haya perfiles propios
+if (Q.get("q")) $("#buscar").value = Q.get("q");
 
 function pintaFiltro(todas) {
   // sólo los juegos activos que tienen alguna partida; "todos" delante
@@ -89,7 +94,7 @@ function pinta() {
   const lista = ordenaLista(todas.filter(v =>
       (!FILTRO || (juegoDe(v) || {}).id === FILTRO) && casaBusqueda(v, q)), ORDEN, DESC);
   $("#cuenta").textContent = `${lista.length} ${pl(lista.length, "u_partida", "u_partidas")}`;
-  pintaLista($("#lista"), lista, VISTA, ORDEN, DESC);
+  pintaLista($("#lista"), lista, VISTA, ORDEN, DESC, CUANTAS, () => { CUANTAS += PASO; pinta(); });
   const vacio = $("#vacio");
   vacio.hidden = lista.length > 0;
   // con un juego elegido y sin búsqueda, "no coincide" confunde: es que aún no hay
@@ -97,8 +102,17 @@ function pinta() {
 }
 
 montaCabecera("partidas", pinta);
-$("#buscar").addEventListener("input", pinta);
-$("#orden").addEventListener("change", e => { ORDEN = e.target.value; recuerda("orden", ORDEN); pinta(); });
+let _qT = 0;
+$("#buscar").addEventListener("input", () => {
+  CUANTAS = PASO; pinta();
+  clearTimeout(_qT);
+  _qT = setTimeout(() => {
+    const u = new URL(location.href), q = $("#buscar").value.trim();
+    if (q) u.searchParams.set("q", q); else u.searchParams.delete("q");
+    history.replaceState(null, "", u);
+  }, 400);
+});
+$("#orden").addEventListener("change", e => { ORDEN = e.target.value; recuerda("orden", ORDEN); CUANTAS = PASO; pinta(); });
 $("#vistas").addEventListener("click", e => {
   const b = e.target.closest("button[data-v]");
   if (!b) return;
@@ -107,7 +121,7 @@ $("#vistas").addEventListener("click", e => {
 $("#filtro").addEventListener("click", e => {
   const b = e.target.closest("button[data-j]");
   if (!b) return;
-  FILTRO = b.dataset.j;
+  FILTRO = b.dataset.j; CUANTAS = PASO;
   // la URL refleja el filtro, así se puede compartir o volver atrás
   const u = new URL(location.href);
   if (FILTRO) u.searchParams.set("juego", FILTRO); else u.searchParams.delete("juego");
