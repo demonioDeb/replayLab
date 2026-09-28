@@ -555,8 +555,6 @@ details.acard[open]>summary{margin-bottom:6px}
 }
 
 /* ================================================================ ENVIAR REPLAY (bloqueado) */
-.nav .pronto{font-size:9.5px;letter-spacing:1px;text-transform:uppercase;font-weight:700;color:#0e1424;
-  background:var(--dim);border-radius:4px;padding:1px 4px;margin-left:5px;vertical-align:2px;line-height:1.3}
 .enviar{margin:26px 0 0;padding:26px 26px 22px;border:1px dashed var(--line2);border-radius:16px;
   background:linear-gradient(180deg,var(--panel2),var(--panel));position:relative}
 .e-chapa{display:inline-block;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;font-weight:700;
@@ -602,24 +600,6 @@ details.acard[open]>summary{margin-bottom:6px}
   .e-fila button{flex-basis:100%}
 }
 
-/* ================================================================ NAVEGACIÓN
-   Todo lo importante está arriba: Inicio, Partidas, Juegos, Canal, Changelog, Apoya y
-   GitHub. El pie ya no repite enlaces. En móvil la navegación se pliega en un menú. */
-#cabsitio .hrow{flex-wrap:nowrap}
-.nav{display:flex;align-items:center;gap:2px;margin-left:auto;flex-wrap:nowrap}
-.nav a{padding:8px 11px;border-radius:8px;color:var(--soft);font-size:15px;white-space:nowrap;
-  display:inline-flex;align-items:center;gap:4px}
-.nav a:hover{color:var(--ink);background:rgba(255,255,255,.05)}
-.nav a[aria-current="page"]{color:var(--ink);box-shadow:inset 0 -2px 0 var(--gold);border-radius:8px 8px 0 0}
-.nav .ext{font-size:11px;color:var(--dim)}
-/* "Apoya el proyecto": un pelín más presente que el resto, sin parecer un anuncio */
-.nav a.apoya{color:var(--gold);border:1px solid rgba(255,203,69,.38);margin:0 4px;padding:7px 12px}
-.nav a.apoya:hover{background:rgba(255,203,69,.08);border-color:rgba(255,203,69,.6)}
-.nav a.apoya[aria-current="page"]{box-shadow:none;background:rgba(255,203,69,.12)}
-.menu-btn{display:none;align-items:center;gap:7px;margin-left:auto;background:var(--panel2);
-  border:1px solid var(--line);border-radius:8px;padding:7px 11px;cursor:pointer;font-size:14px;color:var(--soft)}
-.menu-btn svg{width:18px;height:18px;fill:currentColor}
-#idioma{flex:none}
 
 /* miga de pan: Inicio › Juegos › SSF2X › partida */
 .miga{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:16px 0 0;font-size:14px;color:var(--dim)}
@@ -771,20 +751,6 @@ a.tarj-juego:hover{transform:translateY(-2px);border-color:var(--line2)}
 footer .sp{flex:1}
 
 /* ================================================================ MÓVIL / TABLETA */
-/* Menú plegado. No depende de un ancho fijo: ajustaCabecera() (app.js) MIDE si los
-   enlaces caben en el idioma actual y, si no, pone .plegada. Con 8 enlaces el francés
-   necesita ~1180 px y el español ~1150: un corte fijo en 1020 se quedaba corto. */
-#cabsitio.plegada .menu-btn{display:inline-flex}
-#cabsitio.plegada .nav{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;
-  gap:2px;padding:10px 14px 14px;background:var(--bg);border-bottom:1px solid var(--line);
-  box-shadow:0 18px 30px rgba(0,0,0,.55)}
-#cabsitio.plegada.abierto .nav{display:flex}
-#cabsitio.plegada .nav a{padding:12px 12px;font-size:16px}
-#cabsitio.plegada .nav a[aria-current="page"]{box-shadow:inset 3px 0 0 var(--gold);border-radius:0 8px 8px 0}
-#cabsitio.plegada .nav a.apoya{margin:6px 0 0;justify-content:center}
-#cabsitio.plegada .hrow{position:relative}
-/* mientras se mide, la navegación se enseña en línea aunque no quepa */
-#cabsitio.midiendo .nav{display:flex!important;position:static!important;flex-direction:row!important}
 @media (max-width:760px){
   .hero{padding:28px 0 16px}
   .hero h1{font-size:30px}
@@ -797,16 +763,11 @@ footer .sp{flex:1}
   .barra-lista #buscar{max-width:none;flex-basis:100%}
   .tarj-juego .retrato,.tj-mono{width:64px;height:64px}
   .pg-cifra b{font-size:38px}
-  #idioma{max-width:112px}
 }
 /* En un teléfono estrecho la cabecera medía 405px en 390: el botón del menú se queda
    sólo con el icono (el texto sigue como etiqueta para lectores de pantalla). */
 @media (max-width:480px){
-  #menu-txt{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
-  .menu-btn{padding:7px 9px}
   .logo{font-size:20px;gap:6px}
-  #cabsitio .hrow{gap:8px}
-  #idioma{max-width:96px;font-size:13px;padding:7px 6px}
 }
 
 @media (max-width:760px){
@@ -1217,3 +1178,152 @@ footer .sp{flex:1}
   box-shadow:0 8px 24px rgba(0,0,0,.5);cursor:pointer;white-space:nowrap}
 #ir-video.ver{opacity:1;pointer-events:auto;transform:translate(-50%,0)}
 @media (prefers-reduced-motion:reduce){#ir-video{transition:none}}
+
+/* ================================================================ NAVEGACIÓN (28 sep)
+   Ordenada para crecer. En la barra: lo que se viene a ver (Partidas, Juegos, Enviar
+   replay...), «Más ▾» con lo del proyecto (Novedades, Canal, GitHub...), Apoyar y el
+   idioma. El logo lleva a Inicio. Si no cabe (se MIDE en app.js, ajustaCabecera()), todo
+   pasa a un panel con los grupos titulados. Añadir una página: una línea en MENU. */
+#cabsitio .hrow{flex-wrap:nowrap;gap:14px}
+.logo[aria-current="page"]{text-shadow:0 0 18px rgba(255,203,69,.25)}
+.nav{display:flex;align-items:center;gap:6px;margin-left:auto;flex-wrap:nowrap;min-width:0}
+.nav-g{display:flex;align-items:center;gap:2px}
+.nav-gt,.nav .solo-panel{display:none}
+.nav a,.mas-btn{padding:8px 12px;border-radius:8px;color:var(--soft);font-size:15px;white-space:nowrap;
+  display:inline-flex;align-items:center;gap:6px;line-height:1.2}
+.nav a:hover,.mas-btn:hover{color:var(--ink);background:rgba(255,255,255,.05)}
+.nav a:focus-visible,.mas-btn:focus-visible,.menu-btn:focus-visible,#idioma:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
+.nav-ver a[aria-current="page"]{color:var(--ink);box-shadow:inset 0 -2px 0 var(--gold);border-radius:8px 8px 0 0}
+.nav .ext{font-size:11px;color:var(--dim);margin-left:-2px}
+.nav .n-ic{font-size:15px;width:20px;text-align:center;flex:none}
+.nav-ver .n-ic{display:none}           /* en la barra, sin iconos; en el panel, con ellos */
+.nav .pronto{font-size:9.5px;letter-spacing:1px;text-transform:uppercase;font-weight:700;color:#0e1424;
+  background:var(--dim);border-radius:4px;padding:1px 4px;line-height:1.3}
+/* «Más ▾»: un desplegable, no otra fila de enlaces */
+.nav-mas{position:relative;padding-left:6px;margin-left:2px;border-left:1px solid var(--line)}
+.mas-btn{all:unset;box-sizing:border-box;cursor:pointer;padding:8px 10px 8px 12px;border-radius:8px;color:var(--soft);
+  font-size:15px;white-space:nowrap;display:inline-flex;align-items:center;gap:2px}
+.mas-btn svg{width:18px;height:18px;fill:currentColor;transition:transform .15s}
+.mas-btn.actual{color:var(--ink);box-shadow:inset 0 -2px 0 var(--gold);border-radius:8px 8px 0 0}
+.nav-mas.abierto .mas-btn{color:var(--ink);background:rgba(255,255,255,.06)}
+.nav-mas.abierto .mas-btn svg{transform:rotate(180deg)}
+.mas-lista{display:none;position:absolute;right:0;top:calc(100% + 8px);min-width:230px;flex-direction:column;
+  align-items:stretch;gap:2px;padding:6px;background:var(--panel2);border:1px solid var(--line2);border-radius:12px;
+  box-shadow:0 18px 40px rgba(0,0,0,.55);z-index:30}
+.nav-mas.abierto .mas-lista{display:flex}
+.mas-lista a{padding:10px 12px;border-radius:8px}
+.mas-lista a[aria-current="page"]{color:var(--ink);background:rgba(255,203,69,.1);box-shadow:inset 3px 0 0 var(--gold)}
+/* Apoyar: presente, sin parecer un anuncio */
+.nav a.apoya{color:var(--gold);border:1px solid rgba(255,203,69,.38);padding:7px 13px;margin-left:4px}
+.nav a.apoya:hover{background:rgba(255,203,69,.08);border-color:rgba(255,203,69,.6)}
+.nav a.apoya[aria-current="page"]{background:rgba(255,203,69,.14)}
+.nav .a-largo{display:none}
+#idioma{flex:none;max-width:118px;padding:7px 8px;font-size:14px}
+.menu-btn{display:none;align-items:center;gap:7px;background:var(--panel2);flex:none;
+  border:1px solid var(--line);border-radius:8px;padding:7px 11px;cursor:pointer;font-size:14px;color:var(--soft)}
+.menu-btn svg{width:18px;height:18px;fill:currentColor}
+.nav-medida{position:fixed!important;left:0;top:0;visibility:hidden;pointer-events:none;width:max-content;margin:0}
+
+/* ---- plegada: todo en un panel bajo la cabecera, por grupos */
+#cabsitio.plegada .hrow{position:relative}
+#cabsitio.plegada .logo{margin-right:auto}
+#cabsitio.plegada .menu-btn{display:inline-flex}
+#cabsitio.plegada .nav{display:none;position:absolute;left:0;right:0;top:100%;margin:0;
+  flex-direction:column;align-items:stretch;gap:14px;padding:14px 16px 18px;
+  background:var(--bg);border-bottom:1px solid var(--line);box-shadow:0 18px 30px rgba(0,0,0,.55);
+  max-height:calc(100dvh - 64px);overflow-y:auto;overscroll-behavior:contain}
+#cabsitio.plegada.abierto .nav{display:flex}
+#cabsitio.plegada .nav-g{flex-direction:column;align-items:stretch;gap:2px}
+#cabsitio.plegada .nav-gt{display:block;font-size:11.5px;letter-spacing:2px;text-transform:uppercase;color:var(--dim);
+  font-weight:700;padding:0 12px 4px}
+#cabsitio.plegada .nav .solo-panel{display:inline-flex}
+#cabsitio.plegada .nav-ver .n-ic{display:inline}
+#cabsitio.plegada .nav a{padding:12px;font-size:16px}
+#cabsitio.plegada .nav-ver a[aria-current="page"],
+#cabsitio.plegada .mas-lista a[aria-current="page"]{box-shadow:inset 3px 0 0 var(--gold);border-radius:0 8px 8px 0;background:rgba(255,255,255,.04)}
+#cabsitio.plegada .nav-mas{padding:0;margin:0;border:0;position:static}
+#cabsitio.plegada .mas-btn{display:none}
+#cabsitio.plegada .mas-lista{display:flex;position:static;min-width:0;padding:0;background:none;border:0;box-shadow:none}
+#cabsitio.plegada .nav a.apoya{justify-content:center;margin:0;padding:12px}
+#cabsitio.plegada .nav .a-largo{display:inline}
+#cabsitio.plegada .nav .a-corto{display:none}
+/* con sitio (tableta, o el menú plegado por un idioma largo), los grupos en columnas */
+@media (min-width:620px){
+  #cabsitio.plegada .nav{display:none;flex-direction:row;flex-wrap:wrap;align-items:flex-start;gap:14px 28px}
+  #cabsitio.plegada.abierto .nav{display:flex}
+  #cabsitio.plegada .nav-g,#cabsitio.plegada .nav-mas{flex:1 1 220px}
+  #cabsitio.plegada .nav a.apoya{flex-basis:100%}
+}
+@media (max-width:480px){
+  #menu-txt{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .menu-btn{padding:7px 9px}
+  #cabsitio .hrow{gap:8px}
+  #idioma{max-width:96px;font-size:13px;padding:7px 6px}
+}
+
+/* ================================================================ AYUDA DE LAS ESTADÍSTICAS (28 sep)
+   Cada etiqueta de la tabla se pulsa y enseña debajo, en una frase, qué significa. La
+   guía entera está en guia.html. */
+.e-pista{display:flex;flex-wrap:wrap;align-items:center;gap:4px 14px;margin:10px 10px 0;font-size:13px;color:var(--dim)}
+.e-pista a{color:var(--gold);font-weight:600;white-space:nowrap}
+.e-pista a:hover{text-decoration:underline}
+.ef button.k{all:unset;box-sizing:border-box;cursor:pointer;min-width:0;text-align:center;font-size:14px;color:var(--soft);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:6px 2px;border-radius:6px;
+  text-decoration:underline dotted rgba(148,166,204,.45);text-underline-offset:4px}
+.ef button.k:hover{color:var(--ink);text-decoration-color:var(--gold)}
+.ef button.k:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+.ef.abierta{border-bottom-color:transparent}
+.ef.abierta button.k{color:var(--gold);text-decoration:none}
+.ef-ay{padding:0 10px 10px;border-bottom:1px solid var(--line);animation:aparece .15s ease-out}
+.ef-ay p{font-size:14px;line-height:1.45;color:var(--soft);background:rgba(255,203,69,.06);border-left:2px solid var(--gold);
+  border-radius:0 8px 8px 0;padding:8px 12px}
+.ef-ay a{color:var(--gold);white-space:nowrap;margin-left:4px}
+.ef-ay a:hover{text-decoration:underline}
+@media (max-width:760px){
+  .ef button.k{font-size:13px}
+  .e-pista{margin:8px 4px 0}
+}
+.eg .ef:has(+ .ef-ay:last-child[hidden]){border-bottom:0}
+.ef-ay:last-child{border-bottom:0}
+
+/* ---- guia.html: el glosario */
+.g-hero{padding:34px 0 8px}
+.g-hero h1{font-size:36px;line-height:1.1}
+.g-hero p{color:var(--soft);font-size:18px;margin-top:8px;max-width:62ch}
+.g-conceptos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:980px){.g-conceptos{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.g-conceptos{grid-template-columns:1fr}}
+.g-c{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 16px 14px}
+.g-c h3{display:flex;align-items:center;gap:9px;font-size:17px;margin-bottom:6px}
+.g-c h3 span{font-size:20px}
+.g-c p{color:var(--soft);font-size:15px;line-height:1.5}
+.g-ej{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px 12px;margin-top:12px}
+.g-ej-t{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--dim);font-weight:700;margin-bottom:6px}
+.g-ej .ef{border-bottom:0;max-width:560px;margin:0 auto}
+.g-ej-ley{display:flex;justify-content:space-between;gap:12px;max-width:560px;margin:4px auto 0;font-size:13px}
+.g-ej-ley .a{color:var(--p1l)} .g-ej-ley .b{color:var(--p2l);text-align:right}
+.g-busca{display:flex;gap:10px;align-items:center;margin-bottom:12px}
+.g-busca input{flex:1;max-width:420px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;
+  font-size:15px;padding:10px 14px}
+.g-busca input:focus{outline:none;border-color:var(--line2)}
+.g-grupo{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:4px 16px 8px;margin-bottom:12px}
+.g-grupo .eg-t{margin:10px 0 4px}
+.g-lista{display:grid;grid-template-columns:minmax(180px,300px) minmax(0,1fr);gap:0 18px}
+.g-lista dt,.g-lista dd{padding:11px 4px;border-bottom:1px solid var(--line)}
+.g-lista dt{font-weight:700;color:var(--ink);font-size:15.5px}
+.g-lista dd{color:var(--soft);font-size:15px;line-height:1.5}
+.g-lista dt:nth-last-of-type(1),.g-lista dd:last-of-type{border-bottom:0}
+.g-lista dt:target,.g-lista dt:target+dd{background:rgba(255,203,69,.08)}
+.g-lista dt:target{box-shadow:inset 3px 0 0 var(--gold)}
+.g-lista dt{scroll-margin-top:90px}
+.g-oculto{display:none!important}
+.g-cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+@media (max-width:760px){
+  .g-hero{padding:24px 0 4px}
+  .g-hero h1{font-size:28px}
+  .g-hero p{font-size:16px}
+  .g-lista{grid-template-columns:1fr}
+  .g-lista dt{border-bottom:0;padding-bottom:2px}
+  .g-lista dd{padding-top:0}
+  .g-grupo{padding:2px 12px 6px}
+}

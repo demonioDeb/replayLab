@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Partida · replayLab">
 <meta name="twitter:description" content="Una partida de Fightcade analizada: rondas, daño, tiempos y momentos, leídos de la propia partida.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=3e535085b8">
+<link rel="stylesheet" href="assets/estilo.css?v=cc8c07d81e">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -47,7 +47,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=f80bbfc3f7"></script>
+<script src="assets/app.js?v=0fb73f337f"></script>
 <script>
 "use strict";
 let F = null, REPRO = null, LISTO = false;
@@ -471,6 +471,7 @@ let ALC = ["set", "pelea", "ronda"].includes(Q.get("ver")) ? Q.get("ver") : "set
 let RON = Math.max(0, (parseInt(Q.get("ronda"), 10) || 1) - 1);
 let MODO = Q.get("modo") === "ronda" ? "media" : "total";
 
+const AYU = new Set();        // explicaciones abiertas en la tabla
 const GRUPOS = [["dano", "💥", "s_dano"], ["combos", "🔗", "s_combos"], ["super", "⚡", "s_supers"],
                 ["mareos", "💫", "s_mareos"], ["rondas", "🥋", "rondas_t"]];
 
@@ -554,8 +555,15 @@ function panelEst() {
     const l = quienLidera(a, b, f.mejor === undefined ? 1 : f.mejor);
     const celda = (v, lado, lid) => `<b class="v ${lado}${lid ? " lid" : ""}"${f.pts && v != null
       ? ` title="${esc(milesDe(Math.round(v)))} ${esc(T("est_puntos"))}"` : ""}>${v == null ? "—" : esc(fmt(v))}</b>`;
-    const ayuda = f.ay ? et + " · " + T(f.ay) : et;
-    (porG[f.g] = porG[f.g] || []).push(`<div class="ef">${celda(a, "a", l === 1)}<span class="k" title="${esc(ayuda)}">${esc(et)}</span>${celda(b, "b", l === 2)}</div>`);
+    // la etiqueta se pulsa y enseña debajo qué significa (clave h_* del diccionario)
+    const clave = media && f.km ? f.km : ALC === "ronda" && f.kr ? f.kr : f.k;
+    const hk = ayudaDe(clave), abierta = AYU.has(hk), hay = hk in I18N.es;
+    const k = hay
+      ? `<button type="button" class="k" data-ay="${hk}" aria-expanded="${abierta}" title="${esc(et)}">${esc(et)}</button>`
+      : `<span class="k" title="${esc(f.ay ? et + " · " + T(f.ay) : et)}">${esc(et)}</span>`;
+    const exp = hay ? `<div class="ef-ay"${abierta ? "" : " hidden"} data-de="${hk}"><p>${esc(T(hk))}${f.ay ? " " + esc(T(f.ay)) + "." : ""}
+        <a href="guia.html#${hk}">${esc(T("ay_guia"))} →</a></p></div>` : "";
+    (porG[f.g] = porG[f.g] || []).push(`<div class="ef${abierta ? " abierta" : ""}">${celda(a, "a", l === 1)}${k}${celda(b, "b", l === 2)}</div>${exp}`);
   }
   const J = F.jugadores;
   const sup = J[0].super || J[1].super
@@ -564,7 +572,8 @@ function panelEst() {
   const colA = GRUPOS.slice(0, 4).map(grupo).join(""), colB = grupo(GRUPOS[4]);
   const nom = `<div class="e-nom"><span class="a">${esc(nombre(1))}</span><span class="b">${esc(nombre(2))}</span></div>`;
   if (!colA && !colB) return `<div class="ecard"><p class="vacio">${esc(T("nada_aqui"))}</p></div>`;
-  return `<div class="ecard"><div class="ecols">${colA ? `<div class="ecol">${nom}${colA}</div>` : ""}${colB ? `<div class="ecol">${nom}${colB}</div>` : ""}</div>`
+  const pista = `<p class="e-pista"><span>💡 ${esc(T("ay_toca"))}</span><a href="guia.html">📖 ${esc(T("n_guia"))}</a></p>`;
+  return `<div class="ecard">${pista}<div class="ecols">${colA ? `<div class="ecol">${nom}${colA}</div>` : ""}${colB ? `<div class="ecol">${nom}${colB}</div>` : ""}</div>`
     + (ceros.length ? `<p class="e-ceros">${esc(T("est_ceros"))}: ${ceros.map(esc).join(" · ")}</p>` : "") + `</div>`;
 }
 
@@ -661,6 +670,16 @@ $("#cuerpo").addEventListener("click", e => {
       c.setAttribute("aria-pressed", String(!APAGADOS.has(c.dataset.tipo))));
     document.querySelectorAll(".tl-p").forEach(m =>
       m.classList.toggle("oculto", APAGADOS.has(m.dataset.tipo)));
+    return;
+  }
+  const ay = e.target.closest(".ef .k[data-ay]");
+  if (ay) {
+    const hk = ay.dataset.ay, si = !AYU.has(hk);
+    si ? AYU.add(hk) : AYU.delete(hk);
+    ay.setAttribute("aria-expanded", String(si));
+    ay.closest(".ef").classList.toggle("abierta", si);
+    const caja = ay.closest(".ef").nextElementSibling;
+    if (caja && caja.classList.contains("ef-ay")) caja.hidden = !si;
     return;
   }
   const flecha = e.target.closest("[data-car]");

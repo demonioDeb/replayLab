@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Guía de estadísticas · replayLab</title>
+<meta name="description" content="Qué significa cada estadística de las partidas de replayLab: daño en barras, combos, súper, mareos, rondas y tiempos.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#0a0d15">
+<!-- vista previa al compartir (Open Graph / X): imagen de 1200 × 630 en assets/og.png -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="replayLab">
+<meta property="og:title" content="Guía de estadísticas · replayLab">
+<meta property="og:description" content="Qué significa cada estadística de las partidas de replayLab: daño en barras, combos, súper, mareos, rondas y tiempos.">
+<meta property="og:url" content="https://demoniodeb.github.io/replayLab/guia.html">
+<meta property="og:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="replayLab: replays de juegos de pelea de Fightcade con estadísticas">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Guía de estadísticas · replayLab">
+<meta name="twitter:description" content="Qué significa cada estadística de las partidas de replayLab: daño en barras, combos, súper, mareos, rondas y tiempos.">
+<meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
+<link rel="stylesheet" href="assets/estilo.css?v=cc8c07d81e">
+</head>
+<body>
+<header id="cabsitio"></header>
+
+<main class="wrap">
+  <section class="g-hero">
+    <h1 id="g-titulo"></h1>
+    <p id="g-sub"></p>
+  </section>
+
+  <!-- 1 · lo básico para leer cualquier ficha -->
+  <section class="bloque">
+    <div class="bloque-cab"><h2 id="t-como"></h2></div>
+    <div class="g-conceptos" id="conceptos"></div>
+    <div class="g-ej" id="ejemplo"></div>
+  </section>
+
+  <!-- 2 · el glosario: la misma lista que usa la tabla de la ficha (GUIA, en app.js) -->
+  <section class="bloque">
+    <div class="bloque-cab"><h2 id="t-stats"></h2></div>
+    <div class="g-busca"><input id="g-buscar" type="search" autocomplete="off"></div>
+    <div id="glosario"></div>
+    <p class="vacio" id="g-nada" hidden></p>
+    <div class="g-cta"><a class="btn prim" href="partidas.html" id="g-ver"></a></div>
+  </section>
+</main>
+
+<footer class="wrap" id="pie"></footer>
+
+<script src="assets/app.js?v=0fb73f337f"></script>
+<script>
+"use strict";
+const CONCEPTOS = [["🥊", "g_set_t", "g_set_d"], ["🎨", "g_col_t", "g_col_d"], ["❤️", "g_bar_t", "g_bar_d"],
+                   ["⏱️", "g_rel_t", "g_rel_d"], ["🔎", "g_alc_t", "g_alc_d"], ["🎮", "g_jue_t", "g_jue_d"]];
+
+function pinta() {
+  document.documentElement.lang = LANG;
+  document.title = T("g_titulo") + " · replayLab";
+  textosCabecera(); pintaPie();
+  $("#g-titulo").textContent = "📖 " + T("g_titulo");
+  $("#g-sub").textContent = T("g_sub");
+  $("#t-como").textContent = T("g_como");
+  $("#conceptos").innerHTML = CONCEPTOS.map(([ic, t, d]) =>
+    `<div class="g-c"><h3><span aria-hidden="true">${ic}</span>${esc(T(t))}</h3><p>${esc(T(d))}</p></div>`).join("");
+  // una fila de verdad de la tabla, con sus partes explicadas
+  $("#ejemplo").innerHTML = `<div class="g-ej-t">${esc(T("g_ejemplo"))}</div>
+    <div class="ef"><b class="v a">1.85</b><span class="k">${esc(T("est_dano"))}</span><b class="v b lid">2.40</b></div>
+    <div class="g-ej-ley"><span class="a">← ${esc(T("g_ej_a"))}</span><span class="b">${esc(T("g_ej_b"))} →</span></div>`;
+  $("#t-stats").textContent = T("g_stats");
+  $("#g-buscar").placeholder = T("g_buscar");
+  $("#g-buscar").setAttribute("aria-label", T("g_buscar"));
+  $("#glosario").innerHTML = GUIA.map(g => `<div class="g-grupo" data-grupo="${g.id}">
+      <div class="eg-t"><span class="eg-ic" aria-hidden="true">${g.ic}</span><span>${esc(T(g.t))}</span></div>
+      <dl class="g-lista">${g.k.map(k => `<dt id="${ayudaDe(k)}">${esc(T(k))}</dt><dd>${esc(T(ayudaDe(k)))}</dd>`).join("")}</dl>
+    </div>`).join("");
+  $("#g-nada").textContent = T("g_nada");
+  $("#g-ver").textContent = T("h_ver");
+  filtra();
+  // al llegar desde la ficha (guia.html#h_dano) el navegador ya no encuentra el ancla
+  // porque se pintó después: se lleva a mano, una sola vez
+  if (location.hash && !pinta.hecho) {
+    pinta.hecho = true;
+    const el = document.getElementById(location.hash.slice(1));
+    if (el) requestAnimationFrame(() => el.scrollIntoView({ block: "center" }));
+  }
+}
+// buscar: por la etiqueta o por la explicación, sin acentos ni mayúsculas
+const plano = s => String(s).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+function filtra() {
+  const q = plano($("#g-buscar").value.trim());
+  let n = 0;
+  document.querySelectorAll(".g-grupo").forEach(gr => {
+    let vis = 0;
+    gr.querySelectorAll("dt").forEach(dt => {
+      const si = !q || plano(dt.textContent + " " + dt.nextElementSibling.textContent).includes(q);
+      dt.classList.toggle("g-oculto", !si); dt.nextElementSibling.classList.toggle("g-oculto", !si);
+      vis += si;
+    });
+    gr.classList.toggle("g-oculto", !vis);
+    n += vis;
+  });
+  $("#g-nada").hidden = n > 0;
+}
+$("#g-buscar").addEventListener("input", filtra);
+
+montaCabecera("guia", pinta);
+pinta();
+cargaBase(pinta);
+</script>
+</body>
+</html>
