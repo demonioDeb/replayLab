@@ -1,6 +1,49 @@
 {
- "actualizado": "2026-09-28 20:55",
+ "actualizado": "2026-09-28 21:04",
  "videos": [
+  {
+   "quark": "1790626950991-8079",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-28",
+   "youtube": null,
+   "duracion": 497.0,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "djfrijoles",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "T. Hawk",
+     "clave": "hawk",
+     "personajes": [
+      "T. Hawk"
+     ],
+     "claves": [
+      "hawk"
+     ]
+    },
+    {
+     "nombre": "mrcarabano",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Guile",
+     "clave": "guile",
+     "personajes": [
+      "Guile"
+     ],
+     "claves": [
+      "guile"
+     ]
+    }
+   ],
+   "rondas": 13
+  },
   {
    "quark": "1790480084344-5884",
    "juego": "sf2ce",
