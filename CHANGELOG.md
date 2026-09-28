@@ -6,6 +6,23 @@ La versión que se ve en el sitio está en `datos/cambios.json` y se lee en
 Los cambios de replayLab, de lo más nuevo a lo más viejo. Las fechas son las del día en
 que se hizo el cambio, no las de publicación.
 
+## 2026-09-28 (noche) — instalación nueva
+
+- **Sitio vaciado para el lanzamiento.** Fuera las 6 fichas de prueba; `datos/indice.json`
+  sin vídeos. En el PC se borraron `videos/`, `grabaciones/`, la cola (`fcrec.sqlite3`) y
+  lo que escribe el Lua en `data/`. Los vídeos de YouTube los borra el dueño a mano.
+- **Novedades depuradas** (`datos/cambios.json`): de 114 entradas a 14, sólo lo que le
+  importa a quien visita (lanzamiento, pedir replays, guía, línea de tiempo, tabla única,
+  CE, overlay, KOF por desbloquear, auditoría de ST, juegos, apoyo y los orígenes). El
+  historial técnico sigue aquí.
+- **Gameids = lo que fcrec sabe grabar.** SSF2X: `ssf2xjr1`, `ssf2xj`, `ssf2t`, `ssf2tu`;
+  CE: sólo `sf2ce` (los `sf2ceua/ub/uc/cej` se quitan: fcrec no tiene lector para ellos y
+  caían en el de Super Turbo). En fcrec, `grabar` y `agregar` rechazan un juego sin lector
+  antes de abrir nada.
+- «Lo que viene» (apoyo): pedir replays pasa a conseguido. Fuera `PRIVACY_POLICY.md` y
+  `TERMS_OF_SERVICE.md` (la política y los términos están en `privacidad.html` y
+  `terminos.html`).
+
 ## 2026-09-28
 
 ### Arreglado

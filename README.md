@@ -4,8 +4,10 @@ Sitio estático con los replays de Fightcade que graba [fcrec](https://github.co
 cada vídeo tiene su ficha con la línea de tiempo del set y las estadísticas leídas de la
 propia partida (no estimadas).
 
-- `index.html` — la lista de vídeos, con buscador.
+- `index.html` — la portada; `partidas.html` — todas las partidas, con buscador y filtros.
+- `juegos.html` y `juego.html?id=` — los juegos y la página de cada uno.
 - `video.html?q=<quark>` — la ficha: vídeo, línea de tiempo con los momentos, y la tabla.
+- `guia.html` — qué significa cada estadística. `enviar.html` — pedir un replay (issue de GitHub).
 - `datos/<quark>.json` — una ficha por grabación, la escribe fcrec.
 - `datos/indice.json` — se rehace entero desde las fichas cada vez, nunca se parchea.
 

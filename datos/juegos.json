@@ -9,7 +9,8 @@
    "gameids": [
     "ssf2xjr1",
     "ssf2xj",
-    "ssf2t"
+    "ssf2t",
+    "ssf2tu"
    ],
    "anio": 1994,
    "compania": "Capcom",
@@ -35,11 +36,7 @@
    "subtitulo": "Champion Edition",
    "corto": "CE",
    "gameids": [
-    "sf2ce",
-    "sf2ceua",
-    "sf2ceub",
-    "sf2ceuc",
-    "sf2cej"
+    "sf2ce"
    ],
    "anio": 1992,
    "compania": "Capcom",
