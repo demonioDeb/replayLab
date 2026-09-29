@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Partida · replayLab">
 <meta name="twitter:description" content="Una partida de Fightcade analizada: rondas, daño, tiempos y momentos, leídos de la propia partida.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=a91bc23654">
+<link rel="stylesheet" href="assets/estilo.css?v=0bbf970e03">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -40,6 +40,7 @@
          peleas (la tira y la pelea elegida) → estadísticas (una tabla: set · pelea · ronda) -->
     <div id="tlset"></div>
     <div id="video"></div>
+    <div id="ytfila"></div>
     <div id="resto"></div>
     <div id="apoyo"></div>
   </div>
@@ -47,7 +48,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=ec9092be94"></script>
+<script src="assets/app.js?v=0ee76912ef"></script>
 <script>
 "use strict";
 let F = null, REPRO = null, LISTO = false;
@@ -642,21 +643,42 @@ function pinta() {
   aLaVista(document.querySelector('.ts-seg[aria-pressed="true"]'));
   lsElegida();
 
-  if (!$("#video").dataset.hecho) {
+  // El reproductor se monta cuando ya se sabe (datos/canal.json) si el vídeo es público:
+  // uno privado o sin publicar sale como «Vídeo privado» para quien no es el dueño.
+  const vc = videoCanal(F.youtube);
+  const privado = !!(vc && vc.privacidad && vc.privacidad !== "public");
+  pintaYt(vc, privado);
+  if (!$("#video").dataset.hecho && BASE) {
     $("#video").dataset.hecho = "1";
-    $("#video").innerHTML = F.youtube
+    $("#video").innerHTML = F.youtube && !privado
       ? `<div class="reproductor"><div id="yt"></div></div>`
-      : `<div class="avisovid"><b>${esc(T("no_publicado"))}</b><span>${esc(T("no_publicado_sub"))}</span></div>`;
-    if (F.youtube) cargaApi().then(() => {
+      : F.youtube
+        ? `<div class="avisovid"><b>${esc(T("yt_privado"))}</b><span>${esc(T("no_publicado_sub"))}</span></div>`
+        : `<div class="avisovid"><b>${esc(T("no_publicado"))}</b><span>${esc(T("no_publicado_sub"))}</span></div>`;
+    if (F.youtube && !privado) cargaApi().then(() => {
       if (!window.YT || !window.YT.Player || !document.getElementById("yt")) return;
       REPRO = new YT.Player("yt", { videoId: F.youtube, host: "https://www.youtube-nocookie.com",
         playerVars: { rel: 0, modestbranding: 1 },
         events: { onReady: () => { LISTO = true; } } });
     });
-  } else if (!F.youtube) {
+  } else if (!F.youtube && BASE) {
     $("#video").innerHTML = `<div class="avisovid"><b>${esc(T("no_publicado"))}</b><span>${esc(T("no_publicado_sub"))}</span></div>`;
   }
   document.title = `${F.jugadores[0].nombre} vs ${F.jugadores[1].nombre} · replayLab`;
+}
+
+// Debajo del vídeo: sus visualizaciones y «me gusta» en YouTube (tal cual los da YouTube,
+// de datos/canal.json), verlo en YouTube y suscribirse (se confirma en YouTube).
+function pintaYt(vc, privado) {
+  const el = $("#ytfila");
+  if (!F || !F.youtube) { el.innerHTML = ""; return; }
+  const cif = [];
+  if (vc && !privado && vc.vistas != null) cif.push("👁 " + esc(T("yt_vistas_n").replace("%s", milesDe(vc.vistas))));
+  if (vc && !privado && vc.me_gusta != null) cif.push("👍 " + esc(T("yt_me_gusta").replace("%s", milesDe(vc.me_gusta))));
+  const sus = urlSuscribir();
+  el.innerHTML = `<div class="yt-fila">${cif.map(c => `<span>${c}</span>`).join("")}<span class="sp"></span>
+      ${privado ? "" : `<a href="https://youtu.be/${encodeURIComponent(F.youtube)}" target="_blank" rel="noopener">▶ ${esc(T("yt_ver"))} ↗</a>`}
+      ${sus ? `<a class="yt-sus" href="${esc(sus)}" target="_blank" rel="noopener">🔔 ${esc(T("yt_suscribete"))} ↗</a>` : ""}</div>`;
 }
 
 // Un solo oyente para toda la página, puesto una vez: los botones se rehacen al cambiar
@@ -752,7 +774,8 @@ function pintaMiga() {
 montaCabecera("partidas", pinta);
 $("#cargando").textContent = T("cargando");
 const quark = (Q.get("q") || "").replace(/[^0-9A-Za-z_-]/g, "");
-cargaBase(pinta);
+let BASE = false;             // sitio, juegos y canal ya leídos (hace falta para montar el vídeo)
+cargaBase(() => { BASE = true; pinta(); });
 json(`datos/${quark}.json`).then(d => { F = d; pinta(); }).catch(() => { F = null; pinta(); });
 </script>
 </body>

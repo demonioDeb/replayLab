@@ -5,6 +5,14 @@
    "fecha": "2026-09-29",
    "cambios": [
     {
+     "t": "nuevo",
+     "area": [
+      "web"
+     ],
+     "es": "Nueva sección YouTube: el canal con sus suscriptores, visualizaciones y últimos vídeos (datos oficiales de YouTube, renovados cada vez que se publica), un botón para suscribirse que confirma en YouTube y, bajo cada partida, sus visualizaciones y «me gusta». Ver una partida aquí cuenta como visualización en YouTube: el vídeo es el reproductor oficial y nunca empieza solo.",
+     "en": "New YouTube section: the channel with its subscribers, views and latest videos (official YouTube data, refreshed on every publish), a subscribe button that confirms on YouTube and, under each match, its views and likes. Watching a match here counts as a view on YouTube: the video is the official player and never starts by itself."
+    },
+    {
      "t": "arreglado",
      "area": [
       "juego"

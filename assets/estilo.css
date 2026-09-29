@@ -1374,3 +1374,48 @@ a.jug-enlace:hover .n,.jug a.nom:hover{text-decoration:underline;text-decoration
   .cola .c-q{grid-column:1/-1;grid-row:2}
   .cola .c-f{display:none}
 }
+
+/* ================================================================ CANAL DE YOUTUBE (29 sep)
+   canal.html: el canal con sus cifras (de la API de YouTube, tal cual) y sus vídeos. */
+.yt-hero{margin:26px 0 0;padding:24px 26px 18px;border-radius:16px;border:1px solid var(--line);
+  background:linear-gradient(135deg,rgba(255,0,51,.10),rgba(255,0,51,0) 45%),linear-gradient(180deg,var(--panel2),var(--panel))}
+.yt-cab{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.yt-avatar{width:88px;height:88px;border-radius:50%;flex:none;border:2px solid rgba(255,255,255,.12)}
+.yt-id{flex:1 1 280px;min-width:0}
+.yt-id h1{font-size:32px;line-height:1.1}
+.yt-handle{display:block;color:var(--dim);font-size:15px;margin-top:2px}
+.yt-desc{color:var(--soft);font-size:16.5px;margin-top:8px;max-width:62ch}
+.yt-botones{display:flex;gap:10px;flex-wrap:wrap}
+.btn.yt-rojo{background:#ff0033;border-color:#ff0033;color:#fff;font-weight:700}
+.btn.yt-rojo:hover{filter:brightness(1.08)}
+.yt-cifras{display:flex;gap:34px;flex-wrap:wrap;margin-top:20px}
+.yt-cifra b{display:block;font-size:30px;line-height:1;font-variant-numeric:tabular-nums}
+.yt-cifra span{font-size:12.5px;letter-spacing:2px;text-transform:uppercase;color:var(--dim)}
+.yt-fuente{margin-top:14px;font-size:13px;color:var(--dim)}
+.yt-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.yt-card{display:flex;flex-direction:column;border-radius:12px;overflow:hidden;background:var(--panel);border:1px solid var(--line);
+  transition:border-color .15s,transform .15s}
+.yt-card:hover{border-color:var(--line2);transform:translateY(-2px)}
+.yt-mini{display:block;aspect-ratio:16/9;background:#05070c}
+.yt-mini img{width:100%;height:100%;object-fit:cover}
+.yt-c{display:flex;flex-direction:column;gap:5px;padding:11px 13px 13px}
+.yt-t{font-size:15.5px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.yt-m{font-size:13.5px;color:var(--dim)}
+.yt-etq{font-size:13px;font-weight:700;color:var(--gold)}
+.yt-info{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.yt-link{color:var(--gold);font-weight:700}
+.yt-link:hover{text-decoration:underline}
+/* en la ficha, debajo del vídeo */
+.yt-fila{display:flex;align-items:center;gap:8px 16px;flex-wrap:wrap;margin-top:10px;font-size:14px;color:var(--dim)}
+.yt-fila .sp{flex:1}
+.yt-fila a{color:var(--soft);font-weight:600;white-space:nowrap}
+.yt-fila a:hover{color:var(--ink)}
+.yt-fila a.yt-sus{color:#ff5b73}
+@media (max-width:760px){
+  .yt-hero{padding:18px 16px 14px;margin-top:18px}
+  .yt-id h1{font-size:26px}
+  .yt-avatar{width:64px;height:64px}
+  .yt-cifras{gap:22px}
+  .yt-cifra b{font-size:24px}
+  .yt-info{grid-template-columns:1fr}
+}

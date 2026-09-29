@@ -8,6 +8,18 @@ que se hizo el cambio, no las de publicación.
 
 ## 2026-09-29
 
+- **Sección YouTube (`canal.html`).** Nueva entrada «YouTube» en el menú (grupo Ver). Lee
+  `datos/canal.json`, que escribe `python -m fcrec canal` (y se refresca solo en cada
+  publicación): suscriptores (si el canal no los oculta), vídeos, visualizaciones y los
+  últimos vídeos públicos; cada tarjeta lleva a su ficha si la hay. Botón «Suscríbete» =
+  enlace al canal con `?sub_confirmation=1` (YouTube pide confirmar; nada se hace en nombre
+  de nadie). Bajo el vídeo de cada ficha: visualizaciones y «me gusta» de YouTube, «Ver en
+  YouTube» y «Suscríbete». Si el vídeo no es público se dice en vez de poner un
+  reproductor vacío. Reglas de YouTube: las cifras se enseñan tal cual, con la fuente y la
+  fecha, y se dejan de enseñar si tienen más de 30 días (Developer Policies III.E.4); sin
+  premios por suscribirse (III.F.3); nunca autoplay (los autoplay no cuentan como vista).
+  Privacidad y Términos mencionan YouTube API Services, la política de Google y los
+  Términos de YouTube.
 - **Overlay: barras de tiempo sin adivinar.** Sin pasada rápida, `fracOf()` llenaba con
   `1 − e^(−2,5·t/T)`, con T = media de lo visto (30 s ronda, 95 s pelea, 600 s set al
   empezar): una estimación. Ahora: ronda = reloj del juego gastado (`timer_sec` de 99 a 0);
