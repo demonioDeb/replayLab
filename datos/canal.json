@@ -1,0 +1,40 @@
+{
+ "actualizado": "2026-09-29T18:12:23Z",
+ "fuente": "YouTube Data API v3",
+ "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
+ "nombre": "replayLab",
+ "handle": "replaylab-b4i",
+ "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
+ "suscriptores": 5,
+ "vistas": 23,
+ "videos": 3,
+ "lista": [
+  {
+   "id": "Vf-7qvclez8",
+   "titulo": "djfrijoles vs mrcarabano | T. Hawk vs Guile | 5-0",
+   "publicado": "2026-09-28T21:07:51Z",
+   "privacidad": "public",
+   "vistas": 2,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/Vf-7qvclez8/mqdefault.jpg"
+  },
+  {
+   "id": "grLz8oUdam8",
+   "titulo": "MT Yurikowa vs Nostrax | Balrog vs Balrog | 5-4",
+   "publicado": "2026-09-28T20:35:07Z",
+   "privacidad": "public",
+   "vistas": 6,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/grLz8oUdam8/mqdefault.jpg"
+  },
+  {
+   "id": "l_q-Mm-qxI4",
+   "titulo": "H-Zero vs hassasin10 | O. Ryu vs Cammy | 5-1",
+   "publicado": "2026-09-28T20:12:47Z",
+   "privacidad": "public",
+   "vistas": 2,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/l_q-Mm-qxI4/mqdefault.jpg"
+  }
+ ]
+}
