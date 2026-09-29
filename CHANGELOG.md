@@ -8,6 +8,13 @@ que se hizo el cambio, no las de publicación.
 
 ## 2026-09-29
 
+- **Zumbido del final del replay.** Al acabarse el replay el emulador repite el último
+  fotograma de audio (periodo medido 16,8 ms) hasta que se para la grabación. El silencio
+  de OBS a los +4 s no servía (sólo tocaba dos fuentes por nombre). Ahora: `obs.mute_audio`
+  silencia todas las entradas con audio y restaura sólo ésas; y `postprocess.quita_zumbido`
+  busca en los últimos 40 s un volumen clavado (±0,3 dB cada 0,1 s durante ≥1,5 s) y apaga
+  el audio desde ahí con 0,15 s de fundido, copiando la imagen. En las 3 grabaciones sólo
+  aparece al final (4,5-8 s tras el último KO).
 - **Overlay: idioma que viene.** La insignia pasa de «ES 14» a «ES ▸ EN 14»; en los
   últimos 3 s el siguiente parpadea en dorado; con un resumen en pantalla, ⏸. Tiempos por
   idioma: `idioma_alterna` (25 s) para los principales y `idioma_breve` (10 s) para

@@ -5,6 +5,18 @@
    "fecha": "2026-09-29",
    "cambios": [
     {
+     "t": "arreglado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce"
+     ],
+     "es": "Adiós al zumbido del final: cuando el replay de Fightcade se acaba, el emulador repite sin parar el último trozo de sonido. Ahora se detecta y se quita del vídeo (la imagen con el resumen del set sigue).",
+     "en": "No more buzz at the end: when a Fightcade replay finishes, the emulator keeps repeating the last bit of sound. It's now detected and removed from the video (the picture with the set summary stays)."
+    },
+    {
      "t": "cambiado",
      "area": [
       "juego"
