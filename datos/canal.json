@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-29T18:12:23Z",
+ "actualizado": "2026-09-29T20:19:36Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,8 +7,39 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 5,
  "vistas": 23,
- "videos": 3,
+ "videos": 5,
  "lista": [
+  {
+   "id": "wT1KazJhf8o",
+   "privacidad": "private"
+  },
+  {
+   "id": "DEUvaIRxw0M",
+   "titulo": "MT Yurikowa vs Nostrax | Balrog vs Balrog | 5-4",
+   "publicado": "2026-09-29T20:17:50Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/DEUvaIRxw0M/mqdefault.jpg"
+  },
+  {
+   "id": "8CFIrAQEmfA",
+   "titulo": "H-Zero vs hassasin10 · lo mejor del set | O. Ryu vs Cammy | SSF2X #shorts",
+   "publicado": "2026-09-29T19:53:56Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/8CFIrAQEmfA/mqdefault.jpg"
+  },
+  {
+   "id": "iOQ92p-ZzFo",
+   "titulo": "djfrijoles vs mrcarabano · lo mejor del set | T. Hawk vs Guile | SSF2X #shorts",
+   "publicado": "2026-09-29T19:53:56Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/iOQ92p-ZzFo/mqdefault.jpg"
+  },
   {
    "id": "Vf-7qvclez8",
    "titulo": "djfrijoles vs mrcarabano | T. Hawk vs Guile | 5-0",
@@ -17,15 +48,6 @@
    "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/Vf-7qvclez8/mqdefault.jpg"
-  },
-  {
-   "id": "grLz8oUdam8",
-   "titulo": "MT Yurikowa vs Nostrax | Balrog vs Balrog | 5-4",
-   "publicado": "2026-09-28T20:35:07Z",
-   "privacidad": "public",
-   "vistas": 6,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/grLz8oUdam8/mqdefault.jpg"
   },
   {
    "id": "l_q-Mm-qxI4",
