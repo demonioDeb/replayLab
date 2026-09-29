@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-29 20:56",
+ "actualizado": "2026-09-29 21:54",
  "videos": [
   {
    "quark": "1790626950991-8079",
@@ -129,6 +129,59 @@
     }
    ],
    "rondas": 17
+  },
+  {
+   "quark": "1634869846993-9696",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2021-10-22",
+   "youtube": "W_0wpT0per4",
+   "duracion": 1829.5,
+   "marcador": [
+    10,
+    3
+   ],
+   "peleas": 13,
+   "jugadores": [
+    {
+     "nombre": "((Caution))",
+     "pais": "br",
+     "rango_letra": "S",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison",
+      "Ryu",
+      "Guile",
+      "Blanka"
+     ],
+     "claves": [
+      "dictator",
+      "ryu",
+      "guile",
+      "blanka"
+     ]
+    },
+    {
+     "nombre": "Devaud",
+     "pais": "cl",
+     "rango_letra": "A",
+     "personaje": "Guile",
+     "clave": "guile",
+     "personajes": [
+      "Guile",
+      "M. Bison",
+      "Dhalsim"
+     ],
+     "claves": [
+      "guile",
+      "dictator",
+      "dhalsim"
+     ]
+    }
+   ],
+   "rondas": 36
   }
  ]
 }
