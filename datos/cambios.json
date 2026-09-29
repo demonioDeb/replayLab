@@ -2,6 +2,23 @@
  "nota": "Resumen por día de lo que se hizo y lo que se descubrió. Lo escribe a mano quien trabaja en el proyecto; no se genera solo. Cada cambio lleva 'area': 'web' (lo que se ve en replayLab) y/o 'juego' (overlay, grabación, lo descubierto del juego, YouTube), y 'juego' con el id de datos/juegos.json (o una lista de ids si el cambio vale para varios juegos). cambios.html tiene una pestaña por juego.",
  "dias": [
   {
+   "fecha": "2026-09-29",
+   "cambios": [
+    {
+     "t": "arreglado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce"
+     ],
+     "es": "Las barras de ronda, pelea y set del overlay ya no adivinan: la de ronda es el reloj del propio juego, la de pelea las rondas jugadas de un máximo de 3 y la del set las peleas jugadas del máximo posible (9 en un FT5). Si algo termina antes, la barra se completa en ese momento.",
+     "en": "The overlay's round, game and set bars no longer guess: the round bar is the game's own timer, the game bar the rounds played out of a maximum of 3, and the set bar the games played out of the most possible (9 in an FT5). If something ends early, the bar fills up at that moment."
+    }
+   ]
+  },
+  {
    "fecha": "2026-09-28",
    "cambios": [
     {

@@ -6,6 +6,14 @@ La versión que se ve en el sitio está en `datos/cambios.json` y se lee en
 Los cambios de replayLab, de lo más nuevo a lo más viejo. Las fechas son las del día en
 que se hizo el cambio, no las de publicación.
 
+## 2026-09-29
+
+- **Overlay: barras de tiempo sin adivinar.** Sin pasada rápida, `fracOf()` llenaba con
+  `1 − e^(−2,5·t/T)`, con T = media de lo visto (30 s ronda, 95 s pelea, 600 s set al
+  empezar): una estimación. Ahora: ronda = reloj del juego gastado (`timer_sec` de 99 a 0);
+  pelea = (rondas cerradas + ronda en curso) / 3; set = (peleas cerradas + pelea en curso) /
+  (2·FT − 1). Sin FT no se llena. Con plan de la pasada rápida sigue siendo por tiempo.
+
 ## 2026-09-28 (noche, 2) — la CPU del «new challenger»
 
 - Caso: CE, MT Yurikowa vs Nostrax, pelea 6. Quien perdió tardó en volver, la máquina
