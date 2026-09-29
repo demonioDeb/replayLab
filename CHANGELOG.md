@@ -13,6 +13,12 @@ que se hizo el cambio, no las de publicación.
   empezar): una estimación. Ahora: ronda = reloj del juego gastado (`timer_sec` de 99 a 0);
   pelea = (rondas cerradas + ronda en curso) / 3; set = (peleas cerradas + pelea en curso) /
   (2·FT − 1). Sin FT no se llena. Con plan de la pasada rápida sigue siendo por tiempo.
+- **Overlay: barra de ventaja.** Antes `l1/(l1+l2)` repartida en toda la barra y una
+  flecha que señalaba hacia dónde se movía (no quién iba delante): con 20 contra 8 de vida
+  salía un 71 % para el 1. Ahora es la DIFERENCIA (`|l1−l2|` en % de una vida): la barra
+  sale del centro hacia el que va delante, en su color (una vida entera = medio ancho), y
+  una etiqueta en la punta dice «◀ VENTAJA 21%» / «VENTAJA 21% ▶» / «IGUALADOS» (textos
+  `ventaja` e `igualados` en los 6 idiomas del overlay). Fuera la flecha del filo.
 
 ## 2026-09-28 (noche, 2) — la CPU del «new challenger»
 
