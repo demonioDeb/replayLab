@@ -5,6 +5,18 @@
    "fecha": "2026-09-29",
    "cambios": [
     {
+     "t": "nuevo",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce"
+     ],
+     "es": "Shorts: de cada set sale un vídeo vertical de menos de un minuto con lo mejor (KO final, perfects, remontadas, súpers, combos…), con transiciones suaves, una repetición a cámara lenta del golpe final y una tarjeta con el ganador.",
+     "en": "Shorts: every set now gets a vertical video under a minute with the best moments (final KO, perfects, comebacks, supers, combos…), smooth transitions, a slow-motion replay of the final hit and a winner card."
+    },
+    {
      "t": "arreglado",
      "area": [
       "juego"

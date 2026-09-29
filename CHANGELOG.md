@@ -8,6 +8,15 @@ que se hizo el cambio, no las de publicación.
 
 ## 2026-09-29
 
+- **Shorts (`fcrec/short.py`, `python -m fcrec short <carpeta> [--subir]`).** Del vídeo ya
+  grabado: juego, marcador y fichas recortados a 1080x1920 sobre el juego desenfocado.
+  Momentos puntuados con los eventos limpios (KO final 100 · perfect 82 · remontada 58+ ·
+  al límite 52 · súper 56 · mareo 50 · combo 30+5/golpe · relámpago 46 · golpe más fuerte
+  38 · KO 16), cada repetición de tipo ×0,55, ~45 s (máx. 50), en orden de juego. Fundido
+  cruzado de imagen y sonido entre clips (0,35 s), destello blanco hacia la repetición a
+  cámara lenta (0,5×) del golpe final, tarjeta del ganador (4,2 s) con fundido de 0,8 s,
+  loudnorm −14 LUFS y barrita de progreso. Se hace y se sube solo tras cada vídeo
+  (`[short]` auto/subir/segundos); `hacer-short.bat` / MENU 11 para los ya grabados.
 - **Zumbido del final del replay.** Al acabarse el replay el emulador repite el último
   fotograma de audio (periodo medido 16,8 ms) hasta que se para la grabación. El silencio
   de OBS a los +4 s no servía (sólo tocaba dos fuentes por nombre). Ahora: `obs.mute_audio`
