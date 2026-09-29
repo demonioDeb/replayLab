@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-28 21:06",
+ "actualizado": "2026-09-29 19:47",
  "videos": [
   {
    "quark": "1790626950991-8079",
@@ -43,49 +43,6 @@
     }
    ],
    "rondas": 13
-  },
-  {
-   "quark": "1790480084344-5884",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-09-27",
-   "youtube": "grLz8oUdam8",
-   "duracion": 806.1,
-   "marcador": [
-    5,
-    4
-   ],
-   "peleas": 9,
-   "jugadores": [
-    {
-     "nombre": "MT Yurikowa",
-     "pais": "mx",
-     "rango_letra": "B",
-     "personaje": "Balrog",
-     "clave": "boxer",
-     "personajes": [
-      "Balrog"
-     ],
-     "claves": [
-      "boxer"
-     ]
-    },
-    {
-     "nombre": "Nostrax",
-     "pais": "ar",
-     "rango_letra": "B",
-     "personaje": "Balrog",
-     "clave": "boxer",
-     "personajes": [
-      "Balrog"
-     ],
-     "claves": [
-      "boxer"
-     ]
-    }
-   ],
-   "rondas": 22
   },
   {
    "quark": "1790372106237-7758",
