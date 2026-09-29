@@ -8,6 +8,18 @@ que se hizo el cambio, no las de publicación.
 
 ## 2026-09-29
 
+- **Overlay: idioma que viene.** La insignia pasa de «ES 14» a «ES ▸ EN 14»; en los
+  últimos 3 s el siguiente parpadea en dorado; con un resumen en pantalla, ⏸. Tiempos por
+  idioma: `idioma_alterna` (25 s) para los principales y `idioma_breve` (10 s) para
+  `idiomas_breves` (fr, ja, zh); vuelta completa 105 s (antes 6 × 20 = 120 s).
+- **Resumen del set cortado.** El replay de Fightcade se cierra ~12 s después del último
+  KO, el vídeo se cortaba 8 s después y el resumen salía a los 3,8 s: se veía ~4 s. Ahora
+  sale a los 2,2 s (quita el cartel de la pelea) y `margen_despues` = 12: ~10 s visibles.
+- **Verificación de resúmenes.** En las 3 grabaciones publicadas, las filas del resumen de
+  pelea (rondas, daño, súpers, vida al terminar) y del set (peleas, rondas, KO/tiempo,
+  perfects, daño, súpers, mareos, vida al ganar, remontada, ronda más rápida) coinciden
+  con la web y con fotogramas del vídeo. Única diferencia: CE pelea 6 (daño +144 por
+  lado del «new challenger»), ya corregido en el Lua el 29 sep.
 - **Sección YouTube (`canal.html`).** Nueva entrada «YouTube» en el menú (grupo Ver). Lee
   `datos/canal.json`, que escribe `python -m fcrec canal` (y se refresca solo en cada
   publicación): suscriptores (si el canal no los oculta), vídeos, visualizaciones y los

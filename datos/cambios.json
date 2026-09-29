@@ -5,6 +5,30 @@
    "fecha": "2026-09-29",
    "cambios": [
     {
+     "t": "cambiado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce"
+     ],
+     "es": "Overlay: la insignia del idioma dice cuál viene y en cuánto (ES ▸ EN 12) y avisa en los últimos 3 segundos. Español, inglés y portugués se quedan 25 s cada uno; francés, japonés y chino 10 s.",
+     "en": "Overlay: the language badge shows which one is next and how soon (ES ▸ EN 12) and flags the last 3 seconds. Spanish, English and Portuguese stay 25 s each; French, Japanese and Chinese 10 s."
+    },
+    {
+     "t": "arreglado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce"
+     ],
+     "es": "El resumen del set sale antes y el vídeo acaba más tarde: antes se veía sólo 4 segundos antes de que terminara el vídeo; ahora se ve unos 10. Comprobado además que las cifras de los resúmenes de pelea y de set coinciden con las de la web en las tres partidas publicadas.",
+     "en": "The set summary shows up sooner and the video ends later: it used to be on screen for only 4 seconds before the video ended; now it's about 10. We also checked that the fight and set summary numbers match the website in all three published matches."
+    },
+    {
      "t": "nuevo",
      "area": [
       "web"
