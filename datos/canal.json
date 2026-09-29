@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-29T20:19:36Z",
+ "actualizado": "2026-09-29T20:31:31Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,11 +7,24 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 5,
  "vistas": 23,
- "videos": 5,
+ "videos": 6,
  "lista": [
   {
-   "id": "wT1KazJhf8o",
+   "id": "hcH8ejX-xVc",
    "privacidad": "private"
+  },
+  {
+   "id": "d1R88RDJI5w",
+   "privacidad": "private"
+  },
+  {
+   "id": "wT1KazJhf8o",
+   "titulo": "MT Yurikowa vs Nostrax · lo mejor del set | Balrog vs Balrog | SF2CE #shorts",
+   "publicado": "2026-09-29T20:21:36Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/wT1KazJhf8o/mqdefault.jpg"
   },
   {
    "id": "DEUvaIRxw0M",
