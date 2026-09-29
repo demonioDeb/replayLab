@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-29 20:53",
+ "actualizado": "2026-09-29 20:56",
  "videos": [
   {
    "quark": "1790626950991-8079",
@@ -129,49 +129,6 @@
     }
    ],
    "rondas": 17
-  },
-  {
-   "quark": "1776837288975-5122",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-04-22",
-   "youtube": "d1R88RDJI5w",
-   "duracion": 105.5,
-   "marcador": [
-    0,
-    1
-   ],
-   "peleas": 2,
-   "jugadores": [
-    {
-     "nombre": "Ulgrot",
-     "pais": "pe",
-     "rango_letra": "B",
-     "personaje": "Zangief",
-     "clave": "zangief",
-     "personajes": [
-      "Zangief"
-     ],
-     "claves": [
-      "zangief"
-     ]
-    },
-    {
-     "nombre": "SHALOM2025",
-     "pais": "mx",
-     "rango_letra": "B",
-     "personaje": "Guile",
-     "clave": "guile",
-     "personajes": [
-      "Guile"
-     ],
-     "claves": [
-      "guile"
-     ]
-    }
-   ],
-   "rondas": 3
   }
  ]
 }
