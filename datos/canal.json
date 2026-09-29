@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-29T21:54:09Z",
+ "actualizado": "2026-09-29T22:21:11Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,18 +7,31 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 5,
  "vistas": 23,
- "videos": 7,
+ "videos": 8,
  "lista": [
   {
-   "id": "3GiDmnz3X_4",
+   "id": "lKXlacjOfSg",
    "privacidad": "private"
+  },
+  {
+   "id": "jv7n1WWtnN4",
+   "privacidad": "private"
+  },
+  {
+   "id": "3GiDmnz3X_4",
+   "titulo": "((Caution)) vs Devaud · lo mejor del set | M. Bison vs Guile | SF2CE #shorts",
+   "publicado": "2026-09-29T22:02:44Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/3GiDmnz3X_4/mqdefault.jpg"
   },
   {
    "id": "W_0wpT0per4",
    "titulo": "((Caution)) vs Devaud | Blanka/Guile/M. Bison/Ryu vs Dhalsim/Guile/M. Bison | 10-3",
    "publicado": "2026-09-29T21:53:36Z",
    "privacidad": "public",
-   "vistas": 0,
+   "vistas": 1,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/W_0wpT0per4/mqdefault.jpg"
   },
@@ -45,7 +58,7 @@
    "titulo": "H-Zero vs hassasin10 · lo mejor del set | O. Ryu vs Cammy | SSF2X #shorts",
    "publicado": "2026-09-29T19:53:56Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/8CFIrAQEmfA/mqdefault.jpg"
   },
