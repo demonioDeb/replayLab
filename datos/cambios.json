@@ -2,6 +2,19 @@
  "nota": "Resumen por día de lo que se hizo y lo que se descubrió. Lo escribe a mano quien trabaja en el proyecto; no se genera solo. Cada cambio lleva 'area': 'web' (lo que se ve en replayLab) y/o 'juego' (overlay, grabación, lo descubierto del juego, YouTube), y 'juego' con el id de datos/juegos.json (o una lista de ids si el cambio vale para varios juegos). cambios.html tiene una pestaña por juego.",
  "dias": [
   {
+   "fecha": "2026-09-30",
+   "cambios": [
+    {
+     "t": "cambiado",
+     "area": [
+      "web"
+     ],
+     "es": "La sección YouTube pasa a ser «Redes»: YouTube y Facebook en una sola página, cada uno con sus datos básicos (suscriptores o seguidores) y su botón para seguirlo.",
+     "en": "The YouTube section is now «Socials»: YouTube and Facebook on one page, each with its basic numbers (subscribers or followers) and a button to follow it."
+    }
+   ]
+  },
+  {
    "fecha": "2026-09-29",
    "cambios": [
     {

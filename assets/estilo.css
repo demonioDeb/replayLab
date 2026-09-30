@@ -1419,3 +1419,36 @@ a.jug-enlace:hover .n,.jug a.nom:hover{text-decoration:underline;text-decoration
   .yt-cifra b{font-size:24px}
   .yt-info{grid-template-columns:1fr}
 }
+
+/* ------------------------------------------------------------------ REDES (canal.html) */
+.rd-cab{margin:30px 0 18px}
+.rd-cab h1{margin:0 0 6px;font-size:32px}
+.rd-cab p{margin:0;color:var(--soft);max-width:640px}
+.rd-redes{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.rd-red{position:relative;display:flex;flex-direction:column;gap:14px;padding:22px 22px 18px;border-radius:16px;
+  background:var(--panel);border:1px solid var(--line);overflow:hidden}
+.rd-red::before{content:"";position:absolute;inset:0 0 auto 0;height:4px;background:var(--rd)}
+.rd-yt{--rd:#ff0033}
+.rd-fb{--rd:#1877f2}
+.rd-top{display:flex;align-items:center;gap:14px}
+.rd-foto{width:64px;height:64px;border-radius:50%;flex:none;border:2px solid rgba(255,255,255,.12);object-fit:cover}
+.rd-sin{display:grid;place-items:center;background:var(--rd);color:#fff;font:800 28px/1 var(--font)}
+.rd-id{min-width:0}
+.rd-red-n{display:block;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--rd)}
+.rd-red .rd-id h2{margin:2px 0 0;padding:0;font-size:24px;line-height:1.15;color:var(--ink);text-transform:none;letter-spacing:0;overflow-wrap:anywhere}
+.rd-red .rd-id h2::before,.rd-red .rd-id h2::after{content:none}
+.rd-handle{color:var(--dim);font-size:14px}
+.rd-desc{margin:0;color:var(--soft)}
+.rd-cifras{display:flex;gap:28px;flex-wrap:wrap}
+.rd-cifra b{display:block;font-size:26px;font-variant-numeric:tabular-nums}
+.rd-cifra span{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim)}
+.rd-botones{display:flex;gap:10px;flex-wrap:wrap;margin-top:auto}
+.btn.rd-seguir{background:var(--rd);border-color:var(--rd);color:#fff;font-weight:700}
+.btn.rd-seguir:hover{filter:brightness(1.08)}
+.rd-fuente{margin:0;font-size:12px;color:var(--dim)}
+@media (max-width:640px){
+  .rd-cab{margin:20px 0 14px}
+  .rd-cab h1{font-size:26px}
+  .rd-red{padding:18px 16px 14px}
+  .rd-redes{grid-template-columns:1fr}
+}

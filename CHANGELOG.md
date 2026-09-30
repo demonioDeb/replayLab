@@ -6,6 +6,16 @@ La versión que se ve en el sitio está en `datos/cambios.json` y se lee en
 Los cambios de replayLab, de lo más nuevo a lo más viejo. Las fechas son las del día en
 que se hizo el cambio, no las de publicación.
 
+## 2026-09-30
+
+- **Redes (`canal.html`).** El menú «YouTube» pasa a «Redes» (🌐). Una tarjeta por red con lo
+  básico: YouTube (foto, nombre, @handle, suscriptores, vídeos, visualizaciones; Suscríbete
+  con `?sub_confirmation=1` y Ver el canal) y Facebook (nombre, seguidores; Seguir en
+  Facebook). Sin listas de vídeos ni la nota «¿Ver aquí cuenta en YouTube?». Facebook sale de
+  `datos/facebook.json` (fcrec: `facebook.datos_pagina`, se refresca con los datos del canal)
+  y la dirección de `sitio.json` → `facebook`. Cifras sólo si tienen menos de 30 días.
+  Privacidad: nueva sección 6 (Facebook).
+
 ## 2026-09-29
 
 - **Shorts (`fcrec/short.py`, `python -m fcrec short <carpeta> [--subir]`).** Del vídeo ya

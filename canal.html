@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Canal de YouTube · replayLab</title>
-<meta name="description" content="El canal de YouTube de replayLab: todas las partidas en vídeo, con el overlay de estadísticas en directo.">
+<title>Redes · replayLab</title>
+<meta name="description" content="replayLab en YouTube y en Facebook: cada partida nueva con su overlay de estadísticas.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -13,8 +13,8 @@
 <!-- vista previa al compartir (Open Graph / X): imagen de 1200 × 630 en assets/og.png -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="replayLab">
-<meta property="og:title" content="Canal de YouTube · replayLab">
-<meta property="og:description" content="El canal de YouTube de replayLab: todas las partidas en vídeo, con el overlay de estadísticas en directo.">
+<meta property="og:title" content="Redes · replayLab">
+<meta property="og:description" content="replayLab en YouTube y en Facebook: cada partida nueva con su overlay de estadísticas.">
 <meta property="og:url" content="https://demoniodeb.github.io/replayLab/canal.html">
 <meta property="og:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
 <meta property="og:image:width" content="1200">
@@ -22,94 +22,84 @@
 <meta property="og:image:alt" content="replayLab: replays de juegos de pelea de Fightcade con estadísticas">
 <meta property="og:locale" content="es_ES">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Canal de YouTube · replayLab">
-<meta name="twitter:description" content="El canal de YouTube de replayLab: todas las partidas en vídeo, con el overlay de estadísticas en directo.">
+<meta name="twitter:title" content="Redes · replayLab">
+<meta name="twitter:description" content="replayLab en YouTube y en Facebook: cada partida nueva con su overlay de estadísticas.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=0bbf970e03">
+<link rel="stylesheet" href="assets/estilo.css?v=b06c71405c">
 </head>
 <body>
 <header id="cabsitio"></header>
 
 <main class="wrap">
-  <!-- El canal: sus datos vienen de datos/canal.json (API de YouTube, la escribe fcrec).
-       Se enseñan tal cual y sólo si tienen menos de 30 días (reglas de la API). -->
-  <section class="yt-hero" id="hero"></section>
-
-  <section class="bloque" id="b-videos">
-    <div class="bloque-cab"><h2 id="t-ultimos"></h2></div>
-    <div class="yt-grid" id="videos"></div>
-    <p class="vacio" id="v-vacio" hidden></p>
+  <!-- Las redes de replayLab: datos básicos de cada una y el botón para seguirla.
+       YouTube: datos/canal.json · Facebook: datos/facebook.json (los escribe fcrec).
+       Las cifras se enseñan tal cual y sólo si tienen menos de 30 días. -->
+  <section class="rd-cab">
+    <h1 id="rd-t"></h1>
+    <p id="rd-s"></p>
   </section>
-
-  <section class="bloque">
-    <div class="yt-info" id="info"></div>
-  </section>
-
+  <section class="rd-redes" id="redes"></section>
   <div id="apoyo"></div>
 </main>
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=0ee76912ef"></script>
-<script src="assets/lista.js?v=005562bfb5"></script>
+<script src="assets/app.js?v=d0e39443aa"></script>
 <script>
 "use strict";
-let INDICE = { videos: [] };
-let CUANTOS = 12;
-
 const cifra = (n, k) => n == null ? "" :
-  `<div class="yt-cifra"><b>${milesDe(n)}</b><span>${esc(T(k))}</span></div>`;
+  `<div class="rd-cifra"><b>${milesDe(n)}</b><span>${esc(T(k))}</span></div>`;
+
+// Una tarjeta por red: foto, nombre, qué se publica, cifras y botones.
+function tarjeta(o) {
+  const foto = o.foto
+    ? `<img class="rd-foto" src="${esc(o.foto)}" alt="" referrerpolicy="no-referrer">`
+    : `<span class="rd-foto rd-sin">${o.letra}</span>`;
+  return `<article class="rd-red ${o.clase}">
+      <div class="rd-top">${foto}
+        <div class="rd-id"><span class="rd-red-n">${esc(o.red)}</span>
+          <h2>${esc(o.nombre)}</h2>${o.sub ? `<span class="rd-handle">${esc(o.sub)}</span>` : ""}</div></div>
+      <p class="rd-desc">${esc(o.desc)}</p>
+      ${o.cifras ? `<div class="rd-cifras">${o.cifras}</div>` : ""}
+      <div class="rd-botones">
+        ${o.seguir ? `<a class="btn rd-seguir" href="${esc(o.seguir)}" target="_blank" rel="noopener">${o.icono} ${esc(o.tSeguir)}</a>` : ""}
+        ${o.ver ? `<a class="btn" href="${esc(o.ver)}" target="_blank" rel="noopener">${esc(o.tVer)} ↗</a>` : ""}</div>
+      ${o.fuente ? `<p class="rd-fuente">${esc(o.fuente)}</p>` : ""}
+    </article>`;
+}
 
 function pinta() {
   document.documentElement.lang = LANG;
-  document.title = T("yt_titulo") + " · replayLab";
+  document.title = T("n_redes") + " · replayLab";
   textosCabecera(); pintaPie(); pintaApoyo();
-  const ok = canalFresco(), c = CANAL || {};
-  const sus = urlSuscribir(), ver = urlCanal();
-  const botones = `<div class="yt-botones">
-      ${sus ? `<a class="btn yt-rojo" href="${esc(sus)}" target="_blank" rel="noopener">🔔 ${esc(T("yt_suscribete"))}</a>` : ""}
-      ${ver ? `<a class="btn" href="${esc(ver)}" target="_blank" rel="noopener">${esc(T("yt_ver_canal"))} ↗</a>` : ""}</div>`;
-  $("#hero").innerHTML = ok
-    ? `<div class="yt-cab">
-         ${c.avatar ? `<img class="yt-avatar" src="${esc(c.avatar)}" alt="" referrerpolicy="no-referrer">` : ""}
-         <div class="yt-id"><h1>${esc(c.nombre || "replayLab")}</h1>
-           ${c.handle ? `<span class="yt-handle">@${esc(c.handle)}</span>` : ""}
-           <p class="yt-desc">${esc(T("yt_sub"))}</p></div>
-         ${botones}</div>
-       <div class="yt-cifras">${c.suscriptores != null ? cifra(c.suscriptores, "yt_suscriptores") : ""}${cifra(c.videos, "yt_videos")}${cifra(c.vistas, "yt_vistas")}</div>
-       <p class="yt-fuente">▶ ${esc(T("yt_datos").replace("%s", fechaCorta(c.actualizado)))}</p>`
-    : `<div class="yt-cab"><div class="yt-id"><h1>▶ ${esc(T("yt_titulo"))}</h1><p class="yt-desc">${esc(T("yt_sub"))}</p></div>${botones}</div>
-       <p class="yt-fuente">${esc(T("yt_pronto"))}</p>`;
-
-  // últimos vídeos públicos; si la partida tiene ficha aquí, se abre la ficha
-  $("#t-ultimos").textContent = T("yt_ultimos");
-  const ficha = id => (INDICE.videos || []).find(v => v.youtube === id);
-  const pub = ok ? (c.lista || []).filter(v => v.privacidad === "public")
-                     .sort((a, b) => String(b.publicado).localeCompare(String(a.publicado))) : [];
-  $("#b-videos").hidden = !ok;
-  $("#v-vacio").hidden = !ok || pub.length > 0;
-  $("#v-vacio").textContent = T("yt_sin_videos");
-  $("#videos").innerHTML = pub.slice(0, CUANTOS).map(v => {
-    const f = ficha(v.id);
-    const href = f ? `video.html?q=${encodeURIComponent(f.quark)}` : `https://youtu.be/${encodeURIComponent(v.id)}`;
-    return `<a class="yt-card" href="${esc(href)}"${f ? "" : ' target="_blank" rel="noopener"'}>
-        <span class="yt-mini"><img src="${esc(v.miniatura || `https://i.ytimg.com/vi/${v.id}/mqdefault.jpg`)}" alt="" loading="lazy"></span>
-        <span class="yt-c"><b class="yt-t">${esc(v.titulo || "")}</b>
-          <span class="yt-m">${esc(fechaCorta(v.publicado))}${v.vistas != null ? " · " + esc(T("yt_vistas_n").replace("%s", milesDe(v.vistas))) : ""}</span>
-          <span class="yt-etq">${f ? "📊 " + esc(T("yt_con_stats")) : "▶ " + esc(T("yt_ver")) + " ↗"}</span></span></a>`;
-  }).join("");
-  botonVerMas($("#videos"), pub.length - Math.min(CUANTOS, pub.length), () => { CUANTOS += 12; pinta(); });
-
-  $("#info").innerHTML = `
-    <div class="g-c"><h3><span aria-hidden="true">📺</span>${esc(T("yt_cuenta_t"))}</h3><p>${esc(T("yt_cuenta_d"))}</p></div>
-    <div class="g-c"><h3><span aria-hidden="true">🤝</span>${esc(T("yt_apoyo_t"))}</h3><p>${esc(T("yt_apoyo_d"))}</p>
-      ${sus ? `<p><a class="yt-link" href="${esc(sus)}" target="_blank" rel="noopener">🔔 ${esc(T("yt_suscribete"))} ↗</a></p>` : ""}</div>`;
+  $("#rd-t").textContent = T("rd_titulo");
+  $("#rd-s").textContent = T("rd_sub");
+  const tarjetas = [];
+  // YouTube
+  const c = CANAL || {}, ytOk = canalFresco();
+  if (urlCanal()) tarjetas.push(tarjeta({
+    clase: "rd-yt", red: "YouTube", letra: "▶", icono: "🔔",
+    foto: ytOk ? c.avatar : "", nombre: (ytOk && c.nombre) || "replayLab",
+    sub: ytOk && c.handle ? "@" + c.handle : "", desc: T("rd_yt_desc"),
+    cifras: ytOk ? (c.suscriptores != null ? cifra(c.suscriptores, "yt_suscriptores") : "") +
+                   cifra(c.videos, "yt_videos") + cifra(c.vistas, "yt_vistas") : "",
+    seguir: urlSuscribir(), tSeguir: T("yt_suscribete"), ver: urlCanal(), tVer: T("yt_ver_canal"),
+    fuente: ytOk ? T("yt_datos").replace("%s", fechaCorta(c.actualizado)) : "" }));
+  // Facebook
+  const f = FACEBOOK || {}, fbOk = facebookFresco();
+  if (urlFacebook()) tarjetas.push(tarjeta({
+    clase: "rd-fb", red: "Facebook", letra: "f", icono: "👍",
+    foto: fbOk ? f.foto : "", nombre: (fbOk && f.nombre) || "replayLab", sub: "",
+    desc: T("rd_fb_desc"),
+    cifras: fbOk && f.seguidores != null ? cifra(f.seguidores, "fb_seguidores") : "",
+    seguir: urlFacebook(), tSeguir: T("fb_seguir"), ver: "", tVer: "",
+    fuente: fbOk ? T("fb_datos").replace("%s", fechaCorta(f.actualizado)) : "" }));
+  $("#redes").innerHTML = tarjetas.join("");
 }
 
 montaCabecera("canal", pinta);
 pinta();
-Promise.all([cargaBase(), json("datos/indice.json").then(d => { INDICE = d; }).catch(() => {})])
-  .then(pinta);
+cargaBase().then(pinta);
 </script>
 </body>
 </html>
