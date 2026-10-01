@@ -1314,10 +1314,5 @@
    "combo_dano_barras": 0.31,
    "golpe_max_barras": 0.25
   }
- ],
- "narracion": {
-  "texto": "Super Street Fighter II X, a cinco victorias. De un lado, kazel, de Francia, con Dee Jay. Del otro, training12, de Bélgica, con Ken. El belga abre el marcador. training12 llega a la recta final cuatro a tres. ¿Quién se lo lleva?",
-  "t": 0.8,
-  "dur": 13.29
- }
+ ]
 }

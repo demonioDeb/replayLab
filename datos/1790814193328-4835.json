@@ -1440,10 +1440,5 @@
    "combo_dano_barras": 0.38,
    "golpe_max_barras": 0.24
   }
- ],
- "narracion": {
-  "texto": "RAC | Flavio.Ryu, contra BeastFromBrazil. Los dos, de Brasil. Y los dos van cambiando de personaje. BeastFromBrazil gana las tres primeras y roza el set, y RAC | Flavio.Ryu se salva tres veces. Y todo se va a la última pelea. ¿Cómo termina?",
-  "t": 0.8,
-  "dur": 13.57
- }
+ ]
 }
