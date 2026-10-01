@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-01T06:50:53Z",
+ "actualizado": "2026-10-01T07:19:50Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,14 +7,32 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 5,
  "vistas": 26,
- "videos": 14,
+ "videos": 16,
  "lista": [
+  {
+   "id": "mWwAV0RXPXs",
+   "titulo": "RAC | Flavio.Ryu vs BeastFromBrazil · lo mejor del set | E. Honda vs Blanka | SSF2X #shorts",
+   "publicado": "2026-10-01T07:15:33Z",
+   "privacidad": "public",
+   "vistas": 4,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/mWwAV0RXPXs/mqdefault.jpg"
+  },
+  {
+   "id": "n2W8MPQnQ8M",
+   "titulo": "RAC | Flavio.Ryu vs BeastFromBrazil | E. Honda/Fei Long/Ryu/T. Hawk vs Blanka/Chun-Li/Guile/M. Bison",
+   "publicado": "2026-10-01T07:12:48Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/n2W8MPQnQ8M/mqdefault.jpg"
+  },
   {
    "id": "10POOGkIT0g",
    "titulo": "Bruh vs Cone of Cold · lo mejor del set | Vega vs Ryu | SSF2X #shorts",
    "publicado": "2026-10-01T06:45:53Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 4,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/10POOGkIT0g/mqdefault.jpg"
   },
@@ -32,7 +50,7 @@
    "titulo": "ChoiBoy vs SuperrV · lo mejor del set | Ryu vs Dee Jay | SSF2X #shorts",
    "publicado": "2026-09-30T01:37:57Z",
    "privacidad": "public",
-   "vistas": 244,
+   "vistas": 275,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/FmMaYnqK8ME/mqdefault.jpg"
   },
@@ -68,7 +86,7 @@
    "titulo": "((Caution)) vs Devaud · lo mejor del set | M. Bison vs Guile | SF2CE #shorts",
    "publicado": "2026-09-29T22:02:44Z",
    "privacidad": "public",
-   "vistas": 3,
+   "vistas": 6,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/3GiDmnz3X_4/mqdefault.jpg"
   },
@@ -86,7 +104,7 @@
    "titulo": "MT Yurikowa vs Nostrax · lo mejor del set | Balrog vs Balrog | SF2CE #shorts",
    "publicado": "2026-09-29T20:21:36Z",
    "privacidad": "public",
-   "vistas": 163,
+   "vistas": 196,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/wT1KazJhf8o/mqdefault.jpg"
   },
@@ -104,7 +122,7 @@
    "titulo": "H-Zero vs hassasin10 · lo mejor del set | O. Ryu vs Cammy | SSF2X #shorts",
    "publicado": "2026-09-29T19:53:56Z",
    "privacidad": "public",
-   "vistas": 136,
+   "vistas": 162,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/8CFIrAQEmfA/mqdefault.jpg"
   },
@@ -113,7 +131,7 @@
    "titulo": "djfrijoles vs mrcarabano · lo mejor del set | T. Hawk vs Guile | SSF2X #shorts",
    "publicado": "2026-09-29T19:53:56Z",
    "privacidad": "public",
-   "vistas": 143,
+   "vistas": 193,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/iOQ92p-ZzFo/mqdefault.jpg"
   },
