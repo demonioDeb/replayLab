@@ -1,28 +1,56 @@
 {
- "actualizado": "2026-09-30T01:31:37Z",
+ "actualizado": "2026-10-01T02:55:30Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
  "handle": "replaylab-b4i",
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 5,
- "vistas": 23,
- "videos": 10,
+ "vistas": 21,
+ "videos": 14,
  "lista": [
   {
+   "id": "Ujw0-TszNXM",
+   "titulo": "DJCHUKY_THEDARKCOMET vs FUCKB01 · lo mejor del set | Dee Jay vs Dee Jay | SSF2X #shorts",
+   "publicado": "2026-10-01T02:50:54Z",
+   "privacidad": "public",
+   "vistas": 2,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/Ujw0-TszNXM/mqdefault.jpg"
+  },
+  {
+   "id": "jJ6cSKHMTV4",
+   "titulo": "DJCHUKY_THEDARKCOMET vs FUCKB01 | Dee Jay vs Dee Jay | 5-4",
+   "publicado": "2026-10-01T02:48:30Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/jJ6cSKHMTV4/mqdefault.jpg"
+  },
+  {
    "id": "FmMaYnqK8ME",
-   "privacidad": "private"
+   "titulo": "ChoiBoy vs SuperrV · lo mejor del set | Ryu vs Dee Jay | SSF2X #shorts",
+   "publicado": "2026-09-30T01:37:57Z",
+   "privacidad": "public",
+   "vistas": 3,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/FmMaYnqK8ME/mqdefault.jpg"
   },
   {
    "id": "xpT3YllshRo",
-   "privacidad": "private"
+   "titulo": "ChoiBoy vs SuperrV | Ryu vs Dee Jay | 5-2",
+   "publicado": "2026-09-30T01:37:41Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/xpT3YllshRo/mqdefault.jpg"
   },
   {
    "id": "lKXlacjOfSg",
    "titulo": "ChoiBoy vs djfrijoles · lo mejor del set | Ryu vs T. Hawk | SSF2X #shorts",
    "publicado": "2026-09-30T00:15:26Z",
    "privacidad": "public",
-   "vistas": 0,
+   "vistas": 1,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/lKXlacjOfSg/mqdefault.jpg"
   },
@@ -31,7 +59,7 @@
    "titulo": "ChoiBoy vs djfrijoles | Ryu vs T. Hawk | 0-2",
    "publicado": "2026-09-30T00:15:01Z",
    "privacidad": "public",
-   "vistas": 0,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/jv7n1WWtnN4/mqdefault.jpg"
   },
@@ -49,7 +77,7 @@
    "titulo": "((Caution)) vs Devaud | Blanka/Guile/M. Bison/Ryu vs Dhalsim/Guile/M. Bison | 10-3",
    "publicado": "2026-09-29T21:53:36Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/W_0wpT0per4/mqdefault.jpg"
   },
@@ -58,7 +86,7 @@
    "titulo": "MT Yurikowa vs Nostrax · lo mejor del set | Balrog vs Balrog | SF2CE #shorts",
    "publicado": "2026-09-29T20:21:36Z",
    "privacidad": "public",
-   "vistas": 0,
+   "vistas": 1,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/wT1KazJhf8o/mqdefault.jpg"
   },
@@ -67,7 +95,7 @@
    "titulo": "MT Yurikowa vs Nostrax | Balrog vs Balrog | 5-4",
    "publicado": "2026-09-29T20:17:50Z",
    "privacidad": "public",
-   "vistas": 0,
+   "vistas": 1,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/DEUvaIRxw0M/mqdefault.jpg"
   },
@@ -76,7 +104,7 @@
    "titulo": "H-Zero vs hassasin10 · lo mejor del set | O. Ryu vs Cammy | SSF2X #shorts",
    "publicado": "2026-09-29T19:53:56Z",
    "privacidad": "public",
-   "vistas": 2,
+   "vistas": 7,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/8CFIrAQEmfA/mqdefault.jpg"
   },
@@ -85,7 +113,7 @@
    "titulo": "djfrijoles vs mrcarabano · lo mejor del set | T. Hawk vs Guile | SSF2X #shorts",
    "publicado": "2026-09-29T19:53:56Z",
    "privacidad": "public",
-   "vistas": 7,
+   "vistas": 9,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/iOQ92p-ZzFo/mqdefault.jpg"
   },
