@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-01T17:36:58Z",
+ "actualizado": "2026-10-01T19:46:29Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,31 +7,79 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 6,
  "vistas": 850,
- "videos": 22,
+ "videos": 30,
  "lista": [
   {
+   "id": "p5C2n4_Viws",
+   "titulo": "RAC | Flavio.Ryu vs thomas_medeiros · lo mejor del set | Ryu vs Ken | SSF2X #shorts",
+   "publicado": "2026-10-01T19:41:34Z",
+   "privacidad": "public",
+   "vistas": 3,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/p5C2n4_Viws/mqdefault.jpg"
+  },
+  {
+   "id": "iAwTPGZ3Y5k",
+   "titulo": "RAC | Flavio.Ryu vs thomas_medeiros | Ryu vs Ken | SSF2X",
+   "publicado": "2026-10-01T19:38:53Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/iAwTPGZ3Y5k/mqdefault.jpg"
+  },
+  {
    "id": "oUJb56kG7TY",
-   "privacidad": "private"
+   "titulo": "((Caution)) vs lub-Iaboca · lo mejor del set | M. Bison vs Ken | SF2CE #shorts",
+   "publicado": "2026-10-01T19:29:32Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/oUJb56kG7TY/mqdefault.jpg"
   },
   {
    "id": "Jzln-FKDhTQ",
-   "privacidad": "private"
-  },
-  {
-   "id": "-04Yoef-v9c",
-   "privacidad": "private"
+   "titulo": "((Caution)) vs lub-Iaboca | M. Bison vs Ken | SF2CE",
+   "publicado": "2026-10-01T19:29:20Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/Jzln-FKDhTQ/mqdefault.jpg"
   },
   {
    "id": "_Fk0U8nvRUg",
-   "privacidad": "private"
+   "titulo": "mrcarabano vs RenoMD | Guile vs M. Bison | SSF2X",
+   "publicado": "2026-10-01T19:09:12Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/_Fk0U8nvRUg/mqdefault.jpg"
   },
   {
-   "id": "nUIdYB39E1o",
-   "privacidad": "private"
+   "id": "-04Yoef-v9c",
+   "titulo": "mrcarabano vs RenoMD · lo mejor del set | Guile vs M. Bison | SSF2X #shorts",
+   "publicado": "2026-10-01T19:08:59Z",
+   "privacidad": "public",
+   "vistas": 331,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/-04Yoef-v9c/mqdefault.jpg"
   },
   {
    "id": "Phqkqo3mdZo",
-   "privacidad": "private"
+   "titulo": "_yito2k_ vs KELA420 | M. Bison vs Ryu | SSF2X",
+   "publicado": "2026-10-01T18:40:29Z",
+   "privacidad": "public",
+   "vistas": 2,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/Phqkqo3mdZo/mqdefault.jpg"
+  },
+  {
+   "id": "nUIdYB39E1o",
+   "titulo": "_yito2k_ vs KELA420 · lo mejor del set | M. Bison vs Ryu | SSF2X #shorts",
+   "publicado": "2026-10-01T18:40:25Z",
+   "privacidad": "public",
+   "vistas": 41,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/nUIdYB39E1o/mqdefault.jpg"
   },
   {
    "id": "gF2yGomC8bk",
@@ -92,7 +140,7 @@
    "titulo": "RAC | Flavio.Ryu vs BeastFromBrazil · lo mejor del set | E. Honda vs Blanka | SSF2X #shorts",
    "publicado": "2026-10-01T07:15:33Z",
    "privacidad": "public",
-   "vistas": 9,
+   "vistas": 10,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/mWwAV0RXPXs/mqdefault.jpg"
   },
@@ -101,7 +149,7 @@
    "titulo": "RAC | Flavio.Ryu vs BeastFromBrazil | E. Honda/Fei Long/Ryu/T. Hawk vs Blanka/Chun-Li/Guile/M. Bison",
    "publicado": "2026-10-01T07:12:48Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/n2W8MPQnQ8M/mqdefault.jpg"
   },
@@ -128,7 +176,7 @@
    "titulo": "ChoiBoy vs SuperrV · lo mejor del set | Ryu vs Dee Jay | SSF2X #shorts",
    "publicado": "2026-09-30T01:37:57Z",
    "privacidad": "public",
-   "vistas": 349,
+   "vistas": 348,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/FmMaYnqK8ME/mqdefault.jpg"
   },

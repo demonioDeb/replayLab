@@ -322,7 +322,7 @@ function narracion() {
   return `<section class="narra" aria-label="${esc(T("narracion"))}">
     <span class="nar-ico" aria-hidden="true">🎙️</span>
     <div><div class="nar-cab"><span class="nar-t">${esc(T("narracion"))}</span>${nota ? `<span class="nar-es">${esc(nota)}</span>` : ""}
-      ${F.youtube ? `<button class="nar-oir" data-t="${Math.max(0, +n.t || 0)}">▶ ${esc(T("nar_oir"))}</button>` : ""}</div>
+      </div>
     <p lang="es">${esc(n.texto)}</p></div></section>`;
 }
 // La pelea elegida queda marcada en la línea y a la vista dentro de ella (sólo se mueve la línea).
