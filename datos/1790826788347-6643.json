@@ -1745,5 +1745,10 @@
    "combo_dano_barras": 0.52,
    "golpe_max_barras": 0.23
   }
- ]
+ ],
+ "narracion": {
+  "texto": "_yito2k_ recibe a KELA420, y todo queda en México. El Ryu da el primer golpe, pero el M. Bison encuentra la respuesta: dos seguidas para igualar el marcador. _yito2k_ tiene la bola de set, pero hay pelea final. ¿Quién crees que gana?",
+  "t": 0.8,
+  "dur": 13.61
+ }
 }

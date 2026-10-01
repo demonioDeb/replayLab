@@ -1523,5 +1523,10 @@
    "combo_dano_barras": 0.43,
    "golpe_max_barras": 0.24
   }
- ]
+ ],
+ "narracion": {
+  "texto": "Canadiense contra estadounidense. Bruh, con Vega, frente a Cone of Cold, con Ryu. El canadiense abre el marcador. Bruh juega a una derrota del final, y se salva tres veces, hasta el cuatro a cuatro. Dale al play y descúbrelo.",
+  "t": 0.8,
+  "dur": 12.22
+ }
 }

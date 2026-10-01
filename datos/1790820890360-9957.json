@@ -580,5 +580,10 @@
    "combo_dano_barras": 0.0,
    "golpe_max_barras": 0.22
   }
- ]
+ ],
+ "narracion": {
+  "texto": "Nos vamos a Street Fighter II' Champion Edition: se gana con tres. Choque en casa: ((Caution)), con M. Bison, contra lub-Iaboca, con Ken. Nivel parejo: maestro contra maestro. El M. Bison gana las dos primeras. El Ken firma un perfect. ¿Apuestas por alguno?",
+  "t": 0.8,
+  "dur": 13.21
+ }
 }

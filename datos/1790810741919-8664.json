@@ -1430,5 +1430,10 @@
    "combo_dano_barras": 0.6,
    "golpe_max_barras": 0.26
   }
- ]
+ ],
+ "narracion": {
+  "texto": "Choque en casa: stevetren, con Ryu, contra znoopyglobal, con Chun-Li. El Ryu pega primero, hasta que el Chun-Li enlaza cuatro victorias para ponerse cuatro a uno. znoopyglobal llega a la recta final cuatro a tres. Dale al play y descúbrelo.",
+  "t": 0.8,
+  "dur": 13.01
+ }
 }
