@@ -1,6 +1,49 @@
 {
- "actualizado": "2026-10-01 05:07",
+ "actualizado": "2026-10-01 06:50",
  "videos": [
+  {
+   "quark": "1790809962606-2442",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-30",
+   "youtube": "NN8pWm4Wvzg",
+   "duracion": 910.1,
+   "marcador": [
+    5,
+    4
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "Bruh",
+     "pais": "ca",
+     "rango_letra": "A",
+     "personaje": "Vega",
+     "clave": "claw",
+     "personajes": [
+      "Vega"
+     ],
+     "claves": [
+      "claw"
+     ]
+    },
+    {
+     "nombre": "Cone of Cold",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    }
+   ],
+   "rondas": 23
+  },
   {
    "quark": "1790626950991-8079",
    "juego": "ssf2xjr1",
