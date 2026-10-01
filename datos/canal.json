@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-01T04:27:16Z",
+ "actualizado": "2026-10-01T05:03:14Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -10,11 +10,19 @@
  "videos": 16,
  "lista": [
   {
+   "id": "K-Ujk-gMlkU",
+   "privacidad": "private"
+  },
+  {
+   "id": "28tLg5uEhUk",
+   "privacidad": "private"
+  },
+  {
    "id": "cRi5i945fFo",
    "titulo": "RAC | Flavio.Ryu vs BeastFromBrazil · lo mejor del set | E. Honda vs Blanka | SSF2X #shorts",
    "publicado": "2026-10-01T04:23:50Z",
    "privacidad": "public",
-   "vistas": 0,
+   "vistas": 8,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/cRi5i945fFo/mqdefault.jpg"
   },
@@ -32,7 +40,7 @@
    "titulo": "Bruh vs Cone of Cold · lo mejor del set | Vega vs Ryu | SSF2X #shorts",
    "publicado": "2026-10-01T03:54:55Z",
    "privacidad": "public",
-   "vistas": 4,
+   "vistas": 5,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/Spva7CW8CMM/mqdefault.jpg"
   },
