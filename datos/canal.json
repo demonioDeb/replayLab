@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-01T08:23:14Z",
+ "actualizado": "2026-10-01T08:50:29Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,14 +7,32 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 5,
  "vistas": 26,
- "videos": 20,
+ "videos": 22,
  "lista": [
+  {
+   "id": "nwDPFJrNHz4",
+   "titulo": "lub-Iaboca vs Sonic Gyn · lo mejor del set | M. Bison vs Guile | SF2CE #shorts",
+   "publicado": "2026-10-01T08:46:52Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/nwDPFJrNHz4/mqdefault.jpg"
+  },
+  {
+   "id": "fUGlwkCF3eE",
+   "titulo": "lub-Iaboca vs Sonic Gyn | M. Bison vs Guile | 5-2",
+   "publicado": "2026-10-01T08:44:16Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/fUGlwkCF3eE/mqdefault.jpg"
+  },
   {
    "id": "l3CsgwggBxs",
    "titulo": "kazel vs training12 · lo mejor del set | Dee Jay vs Ken | SSF2X #shorts",
    "publicado": "2026-10-01T08:19:10Z",
    "privacidad": "public",
-   "vistas": 0,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/l3CsgwggBxs/mqdefault.jpg"
   },
@@ -59,7 +77,7 @@
    "titulo": "RAC | Flavio.Ryu vs BeastFromBrazil | E. Honda/Fei Long/Ryu/T. Hawk vs Blanka/Chun-Li/Guile/M. Bison",
    "publicado": "2026-10-01T07:12:48Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 0,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/n2W8MPQnQ8M/mqdefault.jpg"
   },
@@ -68,7 +86,7 @@
    "titulo": "Bruh vs Cone of Cold · lo mejor del set | Vega vs Ryu | SSF2X #shorts",
    "publicado": "2026-10-01T06:45:53Z",
    "privacidad": "public",
-   "vistas": 9,
+   "vistas": 8,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/10POOGkIT0g/mqdefault.jpg"
   },
@@ -122,7 +140,7 @@
    "titulo": "((Caution)) vs Devaud · lo mejor del set | M. Bison vs Guile | SF2CE #shorts",
    "publicado": "2026-09-29T22:02:44Z",
    "privacidad": "public",
-   "vistas": 3,
+   "vistas": 7,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/3GiDmnz3X_4/mqdefault.jpg"
   },
@@ -131,7 +149,7 @@
    "titulo": "((Caution)) vs Devaud | Blanka/Guile/M. Bison/Ryu vs Dhalsim/Guile/M. Bison | 10-3",
    "publicado": "2026-09-29T21:53:36Z",
    "privacidad": "public",
-   "vistas": 3,
+   "vistas": 4,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/W_0wpT0per4/mqdefault.jpg"
   },
@@ -176,7 +194,7 @@
    "titulo": "djfrijoles vs mrcarabano | T. Hawk vs Guile | 5-0",
    "publicado": "2026-09-28T21:07:51Z",
    "privacidad": "public",
-   "vistas": 4,
+   "vistas": 2,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/Vf-7qvclez8/mqdefault.jpg"
   },
