@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-01 16:54",
+ "actualizado": "2026-10-01 17:23",
  "videos": [
   {
    "quark": "1790826788347-6643",
@@ -227,6 +227,49 @@
     }
    ],
    "rondas": 23
+  },
+  {
+   "quark": "1790809930165-3557",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-30",
+   "youtube": "_Fk0U8nvRUg",
+   "duracion": 737.1,
+   "marcador": [
+    2,
+    5
+   ],
+   "peleas": 7,
+   "jugadores": [
+    {
+     "nombre": "mrcarabano",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Guile",
+     "clave": "guile",
+     "personajes": [
+      "Guile"
+     ],
+     "claves": [
+      "guile"
+     ]
+    },
+    {
+     "nombre": "RenoMD",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    }
+   ],
+   "rondas": 18
   },
   {
    "quark": "1790805473918-7513",
