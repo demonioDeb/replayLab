@@ -1,61 +1,6 @@
 {
- "actualizado": "2026-10-01 05:03",
+ "actualizado": "2026-10-01 05:06",
  "videos": [
-  {
-   "quark": "1790814193328-4835",
-   "juego": "ssf2xjr1",
-   "juego_nombre": "Super Street Fighter II X",
-   "juego_corto": "SSF2X",
-   "fecha": "2026-10-01",
-   "youtube": "dN61WCUImgA",
-   "duracion": 789.4,
-   "marcador": [
-    5,
-    4
-   ],
-   "peleas": 9,
-   "jugadores": [
-    {
-     "nombre": "RAC | Flavio.Ryu",
-     "pais": "br",
-     "rango_letra": "A",
-     "personaje": "E. Honda",
-     "clave": "honda",
-     "personajes": [
-      "E. Honda",
-      "T. Hawk",
-      "Fei Long",
-      "Ryu"
-     ],
-     "claves": [
-      "honda",
-      "hawk",
-      "feilong",
-      "ryu"
-     ]
-    },
-    {
-     "nombre": "BeastFromBrazil",
-     "pais": "br",
-     "rango_letra": "B",
-     "personaje": "Blanka",
-     "clave": "blanka",
-     "personajes": [
-      "Blanka",
-      "M. Bison",
-      "Chun-Li",
-      "Guile"
-     ],
-     "claves": [
-      "blanka",
-      "dictator",
-      "chunli",
-      "guile"
-     ]
-    }
-   ],
-   "rondas": 21
-  },
   {
    "quark": "1790809962606-2442",
    "juego": "ssf2xjr1",
