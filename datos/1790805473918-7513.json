@@ -1,0 +1,1318 @@
+{
+ "version": 8,
+ "quark": "1790805473918-7513",
+ "carpeta": "20261001_kazel_vs_training12_1790805473918-7513",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": true
+ },
+ "fecha": "2026-09-30",
+ "youtube": "VuzmAK5xmw0",
+ "titulo": "kazel vs training12 | Dee Jay vs Ken | 3-5",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "kazel",
+   "pais": "fr",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Dee Jay",
+   "clave": "deejay",
+   "personajes": [
+    "Dee Jay"
+   ],
+   "claves": [
+    "deejay"
+   ],
+   "swaps": 0,
+   "super": "Sobat Carnival"
+  },
+  {
+   "nombre": "training12",
+   "pais": "be",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Ken",
+   "clave": "ken",
+   "personajes": [
+    "Ken"
+   ],
+   "claves": [
+    "ken"
+   ],
+   "swaps": 0,
+   "super": "Shoryureppa"
+  }
+ ],
+ "marcador": [
+  3,
+  5
+ ],
+ "duracion": 762.2,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 5.82,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 5.82,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 57,
+     "perfect": false,
+     "dano": [
+      68,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 52,
+     "remontada": 0,
+     "fin": 39.09,
+     "vida_final": [
+      0,
+      52
+     ]
+    },
+    {
+     "n": 2,
+     "t": 44.98,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      144,
+      57
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 60,
+     "remontada": 36,
+     "fin": 62.84,
+     "vida_final": [
+      60,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 68.65,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 67,
+     "perfect": false,
+     "dano": [
+      52,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 63,
+     "remontada": 0,
+     "fin": 108.12,
+     "vida_final": [
+      0,
+      63
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Dee Jay",
+    "Ken"
+   ],
+   "claves": [
+    "deejay",
+    "ken"
+   ],
+   "fin": 108.59,
+   "resumen": {
+    "dano": [
+     264,
+     345
+    ],
+    "combos": [
+     1,
+     0
+    ],
+    "supers": [
+     1,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 152
+   }
+  },
+  {
+   "n": 2,
+   "t": 125.0,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 125.0,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 48,
+     "perfect": false,
+     "dano": [
+      144,
+      84
+     ],
+     "combos": [
+      1,
+      1
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 41,
+     "remontada": 2,
+     "fin": 151.74,
+     "vida_final": [
+      41,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 157.13,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      144,
+      52
+     ],
+     "combos": [
+      2,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 63,
+     "remontada": 32,
+     "fin": 175.36,
+     "vida_final": [
+      63,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    1
+   ],
+   "personajes": [
+    "Dee Jay",
+    "Ken"
+   ],
+   "claves": [
+    "deejay",
+    "ken"
+   ],
+   "fin": 175.84,
+   "resumen": {
+    "dano": [
+     288,
+     136
+    ],
+    "combos": [
+     3,
+     1
+    ],
+    "supers": [
+     2,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 78
+   }
+  },
+  {
+   "n": 3,
+   "t": 191.88,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 191.88,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 41,
+     "perfect": false,
+     "dano": [
+      94,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 34,
+     "remontada": 28,
+     "fin": 215.12,
+     "vida_final": [
+      0,
+      34
+     ]
+    },
+    {
+     "n": 2,
+     "t": 220.25,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 81,
+     "perfect": false,
+     "dano": [
+      141,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 2,
+     "remontada": 37,
+     "fin": 264.43,
+     "vida_final": [
+      0,
+      2
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    2
+   ],
+   "personajes": [
+    "Dee Jay",
+    "Ken"
+   ],
+   "claves": [
+    "deejay",
+    "ken"
+   ],
+   "fin": 264.91,
+   "resumen": {
+    "dano": [
+     235,
+     288
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 122
+   }
+  },
+  {
+   "n": 4,
+   "t": 281.17,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 281.17,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 65,
+     "perfect": false,
+     "dano": [
+      114,
+      144
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 20,
+     "remontada": 10,
+     "fin": 316.63,
+     "vida_final": [
+      0,
+      20
+     ]
+    },
+    {
+     "n": 2,
+     "t": 322.01,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      142,
+      144
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 1,
+     "remontada": 45,
+     "fin": 344.75,
+     "vida_final": [
+      0,
+      1
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    3
+   ],
+   "personajes": [
+    "Dee Jay",
+    "Ken"
+   ],
+   "claves": [
+    "deejay",
+    "ken"
+   ],
+   "fin": 345.24,
+   "resumen": {
+    "dano": [
+     256,
+     288
+    ],
+    "combos": [
+     2,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 104
+   }
+  },
+  {
+   "n": 5,
+   "t": 361.53,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 361.53,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 65,
+     "perfect": false,
+     "dano": [
+      105,
+      144
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 27,
+     "remontada": 23,
+     "fin": 397.09,
+     "vida_final": [
+      0,
+      27
+     ]
+    },
+    {
+     "n": 2,
+     "t": 403.15,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      144,
+      69
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 52,
+     "remontada": 47,
+     "fin": 426.01,
+     "vida_final": [
+      52,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 431.27,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 43,
+     "perfect": false,
+     "dano": [
+      144,
+      82
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 43,
+     "remontada": 0,
+     "fin": 456.18,
+     "vida_final": [
+      43,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    3
+   ],
+   "personajes": [
+    "Dee Jay",
+    "Ken"
+   ],
+   "claves": [
+    "deejay",
+    "ken"
+   ],
+   "fin": 456.66,
+   "resumen": {
+    "dano": [
+     393,
+     295
+    ],
+    "combos": [
+     2,
+     1
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 147
+   }
+  },
+  {
+   "n": 6,
+   "t": 470.95,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 470.95,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 48,
+     "perfect": false,
+     "dano": [
+      71,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 50,
+     "remontada": 12,
+     "fin": 497.66,
+     "vida_final": [
+      0,
+      50
+     ]
+    },
+    {
+     "n": 2,
+     "t": 502.96,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 47,
+     "perfect": false,
+     "dano": [
+      144,
+      120
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 16,
+     "remontada": 36,
+     "fin": 529.63,
+     "vida_final": [
+      16,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 534.94,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      80,
+      144
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 44,
+     "remontada": 12,
+     "fin": 550.93,
+     "vida_final": [
+      0,
+      44
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    2,
+    4
+   ],
+   "personajes": [
+    "Dee Jay",
+    "Ken"
+   ],
+   "claves": [
+    "deejay",
+    "ken"
+   ],
+   "fin": 551.41,
+   "resumen": {
+    "dano": [
+     295,
+     408
+    ],
+    "combos": [
+     2,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 121
+   }
+  },
+  {
+   "n": 7,
+   "t": 567.95,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 567.95,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 58,
+     "perfect": false,
+     "dano": [
+      144,
+      133
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 7,
+     "remontada": 18,
+     "fin": 599.9,
+     "vida_final": [
+      7,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 605.21,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 43,
+     "perfect": false,
+     "dano": [
+      77,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 46,
+     "remontada": 0,
+     "fin": 629.88,
+     "vida_final": [
+      0,
+      46
+     ]
+    },
+    {
+     "n": 3,
+     "t": 635.21,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "dano": [
+      144,
+      99
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 31,
+     "remontada": 13,
+     "fin": 660.85,
+     "vida_final": [
+      31,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    4
+   ],
+   "personajes": [
+    "Dee Jay",
+    "Ken"
+   ],
+   "claves": [
+    "deejay",
+    "ken"
+   ],
+   "fin": 661.34,
+   "resumen": {
+    "dano": [
+     365,
+     376
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 146
+   }
+  },
+  {
+   "n": 8,
+   "t": 676.5,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 676.5,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 50,
+     "perfect": false,
+     "dano": [
+      113,
+      144
+     ],
+     "combos": [
+      1,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 21,
+     "remontada": 0,
+     "fin": 704.46,
+     "vida_final": [
+      0,
+      21
+     ]
+    },
+    {
+     "n": 2,
+     "t": 709.83,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 84,
+     "perfect": false,
+     "dano": [
+      104,
+      144
+     ],
+     "combos": [
+      1,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 27,
+     "remontada": 30,
+     "fin": 755.78,
+     "vida_final": [
+      0,
+      27
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    5
+   ],
+   "personajes": [
+    "Dee Jay",
+    "Ken"
+   ],
+   "claves": [
+    "deejay",
+    "ken"
+   ],
+   "fin": 756.25,
+   "resumen": {
+    "dano": [
+     217,
+     288
+    ],
+    "combos": [
+     2,
+     2
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 134
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 39.07,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 57.28,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 6
+  },
+  {
+   "t": 62.84,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 100.9,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 107.82,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 108.1,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 148.72,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 151.7,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 4
+  },
+  {
+   "t": 151.73,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 168.69,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 7
+  },
+  {
+   "t": 171.11,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 174.92,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 175.35,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 175.36,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 7
+  },
+  {
+   "t": 215.12,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 264.43,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 316.61,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 344.75,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 370.55,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 396.86,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 397.08,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 422.05,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 6
+  },
+  {
+   "t": 426.01,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 456.16,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 497.66,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 518.25,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 5
+  },
+  {
+   "t": 529.63,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 544.69,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 6
+  },
+  {
+   "t": 550.93,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 599.88,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 629.88,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 660.85,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 682.81,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 704.46,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 755.78,
+   "tipo": "ko",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 15,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 338,
+   "pelea_rapida": 51,
+   "swaps": 0,
+   "rondas": 8,
+   "rondas_jugadas": 20,
+   "ko": 8,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 2313,
+   "recibido": 2424,
+   "golpes": 180,
+   "golpe_max": 34,
+   "primero": 6,
+   "combos": 12,
+   "combo_max": 7,
+   "combo_dano": 87,
+   "supers": 3,
+   "mareos": 1,
+   "ronda_rapida": 28,
+   "al_limite": 1,
+   "remontada": 47,
+   "racha": 2,
+   "vida_al_ganar": 39,
+   "dano_medio": 12.8,
+   "dur_avg": 42,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 84,
+   "dano_barras": 16.06,
+   "recibido_barras": 16.83,
+   "combo_dano_barras": 0.6,
+   "golpe_max_barras": 0.24
+  },
+  {
+   "meter_full": 13,
+   "stun_frames": 103,
+   "stun_peor": 103,
+   "mareado_veces": 1,
+   "dur_sum": 666,
+   "pelea_rapida": 64,
+   "swaps": 0,
+   "rondas": 12,
+   "rondas_jugadas": 20,
+   "ko": 12,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 2424,
+   "recibido": 2313,
+   "golpes": 186,
+   "golpe_max": 36,
+   "primero": 14,
+   "combos": 4,
+   "combo_max": 2,
+   "combo_dano": 44,
+   "supers": 2,
+   "mareos": 0,
+   "ronda_rapida": 26,
+   "al_limite": 2,
+   "remontada": 45,
+   "racha": 5,
+   "vida_al_ganar": 32,
+   "dano_medio": 13.0,
+   "dur_avg": 56,
+   "stun_seg": 1.7,
+   "stun_peor_seg": 1.7,
+   "vida_perdida_ronda": 80,
+   "dano_barras": 16.83,
+   "recibido_barras": 16.06,
+   "combo_dano_barras": 0.31,
+   "golpe_max_barras": 0.25
+  }
+ ]
+}
