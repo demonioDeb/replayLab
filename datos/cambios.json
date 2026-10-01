@@ -2,6 +2,63 @@
  "nota": "Resumen por día de lo que se hizo y lo que se descubrió. Lo escribe a mano quien trabaja en el proyecto; no se genera solo. Cada cambio lleva 'area': 'web' (lo que se ve en replayLab) y/o 'juego' (overlay, grabación, lo descubierto del juego, YouTube), y 'juego' con el id de datos/juegos.json (o una lista de ids si el cambio vale para varios juegos). cambios.html tiene una pestaña por juego.",
  "dias": [
   {
+   "fecha": "2026-10-01",
+   "cambios": [
+    {
+     "t": "nuevo",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2xjr1",
+      "sf2ce"
+     ],
+     "es": "Los vídeos tienen voz: al empezar, un narrador presenta el set (quiénes juegan, con qué personajes, sus rangos, cómo se pone la cosa) sin decir el resultado, y el Short lleva su propia frase al empezar y al terminar. Cada vídeo suena distinto.",
+     "en": "Videos now have a voice: at the start, a narrator introduces the set (who plays, which characters, their ranks, how it unfolds) without spoiling the result, and the Short has its own opening and closing line. Every video sounds different."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2xjr1",
+      "sf2ce"
+     ],
+     "es": "Shorts con diseño nuevo: arriba los nicks y el marcador, las fichas con sus barras, la barra de ventaja, el juego grande y el cartel de cada momento a todo el ancho. Un marco dorado se va llenando durante el Short y sus dos flechas se encuentran al final.",
+     "en": "Shorts have a new look: nicks and score on top, the player cards with their bars, the lead bar, a big game view and a full-width banner for each moment. A golden frame fills up during the Short and its two arrows meet at the end."
+    },
+    {
+     "t": "añadido",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2xjr1",
+      "sf2ce"
+     ],
+     "es": "Overlay: el retrato de cada jugador reacciona a cada golpe que recibe y se queda en gris cuando pierde la pelea. En Super Turbo, todo tiembla cuando alguien queda mareado.",
+     "en": "Overlay: each player's portrait reacts to every hit they take and turns grey when they lose the game. In Super Turbo, everything shakes when someone gets dizzy."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "juego"
+     ],
+     "es": "YouTube: cada vídeo y su Short van solos a la lista de su juego, y los títulos ya no dicen el marcador para no destripar el final.",
+     "en": "YouTube: every video and its Short go straight into their game's playlist, and titles no longer show the score so the ending isn't spoiled."
+    },
+    {
+     "t": "arreglado",
+     "area": [
+      "juego"
+     ],
+     "es": "El cartel «Resumen de la pelea» ya no tapa las caras en la pantalla de «Here comes a new challenger».",
+     "en": "The «Game summary» banner no longer covers the faces on the «Here comes a new challenger» screen."
+    }
+   ]
+  },
+  {
    "fecha": "2026-09-30",
    "cambios": [
     {
