@@ -6,6 +6,58 @@ La versión que se ve en el sitio está en `datos/cambios.json` y se lee en
 Los cambios de replayLab, de lo más nuevo a lo más viejo. Las fechas son las del día en
 que se hizo el cambio, no las de publicación.
 
+## 2026-10-01
+
+- **Voz del narrador (`fcrec/voz.py`, `fcrec/narrador.py`).** Intro hablada al empezar el
+  vídeo largo, más un gancho y un cierre en el Short, con Kokoro (voz `em_santa`, local,
+  Apache 2.0). El sonido del juego baja mientras habla (sidechain) y se guarda
+  `audio_original.m4a` para rehacerla. Los nombres salen como se dicen
+  (`data/pronunciacion.txt`, que manda sobre las reglas). Los nicks con groserías se cambian
+  por «su rival» o por el personaje.
+  - **Variedad:** cientos de formas por hueco, elegidas al azar por set. Evita las usadas en
+    los últimos guiones (`data/voz_historial.json`) y, dentro del mismo guion, las que
+    repetirían una palabra ya dicha.
+  - **No dice el marcador.**
+  - **Habla de más cosas:** rangos («un maestro contra un veterano»), versión vieja sin
+    súper, cambios de personaje, cruces de Super Turbo (`fcrec/cruces.py`, tabla de la
+    comunidad, sin números ni jerga), personajes fuertes o difíciles, y el rango que sube o
+    baja durante el set (`fc_rank`, si el emulador lo escribe).
+  - **Duración:** la intro se alarga hasta 6 s más si el set tiene mucha historia.
+  - Antes de grabar la cola se apuntan los nicks nuevos en `pronunciacion.txt` y se abre el
+    Bloc de notas para revisarlos.
+- **Shorts, diseño nuevo (`fcrec/short.py`).**
+  - **Orden, de arriba abajo:** nicks con rango y bandera y el marcador en medio, fichas de
+    los dos (con separación), barra de ventaja, juego y cartel del momento.
+  - **Fondo:** liso hasta el cartel; debajo, el juego desenfocado.
+  - **Cartel:** franja negra de todo el ancho con el texto centrado.
+  - **Barras:** ST lleva vida, súper y stun; CE, sólo vida.
+  - **Marco de progreso:** todo se reduce un 6 %. Alrededor, un marco de esquinas
+    redondeadas se llena durante exactamente lo que dura el Short; dos flechas salen de
+    abajo y se encuentran arriba al terminar (segunda pasada de ffmpeg, misma memoria que
+    antes).
+- **YouTube y Facebook.**
+  - Cada vídeo y su Short entran solos en la lista de su juego.
+  - Al grabar se elige publicar al momento, programado (de fábrica, 2 horas después de cada
+    subida) o privado (`fcrec/publicacion.py`). Facebook programa a la misma hora.
+  - Los títulos ya no llevan el marcador.
+  - La subida a Facebook se reanuda si se corta.
+- **Overlay.**
+  - El retrato de quien recibe reacciona a cada golpe que le quita vida (antes sólo a los de
+    14 % o más) y queda en gris cuando pierde la pelea.
+  - Nuevo temblor al marear (`mareo_temblor`, sólo donde hay dato de mareo).
+  - El cartel «Resumen de la pelea» baja para no tapar los retratos de «Here comes a new
+    challenger».
+- **Cola.**
+  - No arranca si ya hay otra grabación en marcha (dos a la vez montaban los audios).
+  - Puede apagar la PC al terminar.
+- **Hyper Fighting (`sf2hf`) en preparación.** Mismas direcciones que CE según las fuentes
+  oficiales (detector `sf2hf.inf` = `sf2ce.inf`, perfil de hitboxes compartido). Lector
+  `lua/sf2hf_fcrec.lua`, perfil del overlay de CE, voz y buscador listos. Fuera de la web
+  hasta comprobar la primera grabación.
+- **Buscador de replays (extensión de Chrome).** Busca en las páginas de Fightcade, con el
+  usuario delante (sin saltarse nada). Tiene búsquedas rápidas («1 replay de hoy de cada
+  juego con más visitas») y copia los enlaces con sus datos para la cola.
+
 ## 2026-09-30
 
 - **Redes (`canal.html`).** El menú «YouTube» pasa a «Redes» (🌐). Una tarjeta por red con lo

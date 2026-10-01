@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Partida · replayLab">
 <meta name="twitter:description" content="Una partida de Fightcade analizada: rondas, daño, tiempos y momentos, leídos de la propia partida.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=f7c33b99da">
+<link rel="stylesheet" href="assets/estilo.css?v=b06c71405c">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -48,7 +48,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=ffe02394ec"></script>
+<script src="assets/app.js?v=d0e39443aa"></script>
 <script>
 "use strict";
 let F = null, REPRO = null, LISTO = false;
@@ -312,19 +312,6 @@ function lineaSet() {
       <button class="car-f" data-car="1" aria-label="${esc(T("car_der"))}" title="${esc(T("car_der"))}" disabled>▶</button>
     </div></section>`;
 }
-/* ---- la narración del set (1 oct): lo que dice la voz al empezar el vídeo, como texto,
-   para tener el contexto de la pelea. Va pegada a la línea de tiempo y «Escuchar en el
-   vídeo» lo pone donde empieza la voz. La voz es en español: en otros idiomas se avisa. */
-function narracion() {
-  const n = F && F.narracion;
-  if (!n || !n.texto) return "";
-  const nota = T("nar_es");
-  return `<section class="narra" aria-label="${esc(T("narracion"))}">
-    <span class="nar-ico" aria-hidden="true">🎙️</span>
-    <div><div class="nar-cab"><span class="nar-t">${esc(T("narracion"))}</span>${nota ? `<span class="nar-es">${esc(nota)}</span>` : ""}
-      </div>
-    <p lang="es">${esc(n.texto)}</p></div></section>`;
-}
 // La pelea elegida queda marcada en la línea y a la vista dentro de ella (sólo se mueve la línea).
 function lsElegida() {
   document.querySelectorAll(".ls-p").forEach(b => b.setAttribute("aria-pressed", String(+b.dataset.peleaT === PELEA)));
@@ -343,7 +330,7 @@ addEventListener("resize", () => {
   LS_RELOJ = setTimeout(() => {
     if (!F || !$("#tlset")) return;
     const p = $(".ls-pista"), f = p ? p.scrollLeft / Math.max(1, p.scrollWidth) : 0;
-    $("#tlset").innerHTML = lineaSet() + narracion();
+    $("#tlset").innerHTML = lineaSet();
     const q = $(".ls-pista");
     if (q) { q.style.scrollBehavior = "auto"; q.scrollLeft = f * q.scrollWidth; q.style.scrollBehavior = ""; }
     estadoCarruseles();
@@ -650,7 +637,7 @@ function pinta() {
   PELEA = Math.min(PELEA, Math.max(0, (F.peleas || []).length - 1));
   const pr = (F.peleas || [])[PELEA];
   if (ALC === "ronda" && !(pr && (pr.rondas || [])[RON])) { ALC = "pelea"; RON = 0; }
-  $("#tlset").innerHTML = lineaSet() + narracion();
+  $("#tlset").innerHTML = lineaSet();
   $("#resto").innerHTML = bloques();
   estadoCarruseles();
   aLaVista(document.querySelector('.ts-seg[aria-pressed="true"]'));
