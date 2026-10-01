@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-01 07:19",
+ "actualizado": "2026-10-01 07:56",
  "videos": [
   {
    "quark": "1790814193328-4835",
@@ -98,6 +98,49 @@
     }
    ],
    "rondas": 23
+  },
+  {
+   "quark": "1790806852693-9979",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-30",
+   "youtube": "Cwxf5yHp4u4",
+   "duracion": 1084.3,
+   "marcador": [
+    5,
+    4
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "DJCHUKY_THEDARKCOMET",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "Dee Jay",
+     "clave": "deejay",
+     "personajes": [
+      "Dee Jay"
+     ],
+     "claves": [
+      "deejay"
+     ]
+    },
+    {
+     "nombre": "FUCKB01",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "Dee Jay",
+     "clave": "deejay",
+     "personajes": [
+      "Dee Jay"
+     ],
+     "claves": [
+      "deejay"
+     ]
+    }
+   ],
+   "rondas": 22
   },
   {
    "quark": "1790626950991-8079",
