@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-01T03:58:26Z",
+ "actualizado": "2026-10-01T04:27:16Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,14 +7,32 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 5,
  "vistas": 21,
- "videos": 14,
+ "videos": 16,
  "lista": [
+  {
+   "id": "cRi5i945fFo",
+   "titulo": "RAC | Flavio.Ryu vs BeastFromBrazil · lo mejor del set | E. Honda vs Blanka | SSF2X #shorts",
+   "publicado": "2026-10-01T04:23:50Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/cRi5i945fFo/mqdefault.jpg"
+  },
+  {
+   "id": "dN61WCUImgA",
+   "titulo": "RAC | Flavio.Ryu vs BeastFromBrazil | E. Honda/Fei Long/Ryu/T. Hawk vs Blanka/Chun-Li/Guile/M. Bison",
+   "publicado": "2026-10-01T04:23:14Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/dN61WCUImgA/mqdefault.jpg"
+  },
   {
    "id": "Spva7CW8CMM",
    "titulo": "Bruh vs Cone of Cold · lo mejor del set | Vega vs Ryu | SSF2X #shorts",
    "publicado": "2026-10-01T03:54:55Z",
    "privacidad": "public",
-   "vistas": 2,
+   "vistas": 4,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/Spva7CW8CMM/mqdefault.jpg"
   },
@@ -23,7 +41,7 @@
    "titulo": "Bruh vs Cone of Cold | Vega vs Ryu | 5-4",
    "publicado": "2026-10-01T03:54:24Z",
    "privacidad": "public",
-   "vistas": 0,
+   "vistas": 1,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/gwRI1toyEtg/mqdefault.jpg"
   },
