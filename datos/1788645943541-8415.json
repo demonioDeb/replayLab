@@ -1,0 +1,970 @@
+{
+ "version": 8,
+ "quark": "1788645943541-8415",
+ "carpeta": "20261001_Zombie_Damage_vs_znoopyglobal_1788645943541-8415",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": true
+ },
+ "fecha": "2026-09-05",
+ "youtube": "fd09uL7WuWY",
+ "titulo": "Zombie_Damage vs znoopyglobal | Fei Long vs Chun-Li | SSF2X",
+ "ft": 3,
+ "jugadores": [
+  {
+   "nombre": "Zombie_Damage",
+   "pais": "us",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Fei Long",
+   "clave": "feilong",
+   "personajes": [
+    "Fei Long"
+   ],
+   "claves": [
+    "feilong"
+   ],
+   "swaps": 0,
+   "super": "Rekka Sinken"
+  },
+  {
+   "nombre": "znoopyglobal",
+   "pais": "us",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Chun-Li",
+   "clave": "chunli",
+   "personajes": [
+    "Chun-Li"
+   ],
+   "claves": [
+    "chunli"
+   ],
+   "swaps": 0,
+   "super": "Senretsu Kyaku"
+  }
+ ],
+ "marcador": [
+  3,
+  2
+ ],
+ "duracion": 433.0,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 7.67,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 7.67,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 58,
+     "perfect": false,
+     "dano": [
+      144,
+      137
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 39,
+     "fin": 41.77,
+     "vida_final": [
+      4,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 47.41,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      93,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 35,
+     "remontada": 19,
+     "fin": 66.73,
+     "vida_final": [
+      0,
+      35
+     ]
+    },
+    {
+     "n": 3,
+     "t": 72.96,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 24,
+     "perfect": false,
+     "dano": [
+      144,
+      52
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 63,
+     "remontada": 0,
+     "fin": 88.41,
+     "vida_final": [
+      63,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Fei Long",
+    "Chun-Li"
+   ],
+   "claves": [
+    "feilong",
+    "chunli"
+   ],
+   "fin": 88.88,
+   "resumen": {
+    "dano": [
+     381,
+     333
+    ],
+    "combos": [
+     2,
+     1
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 112
+   }
+  },
+  {
+   "n": 2,
+   "t": 104.47,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 104.47,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 14,
+     "perfect": true,
+     "dano": [
+      144,
+      0
+     ],
+     "combos": [
+      2,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 114.38,
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 120.29,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 48,
+     "perfect": false,
+     "dano": [
+      144,
+      122
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 15,
+     "remontada": 55,
+     "fin": 148.97,
+     "vida_final": [
+      15,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "Fei Long",
+    "Chun-Li"
+   ],
+   "claves": [
+    "feilong",
+    "chunli"
+   ],
+   "fin": 149.46,
+   "resumen": {
+    "dano": [
+     288,
+     122
+    ],
+    "combos": [
+     2,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 62
+   }
+  },
+  {
+   "n": 3,
+   "t": 165.76,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 165.76,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 47,
+     "perfect": false,
+     "dano": [
+      68,
+      144
+     ],
+     "combos": [
+      1,
+      2
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 52,
+     "remontada": 10,
+     "fin": 193.71,
+     "vida_final": [
+      0,
+      52
+     ]
+    },
+    {
+     "n": 2,
+     "t": 200.15,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      55,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 61,
+     "remontada": 28,
+     "fin": 220.9,
+     "vida_final": [
+      0,
+      61
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    2,
+    1
+   ],
+   "personajes": [
+    "Fei Long",
+    "Chun-Li"
+   ],
+   "claves": [
+    "feilong",
+    "chunli"
+   ],
+   "fin": 221.39,
+   "resumen": {
+    "dano": [
+     123,
+     288
+    ],
+    "combos": [
+     1,
+     3
+    ],
+    "supers": [
+     0,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 80
+   }
+  },
+  {
+   "n": 4,
+   "t": 238.59,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 238.59,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 32,
+     "perfect": false,
+     "dano": [
+      13,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 90,
+     "remontada": 0,
+     "fin": 258.42,
+     "vida_final": [
+      0,
+      90
+     ]
+    },
+    {
+     "n": 2,
+     "t": 265.19,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      144,
+      59
+     ],
+     "combos": [
+      2,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 59,
+     "remontada": 21,
+     "fin": 285.6,
+     "vida_final": [
+      59,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 291.62,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 54,
+     "perfect": false,
+     "dano": [
+      113,
+      144
+     ],
+     "combos": [
+      1,
+      1
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 21,
+     "remontada": 22,
+     "fin": 323.9,
+     "vida_final": [
+      0,
+      21
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    2,
+    2
+   ],
+   "personajes": [
+    "Fei Long",
+    "Chun-Li"
+   ],
+   "claves": [
+    "feilong",
+    "chunli"
+   ],
+   "fin": 324.39,
+   "resumen": {
+    "dano": [
+     270,
+     347
+    ],
+    "combos": [
+     3,
+     1
+    ],
+    "supers": [
+     1,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 119
+   }
+  },
+  {
+   "n": 5,
+   "t": 341.76,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 341.76,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      144,
+      107
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 25,
+     "remontada": 45,
+     "fin": 362.58,
+     "vida_final": [
+      25,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 368.2,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      137,
+      144
+     ],
+     "combos": [
+      0,
+      2
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 42,
+     "fin": 403.96,
+     "vida_final": [
+      0,
+      4
+     ]
+    },
+    {
+     "n": 3,
+     "t": 410.79,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": false,
+     "dano": [
+      144,
+      34
+     ],
+     "combos": [
+      3,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 76,
+     "remontada": 12,
+     "fin": 426.52,
+     "vida_final": [
+      76,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    2
+   ],
+   "personajes": [
+    "Fei Long",
+    "Chun-Li"
+   ],
+   "claves": [
+    "feilong",
+    "chunli"
+   ],
+   "fin": 427.01,
+   "resumen": {
+    "dano": [
+     425,
+     285
+    ],
+    "combos": [
+     3,
+     2
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 119
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 41.77,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 56.18,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 58.32,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 66.72,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 78.39,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 88.39,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 111.4,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 114.36,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 114.38,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 5
+  },
+  {
+   "t": 114.38,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 148.97,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 148.97,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 55
+  },
+  {
+   "t": 173.04,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 188.0,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 190.75,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 5
+  },
+  {
+   "t": 193.7,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 219.25,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 220.89,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 220.9,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 6
+  },
+  {
+   "t": 257.99,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 258.42,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 280.61,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 282.76,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 4
+  },
+  {
+   "t": 285.1,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 285.59,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 301.39,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 305.79,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 318.65,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 323.9,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 362.56,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 376.85,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 401.83,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 403.96,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 422.03,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 426.5,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 426.52,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 10,
+   "stun_frames": 70,
+   "stun_peor": 70,
+   "mareado_veces": 1,
+   "dur_sum": 236,
+   "pelea_rapida": 45,
+   "swaps": 0,
+   "rondas": 7,
+   "rondas_jugadas": 13,
+   "ko": 7,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 1487,
+   "recibido": 1375,
+   "golpes": 135,
+   "golpe_max": 38,
+   "primero": 6,
+   "combos": 11,
+   "combo_max": 5,
+   "combo_dano": 68,
+   "supers": 1,
+   "mareos": 1,
+   "ronda_rapida": 14,
+   "al_limite": 1,
+   "remontada": 55,
+   "racha": 3,
+   "vida_al_ganar": 49,
+   "dano_medio": 11.0,
+   "dur_avg": 34,
+   "stun_seg": 1.2,
+   "stun_peor_seg": 1.2,
+   "vida_perdida_ronda": 73,
+   "dano_barras": 10.33,
+   "recibido_barras": 9.55,
+   "combo_dano_barras": 0.47,
+   "golpe_max_barras": 0.26
+  },
+  {
+   "meter_full": 7,
+   "stun_frames": 91,
+   "stun_peor": 91,
+   "mareado_veces": 1,
+   "dur_sum": 256,
+   "pelea_rapida": 56,
+   "swaps": 0,
+   "rondas": 6,
+   "rondas_jugadas": 13,
+   "ko": 6,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1375,
+   "recibido": 1487,
+   "golpes": 107,
+   "golpe_max": 40,
+   "primero": 7,
+   "combos": 7,
+   "combo_max": 6,
+   "combo_dano": 65,
+   "supers": 5,
+   "mareos": 1,
+   "ronda_rapida": 30,
+   "al_limite": 1,
+   "remontada": 42,
+   "racha": 3,
+   "vida_al_ganar": 44,
+   "dano_medio": 12.9,
+   "dur_avg": 43,
+   "stun_seg": 1.5,
+   "stun_peor_seg": 1.5,
+   "vida_perdida_ronda": 79,
+   "dano_barras": 9.55,
+   "recibido_barras": 10.33,
+   "combo_dano_barras": 0.45,
+   "golpe_max_barras": 0.28
+  }
+ ]
+}
