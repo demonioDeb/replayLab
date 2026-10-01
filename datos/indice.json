@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-01 17:23",
+ "actualizado": "2026-10-01 17:36",
  "videos": [
   {
    "quark": "1790826788347-6643",
@@ -43,6 +43,49 @@
     }
    ],
    "rondas": 24
+  },
+  {
+   "quark": "1790820890360-9957",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-01",
+   "youtube": "Jzln-FKDhTQ",
+   "duracion": 317.7,
+   "marcador": [
+    3,
+    0
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "((Caution))",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    },
+    {
+     "nombre": "lub-Iaboca",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken"
+     ],
+     "claves": [
+      "ken"
+     ]
+    }
+   ],
+   "rondas": 8
   },
   {
    "quark": "1790815721278-7583",
