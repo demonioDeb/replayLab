@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-02 03:03",
+ "actualizado": "2026-10-02 03:04",
  "videos": [
   {
    "quark": "1790826788347-6643",
@@ -657,49 +657,6 @@
     }
    ],
    "rondas": 5
-  },
-  {
-   "quark": "1703134675560-7464",
-   "juego": "ssf2xjr1",
-   "juego_nombre": "Super Street Fighter II X",
-   "juego_corto": "SSF2X",
-   "fecha": "2023-12-21",
-   "youtube": "P2at9eg0zNA",
-   "duracion": 342.5,
-   "marcador": [
-    2,
-    1
-   ],
-   "peleas": 3,
-   "jugadores": [
-    {
-     "nombre": "damdai",
-     "pais": "us",
-     "rango_letra": "B",
-     "personaje": "Ryu",
-     "clave": "ryu",
-     "personajes": [
-      "Ryu"
-     ],
-     "claves": [
-      "ryu"
-     ]
-    },
-    {
-     "nombre": "makiri",
-     "pais": "us",
-     "rango_letra": "B",
-     "personaje": "Ken",
-     "clave": "ken",
-     "personajes": [
-      "Ken"
-     ],
-     "claves": [
-      "ken"
-     ]
-    }
-   ],
-   "rondas": 8
   },
   {
    "quark": "1670461325217-6861",
