@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-02T02:45:00Z",
+ "actualizado": "2026-10-02T03:02:33Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 850,
  "videos": 34,
  "lista": [
+  {
+   "id": "8lGfk_fTwdQ",
+   "privacidad": "private"
+  },
+  {
+   "id": "P2at9eg0zNA",
+   "privacidad": "private"
+  },
   {
    "id": "XuDWsk0d7uk",
    "privacidad": "private"
@@ -22,7 +30,7 @@
    "titulo": "Fromo vs znoopyglobal · lo mejor del set | Blanka vs Chun-Li | SSF2X #shorts",
    "publicado": "2026-10-02T02:07:18Z",
    "privacidad": "public",
-   "vistas": 158,
+   "vistas": 165,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/EYs2bo77Mos/mqdefault.jpg"
   },
@@ -76,7 +84,7 @@
    "titulo": "((Caution)) vs lub-Iaboca · lo mejor del set | M. Bison vs Ken | SF2CE #shorts",
    "publicado": "2026-10-01T19:29:32Z",
    "privacidad": "public",
-   "vistas": 459,
+   "vistas": 462,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/oUJb56kG7TY/mqdefault.jpg"
   },
@@ -112,8 +120,8 @@
    "titulo": "_yito2k_ vs KELA420 | M. Bison vs Ryu | SSF2X",
    "publicado": "2026-10-01T18:40:29Z",
    "privacidad": "public",
-   "vistas": 4,
-   "me_gusta": 0,
+   "vistas": 3,
+   "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/Phqkqo3mdZo/mqdefault.jpg"
   },
   {
@@ -121,7 +129,7 @@
    "titulo": "_yito2k_ vs KELA420 · lo mejor del set | M. Bison vs Ryu | SSF2X #shorts",
    "publicado": "2026-10-01T18:40:25Z",
    "privacidad": "public",
-   "vistas": 1053,
+   "vistas": 1102,
    "me_gusta": 8,
    "miniatura": "https://i.ytimg.com/vi/nUIdYB39E1o/mqdefault.jpg"
   },
@@ -130,7 +138,7 @@
    "titulo": "stevetren vs znoopyglobal · lo mejor del set | Ryu vs Chun-Li | SSF2X #shorts",
    "publicado": "2026-10-01T09:12:16Z",
    "privacidad": "public",
-   "vistas": 661,
+   "vistas": 612,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/gF2yGomC8bk/mqdefault.jpg"
   },
@@ -148,7 +156,7 @@
    "titulo": "lub-Iaboca vs Sonic Gyn · lo mejor del set | M. Bison vs Guile | SF2CE #shorts",
    "publicado": "2026-10-01T08:46:52Z",
    "privacidad": "public",
-   "vistas": 902,
+   "vistas": 956,
    "me_gusta": 7,
    "miniatura": "https://i.ytimg.com/vi/nwDPFJrNHz4/mqdefault.jpg"
   },
@@ -166,7 +174,7 @@
    "titulo": "kazel vs training12 · lo mejor del set | Dee Jay vs Ken | SSF2X #shorts",
    "publicado": "2026-10-01T08:19:10Z",
    "privacidad": "public",
-   "vistas": 1015,
+   "vistas": 1053,
    "me_gusta": 9,
    "miniatura": "https://i.ytimg.com/vi/l3CsgwggBxs/mqdefault.jpg"
   },
@@ -202,7 +210,7 @@
    "titulo": "Bruh vs Cone of Cold · lo mejor del set | Vega vs Ryu | SSF2X #shorts",
    "publicado": "2026-10-01T06:45:53Z",
    "privacidad": "public",
-   "vistas": 421,
+   "vistas": 391,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/10POOGkIT0g/mqdefault.jpg"
   },
@@ -220,7 +228,7 @@
    "titulo": "ChoiBoy vs SuperrV · lo mejor del set | Ryu vs Dee Jay | SSF2X #shorts",
    "publicado": "2026-09-30T01:37:57Z",
    "privacidad": "public",
-   "vistas": 730,
+   "vistas": 739,
    "me_gusta": 4,
    "miniatura": "https://i.ytimg.com/vi/FmMaYnqK8ME/mqdefault.jpg"
   },
@@ -238,8 +246,8 @@
    "titulo": "ChoiBoy vs djfrijoles · lo mejor del set | Ryu vs T. Hawk | SSF2X #shorts",
    "publicado": "2026-09-30T00:15:26Z",
    "privacidad": "public",
-   "vistas": 497,
-   "me_gusta": 0,
+   "vistas": 394,
+   "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/lKXlacjOfSg/mqdefault.jpg"
   },
   {
@@ -256,7 +264,7 @@
    "titulo": "((Caution)) vs Devaud · lo mejor | SF2CE #shorts",
    "publicado": "2026-09-29T22:02:44Z",
    "privacidad": "public",
-   "vistas": 168,
+   "vistas": 154,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/3GiDmnz3X_4/mqdefault.jpg"
   },
@@ -292,7 +300,7 @@
    "titulo": "H-Zero vs hassasin10 · lo mejor del set | O. Ryu vs Cammy | SSF2X #shorts",
    "publicado": "2026-09-29T19:53:56Z",
    "privacidad": "public",
-   "vistas": 191,
+   "vistas": 193,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/8CFIrAQEmfA/mqdefault.jpg"
   },
