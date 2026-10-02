@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-02 03:04",
+ "actualizado": "2026-10-02 15:13",
  "videos": [
   {
    "quark": "1790826788347-6643",
@@ -657,6 +657,49 @@
     }
    ],
    "rondas": 5
+  },
+  {
+   "quark": "1775618604662-9103",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-04-08",
+   "youtube": "VKwKClpHftY",
+   "duracion": 679.7,
+   "marcador": [
+    1,
+    5
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "DJILK",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    },
+    {
+     "nombre": "RAC | Flavio.Ryu",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    }
+   ],
+   "rondas": 14
   },
   {
    "quark": "1670461325217-6861",
