@@ -1,6 +1,49 @@
 {
- "actualizado": "2026-10-02 15:13",
+ "actualizado": "2026-10-03 14:06",
  "videos": [
+  {
+   "quark": "1790828329188-3709",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-01",
+   "youtube": "smy-4QWwLY8",
+   "duracion": 810.9,
+   "marcador": [
+    4,
+    5
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "_yito2k_",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    },
+    {
+     "nombre": "KELA420",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    }
+   ],
+   "rondas": 21
+  },
   {
    "quark": "1790826788347-6643",
    "juego": "ssf2xjr1",
