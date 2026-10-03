@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-03T14:06:57Z",
+ "actualizado": "2026-10-03T14:47:58Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 9395,
  "videos": 36,
  "lista": [
+  {
+   "id": "s07f4No07ws",
+   "privacidad": "private"
+  },
+  {
+   "id": "jgXK-Paf60U",
+   "privacidad": "private"
+  },
   {
    "id": "oe9FYRROg-E",
    "privacidad": "private"
@@ -40,7 +48,7 @@
    "titulo": "Fromo vs znoopyglobal · lo mejor del set | Blanka vs Chun-Li | SSF2X #shorts",
    "publicado": "2026-10-02T02:07:18Z",
    "privacidad": "public",
-   "vistas": 802,
+   "vistas": 825,
    "me_gusta": 12,
    "miniatura": "https://i.ytimg.com/vi/EYs2bo77Mos/mqdefault.jpg"
   },
@@ -76,7 +84,7 @@
    "titulo": "RAC | Flavio.Ryu vs thomas_medeiros · lo mejor del set | Ryu vs Ken | SSF2X #shorts",
    "publicado": "2026-10-01T19:41:34Z",
    "privacidad": "public",
-   "vistas": 615,
+   "vistas": 619,
    "me_gusta": 7,
    "miniatura": "https://i.ytimg.com/vi/p5C2n4_Viws/mqdefault.jpg"
   },
