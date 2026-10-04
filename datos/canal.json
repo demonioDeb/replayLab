@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-04T03:01:05Z",
+ "actualizado": "2026-10-04T03:21:53Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,10 +7,23 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 8,
  "vistas": 10244,
- "videos": 42,
+ "videos": 43,
  "lista": [
   {
    "id": "ZS_mohBIQ90",
+   "titulo": "DJILK-SF2TV vs Fromo · lo mejor del set | O. Ryu vs Blanka | SSF2X #shorts",
+   "publicado": "2026-10-04T03:17:49Z",
+   "privacidad": "public",
+   "vistas": 4,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/ZS_mohBIQ90/mqdefault.jpg"
+  },
+  {
+   "id": "xbKV3KAuvug",
+   "privacidad": "private"
+  },
+  {
+   "id": "m6Gyw4Itunw",
    "privacidad": "private"
   },
   {
@@ -22,8 +35,8 @@
    "titulo": "hassasin10 vs RenoMD · lo mejor del set | Cammy vs M. Bison | SSF2X #shorts",
    "publicado": "2026-10-03T17:02:22Z",
    "privacidad": "public",
-   "vistas": 166,
-   "me_gusta": 5,
+   "vistas": 173,
+   "me_gusta": 6,
    "miniatura": "https://i.ytimg.com/vi/PsmfC8iSfnc/mqdefault.jpg"
   },
   {
@@ -58,7 +71,7 @@
    "titulo": "_yito2k_ vs KELA420 · lo mejor del set | M. Bison vs Ryu | SSF2X #shorts",
    "publicado": "2026-10-03T15:49:05Z",
    "privacidad": "public",
-   "vistas": 131,
+   "vistas": 139,
    "me_gusta": 6,
    "miniatura": "https://i.ytimg.com/vi/oe9FYRROg-E/mqdefault.jpg"
   },
@@ -274,7 +287,7 @@
    "titulo": "Bruh vs Cone of Cold · lo mejor del set | Vega vs Ryu | SSF2X #shorts",
    "publicado": "2026-10-01T06:45:53Z",
    "privacidad": "public",
-   "vistas": 426,
+   "vistas": 428,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/10POOGkIT0g/mqdefault.jpg"
   },

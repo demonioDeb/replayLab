@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-04 03:01",
+ "actualizado": "2026-10-04 03:21",
  "videos": [
   {
    "quark": "1790828329188-3709",
@@ -743,6 +743,49 @@
     }
    ],
    "rondas": 23
+  },
+  {
+   "quark": "1788979785247-3198",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-09-09",
+   "youtube": "m6Gyw4Itunw",
+   "duracion": 507.1,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "kazel",
+     "pais": "fr",
+     "rango_letra": "B",
+     "personaje": "O. T. Hawk",
+     "clave": "hawk",
+     "personajes": [
+      "O. T. Hawk"
+     ],
+     "claves": [
+      "hawk"
+     ]
+    },
+    {
+     "nombre": "Zagi",
+     "pais": "fr",
+     "rango_letra": "A",
+     "personaje": "Chun-Li",
+     "clave": "chunli",
+     "personajes": [
+      "Chun-Li"
+     ],
+     "claves": [
+      "chunli"
+     ]
+    }
+   ],
+   "rondas": 15
   },
   {
    "quark": "1788645943541-8415",
