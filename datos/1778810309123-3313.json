@@ -1,0 +1,578 @@
+{
+ "version": 8,
+ "quark": "1778810309123-3313",
+ "carpeta": "20261003_x64_vs_moook_1778810309123-3313",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": true
+ },
+ "fecha": "2026-05-15",
+ "youtube": "RKxwZnwhRc8",
+ "titulo": "x64 vs moook | E. Honda vs Ken | SSF2X",
+ "ft": 3,
+ "jugadores": [
+  {
+   "nombre": "x64",
+   "pais": "us",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "E. Honda",
+   "clave": "honda",
+   "personajes": [
+    "E. Honda"
+   ],
+   "claves": [
+    "honda"
+   ],
+   "swaps": 0,
+   "super": "Double Headbutt"
+  },
+  {
+   "nombre": "moook",
+   "pais": "us",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Ken",
+   "clave": "ken",
+   "personajes": [
+    "Ken"
+   ],
+   "claves": [
+    "ken"
+   ],
+   "swaps": 0,
+   "super": "Shoryureppa"
+  }
+ ],
+ "marcador": [
+  3,
+  0
+ ],
+ "duracion": 332.5,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 4.21,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 4.21,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 16,
+     "perfect": true,
+     "dano": [
+      144,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 14.88,
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 20.47,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 50,
+     "perfect": false,
+     "dano": [
+      144,
+      56
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 61,
+     "remontada": 31,
+     "fin": 50.61,
+     "vida_final": [
+      61,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "E. Honda",
+    "Ken"
+   ],
+   "claves": [
+    "honda",
+    "ken"
+   ],
+   "fin": 51.11,
+   "resumen": {
+    "dano": [
+     288,
+     56
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 66
+   }
+  },
+  {
+   "n": 2,
+   "t": 67.75,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 67.75,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      144,
+      42
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 70,
+     "remontada": 12,
+     "fin": 86.75,
+     "vida_final": [
+      70,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 92.75,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 52,
+     "perfect": false,
+     "dano": [
+      22,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 84,
+     "remontada": 16,
+     "fin": 123.59,
+     "vida_final": [
+      0,
+      84
+     ]
+    },
+    {
+     "n": 3,
+     "t": 129.85,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 66,
+     "perfect": false,
+     "dano": [
+      144,
+      104
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 27,
+     "remontada": 0,
+     "fin": 168.55,
+     "vida_final": [
+      27,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "E. Honda",
+    "Ken"
+   ],
+   "claves": [
+    "honda",
+    "ken"
+   ],
+   "fin": 169.02,
+   "resumen": {
+    "dano": [
+     310,
+     290
+    ],
+    "combos": [
+     1,
+     0
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 148
+   }
+  },
+  {
+   "n": 3,
+   "t": 185.8,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 185.8,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 66,
+     "perfect": false,
+     "dano": [
+      144,
+      99
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 31,
+     "remontada": 40,
+     "fin": 224.2,
+     "vida_final": [
+      31,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 230.8,
+     "ganador": 2,
+     "motivo": "time",
+     "duracion": 99,
+     "perfect": false,
+     "dano": [
+      132,
+      138
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 8,
+     "remontada": 58,
+     "fin": 288.06,
+     "vida_final": [
+      4,
+      8
+     ]
+    },
+    {
+     "n": 3,
+     "t": 294.37,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 52,
+     "perfect": false,
+     "dano": [
+      144,
+      95
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 34,
+     "remontada": 12,
+     "fin": 326.03,
+     "vida_final": [
+      34,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    0
+   ],
+   "personajes": [
+    "E. Honda",
+    "Ken"
+   ],
+   "claves": [
+    "honda",
+    "ken"
+   ],
+   "fin": 326.51,
+   "resumen": {
+    "dano": [
+     420,
+     332
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 217
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 14.88,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 14.88,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 50.59,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 86.73,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 123.02,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 123.59,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 168.54,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 224.2,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 288.06,
+   "tipo": "remontada",
+   "jugador": 2,
+   "dato": 58
+  },
+  {
+   "t": 326.03,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 6,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 280,
+   "pelea_rapida": 47,
+   "swaps": 0,
+   "rondas": 6,
+   "rondas_jugadas": 8,
+   "ko": 6,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 1018,
+   "recibido": 678,
+   "golpes": 67,
+   "golpe_max": 33,
+   "primero": 5,
+   "combos": 1,
+   "combo_max": 2,
+   "combo_dano": 44,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 16,
+   "al_limite": 0,
+   "remontada": 40,
+   "racha": 3,
+   "vida_al_ganar": 54,
+   "dano_medio": 15.2,
+   "dur_avg": 47,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 59,
+   "dano_barras": 7.07,
+   "recibido_barras": 4.71,
+   "combo_dano_barras": 0.31,
+   "golpe_max_barras": 0.23
+  },
+  {
+   "meter_full": 7,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 151,
+   "pelea_rapida": 0,
+   "swaps": 0,
+   "rondas": 2,
+   "rondas_jugadas": 8,
+   "ko": 1,
+   "timeup": 1,
+   "perfects": 0,
+   "dano": 678,
+   "recibido": 1018,
+   "golpes": 68,
+   "golpe_max": 28,
+   "primero": 3,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 1,
+   "mareos": 0,
+   "ronda_rapida": 52,
+   "al_limite": 1,
+   "remontada": 58,
+   "racha": 1,
+   "vida_al_ganar": 46,
+   "dano_medio": 10.0,
+   "dur_avg": 76,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 88,
+   "dano_barras": 4.71,
+   "recibido_barras": 7.07,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.19
+  }
+ ]
+}
