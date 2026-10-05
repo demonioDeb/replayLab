@@ -1,0 +1,1449 @@
+{
+ "version": 8,
+ "quark": "1783480697457-1185",
+ "carpeta": "20261004_Zombie_Damage_vs_RenoMD_1783480697457-1185",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": true
+ },
+ "fecha": "2026-07-08",
+ "youtube": "q_B1tf5OpTg",
+ "titulo": "Zombie_Damage vs RenoMD | Fei Long vs M. Bison | SSF2X",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "Zombie_Damage",
+   "pais": "us",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Fei Long",
+   "clave": "feilong",
+   "personajes": [
+    "Fei Long"
+   ],
+   "claves": [
+    "feilong"
+   ],
+   "swaps": 0,
+   "super": "Rekka Sinken"
+  },
+  {
+   "nombre": "RenoMD",
+   "pais": "us",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "M. Bison",
+   "clave": "dictator",
+   "personajes": [
+    "M. Bison"
+   ],
+   "claves": [
+    "dictator"
+   ],
+   "swaps": 0,
+   "super": "Knee Press Knightmare"
+  }
+ ],
+ "marcador": [
+  5,
+  4
+ ],
+ "duracion": 783.5,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 7.39,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 7.39,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 35,
+     "perfect": false,
+     "dano": [
+      131,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 9,
+     "remontada": 17,
+     "fin": 28.42,
+     "vida_final": [
+      0,
+      9
+     ]
+    },
+    {
+     "n": 2,
+     "t": 33.99,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 44,
+     "perfect": false,
+     "dano": [
+      144,
+      111
+     ],
+     "combos": [
+      2,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 22,
+     "remontada": 36,
+     "fin": 60.43,
+     "vida_final": [
+      22,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 66.08,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 50,
+     "perfect": false,
+     "dano": [
+      144,
+      131
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 9,
+     "remontada": 33,
+     "fin": 96.19,
+     "vida_final": [
+      9,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Fei Long",
+    "M. Bison"
+   ],
+   "claves": [
+    "feilong",
+    "dictator"
+   ],
+   "fin": 96.69,
+   "resumen": {
+    "dano": [
+     419,
+     386
+    ],
+    "combos": [
+     2,
+     1
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 129
+   }
+  },
+  {
+   "n": 2,
+   "t": 111.81,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 111.81,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 48,
+     "perfect": false,
+     "dano": [
+      144,
+      76
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 47,
+     "remontada": 12,
+     "fin": 139.59,
+     "vida_final": [
+      47,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 146.03,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 67,
+     "perfect": false,
+     "dano": [
+      139,
+      144
+     ],
+     "combos": [
+      1,
+      1
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 3,
+     "remontada": 20,
+     "fin": 184.65,
+     "vida_final": [
+      0,
+      3
+     ]
+    },
+    {
+     "n": 3,
+     "t": 190.44,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 29,
+     "perfect": false,
+     "dano": [
+      8,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 94,
+     "remontada": 0,
+     "fin": 208.98,
+     "vida_final": [
+      0,
+      94
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    1
+   ],
+   "personajes": [
+    "Fei Long",
+    "M. Bison"
+   ],
+   "claves": [
+    "feilong",
+    "dictator"
+   ],
+   "fin": 209.46,
+   "resumen": {
+    "dano": [
+     291,
+     364
+    ],
+    "combos": [
+     1,
+     2
+    ],
+    "supers": [
+     2,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 144
+   }
+  },
+  {
+   "n": 3,
+   "t": 225.8,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 225.8,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 64,
+     "perfect": false,
+     "dano": [
+      118,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 18,
+     "remontada": 41,
+     "fin": 262.3,
+     "vida_final": [
+      0,
+      18
+     ]
+    },
+    {
+     "n": 2,
+     "t": 268.25,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 86,
+     "perfect": false,
+     "dano": [
+      140,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 2,
+     "remontada": 7,
+     "fin": 316.8,
+     "vida_final": [
+      0,
+      2
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    2
+   ],
+   "personajes": [
+    "Fei Long",
+    "M. Bison"
+   ],
+   "claves": [
+    "feilong",
+    "dictator"
+   ],
+   "fin": 317.3,
+   "resumen": {
+    "dano": [
+     258,
+     288
+    ],
+    "combos": [
+     0,
+     1
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 150
+   }
+  },
+  {
+   "n": 4,
+   "t": 333.63,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 333.63,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "dano": [
+      144,
+      44
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 69,
+     "remontada": 13,
+     "fin": 359.59,
+     "vida_final": [
+      69,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 364.98,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      144,
+      41
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 71,
+     "remontada": 11,
+     "fin": 385.47,
+     "vida_final": [
+      71,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    2
+   ],
+   "personajes": [
+    "Fei Long",
+    "M. Bison"
+   ],
+   "claves": [
+    "feilong",
+    "dictator"
+   ],
+   "fin": 385.96,
+   "resumen": {
+    "dano": [
+     288,
+     85
+    ],
+    "combos": [
+     1,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 78
+   }
+  },
+  {
+   "n": 5,
+   "t": 401.06,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 401.06,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      144,
+      61
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 57,
+     "remontada": 40,
+     "fin": 424.63,
+     "vida_final": [
+      57,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 430.65,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      144,
+      7
+     ],
+     "combos": [
+      2,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 95,
+     "remontada": 1,
+     "fin": 448.96,
+     "vida_final": [
+      95,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    2
+   ],
+   "personajes": [
+    "Fei Long",
+    "M. Bison"
+   ],
+   "claves": [
+    "feilong",
+    "dictator"
+   ],
+   "fin": 449.44,
+   "resumen": {
+    "dano": [
+     288,
+     68
+    ],
+    "combos": [
+     3,
+     0
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 69
+   }
+  },
+  {
+   "n": 6,
+   "t": 464.79,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 464.79,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      57,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 60,
+     "remontada": 0,
+     "fin": 487.74,
+     "vida_final": [
+      0,
+      60
+     ]
+    },
+    {
+     "n": 2,
+     "t": 493.36,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 66,
+     "perfect": false,
+     "dano": [
+      141,
+      144
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 2,
+     "remontada": 53,
+     "fin": 531.29,
+     "vida_final": [
+      0,
+      2
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    3
+   ],
+   "personajes": [
+    "Fei Long",
+    "M. Bison"
+   ],
+   "claves": [
+    "feilong",
+    "dictator"
+   ],
+   "fin": 531.78,
+   "resumen": {
+    "dano": [
+     198,
+     288
+    ],
+    "combos": [
+     1,
+     1
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 105
+   }
+  },
+  {
+   "n": 7,
+   "t": 548.34,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 548.34,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      61,
+      144
+     ],
+     "combos": [
+      1,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 57,
+     "remontada": 23,
+     "fin": 568.91,
+     "vida_final": [
+      0,
+      57
+     ]
+    },
+    {
+     "n": 2,
+     "t": 574.93,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 54,
+     "perfect": false,
+     "dano": [
+      144,
+      137
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 45,
+     "fin": 606.4,
+     "vida_final": [
+      4,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 611.77,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 35,
+     "perfect": false,
+     "dano": [
+      126,
+      144
+     ],
+     "combos": [
+      1,
+      2
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 12,
+     "remontada": 74,
+     "fin": 632.84,
+     "vida_final": [
+      0,
+      12
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    4
+   ],
+   "personajes": [
+    "Fei Long",
+    "M. Bison"
+   ],
+   "claves": [
+    "feilong",
+    "dictator"
+   ],
+   "fin": 633.33,
+   "resumen": {
+    "dano": [
+     331,
+     425
+    ],
+    "combos": [
+     2,
+     4
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 123
+   }
+  },
+  {
+   "n": 8,
+   "t": 649.39,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 649.39,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      144,
+      81
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 43,
+     "remontada": 18,
+     "fin": 672.21,
+     "vida_final": [
+      43,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 677.9,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      144,
+      17
+     ],
+     "combos": [
+      2,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 88,
+     "remontada": 0,
+     "fin": 698.08,
+     "vida_final": [
+      88,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    4,
+    4
+   ],
+   "personajes": [
+    "Fei Long",
+    "M. Bison"
+   ],
+   "claves": [
+    "feilong",
+    "dictator"
+   ],
+   "fin": 698.56,
+   "resumen": {
+    "dano": [
+     288,
+     98
+    ],
+    "combos": [
+     2,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 72
+   }
+  },
+  {
+   "n": 9,
+   "t": 713.94,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 713.94,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 54,
+     "perfect": false,
+     "dano": [
+      144,
+      130
+     ],
+     "combos": [
+      1,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 9,
+     "remontada": 12,
+     "fin": 745.23,
+     "vida_final": [
+      9,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 750.83,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 44,
+     "perfect": false,
+     "dano": [
+      144,
+      84
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 41,
+     "remontada": 19,
+     "fin": 776.98,
+     "vida_final": [
+      41,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    5,
+    4
+   ],
+   "personajes": [
+    "Fei Long",
+    "M. Bison"
+   ],
+   "claves": [
+    "feilong",
+    "dictator"
+   ],
+   "fin": 777.46,
+   "resumen": {
+    "dano": [
+     288,
+     214
+    ],
+    "combos": [
+     2,
+     1
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 98
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 28.4,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 49.47,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 4
+  },
+  {
+   "t": 60.43,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 60.43,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 96.19,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 139.23,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 139.57,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 177.3,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 180.3,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 4
+  },
+  {
+   "t": 184.65,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 208.98,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 262.3,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 307.0,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 316.8,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 359.59,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 381.2,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 7
+  },
+  {
+   "t": 385.47,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 420.43,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 423.05,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 4
+  },
+  {
+   "t": 424.62,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 438.92,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 7
+  },
+  {
+   "t": 448.96,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 448.96,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 487.74,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 506.31,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 531.29,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 531.29,
+   "tipo": "remontada",
+   "jugador": 2,
+   "dato": 53
+  },
+  {
+   "t": 568.9,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 606.4,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 629.98,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 629.98,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 5
+  },
+  {
+   "t": 632.84,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 632.84,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 632.84,
+   "tipo": "remontada",
+   "jugador": 2,
+   "dato": 74
+  },
+  {
+   "t": 672.21,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 690.7,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 698.08,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 698.08,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 736.66,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 742.12,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 745.22,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 769.01,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 771.23,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 5
+  },
+  {
+   "t": 776.96,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 20,
+   "stun_frames": 117,
+   "stun_peor": 117,
+   "mareado_veces": 1,
+   "dur_sum": 513,
+   "pelea_rapida": 48,
+   "swaps": 0,
+   "rondas": 12,
+   "rondas_jugadas": 21,
+   "ko": 12,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 2649,
+   "recibido": 2216,
+   "golpes": 287,
+   "golpe_max": 36,
+   "primero": 9,
+   "combos": 14,
+   "combo_max": 7,
+   "combo_dano": 94,
+   "supers": 4,
+   "mareos": 0,
+   "ronda_rapida": 30,
+   "al_limite": 3,
+   "remontada": 45,
+   "racha": 4,
+   "vida_al_ganar": 46,
+   "dano_medio": 9.2,
+   "dur_avg": 43,
+   "stun_seg": 2.0,
+   "stun_peor_seg": 2.0,
+   "vida_perdida_ronda": 73,
+   "dano_barras": 18.4,
+   "recibido_barras": 15.39,
+   "combo_dano_barras": 0.65,
+   "golpe_max_barras": 0.25
+  },
+  {
+   "meter_full": 8,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 455,
+   "pelea_rapida": 67,
+   "swaps": 0,
+   "rondas": 9,
+   "rondas_jugadas": 21,
+   "ko": 9,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 2216,
+   "recibido": 2649,
+   "golpes": 169,
+   "golpe_max": 33,
+   "primero": 12,
+   "combos": 10,
+   "combo_max": 5,
+   "combo_dano": 82,
+   "supers": 1,
+   "mareos": 1,
+   "ronda_rapida": 29,
+   "al_limite": 4,
+   "remontada": 74,
+   "racha": 4,
+   "vida_al_ganar": 29,
+   "dano_medio": 13.1,
+   "dur_avg": 51,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 88,
+   "dano_barras": 15.39,
+   "recibido_barras": 18.4,
+   "combo_dano_barras": 0.57,
+   "golpe_max_barras": 0.23
+  }
+ ]
+}

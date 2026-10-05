@@ -1,28 +1,20 @@
 {
- "actualizado": "2026-10-05T03:21:22Z",
+ "actualizado": "2026-10-05T03:58:01Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
  "handle": "replaylab-b4i",
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 9,
- "vistas": 11159,
+ "vistas": 12503,
  "videos": 44,
  "lista": [
   {
-   "id": "dF2uSMDipYU",
+   "id": "BwLIPF8RbdQ",
    "privacidad": "private"
   },
   {
-   "id": "RAeoLMKIByM",
-   "privacidad": "private"
-  },
-  {
-   "id": "gst_yuR9yUQ",
-   "privacidad": "private"
-  },
-  {
-   "id": "P58xrjIpxYg",
+   "id": "q_B1tf5OpTg",
    "privacidad": "private"
   },
   {
@@ -92,7 +84,7 @@
    "titulo": "_yito2k_ vs KELA420 · lo mejor del set | M. Bison vs Ryu | SSF2X #shorts",
    "publicado": "2026-10-03T15:49:05Z",
    "privacidad": "public",
-   "vistas": 365,
+   "vistas": 382,
    "me_gusta": 9,
    "miniatura": "https://i.ytimg.com/vi/oe9FYRROg-E/mqdefault.jpg"
   },
@@ -110,7 +102,7 @@
    "titulo": "DJILK vs RAC | Flavio.Ryu | Ryu vs Ryu | SF2CE",
    "publicado": "2026-10-02T15:45:06Z",
    "privacidad": "public",
-   "vistas": 10,
+   "vistas": 24,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/VKwKClpHftY/mqdefault.jpg"
   },
