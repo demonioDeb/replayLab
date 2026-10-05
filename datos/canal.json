@@ -1,34 +1,39 @@
 {
- "actualizado": "2026-10-04T03:37:32Z",
+ "actualizado": "2026-10-05T02:54:05Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
  "handle": "replaylab-b4i",
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
- "suscriptores": 8,
- "vistas": 10244,
- "videos": 41,
+ "suscriptores": 9,
+ "vistas": 11159,
+ "videos": 44,
  "lista": [
   {
-   "id": "Y5JxEmwk2V0",
+   "id": "gst_yuR9yUQ",
    "privacidad": "private"
   },
   {
-   "id": "RKxwZnwhRc8",
+   "id": "P58xrjIpxYg",
    "privacidad": "private"
+  },
+  {
+   "id": "xbKV3KAuvug",
+   "titulo": "kazel vs Zagi · lo mejor del set | O. T. Hawk vs Chun-Li | SSF2X #shorts",
+   "publicado": "2026-10-04T12:00:31Z",
+   "privacidad": "public",
+   "vistas": 624,
+   "me_gusta": 5,
+   "miniatura": "https://i.ytimg.com/vi/xbKV3KAuvug/mqdefault.jpg"
   },
   {
    "id": "ZS_mohBIQ90",
    "titulo": "DJILK-SF2TV vs Fromo · lo mejor del set | O. Ryu vs Blanka | SSF2X #shorts",
    "publicado": "2026-10-04T03:17:49Z",
    "privacidad": "public",
-   "vistas": 176,
-   "me_gusta": 1,
+   "vistas": 437,
+   "me_gusta": 10,
    "miniatura": "https://i.ytimg.com/vi/ZS_mohBIQ90/mqdefault.jpg"
-  },
-  {
-   "id": "xbKV3KAuvug",
-   "privacidad": "private"
   },
   {
    "id": "m6Gyw4Itunw",
@@ -43,8 +48,8 @@
    "titulo": "hassasin10 vs RenoMD · lo mejor del set | Cammy vs M. Bison | SSF2X #shorts",
    "publicado": "2026-10-03T17:02:22Z",
    "privacidad": "public",
-   "vistas": 174,
-   "me_gusta": 7,
+   "vistas": 292,
+   "me_gusta": 9,
    "miniatura": "https://i.ytimg.com/vi/PsmfC8iSfnc/mqdefault.jpg"
   },
   {
@@ -52,8 +57,8 @@
    "titulo": "hassasin10 vs RenoMD | Cammy vs M. Bison | SSF2X",
    "publicado": "2026-10-03T17:02:05Z",
    "privacidad": "public",
-   "vistas": 0,
-   "me_gusta": 0,
+   "vistas": 1,
+   "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/_fHib8xl3-g/mqdefault.jpg"
   },
   {
@@ -61,7 +66,7 @@
    "titulo": "KELA420 vs znoopyglobal | Ryu vs Chun-Li | SSF2X",
    "publicado": "2026-10-03T16:28:11Z",
    "privacidad": "public",
-   "vistas": 5,
+   "vistas": 58,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/jgXK-Paf60U/mqdefault.jpg"
   },
@@ -70,8 +75,8 @@
    "titulo": "KELA420 vs znoopyglobal · lo mejor del set | Ryu vs Chun-Li | SSF2X #shorts",
    "publicado": "2026-10-03T16:27:53Z",
    "privacidad": "public",
-   "vistas": 88,
-   "me_gusta": 1,
+   "vistas": 137,
+   "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/s07f4No07ws/mqdefault.jpg"
   },
   {
@@ -79,8 +84,8 @@
    "titulo": "_yito2k_ vs KELA420 · lo mejor del set | M. Bison vs Ryu | SSF2X #shorts",
    "publicado": "2026-10-03T15:49:05Z",
    "privacidad": "public",
-   "vistas": 142,
-   "me_gusta": 6,
+   "vistas": 365,
+   "me_gusta": 9,
    "miniatura": "https://i.ytimg.com/vi/oe9FYRROg-E/mqdefault.jpg"
   },
   {
@@ -88,7 +93,7 @@
    "titulo": "_yito2k_ vs KELA420 | M. Bison vs Ryu | SSF2X",
    "publicado": "2026-10-03T15:49:00Z",
    "privacidad": "public",
-   "vistas": 6,
+   "vistas": 8,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/smy-4QWwLY8/mqdefault.jpg"
   },
@@ -97,7 +102,7 @@
    "titulo": "DJILK vs RAC | Flavio.Ryu | Ryu vs Ryu | SF2CE",
    "publicado": "2026-10-02T15:45:06Z",
    "privacidad": "public",
-   "vistas": 6,
+   "vistas": 10,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/VKwKClpHftY/mqdefault.jpg"
   },
@@ -106,8 +111,8 @@
    "titulo": "DJILK vs RAC | Flavio.Ryu · lo mejor del set | Ryu vs Ryu | SF2CE #shorts",
    "publicado": "2026-10-02T15:15:03Z",
    "privacidad": "public",
-   "vistas": 250,
-   "me_gusta": 1,
+   "vistas": 271,
+   "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/OmfxsVR8SMU/mqdefault.jpg"
   },
   {
@@ -115,7 +120,7 @@
    "titulo": "Fromo vs znoopyglobal · lo mejor del set | Blanka vs Chun-Li | SSF2X #shorts",
    "publicado": "2026-10-02T02:07:18Z",
    "privacidad": "public",
-   "vistas": 1063,
+   "vistas": 1095,
    "me_gusta": 14,
    "miniatura": "https://i.ytimg.com/vi/EYs2bo77Mos/mqdefault.jpg"
   },
@@ -124,8 +129,8 @@
    "titulo": "Fromo vs znoopyglobal | Blanka vs Chun-Li | SSF2X",
    "publicado": "2026-10-02T02:06:55Z",
    "privacidad": "public",
-   "vistas": 14,
-   "me_gusta": 1,
+   "vistas": 16,
+   "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/y_5QiM0n2Ts/mqdefault.jpg"
   },
   {
@@ -151,7 +156,7 @@
    "titulo": "RAC | Flavio.Ryu vs thomas_medeiros · lo mejor del set | Ryu vs Ken | SSF2X #shorts",
    "publicado": "2026-10-01T19:41:34Z",
    "privacidad": "public",
-   "vistas": 638,
+   "vistas": 643,
    "me_gusta": 7,
    "miniatura": "https://i.ytimg.com/vi/p5C2n4_Viws/mqdefault.jpg"
   },
@@ -169,7 +174,7 @@
    "titulo": "((Caution)) vs lub-Iaboca · lo mejor del set | M. Bison vs Ken | SF2CE #shorts",
    "publicado": "2026-10-01T19:29:32Z",
    "privacidad": "public",
-   "vistas": 471,
+   "vistas": 473,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/oUJb56kG7TY/mqdefault.jpg"
   },
@@ -187,7 +192,7 @@
    "titulo": "mrcarabano vs RenoMD | Guile vs M. Bison | SSF2X",
    "publicado": "2026-10-01T19:09:12Z",
    "privacidad": "public",
-   "vistas": 2,
+   "vistas": 3,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/_Fk0U8nvRUg/mqdefault.jpg"
   },
@@ -196,7 +201,7 @@
    "titulo": "mrcarabano vs RenoMD · lo mejor del set | Guile vs M. Bison | SSF2X #shorts",
    "publicado": "2026-10-01T19:08:59Z",
    "privacidad": "public",
-   "vistas": 520,
+   "vistas": 522,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/-04Yoef-v9c/mqdefault.jpg"
   },
@@ -205,7 +210,7 @@
    "titulo": "_yito2k_ vs KELA420 | M. Bison vs Ryu | SSF2X",
    "publicado": "2026-10-01T18:40:29Z",
    "privacidad": "public",
-   "vistas": 11,
+   "vistas": 29,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/Phqkqo3mdZo/mqdefault.jpg"
   },
@@ -214,7 +219,7 @@
    "titulo": "_yito2k_ vs KELA420 · lo mejor del set | M. Bison vs Ryu | SSF2X #shorts",
    "publicado": "2026-10-01T18:40:25Z",
    "privacidad": "public",
-   "vistas": 1237,
+   "vistas": 1238,
    "me_gusta": 10,
    "miniatura": "https://i.ytimg.com/vi/nUIdYB39E1o/mqdefault.jpg"
   },
@@ -232,7 +237,7 @@
    "titulo": "stevetren vs znoopyglobal | Ryu vs Chun-Li | SSF2X",
    "publicado": "2026-10-01T09:10:08Z",
    "privacidad": "public",
-   "vistas": 3,
+   "vistas": 5,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/gOcFJFUv8bI/mqdefault.jpg"
   },
@@ -277,7 +282,7 @@
    "titulo": "RAC | Flavio.Ryu vs BeastFromBrazil · lo mejor | SSF2X #shorts",
    "publicado": "2026-10-01T07:15:33Z",
    "privacidad": "public",
-   "vistas": 765,
+   "vistas": 766,
    "me_gusta": 4,
    "miniatura": "https://i.ytimg.com/vi/mWwAV0RXPXs/mqdefault.jpg"
   },
@@ -286,7 +291,7 @@
    "titulo": "RAC | Flavio.Ryu vs BeastFromBrazil | E. Honda/Fei Long/Ryu/T. Hawk vs Blanka/Chun-Li/Guile/M. Bison",
    "publicado": "2026-10-01T07:12:48Z",
    "privacidad": "public",
-   "vistas": 4,
+   "vistas": 16,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/n2W8MPQnQ8M/mqdefault.jpg"
   },
@@ -295,7 +300,7 @@
    "titulo": "Bruh vs Cone of Cold · lo mejor del set | Vega vs Ryu | SSF2X #shorts",
    "publicado": "2026-10-01T06:45:53Z",
    "privacidad": "public",
-   "vistas": 428,
+   "vistas": 429,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/10POOGkIT0g/mqdefault.jpg"
   },
@@ -304,7 +309,7 @@
    "titulo": "Bruh vs Cone of Cold | Vega vs Ryu | SSF2X",
    "publicado": "2026-10-01T06:42:48Z",
    "privacidad": "public",
-   "vistas": 3,
+   "vistas": 4,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/NN8pWm4Wvzg/mqdefault.jpg"
   },
@@ -313,7 +318,7 @@
    "titulo": "ChoiBoy vs SuperrV · lo mejor del set | Ryu vs Dee Jay | SSF2X #shorts",
    "publicado": "2026-09-30T01:37:57Z",
    "privacidad": "public",
-   "vistas": 770,
+   "vistas": 771,
    "me_gusta": 4,
    "miniatura": "https://i.ytimg.com/vi/FmMaYnqK8ME/mqdefault.jpg"
   },
@@ -400,11 +405,21 @@
   },
   {
    "id": "Vf-7qvclez8",
-   "privacidad": "private"
+   "titulo": "djfrijoles vs mrcarabano | T. Hawk vs Guile | SSF2X",
+   "publicado": "2026-09-28T21:07:51Z",
+   "privacidad": "public",
+   "vistas": 4,
+   "me_gusta": 1,
+   "miniatura": "https://i.ytimg.com/vi/Vf-7qvclez8/mqdefault.jpg"
   },
   {
    "id": "l_q-Mm-qxI4",
-   "privacidad": "private"
+   "titulo": "H-Zero vs hassasin10 | O. Ryu vs Cammy | SSF2X",
+   "publicado": "2026-09-28T20:12:47Z",
+   "privacidad": "public",
+   "vistas": 2,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/l_q-Mm-qxI4/mqdefault.jpg"
   }
  ]
 }

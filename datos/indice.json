@@ -1,6 +1,49 @@
 {
- "actualizado": "2026-10-05 02:29",
+ "actualizado": "2026-10-05 02:54",
  "videos": [
+  {
+   "quark": "1791060153737-5891",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-03",
+   "youtube": "P58xrjIpxYg",
+   "duracion": 496.6,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "x64",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "E. Honda",
+     "clave": "honda",
+     "personajes": [
+      "E. Honda"
+     ],
+     "claves": [
+      "honda"
+     ]
+    },
+    {
+     "nombre": "RenoMD",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    }
+   ],
+   "rondas": 13
+  },
   {
    "quark": "1790828329188-3709",
    "juego": "ssf2xjr1",
