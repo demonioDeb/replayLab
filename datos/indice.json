@@ -874,49 +874,6 @@
    "rondas": 5
   },
   {
-   "quark": "1785624822382-3258",
-   "juego": "ssf2xjr1",
-   "juego_nombre": "Super Street Fighter II X",
-   "juego_corto": "SSF2X",
-   "fecha": "2026-08-01",
-   "youtube": "RAeoLMKIByM",
-   "duracion": 400.4,
-   "marcador": [
-    3,
-    2
-   ],
-   "peleas": 5,
-   "jugadores": [
-    {
-     "nombre": "Zombie_Damage",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Fei Long",
-     "clave": "feilong",
-     "personajes": [
-      "Fei Long"
-     ],
-     "claves": [
-      "feilong"
-     ]
-    },
-    {
-     "nombre": "Slim.Shady",
-     "pais": "us",
-     "rango_letra": "B",
-     "personaje": "Sagat",
-     "clave": "sagat",
-     "personajes": [
-      "Sagat"
-     ],
-     "claves": [
-      "sagat"
-     ]
-    }
-   ],
-   "rondas": 12
-  },
-  {
    "quark": "1775618604662-9103",
    "juego": "sf2ce",
    "juego_nombre": "Street Fighter II' Champion Edition",
