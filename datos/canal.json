@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-05T02:54:05Z",
+ "actualizado": "2026-10-05T03:21:22Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 11159,
  "videos": 44,
  "lista": [
+  {
+   "id": "dF2uSMDipYU",
+   "privacidad": "private"
+  },
+  {
+   "id": "RAeoLMKIByM",
+   "privacidad": "private"
+  },
   {
    "id": "gst_yuR9yUQ",
    "privacidad": "private"
@@ -66,7 +74,7 @@
    "titulo": "KELA420 vs znoopyglobal | Ryu vs Chun-Li | SSF2X",
    "publicado": "2026-10-03T16:28:11Z",
    "privacidad": "public",
-   "vistas": 58,
+   "vistas": 80,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/jgXK-Paf60U/mqdefault.jpg"
   },
