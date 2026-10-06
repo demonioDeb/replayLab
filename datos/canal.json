@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-06T06:32:37Z",
+ "actualizado": "2026-10-06T07:01:42Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 12752,
  "videos": 48,
  "lista": [
+  {
+   "id": "zTSntaQEO-8",
+   "privacidad": "private"
+  },
+  {
+   "id": "u6FbTcP7mvQ",
+   "privacidad": "private"
+  },
   {
    "id": "1Dk5-2xlitA",
    "privacidad": "private"
@@ -398,7 +406,7 @@
    "titulo": "((Caution)) vs Devaud · lo mejor | SF2CE #shorts",
    "publicado": "2026-09-29T22:02:44Z",
    "privacidad": "public",
-   "vistas": 170,
+   "vistas": 171,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/3GiDmnz3X_4/mqdefault.jpg"
   },

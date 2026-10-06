@@ -1,0 +1,1356 @@
+{
+ "version": 8,
+ "quark": "1791260172574-8850",
+ "carpeta": "20261006_FabsGtz_vs_djfrijoles_1791260172574-8850",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": true
+ },
+ "fecha": "2026-10-06",
+ "youtube": "u6FbTcP7mvQ",
+ "titulo": "FabsGtz vs djfrijoles | Blanka vs T. Hawk | SSF2X",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "FabsGtz",
+   "pais": "mx",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Blanka",
+   "clave": "blanka",
+   "personajes": [
+    "Blanka"
+   ],
+   "claves": [
+    "blanka"
+   ],
+   "swaps": 0,
+   "super": "Ground Shave Roll"
+  },
+  {
+   "nombre": "djfrijoles",
+   "pais": "mx",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "T. Hawk",
+   "clave": "hawk",
+   "personajes": [
+    "T. Hawk"
+   ],
+   "claves": [
+    "hawk"
+   ],
+   "swaps": 0,
+   "super": "Double Typhoon"
+  }
+ ],
+ "marcador": [
+  5,
+  3
+ ],
+ "duracion": 740.2,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 7.5,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 7.5,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 42,
+     "perfect": false,
+     "dano": [
+      86,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 40,
+     "remontada": 9,
+     "fin": 32.7,
+     "vida_final": [
+      0,
+      40
+     ]
+    },
+    {
+     "n": 2,
+     "t": 38.45,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 55,
+     "perfect": false,
+     "dano": [
+      119,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 17,
+     "remontada": 0,
+     "fin": 70.61,
+     "vida_final": [
+      0,
+      17
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Blanka",
+    "T. Hawk"
+   ],
+   "claves": [
+    "blanka",
+    "hawk"
+   ],
+   "fin": 71.1,
+   "resumen": {
+    "dano": [
+     205,
+     288
+    ],
+    "combos": [
+     0,
+     1
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 97
+   }
+  },
+  {
+   "n": 2,
+   "t": 88.41,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 88.41,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      62,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 56,
+     "remontada": 17,
+     "fin": 110.65,
+     "vida_final": [
+      0,
+      56
+     ]
+    },
+    {
+     "n": 2,
+     "t": 116.22,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 62,
+     "perfect": false,
+     "dano": [
+      144,
+      138
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 63,
+     "fin": 152.47,
+     "vida_final": [
+      4,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 158.25,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 15,
+     "perfect": false,
+     "dano": [
+      144,
+      23
+     ],
+     "combos": [
+      2,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 84,
+     "remontada": 0,
+     "fin": 168.98,
+     "vida_final": [
+      84,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    1
+   ],
+   "personajes": [
+    "Blanka",
+    "T. Hawk"
+   ],
+   "claves": [
+    "blanka",
+    "hawk"
+   ],
+   "fin": 169.46,
+   "resumen": {
+    "dano": [
+     350,
+     305
+    ],
+    "combos": [
+     3,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 114
+   }
+  },
+  {
+   "n": 3,
+   "t": 185.14,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 185.14,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 24,
+     "perfect": true,
+     "dano": [
+      0,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 200.44,
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 2,
+     "t": 206.25,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      144,
+      21
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 85,
+     "remontada": 0,
+     "fin": 224.24,
+     "vida_final": [
+      85,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 230.01,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      58,
+      144
+     ],
+     "combos": [
+      0,
+      2
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 59,
+     "remontada": 3,
+     "fin": 252.69,
+     "vida_final": [
+      0,
+      59
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    2
+   ],
+   "personajes": [
+    "Blanka",
+    "T. Hawk"
+   ],
+   "claves": [
+    "blanka",
+    "hawk"
+   ],
+   "fin": 253.18,
+   "resumen": {
+    "dano": [
+     202,
+     309
+    ],
+    "combos": [
+     1,
+     3
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 89
+   }
+  },
+  {
+   "n": 4,
+   "t": 275.12,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 275.12,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 56,
+     "perfect": false,
+     "dano": [
+      144,
+      98
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 31,
+     "remontada": 33,
+     "fin": 307.46,
+     "vida_final": [
+      31,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 313.13,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      59,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 59,
+     "remontada": 6,
+     "fin": 332.26,
+     "vida_final": [
+      0,
+      59
+     ]
+    },
+    {
+     "n": 3,
+     "t": 337.88,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      144,
+      58
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 59,
+     "remontada": 15,
+     "fin": 361.54,
+     "vida_final": [
+      59,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    2
+   ],
+   "personajes": [
+    "Blanka",
+    "T. Hawk"
+   ],
+   "claves": [
+    "blanka",
+    "hawk"
+   ],
+   "fin": 362.03,
+   "resumen": {
+    "dano": [
+     347,
+     300
+    ],
+    "combos": [
+     1,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 126
+   }
+  },
+  {
+   "n": 5,
+   "t": 377.16,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 377.16,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 38,
+     "perfect": false,
+     "dano": [
+      144,
+      139
+     ],
+     "combos": [
+      1,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 3,
+     "remontada": 11,
+     "fin": 400.09,
+     "vida_final": [
+      3,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 405.98,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      127,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 11,
+     "remontada": 14,
+     "fin": 425.36,
+     "vida_final": [
+      0,
+      11
+     ]
+    },
+    {
+     "n": 3,
+     "t": 431.17,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 72,
+     "perfect": false,
+     "dano": [
+      144,
+      106
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 26,
+     "remontada": 57,
+     "fin": 472.07,
+     "vida_final": [
+      26,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    2
+   ],
+   "personajes": [
+    "Blanka",
+    "T. Hawk"
+   ],
+   "claves": [
+    "blanka",
+    "hawk"
+   ],
+   "fin": 472.56,
+   "resumen": {
+    "dano": [
+     415,
+     389
+    ],
+    "combos": [
+     1,
+     1
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 141
+   }
+  },
+  {
+   "n": 6,
+   "t": 487.79,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 487.79,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 48,
+     "perfect": false,
+     "dano": [
+      144,
+      132
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 8,
+     "remontada": 25,
+     "fin": 515.88,
+     "vida_final": [
+      8,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 521.66,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 53,
+     "perfect": false,
+     "dano": [
+      144,
+      67
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 53,
+     "remontada": 13,
+     "fin": 553.12,
+     "vida_final": [
+      53,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    4,
+    2
+   ],
+   "personajes": [
+    "Blanka",
+    "T. Hawk"
+   ],
+   "claves": [
+    "blanka",
+    "hawk"
+   ],
+   "fin": 553.6,
+   "resumen": {
+    "dano": [
+     288,
+     199
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 101
+   }
+  },
+  {
+   "n": 7,
+   "t": 568.66,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 568.66,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 64,
+     "perfect": false,
+     "dano": [
+      142,
+      144
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 1,
+     "remontada": 3,
+     "fin": 605.67,
+     "vida_final": [
+      0,
+      1
+     ]
+    },
+    {
+     "n": 2,
+     "t": 611.48,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 38,
+     "perfect": false,
+     "dano": [
+      139,
+      144
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 3,
+     "remontada": 10,
+     "fin": 634.86,
+     "vida_final": [
+      0,
+      3
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    4,
+    3
+   ],
+   "personajes": [
+    "Blanka",
+    "T. Hawk"
+   ],
+   "claves": [
+    "blanka",
+    "hawk"
+   ],
+   "fin": 635.35,
+   "resumen": {
+    "dano": [
+     281,
+     288
+    ],
+    "combos": [
+     2,
+     0
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 102
+   }
+  },
+  {
+   "n": 8,
+   "t": 651.66,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 651.66,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 41,
+     "perfect": false,
+     "dano": [
+      144,
+      117
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 18,
+     "remontada": 27,
+     "fin": 675.81,
+     "vida_final": [
+      18,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 681.5,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      33,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 77,
+     "remontada": 23,
+     "fin": 705.73,
+     "vida_final": [
+      0,
+      77
+     ]
+    },
+    {
+     "n": 3,
+     "t": 711.79,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 36,
+     "perfect": false,
+     "dano": [
+      144,
+      85
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 40,
+     "remontada": 0,
+     "fin": 733.71,
+     "vida_final": [
+      40,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    5,
+    3
+   ],
+   "personajes": [
+    "Blanka",
+    "T. Hawk"
+   ],
+   "claves": [
+    "blanka",
+    "hawk"
+   ],
+   "fin": 734.2,
+   "resumen": {
+    "dano": [
+     321,
+     346
+    ],
+    "combos": [
+     1,
+     0
+    ],
+    "supers": [
+     1,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 116
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 32.68,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 46.34,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 70.6,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 110.63,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 152.46,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 152.47,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 63
+  },
+  {
+   "t": 166.37,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 166.45,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 168.98,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 168.98,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 197.87,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 200.44,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 200.44,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 224.22,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 252.69,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 307.46,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 332.25,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 361.54,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 400.07,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 425.36,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 471.55,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 472.07,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 472.07,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 57
+  },
+  {
+   "t": 514.94,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 515.88,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 552.02,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 553.12,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 602.69,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 603.4,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 605.65,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 626.24,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 634.86,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 675.81,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 702.98,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 705.73,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 732.75,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 733.71,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 18,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 488,
+   "pelea_rapida": 66,
+   "swaps": 0,
+   "rondas": 11,
+   "rondas_jugadas": 21,
+   "ko": 11,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 2409,
+   "recibido": 2424,
+   "golpes": 156,
+   "golpe_max": 30,
+   "primero": 8,
+   "combos": 9,
+   "combo_max": 3,
+   "combo_dano": 54,
+   "supers": 5,
+   "mareos": 2,
+   "ronda_rapida": 15,
+   "al_limite": 3,
+   "remontada": 63,
+   "racha": 3,
+   "vida_al_ganar": 37,
+   "dano_medio": 15.4,
+   "dur_avg": 44,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 80,
+   "dano_barras": 16.73,
+   "recibido_barras": 16.83,
+   "combo_dano_barras": 0.38,
+   "golpe_max_barras": 0.21
+  },
+  {
+   "meter_full": 13,
+   "stun_frames": 233,
+   "stun_peor": 118,
+   "mareado_veces": 2,
+   "dur_sum": 398,
+   "pelea_rapida": 64,
+   "swaps": 0,
+   "rondas": 10,
+   "rondas_jugadas": 21,
+   "ko": 10,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 2424,
+   "recibido": 2409,
+   "golpes": 120,
+   "golpe_max": 46,
+   "primero": 13,
+   "combos": 5,
+   "combo_max": 3,
+   "combo_dano": 23,
+   "supers": 2,
+   "mareos": 0,
+   "ronda_rapida": 24,
+   "al_limite": 2,
+   "remontada": 23,
+   "racha": 3,
+   "vida_al_ganar": 42,
+   "dano_medio": 20.2,
+   "dur_avg": 40,
+   "stun_seg": 3.9,
+   "stun_peor_seg": 2.0,
+   "vida_perdida_ronda": 80,
+   "dano_barras": 16.83,
+   "recibido_barras": 16.73,
+   "combo_dano_barras": 0.16,
+   "golpe_max_barras": 0.32
+  }
+ ]
+}
