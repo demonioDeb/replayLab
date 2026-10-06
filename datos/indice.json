@@ -1,6 +1,51 @@
 {
- "actualizado": "2026-10-06 05:41",
+ "actualizado": "2026-10-06 06:07",
  "videos": [
+  {
+   "quark": "1791260850064-8625",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-06",
+   "youtube": "uQ2FtevB2Pk",
+   "duracion": 638.1,
+   "marcador": [
+    2,
+    5
+   ],
+   "peleas": 7,
+   "jugadores": [
+    {
+     "nombre": "RAC | Flavio.Ryu",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Sagat",
+     "clave": "sagat",
+     "personajes": [
+      "Sagat",
+      "O. Ken"
+     ],
+     "claves": [
+      "sagat",
+      "ken"
+     ]
+    },
+    {
+     "nombre": "fack",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Vega",
+     "clave": "claw",
+     "personajes": [
+      "Vega"
+     ],
+     "claves": [
+      "claw"
+     ]
+    }
+   ],
+   "rondas": 17
+  },
   {
    "quark": "1791244341004-4718",
    "juego": "ssf2xjr1",
