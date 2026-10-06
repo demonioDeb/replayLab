@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-06T03:36:07Z",
+ "actualizado": "2026-10-06T05:41:03Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -10,29 +10,37 @@
  "videos": 48,
  "lista": [
   {
-   "id": "Uj4KEHL1W2M",
-   "titulo": "AldoBasteri vs CALCETINCONROMBOSMAN · lo mejor del set | Ken/Zangief vs M. Bison | SSF2X #shorts",
-   "publicado": "2026-10-06T03:35:07Z",
+   "id": "s63s_2AZGgM",
+   "privacidad": "private"
+  },
+  {
+   "id": "4xmZ3e2nfjQ",
+   "privacidad": "private"
+  },
+  {
+   "id": "mH6nIeWWI1Q",
+   "titulo": "DJILK-SF2TV vs Fromo | O. Ryu vs Blanka | SSF2X",
+   "publicado": "2026-10-06T03:43:53Z",
    "privacidad": "public",
    "vistas": 0,
    "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/Uj4KEHL1W2M/mqdefault.jpg"
+   "miniatura": "https://i.ytimg.com/vi/mH6nIeWWI1Q/mqdefault.jpg"
   },
   {
-   "id": "KqNUKsQ2lPs",
-   "titulo": "AldoBasteri vs CALCETINCONROMBOSMAN | Ken/Zangief vs M. Bison | SSF2X",
-   "publicado": "2026-10-06T03:32:10Z",
+   "id": "m6Gyw4Itunw",
+   "titulo": "kazel vs Zagi | O. T. Hawk vs Chun-Li | SSF2X",
+   "publicado": "2026-10-06T03:43:49Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 0,
    "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/KqNUKsQ2lPs/mqdefault.jpg"
+   "miniatura": "https://i.ytimg.com/vi/m6Gyw4Itunw/mqdefault.jpg"
   },
   {
    "id": "q_B1tf5OpTg",
    "titulo": "Zombie_Damage vs RenoMD | Fei Long vs M. Bison | SSF2X",
    "publicado": "2026-10-05T03:59:46Z",
    "privacidad": "public",
-   "vistas": 7,
+   "vistas": 8,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/q_B1tf5OpTg/mqdefault.jpg"
   },
@@ -41,7 +49,7 @@
    "titulo": "Zombie_Damage vs RenoMD · lo mejor del set | Fei Long vs M. Bison | SSF2X #shorts",
    "publicado": "2026-10-05T03:58:06Z",
    "privacidad": "public",
-   "vistas": 232,
+   "vistas": 235,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/BwLIPF8RbdQ/mqdefault.jpg"
   },
@@ -50,7 +58,7 @@
    "titulo": "kazel vs Zagi · lo mejor del set | O. T. Hawk vs Chun-Li | SSF2X #shorts",
    "publicado": "2026-10-04T12:00:31Z",
    "privacidad": "public",
-   "vistas": 639,
+   "vistas": 635,
    "me_gusta": 6,
    "miniatura": "https://i.ytimg.com/vi/xbKV3KAuvug/mqdefault.jpg"
   },
@@ -64,19 +72,11 @@
    "miniatura": "https://i.ytimg.com/vi/ZS_mohBIQ90/mqdefault.jpg"
   },
   {
-   "id": "m6Gyw4Itunw",
-   "privacidad": "private"
-  },
-  {
-   "id": "mH6nIeWWI1Q",
-   "privacidad": "private"
-  },
-  {
    "id": "PsmfC8iSfnc",
    "titulo": "hassasin10 vs RenoMD · lo mejor del set | Cammy vs M. Bison | SSF2X #shorts",
    "publicado": "2026-10-03T17:02:22Z",
    "privacidad": "public",
-   "vistas": 312,
+   "vistas": 310,
    "me_gusta": 10,
    "miniatura": "https://i.ytimg.com/vi/PsmfC8iSfnc/mqdefault.jpg"
   },
@@ -94,7 +94,7 @@
    "titulo": "KELA420 vs znoopyglobal | Ryu vs Chun-Li | SSF2X",
    "publicado": "2026-10-03T16:28:11Z",
    "privacidad": "public",
-   "vistas": 99,
+   "vistas": 101,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/jgXK-Paf60U/mqdefault.jpg"
   },
@@ -121,7 +121,7 @@
    "titulo": "_yito2k_ vs KELA420 | M. Bison vs Ryu | SSF2X",
    "publicado": "2026-10-03T15:49:00Z",
    "privacidad": "public",
-   "vistas": 37,
+   "vistas": 38,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/smy-4QWwLY8/mqdefault.jpg"
   },
@@ -274,7 +274,7 @@
    "titulo": "lub-Iaboca vs Sonic Gyn · lo mejor del set | M. Bison vs Guile | SF2CE #shorts",
    "publicado": "2026-10-01T08:46:52Z",
    "privacidad": "public",
-   "vistas": 1070,
+   "vistas": 1071,
    "me_gusta": 7,
    "miniatura": "https://i.ytimg.com/vi/nwDPFJrNHz4/mqdefault.jpg"
   },
@@ -292,7 +292,7 @@
    "titulo": "kazel vs training12 · lo mejor del set | Dee Jay vs Ken | SSF2X #shorts",
    "publicado": "2026-10-01T08:19:10Z",
    "privacidad": "public",
-   "vistas": 1089,
+   "vistas": 1090,
    "me_gusta": 9,
    "miniatura": "https://i.ytimg.com/vi/l3CsgwggBxs/mqdefault.jpg"
   },
@@ -382,7 +382,7 @@
    "titulo": "((Caution)) vs Devaud · lo mejor | SF2CE #shorts",
    "publicado": "2026-09-29T22:02:44Z",
    "privacidad": "public",
-   "vistas": 171,
+   "vistas": 170,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/3GiDmnz3X_4/mqdefault.jpg"
   },
