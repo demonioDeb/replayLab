@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-06T06:07:21Z",
+ "actualizado": "2026-10-06T06:32:37Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 12752,
  "videos": 48,
  "lista": [
+  {
+   "id": "1Dk5-2xlitA",
+   "privacidad": "private"
+  },
+  {
+   "id": "7_hf0t3fl3Q",
+   "privacidad": "private"
+  },
   {
    "id": "5ms3xTYFMQ4",
    "privacidad": "private"
@@ -57,7 +65,7 @@
    "titulo": "Zombie_Damage vs RenoMD · lo mejor del set | Fei Long vs M. Bison | SSF2X #shorts",
    "publicado": "2026-10-05T03:58:06Z",
    "privacidad": "public",
-   "vistas": 235,
+   "vistas": 236,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/BwLIPF8RbdQ/mqdefault.jpg"
   },
@@ -165,7 +173,7 @@
    "titulo": "Fromo vs znoopyglobal | Blanka vs Chun-Li | SSF2X",
    "publicado": "2026-10-02T02:06:55Z",
    "privacidad": "public",
-   "vistas": 33,
+   "vistas": 31,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/y_5QiM0n2Ts/mqdefault.jpg"
   },
@@ -390,7 +398,7 @@
    "titulo": "((Caution)) vs Devaud · lo mejor | SF2CE #shorts",
    "publicado": "2026-09-29T22:02:44Z",
    "privacidad": "public",
-   "vistas": 171,
+   "vistas": 170,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/3GiDmnz3X_4/mqdefault.jpg"
   },
