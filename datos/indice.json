@@ -1,6 +1,51 @@
 {
- "actualizado": "2026-10-05 03:58",
+ "actualizado": "2026-10-06 03:36",
  "videos": [
+  {
+   "quark": "1791252707285-5566",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-06",
+   "youtube": "KqNUKsQ2lPs",
+   "duracion": 153.9,
+   "marcador": [
+    0,
+    2
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "AldoBasteri",
+     "pais": "mx",
+     "rango_letra": "D",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken",
+      "Zangief"
+     ],
+     "claves": [
+      "ken",
+      "zangief"
+     ]
+    },
+    {
+     "nombre": "CALCETINCONROMBOSMAN",
+     "pais": "mx",
+     "rango_letra": "",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    }
+   ],
+   "rondas": 5
+  },
   {
    "quark": "1790828329188-3709",
    "juego": "ssf2xjr1",

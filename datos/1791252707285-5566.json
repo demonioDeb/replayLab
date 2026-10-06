@@ -1,0 +1,435 @@
+{
+ "version": 8,
+ "quark": "1791252707285-5566",
+ "carpeta": "20261005_AldoBasteri_vs_CALCETINCONROMBOSMAN_1791252707285-5566",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": true
+ },
+ "fecha": "2026-10-06",
+ "youtube": "KqNUKsQ2lPs",
+ "titulo": "AldoBasteri vs CALCETINCONROMBOSMAN | Ken/Zangief vs M. Bison | SSF2X",
+ "ft": 2,
+ "jugadores": [
+  {
+   "nombre": "AldoBasteri",
+   "pais": "mx",
+   "rango": 2,
+   "rango_letra": "D",
+   "personaje": "Ken",
+   "clave": "ken",
+   "personajes": [
+    "Ken",
+    "Zangief"
+   ],
+   "claves": [
+    "ken",
+    "zangief"
+   ],
+   "swaps": 1,
+   "super": "Shoryureppa"
+  },
+  {
+   "nombre": "CALCETINCONROMBOSMAN",
+   "pais": "mx",
+   "rango": null,
+   "rango_letra": "",
+   "personaje": "M. Bison",
+   "clave": "dictator",
+   "personajes": [
+    "M. Bison"
+   ],
+   "claves": [
+    "dictator"
+   ],
+   "swaps": 0,
+   "super": "Knee Press Knightmare"
+  }
+ ],
+ "marcador": [
+  0,
+  2
+ ],
+ "duracion": 153.9,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 4.91,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 4.91,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 67,
+     "perfect": false,
+     "dano": [
+      144,
+      140
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 2,
+     "remontada": 0,
+     "fin": 43.8,
+     "vida_final": [
+      2,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 49.92,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      9,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 93,
+     "remontada": 0,
+     "fin": 66.63,
+     "vida_final": [
+      0,
+      93
+     ]
+    },
+    {
+     "n": 3,
+     "t": 72.46,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      8,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 94,
+     "remontada": 0,
+     "fin": 93.67,
+     "vida_final": [
+      0,
+      94
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Ken",
+    "M. Bison"
+   ],
+   "claves": [
+    "ken",
+    "dictator"
+   ],
+   "fin": 94.16,
+   "resumen": {
+    "dano": [
+     161,
+     428
+    ],
+    "combos": [
+     0,
+     1
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 127
+   }
+  },
+  {
+   "n": 2,
+   "t": 112.21,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 112.21,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": true,
+     "dano": [
+      0,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 125.82,
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 2,
+     "t": 131.96,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 24,
+     "perfect": false,
+     "dano": [
+      24,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 83,
+     "remontada": 0,
+     "fin": 147.38,
+     "vida_final": [
+      0,
+      83
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    2
+   ],
+   "personajes": [
+    "Zangief",
+    "M. Bison"
+   ],
+   "claves": [
+    "zangief",
+    "dictator"
+   ],
+   "fin": 147.88,
+   "resumen": {
+    "dano": [
+     24,
+     288
+    ],
+    "combos": [
+     0,
+     1
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 46
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 22.92,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 25.23,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 43.8,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 66.63,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 93.67,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 125.81,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 125.82,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 139.79,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 147.37,
+   "tipo": "ko",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 2,
+   "stun_frames": 105,
+   "stun_peor": 105,
+   "mareado_veces": 1,
+   "dur_sum": 67,
+   "pelea_rapida": 0,
+   "swaps": 1,
+   "rondas": 1,
+   "rondas_jugadas": 5,
+   "ko": 1,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 185,
+   "recibido": 716,
+   "golpes": 14,
+   "golpe_max": 24,
+   "primero": 1,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 1,
+   "mareos": 0,
+   "ronda_rapida": 67,
+   "al_limite": 1,
+   "remontada": 0,
+   "racha": 1,
+   "vida_al_ganar": 2,
+   "dano_medio": 13.2,
+   "dur_avg": 67,
+   "stun_seg": 1.8,
+   "stun_peor_seg": 1.8,
+   "vida_perdida_ronda": 99,
+   "dano_barras": 1.28,
+   "recibido_barras": 4.97,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.17
+  },
+  {
+   "meter_full": 1,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 106,
+   "pelea_rapida": 36,
+   "swaps": 0,
+   "rondas": 4,
+   "rondas_jugadas": 5,
+   "ko": 4,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 716,
+   "recibido": 185,
+   "golpes": 46,
+   "golpe_max": 32,
+   "primero": 4,
+   "combos": 2,
+   "combo_max": 3,
+   "combo_dano": 55,
+   "supers": 0,
+   "mareos": 1,
+   "ronda_rapida": 22,
+   "al_limite": 0,
+   "remontada": 0,
+   "racha": 4,
+   "vida_al_ganar": 93,
+   "dano_medio": 15.6,
+   "dur_avg": 27,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 26,
+   "dano_barras": 4.97,
+   "recibido_barras": 1.28,
+   "combo_dano_barras": 0.38,
+   "golpe_max_barras": 0.22
+  }
+ ]
+}
