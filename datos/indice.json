@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-07 14:31",
+ "actualizado": "2026-10-07 14:58",
  "videos": [
   {
    "quark": "1791260850064-8625",
@@ -1195,6 +1195,59 @@
      ],
      "claves": [
       "ryu"
+     ]
+    }
+   ],
+   "rondas": 14
+  },
+  {
+   "quark": "1696794848600-7251",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2023-10-08",
+   "youtube": "hfRJGKGRNAo",
+   "duracion": 458.6,
+   "marcador": [
+    2,
+    1
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "Mundo Kurono",
+     "pais": "cl",
+     "rango_letra": "S",
+     "personaje": "Mai",
+     "clave": "kof98_mai",
+     "personajes": [
+      "Mai",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_mai",
+      "kof98_kyo"
+     ]
+    },
+    {
+     "nombre": "mirza mudassar",
+     "pais": "pk",
+     "rango_letra": "S",
+     "personaje": "Kyo · Lucky · Brian",
+     "clave": "kof98_kyo",
+     "personajes": [
+      "Iori",
+      "Benimaru",
+      "Kyo",
+      "Lucky",
+      "Brian"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_benimaru",
+      "kof98_kyo",
+      "kof98_lucky",
+      "kof98_brian"
      ]
     }
    ],
