@@ -25,14 +25,15 @@
 <meta name="twitter:title" content="Redes · replayLab">
 <meta name="twitter:description" content="replayLab en YouTube y en Facebook: cada partida nueva con su overlay de estadísticas.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=b06c71405c">
+<link rel="stylesheet" href="assets/estilo.css?v=4fe8215a25">
 </head>
 <body>
 <header id="cabsitio"></header>
 
 <main class="wrap">
   <!-- Las redes de replayLab: datos básicos de cada una y el botón para seguirla.
-       YouTube: datos/canal.json · Facebook: datos/facebook.json (los escribe fcrec).
+       YouTube: datos/canal.json · Facebook: datos/facebook.json · Discord: datos/discord.json
+       (los escribe fcrec).
        Las cifras se enseñan tal cual y sólo si tienen menos de 30 días. -->
   <section class="rd-cab">
     <h1 id="rd-t"></h1>
@@ -44,7 +45,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=d0e39443aa"></script>
+<script src="assets/app.js?v=c26b82252a"></script>
 <script>
 "use strict";
 const cifra = (n, k) => n == null ? "" :
@@ -94,6 +95,16 @@ function pinta() {
     cifras: fbOk && f.seguidores != null ? cifra(f.seguidores, "fb_seguidores") : "",
     seguir: urlFacebook(), tSeguir: T("fb_seguir"), ver: "", tVer: "",
     fuente: fbOk ? T("fb_datos").replace("%s", fechaCorta(f.actualizado)) : "" }));
+  // Discord (7 oct)
+  const dc = DISCORD || {}, dcOk = discordFresco();
+  if (urlDiscord()) tarjetas.push(tarjeta({
+    clase: "rd-dc", red: "Discord", letra: "💬", icono: "💬",
+    foto: dcOk ? dc.icono : "", nombre: (dcOk && dc.nombre) || "replayLab", sub: "",
+    desc: T("rd_dc_desc"),
+    cifras: dcOk ? (dc.miembros != null ? cifra(dc.miembros, "dc_miembros") : "") +
+                   (dc.en_linea != null ? cifra(dc.en_linea, "dc_en_linea") : "") : "",
+    seguir: urlDiscord(), tSeguir: T("dc_unirse"), ver: "", tVer: "",
+    fuente: dcOk ? T("dc_datos").replace("%s", fechaCorta(dc.actualizado)) : "" }));
   $("#redes").innerHTML = tarjetas.join("");
 }
 

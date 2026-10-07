@@ -1430,6 +1430,14 @@ a.jug-enlace:hover .n,.jug a.nom:hover{text-decoration:underline;text-decoration
 .rd-red::before{content:"";position:absolute;inset:0 0 auto 0;height:4px;background:var(--rd)}
 .rd-yt{--rd:#ff0033}
 .rd-fb{--rd:#1877f2}
+.rd-dc{--rd:#5865f2}
+/* (7 oct) pedir desde Discord, en enviar.html */
+.e-discord{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:14px 0 4px;padding:14px 16px;
+  border-radius:12px;background:color-mix(in srgb,#5865f2 12%,var(--panel));border:1px solid color-mix(in srgb,#5865f2 45%,var(--line))}
+.e-discord[hidden]{display:none}
+.e-dc-txt{display:flex;flex-direction:column;gap:4px;flex:1 1 320px;min-width:0}
+.e-dc-txt span{color:var(--soft);font-size:14px}
+.e-dc-btn{background:#5865f2;border-color:#5865f2;color:#fff;white-space:nowrap}
 .rd-top{display:flex;align-items:center;gap:14px}
 .rd-foto{width:64px;height:64px;border-radius:50%;flex:none;border:2px solid rgba(255,255,255,.12);object-fit:cover}
 .rd-sin{display:grid;place-items:center;background:var(--rd);color:#fff;font:800 28px/1 var(--font)}

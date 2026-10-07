@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Pedir un replay · replayLab">
 <meta name="twitter:description" content="Pronto podrás enviar a Replay Lab el enlace de un replay de Fightcade para que se grabe, se analice y se publique.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=b06c71405c">
+<link rel="stylesheet" href="assets/estilo.css?v=4fe8215a25">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -39,6 +39,7 @@
   <section class="enviar activa">
     <h1 id="e-titulo"></h1>
     <p class="e-sub" id="e-sub"></p>
+    <aside class="e-discord" id="e-discord" hidden></aside>
     <form class="e-form" id="e-form" novalidate>
       <label for="e-url" id="e-campo"></label>
       <div class="e-fila">
@@ -76,7 +77,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=d0e39443aa"></script>
+<script src="assets/app.js?v=c26b82252a"></script>
 <script src="assets/lista.js?v=005562bfb5"></script>
 <script>
 "use strict";
@@ -214,6 +215,11 @@ function pinta() {
   $("#e-boton").textContent = T("e_boton") + " ↗";
   $("#e-alt").textContent = T("e_sin_cuenta") + " ↗";
   $("#e-github").textContent = T("e_github") + " " + T("e_tarda");
+  // (7 oct) también se puede pedir desde Discord, con /pedir
+  const dcu = urlDiscord(), dce = $("#e-discord");
+  dce.hidden = !dcu;
+  if (dcu) dce.innerHTML = `<div class="e-dc-txt"><b>💬 ${esc(T("e_dc_t"))}</b><span>${esc(T("e_dc_d"))}</span></div>
+      <a class="btn e-dc-btn" href="${esc(dcu)}" target="_blank" rel="noopener">${esc(T("dc_unirse"))} ↗</a>`;
   $("#t-como").textContent = T("e_como");
   $("#pasos").innerHTML = ["e_p1", "e_p2", "e_p3", "e_p4", "e_p5"].map(k => `<li>${esc(T(k))}</li>`).join("");
   $("#t-juegos").textContent = T("e_juegos");
