@@ -1,0 +1,1395 @@
+{
+ "version": 8,
+ "quark": "1791205281656-8475",
+ "carpeta": "20261007_Q_E_D_vs_it_s_1791205281656-8475",
+ "juego": "kof98",
+ "juego_nombre": "The King of Fighters '98",
+ "juego_corto": "KOF98",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": false
+ },
+ "fecha": "2026-10-05",
+ "youtube": "qEK7yr4c77I",
+ "titulo": "The King of Fighters '98 | 🇰🇷 Q.E.D. vs 🇰🇷 it`s",
+ "ft": 3,
+ "jugadores": [
+  {
+   "nombre": "Q.E.D.",
+   "pais": "kr",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Brian · Ralf · Chang",
+   "clave": "kof98_brian",
+   "equipo": [
+    "Brian",
+    "Ralf",
+    "Chang"
+   ],
+   "equipo_claves": [
+    "kof98_brian",
+    "kof98_ralf",
+    "kof98_chang"
+   ],
+   "personajes": [
+    "Brian",
+    "Ralf",
+    "Chang",
+    "Kim",
+    "Mai",
+    "Kensou"
+   ],
+   "claves": [
+    "kof98_brian",
+    "kof98_ralf",
+    "kof98_chang",
+    "kof98_kim",
+    "kof98_mai",
+    "kof98_kensou"
+   ],
+   "swaps": 3,
+   "super": ""
+  },
+  {
+   "nombre": "it`s",
+   "pais": "kr",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Chin · Kim · Choi",
+   "clave": "kof98_chin",
+   "equipo": [
+    "Chin",
+    "Kim",
+    "Choi"
+   ],
+   "equipo_claves": [
+    "kof98_chin",
+    "kof98_kim",
+    "kof98_choi"
+   ],
+   "personajes": [
+    "Chin",
+    "Kim",
+    "Choi",
+    "Daimon",
+    "Mature",
+    "Shermie",
+    "Andy",
+    "Joe"
+   ],
+   "claves": [
+    "kof98_chin",
+    "kof98_kim",
+    "kof98_choi",
+    "kof98_daimon",
+    "kof98_mature",
+    "kof98_shermie",
+    "kof98_andy",
+    "kof98_joe"
+   ],
+   "swaps": 3,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  1,
+  3
+ ],
+ "duracion": 742.5,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 5.64,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 5.64,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      26,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 74,
+     "remontada": 17,
+     "fin": 42.43,
+     "personajes": [
+      "Brian",
+      "Chin"
+     ],
+     "claves": [
+      "kof98_brian",
+      "kof98_chin"
+     ],
+     "vida_final": [
+      0,
+      74
+     ]
+    },
+    {
+     "n": 2,
+     "t": 47.02,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      41,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 54,
+     "remontada": 14,
+     "fin": 76.18,
+     "personajes": [
+      "Ralf",
+      "Chin"
+     ],
+     "claves": [
+      "kof98_ralf",
+      "kof98_chin"
+     ],
+     "vida_final": [
+      0,
+      54
+     ]
+    },
+    {
+     "n": 3,
+     "t": 83.29,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 23,
+     "perfect": false,
+     "dano": [
+      80,
+      92
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 10,
+     "remontada": 66,
+     "fin": 111.46,
+     "personajes": [
+      "Chang",
+      "Chin"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_chin"
+     ],
+     "vida_final": [
+      10,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 118.08,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 14,
+     "perfect": false,
+     "dano": [
+      70,
+      35
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 32,
+     "remontada": 0,
+     "fin": 136.2,
+     "personajes": [
+      "Chang",
+      "Kim"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_kim"
+     ],
+     "vida_final": [
+      0,
+      32
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Brian · Ralf · Chang",
+    "Chin · Kim · Choi"
+   ],
+   "claves": [
+    "kof98_brian",
+    "kof98_chin"
+   ],
+   "equipos": [
+    [
+     "Brian",
+     "Ralf",
+     "Chang"
+    ],
+    [
+     "Chin",
+     "Kim",
+     "Choi"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_brian",
+     "kof98_ralf",
+     "kof98_chang"
+    ],
+    [
+     "kof98_chin",
+     "kof98_kim",
+     "kof98_choi"
+    ]
+   ],
+   "fin": 136.2,
+   "resumen": {
+    "dano": [
+     217,
+     333
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     4,
+     4
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     3
+    ],
+    "duracion": 100
+   }
+  },
+  {
+   "n": 2,
+   "t": 182.09,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 182.09,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 44,
+     "perfect": false,
+     "dano": [
+      103,
+      27
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 73,
+     "remontada": 2,
+     "fin": 228.81,
+     "personajes": [
+      "Kim",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_kim",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      73,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 233.63,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 44,
+     "perfect": false,
+     "dano": [
+      75,
+      92
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 27,
+     "remontada": 3,
+     "fin": 278.66,
+     "personajes": [
+      "Kim",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_kim",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      0,
+      27
+     ]
+    },
+    {
+     "n": 3,
+     "t": 284.69,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 18,
+     "perfect": false,
+     "dano": [
+      44,
+      31
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 69,
+     "remontada": 0,
+     "fin": 306.74,
+     "personajes": [
+      "Brian",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_brian",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      69,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 312.69,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 40,
+     "perfect": false,
+     "dano": [
+      76,
+      100
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 26,
+     "remontada": 17,
+     "fin": 353.31,
+     "personajes": [
+      "Brian",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_brian",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      0,
+      26
+     ]
+    },
+    {
+     "n": 5,
+     "t": 357.3,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 20,
+     "perfect": false,
+     "dano": [
+      47,
+      46
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 55,
+     "remontada": 0,
+     "fin": 380.37,
+     "personajes": [
+      "Mai",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_mai",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      55,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    1
+   ],
+   "personajes": [
+    "Kim · Brian · Mai",
+    "Choi · Daimon · Mature"
+   ],
+   "claves": [
+    "kof98_kim",
+    "kof98_choi"
+   ],
+   "equipos": [
+    [
+     "Kim",
+     "Brian",
+     "Mai"
+    ],
+    [
+     "Choi",
+     "Daimon",
+     "Mature"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_kim",
+     "kof98_brian",
+     "kof98_mai"
+    ],
+    [
+     "kof98_choi",
+     "kof98_daimon",
+     "kof98_mature"
+    ]
+   ],
+   "fin": 380.37,
+   "resumen": {
+    "dano": [
+     345,
+     296
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     6,
+     4
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 166
+   }
+  },
+  {
+   "n": 3,
+   "t": 402.73,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 402.73,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      15,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 85,
+     "remontada": 0,
+     "fin": 434.17,
+     "personajes": [
+      "Kim",
+      "Shermie"
+     ],
+     "claves": [
+      "kof98_kim",
+      "kof98_shermie"
+     ],
+     "vida_final": [
+      0,
+      85
+     ]
+    },
+    {
+     "n": 2,
+     "t": 438.16,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      101,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 1,
+     "remontada": 15,
+     "fin": 475.7,
+     "personajes": [
+      "Brian",
+      "Shermie"
+     ],
+     "claves": [
+      "kof98_brian",
+      "kof98_shermie"
+     ],
+     "vida_final": [
+      0,
+      1
+     ]
+    },
+    {
+     "n": 3,
+     "t": 480.75,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 5,
+     "perfect": true,
+     "dano": [
+      22,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 491.5,
+     "personajes": [
+      "Mai",
+      "Shermie"
+     ],
+     "claves": [
+      "kof98_mai",
+      "kof98_shermie"
+     ],
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 496.43,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 32,
+     "perfect": false,
+     "dano": [
+      78,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      3
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 24,
+     "remontada": 9,
+     "fin": 530.17,
+     "personajes": [
+      "Mai",
+      "Rugal"
+     ],
+     "claves": [
+      "kof98_mai",
+      "kof98_rugal"
+     ],
+     "vida_final": [
+      0,
+      24
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    2
+   ],
+   "personajes": [
+    "Kim",
+    "Shermie"
+   ],
+   "claves": [
+    "kof98_kim",
+    "kof98_shermie"
+   ],
+   "fin": 530.17,
+   "resumen": {
+    "dano": [
+     216,
+     309
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     3
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     1,
+     3
+    ],
+    "duracion": 105
+   }
+  },
+  {
+   "n": 4,
+   "t": 554.47,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 554.47,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": false,
+     "dano": [
+      66,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 35,
+     "remontada": 35,
+     "fin": 581.44,
+     "personajes": [
+      "Chang",
+      "Andy"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_andy"
+     ],
+     "vida_final": [
+      0,
+      35
+     ]
+    },
+    {
+     "n": 2,
+     "t": 587.63,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      61,
+      91
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 25,
+     "remontada": 32,
+     "fin": 620.68,
+     "personajes": [
+      "Kensou",
+      "Andy"
+     ],
+     "claves": [
+      "kof98_kensou",
+      "kof98_andy"
+     ],
+     "vida_final": [
+      25,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 624.86,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 52,
+     "perfect": false,
+     "dano": [
+      89,
+      50
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 13,
+     "remontada": 0,
+     "fin": 677.07,
+     "personajes": [
+      "Kensou",
+      "Joe"
+     ],
+     "claves": [
+      "kof98_kensou",
+      "kof98_joe"
+     ],
+     "vida_final": [
+      0,
+      13
+     ]
+    },
+    {
+     "n": 4,
+     "t": 681.51,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 2,
+     "perfect": true,
+     "dano": [
+      26,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 690.91,
+     "personajes": [
+      "Ralf",
+      "Joe"
+     ],
+     "claves": [
+      "kof98_ralf",
+      "kof98_joe"
+     ],
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 5,
+     "t": 698.17,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 36,
+     "perfect": false,
+     "dano": [
+      11,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 89,
+     "remontada": 11,
+     "fin": 736.53,
+     "personajes": [
+      "Ralf",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_ralf",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      0,
+      89
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    3
+   ],
+   "personajes": [
+    "Chang · Kensou · Ralf",
+    "Andy · Joe · Daimon"
+   ],
+   "claves": [
+    "kof98_chang",
+    "kof98_andy"
+   ],
+   "equipos": [
+    [
+     "Chang",
+     "Kensou",
+     "Ralf"
+    ],
+    [
+     "Andy",
+     "Joe",
+     "Daimon"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_chang",
+     "kof98_kensou",
+     "kof98_ralf"
+    ],
+    [
+     "kof98_andy",
+     "kof98_joe",
+     "kof98_daimon"
+    ]
+   ],
+   "fin": 736.53,
+   "resumen": {
+    "dano": [
+     253,
+     347
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     4,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 143
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 35.68,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 36.61,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 42.1,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 58.82,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 67.45,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 75.84,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 97.76,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 102.89,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 110.56,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 111.13,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 111.46,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 66
+  },
+  {
+   "t": 131.6,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 135.87,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 211.39,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 228.48,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 261.07,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 274.37,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 278.33,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 304.48,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 306.41,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 321.92,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 342.26,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 343.96,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 352.98,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 365.06,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 369.33,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 373.81,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 380.03,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 433.83,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 464.18,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 475.37,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 491.17,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 491.5,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 505.31,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 514.59,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 521.46,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 527.75,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 529.83,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 581.12,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 599.98,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 602.71,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 611.65,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 620.35,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 676.74,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 690.58,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 690.91,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 717.64,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 718.62,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 729.56,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 736.19,
+   "tipo": "ko",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 140,
+   "pelea_rapida": 198,
+   "swaps": 3,
+   "rondas": 7,
+   "rondas_jugadas": 18,
+   "ko": 7,
+   "timeup": 0,
+   "perfects": 2,
+   "dano": 1031,
+   "recibido": 1285,
+   "golpes": 181,
+   "golpe_max": 29,
+   "primero": 9,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 16,
+   "mareos": 0,
+   "ronda_rapida": 2,
+   "al_limite": 1,
+   "remontada": 66,
+   "racha": 1,
+   "vida_al_ganar": 62,
+   "dano_medio": 5.7,
+   "dur_avg": 20,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 69,
+   "dano_barras": 10.01,
+   "recibido_barras": 12.48,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.28
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 374,
+   "pelea_rapida": 127,
+   "swaps": 3,
+   "rondas": 11,
+   "rondas_jugadas": 18,
+   "ko": 11,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1285,
+   "recibido": 1031,
+   "golpes": 214,
+   "golpe_max": 45,
+   "primero": 9,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 13,
+   "mareos": 0,
+   "ronda_rapida": 14,
+   "al_limite": 1,
+   "remontada": 35,
+   "racha": 2,
+   "vida_al_ganar": 42,
+   "dano_medio": 6.0,
+   "dur_avg": 34,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 56,
+   "dano_barras": 12.48,
+   "recibido_barras": 10.01,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.44
+  }
+ ]
+}

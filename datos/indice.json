@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-06 07:01",
+ "actualizado": "2026-10-07 14:31",
  "videos": [
   {
    "quark": "1791260850064-8625",
@@ -174,6 +174,73 @@
     }
    ],
    "rondas": 21
+  },
+  {
+   "quark": "1791205281656-8475",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2026-10-05",
+   "youtube": "qEK7yr4c77I",
+   "duracion": 742.5,
+   "marcador": [
+    1,
+    3
+   ],
+   "peleas": 4,
+   "jugadores": [
+    {
+     "nombre": "Q.E.D.",
+     "pais": "kr",
+     "rango_letra": "B",
+     "personaje": "Brian · Ralf · Chang",
+     "clave": "kof98_brian",
+     "personajes": [
+      "Brian",
+      "Ralf",
+      "Chang",
+      "Kim",
+      "Mai",
+      "Kensou"
+     ],
+     "claves": [
+      "kof98_brian",
+      "kof98_ralf",
+      "kof98_chang",
+      "kof98_kim",
+      "kof98_mai",
+      "kof98_kensou"
+     ]
+    },
+    {
+     "nombre": "it`s",
+     "pais": "kr",
+     "rango_letra": "A",
+     "personaje": "Chin · Kim · Choi",
+     "clave": "kof98_chin",
+     "personajes": [
+      "Chin",
+      "Kim",
+      "Choi",
+      "Daimon",
+      "Mature",
+      "Shermie",
+      "Andy",
+      "Joe"
+     ],
+     "claves": [
+      "kof98_chin",
+      "kof98_kim",
+      "kof98_choi",
+      "kof98_daimon",
+      "kof98_mature",
+      "kof98_shermie",
+      "kof98_andy",
+      "kof98_joe"
+     ]
+    }
+   ],
+   "rondas": 18
   },
   {
    "quark": "1790828329188-3709",

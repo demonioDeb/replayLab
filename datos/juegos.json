@@ -122,8 +122,10 @@
    ],
    "anio": 1998,
    "compania": "SNK",
-   "estado": "proximamente",
-   "nombre_completo": "The King of Fighters '98"
+   "estado": "activo",
+   "nombre_completo": "The King of Fighters '98",
+   "desbloqueado": "2026-10-07",
+   "retrato": "kof98_kyo"
   },
   {
    "id": "kof99",
