@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-08T19:03:05Z",
+ "actualizado": "2026-10-08T20:09:01Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,14 +7,41 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 15,
  "vistas": 15935,
- "videos": 62,
+ "videos": 64,
  "lista": [
+  {
+   "id": "NDrL4KNfvYg",
+   "titulo": "Super Street Fighter II X | 🇧🇷 BHF | garra2000 vs 🇧🇷 BHF | vaideitarex #shorts",
+   "publicado": "2026-10-08T20:01:52Z",
+   "privacidad": "public",
+   "vistas": 5,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/NDrL4KNfvYg/mqdefault.jpg"
+  },
+  {
+   "id": "19gseUhuNyM",
+   "titulo": "Super Street Fighter II X | 🇧🇷 BHF | garra2000 vs 🇧🇷 BHF | vaideitarex",
+   "publicado": "2026-10-08T19:59:38Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/19gseUhuNyM/mqdefault.jpg"
+  },
+  {
+   "id": "PchrKJ8x8i8",
+   "titulo": "The King of Fighters '98 | 🇰🇷 YeopMun vs 🇰🇷 it`s",
+   "publicado": "2026-10-08T19:22:53Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/PchrKJ8x8i8/mqdefault.jpg"
+  },
   {
    "id": "fiPaTGXonCE",
    "titulo": "The King of Fighters '98 | 🇰🇷 NONSANJJANG vs 🇰🇷 it`s #shorts",
    "publicado": "2026-10-08T18:46:58Z",
    "privacidad": "public",
-   "vistas": 15,
+   "vistas": 68,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/fiPaTGXonCE/mqdefault.jpg"
   },
@@ -23,7 +50,7 @@
    "titulo": "The King of Fighters '98 | 🇰🇷 NONSANJJANG vs 🇰🇷 it`s",
    "publicado": "2026-10-08T18:45:43Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/66XoIEK-3NE/mqdefault.jpg"
   },
@@ -32,8 +59,8 @@
    "titulo": "The King of Fighters '98 | 🇨🇱 Mundo Kurono vs 🇵🇰 mirza mudassar #shorts",
    "publicado": "2026-10-07T14:56:19Z",
    "privacidad": "public",
-   "vistas": 278,
-   "me_gusta": 4,
+   "vistas": 277,
+   "me_gusta": 5,
    "miniatura": "https://i.ytimg.com/vi/XOrX-6S3fsQ/mqdefault.jpg"
   },
   {
@@ -41,7 +68,7 @@
    "titulo": "The King of Fighters '98 | 🇨🇱 Mundo Kurono vs 🇵🇰 mirza mudassar",
    "publicado": "2026-10-07T14:53:01Z",
    "privacidad": "public",
-   "vistas": 15,
+   "vistas": 19,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/hfRJGKGRNAo/mqdefault.jpg"
   },
@@ -68,7 +95,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 FabsGtz vs 🇲🇽 djfrijoles",
    "publicado": "2026-10-06T14:47:53Z",
    "privacidad": "public",
-   "vistas": 19,
+   "vistas": 22,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/u6FbTcP7mvQ/mqdefault.jpg"
   },
@@ -77,7 +104,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 FabsGtz vs 🇲🇽 djfrijoles #shorts",
    "publicado": "2026-10-06T14:47:53Z",
    "privacidad": "public",
-   "vistas": 510,
+   "vistas": 518,
    "me_gusta": 16,
    "miniatura": "https://i.ytimg.com/vi/zTSntaQEO-8/mqdefault.jpg"
   },

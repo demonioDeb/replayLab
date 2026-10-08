@@ -1,6 +1,55 @@
 {
- "actualizado": "2026-10-08 19:03",
+ "actualizado": "2026-10-08 20:09",
  "videos": [
+  {
+   "quark": "1791476113723-1866",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2026-10-08",
+   "youtube": null,
+   "duracion": 919.1,
+   "marcador": [
+    2,
+    3
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "YeopMun",
+     "pais": "kr",
+     "rango_letra": "A",
+     "personaje": "Benimaru",
+     "clave": "kof98_benimaru",
+     "personajes": [
+      "Benimaru",
+      "Rugal",
+      "Terry"
+     ],
+     "claves": [
+      "kof98_benimaru",
+      "kof98_rugal",
+      "kof98_terry"
+     ]
+    },
+    {
+     "nombre": "it`s",
+     "pais": "kr",
+     "rango_letra": "A",
+     "personaje": "Kyo",
+     "clave": "kof98_kyo",
+     "personajes": [
+      "Kyo",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_iori"
+     ]
+    }
+   ],
+   "rondas": 24
+  },
   {
    "quark": "1791471654566-6361",
    "juego": "kof98",
@@ -59,6 +108,51 @@
     }
    ],
    "rondas": 76
+  },
+  {
+   "quark": "1791469532210-3577",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-08",
+   "youtube": "19gseUhuNyM",
+   "duracion": 1026.3,
+   "marcador": [
+    4,
+    5
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "BHF | garra2000",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Chun-Li",
+     "clave": "chunli",
+     "personajes": [
+      "Chun-Li",
+      "Cammy"
+     ],
+     "claves": [
+      "chunli",
+      "cammy"
+     ]
+    },
+    {
+     "nombre": "BHF | vaideitarex",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "O. Ken",
+     "clave": "ken",
+     "personajes": [
+      "O. Ken"
+     ],
+     "claves": [
+      "ken"
+     ]
+    }
+   ],
+   "rondas": 23
   },
   {
    "quark": "1791260850064-8625",

@@ -1,0 +1,1536 @@
+{
+ "version": 8,
+ "quark": "1791476113723-1866",
+ "carpeta": "20261008_YeopMun_vs_it_s_1791476113723-1866",
+ "juego": "kof98",
+ "juego_nombre": "The King of Fighters '98",
+ "juego_corto": "KOF98",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": false
+ },
+ "fecha": "2026-10-08",
+ "youtube": null,
+ "titulo": "The King of Fighters '98 | 🇰🇷 YeopMun vs 🇰🇷 it`s",
+ "ft": 3,
+ "jugadores": [
+  {
+   "nombre": "YeopMun",
+   "pais": "kr",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Benimaru",
+   "clave": "kof98_benimaru",
+   "personajes": [
+    "Benimaru",
+    "Rugal",
+    "Terry"
+   ],
+   "claves": [
+    "kof98_benimaru",
+    "kof98_rugal",
+    "kof98_terry"
+   ],
+   "swaps": 2,
+   "super": ""
+  },
+  {
+   "nombre": "it`s",
+   "pais": "kr",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Kyo",
+   "clave": "kof98_kyo",
+   "personajes": [
+    "Kyo",
+    "Iori"
+   ],
+   "claves": [
+    "kof98_kyo",
+    "kof98_iori"
+   ],
+   "swaps": 2,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  2,
+  3
+ ],
+ "duracion": 919.1,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 5.99,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 5.99,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": false,
+     "dano": [
+      35,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 66,
+     "remontada": 15,
+     "fin": 29.9,
+     "personajes": [
+      "Benimaru",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_benimaru",
+      "kof98_kyo"
+     ],
+     "vida_final": [
+      0,
+      66
+     ]
+    },
+    {
+     "n": 2,
+     "t": 33.79,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 24,
+     "perfect": false,
+     "dano": [
+      92,
+      39
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 62,
+     "remontada": 0,
+     "fin": 60.53,
+     "personajes": [
+      "Terry",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_terry",
+      "kof98_kyo"
+     ],
+     "vida_final": [
+      62,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 65.38,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      77,
+      88
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 25,
+     "remontada": 23,
+     "fin": 100.36,
+     "personajes": [
+      "Terry",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_terry",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      0,
+      25
+     ]
+    },
+    {
+     "n": 4,
+     "t": 104.22,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 21,
+     "perfect": false,
+     "dano": [
+      46,
+      72
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 30,
+     "remontada": 0,
+     "fin": 128.01,
+     "personajes": [
+      "Ralf",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_ralf",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      30,
+      0
+     ]
+    },
+    {
+     "n": 5,
+     "t": 132.49,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 24,
+     "perfect": false,
+     "dano": [
+      55,
+      55
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 46,
+     "remontada": 0,
+     "fin": 159.42,
+     "personajes": [
+      "Ralf",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_ralf",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      46
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Benimaru",
+    "Kyo"
+   ],
+   "claves": [
+    "kof98_benimaru",
+    "kof98_kyo"
+   ],
+   "fin": 159.42,
+   "resumen": {
+    "dano": [
+     305,
+     357
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 125
+   }
+  },
+  {
+   "n": 2,
+   "t": 195.61,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 195.61,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      43,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 58,
+     "remontada": 18,
+     "fin": 232.06,
+     "personajes": [
+      "Rugal",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_rugal",
+      "kof98_kyo"
+     ],
+     "vida_final": [
+      0,
+      58
+     ]
+    },
+    {
+     "n": 2,
+     "t": 236.27,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      80,
+      61
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 40,
+     "remontada": 23,
+     "fin": 264.75,
+     "personajes": [
+      "Yashiro",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_yashiro",
+      "kof98_kyo"
+     ],
+     "vida_final": [
+      40,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 268.87,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      95,
+      66
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 7,
+     "remontada": 13,
+     "fin": 299.05,
+     "personajes": [
+      "Yashiro",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_yashiro",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      0,
+      7
+     ]
+    },
+    {
+     "n": 4,
+     "t": 303.22,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 13,
+     "perfect": false,
+     "dano": [
+      32,
+      29
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 71,
+     "remontada": 0,
+     "fin": 320.35,
+     "personajes": [
+      "Terry",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_terry",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      71,
+      0
+     ]
+    },
+    {
+     "n": 5,
+     "t": 324.31,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 18,
+     "perfect": false,
+     "dano": [
+      103,
+      9
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 90,
+     "remontada": 0,
+     "fin": 346.15,
+     "personajes": [
+      "Terry",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_terry",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      90,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    1
+   ],
+   "personajes": [
+    "Rugal",
+    "Kyo"
+   ],
+   "claves": [
+    "kof98_rugal",
+    "kof98_kyo"
+   ],
+   "fin": 346.15,
+   "resumen": {
+    "dano": [
+     353,
+     268
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     3,
+     2
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 122
+   }
+  },
+  {
+   "n": 3,
+   "t": 376.87,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 376.87,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      103,
+      56
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 45,
+     "remontada": 9,
+     "fin": 413.15,
+     "personajes": [
+      "Rugal",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_rugal",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      45,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 417.37,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 17,
+     "perfect": false,
+     "dano": [
+      30,
+      67
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 70,
+     "remontada": 0,
+     "fin": 438.1,
+     "personajes": [
+      "Rugal",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_rugal",
+      "kof98_kyo"
+     ],
+     "vida_final": [
+      0,
+      70
+     ]
+    },
+    {
+     "n": 3,
+     "t": 442.04,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 32,
+     "perfect": false,
+     "dano": [
+      101,
+      24
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 76,
+     "remontada": 0,
+     "fin": 474.93,
+     "personajes": [
+      "Yashiro",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_yashiro",
+      "kof98_kyo"
+     ],
+     "vida_final": [
+      76,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 478.94,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 21,
+     "perfect": true,
+     "dano": [
+      103,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 96,
+     "remontada": 0,
+     "fin": 503.16,
+     "personajes": [
+      "Yashiro",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_yashiro",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      96,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    1
+   ],
+   "personajes": [
+    "Rugal",
+    "Iori"
+   ],
+   "claves": [
+    "kof98_rugal",
+    "kof98_iori"
+   ],
+   "fin": 503.17,
+   "resumen": {
+    "dano": [
+     337,
+     147
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     1
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     3,
+     1
+    ],
+    "duracion": 107
+   }
+  },
+  {
+   "n": 4,
+   "t": 523.88,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 523.88,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": false,
+     "dano": [
+      39,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 62,
+     "remontada": 0,
+     "fin": 550.07,
+     "personajes": [
+      "Rugal",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_rugal",
+      "kof98_kyo"
+     ],
+     "vida_final": [
+      0,
+      62
+     ]
+    },
+    {
+     "n": 2,
+     "t": 554.28,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 32,
+     "perfect": false,
+     "dano": [
+      55,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 32,
+     "remontada": 0,
+     "fin": 588.08,
+     "personajes": [
+      "Yashiro",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_yashiro",
+      "kof98_kyo"
+     ],
+     "vida_final": [
+      0,
+      32
+     ]
+    },
+    {
+     "n": 3,
+     "t": 591.99,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 16,
+     "perfect": false,
+     "dano": [
+      53,
+      22
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 78,
+     "remontada": 0,
+     "fin": 612.25,
+     "personajes": [
+      "Terry",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_terry",
+      "kof98_kyo"
+     ],
+     "vida_final": [
+      78,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 616.26,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 46,
+     "perfect": false,
+     "dano": [
+      103,
+      100
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 2,
+     "remontada": 60,
+     "fin": 661.3,
+     "personajes": [
+      "Terry",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_terry",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      2,
+      0
+     ]
+    },
+    {
+     "n": 5,
+     "t": 665.56,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      31,
+      19
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 69,
+     "remontada": 0,
+     "fin": 693.2,
+     "personajes": [
+      "Terry",
+      "Ryo"
+     ],
+     "claves": [
+      "kof98_terry",
+      "kof98_ryo"
+     ],
+     "vida_final": [
+      0,
+      69
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    2,
+    2
+   ],
+   "personajes": [
+    "Rugal",
+    "Kyo"
+   ],
+   "claves": [
+    "kof98_rugal",
+    "kof98_kyo"
+   ],
+   "fin": 693.2,
+   "resumen": {
+    "dano": [
+     281,
+     347
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     0,
+     2
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 145
+   }
+  },
+  {
+   "n": 5,
+   "t": 743.32,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 743.32,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 24,
+     "perfect": false,
+     "dano": [
+      24,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 76,
+     "remontada": 23,
+     "fin": 768.57,
+     "personajes": [
+      "Terry",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_terry",
+      "kof98_kyo"
+     ],
+     "vida_final": [
+      0,
+      76
+     ]
+    },
+    {
+     "n": 2,
+     "t": 772.51,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 23,
+     "perfect": false,
+     "dano": [
+      103,
+      28
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 72,
+     "remontada": 0,
+     "fin": 798.29,
+     "personajes": [
+      "Takuma",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_takuma",
+      "kof98_kyo"
+     ],
+     "vida_final": [
+      72,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 802.11,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      97,
+      99
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 5,
+     "remontada": 14,
+     "fin": 834.72,
+     "personajes": [
+      "Takuma",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_takuma",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      0,
+      5
+     ]
+    },
+    {
+     "n": 4,
+     "t": 838.6,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 20,
+     "perfect": false,
+     "dano": [
+      26,
+      48
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 53,
+     "remontada": 0,
+     "fin": 861.54,
+     "personajes": [
+      "Saisyu",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_saisyu",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      53,
+      0
+     ]
+    },
+    {
+     "n": 5,
+     "t": 865.64,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 49,
+     "perfect": false,
+     "dano": [
+      97,
+      83
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 5,
+     "remontada": 36,
+     "fin": 913.1,
+     "personajes": [
+      "Saisyu",
+      "Ryo"
+     ],
+     "claves": [
+      "kof98_saisyu",
+      "kof98_ryo"
+     ],
+     "vida_final": [
+      0,
+      5
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    2,
+    3
+   ],
+   "personajes": [
+    "Terry",
+    "Kyo"
+   ],
+   "claves": [
+    "kof98_terry",
+    "kof98_kyo"
+   ],
+   "fin": 913.1,
+   "resumen": {
+    "dano": [
+     347,
+     361
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     0
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 147
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 28.54,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 29.58,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 60.19,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 100.02,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 127.68,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 151.6,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 159.08,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 227.16,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 231.74,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 254.13,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 256.72,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 260.27,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 264.42,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 291.41,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 298.73,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 320.01,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 343.11,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 345.82,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 412.81,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 436.33,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 437.78,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 474.6,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 499.72,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 499.97,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 502.1,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 502.83,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 503.16,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 533.3,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 549.74,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 565.27,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 587.76,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 611.92,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 653.87,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 660.97,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 661.3,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 60
+  },
+  {
+   "t": 692.87,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 760.4,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 768.24,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 794.42,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 797.96,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 828.98,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 834.4,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 861.21,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 912.77,
+   "tipo": "ko",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 444,
+   "stun_peor": 174,
+   "mareado_veces": 4,
+   "dur_sum": 297,
+   "pelea_rapida": 126,
+   "swaps": 2,
+   "rondas": 12,
+   "rondas_jugadas": 24,
+   "ko": 12,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 1623,
+   "recibido": 1480,
+   "golpes": 273,
+   "golpe_max": 26,
+   "primero": 11,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 8,
+   "mareos": 1,
+   "ronda_rapida": 13,
+   "al_limite": 1,
+   "remontada": 60,
+   "racha": 3,
+   "vida_al_ganar": 60,
+   "dano_medio": 5.9,
+   "dur_avg": 25,
+   "stun_seg": 7.4,
+   "stun_peor_seg": 2.9,
+   "vida_perdida_ronda": 60,
+   "dano_barras": 15.76,
+   "recibido_barras": 14.37,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.25
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 177,
+   "stun_peor": 177,
+   "mareado_veces": 1,
+   "dur_sum": 349,
+   "pelea_rapida": 153,
+   "swaps": 2,
+   "rondas": 12,
+   "rondas_jugadas": 24,
+   "ko": 12,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1480,
+   "recibido": 1623,
+   "golpes": 231,
+   "golpe_max": 21,
+   "primero": 13,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 5,
+   "mareos": 4,
+   "ronda_rapida": 17,
+   "al_limite": 3,
+   "remontada": 36,
+   "racha": 2,
+   "vida_al_ganar": 43,
+   "dano_medio": 6.4,
+   "dur_avg": 29,
+   "stun_seg": 3.0,
+   "stun_peor_seg": 3.0,
+   "vida_perdida_ronda": 66,
+   "dano_barras": 14.37,
+   "recibido_barras": 15.76,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.2
+  }
+ ]
+}
