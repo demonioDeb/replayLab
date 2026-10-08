@@ -1,0 +1,4771 @@
+{
+ "version": 8,
+ "quark": "1791471654566-6361",
+ "carpeta": "20261008_NONSANJJANG_vs_it_s_1791471654566-6361",
+ "juego": "kof98",
+ "juego_nombre": "The King of Fighters '98",
+ "juego_corto": "KOF98",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": false
+ },
+ "fecha": "2026-10-08",
+ "youtube": "66XoIEK-3NE",
+ "titulo": "The King of Fighters '98 | 🇰🇷 NONSANJJANG vs 🇰🇷 it`s",
+ "ft": 10,
+ "jugadores": [
+  {
+   "nombre": "NONSANJJANG",
+   "pais": "kr",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Chizuru · Robert · Chris",
+   "clave": "kof98_chizuru",
+   "equipo": [
+    "Chizuru",
+    "Robert",
+    "Chris"
+   ],
+   "equipo_claves": [
+    "kof98_chizuru",
+    "kof98_robert",
+    "kof98_chris"
+   ],
+   "personajes": [
+    "Chizuru",
+    "Robert",
+    "Chris"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_robert",
+    "kof98_chris"
+   ],
+   "swaps": 5,
+   "super": ""
+  },
+  {
+   "nombre": "it`s",
+   "pais": "kr",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Iori · Mature · Takuma",
+   "clave": "kof98_iori",
+   "equipo": [
+    "Iori",
+    "Mature",
+    "Takuma"
+   ],
+   "equipo_claves": [
+    "kof98_iori",
+    "kof98_mature",
+    "kof98_takuma"
+   ],
+   "personajes": [
+    "Kim",
+    "Kyo",
+    "Chizuru",
+    "Takuma",
+    "Iori",
+    "Mature",
+    "Daimon"
+   ],
+   "claves": [
+    "kof98_kim",
+    "kof98_kyo",
+    "kof98_chizuru",
+    "kof98_takuma",
+    "kof98_iori",
+    "kof98_mature",
+    "kof98_daimon"
+   ],
+   "swaps": 7,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  7,
+  9
+ ],
+ "duracion": 2992.4,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 4.27,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 4.27,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      103,
+      72
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 30,
+     "remontada": 10,
+     "fin": 33.11,
+     "personajes": [
+      "Chizuru",
+      "Kim"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_kim"
+     ],
+     "vida_final": [
+      30,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 36.97,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 14,
+     "perfect": false,
+     "dano": [
+      2,
+      55
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 98,
+     "remontada": 0,
+     "fin": 54.84,
+     "personajes": [
+      "Chizuru",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      0,
+      98
+     ]
+    },
+    {
+     "n": 3,
+     "t": 58.74,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      103,
+      53
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 48,
+     "remontada": 46,
+     "fin": 93.62,
+     "personajes": [
+      "Robert",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      48,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 97.64,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 36,
+     "perfect": false,
+     "dano": [
+      103,
+      45
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 24,
+     "remontada": 18,
+     "fin": 134.6,
+     "personajes": [
+      "Robert",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      24,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Chizuru",
+    "Kim"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_kim"
+   ],
+   "fin": 134.6,
+   "resumen": {
+    "dano": [
+     311,
+     225
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     1
+    ],
+    "duracion": 112
+   }
+  },
+  {
+   "n": 2,
+   "t": 156.61,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 156.61,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      103,
+      58
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 43,
+     "remontada": 0,
+     "fin": 182.93,
+     "personajes": [
+      "Chizuru",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_kyo"
+     ],
+     "vida_final": [
+      43,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 186.78,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      103,
+      58
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 10,
+     "remontada": 33,
+     "fin": 214.98,
+     "personajes": [
+      "Chizuru",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      10,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 218.92,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      83,
+      35
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 19,
+     "remontada": 0,
+     "fin": 249.04,
+     "personajes": [
+      "Chizuru",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      19
+     ]
+    },
+    {
+     "n": 4,
+     "t": 253.04,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 16,
+     "perfect": false,
+     "dano": [
+      44,
+      30
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 70,
+     "remontada": 0,
+     "fin": 273.35,
+     "personajes": [
+      "Robert",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      70,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "Chizuru · Robert · Chris",
+    "Kyo · Chizuru · Takuma"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_kyo"
+   ],
+   "equipos": [
+    [
+     "Chizuru",
+     "Robert",
+     "Chris"
+    ],
+    [
+     "Kyo",
+     "Chizuru",
+     "Takuma"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_chizuru",
+     "kof98_robert",
+     "kof98_chris"
+    ],
+    [
+     "kof98_kyo",
+     "kof98_chizuru",
+     "kof98_takuma"
+    ]
+   ],
+   "fin": 273.35,
+   "resumen": {
+    "dano": [
+     333,
+     181
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     1
+    ],
+    "duracion": 96
+   }
+  },
+  {
+   "n": 3,
+   "t": 292.6,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 292.6,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 40,
+     "perfect": false,
+     "dano": [
+      103,
+      60
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 41,
+     "remontada": 42,
+     "fin": 331.22,
+     "personajes": [
+      "Chizuru",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      41,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 335.22,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      31,
+      63
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 69,
+     "remontada": 0,
+     "fin": 367.6,
+     "personajes": [
+      "Chizuru",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      0,
+      69
+     ]
+    },
+    {
+     "n": 3,
+     "t": 371.47,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": false,
+     "dano": [
+      92,
+      44
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 57,
+     "remontada": 0,
+     "fin": 395.94,
+     "personajes": [
+      "Robert",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      57,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 399.83,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 47,
+     "perfect": false,
+     "dano": [
+      101,
+      83
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 1,
+     "remontada": 25,
+     "fin": 445.87,
+     "personajes": [
+      "Robert",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      1
+     ]
+    },
+    {
+     "n": 5,
+     "t": 449.88,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 14,
+     "perfect": false,
+     "dano": [
+      18,
+      24
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 76,
+     "remontada": 0,
+     "fin": 467.74,
+     "personajes": [
+      "Chris",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      76,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    0
+   ],
+   "personajes": [
+    "Chizuru · Robert · Chris",
+    "Iori · Mature · Takuma"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_iori"
+   ],
+   "equipos": [
+    [
+     "Chizuru",
+     "Robert",
+     "Chris"
+    ],
+    [
+     "Iori",
+     "Mature",
+     "Takuma"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_chizuru",
+     "kof98_robert",
+     "kof98_chris"
+    ],
+    [
+     "kof98_iori",
+     "kof98_mature",
+     "kof98_takuma"
+    ]
+   ],
+   "fin": 467.74,
+   "resumen": {
+    "dano": [
+     345,
+     274
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     3,
+     3
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 154
+   }
+  },
+  {
+   "n": 4,
+   "t": 488.85,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 488.85,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      49,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 52,
+     "remontada": 5,
+     "fin": 521.84,
+     "personajes": [
+      "Chizuru",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      0,
+      52
+     ]
+    },
+    {
+     "n": 2,
+     "t": 525.66,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 24,
+     "perfect": false,
+     "dano": [
+      27,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 45,
+     "remontada": 26,
+     "fin": 552.53,
+     "personajes": [
+      "Robert",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      0,
+      45
+     ]
+    },
+    {
+     "n": 3,
+     "t": 556.45,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      71,
+      41
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 60,
+     "remontada": 0,
+     "fin": 588.11,
+     "personajes": [
+      "Chris",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      60,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 591.95,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      103,
+      10
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 73,
+     "remontada": 0,
+     "fin": 620.33,
+     "personajes": [
+      "Chris",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      73,
+      0
+     ]
+    },
+    {
+     "n": 5,
+     "t": 624.37,
+     "ganador": 1,
+     "motivo": "time",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      99,
+      90
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 9,
+     "remontada": 68,
+     "fin": 680.58,
+     "personajes": [
+      "Chris",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      9,
+      3
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    4,
+    0
+   ],
+   "personajes": [
+    "Chizuru",
+    "Mature"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_mature"
+   ],
+   "fin": 680.58,
+   "resumen": {
+    "dano": [
+     349,
+     347
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     5
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 173
+   }
+  },
+  {
+   "n": 5,
+   "t": 704.09,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 704.09,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 41,
+     "perfect": false,
+     "dano": [
+      90,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 12,
+     "remontada": 42,
+     "fin": 744.01,
+     "personajes": [
+      "Chizuru",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      0,
+      12
+     ]
+    },
+    {
+     "n": 2,
+     "t": 747.88,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 20,
+     "perfect": false,
+     "dano": [
+      29,
+      27
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 73,
+     "remontada": 0,
+     "fin": 771.06,
+     "personajes": [
+      "Robert",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      73,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 774.99,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 58,
+     "perfect": false,
+     "dano": [
+      97,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 5,
+     "remontada": 13,
+     "fin": 830.52,
+     "personajes": [
+      "Robert",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      0,
+      5
+     ]
+    },
+    {
+     "n": 4,
+     "t": 834.48,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 4,
+     "perfect": false,
+     "dano": [
+      18,
+      4
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 96,
+     "remontada": 0,
+     "fin": 844.21,
+     "personajes": [
+      "Chris",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      96,
+      0
+     ]
+    },
+    {
+     "n": 5,
+     "t": 848.08,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 32,
+     "perfect": false,
+     "dano": [
+      47,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 54,
+     "remontada": 0,
+     "fin": 881.46,
+     "personajes": [
+      "Chris",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      54
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    4,
+    1
+   ],
+   "personajes": [
+    "Chizuru",
+    "Mature"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_mature"
+   ],
+   "fin": 881.46,
+   "resumen": {
+    "dano": [
+     281,
+     340
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 155
+   }
+  },
+  {
+   "n": 6,
+   "t": 905.46,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 905.46,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 48,
+     "perfect": false,
+     "dano": [
+      98,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 39,
+     "fin": 950.91,
+     "personajes": [
+      "Chizuru",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      0,
+      4
+     ]
+    },
+    {
+     "n": 2,
+     "t": 954.86,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 15,
+     "perfect": false,
+     "dano": [
+      21,
+      46
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 55,
+     "remontada": 0,
+     "fin": 973.39,
+     "personajes": [
+      "Robert",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      55,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 977.39,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 55,
+     "perfect": false,
+     "dano": [
+      103,
+      76
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 8,
+     "remontada": 9,
+     "fin": 1030.34,
+     "personajes": [
+      "Robert",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      8,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 1034.34,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 14,
+     "perfect": false,
+     "dano": [
+      63,
+      21
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 38,
+     "remontada": 0,
+     "fin": 1052.55,
+     "personajes": [
+      "Robert",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      38
+     ]
+    },
+    {
+     "n": 5,
+     "t": 1056.31,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 50,
+     "perfect": false,
+     "dano": [
+      68,
+      78
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 24,
+     "remontada": 3,
+     "fin": 1104.68,
+     "personajes": [
+      "Chris",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      24,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    5,
+    1
+   ],
+   "personajes": [
+    "Chizuru",
+    "Mature"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_mature"
+   ],
+   "fin": 1104.68,
+   "resumen": {
+    "dano": [
+     353,
+     324
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     6
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 182
+   }
+  },
+  {
+   "n": 7,
+   "t": 1124.91,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 1124.91,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 38,
+     "perfect": false,
+     "dano": [
+      50,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 51,
+     "remontada": 11,
+     "fin": 1162.02,
+     "personajes": [
+      "Chizuru",
+      "Kim"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_kim"
+     ],
+     "vida_final": [
+      0,
+      51
+     ]
+    },
+    {
+     "n": 2,
+     "t": 1166.2,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 12,
+     "perfect": false,
+     "dano": [
+      73,
+      2
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 98,
+     "remontada": 0,
+     "fin": 1182.94,
+     "personajes": [
+      "Robert",
+      "Kim"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_kim"
+     ],
+     "vida_final": [
+      98,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 1186.79,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 47,
+     "perfect": false,
+     "dano": [
+      103,
+      72
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 30,
+     "remontada": 0,
+     "fin": 1232.86,
+     "personajes": [
+      "Robert",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      30,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 1236.88,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": true,
+     "dano": [
+      103,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 45,
+     "remontada": 0,
+     "fin": 1263.82,
+     "personajes": [
+      "Robert",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      45,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    6,
+    1
+   ],
+   "personajes": [
+    "Chizuru · Robert · Chris",
+    "Kim · Mature · Takuma"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_kim"
+   ],
+   "equipos": [
+    [
+     "Chizuru",
+     "Robert",
+     "Chris"
+    ],
+    [
+     "Kim",
+     "Mature",
+     "Takuma"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_chizuru",
+     "kof98_robert",
+     "kof98_chris"
+    ],
+    [
+     "kof98_kim",
+     "kof98_mature",
+     "kof98_takuma"
+    ]
+   ],
+   "fin": 1263.82,
+   "resumen": {
+    "dano": [
+     329,
+     177
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     3,
+     1
+    ],
+    "duracion": 122
+   }
+  },
+  {
+   "n": 8,
+   "t": 1283.52,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 1283.52,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      103,
+      35
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 66,
+     "remontada": 32,
+     "fin": 1319.59,
+     "personajes": [
+      "Chizuru",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      66,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 1323.53,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 16,
+     "perfect": false,
+     "dano": [
+      8,
+      88
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 92,
+     "remontada": 0,
+     "fin": 1343.55,
+     "personajes": [
+      "Chizuru",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      0,
+      92
+     ]
+    },
+    {
+     "n": 3,
+     "t": 1347.49,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": false,
+     "dano": [
+      103,
+      56
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 45,
+     "remontada": 39,
+     "fin": 1371.99,
+     "personajes": [
+      "Robert",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      45,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 1375.88,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 20,
+     "perfect": false,
+     "dano": [
+      59,
+      71
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 42,
+     "remontada": 0,
+     "fin": 1399.4,
+     "personajes": [
+      "Robert",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      42
+     ]
+    },
+    {
+     "n": 5,
+     "t": 1403.34,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": true,
+     "dano": [
+      0,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 69,
+     "remontada": 0,
+     "fin": 1427.93,
+     "personajes": [
+      "Chris",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      69
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    6,
+    2
+   ],
+   "personajes": [
+    "Chizuru",
+    "Mature"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_mature"
+   ],
+   "fin": 1427.93,
+   "resumen": {
+    "dano": [
+     273,
+     353
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     2
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 117
+   }
+  },
+  {
+   "n": 9,
+   "t": 1454.97,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 1454.97,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      53,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 48,
+     "remontada": 19,
+     "fin": 1486.07,
+     "personajes": [
+      "Chizuru",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      0,
+      48
+     ]
+    },
+    {
+     "n": 2,
+     "t": 1489.9,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      70,
+      43
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 58,
+     "remontada": 0,
+     "fin": 1522.17,
+     "personajes": [
+      "Robert",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      58,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 1526.03,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 36,
+     "perfect": false,
+     "dano": [
+      103,
+      33
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 49,
+     "remontada": 0,
+     "fin": 1562.29,
+     "personajes": [
+      "Robert",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      49,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 1566.2,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 29,
+     "perfect": false,
+     "dano": [
+      47,
+      71
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 54,
+     "remontada": 0,
+     "fin": 1597.81,
+     "personajes": [
+      "Robert",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      54
+     ]
+    },
+    {
+     "n": 5,
+     "t": 1601.71,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 53,
+     "perfect": false,
+     "dano": [
+      25,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 53,
+     "remontada": 2,
+     "fin": 1652.87,
+     "personajes": [
+      "Chris",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      53
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    6,
+    3
+   ],
+   "personajes": [
+    "Chizuru",
+    "Mature"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_mature"
+   ],
+   "fin": 1652.87,
+   "resumen": {
+    "dano": [
+     298,
+     353
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     3
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 179
+   }
+  },
+  {
+   "n": 10,
+   "t": 1683.67,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 1683.67,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 16,
+     "perfect": true,
+     "dano": [
+      103,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 1702.46,
+     "personajes": [
+      "Chizuru",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 1707.34,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      88,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 14,
+     "remontada": 17,
+     "fin": 1739.35,
+     "personajes": [
+      "Chizuru",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      0,
+      14
+     ]
+    },
+    {
+     "n": 3,
+     "t": 1743.22,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      39,
+      47
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 54,
+     "remontada": 0,
+     "fin": 1772.76,
+     "personajes": [
+      "Mai",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_mai",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      54,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 1776.68,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 32,
+     "perfect": false,
+     "dano": [
+      79,
+      80
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 23,
+     "remontada": 25,
+     "fin": 1810.0,
+     "personajes": [
+      "Mai",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_mai",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      23
+     ]
+    },
+    {
+     "n": 5,
+     "t": 1813.85,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 24,
+     "perfect": false,
+     "dano": [
+      11,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 32,
+     "remontada": 5,
+     "fin": 1840.72,
+     "personajes": [
+      "Chris",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      32
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    6,
+    4
+   ],
+   "personajes": [
+    "Chizuru",
+    "Mature"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_mature"
+   ],
+   "fin": 1840.72,
+   "resumen": {
+    "dano": [
+     320,
+     333
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     1
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 130
+   }
+  },
+  {
+   "n": 11,
+   "t": 1862.32,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 1862.32,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 54,
+     "perfect": false,
+     "dano": [
+      103,
+      50
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 51,
+     "remontada": 22,
+     "fin": 1913.04,
+     "personajes": [
+      "Chizuru",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      51,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 1916.86,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": false,
+     "dano": [
+      75,
+      65
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 27,
+     "remontada": 0,
+     "fin": 1944.25,
+     "personajes": [
+      "Chizuru",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      0,
+      27
+     ]
+    },
+    {
+     "n": 3,
+     "t": 1948.1,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": false,
+     "dano": [
+      52,
+      53
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 48,
+     "remontada": 0,
+     "fin": 1973.09,
+     "personajes": [
+      "Mai",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_mai",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      48,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 1977.08,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 38,
+     "perfect": false,
+     "dano": [
+      103,
+      74
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 0,
+     "remontada": 49,
+     "fin": 2016.17,
+     "personajes": [
+      "Mai",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_mai",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    7,
+    4
+   ],
+   "personajes": [
+    "Chizuru",
+    "Mature"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_mature"
+   ],
+   "fin": 2016.17,
+   "resumen": {
+    "dano": [
+     333,
+     242
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     3,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     1
+    ],
+    "duracion": 139
+   }
+  },
+  {
+   "n": 12,
+   "t": 2036.24,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 2036.24,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      103,
+      32
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 68,
+     "remontada": 22,
+     "fin": 2070.33,
+     "personajes": [
+      "Chizuru",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      68,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 2074.32,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 48,
+     "perfect": false,
+     "dano": [
+      93,
+      91
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 9,
+     "remontada": 0,
+     "fin": 2120.79,
+     "personajes": [
+      "Chizuru",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      0,
+      9
+     ]
+    },
+    {
+     "n": 3,
+     "t": 2124.75,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 12,
+     "perfect": false,
+     "dano": [
+      26,
+      16
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 84,
+     "remontada": 0,
+     "fin": 2140.8,
+     "personajes": [
+      "Mai",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_mai",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      84,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 2144.77,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 36,
+     "perfect": false,
+     "dano": [
+      72,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 30,
+     "remontada": 0,
+     "fin": 2182.03,
+     "personajes": [
+      "Mai",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_mai",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      30
+     ]
+    },
+    {
+     "n": 5,
+     "t": 2185.99,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": false,
+     "dano": [
+      50,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 0,
+     "remontada": 42,
+     "fin": 2210.34,
+     "personajes": [
+      "Chris",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      0
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    7,
+    5
+   ],
+   "personajes": [
+    "Chizuru",
+    "Mature"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_mature"
+   ],
+   "fin": 2210.34,
+   "resumen": {
+    "dano": [
+     344,
+     345
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     5,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 152
+   }
+  },
+  {
+   "n": 13,
+   "t": 2230.65,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 2230.65,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 46,
+     "perfect": false,
+     "dano": [
+      74,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 28,
+     "remontada": 15,
+     "fin": 2275.24,
+     "personajes": [
+      "Chizuru",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      0,
+      28
+     ]
+    },
+    {
+     "n": 2,
+     "t": 2279.6,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 51,
+     "perfect": false,
+     "dano": [
+      24,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 20,
+     "remontada": 0,
+     "fin": 2328.7,
+     "personajes": [
+      "Mai",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_mai",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      0,
+      20
+     ]
+    },
+    {
+     "n": 3,
+     "t": 2332.59,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 8,
+     "perfect": false,
+     "dano": [
+      33,
+      28
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 72,
+     "remontada": 0,
+     "fin": 2345.38,
+     "personajes": [
+      "Chris",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      72,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 2349.3,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 24,
+     "perfect": false,
+     "dano": [
+      46,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 55,
+     "remontada": 25,
+     "fin": 2376.02,
+     "personajes": [
+      "Chris",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      0,
+      55
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    7,
+    6
+   ],
+   "personajes": [
+    "Chizuru",
+    "Mature"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_mature"
+   ],
+   "fin": 2376.02,
+   "resumen": {
+    "dano": [
+     177,
+     337
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     3
+    ],
+    "duracion": 129
+   }
+  },
+  {
+   "n": 14,
+   "t": 2405.49,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 2405.49,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 52,
+     "perfect": false,
+     "dano": [
+      103,
+      92
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 10,
+     "remontada": 46,
+     "fin": 2454.57,
+     "personajes": [
+      "Chizuru",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      10,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 2458.49,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 12,
+     "perfect": false,
+     "dano": [
+      41,
+      23
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 60,
+     "remontada": 0,
+     "fin": 2474.71,
+     "personajes": [
+      "Chizuru",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      0,
+      60
+     ]
+    },
+    {
+     "n": 3,
+     "t": 2478.63,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 43,
+     "perfect": false,
+     "dano": [
+      90,
+      70
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 32,
+     "remontada": 12,
+     "fin": 2520.76,
+     "personajes": [
+      "Chris",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      32,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 2524.66,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 12,
+     "perfect": false,
+     "dano": [
+      8,
+      49
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 92,
+     "remontada": 0,
+     "fin": 2541.24,
+     "personajes": [
+      "Chris",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      92
+     ]
+    },
+    {
+     "n": 5,
+     "t": 2545.16,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      44,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 57,
+     "remontada": 5,
+     "fin": 2579.84,
+     "personajes": [
+      "Mature",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_mature",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      57
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    7,
+    7
+   ],
+   "personajes": [
+    "Chizuru",
+    "Mature"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_mature"
+   ],
+   "fin": 2579.84,
+   "resumen": {
+    "dano": [
+     286,
+     337
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 152
+   }
+  },
+  {
+   "n": 15,
+   "t": 2602.43,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 2602.43,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": true,
+     "dano": [
+      0,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 2635.01,
+     "personajes": [
+      "Chizuru",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 2,
+     "t": 2639.87,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 27,
+     "perfect": false,
+     "dano": [
+      103,
+      20
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 80,
+     "remontada": 7,
+     "fin": 2669.05,
+     "personajes": [
+      "Robert",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      80,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 2673.38,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 27,
+     "perfect": false,
+     "dano": [
+      103,
+      47
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 54,
+     "remontada": 6,
+     "fin": 2702.2,
+     "personajes": [
+      "Robert",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      54,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 2706.06,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 11,
+     "perfect": true,
+     "dano": [
+      0,
+      80
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 2721.58,
+     "personajes": [
+      "Robert",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 5,
+     "t": 2726.57,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      24,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 76,
+     "remontada": 8,
+     "fin": 2758.35,
+     "personajes": [
+      "Chris",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      76
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    7,
+    8
+   ],
+   "personajes": [
+    "Chizuru · Robert · Chris",
+    "Mature · Daimon · Takuma"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_mature"
+   ],
+   "equipos": [
+    [
+     "Chizuru",
+     "Robert",
+     "Chris"
+    ],
+    [
+     "Mature",
+     "Daimon",
+     "Takuma"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_chizuru",
+     "kof98_robert",
+     "kof98_chris"
+    ],
+    [
+     "kof98_mature",
+     "kof98_daimon",
+     "kof98_takuma"
+    ]
+   ],
+   "fin": 2758.35,
+   "resumen": {
+    "dano": [
+     230,
+     353
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     4
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     2
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 128
+   }
+  },
+  {
+   "n": 16,
+   "t": 2778.79,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 2778.79,
+     "ganador": 2,
+     "motivo": "time",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      96,
+      101
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 6,
+     "remontada": 25,
+     "fin": 2833.45,
+     "personajes": [
+      "Chizuru",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      1,
+      6
+     ]
+    },
+    {
+     "n": 2,
+     "t": 2838.91,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 14,
+     "perfect": false,
+     "dano": [
+      19,
+      14
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 86,
+     "remontada": 0,
+     "fin": 2857.05,
+     "personajes": [
+      "Robert",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_mature"
+     ],
+     "vida_final": [
+      86,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 2860.97,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 32,
+     "perfect": false,
+     "dano": [
+      103,
+      30
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 70,
+     "remontada": 0,
+     "fin": 2894.1,
+     "personajes": [
+      "Robert",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      70,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 2897.95,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 41,
+     "perfect": false,
+     "dano": [
+      33,
+      93
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 67,
+     "remontada": 0,
+     "fin": 2939.08,
+     "personajes": [
+      "Robert",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_robert",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      67
+     ]
+    },
+    {
+     "n": 5,
+     "t": 2942.98,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 44,
+     "perfect": false,
+     "dano": [
+      86,
+      57
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 44,
+     "remontada": 0,
+     "fin": 2986.45,
+     "personajes": [
+      "Chris",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      44,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    8,
+    8
+   ],
+   "personajes": [
+    "Chizuru · Robert · Chris",
+    "Mature · Daimon · Takuma"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_mature"
+   ],
+   "equipos": [
+    [
+     "Chizuru",
+     "Robert",
+     "Chris"
+    ],
+    [
+     "Mature",
+     "Daimon",
+     "Takuma"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_chizuru",
+     "kof98_robert",
+     "kof98_chris"
+    ],
+    [
+     "kof98_mature",
+     "kof98_daimon",
+     "kof98_takuma"
+    ]
+   ],
+   "fin": 2986.45,
+   "resumen": {
+    "dano": [
+     337,
+     295
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 191
+   }
+  },
+  {
+   "n": 17,
+   "t": 3015.39,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 3015.39,
+     "ganador": null,
+     "motivo": null,
+     "duracion": null,
+     "perfect": false,
+     "dano": [
+      74,
+      62
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": null,
+     "remontada": 0,
+     "sin_cierre": true,
+     "fin": null,
+     "vida_final": [
+      39,
+      28
+     ]
+    }
+   ],
+   "ganador": null,
+   "marcador": null,
+   "personajes": [
+    "Chizuru · Robert · Chris",
+    "Iori · Mature · Takuma"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_iori"
+   ],
+   "equipos": [
+    [
+     "Chizuru",
+     "Robert",
+     "Chris"
+    ],
+    [
+     "Iori",
+     "Mature",
+     "Takuma"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_chizuru",
+     "kof98_robert",
+     "kof98_chris"
+    ],
+    [
+     "kof98_iori",
+     "kof98_mature",
+     "kof98_takuma"
+    ]
+   ],
+   "resumen": {
+    "dano": [
+     74,
+     62
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     0
+    ],
+    "duracion": 0
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 32.78,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 54.51,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 93.29,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 132.24,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 134.27,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 182.59,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 214.06,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 214.65,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 242.05,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 248.71,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 273.02,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 324.71,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 330.89,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 361.75,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 367.27,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 381.29,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 395.61,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 431.91,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 437.34,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 438.67,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 445.54,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 467.4,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 515.42,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 521.51,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 546.95,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 552.19,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 584.08,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 586.52,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 587.78,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 620.01,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 630.75,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 670.29,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 675.04,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 680.58,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 68
+  },
+  {
+   "t": 743.68,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 770.74,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 795.32,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 830.18,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 843.89,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 854.44,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 881.13,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 929.79,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 932.45,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 948.35,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 950.57,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 973.07,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1022.14,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1030.01,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1041.78,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1047.68,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1052.21,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1100.7,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1104.34,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1161.69,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1182.61,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1232.53,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1263.48,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1263.82,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 1313.49,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 1316.24,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 1319.27,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1343.22,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1361.41,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 1371.66,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1383.8,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1399.07,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1420.32,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1427.59,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1427.93,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 1485.74,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1509.14,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1521.83,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1561.96,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1597.49,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1613.5,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1624.28,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1652.53,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1696.38,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 1699.8,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 1702.13,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1702.46,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 1721.86,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 1739.01,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1772.43,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1809.67,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1826.76,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1840.39,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1895.72,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 1912.71,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1929.3,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 1943.92,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1972.76,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1984.21,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1994.64,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 2015.08,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 2015.84,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 2064.44,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 2067.53,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 2070.01,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 2118.21,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 2120.46,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 2140.48,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 2153.54,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 2163.8,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 2181.7,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 2194.52,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 2206.38,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 2210.0,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 2249.89,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 2274.91,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 2324.48,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 2328.37,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 2345.05,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 2375.69,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 2431.88,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 2445.21,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 2454.24,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 2474.38,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 2520.43,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 2535.45,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 2540.91,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 2575.04,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 2579.5,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 2622.82,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 2634.68,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 2635.01,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 2668.72,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 2701.87,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 2713.71,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 2721.26,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 2721.58,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 2749.25,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 2754.27,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 2758.01,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 2800.38,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 2856.73,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 2893.77,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 2938.75,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 2986.11,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 3032.47,
+   "tipo": "super",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 1162,
+   "pelea_rapida": 117,
+   "swaps": 5,
+   "rondas": 39,
+   "rondas_jugadas": 75,
+   "ko": 38,
+   "timeup": 1,
+   "perfects": 2,
+   "dano": 4973,
+   "recibido": 4878,
+   "golpes": 886,
+   "golpe_max": 24,
+   "primero": 36,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 26,
+   "mareos": 2,
+   "ronda_rapida": 4,
+   "al_limite": 5,
+   "remontada": 68,
+   "racha": 4,
+   "vida_al_ganar": 52,
+   "dano_medio": 5.6,
+   "dur_avg": 30,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 63,
+   "dano_barras": 48.28,
+   "recibido_barras": 47.36,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.23
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 238,
+   "stun_peor": 124,
+   "mareado_veces": 2,
+   "dur_sum": 1149,
+   "pelea_rapida": 144,
+   "swaps": 7,
+   "rondas": 36,
+   "rondas_jugadas": 75,
+   "ko": 35,
+   "timeup": 1,
+   "perfects": 3,
+   "dano": 4878,
+   "recibido": 4973,
+   "golpes": 1041,
+   "golpe_max": 26,
+   "primero": 40,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 33,
+   "mareos": 0,
+   "ronda_rapida": 11,
+   "al_limite": 6,
+   "remontada": 42,
+   "racha": 4,
+   "vida_al_ganar": 45,
+   "dano_medio": 4.7,
+   "dur_avg": 32,
+   "stun_seg": 4.0,
+   "stun_peor_seg": 2.1,
+   "vida_perdida_ronda": 64,
+   "dano_barras": 47.36,
+   "recibido_barras": 48.28,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.25
+  }
+ ]
+}
