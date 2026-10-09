@@ -468,49 +468,6 @@
    "rondas": 18
   },
   {
-   "quark": "1791055774928-7930",
-   "juego": "ssf2xjr1",
-   "juego_nombre": "Super Street Fighter II X",
-   "juego_corto": "SSF2X",
-   "fecha": "2026-10-03",
-   "youtube": null,
-   "duracion": 584.3,
-   "marcador": [
-    5,
-    2
-   ],
-   "peleas": 7,
-   "jugadores": [
-    {
-     "nombre": "MegamanX-8",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Zangief",
-     "clave": "zangief",
-     "personajes": [
-      "Zangief"
-     ],
-     "claves": [
-      "zangief"
-     ]
-    },
-    {
-     "nombre": "ElBachaco",
-     "pais": "us",
-     "rango_letra": "B",
-     "personaje": "Blanka",
-     "clave": "blanka",
-     "personajes": [
-      "Blanka"
-     ],
-     "claves": [
-      "blanka"
-     ]
-    }
-   ],
-   "rondas": 17
-  },
-  {
    "quark": "1791000164232-4534",
    "juego": "ssf2xjr1",
    "juego_nombre": "Super Street Fighter II X",
