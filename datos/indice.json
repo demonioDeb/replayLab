@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-09 01:34",
+ "actualizado": "2026-10-09 01:35",
  "videos": [
   {
    "quark": "1791493843978-2248",
@@ -180,51 +180,6 @@
     }
    ],
    "rondas": 18
-  },
-  {
-   "quark": "1791469532210-3577",
-   "juego": "ssf2xjr1",
-   "juego_nombre": "Super Street Fighter II X",
-   "juego_corto": "SSF2X",
-   "fecha": "2026-10-08",
-   "youtube": "19gseUhuNyM",
-   "duracion": 1026.3,
-   "marcador": [
-    4,
-    5
-   ],
-   "peleas": 9,
-   "jugadores": [
-    {
-     "nombre": "BHF | garra2000",
-     "pais": "br",
-     "rango_letra": "B",
-     "personaje": "Chun-Li",
-     "clave": "chunli",
-     "personajes": [
-      "Chun-Li",
-      "Cammy"
-     ],
-     "claves": [
-      "chunli",
-      "cammy"
-     ]
-    },
-    {
-     "nombre": "BHF | vaideitarex",
-     "pais": "br",
-     "rango_letra": "B",
-     "personaje": "O. Ken",
-     "clave": "ken",
-     "personajes": [
-      "O. Ken"
-     ],
-     "claves": [
-      "ken"
-     ]
-    }
-   ],
-   "rondas": 23
   },
   {
    "quark": "1791260850064-8625",
