@@ -1,6 +1,49 @@
 {
- "actualizado": "2026-10-09 04:43",
+ "actualizado": "2026-10-09 17:58",
  "videos": [
+  {
+   "quark": "1791539219571-5150",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-09",
+   "youtube": "dCG6EDS7Yu0",
+   "duracion": 757.9,
+   "marcador": [
+    5,
+    4
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "ara@VF2",
+     "pais": "jp",
+     "rango_letra": "A",
+     "personaje": "E. Honda",
+     "clave": "honda",
+     "personajes": [
+      "E. Honda"
+     ],
+     "claves": [
+      "honda"
+     ]
+    },
+    {
+     "nombre": "xryuit",
+     "pais": "jp",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    }
+   ],
+   "rondas": 21
+  },
   {
    "quark": "1791507079648-5414",
    "juego": "kof98",

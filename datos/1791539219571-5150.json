@@ -1,0 +1,1457 @@
+{
+ "version": 8,
+ "quark": "1791539219571-5150",
+ "carpeta": "20261009_ara_VF2_vs_xryuit_1791539219571-5150",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": true
+ },
+ "fecha": "2026-10-09",
+ "youtube": "dCG6EDS7Yu0",
+ "titulo": "Super Street Fighter II X | 🇯🇵 ara@VF2 vs 🇯🇵 xryuit",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "ara@VF2",
+   "pais": "jp",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "E. Honda",
+   "clave": "honda",
+   "personajes": [
+    "E. Honda"
+   ],
+   "claves": [
+    "honda"
+   ],
+   "swaps": 0,
+   "super": "Double Headbutt"
+  },
+  {
+   "nombre": "xryuit",
+   "pais": "jp",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Ryu",
+   "clave": "ryu",
+   "personajes": [
+    "Ryu"
+   ],
+   "claves": [
+    "ryu"
+   ],
+   "swaps": 0,
+   "super": "Shinku Hadouken"
+  }
+ ],
+ "marcador": [
+  5,
+  4
+ ],
+ "duracion": 757.9,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 7.72,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 7.72,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 29,
+     "perfect": false,
+     "dano": [
+      144,
+      44
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 69,
+     "remontada": 23,
+     "fin": 25.72,
+     "vida_final": [
+      69,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 31.82,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "dano": [
+      144,
+      77
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 46,
+     "remontada": 1,
+     "fin": 59.19,
+     "vida_final": [
+      46,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "E. Honda",
+    "Ryu"
+   ],
+   "claves": [
+    "honda",
+    "ryu"
+   ],
+   "fin": 59.68,
+   "resumen": {
+    "dano": [
+     288,
+     121
+    ],
+    "combos": [
+     0,
+     1
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 74
+   }
+  },
+  {
+   "n": 2,
+   "t": 76.29,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 76.29,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 58,
+     "perfect": false,
+     "dano": [
+      114,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 20,
+     "remontada": 10,
+     "fin": 110.98,
+     "vida_final": [
+      0,
+      20
+     ]
+    },
+    {
+     "n": 2,
+     "t": 117.08,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": false,
+     "dano": [
+      144,
+      35
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 75,
+     "remontada": 0,
+     "fin": 131.65,
+     "vida_final": [
+      75,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 137.89,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 78,
+     "perfect": false,
+     "dano": [
+      142,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 1,
+     "remontada": 0,
+     "fin": 183.46,
+     "vida_final": [
+      0,
+      1
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    1
+   ],
+   "personajes": [
+    "E. Honda",
+    "Ryu"
+   ],
+   "claves": [
+    "honda",
+    "ryu"
+   ],
+   "fin": 183.95,
+   "resumen": {
+    "dano": [
+     400,
+     323
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 158
+   }
+  },
+  {
+   "n": 3,
+   "t": 198.86,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 198.86,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 59,
+     "perfect": false,
+     "dano": [
+      138,
+      144
+     ],
+     "combos": [
+      2,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 55,
+     "fin": 233.39,
+     "vida_final": [
+      0,
+      4
+     ]
+    },
+    {
+     "n": 2,
+     "t": 239.16,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": false,
+     "dano": [
+      144,
+      25
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 82,
+     "remontada": 14,
+     "fin": 253.92,
+     "vida_final": [
+      82,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 259.76,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 49,
+     "perfect": false,
+     "dano": [
+      97,
+      144
+     ],
+     "combos": [
+      1,
+      1
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 32,
+     "remontada": 7,
+     "fin": 290.05,
+     "vida_final": [
+      0,
+      32
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    2
+   ],
+   "personajes": [
+    "E. Honda",
+    "Ryu"
+   ],
+   "claves": [
+    "honda",
+    "ryu"
+   ],
+   "fin": 290.54,
+   "resumen": {
+    "dano": [
+     379,
+     313
+    ],
+    "combos": [
+     3,
+     1
+    ],
+    "supers": [
+     2,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 130
+   }
+  },
+  {
+   "n": 4,
+   "t": 305.65,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 305.65,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 48,
+     "perfect": false,
+     "dano": [
+      69,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 52,
+     "remontada": 33,
+     "fin": 334.06,
+     "vida_final": [
+      0,
+      52
+     ]
+    },
+    {
+     "n": 2,
+     "t": 339.86,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      54,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 62,
+     "remontada": 38,
+     "fin": 363.82,
+     "vida_final": [
+      0,
+      62
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    3
+   ],
+   "personajes": [
+    "E. Honda",
+    "Ryu"
+   ],
+   "claves": [
+    "honda",
+    "ryu"
+   ],
+   "fin": 364.3,
+   "resumen": {
+    "dano": [
+     123,
+     288
+    ],
+    "combos": [
+     0,
+     1
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 87
+   }
+  },
+  {
+   "n": 5,
+   "t": 379.4,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 379.4,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      144,
+      52
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 63,
+     "remontada": 36,
+     "fin": 402.08,
+     "vida_final": [
+      63,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 408.16,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": false,
+     "dano": [
+      144,
+      26
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 81,
+     "remontada": 0,
+     "fin": 422.8,
+     "vida_final": [
+      81,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    3
+   ],
+   "personajes": [
+    "E. Honda",
+    "Ryu"
+   ],
+   "claves": [
+    "honda",
+    "ryu"
+   ],
+   "fin": 423.29,
+   "resumen": {
+    "dano": [
+     288,
+     78
+    ],
+    "combos": [
+     1,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 59
+   }
+  },
+  {
+   "n": 6,
+   "t": 439.1,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 439.1,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      144,
+      103
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 28,
+     "remontada": 27,
+     "fin": 460.3,
+     "vida_final": [
+      28,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 466.5,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      144,
+      75
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 47,
+     "remontada": 35,
+     "fin": 487.98,
+     "vida_final": [
+      47,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    3
+   ],
+   "personajes": [
+    "E. Honda",
+    "Ryu"
+   ],
+   "claves": [
+    "honda",
+    "ryu"
+   ],
+   "fin": 488.47,
+   "resumen": {
+    "dano": [
+     288,
+     178
+    ],
+    "combos": [
+     2,
+     0
+    ],
+    "supers": [
+     2,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 67
+   }
+  },
+  {
+   "n": 7,
+   "t": 504.88,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 504.88,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 57,
+     "perfect": false,
+     "dano": [
+      144,
+      112
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 22,
+     "remontada": 0,
+     "fin": 538.41,
+     "vida_final": [
+      22,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 544.6,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      144,
+      45
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 68,
+     "remontada": 0,
+     "fin": 562.75,
+     "vida_final": [
+      68,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    4,
+    3
+   ],
+   "personajes": [
+    "E. Honda",
+    "Ryu"
+   ],
+   "claves": [
+    "honda",
+    "ryu"
+   ],
+   "fin": 563.24,
+   "resumen": {
+    "dano": [
+     288,
+     157
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     1
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 85
+   }
+  },
+  {
+   "n": 8,
+   "t": 579.56,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 579.56,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 46,
+     "perfect": false,
+     "dano": [
+      52,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 63,
+     "remontada": 19,
+     "fin": 607.32,
+     "vida_final": [
+      0,
+      63
+     ]
+    },
+    {
+     "n": 2,
+     "t": 613.19,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 16,
+     "perfect": true,
+     "dano": [
+      144,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 624.81,
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 631.05,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 67,
+     "perfect": false,
+     "dano": [
+      105,
+      144
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 27,
+     "remontada": 20,
+     "fin": 670.72,
+     "vida_final": [
+      0,
+      27
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    4,
+    4
+   ],
+   "personajes": [
+    "E. Honda",
+    "Ryu"
+   ],
+   "claves": [
+    "honda",
+    "ryu"
+   ],
+   "fin": 671.2,
+   "resumen": {
+    "dano": [
+     301,
+     288
+    ],
+    "combos": [
+     1,
+     0
+    ],
+    "supers": [
+     1,
+     1
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 129
+   }
+  },
+  {
+   "n": 9,
+   "t": 685.88,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 685.88,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 58,
+     "perfect": false,
+     "dano": [
+      144,
+      144
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 0,
+     "remontada": 55,
+     "fin": 720.61,
+     "vida_final": [
+      0,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 726.86,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      144,
+      138
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 40,
+     "fin": 751.42,
+     "vida_final": [
+      4,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    5,
+    4
+   ],
+   "personajes": [
+    "E. Honda",
+    "Ryu"
+   ],
+   "claves": [
+    "honda",
+    "ryu"
+   ],
+   "fin": 751.89,
+   "resumen": {
+    "dano": [
+     288,
+     282
+    ],
+    "combos": [
+     2,
+     0
+    ],
+    "supers": [
+     2,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 97
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 22.67,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 25.72,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 58.87,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 59.19,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 109.86,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 110.98,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 131.64,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 157.52,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 183.46,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 215.62,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 228.02,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 233.37,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 233.39,
+   "tipo": "remontada",
+   "jugador": 2,
+   "dato": 55
+  },
+  {
+   "t": 253.92,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 279.61,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 289.32,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 290.05,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 290.05,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 334.04,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 360.85,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 363.82,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 402.08,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 416.34,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 422.79,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 459.31,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 460.3,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 460.3,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 4
+  },
+  {
+   "t": 485.88,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 487.01,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 487.98,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 487.98,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 4
+  },
+  {
+   "t": 537.91,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 538.41,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 552.39,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 561.96,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 562.74,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 607.32,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 623.54,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 624.81,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 624.81,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 659.58,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 663.58,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 670.72,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 717.18,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 720.61,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 720.61,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 55
+  },
+  {
+   "t": 746.16,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 751.42,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 17,
+   "stun_frames": 128,
+   "stun_peor": 128,
+   "mareado_veces": 1,
+   "dur_sum": 442,
+   "pelea_rapida": 44,
+   "swaps": 0,
+   "rondas": 13,
+   "rondas_jugadas": 21,
+   "ko": 13,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 2643,
+   "recibido": 2028,
+   "golpes": 171,
+   "golpe_max": 33,
+   "primero": 15,
+   "combos": 9,
+   "combo_max": 4,
+   "combo_dano": 49,
+   "supers": 10,
+   "mareos": 5,
+   "ronda_rapida": 16,
+   "al_limite": 2,
+   "remontada": 55,
+   "racha": 6,
+   "vida_al_ganar": 53,
+   "dano_medio": 15.5,
+   "dur_avg": 34,
+   "stun_seg": 2.1,
+   "stun_peor_seg": 2.1,
+   "vida_perdida_ronda": 67,
+   "dano_barras": 18.35,
+   "recibido_barras": 14.08,
+   "combo_dano_barras": 0.34,
+   "golpe_max_barras": 0.23
+  },
+  {
+   "meter_full": 8,
+   "stun_frames": 394,
+   "stun_peor": 118,
+   "mareado_veces": 5,
+   "dur_sum": 444,
+   "pelea_rapida": 59,
+   "swaps": 0,
+   "rondas": 8,
+   "rondas_jugadas": 21,
+   "ko": 8,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 2028,
+   "recibido": 2643,
+   "golpes": 157,
+   "golpe_max": 33,
+   "primero": 6,
+   "combos": 3,
+   "combo_max": 3,
+   "combo_dano": 35,
+   "supers": 5,
+   "mareos": 1,
+   "ronda_rapida": 39,
+   "al_limite": 2,
+   "remontada": 55,
+   "racha": 3,
+   "vida_al_ganar": 33,
+   "dano_medio": 12.9,
+   "dur_avg": 56,
+   "stun_seg": 6.6,
+   "stun_peor_seg": 2.0,
+   "vida_perdida_ronda": 87,
+   "dano_barras": 14.08,
+   "recibido_barras": 18.35,
+   "combo_dano_barras": 0.24,
+   "golpe_max_barras": 0.23
+  }
+ ]
+}
