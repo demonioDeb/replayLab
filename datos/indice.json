@@ -1,6 +1,57 @@
 {
- "actualizado": "2026-10-09 01:35",
+ "actualizado": "2026-10-09 02:58",
  "videos": [
+  {
+   "quark": "1791507079648-5414",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2026-10-09",
+   "youtube": "PjTL8DeUWzQ",
+   "duracion": 1811.0,
+   "marcador": [
+    4,
+    4
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "bukeyishi",
+     "pais": "pa",
+     "rango_letra": "B",
+     "personaje": "Saisyu · Iori · Mature",
+     "clave": "kof98_saisyu",
+     "personajes": [
+      "Saisyu",
+      "Iori",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_saisyu",
+      "kof98_iori",
+      "kof98_mature"
+     ]
+    },
+    {
+     "nombre": "MORGANGTZ",
+     "pais": "co",
+     "rango_letra": "A",
+     "personaje": "Iori · Chizuru · Chris",
+     "clave": "kof98_iori",
+     "personajes": [
+      "Iori",
+      "Chizuru",
+      "Chris"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_chizuru",
+      "kof98_chris"
+     ]
+    }
+   ],
+   "rondas": 38
+  },
   {
    "quark": "1791493843978-2248",
    "juego": "ssf2xjr1",
