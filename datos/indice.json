@@ -1,6 +1,53 @@
 {
- "actualizado": "2026-10-09 17:58",
+ "actualizado": "2026-10-09 19:05",
  "videos": [
+  {
+   "quark": "1791563244915-7491",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-09",
+   "youtube": "Xhis_smxz1w",
+   "duracion": 2237.1,
+   "marcador": [
+    8,
+    10
+   ],
+   "peleas": 18,
+   "jugadores": [
+    {
+     "nombre": "TTB-Ricks Alonso",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison",
+      "E. Honda"
+     ],
+     "claves": [
+      "dictator",
+      "honda"
+     ]
+    },
+    {
+     "nombre": "El Regio Lero Lero",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu",
+      "Blanka"
+     ],
+     "claves": [
+      "ryu",
+      "blanka"
+     ]
+    }
+   ],
+   "rondas": 47
+  },
   {
    "quark": "1791539219571-5150",
    "juego": "ssf2xjr1",
