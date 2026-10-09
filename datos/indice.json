@@ -1,6 +1,92 @@
 {
- "actualizado": "2026-10-08 20:09",
+ "actualizado": "2026-10-09 01:32",
  "videos": [
+  {
+   "quark": "1791493843978-2248",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-08",
+   "youtube": null,
+   "duracion": 279.7,
+   "marcador": [
+    3,
+    0
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "robertodaimon",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Dhalsim",
+     "clave": "dhalsim",
+     "personajes": [
+      "Dhalsim"
+     ],
+     "claves": [
+      "dhalsim"
+     ]
+    },
+    {
+     "nombre": "stronda",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Vega",
+     "clave": "claw",
+     "personajes": [
+      "Vega"
+     ],
+     "claves": [
+      "claw"
+     ]
+    }
+   ],
+   "rondas": 9
+  },
+  {
+   "quark": "1791493765930-7512",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-08",
+   "youtube": null,
+   "duracion": 163.5,
+   "marcador": [
+    2,
+    0
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "Cheznelson1",
+     "pais": "fr",
+     "rango_letra": "C",
+     "personaje": "E. Honda",
+     "clave": "honda",
+     "personajes": [
+      "E. Honda"
+     ],
+     "claves": [
+      "honda"
+     ]
+    },
+    {
+     "nombre": "Ryby_Niet",
+     "pais": "fr",
+     "rango_letra": "D",
+     "personaje": "Cammy",
+     "clave": "cammy",
+     "personajes": [
+      "Cammy"
+     ],
+     "claves": [
+      "cammy"
+     ]
+    }
+   ],
+   "rondas": 5
+  },
   {
    "quark": "1791476113723-1866",
    "juego": "kof98",
@@ -49,6 +135,51 @@
     }
    ],
    "rondas": 24
+  },
+  {
+   "quark": "1791473040552-5994",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-08",
+   "youtube": null,
+   "duracion": 837.6,
+   "marcador": [
+    4,
+    3
+   ],
+   "peleas": 7,
+   "jugadores": [
+    {
+     "nombre": "DR. DRINK",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    },
+    {
+     "nombre": "YONIVAL",
+     "pais": "ar",
+     "rango_letra": "B",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison",
+      "Vega"
+     ],
+     "claves": [
+      "dictator",
+      "claw"
+     ]
+    }
+   ],
+   "rondas": 18
   },
   {
    "quark": "1791471654566-6361",
@@ -394,6 +525,92 @@
     }
    ],
    "rondas": 18
+  },
+  {
+   "quark": "1791055774928-7930",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-03",
+   "youtube": null,
+   "duracion": 584.3,
+   "marcador": [
+    5,
+    2
+   ],
+   "peleas": 7,
+   "jugadores": [
+    {
+     "nombre": "MegamanX-8",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Zangief",
+     "clave": "zangief",
+     "personajes": [
+      "Zangief"
+     ],
+     "claves": [
+      "zangief"
+     ]
+    },
+    {
+     "nombre": "ElBachaco",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Blanka",
+     "clave": "blanka",
+     "personajes": [
+      "Blanka"
+     ],
+     "claves": [
+      "blanka"
+     ]
+    }
+   ],
+   "rondas": 17
+  },
+  {
+   "quark": "1791000164232-4534",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-03",
+   "youtube": null,
+   "duracion": 335.3,
+   "marcador": [
+    3,
+    1
+   ],
+   "peleas": 4,
+   "jugadores": [
+    {
+     "nombre": "VAMOS A DIVERTIRNOS",
+     "pais": "do",
+     "rango_letra": "B",
+     "personaje": "Vega",
+     "clave": "claw",
+     "personajes": [
+      "Vega"
+     ],
+     "claves": [
+      "claw"
+     ]
+    },
+    {
+     "nombre": "POLICE DE MONTREAL",
+     "pais": "ca",
+     "rango_letra": "A",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    }
+   ],
+   "rondas": 9
   },
   {
    "quark": "1790828329188-3709",

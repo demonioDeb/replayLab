@@ -1,0 +1,427 @@
+{
+ "version": 8,
+ "quark": "1791493765930-7512",
+ "carpeta": "20261008_Cheznelson1_vs_Ryby_Niet_1791493765930-7512",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": true
+ },
+ "fecha": "2026-10-08",
+ "youtube": null,
+ "titulo": "Super Street Fighter II X | 🇫🇷 Cheznelson1 vs 🇫🇷 Ryby_Niet",
+ "ft": 2,
+ "jugadores": [
+  {
+   "nombre": "Cheznelson1",
+   "pais": "fr",
+   "rango": 3,
+   "rango_letra": "C",
+   "personaje": "E. Honda",
+   "clave": "honda",
+   "personajes": [
+    "E. Honda"
+   ],
+   "claves": [
+    "honda"
+   ],
+   "swaps": 0,
+   "super": "Double Headbutt"
+  },
+  {
+   "nombre": "Ryby_Niet",
+   "pais": "fr",
+   "rango": 2,
+   "rango_letra": "D",
+   "personaje": "Cammy",
+   "clave": "cammy",
+   "personajes": [
+    "Cammy"
+   ],
+   "claves": [
+    "cammy"
+   ],
+   "swaps": 0,
+   "super": "Spin Drive Smasher"
+  }
+ ],
+ "marcador": [
+  2,
+  0
+ ],
+ "duracion": 163.5,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 7.45,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 7.45,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 49,
+     "perfect": false,
+     "dano": [
+      144,
+      114
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 20,
+     "remontada": 0,
+     "fin": 36.56,
+     "vida_final": [
+      20,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 43.28,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      74,
+      144
+     ],
+     "combos": [
+      1,
+      2
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 48,
+     "remontada": 16,
+     "fin": 64.65,
+     "vida_final": [
+      0,
+      48
+     ]
+    },
+    {
+     "n": 3,
+     "t": 71.41,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 38,
+     "perfect": false,
+     "dano": [
+      144,
+      87
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 39,
+     "remontada": 44,
+     "fin": 94.49,
+     "vida_final": [
+      39,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "E. Honda",
+    "Cammy"
+   ],
+   "claves": [
+    "honda",
+    "cammy"
+   ],
+   "fin": 94.97,
+   "resumen": {
+    "dano": [
+     362,
+     345
+    ],
+    "combos": [
+     1,
+     2
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 121
+   }
+  },
+  {
+   "n": 2,
+   "t": 112.64,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 112.64,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 23,
+     "perfect": false,
+     "dano": [
+      144,
+      38
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 73,
+     "remontada": 0,
+     "fin": 127.45,
+     "vida_final": [
+      73,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 134.26,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      144,
+      48
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 66,
+     "remontada": 28,
+     "fin": 157.04,
+     "vida_final": [
+      66,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "E. Honda",
+    "Cammy"
+   ],
+   "claves": [
+    "honda",
+    "cammy"
+   ],
+   "fin": 157.52,
+   "resumen": {
+    "dano": [
+     288,
+     86
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 60
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 29.68,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 36.56,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 64.65,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 94.49,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 95.15,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 127.45,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 152.16,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 157.04,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 5,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 147,
+   "pelea_rapida": 45,
+   "swaps": 0,
+   "rondas": 4,
+   "rondas_jugadas": 5,
+   "ko": 4,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 650,
+   "recibido": 431,
+   "golpes": 45,
+   "golpe_max": 30,
+   "primero": 2,
+   "combos": 1,
+   "combo_max": 2,
+   "combo_dano": 33,
+   "supers": 1,
+   "mareos": 2,
+   "ronda_rapida": 23,
+   "al_limite": 0,
+   "remontada": 44,
+   "racha": 3,
+   "vida_al_ganar": 50,
+   "dano_medio": 14.4,
+   "dur_avg": 37,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 60,
+   "dano_barras": 4.51,
+   "recibido_barras": 2.99,
+   "combo_dano_barras": 0.23,
+   "golpe_max_barras": 0.21
+  },
+  {
+   "meter_full": 1,
+   "stun_frames": 123,
+   "stun_peor": 76,
+   "mareado_veces": 2,
+   "dur_sum": 34,
+   "pelea_rapida": 0,
+   "swaps": 0,
+   "rondas": 1,
+   "rondas_jugadas": 5,
+   "ko": 1,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 431,
+   "recibido": 650,
+   "golpes": 23,
+   "golpe_max": 32,
+   "primero": 3,
+   "combos": 2,
+   "combo_max": 2,
+   "combo_dano": 53,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 34,
+   "al_limite": 0,
+   "remontada": 16,
+   "racha": 1,
+   "vida_al_ganar": 48,
+   "dano_medio": 18.7,
+   "dur_avg": 34,
+   "stun_seg": 2.1,
+   "stun_peor_seg": 1.3,
+   "vida_perdida_ronda": 90,
+   "dano_barras": 2.99,
+   "recibido_barras": 4.51,
+   "combo_dano_barras": 0.37,
+   "golpe_max_barras": 0.22
+  }
+ ]
+}

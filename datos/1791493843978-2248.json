@@ -1,0 +1,670 @@
+{
+ "version": 8,
+ "quark": "1791493843978-2248",
+ "carpeta": "20261008_robertodaimon_vs_stronda_1791493843978-2248",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": true
+ },
+ "fecha": "2026-10-08",
+ "youtube": null,
+ "titulo": "Super Street Fighter II X | 🇧🇷 robertodaimon vs 🇧🇷 stronda",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "robertodaimon",
+   "pais": "br",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Dhalsim",
+   "clave": "dhalsim",
+   "personajes": [
+    "Dhalsim"
+   ],
+   "claves": [
+    "dhalsim"
+   ],
+   "swaps": 0,
+   "super": "Yoga Inferno"
+  },
+  {
+   "nombre": "stronda",
+   "pais": "br",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Vega",
+   "clave": "claw",
+   "personajes": [
+    "Vega"
+   ],
+   "claves": [
+    "claw"
+   ],
+   "swaps": 0,
+   "super": "Rolling Izuna Drop"
+  }
+ ],
+ "marcador": [
+  3,
+  0
+ ],
+ "duracion": 279.7,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 4.18,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 4.18,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      144,
+      30
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 79,
+     "remontada": 0,
+     "fin": 21.43,
+     "vida_final": [
+      79,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 28.4,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 46,
+     "perfect": false,
+     "dano": [
+      139,
+      144
+     ],
+     "combos": [
+      2,
+      2
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 3,
+     "remontada": 85,
+     "fin": 56.83,
+     "vida_final": [
+      0,
+      3
+     ]
+    },
+    {
+     "n": 3,
+     "t": 62.85,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 17,
+     "perfect": false,
+     "dano": [
+      144,
+      16
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 88,
+     "remontada": 11,
+     "fin": 74.62,
+     "vida_final": [
+      88,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Dhalsim",
+    "Vega"
+   ],
+   "claves": [
+    "dhalsim",
+    "claw"
+   ],
+   "fin": 75.11,
+   "resumen": {
+    "dano": [
+     427,
+     190
+    ],
+    "combos": [
+     3,
+     2
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 91
+   }
+  },
+  {
+   "n": 2,
+   "t": 93.67,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 93.67,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      144,
+      51
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 64,
+     "remontada": 20,
+     "fin": 116.0,
+     "vida_final": [
+      64,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 122.43,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 15,
+     "perfect": true,
+     "dano": [
+      0,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 133.23,
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 3,
+     "t": 139.02,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 40,
+     "perfect": false,
+     "dano": [
+      144,
+      142
+     ],
+     "combos": [
+      0,
+      2
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 1,
+     "remontada": 19,
+     "fin": 163.29,
+     "vida_final": [
+      1,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "Dhalsim",
+    "Vega"
+   ],
+   "claves": [
+    "dhalsim",
+    "claw"
+   ],
+   "fin": 163.77,
+   "resumen": {
+    "dano": [
+     288,
+     337
+    ],
+    "combos": [
+     1,
+     3
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 92
+   }
+  },
+  {
+   "n": 3,
+   "t": 180.29,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 180.29,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 53,
+     "perfect": false,
+     "dano": [
+      144,
+      77
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 46,
+     "remontada": 0,
+     "fin": 212.19,
+     "vida_final": [
+      46,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 218.91,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 42,
+     "perfect": false,
+     "dano": [
+      95,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 34,
+     "remontada": 0,
+     "fin": 244.47,
+     "vida_final": [
+      0,
+      34
+     ]
+    },
+    {
+     "n": 3,
+     "t": 250.45,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      144,
+      70
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 51,
+     "remontada": 11,
+     "fin": 273.24,
+     "vida_final": [
+      51,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    0
+   ],
+   "personajes": [
+    "Dhalsim",
+    "Vega"
+   ],
+   "claves": [
+    "dhalsim",
+    "claw"
+   ],
+   "fin": 273.72,
+   "resumen": {
+    "dano": [
+     383,
+     291
+    ],
+    "combos": [
+     0,
+     1
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 132
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 21.41,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 47.56,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 50.38,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 53.97,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 55.43,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 56.83,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 56.83,
+   "tipo": "remontada",
+   "jugador": 2,
+   "dato": 85
+  },
+  {
+   "t": 71.95,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 71.95,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 74.62,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 111.61,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 116.0,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 131.63,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 133.23,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 133.23,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 151.47,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 163.29,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 212.19,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 226.5,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 244.47,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 273.24,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 4,
+   "stun_frames": 94,
+   "stun_peor": 94,
+   "mareado_veces": 1,
+   "dur_sum": 212,
+   "pelea_rapida": 70,
+   "swaps": 0,
+   "rondas": 6,
+   "rondas_jugadas": 9,
+   "ko": 6,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1098,
+   "recibido": 818,
+   "golpes": 108,
+   "golpe_max": 32,
+   "primero": 2,
+   "combos": 4,
+   "combo_max": 3,
+   "combo_dano": 50,
+   "supers": 2,
+   "mareos": 1,
+   "ronda_rapida": 17,
+   "al_limite": 1,
+   "remontada": 20,
+   "racha": 2,
+   "vida_al_ganar": 55,
+   "dano_medio": 10.2,
+   "dur_avg": 35,
+   "stun_seg": 1.6,
+   "stun_peor_seg": 1.6,
+   "vida_perdida_ronda": 63,
+   "dano_barras": 7.62,
+   "recibido_barras": 5.68,
+   "combo_dano_barras": 0.35,
+   "golpe_max_barras": 0.22
+  },
+  {
+   "meter_full": 2,
+   "stun_frames": 99,
+   "stun_peor": 99,
+   "mareado_veces": 1,
+   "dur_sum": 103,
+   "pelea_rapida": 0,
+   "swaps": 0,
+   "rondas": 3,
+   "rondas_jugadas": 9,
+   "ko": 3,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 818,
+   "recibido": 1098,
+   "golpes": 50,
+   "golpe_max": 34,
+   "primero": 7,
+   "combos": 6,
+   "combo_max": 3,
+   "combo_dano": 55,
+   "supers": 0,
+   "mareos": 1,
+   "ronda_rapida": 15,
+   "al_limite": 1,
+   "remontada": 85,
+   "racha": 1,
+   "vida_al_ganar": 46,
+   "dano_medio": 16.4,
+   "dur_avg": 34,
+   "stun_seg": 1.7,
+   "stun_peor_seg": 1.7,
+   "vida_perdida_ronda": 85,
+   "dano_barras": 5.68,
+   "recibido_barras": 7.62,
+   "combo_dano_barras": 0.38,
+   "golpe_max_barras": 0.24
+  }
+ ]
+}
