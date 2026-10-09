@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-09 01:32",
+ "actualizado": "2026-10-09 01:34",
  "videos": [
   {
    "quark": "1791493843978-2248",
@@ -180,65 +180,6 @@
     }
    ],
    "rondas": 18
-  },
-  {
-   "quark": "1791471654566-6361",
-   "juego": "kof98",
-   "juego_nombre": "The King of Fighters '98",
-   "juego_corto": "KOF98",
-   "fecha": "2026-10-08",
-   "youtube": "66XoIEK-3NE",
-   "duracion": 2992.4,
-   "marcador": [
-    7,
-    9
-   ],
-   "peleas": 17,
-   "jugadores": [
-    {
-     "nombre": "NONSANJJANG",
-     "pais": "kr",
-     "rango_letra": "B",
-     "personaje": "Chizuru · Robert · Chris",
-     "clave": "kof98_chizuru",
-     "personajes": [
-      "Chizuru",
-      "Robert",
-      "Chris"
-     ],
-     "claves": [
-      "kof98_chizuru",
-      "kof98_robert",
-      "kof98_chris"
-     ]
-    },
-    {
-     "nombre": "it`s",
-     "pais": "kr",
-     "rango_letra": "A",
-     "personaje": "Iori · Mature · Takuma",
-     "clave": "kof98_iori",
-     "personajes": [
-      "Kim",
-      "Kyo",
-      "Chizuru",
-      "Takuma",
-      "Iori",
-      "Mature",
-      "Daimon"
-     ],
-     "claves": [
-      "kof98_kim",
-      "kof98_kyo",
-      "kof98_chizuru",
-      "kof98_takuma",
-      "kof98_iori",
-      "kof98_mature",
-      "kof98_daimon"
-     ]
-    }
-   ],
-   "rondas": 76
   },
   {
    "quark": "1791469532210-3577",
