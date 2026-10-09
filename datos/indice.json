@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-09 04:11",
+ "actualizado": "2026-10-09 04:43",
  "videos": [
   {
    "quark": "1791507079648-5414",
@@ -102,6 +102,53 @@
     }
    ],
    "rondas": 41
+  },
+  {
+   "quark": "1791501443156-6465",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-08",
+   "youtube": "FcO3Jk4_DVw",
+   "duracion": 913.6,
+   "marcador": [
+    5,
+    3
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "Sonic Gyn",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison",
+      "Ryu"
+     ],
+     "claves": [
+      "dictator",
+      "ryu"
+     ]
+    },
+    {
+     "nombre": "GUTO RJ/BR",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu",
+      "Ken"
+     ],
+     "claves": [
+      "ryu",
+      "ken"
+     ]
+    }
+   ],
+   "rondas": 22
   },
   {
    "quark": "1791493843978-2248",
