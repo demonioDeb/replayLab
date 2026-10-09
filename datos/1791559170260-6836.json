@@ -1,0 +1,2683 @@
+{
+ "version": 8,
+ "quark": "1791559170260-6836",
+ "carpeta": "20261009_hogusung_vs_Niobin_1791559170260-6836",
+ "juego": "kof98",
+ "juego_nombre": "The King of Fighters '98",
+ "juego_corto": "KOF98",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": false
+ },
+ "fecha": "2026-10-09",
+ "youtube": "l-QI4hCMVW0",
+ "titulo": "The King of Fighters '98 | 🇰🇷 hogusung vs 🇰🇷 Niobin",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "hogusung",
+   "pais": "kr",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Iori · Mary · Daimon",
+   "clave": "kof98_iori",
+   "equipo": [
+    "Iori",
+    "Mary",
+    "Daimon"
+   ],
+   "equipo_claves": [
+    "kof98_iori",
+    "kof98_mary",
+    "kof98_daimon"
+   ],
+   "personajes": [
+    "Iori",
+    "Mary",
+    "Daimon"
+   ],
+   "claves": [
+    "kof98_iori",
+    "kof98_mary",
+    "kof98_daimon"
+   ],
+   "swaps": 2,
+   "super": ""
+  },
+  {
+   "nombre": "Niobin",
+   "pais": "kr",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Chizuru · Choi · Chris",
+   "clave": "kof98_chizuru",
+   "equipo": [
+    "Chizuru",
+    "Choi",
+    "Chris"
+   ],
+   "equipo_claves": [
+    "kof98_chizuru",
+    "kof98_choi",
+    "kof98_chris"
+   ],
+   "personajes": [
+    "Chizuru",
+    "Choi",
+    "Chris"
+   ],
+   "claves": [
+    "kof98_chizuru",
+    "kof98_choi",
+    "kof98_chris"
+   ],
+   "swaps": 0,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  5,
+  4
+ ],
+ "duracion": 1537.8,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 6.21,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 6.21,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      103,
+      34
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 66,
+     "remontada": 0,
+     "fin": 44.61,
+     "personajes": [
+      "Iori",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      66,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 48.64,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 56,
+     "perfect": false,
+     "dano": [
+      103,
+      53
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 34,
+     "remontada": 1,
+     "fin": 102.23,
+     "personajes": [
+      "Iori",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      34,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 106.13,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": false,
+     "dano": [
+      103,
+      9
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 37,
+     "remontada": 0,
+     "fin": 133.99,
+     "personajes": [
+      "Iori",
+      "Chris"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_chris"
+     ],
+     "vida_final": [
+      37,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Iori · Mary · Daimon",
+    "Chizuru · Choi · Chris"
+   ],
+   "claves": [
+    "kof98_iori",
+    "kof98_chizuru"
+   ],
+   "equipos": [
+    [
+     "Iori",
+     "Mary",
+     "Daimon"
+    ],
+    [
+     "Chizuru",
+     "Choi",
+     "Chris"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_iori",
+     "kof98_mary",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_chizuru",
+     "kof98_choi",
+     "kof98_chris"
+    ]
+   ],
+   "fin": 133.99,
+   "resumen": {
+    "dano": [
+     309,
+     96
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     0
+    ],
+    "duracion": 120
+   }
+  },
+  {
+   "n": 2,
+   "t": 173.23,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 173.23,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": false,
+     "dano": [
+      103,
+      41
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 60,
+     "remontada": 27,
+     "fin": 199.33,
+     "personajes": [
+      "Iori",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      60,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 203.18,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": false,
+     "dano": [
+      27,
+      86
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 73,
+     "remontada": 0,
+     "fin": 228.56,
+     "personajes": [
+      "Iori",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      0,
+      73
+     ]
+    },
+    {
+     "n": 3,
+     "t": 232.47,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 58,
+     "perfect": false,
+     "dano": [
+      100,
+      66
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 35,
+     "remontada": 27,
+     "fin": 287.99,
+     "personajes": [
+      "Mary",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      35,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 291.96,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      100,
+      49
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 2,
+     "remontada": 34,
+     "fin": 328.92,
+     "personajes": [
+      "Mary",
+      "Chris"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_chris"
+     ],
+     "vida_final": [
+      0,
+      2
+     ]
+    },
+    {
+     "n": 5,
+     "t": 332.79,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 8,
+     "perfect": false,
+     "dano": [
+      23,
+      13
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 87,
+     "remontada": 0,
+     "fin": 345.4,
+     "personajes": [
+      "Daimon",
+      "Chris"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_chris"
+     ],
+     "vida_final": [
+      87,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "Iori · Mary · Daimon",
+    "Chizuru · Choi · Chris"
+   ],
+   "claves": [
+    "kof98_iori",
+    "kof98_chizuru"
+   ],
+   "equipos": [
+    [
+     "Iori",
+     "Mary",
+     "Daimon"
+    ],
+    [
+     "Chizuru",
+     "Choi",
+     "Chris"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_iori",
+     "kof98_mary",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_chizuru",
+     "kof98_choi",
+     "kof98_chris"
+    ]
+   ],
+   "fin": 345.4,
+   "resumen": {
+    "dano": [
+     353,
+     255
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     3,
+     2
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 150
+   }
+  },
+  {
+   "n": 3,
+   "t": 387.3,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 387.3,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 38,
+     "perfect": false,
+     "dano": [
+      83,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 19,
+     "remontada": 41,
+     "fin": 424.34,
+     "personajes": [
+      "Iori",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      0,
+      19
+     ]
+    },
+    {
+     "n": 2,
+     "t": 428.21,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      40,
+      100
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 2,
+     "remontada": 0,
+     "fin": 460.33,
+     "personajes": [
+      "Mary",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      2,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 464.4,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 4,
+     "perfect": true,
+     "dano": [
+      0,
+      27
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 474.9,
+     "personajes": [
+      "Mary",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 4,
+     "t": 479.8,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      103,
+      28
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 72,
+     "remontada": 11,
+     "fin": 512.34,
+     "personajes": [
+      "Daimon",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      72,
+      0
+     ]
+    },
+    {
+     "n": 5,
+     "t": 517.41,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 54,
+     "perfect": false,
+     "dano": [
+      103,
+      78
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 16,
+     "remontada": 26,
+     "fin": 569.09,
+     "personajes": [
+      "Daimon",
+      "Chris"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_chris"
+     ],
+     "vida_final": [
+      16,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    0
+   ],
+   "personajes": [
+    "Iori · Mary · Daimon",
+    "Chizuru · Choi · Chris"
+   ],
+   "claves": [
+    "kof98_iori",
+    "kof98_chizuru"
+   ],
+   "equipos": [
+    [
+     "Iori",
+     "Mary",
+     "Daimon"
+    ],
+    [
+     "Chizuru",
+     "Choi",
+     "Chris"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_iori",
+     "kof98_mary",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_chizuru",
+     "kof98_choi",
+     "kof98_chris"
+    ]
+   ],
+   "fin": 569.09,
+   "resumen": {
+    "dano": [
+     329,
+     336
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 157
+   }
+  },
+  {
+   "n": 4,
+   "t": 589.72,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 589.72,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      70,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 32,
+     "remontada": 1,
+     "fin": 620.86,
+     "personajes": [
+      "Iori",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      0,
+      32
+     ]
+    },
+    {
+     "n": 2,
+     "t": 625.38,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      30,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 22,
+     "remontada": 0,
+     "fin": 654.03,
+     "personajes": [
+      "Daimon",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      0,
+      22
+     ]
+    },
+    {
+     "n": 3,
+     "t": 658.02,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 8,
+     "perfect": true,
+     "dano": [
+      47,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 670.47,
+     "personajes": [
+      "Mary",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 675.39,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 52,
+     "perfect": false,
+     "dano": [
+      103,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 0,
+     "remontada": 64,
+     "fin": 727.11,
+     "personajes": [
+      "Mary",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      0,
+      0
+     ]
+    },
+    {
+     "n": 5,
+     "t": 731.01,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": false,
+     "dano": [
+      72,
+      13
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 30,
+     "remontada": 0,
+     "fin": 756.21,
+     "personajes": [
+      "Mary",
+      "Chris"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_chris"
+     ],
+     "vida_final": [
+      0,
+      30
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    1
+   ],
+   "personajes": [
+    "Iori · Daimon · Mary",
+    "Chizuru · Choi · Chris"
+   ],
+   "claves": [
+    "kof98_iori",
+    "kof98_chizuru"
+   ],
+   "equipos": [
+    [
+     "Iori",
+     "Daimon",
+     "Mary"
+    ],
+    [
+     "Chizuru",
+     "Choi",
+     "Chris"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_iori",
+     "kof98_daimon",
+     "kof98_mary"
+    ],
+    [
+     "kof98_chizuru",
+     "kof98_choi",
+     "kof98_chris"
+    ]
+   ],
+   "fin": 756.21,
+   "resumen": {
+    "dano": [
+     322,
+     321
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 139
+   }
+  },
+  {
+   "n": 5,
+   "t": 776.64,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 776.64,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      89,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 13,
+     "remontada": 14,
+     "fin": 814.22,
+     "personajes": [
+      "Iori",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      0,
+      13
+     ]
+    },
+    {
+     "n": 2,
+     "t": 818.15,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 15,
+     "perfect": false,
+     "dano": [
+      34,
+      32
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 68,
+     "remontada": 0,
+     "fin": 837.34,
+     "personajes": [
+      "Mary",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      68,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 841.27,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      31,
+      99
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 69,
+     "remontada": 9,
+     "fin": 869.73,
+     "personajes": [
+      "Mary",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      0,
+      69
+     ]
+    },
+    {
+     "n": 4,
+     "t": 873.8,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 42,
+     "perfect": false,
+     "dano": [
+      90,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 5,
+     "remontada": 0,
+     "fin": 915.56,
+     "personajes": [
+      "Daimon",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      0,
+      5
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    2
+   ],
+   "personajes": [
+    "Iori · Mary · Daimon",
+    "Chizuru · Choi · Chris"
+   ],
+   "claves": [
+    "kof98_iori",
+    "kof98_chizuru"
+   ],
+   "equipos": [
+    [
+     "Iori",
+     "Mary",
+     "Daimon"
+    ],
+    [
+     "Chizuru",
+     "Choi",
+     "Chris"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_iori",
+     "kof98_mary",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_chizuru",
+     "kof98_choi",
+     "kof98_chris"
+    ]
+   ],
+   "fin": 915.56,
+   "resumen": {
+    "dano": [
+     244,
+     337
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     3
+    ],
+    "duracion": 122
+   }
+  },
+  {
+   "n": 6,
+   "t": 936.29,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 936.29,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 40,
+     "perfect": false,
+     "dano": [
+      103,
+      99
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 3,
+     "remontada": 33,
+     "fin": 975.59,
+     "personajes": [
+      "Iori",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      3,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 979.48,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 12,
+     "perfect": false,
+     "dano": [
+      2,
+      24
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 98,
+     "remontada": 0,
+     "fin": 996.22,
+     "personajes": [
+      "Iori",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      0,
+      98
+     ]
+    },
+    {
+     "n": 3,
+     "t": 1000.14,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 43,
+     "perfect": false,
+     "dano": [
+      103,
+      32
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 68,
+     "remontada": 15,
+     "fin": 1042.48,
+     "personajes": [
+      "Mary",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      68,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 1046.32,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 50,
+     "perfect": false,
+     "dano": [
+      73,
+      87
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 29,
+     "remontada": 0,
+     "fin": 1094.72,
+     "personajes": [
+      "Mary",
+      "Chris"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_chris"
+     ],
+     "vida_final": [
+      0,
+      29
+     ]
+    },
+    {
+     "n": 5,
+     "t": 1098.57,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 17,
+     "perfect": false,
+     "dano": [
+      46,
+      53
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 48,
+     "remontada": 0,
+     "fin": 1119.07,
+     "personajes": [
+      "Daimon",
+      "Chris"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_chris"
+     ],
+     "vida_final": [
+      48,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    4,
+    2
+   ],
+   "personajes": [
+    "Iori · Mary · Daimon",
+    "Chizuru · Choi · Chris"
+   ],
+   "claves": [
+    "kof98_iori",
+    "kof98_chizuru"
+   ],
+   "equipos": [
+    [
+     "Iori",
+     "Mary",
+     "Daimon"
+    ],
+    [
+     "Chizuru",
+     "Choi",
+     "Chris"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_iori",
+     "kof98_mary",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_chizuru",
+     "kof98_choi",
+     "kof98_chris"
+    ]
+   ],
+   "fin": 1119.07,
+   "resumen": {
+    "dano": [
+     327,
+     295
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 162
+   }
+  },
+  {
+   "n": 7,
+   "t": 1139.3,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 1139.3,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": false,
+     "dano": [
+      103,
+      52
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 49,
+     "remontada": 20,
+     "fin": 1165.95,
+     "personajes": [
+      "Iori",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      49,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 1169.81,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 13,
+     "perfect": true,
+     "dano": [
+      0,
+      75
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 1186.83,
+     "personajes": [
+      "Iori",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 3,
+     "t": 1191.71,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 15,
+     "perfect": true,
+     "dano": [
+      0,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 1210.43,
+     "personajes": [
+      "Mary",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 4,
+     "t": 1215.62,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      49,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 52,
+     "remontada": 37,
+     "fin": 1250.37,
+     "personajes": [
+      "Daimon",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      0,
+      52
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    4,
+    3
+   ],
+   "personajes": [
+    "Iori · Mary · Daimon",
+    "Chizuru · Choi · Chris"
+   ],
+   "claves": [
+    "kof98_iori",
+    "kof98_chizuru"
+   ],
+   "equipos": [
+    [
+     "Iori",
+     "Mary",
+     "Daimon"
+    ],
+    [
+     "Chizuru",
+     "Choi",
+     "Chris"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_iori",
+     "kof98_mary",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_chizuru",
+     "kof98_choi",
+     "kof98_chris"
+    ]
+   ],
+   "fin": 1250.37,
+   "resumen": {
+    "dano": [
+     152,
+     333
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     3
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     2
+    ],
+    "rondas": [
+     1,
+     3
+    ],
+    "duracion": 87
+   }
+  },
+  {
+   "n": 8,
+   "t": 1272.76,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 1272.76,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 15,
+     "perfect": false,
+     "dano": [
+      10,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 90,
+     "remontada": 10,
+     "fin": 1289.83,
+     "personajes": [
+      "Iori",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      0,
+      90
+     ]
+    },
+    {
+     "n": 2,
+     "t": 1293.75,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 13,
+     "perfect": false,
+     "dano": [
+      1,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 99,
+     "remontada": 0,
+     "fin": 1311.38,
+     "personajes": [
+      "Mary",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      0,
+      99
+     ]
+    },
+    {
+     "n": 3,
+     "t": 1315.31,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      38,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 63,
+     "remontada": 0,
+     "fin": 1343.78,
+     "personajes": [
+      "Daimon",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      0,
+      63
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    4,
+    4
+   ],
+   "personajes": [
+    "Iori · Mary · Daimon",
+    "Chizuru · Choi · Chris"
+   ],
+   "claves": [
+    "kof98_iori",
+    "kof98_chizuru"
+   ],
+   "equipos": [
+    [
+     "Iori",
+     "Mary",
+     "Daimon"
+    ],
+    [
+     "Chizuru",
+     "Choi",
+     "Chris"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_iori",
+     "kof98_mary",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_chizuru",
+     "kof98_choi",
+     "kof98_chris"
+    ]
+   ],
+   "fin": 1343.78,
+   "resumen": {
+    "dano": [
+     49,
+     309
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     2
+    ],
+    "mareos": [
+     0,
+     2
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     3
+    ],
+    "duracion": 54
+   }
+  },
+  {
+   "n": 9,
+   "t": 1365.83,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 1365.83,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 43,
+     "perfect": false,
+     "dano": [
+      80,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 22,
+     "remontada": 23,
+     "fin": 1407.7,
+     "personajes": [
+      "Iori",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      0,
+      22
+     ]
+    },
+    {
+     "n": 2,
+     "t": 1411.57,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 15,
+     "perfect": false,
+     "dano": [
+      39,
+      38
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 63,
+     "remontada": 0,
+     "fin": 1430.86,
+     "personajes": [
+      "Mary",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      63,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 1434.73,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 38,
+     "perfect": false,
+     "dano": [
+      103,
+      77
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 15,
+     "remontada": 61,
+     "fin": 1473.58,
+     "personajes": [
+      "Mary",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      15,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 1477.45,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 9,
+     "perfect": false,
+     "dano": [
+      1,
+      36
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 99,
+     "remontada": 0,
+     "fin": 1490.93,
+     "personajes": [
+      "Mary",
+      "Chris"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_chris"
+     ],
+     "vida_final": [
+      0,
+      99
+     ]
+    },
+    {
+     "n": 5,
+     "t": 1494.85,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      103,
+      31
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 69,
+     "remontada": 12,
+     "fin": 1531.81,
+     "personajes": [
+      "Daimon",
+      "Chris"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_chris"
+     ],
+     "vida_final": [
+      69,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    5,
+    4
+   ],
+   "personajes": [
+    "Iori · Mary · Daimon",
+    "Chizuru · Choi · Chris"
+   ],
+   "claves": [
+    "kof98_iori",
+    "kof98_chizuru"
+   ],
+   "equipos": [
+    [
+     "Iori",
+     "Mary",
+     "Daimon"
+    ],
+    [
+     "Chizuru",
+     "Choi",
+     "Chris"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_iori",
+     "kof98_mary",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_chizuru",
+     "kof98_choi",
+     "kof98_chris"
+    ]
+   ],
+   "fin": 1531.81,
+   "resumen": {
+    "dano": [
+     326,
+     285
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 142
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 44.28,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 101.89,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 124.43,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 133.66,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 191.34,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 199.0,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 218.24,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 225.35,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 228.24,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 274.33,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 287.66,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 305.47,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 309.88,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 328.59,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 345.06,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 424.01,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 456.57,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 460.0,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 474.56,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 474.9,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 512.01,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 568.76,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 620.53,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 653.1,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 653.7,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 670.14,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 670.47,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 686.03,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 707.05,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 726.79,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 727.11,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 64
+  },
+  {
+   "t": 746.45,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 755.88,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 813.89,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 837.0,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 864.18,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 865.77,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 869.4,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 915.23,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 975.26,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 989.45,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 995.89,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1025.66,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 1042.14,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1091.78,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 1094.39,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1118.74,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1165.62,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1179.34,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1186.5,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1186.83,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 1205.69,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1210.1,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1210.43,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 1241.66,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1250.03,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1286.09,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 1289.51,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1303.08,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1309.04,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 1311.05,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1336.0,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1343.44,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1402.44,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1407.36,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1430.53,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1444.75,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1473.25,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1473.58,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 61
+  },
+  {
+   "t": 1490.6,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1531.47,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 335,
+   "stun_peor": 147,
+   "mareado_veces": 3,
+   "dur_sum": 616,
+   "pelea_rapida": 128,
+   "swaps": 2,
+   "rondas": 19,
+   "rondas_jugadas": 39,
+   "ko": 19,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 2411,
+   "recibido": 2567,
+   "golpes": 325,
+   "golpe_max": 34,
+   "primero": 16,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 8,
+   "mareos": 2,
+   "ronda_rapida": 8,
+   "al_limite": 3,
+   "remontada": 64,
+   "racha": 4,
+   "vida_al_ganar": 47,
+   "dano_medio": 7.4,
+   "dur_avg": 32,
+   "stun_seg": 5.6,
+   "stun_peor_seg": 2.5,
+   "vida_perdida_ronda": 64,
+   "dano_barras": 23.41,
+   "recibido_barras": 24.92,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.33
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 249,
+   "stun_peor": 147,
+   "mareado_veces": 2,
+   "dur_sum": 517,
+   "pelea_rapida": 71,
+   "swaps": 0,
+   "rondas": 20,
+   "rondas_jugadas": 39,
+   "ko": 20,
+   "timeup": 0,
+   "perfects": 3,
+   "dano": 2567,
+   "recibido": 2411,
+   "golpes": 516,
+   "golpe_max": 21,
+   "primero": 23,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 13,
+   "mareos": 3,
+   "ronda_rapida": 4,
+   "al_limite": 2,
+   "remontada": 41,
+   "racha": 7,
+   "vida_al_ganar": 56,
+   "dano_medio": 5.0,
+   "dur_avg": 26,
+   "stun_seg": 4.2,
+   "stun_peor_seg": 2.5,
+   "vida_perdida_ronda": 60,
+   "dano_barras": 24.92,
+   "recibido_barras": 23.41,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.2
+  }
+ ]
+}

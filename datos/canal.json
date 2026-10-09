@@ -1,20 +1,38 @@
 {
- "actualizado": "2026-10-09T19:05:27Z",
+ "actualizado": "2026-10-09T20:00:10Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
  "handle": "replaylab-fcrec",
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
- "suscriptores": 17,
- "vistas": 16552,
- "videos": 70,
+ "suscriptores": 18,
+ "vistas": 16687,
+ "videos": 72,
  "lista": [
+  {
+   "id": "nmjJxEvrtrw",
+   "titulo": "The King of Fighters '98 | 🇰🇷 hogusung vs 🇰🇷 Niobin #shorts",
+   "publicado": "2026-10-09T19:50:24Z",
+   "privacidad": "public",
+   "vistas": 10,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/nmjJxEvrtrw/mqdefault.jpg"
+  },
+  {
+   "id": "l-QI4hCMVW0",
+   "titulo": "The King of Fighters '98 | 🇰🇷 hogusung vs 🇰🇷 Niobin",
+   "publicado": "2026-10-09T19:46:58Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/l-QI4hCMVW0/mqdefault.jpg"
+  },
   {
    "id": "0p1BXar4o5g",
    "titulo": "Street Fighter II' Champion Edition | 🇲🇽 TTB-Ricks Alonso vs 🇲🇽 El Regio Lero Lero #shorts",
    "publicado": "2026-10-09T18:56:14Z",
    "privacidad": "public",
-   "vistas": 44,
+   "vistas": 96,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/0p1BXar4o5g/mqdefault.jpg"
   },
@@ -32,7 +50,7 @@
    "titulo": "Super Street Fighter II X | 🇯🇵 ara@VF2 vs 🇯🇵 xryuit #shorts",
    "publicado": "2026-10-09T17:53:32Z",
    "privacidad": "public",
-   "vistas": 2,
+   "vistas": 32,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/EWDIcKBmGS4/mqdefault.jpg"
   },
@@ -50,7 +68,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇧🇷 Sonic Gyn vs 🇧🇷 GUTO RJ/BR #shorts",
    "publicado": "2026-10-09T04:38:54Z",
    "privacidad": "public",
-   "vistas": 212,
+   "vistas": 217,
    "me_gusta": 4,
    "miniatura": "https://i.ytimg.com/vi/WUSVC3wnKDU/mqdefault.jpg"
   },
@@ -68,8 +86,8 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 unsensored vs 🇺🇸 la_manilla012 #shorts",
    "publicado": "2026-10-09T03:58:38Z",
    "privacidad": "public",
-   "vistas": 220,
-   "me_gusta": 6,
+   "vistas": 226,
+   "me_gusta": 7,
    "miniatura": "https://i.ytimg.com/vi/EldvX9JWaBo/mqdefault.jpg"
   },
   {
@@ -86,7 +104,7 @@
    "titulo": "The King of Fighters '98 | 🇵🇦 bukeyishi vs 🇨🇴 MORGANGTZ #shorts",
    "publicado": "2026-10-09T02:49:07Z",
    "privacidad": "public",
-   "vistas": 201,
+   "vistas": 199,
    "me_gusta": 5,
    "miniatura": "https://i.ytimg.com/vi/iNQsK8-28uE/mqdefault.jpg"
   },
@@ -104,7 +122,7 @@
    "titulo": "The King of Fighters '98 | 🇨🇱 Mundo Kurono vs 🇵🇰 mirza mudassar #shorts",
    "publicado": "2026-10-07T14:56:19Z",
    "privacidad": "public",
-   "vistas": 304,
+   "vistas": 306,
    "me_gusta": 6,
    "miniatura": "https://i.ytimg.com/vi/XOrX-6S3fsQ/mqdefault.jpg"
   },
@@ -140,7 +158,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 FabsGtz vs 🇲🇽 djfrijoles",
    "publicado": "2026-10-06T14:47:53Z",
    "privacidad": "public",
-   "vistas": 38,
+   "vistas": 41,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/u6FbTcP7mvQ/mqdefault.jpg"
   },
@@ -176,7 +194,7 @@
    "titulo": "Super Street Fighter II X | 🇧🇷 RAC | Flavio.Ryu vs 🇲🇽 fack",
    "publicado": "2026-10-06T13:54:47Z",
    "privacidad": "public",
-   "vistas": 3,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/uQ2FtevB2Pk/mqdefault.jpg"
   },
@@ -203,7 +221,7 @@
    "titulo": "Super Street Fighter II X | 🇧🇷 LABOCA vs 🇧🇷 RAC | Flavio.Ryu",
    "publicado": "2026-10-06T13:26:07Z",
    "privacidad": "public",
-   "vistas": 4,
+   "vistas": 5,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/4xmZ3e2nfjQ/mqdefault.jpg"
   },
@@ -212,7 +230,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 DJILK-SF2TV vs 🇺🇸 Fromo",
    "publicado": "2026-10-06T03:43:53Z",
    "privacidad": "public",
-   "vistas": 3,
+   "vistas": 5,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/mH6nIeWWI1Q/mqdefault.jpg"
   },
