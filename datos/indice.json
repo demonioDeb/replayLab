@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-11 03:11",
+ "actualizado": "2026-10-11 03:42",
  "videos": [
   {
    "quark": "1791683729181-8091",
@@ -45,6 +45,59 @@
     }
    ],
    "rondas": 12
+  },
+  {
+   "quark": "1791683481891-2379",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2026-10-11",
+   "youtube": "9v_YGEYjrSI",
+   "duracion": 824.1,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "YeopMun",
+     "pais": "kr",
+     "rango_letra": "A",
+     "personaje": "Iori · Chris · Daimon",
+     "clave": "kof98_iori",
+     "personajes": [
+      "Iori",
+      "Chris",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_chris",
+      "kof98_daimon"
+     ]
+    },
+    {
+     "nombre": "qbdwk2003",
+     "pais": "kr",
+     "rango_letra": "C",
+     "personaje": "Kyo · Iori · Daimon",
+     "clave": "kof98_kyo",
+     "personajes": [
+      "Kyo",
+      "Benimaru",
+      "Iori",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_benimaru",
+      "kof98_iori",
+      "kof98_daimon"
+     ]
+    }
+   ],
+   "rondas": 20
   },
   {
    "quark": "1791682936917-7111",
