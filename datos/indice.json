@@ -1,6 +1,51 @@
 {
- "actualizado": "2026-10-11 02:50",
+ "actualizado": "2026-10-11 03:11",
  "videos": [
+  {
+   "quark": "1791683729181-8091",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-11",
+   "youtube": "-bXHiFOG0sg",
+   "duracion": 490.9,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "DojaCat",
+     "pais": "gb",
+     "rango_letra": "A",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    },
+    {
+     "nombre": "DGV",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Dee Jay",
+     "clave": "deejay",
+     "personajes": [
+      "Dee Jay",
+      "T. Hawk"
+     ],
+     "claves": [
+      "deejay",
+      "hawk"
+     ]
+    }
+   ],
+   "rondas": 12
+  },
   {
    "quark": "1791682936917-7111",
    "juego": "sf2ce",
