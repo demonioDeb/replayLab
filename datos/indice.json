@@ -1,6 +1,49 @@
 {
- "actualizado": "2026-10-09 20:00",
+ "actualizado": "2026-10-11 02:50",
  "videos": [
+  {
+   "quark": "1791682936917-7111",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-11",
+   "youtube": "44t7ZqPMyok",
+   "duracion": 963.8,
+   "marcador": [
+    5,
+    3
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "Kabal27",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "Zangief",
+     "clave": "zangief",
+     "personajes": [
+      "Zangief"
+     ],
+     "claves": [
+      "zangief"
+     ]
+    },
+    {
+     "nombre": "DJILK",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    }
+   ],
+   "rondas": 20
+  },
   {
    "quark": "1791563244915-7491",
    "juego": "sf2ce",

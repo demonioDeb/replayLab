@@ -1,0 +1,1257 @@
+{
+ "version": 8,
+ "quark": "1791682936917-7111",
+ "carpeta": "20261010_Kabal27_vs_DJILK_1791682936917-7111",
+ "juego": "sf2ce",
+ "juego_nombre": "Street Fighter II' Champion Edition",
+ "juego_corto": "SF2CE",
+ "datos": {
+  "super": false,
+  "stun": false,
+  "combos": false
+ },
+ "fecha": "2026-10-11",
+ "youtube": "44t7ZqPMyok",
+ "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Kabal27 vs 🇺🇸 DJILK",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "Kabal27",
+   "pais": "tr",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Zangief",
+   "clave": "zangief",
+   "personajes": [
+    "Zangief"
+   ],
+   "claves": [
+    "zangief"
+   ],
+   "swaps": 0,
+   "super": ""
+  },
+  {
+   "nombre": "DJILK",
+   "pais": "us",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Ryu",
+   "clave": "ryu",
+   "personajes": [
+    "Ryu"
+   ],
+   "claves": [
+    "ryu"
+   ],
+   "swaps": 0,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  5,
+  3
+ ],
+ "duracion": 963.8,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 6.77,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 6.77,
+     "ganador": 1,
+     "motivo": "time",
+     "duracion": 99,
+     "perfect": false,
+     "dano": [
+      143,
+      137
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 75,
+     "fin": 76.16,
+     "vida_final": [
+      4,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 84.79,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 75,
+     "perfect": false,
+     "dano": [
+      144,
+      139
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 3,
+     "remontada": 96,
+     "fin": 138.2,
+     "vida_final": [
+      3,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Zangief",
+    "Ryu"
+   ],
+   "claves": [
+    "zangief",
+    "ryu"
+   ],
+   "fin": 138.68,
+   "resumen": {
+    "dano": [
+     287,
+     276
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 174
+   }
+  },
+  {
+   "n": 2,
+   "t": 153.28,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 153.28,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 32,
+     "perfect": false,
+     "dano": [
+      144,
+      40
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 72,
+     "remontada": 0,
+     "fin": 177.65,
+     "vida_final": [
+      72,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 185.02,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 62,
+     "perfect": false,
+     "dano": [
+      72,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 50,
+     "remontada": 0,
+     "fin": 229.63,
+     "vida_final": [
+      0,
+      50
+     ]
+    },
+    {
+     "n": 3,
+     "t": 238.14,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 59,
+     "perfect": false,
+     "dano": [
+      144,
+      44
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 69,
+     "remontada": 17,
+     "fin": 281.0,
+     "vida_final": [
+      69,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "Zangief",
+    "Ryu"
+   ],
+   "claves": [
+    "zangief",
+    "ryu"
+   ],
+   "fin": 281.49,
+   "resumen": {
+    "dano": [
+     360,
+     228
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 153
+   }
+  },
+  {
+   "n": 3,
+   "t": 297.84,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 297.84,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 51,
+     "perfect": false,
+     "dano": [
+      66,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 54,
+     "remontada": 31,
+     "fin": 334.66,
+     "vida_final": [
+      0,
+      54
+     ]
+    },
+    {
+     "n": 2,
+     "t": 342.05,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 46,
+     "perfect": false,
+     "dano": [
+      53,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 63,
+     "remontada": 0,
+     "fin": 375.97,
+     "vida_final": [
+      0,
+      63
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    2,
+    1
+   ],
+   "personajes": [
+    "Zangief",
+    "Ryu"
+   ],
+   "claves": [
+    "zangief",
+    "ryu"
+   ],
+   "fin": 376.44,
+   "resumen": {
+    "dano": [
+     119,
+     288
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 97
+   }
+  },
+  {
+   "n": 4,
+   "t": 392.48,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 392.48,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 61,
+     "perfect": false,
+     "dano": [
+      142,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 1,
+     "remontada": 39,
+     "fin": 435.96,
+     "vida_final": [
+      0,
+      1
+     ]
+    },
+    {
+     "n": 2,
+     "t": 443.44,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 19,
+     "perfect": true,
+     "dano": [
+      144,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 459.33,
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 468.47,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 23,
+     "perfect": false,
+     "dano": [
+      144,
+      12
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 91,
+     "remontada": 8,
+     "fin": 486.65,
+     "vida_final": [
+      91,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    1
+   ],
+   "personajes": [
+    "Zangief",
+    "Ryu"
+   ],
+   "claves": [
+    "zangief",
+    "ryu"
+   ],
+   "fin": 487.13,
+   "resumen": {
+    "dano": [
+     430,
+     156
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 103
+   }
+  },
+  {
+   "n": 5,
+   "t": 502.19,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 502.19,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 76,
+     "perfect": false,
+     "dano": [
+      144,
+      138
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 24,
+     "fin": 555.52,
+     "vida_final": [
+      4,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 562.71,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 21,
+     "perfect": true,
+     "dano": [
+      0,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 579.85,
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 3,
+     "t": 588.81,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      44,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 69,
+     "remontada": 14,
+     "fin": 610.88,
+     "vida_final": [
+      0,
+      69
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    2
+   ],
+   "personajes": [
+    "Zangief",
+    "Ryu"
+   ],
+   "claves": [
+    "zangief",
+    "ryu"
+   ],
+   "fin": 611.37,
+   "resumen": {
+    "dano": [
+     188,
+     426
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 125
+   }
+  },
+  {
+   "n": 6,
+   "t": 627.15,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 627.15,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 63,
+     "perfect": false,
+     "dano": [
+      135,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 6,
+     "remontada": 9,
+     "fin": 671.87,
+     "vida_final": [
+      0,
+      6
+     ]
+    },
+    {
+     "n": 2,
+     "t": 679.7,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 62,
+     "perfect": false,
+     "dano": [
+      98,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 31,
+     "remontada": 0,
+     "fin": 724.55,
+     "vida_final": [
+      0,
+      31
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    3
+   ],
+   "personajes": [
+    "Zangief",
+    "Ryu"
+   ],
+   "claves": [
+    "zangief",
+    "ryu"
+   ],
+   "fin": 725.03,
+   "resumen": {
+    "dano": [
+     233,
+     288
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 125
+   }
+  },
+  {
+   "n": 7,
+   "t": 741.9,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 741.9,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 68,
+     "perfect": false,
+     "dano": [
+      144,
+      137
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 17,
+     "fin": 790.24,
+     "vida_final": [
+      4,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 797.53,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 62,
+     "perfect": false,
+     "dano": [
+      85,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 40,
+     "remontada": 5,
+     "fin": 842.16,
+     "vida_final": [
+      0,
+      40
+     ]
+    },
+    {
+     "n": 3,
+     "t": 849.51,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      144,
+      13
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 90,
+     "remontada": 0,
+     "fin": 874.68,
+     "vida_final": [
+      90,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    4,
+    3
+   ],
+   "personajes": [
+    "Zangief",
+    "Ryu"
+   ],
+   "claves": [
+    "zangief",
+    "ryu"
+   ],
+   "fin": 875.15,
+   "resumen": {
+    "dano": [
+     373,
+     294
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 163
+   }
+  },
+  {
+   "n": 8,
+   "t": 891.02,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 891.03,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      144,
+      37
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 74,
+     "remontada": 9,
+     "fin": 911.1,
+     "vida_final": [
+      74,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 919.21,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 52,
+     "perfect": false,
+     "dano": [
+      144,
+      139
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 3,
+     "remontada": 56,
+     "fin": 957.32,
+     "vida_final": [
+      3,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    5,
+    3
+   ],
+   "personajes": [
+    "Zangief",
+    "Ryu"
+   ],
+   "claves": [
+    "zangief",
+    "ryu"
+   ],
+   "fin": 957.8,
+   "resumen": {
+    "dano": [
+     288,
+     176
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 78
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 76.16,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 75
+  },
+  {
+   "t": 138.2,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 138.2,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 96
+  },
+  {
+   "t": 177.64,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 229.63,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 281.0,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 334.66,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 375.97,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 435.96,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 459.33,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 459.33,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 486.65,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 555.5,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 579.85,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 579.85,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 610.88,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 671.87,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 724.55,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 790.24,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 842.16,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 874.68,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 911.1,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 957.32,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 957.32,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 56
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 562,
+   "pelea_rapida": 67,
+   "swaps": 0,
+   "rondas": 11,
+   "rondas_jugadas": 20,
+   "ko": 10,
+   "timeup": 1,
+   "perfects": 1,
+   "dano": 2278,
+   "recibido": 2132,
+   "golpes": 119,
+   "golpe_max": 47,
+   "primero": 4,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 19,
+   "al_limite": 5,
+   "remontada": 96,
+   "racha": 3,
+   "vida_al_ganar": 47,
+   "dano_medio": 19.1,
+   "dur_avg": 51,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 74,
+   "dano_barras": 15.82,
+   "recibido_barras": 14.81,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.33
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 456,
+   "pelea_rapida": 79,
+   "swaps": 0,
+   "rondas": 9,
+   "rondas_jugadas": 20,
+   "ko": 9,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 2132,
+   "recibido": 2278,
+   "golpes": 173,
+   "golpe_max": 32,
+   "primero": 16,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 21,
+   "al_limite": 2,
+   "remontada": 39,
+   "racha": 4,
+   "vida_al_ganar": 46,
+   "dano_medio": 12.3,
+   "dur_avg": 51,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 79,
+   "dano_barras": 14.81,
+   "recibido_barras": 15.82,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.22
+  }
+ ]
+}
