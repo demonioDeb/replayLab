@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-15 22:38",
+ "actualizado": "2026-10-15 23:22",
  "videos": [
   {
    "quark": "1792084722783-2507",
@@ -1380,6 +1380,67 @@
     }
    ],
    "rondas": 17
+  },
+  {
+   "quark": "1789962050059-1074",
+   "juego": "kof2002",
+   "juego_nombre": "The King of Fighters 2002",
+   "juego_corto": "KOF2002",
+   "fecha": "2026-09-21",
+   "youtube": "sXP217Z_uoo",
+   "duracion": 960.4,
+   "marcador": [
+    1,
+    4
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "Jonathan Tijuana",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "Billy · Kim · Choi",
+     "clave": "kof2002_billy",
+     "personajes": [
+      "Kim",
+      "Yuri",
+      "Billy",
+      "Athena",
+      "Ryo",
+      "Choi",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_yuri",
+      "kof2002_billy",
+      "kof2002_athena",
+      "kof2002_ryo",
+      "kof2002_choi",
+      "kof2002_iori"
+     ]
+    },
+    {
+     "nombre": "KGS_KINF_KULA",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Angel · Robert · Billy",
+     "clave": "kof2002_angel",
+     "personajes": [
+      "Angel",
+      "Robert",
+      "Billy",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_robert",
+      "kof2002_billy",
+      "kof2002_iori"
+     ]
+    }
+   ],
+   "rondas": 24
   },
   {
    "quark": "1789616260709-1802",
