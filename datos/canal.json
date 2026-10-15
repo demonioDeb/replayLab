@@ -1,37 +1,65 @@
 {
- "actualizado": "2026-10-11T03:42:14Z",
+ "actualizado": "2026-10-15T17:45:13Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
  "handle": "replaylab-fcrec",
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
- "suscriptores": 20,
- "vistas": 16882,
- "videos": 76,
+ "suscriptores": 21,
+ "vistas": 20019,
+ "videos": 80,
  "lista": [
   {
+   "id": "aO2jiQb6u3s",
+   "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 padoodey vs 🇺🇸 DJILK #shorts",
+   "publicado": "2026-10-13T04:17:25Z",
+   "privacidad": "public",
+   "vistas": 473,
+   "me_gusta": 10,
+   "miniatura": "https://i.ytimg.com/vi/aO2jiQb6u3s/mqdefault.jpg"
+  },
+  {
+   "id": "FqaY8KTOV38",
+   "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 padoodey vs 🇺🇸 DJILK",
+   "publicado": "2026-10-13T04:02:13Z",
+   "privacidad": "public",
+   "vistas": 10,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/FqaY8KTOV38/mqdefault.jpg"
+  },
+  {
+   "id": "9v_YGEYjrSI",
+   "titulo": "The King of Fighters '98 | 🇰🇷 YeopMun vs 🇰🇷 qbdwk2003",
+   "publicado": "2026-10-11T14:00:21Z",
+   "privacidad": "public",
+   "vistas": 11,
+   "me_gusta": 1,
+   "miniatura": "https://i.ytimg.com/vi/9v_YGEYjrSI/mqdefault.jpg"
+  },
+  {
    "id": "s4tQhXO6VCY",
-   "privacidad": "private"
+   "titulo": "The King of Fighters '98 | 🇰🇷 YeopMun vs 🇰🇷 qbdwk2003 #shorts",
+   "publicado": "2026-10-11T14:00:14Z",
+   "privacidad": "public",
+   "vistas": 293,
+   "me_gusta": 2,
+   "miniatura": "https://i.ytimg.com/vi/s4tQhXO6VCY/mqdefault.jpg"
   },
   {
    "id": "cpeDTm8o2Tc",
    "titulo": "Super Street Fighter II X | 🇬🇧 DojaCat vs 🇺🇸 DGV #shorts",
    "publicado": "2026-10-11T03:31:53Z",
    "privacidad": "public",
-   "vistas": 5,
-   "me_gusta": 0,
+   "vistas": 252,
+   "me_gusta": 6,
    "miniatura": "https://i.ytimg.com/vi/cpeDTm8o2Tc/mqdefault.jpg"
-  },
-  {
-   "id": "9v_YGEYjrSI",
-   "privacidad": "private"
   },
   {
    "id": "-bXHiFOG0sg",
    "titulo": "Super Street Fighter II X | 🇬🇧 DojaCat vs 🇺🇸 DGV",
    "publicado": "2026-10-11T03:25:30Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 12,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/-bXHiFOG0sg/mqdefault.jpg"
   },
@@ -40,8 +68,8 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Kabal27 vs 🇺🇸 DJILK #shorts",
    "publicado": "2026-10-11T03:00:43Z",
    "privacidad": "public",
-   "vistas": 136,
-   "me_gusta": 2,
+   "vistas": 331,
+   "me_gusta": 14,
    "miniatura": "https://i.ytimg.com/vi/yj2iMXxF-lE/mqdefault.jpg"
   },
   {
@@ -49,8 +77,8 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Kabal27 vs 🇺🇸 DJILK",
    "publicado": "2026-10-11T02:55:17Z",
    "privacidad": "public",
-   "vistas": 1,
-   "me_gusta": 0,
+   "vistas": 13,
+   "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/44t7ZqPMyok/mqdefault.jpg"
   },
   {
@@ -58,7 +86,7 @@
    "titulo": "The King of Fighters '98 | 🇰🇷 hogusung vs 🇰🇷 Niobin #shorts",
    "publicado": "2026-10-09T19:50:24Z",
    "privacidad": "public",
-   "vistas": 232,
+   "vistas": 237,
    "me_gusta": 3,
    "miniatura": "https://i.ytimg.com/vi/nmjJxEvrtrw/mqdefault.jpg"
   },
@@ -67,7 +95,7 @@
    "titulo": "The King of Fighters '98 | 🇰🇷 hogusung vs 🇰🇷 Niobin",
    "publicado": "2026-10-09T19:46:58Z",
    "privacidad": "public",
-   "vistas": 2,
+   "vistas": 5,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/l-QI4hCMVW0/mqdefault.jpg"
   },
@@ -76,7 +104,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇲🇽 TTB-Ricks Alonso vs 🇲🇽 El Regio Lero Lero #shorts",
    "publicado": "2026-10-09T18:56:14Z",
    "privacidad": "public",
-   "vistas": 133,
+   "vistas": 141,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/0p1BXar4o5g/mqdefault.jpg"
   },
@@ -85,7 +113,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇲🇽 TTB-Ricks Alonso vs 🇲🇽 El Regio Lero Lero",
    "publicado": "2026-10-09T18:53:23Z",
    "privacidad": "public",
-   "vistas": 16,
+   "vistas": 38,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/Xhis_smxz1w/mqdefault.jpg"
   },
@@ -94,7 +122,7 @@
    "titulo": "Super Street Fighter II X | 🇯🇵 ara@VF2 vs 🇯🇵 xryuit #shorts",
    "publicado": "2026-10-09T17:53:32Z",
    "privacidad": "public",
-   "vistas": 125,
+   "vistas": 128,
    "me_gusta": 3,
    "miniatura": "https://i.ytimg.com/vi/EWDIcKBmGS4/mqdefault.jpg"
   },
@@ -103,8 +131,8 @@
    "titulo": "Super Street Fighter II X | 🇯🇵 ara@VF2 vs 🇯🇵 xryuit",
    "publicado": "2026-10-09T17:49:21Z",
    "privacidad": "public",
-   "vistas": 27,
-   "me_gusta": 0,
+   "vistas": 77,
+   "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/dCG6EDS7Yu0/mqdefault.jpg"
   },
   {
@@ -112,7 +140,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇧🇷 Sonic Gyn vs 🇧🇷 GUTO RJ/BR #shorts",
    "publicado": "2026-10-09T04:38:54Z",
    "privacidad": "public",
-   "vistas": 257,
+   "vistas": 262,
    "me_gusta": 5,
    "miniatura": "https://i.ytimg.com/vi/WUSVC3wnKDU/mqdefault.jpg"
   },
@@ -121,7 +149,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇧🇷 Sonic Gyn vs 🇧🇷 GUTO RJ/BR",
    "publicado": "2026-10-09T04:35:34Z",
    "privacidad": "public",
-   "vistas": 53,
+   "vistas": 208,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/FcO3Jk4_DVw/mqdefault.jpg"
   },
@@ -130,7 +158,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 unsensored vs 🇺🇸 la_manilla012 #shorts",
    "publicado": "2026-10-09T03:58:38Z",
    "privacidad": "public",
-   "vistas": 257,
+   "vistas": 260,
    "me_gusta": 7,
    "miniatura": "https://i.ytimg.com/vi/EldvX9JWaBo/mqdefault.jpg"
   },
@@ -139,7 +167,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 unsensored vs 🇺🇸 la_manilla012",
    "publicado": "2026-10-09T03:54:57Z",
    "privacidad": "public",
-   "vistas": 4,
+   "vistas": 23,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/RDVwE74ylWU/mqdefault.jpg"
   },
@@ -157,7 +185,7 @@
    "titulo": "The King of Fighters '98 | 🇵🇦 bukeyishi vs 🇨🇴 MORGANGTZ",
    "publicado": "2026-10-09T02:44:48Z",
    "privacidad": "public",
-   "vistas": 13,
+   "vistas": 18,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/PjTL8DeUWzQ/mqdefault.jpg"
   },
@@ -166,7 +194,7 @@
    "titulo": "The King of Fighters '98 | 🇨🇱 Mundo Kurono vs 🇵🇰 mirza mudassar #shorts",
    "publicado": "2026-10-07T14:56:19Z",
    "privacidad": "public",
-   "vistas": 307,
+   "vistas": 308,
    "me_gusta": 6,
    "miniatura": "https://i.ytimg.com/vi/XOrX-6S3fsQ/mqdefault.jpg"
   },
@@ -175,7 +203,7 @@
    "titulo": "The King of Fighters '98 | 🇨🇱 Mundo Kurono vs 🇵🇰 mirza mudassar",
    "publicado": "2026-10-07T14:53:01Z",
    "privacidad": "public",
-   "vistas": 32,
+   "vistas": 35,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/hfRJGKGRNAo/mqdefault.jpg"
   },
@@ -184,7 +212,7 @@
    "titulo": "The King of Fighters '98 | 🇰🇷 Q.E.D. vs 🇰🇷 it`s #shorts",
    "publicado": "2026-10-07T14:01:35Z",
    "privacidad": "public",
-   "vistas": 347,
+   "vistas": 349,
    "me_gusta": 12,
    "miniatura": "https://i.ytimg.com/vi/VsSL5XCrEjo/mqdefault.jpg"
   },
@@ -193,7 +221,7 @@
    "titulo": "The King of Fighters '98 | 🇰🇷 Q.E.D. vs 🇰🇷 it`s",
    "publicado": "2026-10-07T13:59:07Z",
    "privacidad": "public",
-   "vistas": 30,
+   "vistas": 63,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/qEK7yr4c77I/mqdefault.jpg"
   },
@@ -202,7 +230,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 FabsGtz vs 🇲🇽 djfrijoles",
    "publicado": "2026-10-06T14:47:53Z",
    "privacidad": "public",
-   "vistas": 47,
+   "vistas": 59,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/u6FbTcP7mvQ/mqdefault.jpg"
   },
@@ -211,7 +239,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 FabsGtz vs 🇲🇽 djfrijoles #shorts",
    "publicado": "2026-10-06T14:47:53Z",
    "privacidad": "public",
-   "vistas": 532,
+   "vistas": 533,
    "me_gusta": 16,
    "miniatura": "https://i.ytimg.com/vi/zTSntaQEO-8/mqdefault.jpg"
   },
@@ -220,7 +248,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 djfrijoles vs 🇲🇽 fack #shorts",
    "publicado": "2026-10-06T14:20:53Z",
    "privacidad": "public",
-   "vistas": 1109,
+   "vistas": 1110,
    "me_gusta": 15,
    "miniatura": "https://i.ytimg.com/vi/1Dk5-2xlitA/mqdefault.jpg"
   },
@@ -229,8 +257,8 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 djfrijoles vs 🇲🇽 fack",
    "publicado": "2026-10-06T14:20:38Z",
    "privacidad": "public",
-   "vistas": 6,
-   "me_gusta": 2,
+   "vistas": 16,
+   "me_gusta": 4,
    "miniatura": "https://i.ytimg.com/vi/7_hf0t3fl3Q/mqdefault.jpg"
   },
   {
@@ -238,7 +266,7 @@
    "titulo": "Super Street Fighter II X | 🇧🇷 RAC | Flavio.Ryu vs 🇲🇽 fack",
    "publicado": "2026-10-06T13:54:47Z",
    "privacidad": "public",
-   "vistas": 4,
+   "vistas": 11,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/uQ2FtevB2Pk/mqdefault.jpg"
   },
@@ -247,7 +275,7 @@
    "titulo": "Super Street Fighter II X | 🇧🇷 RAC | Flavio.Ryu vs 🇲🇽 fack #shorts",
    "publicado": "2026-10-06T13:54:28Z",
    "privacidad": "public",
-   "vistas": 488,
+   "vistas": 494,
    "me_gusta": 11,
    "miniatura": "https://i.ytimg.com/vi/5ms3xTYFMQ4/mqdefault.jpg"
   },
@@ -256,7 +284,7 @@
    "titulo": "Super Street Fighter II X | 🇧🇷 LABOCA vs 🇧🇷 RAC | Flavio.Ryu #shorts",
    "publicado": "2026-10-06T13:26:24Z",
    "privacidad": "public",
-   "vistas": 603,
+   "vistas": 605,
    "me_gusta": 6,
    "miniatura": "https://i.ytimg.com/vi/s63s_2AZGgM/mqdefault.jpg"
   },
@@ -265,7 +293,7 @@
    "titulo": "Super Street Fighter II X | 🇧🇷 LABOCA vs 🇧🇷 RAC | Flavio.Ryu",
    "publicado": "2026-10-06T13:26:07Z",
    "privacidad": "public",
-   "vistas": 5,
+   "vistas": 7,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/4xmZ3e2nfjQ/mqdefault.jpg"
   },
@@ -274,7 +302,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 DJILK-SF2TV vs 🇺🇸 Fromo",
    "publicado": "2026-10-06T03:43:53Z",
    "privacidad": "public",
-   "vistas": 5,
+   "vistas": 9,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/mH6nIeWWI1Q/mqdefault.jpg"
   },
@@ -283,7 +311,7 @@
    "titulo": "Super Street Fighter II X | 🇫🇷 kazel vs 🇫🇷 Zagi",
    "publicado": "2026-10-06T03:43:49Z",
    "privacidad": "public",
-   "vistas": 6,
+   "vistas": 8,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/m6Gyw4Itunw/mqdefault.jpg"
   },
@@ -292,7 +320,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 Zombie_Damage vs 🇺🇸 RenoMD",
    "publicado": "2026-10-05T03:59:46Z",
    "privacidad": "public",
-   "vistas": 15,
+   "vistas": 20,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/q_B1tf5OpTg/mqdefault.jpg"
   },
@@ -319,7 +347,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 DJILK-SF2TV vs 🇺🇸 Fromo #shorts",
    "publicado": "2026-10-04T03:17:49Z",
    "privacidad": "public",
-   "vistas": 493,
+   "vistas": 494,
    "me_gusta": 12,
    "miniatura": "https://i.ytimg.com/vi/ZS_mohBIQ90/mqdefault.jpg"
   },
@@ -337,7 +365,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 hassasin10 vs 🇺🇸 RenoMD",
    "publicado": "2026-10-03T17:02:05Z",
    "privacidad": "public",
-   "vistas": 3,
+   "vistas": 4,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/_fHib8xl3-g/mqdefault.jpg"
   },
@@ -346,7 +374,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 KELA420 vs 🇺🇸 znoopyglobal",
    "publicado": "2026-10-03T16:28:11Z",
    "privacidad": "public",
-   "vistas": 131,
+   "vistas": 137,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/jgXK-Paf60U/mqdefault.jpg"
   },
@@ -373,7 +401,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 _yito2k_ vs 🇲🇽 KELA420",
    "publicado": "2026-10-03T15:49:00Z",
    "privacidad": "public",
-   "vistas": 96,
+   "vistas": 101,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/smy-4QWwLY8/mqdefault.jpg"
   },
@@ -382,7 +410,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇺🇸 DJILK vs 🇧🇷 RAC | Flavio.Ryu",
    "publicado": "2026-10-02T15:45:06Z",
    "privacidad": "public",
-   "vistas": 38,
+   "vistas": 42,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/VKwKClpHftY/mqdefault.jpg"
   },
@@ -391,7 +419,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇺🇸 DJILK vs 🇧🇷 RAC | Flavio.Ryu #shorts",
    "publicado": "2026-10-02T15:15:03Z",
    "privacidad": "public",
-   "vistas": 282,
+   "vistas": 283,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/OmfxsVR8SMU/mqdefault.jpg"
   },
@@ -409,7 +437,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 Fromo vs 🇺🇸 znoopyglobal",
    "publicado": "2026-10-02T02:06:55Z",
    "privacidad": "public",
-   "vistas": 46,
+   "vistas": 50,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/y_5QiM0n2Ts/mqdefault.jpg"
   },
@@ -427,7 +455,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 Zombie_Damage vs 🇺🇸 znoopyglobal",
    "publicado": "2026-10-01T23:39:39Z",
    "privacidad": "public",
-   "vistas": 10,
+   "vistas": 13,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/fd09uL7WuWY/mqdefault.jpg"
   },
@@ -445,7 +473,7 @@
    "titulo": "Super Street Fighter II X | 🇧🇷 RAC | Flavio.Ryu vs 🇧🇷 thomas_medeiros",
    "publicado": "2026-10-01T19:38:53Z",
    "privacidad": "public",
-   "vistas": 2,
+   "vistas": 3,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/iAwTPGZ3Y5k/mqdefault.jpg"
   },
@@ -463,7 +491,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇧🇷 ((Caution)) vs 🇧🇷 lub-Iaboca",
    "publicado": "2026-10-01T19:29:20Z",
    "privacidad": "public",
-   "vistas": 4,
+   "vistas": 8,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/Jzln-FKDhTQ/mqdefault.jpg"
   },
@@ -472,7 +500,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 mrcarabano vs 🇺🇸 RenoMD",
    "publicado": "2026-10-01T19:09:12Z",
    "privacidad": "public",
-   "vistas": 8,
+   "vistas": 13,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/_Fk0U8nvRUg/mqdefault.jpg"
   },
@@ -490,7 +518,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 _yito2k_ vs 🇲🇽 KELA420",
    "publicado": "2026-10-01T18:40:29Z",
    "privacidad": "public",
-   "vistas": 39,
+   "vistas": 42,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/Phqkqo3mdZo/mqdefault.jpg"
   },
@@ -508,7 +536,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 stevetren vs 🇺🇸 znoopyglobal #shorts",
    "publicado": "2026-10-01T09:12:16Z",
    "privacidad": "public",
-   "vistas": 672,
+   "vistas": 673,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/gF2yGomC8bk/mqdefault.jpg"
   },
@@ -517,7 +545,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 stevetren vs 🇺🇸 znoopyglobal",
    "publicado": "2026-10-01T09:10:08Z",
    "privacidad": "public",
-   "vistas": 14,
+   "vistas": 18,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/gOcFJFUv8bI/mqdefault.jpg"
   },
@@ -535,7 +563,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇧🇷 lub-Iaboca vs 🇧🇷 Sonic Gyn",
    "publicado": "2026-10-01T08:44:16Z",
    "privacidad": "public",
-   "vistas": 5,
+   "vistas": 6,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/fUGlwkCF3eE/mqdefault.jpg"
   },
@@ -553,7 +581,7 @@
    "titulo": "Super Street Fighter II X | 🇫🇷 kazel vs 🇧🇪 training12",
    "publicado": "2026-10-01T08:16:35Z",
    "privacidad": "public",
-   "vistas": 5,
+   "vistas": 7,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/VuzmAK5xmw0/mqdefault.jpg"
   },
@@ -571,7 +599,7 @@
    "titulo": "Super Street Fighter II X | 🇧🇷 RAC | Flavio.Ryu vs 🇧🇷 BeastFromBrazil",
    "publicado": "2026-10-01T07:12:48Z",
    "privacidad": "public",
-   "vistas": 21,
+   "vistas": 23,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/n2W8MPQnQ8M/mqdefault.jpg"
   },
@@ -589,7 +617,7 @@
    "titulo": "Super Street Fighter II X | 🇨🇦 Bruh vs 🇺🇸 Cone of Cold",
    "publicado": "2026-10-01T06:42:48Z",
    "privacidad": "public",
-   "vistas": 10,
+   "vistas": 12,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/NN8pWm4Wvzg/mqdefault.jpg"
   },
@@ -607,7 +635,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 ChoiBoy vs 🇺🇸 SuperrV",
    "publicado": "2026-09-30T01:37:41Z",
    "privacidad": "public",
-   "vistas": 7,
+   "vistas": 11,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/xpT3YllshRo/mqdefault.jpg"
   },
@@ -625,7 +653,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 ChoiBoy vs 🇲🇽 djfrijoles",
    "publicado": "2026-09-30T00:15:01Z",
    "privacidad": "public",
-   "vistas": 5,
+   "vistas": 12,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/jv7n1WWtnN4/mqdefault.jpg"
   },
@@ -634,7 +662,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇧🇷 ((Caution)) vs 🇨🇱 Devaud #shorts",
    "publicado": "2026-09-29T22:02:44Z",
    "privacidad": "public",
-   "vistas": 173,
+   "vistas": 174,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/3GiDmnz3X_4/mqdefault.jpg"
   },
@@ -643,7 +671,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇧🇷 ((Caution)) vs 🇨🇱 Devaud",
    "publicado": "2026-09-29T21:53:36Z",
    "privacidad": "public",
-   "vistas": 8,
+   "vistas": 10,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/W_0wpT0per4/mqdefault.jpg"
   },
@@ -661,7 +689,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇲🇽 MT Yurikowa vs 🇦🇷 Nostrax",
    "publicado": "2026-09-29T20:17:50Z",
    "privacidad": "public",
-   "vistas": 6,
+   "vistas": 11,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/DEUvaIRxw0M/mqdefault.jpg"
   },
@@ -670,7 +698,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 H-Zero vs 🇲🇽 hassasin10 #shorts",
    "publicado": "2026-09-29T19:53:56Z",
    "privacidad": "public",
-   "vistas": 196,
+   "vistas": 197,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/8CFIrAQEmfA/mqdefault.jpg"
   },
@@ -688,7 +716,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 djfrijoles vs 🇺🇸 mrcarabano",
    "publicado": "2026-09-28T21:07:51Z",
    "privacidad": "public",
-   "vistas": 16,
+   "vistas": 30,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/Vf-7qvclez8/mqdefault.jpg"
   },
@@ -697,7 +725,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 H-Zero vs 🇲🇽 hassasin10",
    "publicado": "2026-09-28T20:12:47Z",
    "privacidad": "public",
-   "vistas": 7,
+   "vistas": 18,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/l_q-Mm-qxI4/mqdefault.jpg"
   }

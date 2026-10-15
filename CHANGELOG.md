@@ -8,6 +8,11 @@ que se hizo el cambio, no las de publicación.
 
 ## 2026-10-15
 
+- **KOF 2002 activo** en la web (`juegos.json`) y en fcrec (`juegos.py`: cola, YouTube, Facebook,
+  listas, Discord). Sin sets todavía: salen al publicarse en YouTube. La web ya no hace
+  fichas de grabaciones sin subir (`web.ficha` exige el vídeo de YouTube).
+- **Overlay ST: carteles del juego** leídos de la memoria (FIRST ATTACK, N HIT COMBO, REVERSAL
+  ATTACK) en las estadísticas; **BEAT BY** en todos los juegos.
 - **Limpieza: sólo lo publicado en YouTube.** Fuera 6 fichas sin vídeo en YouTube
   (5 sets retirados para volver a grabarse, que seguían en la web, y una prueba de CE).
   `indice.json` = 40 sets, los mismos que en YouTube. Ficha de Hyper Fighting rehecha con

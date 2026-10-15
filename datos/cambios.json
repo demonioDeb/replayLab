@@ -5,6 +5,23 @@
    "fecha": "2026-10-15",
    "cambios": [
     {
+     "t": "añadido",
+     "area": [
+      "web",
+      "juego"
+     ],
+     "es": "The King of Fighters 2002 ya está activo en Replay Lab. Sus primeros sets llegarán en cuanto se publiquen en YouTube.",
+     "en": "The King of Fighters 2002 is now active on Replay Lab. Its first sets will show up as soon as they are published on YouTube."
+    },
+    {
+     "t": "añadido",
+     "area": [
+      "juego"
+     ],
+     "es": "Super Street Fighter II X: el overlay cuenta los carteles del propio juego (FIRST ATTACK, combos y REVERSAL ATTACK) y la racha de peleas ganadas seguidas («BEAT BY») sale en todos los juegos.",
+     "en": "Super Street Fighter II X: the overlay counts the game's own banners (FIRST ATTACK, combos and REVERSAL ATTACK), and the winning streak («BEAT BY») now shows in every game."
+    },
+    {
      "t": "arreglado",
      "area": [
       "web"

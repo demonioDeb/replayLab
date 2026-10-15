@@ -178,8 +178,10 @@
    ],
    "anio": 2002,
    "compania": "Eolith / Playmore",
-   "estado": "proximamente",
-   "nombre_completo": "The King of Fighters 2002"
+   "estado": "activo",
+   "nombre_completo": "The King of Fighters 2002",
+   "desbloqueado": "2026-10-15",
+   "retrato": "kof2002_kyo"
   }
  ]
 }
