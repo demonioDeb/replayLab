@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-11 03:42",
+ "actualizado": "2026-10-15 12:41",
  "videos": [
   {
    "quark": "1791683729181-8091",
@@ -433,186 +433,6 @@
    "rondas": 22
   },
   {
-   "quark": "1791493843978-2248",
-   "juego": "ssf2xjr1",
-   "juego_nombre": "Super Street Fighter II X",
-   "juego_corto": "SSF2X",
-   "fecha": "2026-10-08",
-   "youtube": null,
-   "duracion": 279.7,
-   "marcador": [
-    3,
-    0
-   ],
-   "peleas": 3,
-   "jugadores": [
-    {
-     "nombre": "robertodaimon",
-     "pais": "br",
-     "rango_letra": "A",
-     "personaje": "Dhalsim",
-     "clave": "dhalsim",
-     "personajes": [
-      "Dhalsim"
-     ],
-     "claves": [
-      "dhalsim"
-     ]
-    },
-    {
-     "nombre": "stronda",
-     "pais": "br",
-     "rango_letra": "B",
-     "personaje": "Vega",
-     "clave": "claw",
-     "personajes": [
-      "Vega"
-     ],
-     "claves": [
-      "claw"
-     ]
-    }
-   ],
-   "rondas": 9
-  },
-  {
-   "quark": "1791493765930-7512",
-   "juego": "ssf2xjr1",
-   "juego_nombre": "Super Street Fighter II X",
-   "juego_corto": "SSF2X",
-   "fecha": "2026-10-08",
-   "youtube": null,
-   "duracion": 163.5,
-   "marcador": [
-    2,
-    0
-   ],
-   "peleas": 2,
-   "jugadores": [
-    {
-     "nombre": "Cheznelson1",
-     "pais": "fr",
-     "rango_letra": "C",
-     "personaje": "E. Honda",
-     "clave": "honda",
-     "personajes": [
-      "E. Honda"
-     ],
-     "claves": [
-      "honda"
-     ]
-    },
-    {
-     "nombre": "Ryby_Niet",
-     "pais": "fr",
-     "rango_letra": "D",
-     "personaje": "Cammy",
-     "clave": "cammy",
-     "personajes": [
-      "Cammy"
-     ],
-     "claves": [
-      "cammy"
-     ]
-    }
-   ],
-   "rondas": 5
-  },
-  {
-   "quark": "1791476113723-1866",
-   "juego": "kof98",
-   "juego_nombre": "The King of Fighters '98",
-   "juego_corto": "KOF98",
-   "fecha": "2026-10-08",
-   "youtube": null,
-   "duracion": 919.1,
-   "marcador": [
-    2,
-    3
-   ],
-   "peleas": 5,
-   "jugadores": [
-    {
-     "nombre": "YeopMun",
-     "pais": "kr",
-     "rango_letra": "A",
-     "personaje": "Benimaru",
-     "clave": "kof98_benimaru",
-     "personajes": [
-      "Benimaru",
-      "Rugal",
-      "Terry"
-     ],
-     "claves": [
-      "kof98_benimaru",
-      "kof98_rugal",
-      "kof98_terry"
-     ]
-    },
-    {
-     "nombre": "it`s",
-     "pais": "kr",
-     "rango_letra": "A",
-     "personaje": "Kyo",
-     "clave": "kof98_kyo",
-     "personajes": [
-      "Kyo",
-      "Iori"
-     ],
-     "claves": [
-      "kof98_kyo",
-      "kof98_iori"
-     ]
-    }
-   ],
-   "rondas": 24
-  },
-  {
-   "quark": "1791473040552-5994",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-10-08",
-   "youtube": null,
-   "duracion": 837.6,
-   "marcador": [
-    4,
-    3
-   ],
-   "peleas": 7,
-   "jugadores": [
-    {
-     "nombre": "DR. DRINK",
-     "pais": "br",
-     "rango_letra": "B",
-     "personaje": "Ryu",
-     "clave": "ryu",
-     "personajes": [
-      "Ryu"
-     ],
-     "claves": [
-      "ryu"
-     ]
-    },
-    {
-     "nombre": "YONIVAL",
-     "pais": "ar",
-     "rango_letra": "B",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison",
-      "Vega"
-     ],
-     "claves": [
-      "dictator",
-      "claw"
-     ]
-    }
-   ],
-   "rondas": 18
-  },
-  {
    "quark": "1791260850064-8625",
    "juego": "ssf2xjr1",
    "juego_nombre": "Super Street Fighter II X",
@@ -852,49 +672,6 @@
     }
    ],
    "rondas": 18
-  },
-  {
-   "quark": "1791000164232-4534",
-   "juego": "ssf2xjr1",
-   "juego_nombre": "Super Street Fighter II X",
-   "juego_corto": "SSF2X",
-   "fecha": "2026-10-03",
-   "youtube": null,
-   "duracion": 335.3,
-   "marcador": [
-    3,
-    1
-   ],
-   "peleas": 4,
-   "jugadores": [
-    {
-     "nombre": "VAMOS A DIVERTIRNOS",
-     "pais": "do",
-     "rango_letra": "B",
-     "personaje": "Vega",
-     "clave": "claw",
-     "personajes": [
-      "Vega"
-     ],
-     "claves": [
-      "claw"
-     ]
-    },
-    {
-     "nombre": "POLICE DE MONTREAL",
-     "pais": "ca",
-     "rango_letra": "A",
-     "personaje": "Ryu",
-     "clave": "ryu",
-     "personajes": [
-      "Ryu"
-     ],
-     "claves": [
-      "ryu"
-     ]
-    }
-   ],
-   "rondas": 9
   },
   {
    "quark": "1790828329188-3709",
@@ -1810,6 +1587,51 @@
     }
    ],
    "rondas": 21
+  },
+  {
+   "quark": "1780973952300-2539",
+   "juego": "sf2hf",
+   "juego_nombre": "Street Fighter II' Hyper Fighting",
+   "juego_corto": "SF2HF",
+   "fecha": "2026-06-09",
+   "youtube": "FqaY8KTOV38",
+   "duracion": 746.4,
+   "marcador": [
+    5,
+    3
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "padoodey",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Balrog",
+     "clave": "boxer",
+     "personajes": [
+      "Balrog"
+     ],
+     "claves": [
+      "boxer"
+     ]
+    },
+    {
+     "nombre": "DJILK",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken",
+      "Ryu"
+     ],
+     "claves": [
+      "ken",
+      "ryu"
+     ]
+    }
+   ],
+   "rondas": 22
   },
   {
    "quark": "1775618604662-9103",

@@ -2,6 +2,204 @@
  "nota": "Resumen por día de lo que se hizo y lo que se descubrió. Lo escribe a mano quien trabaja en el proyecto; no se genera solo. Cada cambio lleva 'area': 'web' (lo que se ve en replayLab) y/o 'juego' (overlay, grabación, lo descubierto del juego, YouTube), y 'juego' con el id de datos/juegos.json (o una lista de ids si el cambio vale para varios juegos). cambios.html tiene una pestaña por juego.",
  "dias": [
   {
+   "fecha": "2026-10-15",
+   "cambios": [
+    {
+     "t": "arreglado",
+     "area": [
+      "web"
+     ],
+     "es": "Fuera de la web los sets que se habían retirado para volver a grabarse: ya no salen fichas sin vídeo. Ahora la web enseña exactamente los sets que están en YouTube.",
+     "en": "Sets that had been pulled to be recorded again are gone from the site: no more pages without a video. The site now shows exactly the sets that are on YouTube."
+    }
+   ]
+  },
+  {
+   "fecha": "2026-10-14",
+   "cambios": [
+    {
+     "t": "añadido",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "sf2ce"
+     ],
+     "es": "Champion Edition ya mide el aturdimiento: en el overlay salen la barra de stun, los avisos de mareo y la fila «Mareos que provocó». Comprobado con mareos reales avisados durante una grabación.",
+     "en": "Champion Edition now tracks stun: the overlay shows the stun bar, the dizzy alerts and the «Dizzies caused» row. Checked against real dizzies called out during a recording."
+    }
+   ]
+  },
+  {
+   "fecha": "2026-10-13",
+   "cambios": [
+    {
+     "t": "añadido",
+     "area": [
+      "web"
+     ],
+     "juego": [
+      "sf2hf"
+     ],
+     "es": "Llega Street Fighter II' Hyper Fighting, con su página en Juegos y su primer set.",
+     "en": "Street Fighter II' Hyper Fighting is here, with its own page under Games and its first set."
+    },
+    {
+     "t": "añadido",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce",
+      "sf2hf",
+      "kof98"
+     ],
+     "es": "El vídeo largo termina con una animación del ganador y las estadísticas de todo el set, con voz: el narrador repasa el resultado y lo más destacado, y cada cifra se ilumina cuando la nombra. Ya no sale un cartel de estadísticas al acabar cada pelea.",
+     "en": "The full video now ends with an animation of the winner and the stats of the whole set, with voice: the narrator goes over the result and the highlights, and each number lights up as it's mentioned. The stats card after every match is gone."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce",
+      "sf2hf",
+      "kof98"
+     ],
+     "es": "Línea de tiempo: los momentos de cada jugador van en su lado (P1 arriba, P2 abajo) y de su color, y la pelea y la ronda más rápidas se marcan en vivo con un contorno dorado. El Short termina con el ganador y hasta 7 cifras del set.",
+     "en": "Timeline: each player's moments sit on their own side (P1 on top, P2 below) in their color, and the fastest match and round are marked live with a golden outline. The Short ends with the winner and up to 7 numbers from the set."
+    }
+   ]
+  },
+  {
+   "fecha": "2026-10-08",
+   "cambios": [
+    {
+     "t": "añadido",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce",
+      "kof98"
+     ],
+     "es": "Línea de tiempo nueva en la parte de abajo del overlay: un tramo por pelea, sus rondas del color de quien las ganó y los momentos del set (súpers, combos, mareos, perfects, remontadas…) en el instante en que pasaron.",
+     "en": "New timeline at the bottom of the overlay: one piece per match, its rounds in the winner's color, and the moments of the set (supers, combos, dizzies, perfects, comebacks…) right where they happened."
+    },
+    {
+     "t": "añadido",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce",
+      "kof98"
+     ],
+     "es": "El Short empieza con una presentación narrada de los dos jugadores.",
+     "en": "The Short now opens with a narrated introduction of both players."
+    }
+   ]
+  },
+  {
+   "fecha": "2026-10-07",
+   "cambios": [
+    {
+     "t": "añadido",
+     "area": [
+      "web"
+     ],
+     "es": "Replay Lab tiene Discord: cada set sale en el canal de su juego en cuanto se publica en YouTube, con su Short y un hilo para comentarlo, y hay ranking, cola y /pedir para pedir replays a cualquier hora. En la web, Discord está en el menú, en Redes y en Pedir.",
+     "en": "Replay Lab is on Discord: every set is posted in its game's channel as soon as it's public on YouTube, with its Short and a thread to talk about it, plus a ranking, the queue and /pedir to request replays at any time. On the site, Discord is in the menu, in Socials and in Request."
+    },
+    {
+     "t": "añadido",
+     "area": [
+      "web"
+     ],
+     "juego": [
+      "kof98"
+     ],
+     "es": "The King of Fighters '98 ya está en la web, con su página y sus sets.",
+     "en": "The King of Fighters '98 is now on the site, with its own page and sets."
+    },
+    {
+     "t": "añadido",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "kof98"
+     ],
+     "es": "KOF '98 en el overlay: barra de poder con sus reservas (las que el juego regala al cambiar de personaje salen en azul), el MAX, los súpers y los mareos.",
+     "en": "KOF '98 in the overlay: power gauge with its stocks (the ones the game hands over when a character changes show in blue), MAX mode, supers and dizzies."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce",
+      "kof98"
+     ],
+     "es": "Las descripciones de YouTube y Facebook llevan el enlace al Discord.",
+     "en": "YouTube and Facebook descriptions now link to the Discord."
+    }
+   ]
+  },
+  {
+   "fecha": "2026-10-05",
+   "cambios": [
+    {
+     "t": "arreglado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce"
+     ],
+     "es": "Adiós al eco: en algunos vídeos del 1 de octubre el sonido del juego se grababa dos veces. Ahora se graba una sola fuente y, si vuelve a pasar, el vídeo no se sube.",
+     "en": "No more echo: in some videos from October 1 the game sound was recorded twice. Now only one source is recorded and, if it ever happens again, the video isn't uploaded."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce"
+     ],
+     "es": "Overlay: la música rápida y el marco rojo sólo saltan cuando perder esa ronda cuesta la pelea, y la ficha del jugador en peligro se enciende con su color.",
+     "en": "Overlay: the fast music and the red frame only kick in when losing that round costs the match, and the card of the player in danger lights up in their color."
+    }
+   ]
+  },
+  {
+   "fecha": "2026-10-02",
+   "cambios": [
+    {
+     "t": "cambiado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce"
+     ],
+     "es": "Overlay: al marearse, el retrato gira sobre sí mismo, salen estrellas sobre su ficha y la barra de stun se queda llena parpadeando; el súper lleno lleva rayos eléctricos y un doble K.O. deja los dos retratos en gris.",
+     "en": "Overlay: on a dizzy the portrait spins, stars circle over the player card and the stun bar stays full and blinking; a full super crackles with lightning, and a double K.O. turns both portraits grey."
+    }
+   ]
+  },
+  {
    "fecha": "2026-10-01",
    "cambios": [
     {

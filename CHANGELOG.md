@@ -6,6 +6,60 @@ La versión que se ve en el sitio está en `datos/cambios.json` y se lee en
 Los cambios de replayLab, de lo más nuevo a lo más viejo. Las fechas son las del día en
 que se hizo el cambio, no las de publicación.
 
+## 2026-10-15
+
+- **Limpieza: sólo lo publicado en YouTube.** Fuera 6 fichas sin vídeo en YouTube
+  (5 sets retirados para volver a grabarse, que seguían en la web, y una prueba de CE).
+  `indice.json` = 40 sets, los mismos que en YouTube. Ficha de Hyper Fighting rehecha con
+  su vídeo. En fcrec: fuera las grabaciones de prueba (HF, KOF 2002, CE) y los crudos de OBS.
+- **Discord:** `tools/discord_limpiar.py` / `discord-limpiar.bat` quita las publicaciones
+  de sets que ya no están en YouTube, monta lo que falte (canal y rol de HF) y publica lo
+  pendiente.
+
+## 2026-10-14
+
+- **Champion Edition: aturdimiento.** Mismas direcciones que HF (base+0x5F puntos, hasta
+  30; base+0x123/0x124 mareado), comprobado con 5 mareos reales. Overlay con barra de
+  stun, avisos de mareo y «Mareos que provocó»; sólo en grabaciones nuevas
+  (`requiere: stun1`).
+
+## 2026-10-13
+
+- **Hyper Fighting activo** en la web (`juegos.json`), con su primer set y sus listas de
+  YouTube.
+- **Final animado del vídeo largo** (`fcrec/final_largo.py`): ganador, hasta 7 cifras del
+  set y voz que resalta cada fila; se pega sin recodificar la grabación. Fuera el cartel de
+  estadísticas al acabar cada pelea (`resumen_pelea = false`).
+- **Línea de tiempo v8:** eventos de P1 arriba y P2 abajo, con su color; pelea y ronda más
+  rápidas en vivo con contorno dorado. Final del Short con rejilla de neón y cifras.
+
+## 2026-10-08
+
+- **Línea de tiempo** en la franja de abajo del overlay: un tramo por pelea (tantos como el
+  FT), rondas del color del ganador, regla de tiempo y los eventos en su momento.
+- **Short:** presentación narrada al empezar; también se hace al grabar sin subir.
+
+## 2026-10-07
+
+- **Discord de Replay Lab:** servidor montado por el bot (roles, canales por juego, #shorts,
+  #cola, #ranking), publicación de cada set cuando es público en YouTube, `/pedir` desde
+  un Worker de Cloudflare (contesta con el PC apagado). Web: Discord en el menú, Redes y
+  Pedir (`datos/discord.json`). Descripciones de YouTube y Facebook con el enlace.
+- **KOF '98 activo en la web.** Overlay: barra de poder y reservas (las regaladas en azul),
+  MAX, súpers y mareos (base+0x13F); fin de pelea por equipo.
+
+## 2026-10-05
+
+- **Sonido doble:** se graba una sola fuente de audio en OBS y `audiochk` frena la subida
+  si detecta eco.
+- **Música rápida / peligro:** sólo con poca vida y la ronda decide la pelea; la ficha se
+  enciende con su color. Historial de inputs hasta el fondo de la tarjeta.
+
+## 2026-10-02
+
+- **Overlay:** giro del retrato al marear, estrellas sobre la ficha, stun lleno y
+  parpadeante, súper lleno con rayos, doble K.O. en gris, latido al cambiar de personaje.
+
 ## 2026-10-01
 
 - **Voz del narrador (`fcrec/voz.py`, `fcrec/narrador.py`).** Intro hablada al empezar el

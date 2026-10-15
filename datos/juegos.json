@@ -57,8 +57,10 @@
    ],
    "anio": 1992,
    "compania": "Capcom",
-   "estado": "proximamente",
-   "nombre_completo": "Street Fighter II' Hyper Fighting"
+   "estado": "activo",
+   "nombre_completo": "Street Fighter II' Hyper Fighting",
+   "retrato": "ken",
+   "desbloqueado": "2026-10-13"
   },
   {
    "id": "kof94",
