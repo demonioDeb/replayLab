@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-15 21:59",
+ "actualizado": "2026-10-15 22:38",
  "videos": [
   {
    "quark": "1792084722783-2507",
@@ -51,6 +51,49 @@
     }
    ],
    "rondas": 44
+  },
+  {
+   "quark": "1792080915719-4122",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-15",
+   "youtube": "NfpjS5D_bJ4",
+   "duracion": 958.0,
+   "marcador": [
+    4,
+    5
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "Flawless | Victory",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    },
+    {
+     "nombre": "Serdar80s",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    }
+   ],
+   "rondas": 20
   },
   {
    "quark": "1791683729181-8091",
