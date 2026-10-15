@@ -1,6 +1,57 @@
 {
- "actualizado": "2026-10-15 20:16",
+ "actualizado": "2026-10-15 21:59",
  "videos": [
+  {
+   "quark": "1792084722783-2507",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2026-10-15",
+   "youtube": "03Gip9P0CoI",
+   "duracion": 1748.2,
+   "marcador": [
+    5,
+    4
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "Bhayankar Yagami.",
+     "pais": "pk",
+     "rango_letra": "B",
+     "personaje": "Iori · Ralf · Daimon",
+     "clave": "kof98_iori",
+     "personajes": [
+      "Iori",
+      "Ralf",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_ralf",
+      "kof98_daimon"
+     ]
+    },
+    {
+     "nombre": "Arham0786",
+     "pais": "ae",
+     "rango_letra": "C",
+     "personaje": "Iori · Daimon · Chris",
+     "clave": "kof98_iori",
+     "personajes": [
+      "Iori",
+      "Daimon",
+      "Chris"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_daimon",
+      "kof98_chris"
+     ]
+    }
+   ],
+   "rondas": 44
+  },
   {
    "quark": "1791683729181-8091",
    "juego": "ssf2xjr1",
