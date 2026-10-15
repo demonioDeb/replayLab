@@ -8,6 +8,14 @@ que se hizo el cambio, no las de publicación.
 
 ## 2026-10-15
 
+- **Portada nueva** (`index.html`): «Qué es Replay Lab» en 4 tarjetas (grabación con overlay,
+  vídeos y Shorts, análisis de cada partida, comunidad en Discord) y una invitación grande al
+  café; botón «Invítanos un café» también arriba. **Menú**: Explorar (Inicio, Partidas,
+  Juegos, Novedades) · Comunidad ▾ (Pedir un replay, Discord, Redes) · Más ▾ (Guía, GitHub) · ☕.
+  Textos nuevos en los 6 idiomas.
+- **Novedades**: `ssf2xjr1` cuenta como SSF2X (pestaña duplicada fuera); franja del café al final.
+- **Resumen final del vídeo largo**: hasta 13 cifras del set y voz más larga; resumen del set
+  del overlay con más filas. **Shorts** con el fondo del propio vídeo desenfocado.
 - **KOF 2002 activo** en la web (`juegos.json`) y en fcrec (`juegos.py`: cola, YouTube, Facebook,
   listas, Discord). Sin sets todavía: salen al publicarse en YouTube. La web ya no hace
   fichas de grabaciones sin subir (`web.ficha` exige el vídeo de YouTube).

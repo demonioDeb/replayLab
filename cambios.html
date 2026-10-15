@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Cambios · replayLab">
 <meta name="twitter:description" content="Qué cambió en replayLab y en cada juego, día a día.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=4fe8215a25">
+<link rel="stylesheet" href="assets/estilo.css?v=32961d5c17">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -37,11 +37,12 @@
   <p class="c-desc" id="c-desc"></p>
   <div id="cambios" class="diario"></div>
   <div class="ver-mas" id="c-mas" hidden></div>
+  <div id="apoyo"></div>
 </main>
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=c26b82252a"></script>
+<script src="assets/app.js?v=b51c2a2c3e"></script>
 <script>
 "use strict";
 let DATOS = null;
@@ -76,7 +77,9 @@ const fechaLarga = f => {
 // ("juego": un id de datos/juegos.json, o una lista si vale para varios).
 // Pestañas: Todo · 🌐 Web · una por juego. ?area=web o ?juego=<id>, para poder compartir.
 const areas = c => c.area || ["web"];
-const juegosDe = c => [].concat(c.juego || []);
+// (15 oct) un gameid de Fightcade (ssf2xjr1) cuenta como su juego de la web (ssf2x)
+const idWeb = x => juegoPorId(x) ? x : (((JUEGOS || []).find(j => (j.gameids || []).includes(x)) || {}).id || x);
+const juegosDe = c => [...new Set([].concat(c.juego || []).map(idWeb))];
 const nombreJuego = id => (juegoPorId(id) || {}).nombre_completo || (juegoPorId(id) || {}).nombre || id || "";
 const cortoJuego = id => (juegoPorId(id) || {}).corto || id;
 let FILTRO = Q.get("juego") ? "j:" + Q.get("juego") : (Q.get("area") === "web" ? "web" : "");
@@ -97,7 +100,7 @@ function pinta() {
   document.documentElement.lang = LANG;
   $("#titulo").textContent = T("t_cambios");
   $("#sub").textContent = T("sub_cambios");
-  textosCabecera(); pintaPie();
+  textosCabecera(); pintaPie(); pintaApoyo();
   if (!DATOS) return;
   const todas = (DATOS.dias || []).flatMap(d => d.cambios || []);
   // un juego tiene pestaña si tiene cambios; en el orden de datos/juegos.json

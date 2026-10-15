@@ -7,11 +7,49 @@
     {
      "t": "añadido",
      "area": [
-      "web",
+      "web"
+     ],
+     "es": "Nueva portada: qué hace Replay Lab, cómo se hacen los vídeos y el análisis, y una invitación a apoyarnos con un café. El menú queda en Explorar, Comunidad y Más.",
+     "en": "New home page: what Replay Lab does, how the videos and the analysis are made, and an invitation to support us with a coffee. The menu is now Explore, Community and More."
+    },
+    {
+     "t": "cambiado",
+     "area": [
       "juego"
      ],
+     "juego": [
+      "ssf2x",
+      "sf2ce",
+      "sf2hf",
+      "kof98",
+      "kof2002"
+     ],
+     "es": "El resumen final de cada vídeo es más largo: hasta 13 cifras del set (rachas, vida al ganar, contraataques, first attack, reversals…) y la voz cuenta más datos. El resumen del set del overlay también suma filas.",
+     "en": "The final recap of every video is longer: up to 13 numbers from the set (streaks, health when winning, guard counters, first attacks, reversals…) and the narrator covers more of them. The overlay's set summary gets more rows too."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x",
+      "sf2ce",
+      "sf2hf",
+      "kof98",
+      "kof2002"
+     ],
+     "es": "Shorts: el fondo ahora es el propio vídeo desenfocado.",
+     "en": "Shorts: the background is now the video itself, blurred."
+    },
+    {
+     "t": "añadido",
+     "area": [
+      "web"
+     ],
      "es": "The King of Fighters 2002 ya está activo en Replay Lab. Sus primeros sets llegarán en cuanto se publiquen en YouTube.",
-     "en": "The King of Fighters 2002 is now active on Replay Lab. Its first sets will show up as soon as they are published on YouTube."
+     "en": "The King of Fighters 2002 is now active on Replay Lab. Its first sets will show up as soon as they are published on YouTube.",
+     "juego": "kof2002"
     },
     {
      "t": "añadido",
@@ -19,7 +57,14 @@
       "juego"
      ],
      "es": "Super Street Fighter II X: el overlay cuenta los carteles del propio juego (FIRST ATTACK, combos y REVERSAL ATTACK) y la racha de peleas ganadas seguidas («BEAT BY») sale en todos los juegos.",
-     "en": "Super Street Fighter II X: the overlay counts the game's own banners (FIRST ATTACK, combos and REVERSAL ATTACK), and the winning streak («BEAT BY») now shows in every game."
+     "en": "Super Street Fighter II X: the overlay counts the game's own banners (FIRST ATTACK, combos and REVERSAL ATTACK), and the winning streak («BEAT BY») now shows in every game.",
+     "juego": [
+      "ssf2x",
+      "sf2ce",
+      "sf2hf",
+      "kof98",
+      "kof2002"
+     ]
     },
     {
      "t": "arreglado",
@@ -225,7 +270,7 @@
       "juego"
      ],
      "juego": [
-      "ssf2xjr1",
+      "ssf2x",
       "sf2ce"
      ],
      "es": "Los vídeos tienen voz: al empezar, un narrador presenta el set (quiénes juegan, con qué personajes, sus rangos, cómo se pone la cosa) sin decir el resultado, y el Short lleva su propia frase al empezar y al terminar. Cada vídeo suena distinto.",
@@ -237,7 +282,7 @@
       "juego"
      ],
      "juego": [
-      "ssf2xjr1",
+      "ssf2x",
       "sf2ce"
      ],
      "es": "Shorts con diseño nuevo: arriba los nicks y el marcador, las fichas con sus barras, la barra de ventaja, el juego grande y el cartel de cada momento a todo el ancho. Un marco dorado se va llenando durante el Short y sus dos flechas se encuentran al final.",
@@ -249,7 +294,7 @@
       "juego"
      ],
      "juego": [
-      "ssf2xjr1",
+      "ssf2x",
       "sf2ce"
      ],
      "es": "Overlay: el retrato de cada jugador reacciona a cada golpe que recibe y se queda en gris cuando pierde la pelea. En Super Turbo, todo tiembla cuando alguien queda mareado.",

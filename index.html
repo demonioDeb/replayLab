@@ -26,7 +26,7 @@
 <meta name="twitter:title" content="replayLab · replays de juegos de pelea">
 <meta name="twitter:description" content="Análisis de partidas de juegos de pelea: replays de Fightcade grabados, con estadísticas leídas de la propia partida.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=4fe8215a25">
+<link rel="stylesheet" href="assets/estilo.css?v=32961d5c17">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -39,10 +39,21 @@
     <div class="hero-cta">
       <a class="btn prim" href="partidas.html" id="h-ver"></a>
       <a class="btn" href="juegos.html" id="h-juegos-btn"></a>
+      <a class="btn cafe" id="h-cafe" target="_blank" rel="noopener" hidden></a>
     </div>
     <a class="hero-guia" href="guia.html" id="h-guia"></a>
     <div class="hero-cifras" id="cifras"></div>
   </section>
+
+  <!-- (15 oct) qué hace Replay Lab -->
+  <section class="bloque">
+    <div class="bloque-cab"><h2 id="t-que"></h2></div>
+    <p class="que-sub" id="que-sub"></p>
+    <div class="que-grid" id="que"></div>
+  </section>
+
+  <!-- (15 oct) la invitación al café, grande -->
+  <div id="cafe"></div>
 
   <section class="bloque">
     <div class="bloque-cab"><h2 id="t-juegos"></h2></div>
@@ -55,12 +66,11 @@
     <div id="vacio" class="vacio" hidden></div>
   </section>
 
-  <div id="apoyo"></div>
 </main>
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=c26b82252a"></script>
+<script src="assets/app.js?v=b51c2a2c3e"></script>
 <script src="assets/lista.js?v=005562bfb5"></script>
 <script>
 "use strict";
@@ -69,7 +79,27 @@ const ULTIMAS = 6;
 
 function pinta() {
   document.documentElement.lang = LANG;
-  textosCabecera(); pintaPie(); pintaApoyo();
+  textosCabecera(); pintaPie();
+  // (15 oct) qué hace Replay Lab: cuatro tarjetas, cada una lleva a su sitio
+  $("#t-que").textContent = T("h_que_t");
+  $("#que-sub").textContent = T("h_que_sub");
+  const dc = urlDiscord();
+  $("#que").innerHTML = [
+    ["🎥", "h_f1_t", "h_f1_d", "guia.html", false],
+    ["▶️", "h_f2_t", "h_f2_d", "canal.html", false],
+    ["📊", "h_f3_t", "h_f3_d", "partidas.html", false],
+    ["💬", "h_f4_t", "h_f4_d", dc || "enviar.html", !!dc],
+  ].map(([ic, t, d, href, ext]) => `<a class="que-tarj" href="${esc(href)}"${ext ? ' target="_blank" rel="noopener"' : ""}>
+      <span class="que-ic" aria-hidden="true">${ic}</span><h3>${esc(T(t))}</h3><p>${esc(T(d))}</p></a>`).join("");
+  const don = (SITIO || {}).donacion || {};
+  const cafeOk = !!(don.activo && don.url);
+  $("#h-cafe").hidden = !cafeOk;
+  if (cafeOk) { $("#h-cafe").href = don.url; $("#h-cafe").textContent = "☕ " + T("h_cafe_btn"); }
+  $("#cafe").innerHTML = cafeOk ? `<aside class="cafe-panel">
+      <span class="cp-ic" aria-hidden="true">☕</span>
+      <div class="cp-txt"><h2>${esc(T("h_cafe_t"))}</h2><p>${esc(T("h_cafe_d"))}</p></div>
+      <div class="cp-acc"><a class="cafe-btn" href="${esc(don.url)}" target="_blank" rel="noopener">☕ ${esc(T("h_cafe_btn"))}</a>
+        <a class="cp-mas" href="apoyo.html">${esc(T("h_cafe_mas"))} →</a></div></aside>` : "";
   $("#h-titulo").textContent = T("h_titulo");
   $("#h-texto").textContent = T("h_texto");
   $("#h-ver").textContent = T("h_ver");
