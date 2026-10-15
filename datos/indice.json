@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-15 23:22",
+ "actualizado": "2026-10-15 23:53",
  "videos": [
   {
    "quark": "1792084722783-2507",
@@ -94,6 +94,59 @@
     }
    ],
    "rondas": 20
+  },
+  {
+   "quark": "1791912767348-2260",
+   "juego": "kof2002",
+   "juego_nombre": "The King of Fighters 2002",
+   "juego_corto": "KOF2002",
+   "fecha": "2026-10-13",
+   "youtube": "U21HTnN1GBA",
+   "duracion": 260.7,
+   "marcador": [
+    2,
+    0
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "mirza mudassar",
+     "pais": "pk",
+     "rango_letra": "A",
+     "personaje": "Choi · Kim · Vanessa",
+     "clave": "kof2002_choi",
+     "personajes": [
+      "Choi",
+      "Kim",
+      "Vanessa"
+     ],
+     "claves": [
+      "kof2002_choi",
+      "kof2002_kim",
+      "kof2002_vanessa"
+     ]
+    },
+    {
+     "nombre": "preciouss",
+     "pais": "fr",
+     "rango_letra": "B",
+     "personaje": "Angel · Daimon · Kim",
+     "clave": "kof2002_angel",
+     "personajes": [
+      "Angel",
+      "Daimon",
+      "Kim",
+      "Andy"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_daimon",
+      "kof2002_kim",
+      "kof2002_andy"
+     ]
+    }
+   ],
+   "rondas": 7
   },
   {
    "quark": "1791683729181-8091",

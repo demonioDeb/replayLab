@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-15T23:22:11Z",
+ "actualizado": "2026-10-15T23:53:05Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 20032,
  "videos": 82,
  "lista": [
+  {
+   "id": "zR7ORIt8jg0",
+   "privacidad": "private"
+  },
+  {
+   "id": "U21HTnN1GBA",
+   "privacidad": "private"
+  },
   {
    "id": "OLhW7r6qM8s",
    "privacidad": "private"
@@ -30,7 +38,7 @@
    "titulo": "The King of Fighters '98 | 🇵🇰 Bhayankar Yagami. vs 🇦🇪 Arham0786 #shorts",
    "publicado": "2026-10-15T21:55:43Z",
    "privacidad": "public",
-   "vistas": 100,
+   "vistas": 97,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/bkqQoJNSkmg/mqdefault.jpg"
   },
@@ -39,7 +47,7 @@
    "titulo": "The King of Fighters '98 | 🇵🇰 Bhayankar Yagami. vs 🇦🇪 Arham0786",
    "publicado": "2026-10-15T21:55:24Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/03Gip9P0CoI/mqdefault.jpg"
   },
