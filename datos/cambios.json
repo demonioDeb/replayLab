@@ -24,8 +24,8 @@
       "kof98",
       "kof2002"
      ],
-     "es": "El resumen final de cada vídeo es más largo: hasta 13 cifras del set (rachas, vida al ganar, contraataques, first attack, reversals…) y la voz cuenta más datos. El resumen del set del overlay también suma filas.",
-     "en": "The final recap of every video is longer: up to 13 numbers from the set (streaks, health when winning, guard counters, first attacks, reversals…) and the narrator covers more of them. The overlay's set summary gets more rows too."
+     "es": "El resumen final de cada vídeo es más largo: hasta 13 cifras del set (rachas, vida al ganar y los datos propios de cada juego) y la voz cuenta más datos. El resumen del set del overlay también suma filas.",
+     "en": "The final recap of every video is longer: up to 13 numbers from the set (streaks, health when winning and each game's own stats) and the narrator covers more of them. The overlay's set summary gets more rows too."
     },
     {
      "t": "cambiado",
@@ -56,15 +56,37 @@
      "area": [
       "juego"
      ],
-     "es": "Super Street Fighter II X: el overlay cuenta los carteles del propio juego (FIRST ATTACK, combos y REVERSAL ATTACK) y la racha de peleas ganadas seguidas («BEAT BY») sale en todos los juegos.",
-     "en": "Super Street Fighter II X: the overlay counts the game's own banners (FIRST ATTACK, combos and REVERSAL ATTACK), and the winning streak («BEAT BY») now shows in every game.",
+     "juego": [
+      "ssf2x"
+     ],
+     "es": "El overlay cuenta los carteles del propio juego: FIRST ATTACK, combos y REVERSAL ATTACK.",
+     "en": "The overlay counts the game's own banners: FIRST ATTACK, combos and REVERSAL ATTACK."
+    },
+    {
+     "t": "añadido",
+     "area": [
+      "juego"
+     ],
      "juego": [
       "ssf2x",
       "sf2ce",
       "sf2hf",
       "kof98",
       "kof2002"
-     ]
+     ],
+     "es": "La racha de peleas ganadas seguidas («BEAT BY») sale en todos los juegos.",
+     "en": "The winning streak («BEAT BY») now shows in every game."
+    },
+    {
+     "t": "arreglado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x"
+     ],
+     "es": "Combos: ya se cuentan el combo que termina en K.O. y el segundo combo de un jugador en la misma ronda, que antes se escapaban.",
+     "en": "Combos: the combo that ends in a K.O. and a player's second combo in the same round are now counted; they used to slip through."
     },
     {
      "t": "arreglado",
@@ -149,8 +171,8 @@
       "sf2ce",
       "kof98"
      ],
-     "es": "Línea de tiempo nueva en la parte de abajo del overlay: un tramo por pelea, sus rondas del color de quien las ganó y los momentos del set (súpers, combos, mareos, perfects, remontadas…) en el instante en que pasaron.",
-     "en": "New timeline at the bottom of the overlay: one piece per match, its rounds in the winner's color, and the moments of the set (supers, combos, dizzies, perfects, comebacks…) right where they happened."
+     "es": "Línea de tiempo nueva en la parte de abajo del overlay: un tramo por pelea, sus rondas del color de quien las ganó y los momentos del set (perfects, remontadas y, en cada juego, lo que mide: súpers, combos, mareos…) en el instante en que pasaron.",
+     "en": "New timeline at the bottom of the overlay: one piece per match, its rounds in the winner's color, and the moments of the set (perfects, comebacks and whatever each game measures: supers, combos, dizzies…) right where they happened."
     },
     {
      "t": "añadido",
@@ -253,11 +275,22 @@
       "juego"
      ],
      "juego": [
+      "ssf2x"
+     ],
+     "es": "Overlay: al marearse, el retrato gira sobre sí mismo, salen estrellas sobre su ficha y la barra de stun se queda llena parpadeando; el súper lleno lleva rayos eléctricos.",
+     "en": "Overlay: on a dizzy the portrait spins, stars circle over the player card and the stun bar stays full and blinking; a full super crackles with lightning."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
       "ssf2x",
       "sf2ce"
      ],
-     "es": "Overlay: al marearse, el retrato gira sobre sí mismo, salen estrellas sobre su ficha y la barra de stun se queda llena parpadeando; el súper lleno lleva rayos eléctricos y un doble K.O. deja los dos retratos en gris.",
-     "en": "Overlay: on a dizzy the portrait spins, stars circle over the player card and the stun bar stays full and blinking; a full super crackles with lightning, and a double K.O. turns both portraits grey."
+     "es": "Overlay: un doble K.O. deja los dos retratos en gris.",
+     "en": "Overlay: a double K.O. turns both portraits grey."
     }
    ]
   },
@@ -297,8 +330,19 @@
       "ssf2x",
       "sf2ce"
      ],
-     "es": "Overlay: el retrato de cada jugador reacciona a cada golpe que recibe y se queda en gris cuando pierde la pelea. En Super Turbo, todo tiembla cuando alguien queda mareado.",
-     "en": "Overlay: each player's portrait reacts to every hit they take and turns grey when they lose the game. In Super Turbo, everything shakes when someone gets dizzy."
+     "es": "Overlay: el retrato de cada jugador reacciona a cada golpe que recibe y se queda en gris cuando pierde la pelea.",
+     "en": "Overlay: each player's portrait reacts to every hit they take and turns grey when they lose the game."
+    },
+    {
+     "t": "añadido",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "ssf2x"
+     ],
+     "es": "Overlay: todo tiembla cuando alguien queda mareado.",
+     "en": "Overlay: everything shakes when someone gets dizzy."
     },
     {
      "t": "cambiado",
@@ -343,8 +387,8 @@
       "ssf2x",
       "sf2ce"
      ],
-     "es": "Shorts: de cada set sale un vídeo vertical de menos de un minuto con lo mejor (KO final, perfects, remontadas, súpers, combos…), con transiciones suaves, una repetición a cámara lenta del golpe final y una tarjeta con el ganador.",
-     "en": "Shorts: every set now gets a vertical video under a minute with the best moments (final KO, perfects, comebacks, supers, combos…), smooth transitions, a slow-motion replay of the final hit and a winner card."
+     "es": "Shorts: de cada set sale un vídeo vertical de menos de un minuto con lo mejor (KO final, perfects, remontadas y, donde el juego lo mide, súpers y combos), con transiciones suaves, una repetición a cámara lenta del golpe final y una tarjeta con el ganador.",
+     "en": "Shorts: every set now gets a vertical video under a minute with the best moments (final KO, perfects, comebacks and, where the game measures them, supers and combos), smooth transitions, a slow-motion replay of the final hit and a winner card."
     },
     {
      "t": "arreglado",
