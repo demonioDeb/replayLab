@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16 01:49",
+ "actualizado": "2026-10-16 02:31",
  "videos": [
   {
    "quark": "1792084722783-2507",
@@ -2101,6 +2101,59 @@
     }
    ],
    "rondas": 14
+  },
+  {
+   "quark": "1680146826140-1141",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2023-03-30",
+   "youtube": "W_AnK4L6lHY",
+   "duracion": 949.2,
+   "marcador": [
+    0,
+    5
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "DG | Mr Yama",
+     "pais": "ar",
+     "rango_letra": "A",
+     "personaje": "Kim · Chris · Daimon",
+     "clave": "kof98_kim",
+     "personajes": [
+      "Kim",
+      "Chris",
+      "Daimon",
+      "Yashiro"
+     ],
+     "claves": [
+      "kof98_kim",
+      "kof98_chris",
+      "kof98_daimon",
+      "kof98_yashiro"
+     ]
+    },
+    {
+     "nombre": "Abel-*CBZ*",
+     "pais": "ar",
+     "rango_letra": "A",
+     "personaje": "Iori · Chris · Yashiro",
+     "clave": "kof98_iori",
+     "personajes": [
+      "Iori",
+      "Chris",
+      "Yashiro"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_chris",
+      "kof98_yashiro"
+     ]
+    }
+   ],
+   "rondas": 22
   },
   {
    "quark": "1670461325217-6861",

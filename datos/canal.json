@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16T01:49:01Z",
+ "actualizado": "2026-10-16T02:31:47Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,8 +7,52 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 23,
  "vistas": 20032,
- "videos": 92,
+ "videos": 95,
  "lista": [
+  {
+   "id": "p7bTCIdFohE",
+   "privacidad": "private"
+  },
+  {
+   "id": "W_AnK4L6lHY",
+   "privacidad": "private"
+  },
+  {
+   "id": "J-8V2DWIk7s",
+   "titulo": "The King of Fighters 2002 | 🇪🇨 #ELKOFNosUne vs 🇨🇴 onimenodacho",
+   "publicado": "2026-10-16T02:14:15Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/J-8V2DWIk7s/mqdefault.jpg"
+  },
+  {
+   "id": "7A6JAOI1kSg",
+   "titulo": "The King of Fighters 2002 | 🇪🇨 #ELKOFNosUne vs 🇨🇴 onimenodacho #shorts",
+   "publicado": "2026-10-16T02:14:14Z",
+   "privacidad": "public",
+   "vistas": 64,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/7A6JAOI1kSg/mqdefault.jpg"
+  },
+  {
+   "id": "waZ6IGnHEUw",
+   "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel",
+   "publicado": "2026-10-16T01:52:22Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/waZ6IGnHEUw/mqdefault.jpg"
+  },
+  {
+   "id": "Nas-Ex7erA0",
+   "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel #shorts",
+   "publicado": "2026-10-16T01:51:59Z",
+   "privacidad": "public",
+   "vistas": 68,
+   "me_gusta": 1,
+   "miniatura": "https://i.ytimg.com/vi/Nas-Ex7erA0/mqdefault.jpg"
+  },
   {
    "id": "QUhLjDV4u64",
    "privacidad": "private"
@@ -22,7 +66,7 @@
    "titulo": "The King of Fighters 2002 | 🇵🇰 mirza mudassar vs 🇲🇽 CombosMX #shorts",
    "publicado": "2026-10-16T01:20:53Z",
    "privacidad": "public",
-   "vistas": 40,
+   "vistas": 44,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/Azq03K1eaUM/mqdefault.jpg"
   },
@@ -36,14 +80,6 @@
    "miniatura": "https://i.ytimg.com/vi/JZUIHXmToRU/mqdefault.jpg"
   },
   {
-   "id": "7A6JAOI1kSg",
-   "privacidad": "private"
-  },
-  {
-   "id": "J-8V2DWIk7s",
-   "privacidad": "private"
-  },
-  {
    "id": "sXP217Z_uoo",
    "titulo": "The King of Fighters 2002 | 🇲🇽 Jonathan Tijuana vs 🇲🇽 KGS_KINF_KULA",
    "publicado": "2026-10-16T01:03:24Z",
@@ -53,15 +89,11 @@
    "miniatura": "https://i.ytimg.com/vi/sXP217Z_uoo/mqdefault.jpg"
   },
   {
-   "id": "Nas-Ex7erA0",
-   "privacidad": "private"
-  },
-  {
    "id": "9qUXFgwYKSk",
    "titulo": "The King of Fighters 2002 | 🇩🇿 dz101010 vs 🇧🇷 modo sedex #shorts",
    "publicado": "2026-10-16T01:02:51Z",
    "privacidad": "public",
-   "vistas": 38,
+   "vistas": 53,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/9qUXFgwYKSk/mqdefault.jpg"
   },
@@ -70,7 +102,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 Jonathan Tijuana vs 🇲🇽 KGS_KINF_KULA #shorts",
    "publicado": "2026-10-16T01:02:49Z",
    "privacidad": "public",
-   "vistas": 97,
+   "vistas": 106,
    "me_gusta": 3,
    "miniatura": "https://i.ytimg.com/vi/OLhW7r6qM8s/mqdefault.jpg"
   },
@@ -82,10 +114,6 @@
    "vistas": 1,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/JsnuculyCrA/mqdefault.jpg"
-  },
-  {
-   "id": "waZ6IGnHEUw",
-   "privacidad": "private"
   },
   {
    "id": "zR7ORIt8jg0",
@@ -128,7 +156,7 @@
    "titulo": "The King of Fighters '98 | 🇵🇰 Bhayankar Yagami. vs 🇦🇪 Arham0786 #shorts",
    "publicado": "2026-10-15T21:55:43Z",
    "privacidad": "public",
-   "vistas": 107,
+   "vistas": 112,
    "me_gusta": 3,
    "miniatura": "https://i.ytimg.com/vi/bkqQoJNSkmg/mqdefault.jpg"
   },
@@ -164,7 +192,7 @@
    "titulo": "The King of Fighters '98 | 🇰🇷 YeopMun vs 🇰🇷 qbdwk2003",
    "publicado": "2026-10-11T14:00:21Z",
    "privacidad": "public",
-   "vistas": 12,
+   "vistas": 13,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/9v_YGEYjrSI/mqdefault.jpg"
   },
@@ -245,7 +273,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇲🇽 TTB-Ricks Alonso vs 🇲🇽 El Regio Lero Lero",
    "publicado": "2026-10-09T18:53:23Z",
    "privacidad": "public",
-   "vistas": 39,
+   "vistas": 40,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/Xhis_smxz1w/mqdefault.jpg"
   },
@@ -632,7 +660,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 mrcarabano vs 🇺🇸 RenoMD",
    "publicado": "2026-10-01T19:09:12Z",
    "privacidad": "public",
-   "vistas": 13,
+   "vistas": 14,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/_Fk0U8nvRUg/mqdefault.jpg"
   },
