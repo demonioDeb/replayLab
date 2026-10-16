@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16 00:10",
+ "actualizado": "2026-10-16 00:29",
  "videos": [
   {
    "quark": "1792084722783-2507",
@@ -1934,6 +1934,69 @@
     }
    ],
    "rondas": 14
+  },
+  {
+   "quark": "1743873488146-8381",
+   "juego": "kof2002",
+   "juego_nombre": "The King of Fighters 2002",
+   "juego_corto": "KOF2002",
+   "fecha": "2025-04-05",
+   "youtube": "JZUIHXmToRU",
+   "duracion": 315.2,
+   "marcador": [
+    2,
+    0
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "mirza mudassar",
+     "pais": "pk",
+     "rango_letra": "S",
+     "personaje": "Yamazaki · Vanessa · Whip",
+     "clave": "kof2002_yamazaki",
+     "personajes": [
+      "Yamazaki",
+      "Vanessa",
+      "Whip",
+      "Ramon",
+      "K9999",
+      "Vice"
+     ],
+     "claves": [
+      "kof2002_yamazaki",
+      "kof2002_vanessa",
+      "kof2002_whip",
+      "kof2002_ramon",
+      "kof2002_k9999",
+      "kof2002_vice"
+     ]
+    },
+    {
+     "nombre": "CombosMX",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Vanessa · Kula · Joe",
+     "clave": "kof2002_vanessa",
+     "personajes": [
+      "Vanessa",
+      "Kula",
+      "Joe",
+      "Vice",
+      "K9999",
+      "Yamazaki"
+     ],
+     "claves": [
+      "kof2002_vanessa",
+      "kof2002_kula",
+      "kof2002_joe",
+      "kof2002_vice",
+      "kof2002_k9999",
+      "kof2002_yamazaki"
+     ]
+    }
+   ],
+   "rondas": 8
   },
   {
    "quark": "1696794848600-7251",

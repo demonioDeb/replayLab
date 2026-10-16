@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16T00:10:44Z",
+ "actualizado": "2026-10-16T00:29:45Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,8 +7,34 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 23,
  "vistas": 20032,
- "videos": 82,
+ "videos": 84,
  "lista": [
+  {
+   "id": "Azq03K1eaUM",
+   "privacidad": "private"
+  },
+  {
+   "id": "NfpjS5D_bJ4",
+   "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Flawless | Victory vs 🇹🇷 Serdar80s",
+   "publicado": "2026-10-16T00:24:18Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/NfpjS5D_bJ4/mqdefault.jpg"
+  },
+  {
+   "id": "O0JfTeWhBBU",
+   "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Flawless | Victory vs 🇹🇷 Serdar80s #shorts",
+   "publicado": "2026-10-16T00:24:14Z",
+   "privacidad": "public",
+   "vistas": 3,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/O0JfTeWhBBU/mqdefault.jpg"
+  },
+  {
+   "id": "JZUIHXmToRU",
+   "privacidad": "private"
+  },
   {
    "id": "9qUXFgwYKSk",
    "privacidad": "private"
@@ -34,14 +60,6 @@
    "privacidad": "private"
   },
   {
-   "id": "O0JfTeWhBBU",
-   "privacidad": "private"
-  },
-  {
-   "id": "NfpjS5D_bJ4",
-   "privacidad": "private"
-  },
-  {
    "id": "bkqQoJNSkmg",
    "titulo": "The King of Fighters '98 | 🇵🇰 Bhayankar Yagami. vs 🇦🇪 Arham0786 #shorts",
    "publicado": "2026-10-15T21:55:43Z",
@@ -64,7 +82,7 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 padoodey vs 🇺🇸 DJILK #shorts",
    "publicado": "2026-10-13T04:17:25Z",
    "privacidad": "public",
-   "vistas": 478,
+   "vistas": 477,
    "me_gusta": 11,
    "miniatura": "https://i.ytimg.com/vi/aO2jiQb6u3s/mqdefault.jpg"
   },
@@ -235,7 +253,7 @@
    "titulo": "The King of Fighters '98 | 🇵🇦 bukeyishi vs 🇨🇴 MORGANGTZ",
    "publicado": "2026-10-09T02:44:48Z",
    "privacidad": "public",
-   "vistas": 19,
+   "vistas": 18,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/PjTL8DeUWzQ/mqdefault.jpg"
   },
@@ -550,7 +568,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 mrcarabano vs 🇺🇸 RenoMD",
    "publicado": "2026-10-01T19:09:12Z",
    "privacidad": "public",
-   "vistas": 14,
+   "vistas": 13,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/_Fk0U8nvRUg/mqdefault.jpg"
   },

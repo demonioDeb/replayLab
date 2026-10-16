@@ -1,0 +1,742 @@
+{
+ "version": 8,
+ "quark": "1743873488146-8381",
+ "carpeta": "20261015_mirza_mudassar_vs_CombosMX_1743873488146-8381",
+ "juego": "kof2002",
+ "juego_nombre": "The King of Fighters 2002",
+ "juego_corto": "KOF2002",
+ "datos": {
+  "super": true,
+  "stun": false,
+  "combos": false
+ },
+ "fecha": "2025-04-05",
+ "youtube": "JZUIHXmToRU",
+ "titulo": "The King of Fighters 2002 | 🇵🇰 mirza mudassar vs 🇲🇽 CombosMX",
+ "ft": 2,
+ "jugadores": [
+  {
+   "nombre": "mirza mudassar",
+   "pais": "pk",
+   "rango": 6,
+   "rango_letra": "S",
+   "personaje": "Yamazaki · Vanessa · Whip",
+   "clave": "kof2002_yamazaki",
+   "equipo": [
+    "Yamazaki",
+    "Vanessa",
+    "Whip"
+   ],
+   "equipo_claves": [
+    "kof2002_yamazaki",
+    "kof2002_vanessa",
+    "kof2002_whip"
+   ],
+   "personajes": [
+    "Yamazaki",
+    "Vanessa",
+    "Whip",
+    "Ramon",
+    "K9999",
+    "Vice"
+   ],
+   "claves": [
+    "kof2002_yamazaki",
+    "kof2002_vanessa",
+    "kof2002_whip",
+    "kof2002_ramon",
+    "kof2002_k9999",
+    "kof2002_vice"
+   ],
+   "swaps": 1,
+   "super": ""
+  },
+  {
+   "nombre": "CombosMX",
+   "pais": "mx",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Vanessa · Kula · Joe",
+   "clave": "kof2002_vanessa",
+   "equipo": [
+    "Vanessa",
+    "Kula",
+    "Joe"
+   ],
+   "equipo_claves": [
+    "kof2002_vanessa",
+    "kof2002_kula",
+    "kof2002_joe"
+   ],
+   "personajes": [
+    "Vanessa",
+    "Kula",
+    "Joe",
+    "Vice",
+    "K9999",
+    "Yamazaki"
+   ],
+   "claves": [
+    "kof2002_vanessa",
+    "kof2002_kula",
+    "kof2002_joe",
+    "kof2002_vice",
+    "kof2002_k9999",
+    "kof2002_yamazaki"
+   ],
+   "swaps": 1,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  2,
+  0
+ ],
+ "duracion": 315.2,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 6.85,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 6.85,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 35,
+     "perfect": false,
+     "dano": [
+      102,
+      60
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 41,
+     "remontada": 0,
+     "fin": 39.88,
+     "personajes": [
+      "Yamazaki",
+      "Vanessa"
+     ],
+     "claves": [
+      "kof2002_yamazaki",
+      "kof2002_vanessa"
+     ],
+     "vida_final": [
+      41,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 45.37,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 35,
+     "perfect": false,
+     "dano": [
+      102,
+      22
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 39,
+     "remontada": 12,
+     "fin": 78.47,
+     "personajes": [
+      "Yamazaki",
+      "Kula"
+     ],
+     "claves": [
+      "kof2002_yamazaki",
+      "kof2002_kula"
+     ],
+     "vida_final": [
+      39,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 83.96,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 21,
+     "perfect": false,
+     "dano": [
+      55,
+      60
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 46,
+     "remontada": 0,
+     "fin": 105.27,
+     "personajes": [
+      "Yamazaki",
+      "Joe"
+     ],
+     "claves": [
+      "kof2002_yamazaki",
+      "kof2002_joe"
+     ],
+     "vida_final": [
+      0,
+      46
+     ]
+    },
+    {
+     "n": 4,
+     "t": 110.66,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      36,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 34,
+     "remontada": 9,
+     "fin": 136.54,
+     "personajes": [
+      "Vanessa",
+      "Joe"
+     ],
+     "claves": [
+      "kof2002_vanessa",
+      "kof2002_joe"
+     ],
+     "vida_final": [
+      0,
+      34
+     ]
+    },
+    {
+     "n": 5,
+     "t": 142.06,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 40,
+     "perfect": false,
+     "dano": [
+      59,
+      81
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 20,
+     "remontada": 6,
+     "fin": 179.14,
+     "personajes": [
+      "Whip",
+      "Joe"
+     ],
+     "claves": [
+      "kof2002_whip",
+      "kof2002_joe"
+     ],
+     "vida_final": [
+      20,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Yamazaki · Vanessa · Whip",
+    "Vanessa · Kula · Joe"
+   ],
+   "claves": [
+    "kof2002_yamazaki",
+    "kof2002_vanessa"
+   ],
+   "equipos": [
+    [
+     "Yamazaki",
+     "Vanessa",
+     "Whip"
+    ],
+    [
+     "Vanessa",
+     "Kula",
+     "Joe"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_yamazaki",
+     "kof2002_vanessa",
+     "kof2002_whip"
+    ],
+    [
+     "kof2002_vanessa",
+     "kof2002_kula",
+     "kof2002_joe"
+    ]
+   ],
+   "fin": 179.14,
+   "resumen": {
+    "dano": [
+     354,
+     325
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     4,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 157
+   }
+  },
+  {
+   "n": 2,
+   "t": 199.09,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 199.09,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      102,
+      92
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 9,
+     "remontada": 79,
+     "fin": 230.7,
+     "personajes": [
+      "Ramon",
+      "Vice"
+     ],
+     "claves": [
+      "kof2002_ramon",
+      "kof2002_vice"
+     ],
+     "vida_final": [
+      9,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 236.16,
+     "ganador": 0,
+     "motivo": "doble_ko",
+     "duracion": 29,
+     "perfect": false,
+     "dano": [
+      102,
+      30
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 0,
+     "remontada": 0,
+     "fin": 263.99,
+     "personajes": [
+      "Ramon",
+      "K9999"
+     ],
+     "claves": [
+      "kof2002_ramon",
+      "kof2002_k9999"
+     ],
+     "vida_final": [
+      0,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 267.69,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "dano": [
+      102,
+      99
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      3
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 2,
+     "remontada": 14,
+     "fin": 309.25,
+     "personajes": [
+      "K9999",
+      "Yamazaki"
+     ],
+     "claves": [
+      "kof2002_k9999",
+      "kof2002_yamazaki"
+     ],
+     "vida_final": [
+      2,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "Ramon · K9999 · Vice",
+    "Vice · K9999 · Yamazaki"
+   ],
+   "claves": [
+    "kof2002_ramon",
+    "kof2002_vice"
+   ],
+   "equipos": [
+    [
+     "Ramon",
+     "K9999",
+     "Vice"
+    ],
+    [
+     "Vice",
+     "K9999",
+     "Yamazaki"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_ramon",
+     "kof2002_k9999",
+     "kof2002_vice"
+    ],
+    [
+     "kof2002_vice",
+     "kof2002_k9999",
+     "kof2002_yamazaki"
+    ]
+   ],
+   "fin": 309.25,
+   "resumen": {
+    "dano": [
+     306,
+     221
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     3
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 108
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 34.04,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 39.55,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 66.44,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 78.14,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 101.93,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 104.94,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 128.06,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 136.22,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 177.43,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 178.8,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 228.1,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 230.37,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 230.7,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 79
+  },
+  {
+   "t": 263.66,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 263.99,
+   "tipo": "doble_ko",
+   "jugador": null
+  },
+  {
+   "t": 283.54,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 293.31,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 300.08,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 308.91,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 189,
+   "pelea_rapida": 110,
+   "swaps": 1,
+   "rondas": 5,
+   "rondas_jugadas": 8,
+   "ko": 5,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 660,
+   "recibido": 546,
+   "golpes": 109,
+   "golpe_max": 18,
+   "primero": 2,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 5,
+   "mareos": 0,
+   "ronda_rapida": 34,
+   "al_limite": 2,
+   "remontada": 79,
+   "racha": 2,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 2,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 22,
+   "dano_medio": 6.1,
+   "dur_avg": 38,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 67,
+   "dano_barras": 6.47,
+   "recibido_barras": 5.35,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.18
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 47,
+   "pelea_rapida": 0,
+   "swaps": 1,
+   "rondas": 2,
+   "rondas_jugadas": 8,
+   "ko": 2,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 546,
+   "recibido": 660,
+   "golpes": 123,
+   "golpe_max": 18,
+   "primero": 6,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 4,
+   "mareos": 0,
+   "ronda_rapida": 21,
+   "al_limite": 0,
+   "remontada": 9,
+   "racha": 2,
+   "contras": 1,
+   "esquivas": 2,
+   "maxes": 1,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 40,
+   "dano_medio": 4.4,
+   "dur_avg": 24,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 81,
+   "dano_barras": 5.35,
+   "recibido_barras": 6.47,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.18
+  }
+ ]
+}
