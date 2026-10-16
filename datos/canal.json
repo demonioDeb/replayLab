@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16T00:29:45Z",
+ "actualizado": "2026-10-16T01:06:38Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,8 +7,70 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 23,
  "vistas": 20032,
- "videos": 84,
+ "videos": 90,
  "lista": [
+  {
+   "id": "sXP217Z_uoo",
+   "titulo": "The King of Fighters 2002 | 🇲🇽 Jonathan Tijuana vs 🇲🇽 KGS_KINF_KULA",
+   "publicado": "2026-10-16T01:03:24Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/sXP217Z_uoo/mqdefault.jpg"
+  },
+  {
+   "id": "Nas-Ex7erA0",
+   "privacidad": "private"
+  },
+  {
+   "id": "9qUXFgwYKSk",
+   "titulo": "The King of Fighters 2002 | 🇩🇿 dz101010 vs 🇧🇷 modo sedex #shorts",
+   "publicado": "2026-10-16T01:02:51Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/9qUXFgwYKSk/mqdefault.jpg"
+  },
+  {
+   "id": "OLhW7r6qM8s",
+   "titulo": "The King of Fighters 2002 | 🇲🇽 Jonathan Tijuana vs 🇲🇽 KGS_KINF_KULA #shorts",
+   "publicado": "2026-10-16T01:02:49Z",
+   "privacidad": "public",
+   "vistas": 3,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/OLhW7r6qM8s/mqdefault.jpg"
+  },
+  {
+   "id": "JsnuculyCrA",
+   "titulo": "The King of Fighters 2002 | 🇩🇿 dz101010 vs 🇧🇷 modo sedex",
+   "publicado": "2026-10-16T01:02:21Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/JsnuculyCrA/mqdefault.jpg"
+  },
+  {
+   "id": "waZ6IGnHEUw",
+   "privacidad": "private"
+  },
+  {
+   "id": "zR7ORIt8jg0",
+   "titulo": "The King of Fighters 2002 | 🇵🇰 mirza mudassar vs 🇫🇷 preciouss #shorts",
+   "publicado": "2026-10-16T00:43:58Z",
+   "privacidad": "public",
+   "vistas": 21,
+   "me_gusta": 1,
+   "miniatura": "https://i.ytimg.com/vi/zR7ORIt8jg0/mqdefault.jpg"
+  },
+  {
+   "id": "U21HTnN1GBA",
+   "titulo": "The King of Fighters 2002 | 🇵🇰 mirza mudassar vs 🇫🇷 preciouss",
+   "publicado": "2026-10-16T00:43:56Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/U21HTnN1GBA/mqdefault.jpg"
+  },
   {
    "id": "Azq03K1eaUM",
    "privacidad": "private"
@@ -18,7 +80,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Flawless | Victory vs 🇹🇷 Serdar80s",
    "publicado": "2026-10-16T00:24:18Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/NfpjS5D_bJ4/mqdefault.jpg"
   },
@@ -27,36 +89,12 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Flawless | Victory vs 🇹🇷 Serdar80s #shorts",
    "publicado": "2026-10-16T00:24:14Z",
    "privacidad": "public",
-   "vistas": 3,
-   "me_gusta": 0,
+   "vistas": 58,
+   "me_gusta": 3,
    "miniatura": "https://i.ytimg.com/vi/O0JfTeWhBBU/mqdefault.jpg"
   },
   {
    "id": "JZUIHXmToRU",
-   "privacidad": "private"
-  },
-  {
-   "id": "9qUXFgwYKSk",
-   "privacidad": "private"
-  },
-  {
-   "id": "JsnuculyCrA",
-   "privacidad": "private"
-  },
-  {
-   "id": "zR7ORIt8jg0",
-   "privacidad": "private"
-  },
-  {
-   "id": "U21HTnN1GBA",
-   "privacidad": "private"
-  },
-  {
-   "id": "OLhW7r6qM8s",
-   "privacidad": "private"
-  },
-  {
-   "id": "sXP217Z_uoo",
    "privacidad": "private"
   },
   {
@@ -82,7 +120,7 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 padoodey vs 🇺🇸 DJILK #shorts",
    "publicado": "2026-10-13T04:17:25Z",
    "privacidad": "public",
-   "vistas": 477,
+   "vistas": 478,
    "me_gusta": 11,
    "miniatura": "https://i.ytimg.com/vi/aO2jiQb6u3s/mqdefault.jpg"
   },
@@ -253,7 +291,7 @@
    "titulo": "The King of Fighters '98 | 🇵🇦 bukeyishi vs 🇨🇴 MORGANGTZ",
    "publicado": "2026-10-09T02:44:48Z",
    "privacidad": "public",
-   "vistas": 18,
+   "vistas": 19,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/PjTL8DeUWzQ/mqdefault.jpg"
   },
@@ -402,13 +440,13 @@
    "miniatura": "https://i.ytimg.com/vi/BwLIPF8RbdQ/mqdefault.jpg"
   },
   {
-   "id": "xbKV3KAuvug",
-   "titulo": "Super Street Fighter II X | 🇫🇷 kazel vs 🇫🇷 Zagi #shorts",
-   "publicado": "2026-10-04T12:00:31Z",
+   "id": "mH6nIeWWI1Q",
+   "titulo": "Super Street Fighter II X | 🇺🇸 DJILK-SF2TV vs 🇺🇸 Fromo",
+   "publicado": "2026-10-06T03:43:53Z",
    "privacidad": "public",
-   "vistas": 640,
-   "me_gusta": 6,
-   "miniatura": "https://i.ytimg.com/vi/xbKV3KAuvug/mqdefault.jpg"
+   "vistas": 9,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/mH6nIeWWI1Q/mqdefault.jpg"
   },
   {
    "id": "ZS_mohBIQ90",
@@ -568,7 +606,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 mrcarabano vs 🇺🇸 RenoMD",
    "publicado": "2026-10-01T19:09:12Z",
    "privacidad": "public",
-   "vistas": 13,
+   "vistas": 14,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/_Fk0U8nvRUg/mqdefault.jpg"
   },
