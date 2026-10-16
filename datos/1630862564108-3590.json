@@ -1,0 +1,628 @@
+{
+ "version": 8,
+ "quark": "1630862564108-3590",
+ "carpeta": "20261015_ELKOFNosUne_vs_onimenodacho_1630862564108-3590",
+ "juego": "kof2002",
+ "juego_nombre": "The King of Fighters 2002",
+ "juego_corto": "KOF2002",
+ "datos": {
+  "super": true,
+  "stun": false,
+  "combos": false
+ },
+ "fecha": "2021-09-05",
+ "youtube": "J-8V2DWIk7s",
+ "titulo": "The King of Fighters 2002 | 🇪🇨 #ELKOFNosUne vs 🇨🇴 onimenodacho",
+ "ft": 2,
+ "jugadores": [
+  {
+   "nombre": "#ELKOFNosUne",
+   "pais": "ec",
+   "rango": 6,
+   "rango_letra": "S",
+   "personaje": "Terry · Andy · Joe",
+   "clave": "kof2002_terry",
+   "equipo": [
+    "Terry",
+    "Andy",
+    "Joe"
+   ],
+   "equipo_claves": [
+    "kof2002_terry",
+    "kof2002_andy",
+    "kof2002_joe"
+   ],
+   "personajes": [
+    "Terry",
+    "Andy",
+    "Joe"
+   ],
+   "claves": [
+    "kof2002_terry",
+    "kof2002_andy",
+    "kof2002_joe"
+   ],
+   "swaps": 0,
+   "super": ""
+  },
+  {
+   "nombre": "onimenodacho",
+   "pais": "co",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Leona · Maxima · Whip",
+   "clave": "kof2002_leona",
+   "equipo": [
+    "Leona",
+    "Maxima",
+    "Whip"
+   ],
+   "equipo_claves": [
+    "kof2002_leona",
+    "kof2002_maxima",
+    "kof2002_whip"
+   ],
+   "personajes": [
+    "Leona",
+    "Maxima",
+    "Whip",
+    "Yuri"
+   ],
+   "claves": [
+    "kof2002_leona",
+    "kof2002_maxima",
+    "kof2002_whip",
+    "kof2002_yuri"
+   ],
+   "swaps": 1,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  2,
+  0
+ ],
+ "duracion": 107.8,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 6.51,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 6.51,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 5,
+     "perfect": true,
+     "dano": [
+      102,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 13.95,
+     "personajes": [
+      "Terry",
+      "Leona"
+     ],
+     "claves": [
+      "kof2002_terry",
+      "kof2002_leona"
+     ],
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 19.29,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 10,
+     "perfect": true,
+     "dano": [
+      102,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 30.82,
+     "personajes": [
+      "Terry",
+      "Maxima"
+     ],
+     "claves": [
+      "kof2002_terry",
+      "kof2002_maxima"
+     ],
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 36.17,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 8,
+     "perfect": true,
+     "dano": [
+      102,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 45.99,
+     "personajes": [
+      "Terry",
+      "Whip"
+     ],
+     "claves": [
+      "kof2002_terry",
+      "kof2002_whip"
+     ],
+     "vida_final": [
+      100,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Terry · Andy · Joe",
+    "Leona · Maxima · Whip"
+   ],
+   "claves": [
+    "kof2002_terry",
+    "kof2002_leona"
+   ],
+   "equipos": [
+    [
+     "Terry",
+     "Andy",
+     "Joe"
+    ],
+    [
+     "Leona",
+     "Maxima",
+     "Whip"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_terry",
+     "kof2002_andy",
+     "kof2002_joe"
+    ],
+    [
+     "kof2002_leona",
+     "kof2002_maxima",
+     "kof2002_whip"
+    ]
+   ],
+   "fin": 45.99,
+   "resumen": {
+    "dano": [
+     306,
+     0
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     3,
+     0
+    ],
+    "rondas": [
+     3,
+     0
+    ],
+    "duracion": 23
+   }
+  },
+  {
+   "n": 2,
+   "t": 67.86,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 67.86,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 3,
+     "perfect": true,
+     "dano": [
+      102,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 73.7,
+     "personajes": [
+      "Terry",
+      "Leona"
+     ],
+     "claves": [
+      "kof2002_terry",
+      "kof2002_leona"
+     ],
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 79.19,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 6,
+     "perfect": true,
+     "dano": [
+      102,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 88.25,
+     "personajes": [
+      "Terry",
+      "Whip"
+     ],
+     "claves": [
+      "kof2002_terry",
+      "kof2002_whip"
+     ],
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 93.66,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 6,
+     "perfect": true,
+     "dano": [
+      102,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 101.75,
+     "personajes": [
+      "Terry",
+      "Yuri"
+     ],
+     "claves": [
+      "kof2002_terry",
+      "kof2002_yuri"
+     ],
+     "vida_final": [
+      100,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "Terry · Andy · Joe",
+    "Leona · Whip · Yuri"
+   ],
+   "claves": [
+    "kof2002_terry",
+    "kof2002_leona"
+   ],
+   "equipos": [
+    [
+     "Terry",
+     "Andy",
+     "Joe"
+    ],
+    [
+     "Leona",
+     "Whip",
+     "Yuri"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_terry",
+     "kof2002_andy",
+     "kof2002_joe"
+    ],
+    [
+     "kof2002_leona",
+     "kof2002_whip",
+     "kof2002_yuri"
+    ]
+   ],
+   "fin": 101.75,
+   "resumen": {
+    "dano": [
+     306,
+     0
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     3,
+     0
+    ],
+    "rondas": [
+     3,
+     0
+    ],
+    "duracion": 15
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 13.63,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 13.95,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 30.49,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 30.82,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 45.66,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 45.99,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 73.38,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 73.7,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 85.02,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 87.93,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 88.25,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 100.7,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 101.43,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 101.75,
+   "tipo": "perfect",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 38,
+   "pelea_rapida": 34,
+   "swaps": 0,
+   "rondas": 6,
+   "rondas_jugadas": 6,
+   "ko": 6,
+   "timeup": 0,
+   "perfects": 6,
+   "dano": 612,
+   "recibido": 0,
+   "golpes": 53,
+   "golpe_max": 51,
+   "primero": 6,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 2,
+   "mareos": 0,
+   "ronda_rapida": 3,
+   "al_limite": 0,
+   "remontada": 0,
+   "racha": 6,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 1,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 100,
+   "dano_medio": 11.5,
+   "dur_avg": 6,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 0,
+   "dano_barras": 6.0,
+   "recibido_barras": 0.0,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.5
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 0,
+   "pelea_rapida": 0,
+   "swaps": 1,
+   "rondas": 0,
+   "rondas_jugadas": 6,
+   "ko": 0,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 0,
+   "recibido": 612,
+   "golpes": 0,
+   "golpe_max": 0,
+   "primero": 0,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 0,
+   "al_limite": 0,
+   "remontada": 0,
+   "racha": 0,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": null,
+   "dano_medio": 0,
+   "dur_avg": 0,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 100,
+   "dano_barras": 0.0,
+   "recibido_barras": 6.0,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.0
+  }
+ ]
+}

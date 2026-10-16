@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16 01:06",
+ "actualizado": "2026-10-16 01:21",
  "videos": [
   {
    "quark": "1792084722783-2507",
@@ -2146,6 +2146,59 @@
     }
    ],
    "rondas": 36
+  },
+  {
+   "quark": "1630862564108-3590",
+   "juego": "kof2002",
+   "juego_nombre": "The King of Fighters 2002",
+   "juego_corto": "KOF2002",
+   "fecha": "2021-09-05",
+   "youtube": "J-8V2DWIk7s",
+   "duracion": 107.8,
+   "marcador": [
+    2,
+    0
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "#ELKOFNosUne",
+     "pais": "ec",
+     "rango_letra": "S",
+     "personaje": "Terry · Andy · Joe",
+     "clave": "kof2002_terry",
+     "personajes": [
+      "Terry",
+      "Andy",
+      "Joe"
+     ],
+     "claves": [
+      "kof2002_terry",
+      "kof2002_andy",
+      "kof2002_joe"
+     ]
+    },
+    {
+     "nombre": "onimenodacho",
+     "pais": "co",
+     "rango_letra": "A",
+     "personaje": "Leona · Maxima · Whip",
+     "clave": "kof2002_leona",
+     "personajes": [
+      "Leona",
+      "Maxima",
+      "Whip",
+      "Yuri"
+     ],
+     "claves": [
+      "kof2002_leona",
+      "kof2002_maxima",
+      "kof2002_whip",
+      "kof2002_yuri"
+     ]
+    }
+   ],
+   "rondas": 6
   },
   {
    "quark": "1627858247873-8690",
