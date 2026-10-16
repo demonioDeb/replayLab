@@ -1,0 +1,753 @@
+{
+ "version": 8,
+ "quark": "1733421048781-5014",
+ "carpeta": "20261015_Devta_vs_Mirza2002Champ_1733421048781-5014",
+ "juego": "kof98",
+ "juego_nombre": "The King of Fighters '98",
+ "juego_corto": "KOF98",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": false
+ },
+ "fecha": "2024-12-05",
+ "youtube": "tqwtwh_t5zk",
+ "titulo": "The King of Fighters '98 | 🇵🇰 Devta vs 🇵🇰 Mirza2002Champ",
+ "ft": 2,
+ "jugadores": [
+  {
+   "nombre": "Devta",
+   "pais": "pk",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Yamazaki · Iori · Daimon",
+   "clave": "kof98_yamazaki",
+   "equipo": [
+    "Yamazaki",
+    "Iori",
+    "Daimon"
+   ],
+   "equipo_claves": [
+    "kof98_yamazaki",
+    "kof98_iori",
+    "kof98_daimon"
+   ],
+   "personajes": [
+    "Yamazaki",
+    "Iori",
+    "Daimon"
+   ],
+   "claves": [
+    "kof98_yamazaki",
+    "kof98_iori",
+    "kof98_daimon"
+   ],
+   "swaps": 1,
+   "super": ""
+  },
+  {
+   "nombre": "Mirza2002Champ",
+   "pais": "pk",
+   "rango": 6,
+   "rango_letra": "S",
+   "personaje": "Takuma · Iori · Daimon",
+   "clave": "kof98_takuma",
+   "equipo": [
+    "Takuma",
+    "Iori",
+    "Daimon"
+   ],
+   "equipo_claves": [
+    "kof98_takuma",
+    "kof98_iori",
+    "kof98_daimon"
+   ],
+   "personajes": [
+    "Takuma",
+    "Iori",
+    "Daimon"
+   ],
+   "claves": [
+    "kof98_takuma",
+    "kof98_iori",
+    "kof98_daimon"
+   ],
+   "swaps": 1,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  0,
+  2
+ ],
+ "duracion": 363.2,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 5.47,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 5.47,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 47,
+     "perfect": false,
+     "dano": [
+      68,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 33,
+     "remontada": 47,
+     "fin": 49.9,
+     "personajes": [
+      "Yamazaki",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_yamazaki",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      33
+     ]
+    },
+    {
+     "n": 2,
+     "t": 53.81,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      51,
+      62
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 39,
+     "remontada": 0,
+     "fin": 92.22,
+     "personajes": [
+      "Iori",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      39,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 96.25,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      80,
+      61
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 22,
+     "remontada": 0,
+     "fin": 130.37,
+     "personajes": [
+      "Iori",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      0,
+      22
+     ]
+    },
+    {
+     "n": 4,
+     "t": 134.24,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": false,
+     "dano": [
+      43,
+      61
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 40,
+     "remontada": 0,
+     "fin": 159.64,
+     "personajes": [
+      "Daimon",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      40,
+      0
+     ]
+    },
+    {
+     "n": 5,
+     "t": 163.61,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": false,
+     "dano": [
+      56,
+      66
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 45,
+     "remontada": 0,
+     "fin": 188.49,
+     "personajes": [
+      "Daimon",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      0,
+      45
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Yamazaki · Iori · Daimon",
+    "Takuma · Iori · Daimon"
+   ],
+   "claves": [
+    "kof98_yamazaki",
+    "kof98_takuma"
+   ],
+   "equipos": [
+    [
+     "Yamazaki",
+     "Iori",
+     "Daimon"
+    ],
+    [
+     "Takuma",
+     "Iori",
+     "Daimon"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_yamazaki",
+     "kof98_iori",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_takuma",
+     "kof98_iori",
+     "kof98_daimon"
+    ]
+   ],
+   "fin": 188.49,
+   "resumen": {
+    "dano": [
+     298,
+     353
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 161
+   }
+  },
+  {
+   "n": 2,
+   "t": 215.42,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 215.42,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 36,
+     "perfect": false,
+     "dano": [
+      101,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 1,
+     "remontada": 42,
+     "fin": 252.1,
+     "personajes": [
+      "Yamazaki",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_yamazaki",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      1
+     ]
+    },
+    {
+     "n": 2,
+     "t": 256.06,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 14,
+     "perfect": false,
+     "dano": [
+      22,
+      48
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 53,
+     "remontada": 0,
+     "fin": 274.2,
+     "personajes": [
+      "Daimon",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      53,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 278.04,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 27,
+     "perfect": false,
+     "dano": [
+      103,
+      65
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 17,
+     "remontada": 29,
+     "fin": 307.44,
+     "personajes": [
+      "Daimon",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      17,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 311.4,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 15,
+     "perfect": false,
+     "dano": [
+      16,
+      42
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 84,
+     "remontada": 0,
+     "fin": 330.47,
+     "personajes": [
+      "Daimon",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      0,
+      84
+     ]
+    },
+    {
+     "n": 5,
+     "t": 334.36,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 20,
+     "perfect": false,
+     "dano": [
+      16,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 84,
+     "remontada": 2,
+     "fin": 357.21,
+     "personajes": [
+      "Iori",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      0,
+      84
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    2
+   ],
+   "personajes": [
+    "Yamazaki",
+    "Takuma"
+   ],
+   "claves": [
+    "kof98_yamazaki",
+    "kof98_takuma"
+   ],
+   "fin": 357.21,
+   "resumen": {
+    "dano": [
+     258,
+     361
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 112
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 49.57,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 80.15,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 91.89,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 130.04,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 159.3,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 185.05,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 188.16,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 251.78,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 273.87,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 298.29,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 307.11,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 330.14,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 356.88,
+   "tipo": "ko",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 100,
+   "pelea_rapida": 0,
+   "swaps": 1,
+   "rondas": 4,
+   "rondas_jugadas": 10,
+   "ko": 4,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 556,
+   "recibido": 714,
+   "golpes": 74,
+   "golpe_max": 18,
+   "primero": 5,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 2,
+   "mareos": 0,
+   "ronda_rapida": 14,
+   "al_limite": 0,
+   "remontada": 29,
+   "racha": 2,
+   "contras": 2,
+   "esquivas": 2,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 37,
+   "dano_medio": 7.5,
+   "dur_avg": 25,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 69,
+   "dano_barras": 5.4,
+   "recibido_barras": 6.93,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.17
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 173,
+   "pelea_rapida": 142,
+   "swaps": 1,
+   "rondas": 6,
+   "rondas_jugadas": 10,
+   "ko": 6,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 714,
+   "recibido": 556,
+   "golpes": 95,
+   "golpe_max": 17,
+   "primero": 5,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 1,
+   "mareos": 0,
+   "ronda_rapida": 15,
+   "al_limite": 1,
+   "remontada": 47,
+   "racha": 2,
+   "contras": 0,
+   "esquivas": 3,
+   "maxes": 3,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 45,
+   "dano_medio": 7.5,
+   "dur_avg": 29,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 54,
+   "dano_barras": 6.93,
+   "recibido_barras": 5.4,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.17
+  }
+ ]
+}

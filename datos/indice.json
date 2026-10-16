@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16 03:39",
+ "actualizado": "2026-10-16 03:59",
  "videos": [
   {
    "quark": "1792084722783-2507",
@@ -2062,6 +2062,57 @@
     }
    ],
    "rondas": 8
+  },
+  {
+   "quark": "1733421048781-5014",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2024-12-05",
+   "youtube": "tqwtwh_t5zk",
+   "duracion": 363.2,
+   "marcador": [
+    0,
+    2
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "Devta",
+     "pais": "pk",
+     "rango_letra": "A",
+     "personaje": "Yamazaki · Iori · Daimon",
+     "clave": "kof98_yamazaki",
+     "personajes": [
+      "Yamazaki",
+      "Iori",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_yamazaki",
+      "kof98_iori",
+      "kof98_daimon"
+     ]
+    },
+    {
+     "nombre": "Mirza2002Champ",
+     "pais": "pk",
+     "rango_letra": "S",
+     "personaje": "Takuma · Iori · Daimon",
+     "clave": "kof98_takuma",
+     "personajes": [
+      "Takuma",
+      "Iori",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_takuma",
+      "kof98_iori",
+      "kof98_daimon"
+     ]
+    }
+   ],
+   "rondas": 10
   },
   {
    "quark": "1729965837906-7568",

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16T03:39:12Z",
+ "actualizado": "2026-10-16T03:59:30Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 20032,
  "videos": 95,
  "lista": [
+  {
+   "id": "QPK1rrxgieA",
+   "privacidad": "private"
+  },
+  {
+   "id": "tqwtwh_t5zk",
+   "privacidad": "private"
+  },
   {
    "id": "sPsU67XRCGo",
    "privacidad": "private"
@@ -47,7 +55,7 @@
    "titulo": "The King of Fighters 2002 | 🇪🇨 #ELKOFNosUne vs 🇨🇴 onimenodacho #shorts",
    "publicado": "2026-10-16T02:14:14Z",
    "privacidad": "public",
-   "vistas": 164,
+   "vistas": 165,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/7A6JAOI1kSg/mqdefault.jpg"
   },
@@ -65,7 +73,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel #shorts",
    "publicado": "2026-10-16T01:51:59Z",
    "privacidad": "public",
-   "vistas": 76,
+   "vistas": 77,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/Nas-Ex7erA0/mqdefault.jpg"
   },
@@ -109,7 +117,7 @@
    "titulo": "The King of Fighters 2002 | 🇩🇿 dz101010 vs 🇧🇷 modo sedex #shorts",
    "publicado": "2026-10-16T01:02:51Z",
    "privacidad": "public",
-   "vistas": 65,
+   "vistas": 66,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/9qUXFgwYKSk/mqdefault.jpg"
   },
@@ -307,7 +315,7 @@
    "titulo": "Super Street Fighter II X | 🇯🇵 ara@VF2 vs 🇯🇵 xryuit",
    "publicado": "2026-10-09T17:49:21Z",
    "privacidad": "public",
-   "vistas": 77,
+   "vistas": 78,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/dCG6EDS7Yu0/mqdefault.jpg"
   },
@@ -829,7 +837,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 ChoiBoy vs 🇲🇽 djfrijoles",
    "publicado": "2026-09-30T00:15:01Z",
    "privacidad": "public",
-   "vistas": 12,
+   "vistas": 13,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/jv7n1WWtnN4/mqdefault.jpg"
   },
