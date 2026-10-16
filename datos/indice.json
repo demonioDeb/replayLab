@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16 02:57",
+ "actualizado": "2026-10-16 03:39",
  "videos": [
   {
    "quark": "1792084722783-2507",
@@ -1934,6 +1934,71 @@
     }
    ],
    "rondas": 14
+  },
+  {
+   "quark": "1752015096202-7451",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2025-07-08",
+   "youtube": "GMYqkkl4LSw",
+   "duracion": 918.8,
+   "marcador": [
+    0,
+    5
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "rammsa",
+     "pais": "pe",
+     "rango_letra": "A",
+     "personaje": "Billy · Terry · Yashiro",
+     "clave": "kof98_billy",
+     "personajes": [
+      "Billy",
+      "Terry",
+      "Yashiro",
+      "Athena",
+      "Yamazaki",
+      "Chang",
+      "Iori",
+      "Chris",
+      "Daimon",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_terry",
+      "kof98_yashiro",
+      "kof98_athena",
+      "kof98_yamazaki",
+      "kof98_chang",
+      "kof98_iori",
+      "kof98_chris",
+      "kof98_daimon",
+      "kof98_choi"
+     ]
+    },
+    {
+     "nombre": "Black-C",
+     "pais": "us",
+     "rango_letra": "S",
+     "personaje": "Chizuru · Chris · Daimon",
+     "clave": "kof98_chizuru",
+     "personajes": [
+      "Chizuru",
+      "Chris",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_chris",
+      "kof98_daimon"
+     ]
+    }
+   ],
+   "rondas": 22
   },
   {
    "quark": "1743873488146-8381",

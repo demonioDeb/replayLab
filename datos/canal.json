@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16T02:57:35Z",
+ "actualizado": "2026-10-16T03:39:12Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 20032,
  "videos": 95,
  "lista": [
+  {
+   "id": "sPsU67XRCGo",
+   "privacidad": "private"
+  },
+  {
+   "id": "GMYqkkl4LSw",
+   "privacidad": "private"
+  },
   {
    "id": "8KKGfYX4Xjk",
    "privacidad": "private"
@@ -39,7 +47,7 @@
    "titulo": "The King of Fighters 2002 | 🇪🇨 #ELKOFNosUne vs 🇨🇴 onimenodacho #shorts",
    "publicado": "2026-10-16T02:14:14Z",
    "privacidad": "public",
-   "vistas": 139,
+   "vistas": 164,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/7A6JAOI1kSg/mqdefault.jpg"
   },
@@ -57,8 +65,8 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel #shorts",
    "publicado": "2026-10-16T01:51:59Z",
    "privacidad": "public",
-   "vistas": 71,
-   "me_gusta": 1,
+   "vistas": 76,
+   "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/Nas-Ex7erA0/mqdefault.jpg"
   },
   {
@@ -101,8 +109,8 @@
    "titulo": "The King of Fighters 2002 | 🇩🇿 dz101010 vs 🇧🇷 modo sedex #shorts",
    "publicado": "2026-10-16T01:02:51Z",
    "privacidad": "public",
-   "vistas": 58,
-   "me_gusta": 1,
+   "vistas": 65,
+   "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/9qUXFgwYKSk/mqdefault.jpg"
   },
   {
