@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-15 23:53",
+ "actualizado": "2026-10-16 00:10",
  "videos": [
   {
    "quark": "1792084722783-2507",
@@ -1261,6 +1261,57 @@
     }
    ],
    "rondas": 13
+  },
+  {
+   "quark": "1790618360197-9568",
+   "juego": "kof2002",
+   "juego_nombre": "The King of Fighters 2002",
+   "juego_corto": "KOF2002",
+   "fecha": "2026-09-28",
+   "youtube": "JsnuculyCrA",
+   "duracion": 301.3,
+   "marcador": [
+    0,
+    1
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "dz101010",
+     "pais": "dz",
+     "rango_letra": "A",
+     "personaje": "Benimaru · Leona · Choi",
+     "clave": "kof2002_benimaru",
+     "personajes": [
+      "Benimaru",
+      "Leona",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_benimaru",
+      "kof2002_leona",
+      "kof2002_choi"
+     ]
+    },
+    {
+     "nombre": "modo sedex",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Andy · Mai · Mary",
+     "clave": "kof2002_andy",
+     "personajes": [
+      "Andy",
+      "Mai",
+      "Mary"
+     ],
+     "claves": [
+      "kof2002_andy",
+      "kof2002_mai",
+      "kof2002_mary"
+     ]
+    }
+   ],
+   "rondas": 8
   },
   {
    "quark": "1790562701321-6838",
