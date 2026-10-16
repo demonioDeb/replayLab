@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16T01:21:00Z",
+ "actualizado": "2026-10-16T01:49:01Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,8 +7,25 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 23,
  "vistas": 20032,
- "videos": 91,
+ "videos": 92,
  "lista": [
+  {
+   "id": "QUhLjDV4u64",
+   "privacidad": "private"
+  },
+  {
+   "id": "KGew2-Dj4y0",
+   "privacidad": "private"
+  },
+  {
+   "id": "Azq03K1eaUM",
+   "titulo": "The King of Fighters 2002 | 🇵🇰 mirza mudassar vs 🇲🇽 CombosMX #shorts",
+   "publicado": "2026-10-16T01:20:53Z",
+   "privacidad": "public",
+   "vistas": 40,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/Azq03K1eaUM/mqdefault.jpg"
+  },
   {
    "id": "JZUIHXmToRU",
    "titulo": "The King of Fighters 2002 | 🇵🇰 mirza mudassar vs 🇲🇽 CombosMX",
@@ -44,7 +61,7 @@
    "titulo": "The King of Fighters 2002 | 🇩🇿 dz101010 vs 🇧🇷 modo sedex #shorts",
    "publicado": "2026-10-16T01:02:51Z",
    "privacidad": "public",
-   "vistas": 10,
+   "vistas": 38,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/9qUXFgwYKSk/mqdefault.jpg"
   },
@@ -53,8 +70,8 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 Jonathan Tijuana vs 🇲🇽 KGS_KINF_KULA #shorts",
    "publicado": "2026-10-16T01:02:49Z",
    "privacidad": "public",
-   "vistas": 51,
-   "me_gusta": 1,
+   "vistas": 97,
+   "me_gusta": 3,
    "miniatura": "https://i.ytimg.com/vi/OLhW7r6qM8s/mqdefault.jpg"
   },
   {
@@ -89,20 +106,11 @@
    "miniatura": "https://i.ytimg.com/vi/U21HTnN1GBA/mqdefault.jpg"
   },
   {
-   "id": "Azq03K1eaUM",
-   "titulo": "The King of Fighters 2002 | 🇵🇰 mirza mudassar vs 🇲🇽 CombosMX #shorts",
-   "publicado": "2026-10-16T01:20:53Z",
-   "privacidad": "public",
-   "vistas": 0,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/Azq03K1eaUM/mqdefault.jpg"
-  },
-  {
    "id": "NfpjS5D_bJ4",
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Flawless | Victory vs 🇹🇷 Serdar80s",
    "publicado": "2026-10-16T00:24:18Z",
    "privacidad": "public",
-   "vistas": 2,
+   "vistas": 3,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/NfpjS5D_bJ4/mqdefault.jpg"
   },
@@ -120,8 +128,8 @@
    "titulo": "The King of Fighters '98 | 🇵🇰 Bhayankar Yagami. vs 🇦🇪 Arham0786 #shorts",
    "publicado": "2026-10-15T21:55:43Z",
    "privacidad": "public",
-   "vistas": 100,
-   "me_gusta": 2,
+   "vistas": 107,
+   "me_gusta": 3,
    "miniatura": "https://i.ytimg.com/vi/bkqQoJNSkmg/mqdefault.jpg"
   },
   {
@@ -440,22 +448,22 @@
    "miniatura": "https://i.ytimg.com/vi/m6Gyw4Itunw/mqdefault.jpg"
   },
   {
-   "id": "mH6nIeWWI1Q",
-   "titulo": "Super Street Fighter II X | 🇺🇸 DJILK-SF2TV vs 🇺🇸 Fromo",
-   "publicado": "2026-10-06T03:43:53Z",
+   "id": "q_B1tf5OpTg",
+   "titulo": "Super Street Fighter II X | 🇺🇸 Zombie_Damage vs 🇺🇸 RenoMD",
+   "publicado": "2026-10-05T03:59:46Z",
    "privacidad": "public",
-   "vistas": 9,
+   "vistas": 20,
    "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/mH6nIeWWI1Q/mqdefault.jpg"
+   "miniatura": "https://i.ytimg.com/vi/q_B1tf5OpTg/mqdefault.jpg"
   },
   {
-   "id": "m6Gyw4Itunw",
-   "titulo": "Super Street Fighter II X | 🇫🇷 kazel vs 🇫🇷 Zagi",
-   "publicado": "2026-10-06T03:43:49Z",
+   "id": "BwLIPF8RbdQ",
+   "titulo": "Super Street Fighter II X | 🇺🇸 Zombie_Damage vs 🇺🇸 RenoMD #shorts",
+   "publicado": "2026-10-05T03:58:06Z",
    "privacidad": "public",
-   "vistas": 8,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/m6Gyw4Itunw/mqdefault.jpg"
+   "vistas": 241,
+   "me_gusta": 3,
+   "miniatura": "https://i.ytimg.com/vi/BwLIPF8RbdQ/mqdefault.jpg"
   },
   {
    "id": "xbKV3KAuvug",
@@ -624,7 +632,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 mrcarabano vs 🇺🇸 RenoMD",
    "publicado": "2026-10-01T19:09:12Z",
    "privacidad": "public",
-   "vistas": 14,
+   "vistas": 13,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/_Fk0U8nvRUg/mqdefault.jpg"
   },

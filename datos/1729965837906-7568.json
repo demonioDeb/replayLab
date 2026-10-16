@@ -1,0 +1,951 @@
+{
+ "version": 8,
+ "quark": "1729965837906-7568",
+ "carpeta": "20261015_a99_vs_chris24_1729965837906-7568",
+ "juego": "kof98",
+ "juego_nombre": "The King of Fighters '98",
+ "juego_corto": "KOF98",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": false
+ },
+ "fecha": "2024-10-26",
+ "youtube": "KGew2-Dj4y0",
+ "titulo": "The King of Fighters '98 | 🇩🇪 a99 vs 🇪🇸 chris24",
+ "ft": 3,
+ "jugadores": [
+  {
+   "nombre": "a99",
+   "pais": "de",
+   "rango": 6,
+   "rango_letra": "S",
+   "personaje": "Shermie · Chris · Yashiro",
+   "clave": "kof98_shermie",
+   "equipo": [
+    "Shermie",
+    "Chris",
+    "Yashiro"
+   ],
+   "equipo_claves": [
+    "kof98_shermie",
+    "kof98_chris",
+    "kof98_yashiro"
+   ],
+   "personajes": [
+    "Shermie",
+    "Chris",
+    "Yashiro"
+   ],
+   "claves": [
+    "kof98_shermie",
+    "kof98_chris",
+    "kof98_yashiro"
+   ],
+   "swaps": 0,
+   "super": ""
+  },
+  {
+   "nombre": "chris24",
+   "pais": "es",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Iori · Kyo · Daimon",
+   "clave": "kof98_iori",
+   "equipo": [
+    "Iori",
+    "Kyo",
+    "Daimon"
+   ],
+   "equipo_claves": [
+    "kof98_iori",
+    "kof98_kyo",
+    "kof98_daimon"
+   ],
+   "personajes": [
+    "Iori",
+    "Kyo",
+    "Daimon"
+   ],
+   "claves": [
+    "kof98_iori",
+    "kof98_kyo",
+    "kof98_daimon"
+   ],
+   "swaps": 1,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  3,
+  0
+ ],
+ "duracion": 374.1,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 6.37,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 6.37,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 20,
+     "perfect": false,
+     "dano": [
+      103,
+      15
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 85,
+     "remontada": 0,
+     "fin": 27.9,
+     "personajes": [
+      "Shermie",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_shermie",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      85,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 31.93,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 20,
+     "perfect": false,
+     "dano": [
+      103,
+      17
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 83,
+     "remontada": 0,
+     "fin": 54.89,
+     "personajes": [
+      "Shermie",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_shermie",
+      "kof98_kyo"
+     ],
+     "vida_final": [
+      83,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 58.78,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      103,
+      14
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 86,
+     "remontada": 0,
+     "fin": 88.18,
+     "personajes": [
+      "Shermie",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_shermie",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      86,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Shermie · Chris · Yashiro",
+    "Iori · Kyo · Daimon"
+   ],
+   "claves": [
+    "kof98_shermie",
+    "kof98_iori"
+   ],
+   "equipos": [
+    [
+     "Shermie",
+     "Chris",
+     "Yashiro"
+    ],
+    [
+     "Iori",
+     "Kyo",
+     "Daimon"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_shermie",
+     "kof98_chris",
+     "kof98_yashiro"
+    ],
+    [
+     "kof98_iori",
+     "kof98_kyo",
+     "kof98_daimon"
+    ]
+   ],
+   "fin": 88.18,
+   "resumen": {
+    "dano": [
+     309,
+     46
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     0
+    ],
+    "duracion": 68
+   }
+  },
+  {
+   "n": 2,
+   "t": 107.92,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 107.92,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      103,
+      29
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 71,
+     "remontada": 8,
+     "fin": 138.11,
+     "personajes": [
+      "Shermie",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_shermie",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      71,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 142.33,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 32,
+     "perfect": false,
+     "dano": [
+      78,
+      98
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 24,
+     "remontada": 0,
+     "fin": 175.66,
+     "personajes": [
+      "Shermie",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_shermie",
+      "kof98_kyo"
+     ],
+     "vida_final": [
+      0,
+      24
+     ]
+    },
+    {
+     "n": 3,
+     "t": 179.51,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 11,
+     "perfect": false,
+     "dano": [
+      45,
+      69
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 33,
+     "remontada": 0,
+     "fin": 195.43,
+     "personajes": [
+      "Chris",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_kyo"
+     ],
+     "vida_final": [
+      33,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 199.96,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 21,
+     "perfect": false,
+     "dano": [
+      90,
+      62
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 12,
+     "remontada": 0,
+     "fin": 223.94,
+     "personajes": [
+      "Chris",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      0,
+      12
+     ]
+    },
+    {
+     "n": 5,
+     "t": 228.09,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 10,
+     "perfect": false,
+     "dano": [
+      37,
+      10
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 90,
+     "remontada": 0,
+     "fin": 242.5,
+     "personajes": [
+      "Yashiro",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_yashiro",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      90,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "Shermie · Chris · Yashiro",
+    "Iori · Kyo · Daimon"
+   ],
+   "claves": [
+    "kof98_shermie",
+    "kof98_iori"
+   ],
+   "equipos": [
+    [
+     "Shermie",
+     "Chris",
+     "Yashiro"
+    ],
+    [
+     "Iori",
+     "Kyo",
+     "Daimon"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_shermie",
+     "kof98_chris",
+     "kof98_yashiro"
+    ],
+    [
+     "kof98_iori",
+     "kof98_kyo",
+     "kof98_daimon"
+    ]
+   ],
+   "fin": 242.5,
+   "resumen": {
+    "dano": [
+     353,
+     268
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     1
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 104
+   }
+  },
+  {
+   "n": 3,
+   "t": 264.03,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 264.03,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 21,
+     "perfect": false,
+     "dano": [
+      103,
+      22
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 78,
+     "remontada": 2,
+     "fin": 286.22,
+     "personajes": [
+      "Shermie",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_shermie",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      78,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 290.07,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 29,
+     "perfect": false,
+     "dano": [
+      81,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 21,
+     "remontada": 26,
+     "fin": 320.32,
+     "personajes": [
+      "Shermie",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_shermie",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      0,
+      21
+     ]
+    },
+    {
+     "n": 3,
+     "t": 324.83,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 13,
+     "perfect": false,
+     "dano": [
+      46,
+      23
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 77,
+     "remontada": 0,
+     "fin": 341.77,
+     "personajes": [
+      "Chris",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_daimon"
+     ],
+     "vida_final": [
+      77,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 346.12,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 19,
+     "perfect": false,
+     "dano": [
+      103,
+      4
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 96,
+     "remontada": 0,
+     "fin": 368.05,
+     "personajes": [
+      "Chris",
+      "Kyo"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_kyo"
+     ],
+     "vida_final": [
+      96,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    0
+   ],
+   "personajes": [
+    "Shermie · Chris · Yashiro",
+    "Iori · Daimon · Kyo"
+   ],
+   "claves": [
+    "kof98_shermie",
+    "kof98_iori"
+   ],
+   "equipos": [
+    [
+     "Shermie",
+     "Chris",
+     "Yashiro"
+    ],
+    [
+     "Iori",
+     "Daimon",
+     "Kyo"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_shermie",
+     "kof98_chris",
+     "kof98_yashiro"
+    ],
+    [
+     "kof98_iori",
+     "kof98_daimon",
+     "kof98_kyo"
+    ]
+   ],
+   "fin": 368.05,
+   "resumen": {
+    "dano": [
+     333,
+     152
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     1
+    ],
+    "duracion": 82
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 27.58,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 54.56,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 87.85,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 137.78,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 153.1,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 175.34,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 189.49,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 193.7,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 195.1,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 207.66,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 223.61,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 242.16,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 285.9,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 319.99,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 341.45,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 353.7,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 366.4,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 367.71,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 107,
+   "stun_peor": 107,
+   "mareado_veces": 1,
+   "dur_sum": 172,
+   "pelea_rapida": 82,
+   "swaps": 0,
+   "rondas": 9,
+   "rondas_jugadas": 12,
+   "ko": 9,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 995,
+   "recibido": 466,
+   "golpes": 116,
+   "golpe_max": 21,
+   "primero": 9,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 4,
+   "mareos": 0,
+   "ronda_rapida": 10,
+   "al_limite": 0,
+   "remontada": 8,
+   "racha": 4,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 2,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 78,
+   "dano_medio": 8.6,
+   "dur_avg": 19,
+   "stun_seg": 1.8,
+   "stun_peor_seg": 1.8,
+   "vida_perdida_ronda": 38,
+   "dano_barras": 9.66,
+   "recibido_barras": 4.52,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.2
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 82,
+   "pelea_rapida": 0,
+   "swaps": 1,
+   "rondas": 3,
+   "rondas_jugadas": 12,
+   "ko": 3,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 466,
+   "recibido": 995,
+   "golpes": 64,
+   "golpe_max": 20,
+   "primero": 3,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 1,
+   "mareos": 1,
+   "ronda_rapida": 21,
+   "al_limite": 0,
+   "remontada": 26,
+   "racha": 1,
+   "contras": 1,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 19,
+   "dano_medio": 7.3,
+   "dur_avg": 27,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 81,
+   "dano_barras": 4.52,
+   "recibido_barras": 9.66,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.19
+  }
+ ]
+}
