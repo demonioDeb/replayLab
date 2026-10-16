@@ -1,0 +1,758 @@
+{
+ "version": 8,
+ "quark": "1729108699648-8737",
+ "carpeta": "20261015_Mirza2002Champ_vs_Devta_1729108699648-8737",
+ "juego": "kof98",
+ "juego_nombre": "The King of Fighters '98",
+ "juego_corto": "KOF98",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": false
+ },
+ "fecha": "2024-10-16",
+ "youtube": "-TDGmrpAIww",
+ "titulo": "The King of Fighters '98 | 🇵🇰 Mirza2002Champ vs 🇵🇰 Devta",
+ "ft": 2,
+ "jugadores": [
+  {
+   "nombre": "Mirza2002Champ",
+   "pais": "pk",
+   "rango": 6,
+   "rango_letra": "S",
+   "personaje": "Kyo · King · Leona",
+   "clave": "kof98_kyo",
+   "equipo": [
+    "Kyo",
+    "King",
+    "Leona"
+   ],
+   "equipo_claves": [
+    "kof98_kyo",
+    "kof98_king",
+    "kof98_leona"
+   ],
+   "personajes": [
+    "Kyo",
+    "King",
+    "Leona",
+    "Terry",
+    "Benimaru",
+    "Mature"
+   ],
+   "claves": [
+    "kof98_kyo",
+    "kof98_king",
+    "kof98_leona",
+    "kof98_terry",
+    "kof98_benimaru",
+    "kof98_mature"
+   ],
+   "swaps": 1,
+   "super": ""
+  },
+  {
+   "nombre": "Devta",
+   "pais": "pk",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Billy · Ryo · Ralf",
+   "clave": "kof98_billy",
+   "equipo": [
+    "Billy",
+    "Ryo",
+    "Ralf"
+   ],
+   "equipo_claves": [
+    "kof98_billy",
+    "kof98_ryo",
+    "kof98_ralf"
+   ],
+   "personajes": [
+    "Billy",
+    "Ryo",
+    "Ralf",
+    "Takuma",
+    "Kensou"
+   ],
+   "claves": [
+    "kof98_billy",
+    "kof98_ryo",
+    "kof98_ralf",
+    "kof98_takuma",
+    "kof98_kensou"
+   ],
+   "swaps": 1,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  2,
+  0
+ ],
+ "duracion": 337.5,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 7.62,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 7.62,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 23,
+     "perfect": false,
+     "dano": [
+      103,
+      59
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 42,
+     "remontada": 5,
+     "fin": 31.55,
+     "personajes": [
+      "Kyo",
+      "Billy"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_billy"
+     ],
+     "vida_final": [
+      42,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 35.42,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      103,
+      57
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 10,
+     "remontada": 0,
+     "fin": 67.2,
+     "personajes": [
+      "Kyo",
+      "Ryo"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_ryo"
+     ],
+     "vida_final": [
+      10,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 71.12,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 20,
+     "perfect": false,
+     "dano": [
+      53,
+      35
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 48,
+     "remontada": 0,
+     "fin": 94.59,
+     "personajes": [
+      "Kyo",
+      "Ralf"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_ralf"
+     ],
+     "vida_final": [
+      0,
+      48
+     ]
+    },
+    {
+     "n": 4,
+     "t": 98.58,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": false,
+     "dano": [
+      20,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 56,
+     "remontada": 11,
+     "fin": 125.83,
+     "personajes": [
+      "King",
+      "Ralf"
+     ],
+     "claves": [
+      "kof98_king",
+      "kof98_ralf"
+     ],
+     "vida_final": [
+      0,
+      56
+     ]
+    },
+    {
+     "n": 5,
+     "t": 129.69,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      82,
+      31
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 69,
+     "remontada": 0,
+     "fin": 164.18,
+     "personajes": [
+      "Leona",
+      "Ralf"
+     ],
+     "claves": [
+      "kof98_leona",
+      "kof98_ralf"
+     ],
+     "vida_final": [
+      69,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Kyo · King · Leona",
+    "Billy · Ryo · Ralf"
+   ],
+   "claves": [
+    "kof98_kyo",
+    "kof98_billy"
+   ],
+   "equipos": [
+    [
+     "Kyo",
+     "King",
+     "Leona"
+    ],
+    [
+     "Billy",
+     "Ryo",
+     "Ralf"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_kyo",
+     "kof98_king",
+     "kof98_leona"
+    ],
+    [
+     "kof98_billy",
+     "kof98_ryo",
+     "kof98_ralf"
+    ]
+   ],
+   "fin": 164.18,
+   "resumen": {
+    "dano": [
+     361,
+     285
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     4,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 131
+   }
+  },
+  {
+   "n": 2,
+   "t": 204.16,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 204.16,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 29,
+     "perfect": false,
+     "dano": [
+      103,
+      43
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 58,
+     "remontada": 5,
+     "fin": 233.51,
+     "personajes": [
+      "Terry",
+      "Ralf"
+     ],
+     "claves": [
+      "kof98_terry",
+      "kof98_ralf"
+     ],
+     "vida_final": [
+      58,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 237.4,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      103,
+      35
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 47,
+     "remontada": 3,
+     "fin": 267.4,
+     "personajes": [
+      "Terry",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_terry",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      47,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 271.29,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      97,
+      73
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 5,
+     "remontada": 34,
+     "fin": 310.98,
+     "personajes": [
+      "Terry",
+      "Kensou"
+     ],
+     "claves": [
+      "kof98_terry",
+      "kof98_kensou"
+     ],
+     "vida_final": [
+      0,
+      5
+     ]
+    },
+    {
+     "n": 4,
+     "t": 314.89,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 12,
+     "perfect": false,
+     "dano": [
+      26,
+      34
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 66,
+     "remontada": 0,
+     "fin": 331.52,
+     "personajes": [
+      "Benimaru",
+      "Kensou"
+     ],
+     "claves": [
+      "kof98_benimaru",
+      "kof98_kensou"
+     ],
+     "vida_final": [
+      66,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "Terry · Benimaru · Mature",
+    "Ralf · Takuma · Kensou"
+   ],
+   "claves": [
+    "kof98_terry",
+    "kof98_ralf"
+   ],
+   "equipos": [
+    [
+     "Terry",
+     "Benimaru",
+     "Mature"
+    ],
+    [
+     "Ralf",
+     "Takuma",
+     "Kensou"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_terry",
+     "kof98_benimaru",
+     "kof98_mature"
+    ],
+    [
+     "kof98_ralf",
+     "kof98_takuma",
+     "kof98_kensou"
+    ]
+   ],
+   "fin": 331.52,
+   "resumen": {
+    "dano": [
+     329,
+     185
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     1
+    ],
+    "duracion": 108
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 31.22,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 54.33,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 66.87,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 94.26,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 120.51,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 125.51,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 137.54,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 153.68,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 163.84,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 233.18,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 255.15,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 267.08,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 283.49,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 310.65,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 331.18,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 155,
+   "pelea_rapida": 127,
+   "swaps": 1,
+   "rondas": 6,
+   "rondas_jugadas": 9,
+   "ko": 6,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 690,
+   "recibido": 470,
+   "golpes": 103,
+   "golpe_max": 29,
+   "primero": 4,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 6,
+   "mareos": 0,
+   "ronda_rapida": 12,
+   "al_limite": 1,
+   "remontada": 5,
+   "racha": 3,
+   "contras": 0,
+   "esquivas": 4,
+   "maxes": 1,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 49,
+   "dano_medio": 6.7,
+   "dur_avg": 26,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 51,
+   "dano_barras": 6.7,
+   "recibido_barras": 4.56,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.28
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 84,
+   "pelea_rapida": 0,
+   "swaps": 1,
+   "rondas": 3,
+   "rondas_jugadas": 9,
+   "ko": 3,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 470,
+   "recibido": 690,
+   "golpes": 54,
+   "golpe_max": 20,
+   "primero": 5,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 20,
+   "al_limite": 1,
+   "remontada": 34,
+   "racha": 2,
+   "contras": 4,
+   "esquivas": 0,
+   "maxes": 1,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 36,
+   "dano_medio": 8.7,
+   "dur_avg": 28,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 74,
+   "dano_barras": 4.56,
+   "recibido_barras": 6.7,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.19
+  }
+ ]
+}

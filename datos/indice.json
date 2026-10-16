@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16 02:31",
+ "actualizado": "2026-10-16 02:57",
  "videos": [
   {
    "quark": "1792084722783-2507",
@@ -2048,6 +2048,67 @@
     }
    ],
    "rondas": 12
+  },
+  {
+   "quark": "1729108699648-8737",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2024-10-16",
+   "youtube": "-TDGmrpAIww",
+   "duracion": 337.5,
+   "marcador": [
+    2,
+    0
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "Mirza2002Champ",
+     "pais": "pk",
+     "rango_letra": "S",
+     "personaje": "Kyo · King · Leona",
+     "clave": "kof98_kyo",
+     "personajes": [
+      "Kyo",
+      "King",
+      "Leona",
+      "Terry",
+      "Benimaru",
+      "Mature"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_king",
+      "kof98_leona",
+      "kof98_terry",
+      "kof98_benimaru",
+      "kof98_mature"
+     ]
+    },
+    {
+     "nombre": "Devta",
+     "pais": "pk",
+     "rango_letra": "A",
+     "personaje": "Billy · Ryo · Ralf",
+     "clave": "kof98_billy",
+     "personajes": [
+      "Billy",
+      "Ryo",
+      "Ralf",
+      "Takuma",
+      "Kensou"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_ryo",
+      "kof98_ralf",
+      "kof98_takuma",
+      "kof98_kensou"
+     ]
+    }
+   ],
+   "rondas": 9
   },
   {
    "quark": "1696794848600-7251",

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-16T02:31:47Z",
+ "actualizado": "2026-10-16T02:57:35Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 20032,
  "videos": 95,
  "lista": [
+  {
+   "id": "8KKGfYX4Xjk",
+   "privacidad": "private"
+  },
+  {
+   "id": "-TDGmrpAIww",
+   "privacidad": "private"
+  },
   {
    "id": "p7bTCIdFohE",
    "privacidad": "private"
@@ -31,8 +39,8 @@
    "titulo": "The King of Fighters 2002 | 🇪🇨 #ELKOFNosUne vs 🇨🇴 onimenodacho #shorts",
    "publicado": "2026-10-16T02:14:14Z",
    "privacidad": "public",
-   "vistas": 64,
-   "me_gusta": 0,
+   "vistas": 139,
+   "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/7A6JAOI1kSg/mqdefault.jpg"
   },
   {
@@ -49,7 +57,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel #shorts",
    "publicado": "2026-10-16T01:51:59Z",
    "privacidad": "public",
-   "vistas": 68,
+   "vistas": 71,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/Nas-Ex7erA0/mqdefault.jpg"
   },
@@ -93,7 +101,7 @@
    "titulo": "The King of Fighters 2002 | 🇩🇿 dz101010 vs 🇧🇷 modo sedex #shorts",
    "publicado": "2026-10-16T01:02:51Z",
    "privacidad": "public",
-   "vistas": 53,
+   "vistas": 58,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/9qUXFgwYKSk/mqdefault.jpg"
   },
@@ -102,7 +110,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 Jonathan Tijuana vs 🇲🇽 KGS_KINF_KULA #shorts",
    "publicado": "2026-10-16T01:02:49Z",
    "privacidad": "public",
-   "vistas": 106,
+   "vistas": 109,
    "me_gusta": 3,
    "miniatura": "https://i.ytimg.com/vi/OLhW7r6qM8s/mqdefault.jpg"
   },
@@ -174,7 +182,7 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 padoodey vs 🇺🇸 DJILK #shorts",
    "publicado": "2026-10-13T04:17:25Z",
    "privacidad": "public",
-   "vistas": 477,
+   "vistas": 483,
    "me_gusta": 11,
    "miniatura": "https://i.ytimg.com/vi/aO2jiQb6u3s/mqdefault.jpg"
   },
@@ -237,7 +245,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Kabal27 vs 🇺🇸 DJILK",
    "publicado": "2026-10-11T02:55:17Z",
    "privacidad": "public",
-   "vistas": 15,
+   "vistas": 16,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/44t7ZqPMyok/mqdefault.jpg"
   },
