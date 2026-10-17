@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T22:57:45Z",
+ "actualizado": "2026-10-17T23:26:07Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -10,12 +10,20 @@
  "videos": 117,
  "lista": [
   {
+   "id": "9b3AJyNyHmk",
+   "privacidad": "private"
+  },
+  {
+   "id": "6Ah0M3rXdTA",
+   "privacidad": "private"
+  },
+  {
    "id": "GquxxEZTHEM",
    "titulo": "The King of Fighters '98 | 🇩🇪 Super Champ vs 🇧🇷 barbearialororugal #shorts",
    "publicado": "2026-10-17T22:57:06Z",
    "privacidad": "public",
-   "vistas": 0,
-   "me_gusta": 0,
+   "vistas": 178,
+   "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/GquxxEZTHEM/mqdefault.jpg"
   },
   {
@@ -64,7 +72,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇧🇷 MiBSF2CE-TV vs 🇧🇷 thomas_medeiros",
    "publicado": "2026-10-17T21:34:57Z",
    "privacidad": "public",
-   "vistas": 0,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/yePTNdWB1Tk/mqdefault.jpg"
   },
@@ -115,7 +123,7 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 Digitalinfamy vs 🇺🇸 White Ben #shorts",
    "publicado": "2026-10-17T20:28:29Z",
    "privacidad": "public",
-   "vistas": 74,
+   "vistas": 91,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/NXF-RkhxhYs/mqdefault.jpg"
   },
@@ -157,7 +165,7 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 White Ben vs 🇺🇸 DJILK #shorts",
    "publicado": "2026-10-17T18:57:16Z",
    "privacidad": "public",
-   "vistas": 164,
+   "vistas": 175,
    "me_gusta": 5,
    "miniatura": "https://i.ytimg.com/vi/7WXO2bKyQk0/mqdefault.jpg"
   },
@@ -213,7 +221,7 @@
    "titulo": "The King of Fighters '98 | 🇵🇰 Devta vs 🇵🇰 Mirza2002Champ #shorts",
    "publicado": "2026-10-16T23:30:38Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/QPK1rrxgieA/mqdefault.jpg"
   },
@@ -276,7 +284,7 @@
    "titulo": "The King of Fighters '98 | 🇦🇷 DG | Mr Yama vs 🇦🇷 Abel-*CBZ* #shorts",
    "publicado": "2026-10-16T14:30:40Z",
    "privacidad": "public",
-   "vistas": 241,
+   "vistas": 243,
    "me_gusta": 7,
    "miniatura": "https://i.ytimg.com/vi/p7bTCIdFohE/mqdefault.jpg"
   },
@@ -294,7 +302,7 @@
    "titulo": "The King of Fighters '98 | 🇩🇪 a99 vs 🇪🇸 chris24 #shorts",
    "publicado": "2026-10-16T11:30:59Z",
    "privacidad": "public",
-   "vistas": 106,
+   "vistas": 105,
    "me_gusta": 4,
    "miniatura": "https://i.ytimg.com/vi/QUhLjDV4u64/mqdefault.jpg"
   },
@@ -312,7 +320,7 @@
    "titulo": "The King of Fighters 2002 | 🇪🇨 #ELKOFNosUne vs 🇨🇴 onimenodacho #shorts",
    "publicado": "2026-10-16T02:14:14Z",
    "privacidad": "public",
-   "vistas": 241,
+   "vistas": 248,
    "me_gusta": 6,
    "miniatura": "https://i.ytimg.com/vi/7A6JAOI1kSg/mqdefault.jpg"
   },
@@ -330,7 +338,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel #shorts",
    "publicado": "2026-10-16T01:51:59Z",
    "privacidad": "public",
-   "vistas": 164,
+   "vistas": 168,
    "me_gusta": 8,
    "miniatura": "https://i.ytimg.com/vi/Nas-Ex7erA0/mqdefault.jpg"
   },
@@ -375,7 +383,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 Jonathan Tijuana vs 🇲🇽 KGS_KINF_KULA #shorts",
    "publicado": "2026-10-16T01:02:49Z",
    "privacidad": "public",
-   "vistas": 174,
+   "vistas": 173,
    "me_gusta": 4,
    "miniatura": "https://i.ytimg.com/vi/OLhW7r6qM8s/mqdefault.jpg"
   },
@@ -411,7 +419,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Flawless | Victory vs 🇹🇷 Serdar80s",
    "publicado": "2026-10-16T00:24:18Z",
    "privacidad": "public",
-   "vistas": 164,
+   "vistas": 160,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/NfpjS5D_bJ4/mqdefault.jpg"
   },
@@ -690,7 +698,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 djfrijoles vs 🇲🇽 fack",
    "publicado": "2026-10-06T14:20:38Z",
    "privacidad": "public",
-   "vistas": 20,
+   "vistas": 23,
    "me_gusta": 4,
    "miniatura": "https://i.ytimg.com/vi/7_hf0t3fl3Q/mqdefault.jpg"
   },
@@ -767,13 +775,13 @@
    "miniatura": "https://i.ytimg.com/vi/BwLIPF8RbdQ/mqdefault.jpg"
   },
   {
-   "id": "xbKV3KAuvug",
-   "titulo": "Super Street Fighter II X | 🇫🇷 kazel vs 🇫🇷 Zagi #shorts",
-   "publicado": "2026-10-04T12:00:31Z",
+   "id": "mH6nIeWWI1Q",
+   "titulo": "Super Street Fighter II X | 🇺🇸 DJILK-SF2TV vs 🇺🇸 Fromo",
+   "publicado": "2026-10-06T03:43:53Z",
    "privacidad": "public",
-   "vistas": 640,
-   "me_gusta": 6,
-   "miniatura": "https://i.ytimg.com/vi/xbKV3KAuvug/mqdefault.jpg"
+   "vistas": 10,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/mH6nIeWWI1Q/mqdefault.jpg"
   },
   {
    "id": "ZS_mohBIQ90",

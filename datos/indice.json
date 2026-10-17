@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17 22:57",
+ "actualizado": "2026-10-17 23:26",
  "videos": [
   {
    "quark": "1792260541870-6742",
@@ -272,6 +272,55 @@
     }
    ],
    "rondas": 16
+  },
+  {
+   "quark": "1792255139229-2301",
+   "juego": "sf2hf",
+   "juego_nombre": "Street Fighter II' Hyper Fighting",
+   "juego_corto": "SF2HF",
+   "fecha": "2026-10-17",
+   "youtube": "6Ah0M3rXdTA",
+   "duracion": 606.1,
+   "marcador": [
+    1,
+    5
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "Royal Plush",
+     "pais": "us",
+     "rango_letra": "C",
+     "personaje": "Blanka",
+     "clave": "blanka",
+     "personajes": [
+      "Blanka",
+      "Ryu",
+      "Guile",
+      "Sagat"
+     ],
+     "claves": [
+      "blanka",
+      "ryu",
+      "guile",
+      "sagat"
+     ]
+    },
+    {
+     "nombre": "ChoiBoy",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Zangief",
+     "clave": "zangief",
+     "personajes": [
+      "Zangief"
+     ],
+     "claves": [
+      "zangief"
+     ]
+    }
+   ],
+   "rondas": 14
   },
   {
    "quark": "1792220353871-8960",
