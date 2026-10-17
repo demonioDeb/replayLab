@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T15:38:07Z",
+ "actualizado": "2026-10-17T16:09:28Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,15 +7,33 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 24,
  "vistas": 20393,
- "videos": 106,
+ "videos": 108,
  "lista": [
   {
-   "id": "rPIjUw25TNk",
+   "id": "7WXO2bKyQk0",
    "privacidad": "private"
   },
   {
-   "id": "HipvTJpxB9Q",
+   "id": "oqGZVPRe1qU",
    "privacidad": "private"
+  },
+  {
+   "id": "rPIjUw25TNk",
+   "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 White Ben vs 🇳🇿 Wahzu #shorts",
+   "publicado": "2026-10-17T15:53:24Z",
+   "privacidad": "public",
+   "vistas": 22,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/rPIjUw25TNk/mqdefault.jpg"
+  },
+  {
+   "id": "HipvTJpxB9Q",
+   "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 White Ben vs 🇳🇿 Wahzu",
+   "publicado": "2026-10-17T15:52:07Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/HipvTJpxB9Q/mqdefault.jpg"
   },
   {
    "id": "QPK1rrxgieA",
@@ -85,7 +103,7 @@
    "titulo": "The King of Fighters '98 | 🇦🇷 DG | Mr Yama vs 🇦🇷 Abel-*CBZ* #shorts",
    "publicado": "2026-10-16T14:30:40Z",
    "privacidad": "public",
-   "vistas": 238,
+   "vistas": 237,
    "me_gusta": 7,
    "miniatura": "https://i.ytimg.com/vi/p7bTCIdFohE/mqdefault.jpg"
   },
@@ -121,7 +139,7 @@
    "titulo": "The King of Fighters 2002 | 🇪🇨 #ELKOFNosUne vs 🇨🇴 onimenodacho #shorts",
    "publicado": "2026-10-16T02:14:14Z",
    "privacidad": "public",
-   "vistas": 231,
+   "vistas": 230,
    "me_gusta": 5,
    "miniatura": "https://i.ytimg.com/vi/7A6JAOI1kSg/mqdefault.jpg"
   },
@@ -139,7 +157,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel #shorts",
    "publicado": "2026-10-16T01:51:59Z",
    "privacidad": "public",
-   "vistas": 158,
+   "vistas": 156,
    "me_gusta": 8,
    "miniatura": "https://i.ytimg.com/vi/Nas-Ex7erA0/mqdefault.jpg"
   },
@@ -220,7 +238,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Flawless | Victory vs 🇹🇷 Serdar80s",
    "publicado": "2026-10-16T00:24:18Z",
    "privacidad": "public",
-   "vistas": 125,
+   "vistas": 124,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/NfpjS5D_bJ4/mqdefault.jpg"
   },
