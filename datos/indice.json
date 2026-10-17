@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17 16:44",
+ "actualizado": "2026-10-17 17:06",
  "videos": [
   {
    "quark": "1792220353871-8960",
@@ -417,6 +417,57 @@
     }
    ],
    "rondas": 20
+  },
+  {
+   "quark": "1791662106893-9861",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2026-10-10",
+   "youtube": "vk4KxVDCENM",
+   "duracion": 309.1,
+   "marcador": [
+    0,
+    2
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "Super Champ",
+     "pais": "de",
+     "rango_letra": "A",
+     "personaje": "Chris · Mary · Ralf",
+     "clave": "kof98_chris",
+     "personajes": [
+      "Chris",
+      "Mary",
+      "Ralf"
+     ],
+     "claves": [
+      "kof98_chris",
+      "kof98_mary",
+      "kof98_ralf"
+     ]
+    },
+    {
+     "nombre": "barbearialororugal",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Iori · Daimon · Yashiro",
+     "clave": "kof98_iori",
+     "personajes": [
+      "Iori",
+      "Daimon",
+      "Yashiro"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_daimon",
+      "kof98_yashiro"
+     ]
+    }
+   ],
+   "rondas": 8
   },
   {
    "quark": "1791563244915-7491",
