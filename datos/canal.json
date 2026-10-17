@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T20:51:52Z",
+ "actualizado": "2026-10-17T21:13:33Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,32 @@
  "vistas": 21595,
  "videos": 116,
  "lista": [
+  {
+   "id": "7jQZk0S2rmM",
+   "titulo": "Street Fighter II' Champion Edition | 🇧🇷 MiBSF2CE-TV vs 🇺🇸 DJILK",
+   "publicado": "2026-10-17T21:06:39Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/7jQZk0S2rmM/mqdefault.jpg"
+  },
+  {
+   "id": "Yg779Ef_CZU",
+   "privacidad": "private"
+  },
+  {
+   "id": "iQq6_iX9Nwo",
+   "privacidad": "private"
+  },
+  {
+   "id": "vk4KxVDCENM",
+   "titulo": "The King of Fighters '98 | 🇩🇪 Super Champ vs 🇧🇷 barbearialororugal",
+   "publicado": "2026-10-17T20:57:10Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/vk4KxVDCENM/mqdefault.jpg"
+  },
   {
    "id": "D31P2gT4eMQ",
    "privacidad": "private"
@@ -22,7 +48,7 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 Digitalinfamy vs 🇺🇸 White Ben #shorts",
    "publicado": "2026-10-17T20:28:29Z",
    "privacidad": "public",
-   "vistas": 22,
+   "vistas": 35,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/NXF-RkhxhYs/mqdefault.jpg"
   },
@@ -64,8 +90,8 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 White Ben vs 🇺🇸 DJILK #shorts",
    "publicado": "2026-10-17T18:57:16Z",
    "privacidad": "public",
-   "vistas": 38,
-   "me_gusta": 2,
+   "vistas": 47,
+   "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/7WXO2bKyQk0/mqdefault.jpg"
   },
   {
@@ -95,15 +121,6 @@
    "privacidad": "private"
   },
   {
-   "id": "7jQZk0S2rmM",
-   "titulo": "Street Fighter II' Champion Edition | 🇧🇷 MiBSF2CE-TV vs 🇺🇸 DJILK",
-   "publicado": "2026-10-17T18:06:32Z",
-   "privacidad": "public",
-   "vistas": 0,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/7jQZk0S2rmM/mqdefault.jpg"
-  },
-  {
    "id": "u9WAGq9uJcY",
    "privacidad": "private"
   },
@@ -127,15 +144,6 @@
   {
    "id": "GquxxEZTHEM",
    "privacidad": "private"
-  },
-  {
-   "id": "vk4KxVDCENM",
-   "titulo": "The King of Fighters '98 | 🇩🇪 Super Champ vs 🇧🇷 barbearialororugal",
-   "publicado": "2026-10-17T16:57:40Z",
-   "privacidad": "public",
-   "vistas": 0,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/vk4KxVDCENM/mqdefault.jpg"
   },
   {
    "id": "rPIjUw25TNk",
@@ -205,7 +213,7 @@
    "titulo": "The King of Fighters '98 | 🇵🇰 Mirza2002Champ vs 🇵🇰 Devta #shorts",
    "publicado": "2026-10-16T17:31:12Z",
    "privacidad": "public",
-   "vistas": 61,
+   "vistas": 64,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/8KKGfYX4Xjk/mqdefault.jpg"
   },
@@ -223,7 +231,7 @@
    "titulo": "The King of Fighters '98 | 🇦🇷 DG | Mr Yama vs 🇦🇷 Abel-*CBZ* #shorts",
    "publicado": "2026-10-16T14:30:40Z",
    "privacidad": "public",
-   "vistas": 239,
+   "vistas": 240,
    "me_gusta": 7,
    "miniatura": "https://i.ytimg.com/vi/p7bTCIdFohE/mqdefault.jpg"
   },
@@ -241,8 +249,8 @@
    "titulo": "The King of Fighters '98 | 🇩🇪 a99 vs 🇪🇸 chris24 #shorts",
    "publicado": "2026-10-16T11:30:59Z",
    "privacidad": "public",
-   "vistas": 102,
-   "me_gusta": 3,
+   "vistas": 105,
+   "me_gusta": 4,
    "miniatura": "https://i.ytimg.com/vi/QUhLjDV4u64/mqdefault.jpg"
   },
   {
@@ -259,7 +267,7 @@
    "titulo": "The King of Fighters 2002 | 🇪🇨 #ELKOFNosUne vs 🇨🇴 onimenodacho #shorts",
    "publicado": "2026-10-16T02:14:14Z",
    "privacidad": "public",
-   "vistas": 241,
+   "vistas": 242,
    "me_gusta": 6,
    "miniatura": "https://i.ytimg.com/vi/7A6JAOI1kSg/mqdefault.jpg"
   },
@@ -277,7 +285,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel #shorts",
    "publicado": "2026-10-16T01:51:59Z",
    "privacidad": "public",
-   "vistas": 159,
+   "vistas": 164,
    "me_gusta": 8,
    "miniatura": "https://i.ytimg.com/vi/Nas-Ex7erA0/mqdefault.jpg"
   },
@@ -286,7 +294,7 @@
    "titulo": "The King of Fighters 2002 | 🇵🇰 mirza mudassar vs 🇲🇽 CombosMX #shorts",
    "publicado": "2026-10-16T01:20:53Z",
    "privacidad": "public",
-   "vistas": 129,
+   "vistas": 131,
    "me_gusta": 3,
    "miniatura": "https://i.ytimg.com/vi/Azq03K1eaUM/mqdefault.jpg"
   },
@@ -358,7 +366,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Flawless | Victory vs 🇹🇷 Serdar80s",
    "publicado": "2026-10-16T00:24:18Z",
    "privacidad": "public",
-   "vistas": 145,
+   "vistas": 148,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/NfpjS5D_bJ4/mqdefault.jpg"
   },
