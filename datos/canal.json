@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T22:23:14Z",
+ "actualizado": "2026-10-17T22:44:45Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 21595,
  "videos": 116,
  "lista": [
+  {
+   "id": "PpVQGgr3hFU",
+   "privacidad": "private"
+  },
+  {
+   "id": "rTojqMLwYNc",
+   "privacidad": "private"
+  },
   {
    "id": "8akKzQ_ERgg",
    "titulo": "The King of Fighters '98 | 🇩🇪 Garam Anday vs 🇧🇷 M@rcio-K@tit@-BR",
@@ -132,8 +140,8 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 White Ben vs 🇺🇸 DJILK #shorts",
    "publicado": "2026-10-17T18:57:16Z",
    "privacidad": "public",
-   "vistas": 97,
-   "me_gusta": 2,
+   "vistas": 151,
+   "me_gusta": 6,
    "miniatura": "https://i.ytimg.com/vi/7WXO2bKyQk0/mqdefault.jpg"
   },
   {
@@ -237,7 +245,7 @@
    "titulo": "The King of Fighters '98 | 🇵🇰 Mirza2002Champ vs 🇵🇰 Devta #shorts",
    "publicado": "2026-10-16T17:31:12Z",
    "privacidad": "public",
-   "vistas": 62,
+   "vistas": 64,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/8KKGfYX4Xjk/mqdefault.jpg"
   },
@@ -273,7 +281,7 @@
    "titulo": "The King of Fighters '98 | 🇩🇪 a99 vs 🇪🇸 chris24 #shorts",
    "publicado": "2026-10-16T11:30:59Z",
    "privacidad": "public",
-   "vistas": 105,
+   "vistas": 106,
    "me_gusta": 4,
    "miniatura": "https://i.ytimg.com/vi/QUhLjDV4u64/mqdefault.jpg"
   },
@@ -291,7 +299,7 @@
    "titulo": "The King of Fighters 2002 | 🇪🇨 #ELKOFNosUne vs 🇨🇴 onimenodacho #shorts",
    "publicado": "2026-10-16T02:14:14Z",
    "privacidad": "public",
-   "vistas": 242,
+   "vistas": 241,
    "me_gusta": 6,
    "miniatura": "https://i.ytimg.com/vi/7A6JAOI1kSg/mqdefault.jpg"
   },
@@ -309,7 +317,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel #shorts",
    "publicado": "2026-10-16T01:51:59Z",
    "privacidad": "public",
-   "vistas": 166,
+   "vistas": 164,
    "me_gusta": 8,
    "miniatura": "https://i.ytimg.com/vi/Nas-Ex7erA0/mqdefault.jpg"
   },
@@ -350,15 +358,6 @@
    "miniatura": "https://i.ytimg.com/vi/9qUXFgwYKSk/mqdefault.jpg"
   },
   {
-   "id": "sXP217Z_uoo",
-   "titulo": "The King of Fighters 2002 | 🇲🇽 Jonathan Tijuana vs 🇲🇽 KGS_KINF_KULA",
-   "publicado": "2026-10-16T01:03:24Z",
-   "privacidad": "public",
-   "vistas": 2,
-   "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/sXP217Z_uoo/mqdefault.jpg"
-  },
-  {
    "id": "OLhW7r6qM8s",
    "titulo": "The King of Fighters 2002 | 🇲🇽 Jonathan Tijuana vs 🇲🇽 KGS_KINF_KULA #shorts",
    "publicado": "2026-10-16T01:02:49Z",
@@ -366,6 +365,15 @@
    "vistas": 173,
    "me_gusta": 4,
    "miniatura": "https://i.ytimg.com/vi/OLhW7r6qM8s/mqdefault.jpg"
+  },
+  {
+   "id": "JsnuculyCrA",
+   "titulo": "The King of Fighters 2002 | 🇩🇿 dz101010 vs 🇧🇷 modo sedex",
+   "publicado": "2026-10-16T01:02:21Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/JsnuculyCrA/mqdefault.jpg"
   },
   {
    "id": "zR7ORIt8jg0",
@@ -822,7 +830,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇺🇸 DJILK vs 🇧🇷 RAC | Flavio.Ryu",
    "publicado": "2026-10-02T15:45:06Z",
    "privacidad": "public",
-   "vistas": 43,
+   "vistas": 44,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/VKwKClpHftY/mqdefault.jpg"
   },
