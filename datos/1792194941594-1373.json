@@ -1,0 +1,876 @@
+{
+ "version": 8,
+ "quark": "1792194941594-1373",
+ "carpeta": "20261017_Digitalinfamy_vs_DJILK_1792194941594-1373",
+ "juego": "sf2hf",
+ "juego_nombre": "Street Fighter II' Hyper Fighting",
+ "juego_corto": "SF2HF",
+ "datos": {
+  "super": false,
+  "stun": true,
+  "combos": false
+ },
+ "fecha": "2026-10-16",
+ "youtube": "4CSv3cisV9Y",
+ "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 Digitalinfamy vs 🇺🇸 DJILK",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "Digitalinfamy",
+   "pais": "us",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Ryu",
+   "clave": "ryu",
+   "personajes": [
+    "Ryu"
+   ],
+   "claves": [
+    "ryu"
+   ],
+   "swaps": 0,
+   "super": ""
+  },
+  {
+   "nombre": "DJILK",
+   "pais": "us",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Ryu",
+   "clave": "ryu",
+   "personajes": [
+    "Ryu"
+   ],
+   "claves": [
+    "ryu"
+   ],
+   "swaps": 0,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  0,
+  5
+ ],
+ "duracion": 542.1,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 4.55,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 4.55,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 62,
+     "perfect": false,
+     "dano": [
+      137,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 75,
+     "fin": 40.62,
+     "vida_final": [
+      0,
+      4
+     ]
+    },
+    {
+     "n": 2,
+     "t": 47.14,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 61,
+     "perfect": false,
+     "dano": [
+      79,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 45,
+     "remontada": 19,
+     "fin": 83.25,
+     "vida_final": [
+      0,
+      45
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Ryu",
+    "Ryu"
+   ],
+   "claves": [
+    "ryu",
+    "ryu"
+   ],
+   "fin": 83.73,
+   "resumen": {
+    "dano": [
+     216,
+     288
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 123
+   }
+  },
+  {
+   "n": 2,
+   "t": 96.35,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 96.35,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      32,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 77,
+     "remontada": 0,
+     "fin": 119.51,
+     "vida_final": [
+      0,
+      77
+     ]
+    },
+    {
+     "n": 2,
+     "t": 126.64,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 91,
+     "perfect": false,
+     "dano": [
+      136,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 5,
+     "remontada": 35,
+     "fin": 178.74,
+     "vida_final": [
+      0,
+      5
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    2
+   ],
+   "personajes": [
+    "Ryu",
+    "Ryu"
+   ],
+   "claves": [
+    "ryu",
+    "ryu"
+   ],
+   "fin": 179.22,
+   "resumen": {
+    "dano": [
+     168,
+     288
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 130
+   }
+  },
+  {
+   "n": 3,
+   "t": 191.48,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 191.49,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      144,
+      66
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 54,
+     "remontada": 15,
+     "fin": 212.05,
+     "vida_final": [
+      54,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 219.05,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 29,
+     "perfect": false,
+     "dano": [
+      44,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 69,
+     "remontada": 3,
+     "fin": 237.51,
+     "vida_final": [
+      0,
+      69
+     ]
+    },
+    {
+     "n": 3,
+     "t": 244.16,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 47,
+     "perfect": false,
+     "dano": [
+      58,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 59,
+     "remontada": 15,
+     "fin": 272.25,
+     "vida_final": [
+      0,
+      59
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    3
+   ],
+   "personajes": [
+    "Ryu",
+    "Ryu"
+   ],
+   "claves": [
+    "ryu",
+    "ryu"
+   ],
+   "fin": 272.73,
+   "resumen": {
+    "dano": [
+     246,
+     354
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 110
+   }
+  },
+  {
+   "n": 4,
+   "t": 285.63,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 285.63,
+     "ganador": 2,
+     "motivo": "time",
+     "duracion": 99,
+     "perfect": false,
+     "dano": [
+      131,
+      138
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 9,
+     "remontada": 8,
+     "fin": 342.17,
+     "vida_final": [
+      4,
+      9
+     ]
+    },
+    {
+     "n": 2,
+     "t": 349.42,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "dano": [
+      144,
+      80
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 44,
+     "remontada": 10,
+     "fin": 376.9,
+     "vida_final": [
+      44,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 383.56,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 47,
+     "perfect": false,
+     "dano": [
+      76,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 47,
+     "remontada": 41,
+     "fin": 411.43,
+     "vida_final": [
+      0,
+      47
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    4
+   ],
+   "personajes": [
+    "Ryu",
+    "Ryu"
+   ],
+   "claves": [
+    "ryu",
+    "ryu"
+   ],
+   "fin": 411.91,
+   "resumen": {
+    "dano": [
+     351,
+     362
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 191
+   }
+  },
+  {
+   "n": 5,
+   "t": 424.57,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 424.57,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 46,
+     "perfect": false,
+     "dano": [
+      132,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 8,
+     "remontada": 30,
+     "fin": 451.91,
+     "vida_final": [
+      0,
+      8
+     ]
+    },
+    {
+     "n": 2,
+     "t": 458.21,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 48,
+     "perfect": false,
+     "dano": [
+      144,
+      90
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 37,
+     "remontada": 6,
+     "fin": 487.31,
+     "vida_final": [
+      37,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 493.79,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 72,
+     "perfect": false,
+     "dano": [
+      97,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 32,
+     "remontada": 0,
+     "fin": 535.65,
+     "vida_final": [
+      0,
+      32
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    5
+   ],
+   "personajes": [
+    "Ryu",
+    "Ryu"
+   ],
+   "claves": [
+    "ryu",
+    "ryu"
+   ],
+   "fin": 536.12,
+   "resumen": {
+    "dano": [
+     373,
+     378
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 166
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 40.62,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 40.62,
+   "tipo": "remontada",
+   "jugador": 2,
+   "dato": 75
+  },
+  {
+   "t": 83.25,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 119.51,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 178.74,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 210.22,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 212.05,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 235.96,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 237.51,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 272.25,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 365.67,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 376.9,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 409.93,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 411.43,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 451.91,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 487.31,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 535.65,
+   "tipo": "ko",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 181,
+   "stun_peor": 92,
+   "mareado_veces": 2,
+   "dur_sum": 127,
+   "pelea_rapida": 0,
+   "swaps": 0,
+   "rondas": 3,
+   "rondas_jugadas": 13,
+   "ko": 3,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1354,
+   "recibido": 1670,
+   "golpes": 97,
+   "golpe_max": 39,
+   "primero": 5,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 2,
+   "ronda_rapida": 34,
+   "al_limite": 0,
+   "remontada": 15,
+   "racha": 1,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 45,
+   "dano_medio": 14.0,
+   "dur_avg": 42,
+   "stun_seg": 3.0,
+   "stun_peor_seg": 1.5,
+   "vida_perdida_ronda": 89,
+   "dano_barras": 9.4,
+   "recibido_barras": 11.6,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.27
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 202,
+   "stun_peor": 113,
+   "mareado_veces": 2,
+   "dur_sum": 593,
+   "pelea_rapida": 79,
+   "swaps": 0,
+   "rondas": 10,
+   "rondas_jugadas": 13,
+   "ko": 9,
+   "timeup": 1,
+   "perfects": 0,
+   "dano": 1670,
+   "recibido": 1354,
+   "golpes": 120,
+   "golpe_max": 34,
+   "primero": 8,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 2,
+   "ronda_rapida": 29,
+   "al_limite": 4,
+   "remontada": 75,
+   "racha": 4,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 36,
+   "dano_medio": 13.9,
+   "dur_avg": 59,
+   "stun_seg": 3.4,
+   "stun_peor_seg": 1.9,
+   "vida_perdida_ronda": 72,
+   "dano_barras": 11.6,
+   "recibido_barras": 9.4,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.24
+  }
+ ]
+}

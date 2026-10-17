@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T21:59:36Z",
+ "actualizado": "2026-10-17T22:23:14Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,23 @@
  "vistas": 21595,
  "videos": 116,
  "lista": [
+  {
+   "id": "8akKzQ_ERgg",
+   "titulo": "The King of Fighters '98 | 🇩🇪 Garam Anday vs 🇧🇷 M@rcio-K@tit@-BR",
+   "publicado": "2026-10-17T22:22:09Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/8akKzQ_ERgg/mqdefault.jpg"
+  },
+  {
+   "id": "bmBmb0DFjYs",
+   "privacidad": "private"
+  },
+  {
+   "id": "4CSv3cisV9Y",
+   "privacidad": "private"
+  },
   {
    "id": "u-YZqndV9Mc",
    "privacidad": "private"
@@ -115,7 +132,7 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 White Ben vs 🇺🇸 DJILK #shorts",
    "publicado": "2026-10-17T18:57:16Z",
    "privacidad": "public",
-   "vistas": 64,
+   "vistas": 97,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/7WXO2bKyQk0/mqdefault.jpg"
   },
@@ -147,15 +164,6 @@
   {
    "id": "Nhao18ZxZzY",
    "privacidad": "private"
-  },
-  {
-   "id": "8akKzQ_ERgg",
-   "titulo": "The King of Fighters '98 | 🇩🇪 Garam Anday vs 🇧🇷 M@rcio-K@tit@-BR",
-   "publicado": "2026-10-17T17:22:58Z",
-   "privacidad": "public",
-   "vistas": 0,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/8akKzQ_ERgg/mqdefault.jpg"
   },
   {
    "id": "GquxxEZTHEM",
@@ -229,7 +237,7 @@
    "titulo": "The King of Fighters '98 | 🇵🇰 Mirza2002Champ vs 🇵🇰 Devta #shorts",
    "publicado": "2026-10-16T17:31:12Z",
    "privacidad": "public",
-   "vistas": 64,
+   "vistas": 62,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/8KKGfYX4Xjk/mqdefault.jpg"
   },
@@ -247,7 +255,7 @@
    "titulo": "The King of Fighters '98 | 🇦🇷 DG | Mr Yama vs 🇦🇷 Abel-*CBZ* #shorts",
    "publicado": "2026-10-16T14:30:40Z",
    "privacidad": "public",
-   "vistas": 240,
+   "vistas": 241,
    "me_gusta": 7,
    "miniatura": "https://i.ytimg.com/vi/p7bTCIdFohE/mqdefault.jpg"
   },
@@ -301,7 +309,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel #shorts",
    "publicado": "2026-10-16T01:51:59Z",
    "privacidad": "public",
-   "vistas": 164,
+   "vistas": 166,
    "me_gusta": 8,
    "miniatura": "https://i.ytimg.com/vi/Nas-Ex7erA0/mqdefault.jpg"
   },
@@ -342,24 +350,6 @@
    "miniatura": "https://i.ytimg.com/vi/9qUXFgwYKSk/mqdefault.jpg"
   },
   {
-   "id": "OLhW7r6qM8s",
-   "titulo": "The King of Fighters 2002 | 🇲🇽 Jonathan Tijuana vs 🇲🇽 KGS_KINF_KULA #shorts",
-   "publicado": "2026-10-16T01:02:49Z",
-   "privacidad": "public",
-   "vistas": 173,
-   "me_gusta": 4,
-   "miniatura": "https://i.ytimg.com/vi/OLhW7r6qM8s/mqdefault.jpg"
-  },
-  {
-   "id": "JsnuculyCrA",
-   "titulo": "The King of Fighters 2002 | 🇩🇿 dz101010 vs 🇧🇷 modo sedex",
-   "publicado": "2026-10-16T01:02:21Z",
-   "privacidad": "public",
-   "vistas": 1,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/JsnuculyCrA/mqdefault.jpg"
-  },
-  {
    "id": "sXP217Z_uoo",
    "titulo": "The King of Fighters 2002 | 🇲🇽 Jonathan Tijuana vs 🇲🇽 KGS_KINF_KULA",
    "publicado": "2026-10-16T01:03:24Z",
@@ -378,11 +368,29 @@
    "miniatura": "https://i.ytimg.com/vi/OLhW7r6qM8s/mqdefault.jpg"
   },
   {
+   "id": "zR7ORIt8jg0",
+   "titulo": "The King of Fighters 2002 | 🇵🇰 mirza mudassar vs 🇫🇷 preciouss #shorts",
+   "publicado": "2026-10-16T00:43:58Z",
+   "privacidad": "public",
+   "vistas": 33,
+   "me_gusta": 1,
+   "miniatura": "https://i.ytimg.com/vi/zR7ORIt8jg0/mqdefault.jpg"
+  },
+  {
+   "id": "U21HTnN1GBA",
+   "titulo": "The King of Fighters 2002 | 🇵🇰 mirza mudassar vs 🇫🇷 preciouss",
+   "publicado": "2026-10-16T00:43:56Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/U21HTnN1GBA/mqdefault.jpg"
+  },
+  {
    "id": "NfpjS5D_bJ4",
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Flawless | Victory vs 🇹🇷 Serdar80s",
    "publicado": "2026-10-16T00:24:18Z",
    "privacidad": "public",
-   "vistas": 151,
+   "vistas": 157,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/NfpjS5D_bJ4/mqdefault.jpg"
   },
@@ -1093,7 +1101,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇲🇽 MT Yurikowa vs 🇦🇷 Nostrax",
    "publicado": "2026-09-29T20:17:50Z",
    "privacidad": "public",
-   "vistas": 12,
+   "vistas": 13,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/DEUvaIRxw0M/mqdefault.jpg"
   },

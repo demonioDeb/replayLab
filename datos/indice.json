@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17 21:59",
+ "actualizado": "2026-10-17 22:23",
  "videos": [
   {
    "quark": "1792260541870-6742",
@@ -401,6 +401,49 @@
     }
    ],
    "rondas": 20
+  },
+  {
+   "quark": "1792194941594-1373",
+   "juego": "sf2hf",
+   "juego_nombre": "Street Fighter II' Hyper Fighting",
+   "juego_corto": "SF2HF",
+   "fecha": "2026-10-16",
+   "youtube": "4CSv3cisV9Y",
+   "duracion": 542.1,
+   "marcador": [
+    0,
+    5
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "Digitalinfamy",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    },
+    {
+     "nombre": "DJILK",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    }
+   ],
+   "rondas": 13
   },
   {
    "quark": "1792187806395-7038",
