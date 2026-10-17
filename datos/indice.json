@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17 18:17",
+ "actualizado": "2026-10-17 18:45",
  "videos": [
   {
    "quark": "1792220353871-8960",
@@ -172,6 +172,49 @@
     }
    ],
    "rondas": 15
+  },
+  {
+   "quark": "1792115975858-5169",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-16",
+   "youtube": "yePTNdWB1Tk",
+   "duracion": 434.9,
+   "marcador": [
+    3,
+    1
+   ],
+   "peleas": 4,
+   "jugadores": [
+    {
+     "nombre": "MiBSF2CE-TV",
+     "pais": "br",
+     "rango_letra": "S",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    },
+    {
+     "nombre": "thomas_medeiros",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken"
+     ],
+     "claves": [
+      "ken"
+     ]
+    }
+   ],
+   "rondas": 11
   },
   {
    "quark": "1792099199375-9243",

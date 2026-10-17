@@ -1,14 +1,22 @@
 {
- "actualizado": "2026-10-17T18:17:18Z",
+ "actualizado": "2026-10-17T18:45:30Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
  "handle": "replaylab-fcrec",
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 24,
- "vistas": 20393,
+ "vistas": 21595,
  "videos": 108,
  "lista": [
+  {
+   "id": "kvdjhZSWWIw",
+   "privacidad": "private"
+  },
+  {
+   "id": "yePTNdWB1Tk",
+   "privacidad": "private"
+  },
   {
    "id": "Bx9lXYLaMCY",
    "privacidad": "private"
@@ -98,7 +106,7 @@
    "titulo": "The King of Fighters '98 | 🇵🇪 rammsa vs 🇺🇸 Black-C #shorts",
    "publicado": "2026-10-16T20:30:45Z",
    "privacidad": "public",
-   "vistas": 4,
+   "vistas": 5,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/sPsU67XRCGo/mqdefault.jpg"
   },
