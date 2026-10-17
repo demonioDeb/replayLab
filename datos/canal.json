@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T18:45:30Z",
+ "actualizado": "2026-10-17T19:32:57Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,15 +7,55 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 24,
  "vistas": 21595,
- "videos": 108,
+ "videos": 113,
  "lista": [
+  {
+   "id": "hn7sQ2R75is",
+   "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 Digitalinfamy vs 🇺🇸 White Ben",
+   "publicado": "2026-10-17T19:29:05Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/hn7sQ2R75is/mqdefault.jpg"
+  },
+  {
+   "id": "abHG7sxVCGY",
+   "privacidad": "private"
+  },
+  {
+   "id": "K0eZGntW3gc",
+   "privacidad": "private"
+  },
+  {
+   "id": "7WXO2bKyQk0",
+   "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 White Ben vs 🇺🇸 DJILK #shorts",
+   "publicado": "2026-10-17T18:57:16Z",
+   "privacidad": "public",
+   "vistas": 36,
+   "me_gusta": 2,
+   "miniatura": "https://i.ytimg.com/vi/7WXO2bKyQk0/mqdefault.jpg"
+  },
+  {
+   "id": "oqGZVPRe1qU",
+   "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 White Ben vs 🇺🇸 DJILK",
+   "publicado": "2026-10-17T18:57:10Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/oqGZVPRe1qU/mqdefault.jpg"
+  },
   {
    "id": "kvdjhZSWWIw",
    "privacidad": "private"
   },
   {
    "id": "yePTNdWB1Tk",
-   "privacidad": "private"
+   "titulo": "Street Fighter II' Champion Edition | 🇧🇷 MiBSF2CE-TV vs 🇧🇷 thomas_medeiros",
+   "publicado": "2026-10-17T18:34:51Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/yePTNdWB1Tk/mqdefault.jpg"
   },
   {
    "id": "Bx9lXYLaMCY",
@@ -23,7 +63,12 @@
   },
   {
    "id": "7jQZk0S2rmM",
-   "privacidad": "private"
+   "titulo": "Street Fighter II' Champion Edition | 🇧🇷 MiBSF2CE-TV vs 🇺🇸 DJILK",
+   "publicado": "2026-10-17T18:06:32Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/7jQZk0S2rmM/mqdefault.jpg"
   },
   {
    "id": "u9WAGq9uJcY",
@@ -39,7 +84,12 @@
   },
   {
    "id": "8akKzQ_ERgg",
-   "privacidad": "private"
+   "titulo": "The King of Fighters '98 | 🇩🇪 Garam Anday vs 🇧🇷 M@rcio-K@tit@-BR",
+   "publicado": "2026-10-17T17:22:58Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/8akKzQ_ERgg/mqdefault.jpg"
   },
   {
    "id": "GquxxEZTHEM",
@@ -47,22 +97,15 @@
   },
   {
    "id": "vk4KxVDCENM",
-   "privacidad": "private"
+   "titulo": "The King of Fighters '98 | 🇩🇪 Super Champ vs 🇧🇷 barbearialororugal",
+   "publicado": "2026-10-17T16:57:40Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/vk4KxVDCENM/mqdefault.jpg"
   },
   {
    "id": "NXF-RkhxhYs",
-   "privacidad": "private"
-  },
-  {
-   "id": "hn7sQ2R75is",
-   "privacidad": "private"
-  },
-  {
-   "id": "7WXO2bKyQk0",
-   "privacidad": "private"
-  },
-  {
-   "id": "oqGZVPRe1qU",
    "privacidad": "private"
   },
   {
@@ -169,7 +212,7 @@
    "titulo": "The King of Fighters '98 | 🇩🇪 a99 vs 🇪🇸 chris24 #shorts",
    "publicado": "2026-10-16T11:30:59Z",
    "privacidad": "public",
-   "vistas": 100,
+   "vistas": 102,
    "me_gusta": 3,
    "miniatura": "https://i.ytimg.com/vi/QUhLjDV4u64/mqdefault.jpg"
   },
@@ -187,8 +230,8 @@
    "titulo": "The King of Fighters 2002 | 🇪🇨 #ELKOFNosUne vs 🇨🇴 onimenodacho #shorts",
    "publicado": "2026-10-16T02:14:14Z",
    "privacidad": "public",
-   "vistas": 234,
-   "me_gusta": 5,
+   "vistas": 240,
+   "me_gusta": 6,
    "miniatura": "https://i.ytimg.com/vi/7A6JAOI1kSg/mqdefault.jpg"
   },
   {
@@ -241,7 +284,7 @@
    "titulo": "The King of Fighters 2002 | 🇩🇿 dz101010 vs 🇧🇷 modo sedex #shorts",
    "publicado": "2026-10-16T01:02:51Z",
    "privacidad": "public",
-   "vistas": 122,
+   "vistas": 124,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/9qUXFgwYKSk/mqdefault.jpg"
   },
@@ -538,7 +581,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 FabsGtz vs 🇲🇽 djfrijoles",
    "publicado": "2026-10-06T14:47:53Z",
    "privacidad": "public",
-   "vistas": 60,
+   "vistas": 61,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/u6FbTcP7mvQ/mqdefault.jpg"
   },
@@ -682,7 +725,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 KELA420 vs 🇺🇸 znoopyglobal",
    "publicado": "2026-10-03T16:28:11Z",
    "privacidad": "public",
-   "vistas": 138,
+   "vistas": 139,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/jgXK-Paf60U/mqdefault.jpg"
   },
