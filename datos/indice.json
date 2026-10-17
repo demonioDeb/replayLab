@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17 19:32",
+ "actualizado": "2026-10-17 19:54",
  "videos": [
   {
    "quark": "1792259495912-4307",
@@ -129,6 +129,49 @@
     }
    ],
    "rondas": 22
+  },
+  {
+   "quark": "1792197475604-7224",
+   "juego": "sf2hf",
+   "juego_nombre": "Street Fighter II' Hyper Fighting",
+   "juego_corto": "SF2HF",
+   "fecha": "2026-10-17",
+   "youtube": "4YMeczHVHug",
+   "duracion": 388.0,
+   "marcador": [
+    1,
+    3
+   ],
+   "peleas": 4,
+   "jugadores": [
+    {
+     "nombre": "Digitalinfamy",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "E. Honda",
+     "clave": "honda",
+     "personajes": [
+      "E. Honda"
+     ],
+     "claves": [
+      "honda"
+     ]
+    },
+    {
+     "nombre": "ChoiBoy",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    }
+   ],
+   "rondas": 11
   },
   {
    "quark": "1792195509747-8342",
