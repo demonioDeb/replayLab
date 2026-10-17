@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T22:44:45Z",
+ "actualizado": "2026-10-17T22:57:45Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,8 +7,25 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 24,
  "vistas": 21595,
- "videos": 116,
+ "videos": 117,
  "lista": [
+  {
+   "id": "GquxxEZTHEM",
+   "titulo": "The King of Fighters '98 | 🇩🇪 Super Champ vs 🇧🇷 barbearialororugal #shorts",
+   "publicado": "2026-10-17T22:57:06Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/GquxxEZTHEM/mqdefault.jpg"
+  },
+  {
+   "id": "2QI_mcdrzXA",
+   "privacidad": "private"
+  },
+  {
+   "id": "HqNGEqePIyE",
+   "privacidad": "private"
+  },
   {
    "id": "PpVQGgr3hFU",
    "privacidad": "private"
@@ -98,8 +115,8 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 Digitalinfamy vs 🇺🇸 White Ben #shorts",
    "publicado": "2026-10-17T20:28:29Z",
    "privacidad": "public",
-   "vistas": 44,
-   "me_gusta": 2,
+   "vistas": 74,
+   "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/NXF-RkhxhYs/mqdefault.jpg"
   },
   {
@@ -140,8 +157,8 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 White Ben vs 🇺🇸 DJILK #shorts",
    "publicado": "2026-10-17T18:57:16Z",
    "privacidad": "public",
-   "vistas": 151,
-   "me_gusta": 6,
+   "vistas": 164,
+   "me_gusta": 5,
    "miniatura": "https://i.ytimg.com/vi/7WXO2bKyQk0/mqdefault.jpg"
   },
   {
@@ -171,10 +188,6 @@
   },
   {
    "id": "Nhao18ZxZzY",
-   "privacidad": "private"
-  },
-  {
-   "id": "GquxxEZTHEM",
    "privacidad": "private"
   },
   {
@@ -362,7 +375,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 Jonathan Tijuana vs 🇲🇽 KGS_KINF_KULA #shorts",
    "publicado": "2026-10-16T01:02:49Z",
    "privacidad": "public",
-   "vistas": 173,
+   "vistas": 174,
    "me_gusta": 4,
    "miniatura": "https://i.ytimg.com/vi/OLhW7r6qM8s/mqdefault.jpg"
   },
@@ -398,7 +411,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Flawless | Victory vs 🇹🇷 Serdar80s",
    "publicado": "2026-10-16T00:24:18Z",
    "privacidad": "public",
-   "vistas": 157,
+   "vistas": 164,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/NfpjS5D_bJ4/mqdefault.jpg"
   },
@@ -497,7 +510,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Kabal27 vs 🇺🇸 DJILK",
    "publicado": "2026-10-11T02:55:17Z",
    "privacidad": "public",
-   "vistas": 23,
+   "vistas": 24,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/44t7ZqPMyok/mqdefault.jpg"
   },
@@ -830,7 +843,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇺🇸 DJILK vs 🇧🇷 RAC | Flavio.Ryu",
    "publicado": "2026-10-02T15:45:06Z",
    "privacidad": "public",
-   "vistas": 44,
+   "vistas": 43,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/VKwKClpHftY/mqdefault.jpg"
   },
