@@ -1,6 +1,49 @@
 {
- "actualizado": "2026-10-16 03:59",
+ "actualizado": "2026-10-17 15:38",
  "videos": [
+  {
+   "quark": "1792220353871-8960",
+   "juego": "sf2hf",
+   "juego_nombre": "Street Fighter II' Hyper Fighting",
+   "juego_corto": "SF2HF",
+   "fecha": "2026-10-17",
+   "youtube": "HipvTJpxB9Q",
+   "duracion": 808.0,
+   "marcador": [
+    4,
+    5
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "White Ben",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken"
+     ],
+     "claves": [
+      "ken"
+     ]
+    },
+    {
+     "nombre": "Wahzu",
+     "pais": "nz",
+     "rango_letra": "B",
+     "personaje": "Blanka",
+     "clave": "blanka",
+     "personajes": [
+      "Blanka"
+     ],
+     "claves": [
+      "blanka"
+     ]
+    }
+   ],
+   "rondas": 22
+  },
   {
    "quark": "1792084722783-2507",
    "juego": "kof98",
