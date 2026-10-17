@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T20:27:22Z",
+ "actualizado": "2026-10-17T20:51:52Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,8 +7,25 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 24,
  "vistas": 21595,
- "videos": 113,
+ "videos": 116,
  "lista": [
+  {
+   "id": "D31P2gT4eMQ",
+   "privacidad": "private"
+  },
+  {
+   "id": "Nol8uOpCOaU",
+   "privacidad": "private"
+  },
+  {
+   "id": "NXF-RkhxhYs",
+   "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 Digitalinfamy vs 🇺🇸 White Ben #shorts",
+   "publicado": "2026-10-17T20:28:29Z",
+   "privacidad": "public",
+   "vistas": 22,
+   "me_gusta": 1,
+   "miniatura": "https://i.ytimg.com/vi/NXF-RkhxhYs/mqdefault.jpg"
+  },
   {
    "id": "brOcNy1IbbU",
    "privacidad": "private"
@@ -47,7 +64,7 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 White Ben vs 🇺🇸 DJILK #shorts",
    "publicado": "2026-10-17T18:57:16Z",
    "privacidad": "public",
-   "vistas": 36,
+   "vistas": 38,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/7WXO2bKyQk0/mqdefault.jpg"
   },
@@ -121,15 +138,11 @@
    "miniatura": "https://i.ytimg.com/vi/vk4KxVDCENM/mqdefault.jpg"
   },
   {
-   "id": "NXF-RkhxhYs",
-   "privacidad": "private"
-  },
-  {
    "id": "rPIjUw25TNk",
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 White Ben vs 🇳🇿 Wahzu #shorts",
    "publicado": "2026-10-17T15:53:24Z",
    "privacidad": "public",
-   "vistas": 75,
+   "vistas": 87,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/rPIjUw25TNk/mqdefault.jpg"
   },
@@ -192,7 +205,7 @@
    "titulo": "The King of Fighters '98 | 🇵🇰 Mirza2002Champ vs 🇵🇰 Devta #shorts",
    "publicado": "2026-10-16T17:31:12Z",
    "privacidad": "public",
-   "vistas": 62,
+   "vistas": 61,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/8KKGfYX4Xjk/mqdefault.jpg"
   },
@@ -210,7 +223,7 @@
    "titulo": "The King of Fighters '98 | 🇦🇷 DG | Mr Yama vs 🇦🇷 Abel-*CBZ* #shorts",
    "publicado": "2026-10-16T14:30:40Z",
    "privacidad": "public",
-   "vistas": 241,
+   "vistas": 239,
    "me_gusta": 7,
    "miniatura": "https://i.ytimg.com/vi/p7bTCIdFohE/mqdefault.jpg"
   },
@@ -228,8 +241,8 @@
    "titulo": "The King of Fighters '98 | 🇩🇪 a99 vs 🇪🇸 chris24 #shorts",
    "publicado": "2026-10-16T11:30:59Z",
    "privacidad": "public",
-   "vistas": 105,
-   "me_gusta": 4,
+   "vistas": 102,
+   "me_gusta": 3,
    "miniatura": "https://i.ytimg.com/vi/QUhLjDV4u64/mqdefault.jpg"
   },
   {
@@ -246,8 +259,8 @@
    "titulo": "The King of Fighters 2002 | 🇪🇨 #ELKOFNosUne vs 🇨🇴 onimenodacho #shorts",
    "publicado": "2026-10-16T02:14:14Z",
    "privacidad": "public",
-   "vistas": 236,
-   "me_gusta": 5,
+   "vistas": 241,
+   "me_gusta": 6,
    "miniatura": "https://i.ytimg.com/vi/7A6JAOI1kSg/mqdefault.jpg"
   },
   {
@@ -264,7 +277,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel #shorts",
    "publicado": "2026-10-16T01:51:59Z",
    "privacidad": "public",
-   "vistas": 162,
+   "vistas": 159,
    "me_gusta": 8,
    "miniatura": "https://i.ytimg.com/vi/Nas-Ex7erA0/mqdefault.jpg"
   },
@@ -273,7 +286,7 @@
    "titulo": "The King of Fighters 2002 | 🇵🇰 mirza mudassar vs 🇲🇽 CombosMX #shorts",
    "publicado": "2026-10-16T01:20:53Z",
    "privacidad": "public",
-   "vistas": 134,
+   "vistas": 129,
    "me_gusta": 3,
    "miniatura": "https://i.ytimg.com/vi/Azq03K1eaUM/mqdefault.jpg"
   },
@@ -345,7 +358,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Flawless | Victory vs 🇹🇷 Serdar80s",
    "publicado": "2026-10-16T00:24:18Z",
    "privacidad": "public",
-   "vistas": 151,
+   "vistas": 145,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/NfpjS5D_bJ4/mqdefault.jpg"
   },
@@ -597,7 +610,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 FabsGtz vs 🇲🇽 djfrijoles",
    "publicado": "2026-10-06T14:47:53Z",
    "privacidad": "public",
-   "vistas": 60,
+   "vistas": 61,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/u6FbTcP7mvQ/mqdefault.jpg"
   },

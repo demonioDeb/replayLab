@@ -1,0 +1,918 @@
+{
+ "version": 8,
+ "quark": "1792187806395-7038",
+ "carpeta": "20261017_Loboesteparius_vs_White_Ben_1792187806395-7038",
+ "juego": "sf2hf",
+ "juego_nombre": "Street Fighter II' Hyper Fighting",
+ "juego_corto": "SF2HF",
+ "datos": {
+  "super": false,
+  "stun": true,
+  "combos": false
+ },
+ "fecha": "2026-10-16",
+ "youtube": "Nol8uOpCOaU",
+ "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 Loboesteparius vs 🇺🇸 White Ben",
+ "ft": 3,
+ "jugadores": [
+  {
+   "nombre": "Loboesteparius",
+   "pais": "us",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Sagat",
+   "clave": "sagat",
+   "personajes": [
+    "Sagat"
+   ],
+   "claves": [
+    "sagat"
+   ],
+   "swaps": 0,
+   "super": ""
+  },
+  {
+   "nombre": "White Ben",
+   "pais": "us",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Sagat",
+   "clave": "sagat",
+   "personajes": [
+    "Sagat",
+    "Ryu"
+   ],
+   "claves": [
+    "sagat",
+    "ryu"
+   ],
+   "swaps": 1,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  2,
+  3
+ ],
+ "duracion": 558.0,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 3.54,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 3.54,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 73,
+     "perfect": false,
+     "dano": [
+      144,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 28,
+     "remontada": 0,
+     "fin": 43.95,
+     "vida_final": [
+      28,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 49.76,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 63,
+     "perfect": false,
+     "dano": [
+      132,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 8,
+     "remontada": 22,
+     "fin": 85.28,
+     "vida_final": [
+      0,
+      8
+     ]
+    },
+    {
+     "n": 3,
+     "t": 91.04,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 62,
+     "perfect": false,
+     "dano": [
+      64,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 55,
+     "remontada": 9,
+     "fin": 126.14,
+     "vida_final": [
+      0,
+      55
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Sagat",
+    "Sagat"
+   ],
+   "claves": [
+    "sagat",
+    "sagat"
+   ],
+   "fin": 126.61,
+   "resumen": {
+    "dano": [
+     340,
+     391
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 198
+   }
+  },
+  {
+   "n": 2,
+   "t": 139.35,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 139.35,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 53,
+     "perfect": false,
+     "dano": [
+      63,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 56,
+     "remontada": 16,
+     "fin": 169.35,
+     "vida_final": [
+      0,
+      56
+     ]
+    },
+    {
+     "n": 2,
+     "t": 175.44,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 54,
+     "perfect": false,
+     "dano": [
+      144,
+      104
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 27,
+     "remontada": 0,
+     "fin": 206.12,
+     "vida_final": [
+      27,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 212.67,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 80,
+     "perfect": false,
+     "dano": [
+      144,
+      132
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 8,
+     "remontada": 7,
+     "fin": 257.49,
+     "vida_final": [
+      8,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    1
+   ],
+   "personajes": [
+    "Sagat",
+    "Sagat"
+   ],
+   "claves": [
+    "sagat",
+    "sagat"
+   ],
+   "fin": 257.97,
+   "resumen": {
+    "dano": [
+     351,
+     380
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 187
+   }
+  },
+  {
+   "n": 3,
+   "t": 270.49,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 270.49,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 80,
+     "perfect": false,
+     "dano": [
+      138,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 38,
+     "fin": 314.48,
+     "vida_final": [
+      0,
+      4
+     ]
+    },
+    {
+     "n": 2,
+     "t": 320.56,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      144,
+      134
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 6,
+     "remontada": 20,
+     "fin": 354.34,
+     "vida_final": [
+      6,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 360.02,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 35,
+     "perfect": false,
+     "dano": [
+      144,
+      63
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 56,
+     "remontada": 22,
+     "fin": 380.78,
+     "vida_final": [
+      56,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    1
+   ],
+   "personajes": [
+    "Sagat",
+    "Ryu"
+   ],
+   "claves": [
+    "sagat",
+    "ryu"
+   ],
+   "fin": 381.27,
+   "resumen": {
+    "dano": [
+     426,
+     341
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 175
+   }
+  },
+  {
+   "n": 4,
+   "t": 394.77,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 394.77,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 32,
+     "perfect": false,
+     "dano": [
+      144,
+      88
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 38,
+     "remontada": 38,
+     "fin": 413.54,
+     "vida_final": [
+      38,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 419.21,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 59,
+     "perfect": false,
+     "dano": [
+      116,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 19,
+     "remontada": 18,
+     "fin": 452.68,
+     "vida_final": [
+      0,
+      19
+     ]
+    },
+    {
+     "n": 3,
+     "t": 458.46,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      45,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      2
+     ],
+     "vida_fin": 68,
+     "remontada": 32,
+     "fin": 474.96,
+     "vida_final": [
+      0,
+      68
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    2,
+    2
+   ],
+   "personajes": [
+    "Sagat",
+    "Ryu"
+   ],
+   "claves": [
+    "sagat",
+    "ryu"
+   ],
+   "fin": 475.43,
+   "resumen": {
+    "dano": [
+     305,
+     376
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     3
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 117
+   }
+  },
+  {
+   "n": 5,
+   "t": 487.64,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 487.64,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 51,
+     "perfect": false,
+     "dano": [
+      124,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 13,
+     "remontada": 19,
+     "fin": 516.54,
+     "vida_final": [
+      0,
+      13
+     ]
+    },
+    {
+     "n": 2,
+     "t": 522.82,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 50,
+     "perfect": false,
+     "dano": [
+      33,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 77,
+     "remontada": 2,
+     "fin": 551.57,
+     "vida_final": [
+      0,
+      77
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    2,
+    3
+   ],
+   "personajes": [
+    "Sagat",
+    "Ryu"
+   ],
+   "claves": [
+    "sagat",
+    "ryu"
+   ],
+   "fin": 552.05,
+   "resumen": {
+    "dano": [
+     157,
+     288
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 101
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 43.95,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 85.28,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 126.14,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 169.35,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 206.12,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 257.49,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 314.48,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 327.62,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 354.34,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 380.78,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 413.54,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 431.77,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 452.68,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 469.89,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 472.84,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 474.96,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 516.54,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 549.64,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 551.57,
+   "tipo": "ko",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 441,
+   "stun_peor": 122,
+   "mareado_veces": 4,
+   "dur_sum": 334,
+   "pelea_rapida": 111,
+   "swaps": 0,
+   "rondas": 6,
+   "rondas_jugadas": 14,
+   "ko": 6,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1579,
+   "recibido": 1776,
+   "golpes": 111,
+   "golpe_max": 44,
+   "primero": 7,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 1,
+   "ronda_rapida": 32,
+   "al_limite": 2,
+   "remontada": 38,
+   "racha": 3,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 27,
+   "dano_medio": 14.2,
+   "dur_avg": 56,
+   "stun_seg": 7.4,
+   "stun_peor_seg": 2.0,
+   "vida_perdida_ronda": 88,
+   "dano_barras": 10.97,
+   "recibido_barras": 12.33,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.31
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 105,
+   "stun_peor": 105,
+   "mareado_veces": 1,
+   "dur_sum": 444,
+   "pelea_rapida": 64,
+   "swaps": 1,
+   "rondas": 8,
+   "rondas_jugadas": 14,
+   "ko": 8,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1776,
+   "recibido": 1579,
+   "golpes": 154,
+   "golpe_max": 40,
+   "primero": 7,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 4,
+   "ronda_rapida": 26,
+   "al_limite": 2,
+   "remontada": 38,
+   "racha": 4,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 38,
+   "dano_medio": 11.5,
+   "dur_avg": 56,
+   "stun_seg": 1.8,
+   "stun_peor_seg": 1.8,
+   "vida_perdida_ronda": 78,
+   "dano_barras": 12.33,
+   "recibido_barras": 10.97,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.28
+  }
+ ]
+}
