@@ -1,6 +1,51 @@
 {
- "actualizado": "2026-10-17 21:13",
+ "actualizado": "2026-10-17 21:36",
  "videos": [
+  {
+   "quark": "1792260541870-6742",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-17",
+   "youtube": "ucre00SiUJI",
+   "duracion": 530.2,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "yolcu",
+     "pais": "tr",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    },
+    {
+     "nombre": "DOMIT_BEG",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken",
+      "Guile"
+     ],
+     "claves": [
+      "ken",
+      "guile"
+     ]
+    }
+   ],
+   "rondas": 11
+  },
   {
    "quark": "1792259495912-4307",
    "juego": "sf2ce",
