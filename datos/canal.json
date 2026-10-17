@@ -1,14 +1,22 @@
 {
- "actualizado": "2026-10-17T17:33:27Z",
+ "actualizado": "2026-10-17T17:45:11Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
  "handle": "replaylab-fcrec",
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 24,
- "vistas": 21595,
+ "vistas": 20393,
  "videos": 108,
  "lista": [
+  {
+   "id": "u9WAGq9uJcY",
+   "privacidad": "private"
+  },
+  {
+   "id": "VtSGc38T0W0",
+   "privacidad": "private"
+  },
   {
    "id": "Nhao18ZxZzY",
    "privacidad": "private"
@@ -127,7 +135,7 @@
    "titulo": "The King of Fighters '98 | 🇦🇷 DG | Mr Yama vs 🇦🇷 Abel-*CBZ* #shorts",
    "publicado": "2026-10-16T14:30:40Z",
    "privacidad": "public",
-   "vistas": 237,
+   "vistas": 238,
    "me_gusta": 7,
    "miniatura": "https://i.ytimg.com/vi/p7bTCIdFohE/mqdefault.jpg"
   },
@@ -163,7 +171,7 @@
    "titulo": "The King of Fighters 2002 | 🇪🇨 #ELKOFNosUne vs 🇨🇴 onimenodacho #shorts",
    "publicado": "2026-10-16T02:14:14Z",
    "privacidad": "public",
-   "vistas": 234,
+   "vistas": 236,
    "me_gusta": 5,
    "miniatura": "https://i.ytimg.com/vi/7A6JAOI1kSg/mqdefault.jpg"
   },
@@ -181,7 +189,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel #shorts",
    "publicado": "2026-10-16T01:51:59Z",
    "privacidad": "public",
-   "vistas": 159,
+   "vistas": 158,
    "me_gusta": 8,
    "miniatura": "https://i.ytimg.com/vi/Nas-Ex7erA0/mqdefault.jpg"
   },
@@ -217,7 +225,7 @@
    "titulo": "The King of Fighters 2002 | 🇩🇿 dz101010 vs 🇧🇷 modo sedex #shorts",
    "publicado": "2026-10-16T01:02:51Z",
    "privacidad": "public",
-   "vistas": 122,
+   "vistas": 124,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/9qUXFgwYKSk/mqdefault.jpg"
   },
@@ -262,7 +270,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Flawless | Victory vs 🇹🇷 Serdar80s",
    "publicado": "2026-10-16T00:24:18Z",
    "privacidad": "public",
-   "vistas": 124,
+   "vistas": 130,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/NfpjS5D_bJ4/mqdefault.jpg"
   },
@@ -343,7 +351,7 @@
    "titulo": "Super Street Fighter II X | 🇬🇧 DojaCat vs 🇺🇸 DGV",
    "publicado": "2026-10-11T03:25:30Z",
    "privacidad": "public",
-   "vistas": 15,
+   "vistas": 14,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/-bXHiFOG0sg/mqdefault.jpg"
   },
