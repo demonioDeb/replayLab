@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T21:36:13Z",
+ "actualizado": "2026-10-17T21:59:36Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 21595,
  "videos": 116,
  "lista": [
+  {
+   "id": "u-YZqndV9Mc",
+   "privacidad": "private"
+  },
+  {
+   "id": "ZmpZmSQ_vMg",
+   "privacidad": "private"
+  },
   {
    "id": "yePTNdWB1Tk",
    "titulo": "Street Fighter II' Champion Edition | 🇧🇷 MiBSF2CE-TV vs 🇧🇷 thomas_medeiros",
@@ -65,8 +73,8 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 Digitalinfamy vs 🇺🇸 White Ben #shorts",
    "publicado": "2026-10-17T20:28:29Z",
    "privacidad": "public",
-   "vistas": 36,
-   "me_gusta": 1,
+   "vistas": 44,
+   "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/NXF-RkhxhYs/mqdefault.jpg"
   },
   {
@@ -107,7 +115,7 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 White Ben vs 🇺🇸 DJILK #shorts",
    "publicado": "2026-10-17T18:57:16Z",
    "privacidad": "public",
-   "vistas": 56,
+   "vistas": 64,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/7WXO2bKyQk0/mqdefault.jpg"
   },
@@ -352,29 +360,29 @@
    "miniatura": "https://i.ytimg.com/vi/JsnuculyCrA/mqdefault.jpg"
   },
   {
-   "id": "zR7ORIt8jg0",
-   "titulo": "The King of Fighters 2002 | 🇵🇰 mirza mudassar vs 🇫🇷 preciouss #shorts",
-   "publicado": "2026-10-16T00:43:58Z",
+   "id": "sXP217Z_uoo",
+   "titulo": "The King of Fighters 2002 | 🇲🇽 Jonathan Tijuana vs 🇲🇽 KGS_KINF_KULA",
+   "publicado": "2026-10-16T01:03:24Z",
    "privacidad": "public",
-   "vistas": 33,
+   "vistas": 2,
    "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/zR7ORIt8jg0/mqdefault.jpg"
+   "miniatura": "https://i.ytimg.com/vi/sXP217Z_uoo/mqdefault.jpg"
   },
   {
-   "id": "U21HTnN1GBA",
-   "titulo": "The King of Fighters 2002 | 🇵🇰 mirza mudassar vs 🇫🇷 preciouss",
-   "publicado": "2026-10-16T00:43:56Z",
+   "id": "OLhW7r6qM8s",
+   "titulo": "The King of Fighters 2002 | 🇲🇽 Jonathan Tijuana vs 🇲🇽 KGS_KINF_KULA #shorts",
+   "publicado": "2026-10-16T01:02:49Z",
    "privacidad": "public",
-   "vistas": 1,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/U21HTnN1GBA/mqdefault.jpg"
+   "vistas": 173,
+   "me_gusta": 4,
+   "miniatura": "https://i.ytimg.com/vi/OLhW7r6qM8s/mqdefault.jpg"
   },
   {
    "id": "NfpjS5D_bJ4",
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Flawless | Victory vs 🇹🇷 Serdar80s",
    "publicado": "2026-10-16T00:24:18Z",
    "privacidad": "public",
-   "vistas": 157,
+   "vistas": 151,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/NfpjS5D_bJ4/mqdefault.jpg"
   },
@@ -563,7 +571,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 unsensored vs 🇺🇸 la_manilla012",
    "publicado": "2026-10-09T03:54:57Z",
    "privacidad": "public",
-   "vistas": 28,
+   "vistas": 29,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/RDVwE74ylWU/mqdefault.jpg"
   },
