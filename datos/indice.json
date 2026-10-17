@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17 17:06",
+ "actualizado": "2026-10-17 17:33",
  "videos": [
   {
    "quark": "1792220353871-8960",
@@ -468,6 +468,59 @@
     }
    ],
    "rondas": 8
+  },
+  {
+   "quark": "1791659903791-7007",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2026-10-10",
+   "youtube": "8akKzQ_ERgg",
+   "duracion": 393.7,
+   "marcador": [
+    0,
+    2
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "Garam Anday",
+     "pais": "de",
+     "rango_letra": "A",
+     "personaje": "Mary · Chris · Yashiro",
+     "clave": "kof98_mary",
+     "personajes": [
+      "Mary",
+      "Chris",
+      "Yashiro",
+      "Ralf"
+     ],
+     "claves": [
+      "kof98_mary",
+      "kof98_chris",
+      "kof98_yashiro",
+      "kof98_ralf"
+     ]
+    },
+    {
+     "nombre": "M@rcio-K@tit@-BR",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Choi · Ryo · Iori",
+     "clave": "kof98_choi",
+     "personajes": [
+      "Choi",
+      "Ryo",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_choi",
+      "kof98_ryo",
+      "kof98_iori"
+     ]
+    }
+   ],
+   "rondas": 10
   },
   {
    "quark": "1791563244915-7491",
