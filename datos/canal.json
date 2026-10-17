@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T16:09:28Z",
+ "actualizado": "2026-10-17T16:44:02Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 20393,
  "videos": 108,
  "lista": [
+  {
+   "id": "NXF-RkhxhYs",
+   "privacidad": "private"
+  },
+  {
+   "id": "hn7sQ2R75is",
+   "privacidad": "private"
+  },
   {
    "id": "7WXO2bKyQk0",
    "privacidad": "private"
@@ -22,8 +30,8 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 White Ben vs 🇳🇿 Wahzu #shorts",
    "publicado": "2026-10-17T15:53:24Z",
    "privacidad": "public",
-   "vistas": 22,
-   "me_gusta": 0,
+   "vistas": 64,
+   "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/rPIjUw25TNk/mqdefault.jpg"
   },
   {
@@ -31,7 +39,7 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 White Ben vs 🇳🇿 Wahzu",
    "publicado": "2026-10-17T15:52:07Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/HipvTJpxB9Q/mqdefault.jpg"
   },
