@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17T17:45:11Z",
+ "actualizado": "2026-10-17T18:17:18Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 20393,
  "videos": 108,
  "lista": [
+  {
+   "id": "Bx9lXYLaMCY",
+   "privacidad": "private"
+  },
+  {
+   "id": "7jQZk0S2rmM",
+   "privacidad": "private"
+  },
   {
    "id": "u9WAGq9uJcY",
    "privacidad": "private"
@@ -117,7 +125,7 @@
    "titulo": "The King of Fighters '98 | 🇵🇰 Mirza2002Champ vs 🇵🇰 Devta #shorts",
    "publicado": "2026-10-16T17:31:12Z",
    "privacidad": "public",
-   "vistas": 57,
+   "vistas": 61,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/8KKGfYX4Xjk/mqdefault.jpg"
   },
@@ -135,7 +143,7 @@
    "titulo": "The King of Fighters '98 | 🇦🇷 DG | Mr Yama vs 🇦🇷 Abel-*CBZ* #shorts",
    "publicado": "2026-10-16T14:30:40Z",
    "privacidad": "public",
-   "vistas": 238,
+   "vistas": 239,
    "me_gusta": 7,
    "miniatura": "https://i.ytimg.com/vi/p7bTCIdFohE/mqdefault.jpg"
   },
@@ -171,7 +179,7 @@
    "titulo": "The King of Fighters 2002 | 🇪🇨 #ELKOFNosUne vs 🇨🇴 onimenodacho #shorts",
    "publicado": "2026-10-16T02:14:14Z",
    "privacidad": "public",
-   "vistas": 236,
+   "vistas": 234,
    "me_gusta": 5,
    "miniatura": "https://i.ytimg.com/vi/7A6JAOI1kSg/mqdefault.jpg"
   },
@@ -189,7 +197,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel #shorts",
    "publicado": "2026-10-16T01:51:59Z",
    "privacidad": "public",
-   "vistas": 158,
+   "vistas": 159,
    "me_gusta": 8,
    "miniatura": "https://i.ytimg.com/vi/Nas-Ex7erA0/mqdefault.jpg"
   },
@@ -225,7 +233,7 @@
    "titulo": "The King of Fighters 2002 | 🇩🇿 dz101010 vs 🇧🇷 modo sedex #shorts",
    "publicado": "2026-10-16T01:02:51Z",
    "privacidad": "public",
-   "vistas": 124,
+   "vistas": 122,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/9qUXFgwYKSk/mqdefault.jpg"
   },
@@ -270,7 +278,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Flawless | Victory vs 🇹🇷 Serdar80s",
    "publicado": "2026-10-16T00:24:18Z",
    "privacidad": "public",
-   "vistas": 130,
+   "vistas": 145,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/NfpjS5D_bJ4/mqdefault.jpg"
   },
@@ -351,7 +359,7 @@
    "titulo": "Super Street Fighter II X | 🇬🇧 DojaCat vs 🇺🇸 DGV",
    "publicado": "2026-10-11T03:25:30Z",
    "privacidad": "public",
-   "vistas": 14,
+   "vistas": 15,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/-bXHiFOG0sg/mqdefault.jpg"
   },
