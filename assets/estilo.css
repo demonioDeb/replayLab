@@ -1438,6 +1438,16 @@ a.jug-enlace:hover .n,.jug a.nom:hover{text-decoration:underline;text-decoration
 .e-dc-txt{display:flex;flex-direction:column;gap:4px;flex:1 1 320px;min-width:0}
 .e-dc-txt span{color:var(--soft);font-size:14px}
 .e-dc-btn{background:#5865f2;border-color:#5865f2;color:#fff;white-space:nowrap}
+/* (20 oct) pedir por Telegram o por Discord: dos tarjetas, una al lado de la otra */
+.e-redes{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:6px 0 4px}
+.e-redes .e-discord{margin:0;flex-direction:column;align-items:stretch}
+.e-redes .e-dc-txt{flex:none}
+.e-elige{font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--dim);margin:14px 2px 8px}
+.e-discord.tg{background:color-mix(in srgb,#29a9eb 12%,var(--panel));border-color:color-mix(in srgb,#29a9eb 45%,var(--line))}
+.e-tg-btn{background:#29a9eb;border-color:#29a9eb;color:#fff;white-space:nowrap}
+.e-dc-btn[aria-disabled=true],.e-tg-btn[aria-disabled=true]{opacity:.45;pointer-events:none}
+.cola .c-p{font-size:11px;letter-spacing:1px;text-transform:uppercase;font-weight:700;color:var(--gold);
+  border:1px solid rgba(255,203,69,.4);border-radius:999px;padding:3px 8px}
 .rd-top{display:flex;align-items:center;gap:14px}
 .rd-foto{width:64px;height:64px;border-radius:50%;flex:none;border:2px solid rgba(255,255,255,.12);object-fit:cover}
 .rd-sin{display:grid;place-items:center;background:var(--rd);color:#fff;font:800 28px/1 var(--font)}
@@ -1483,3 +1493,22 @@ a.que-tarj:hover{transform:translateY(-2px);border-color:var(--line2)}
 .cafe-panel .cp-mas:hover{color:var(--ink)}
 .hero-cta .btn.cafe{border-color:rgba(255,203,69,.45);color:var(--gold)}
 @media (max-width:560px){.cafe-panel .cp-ic{display:none}.cafe-panel{padding:20px}.cafe-panel .cp-acc{width:100%}.cafe-panel .cp-acc .cafe-btn{display:block;text-align:center;width:100%}}
+
+/* (20 oct) portada: cómo funciona (pasos) y lo que es Replay Lab */
+.como{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;padding:0;margin:0}
+.como li{position:relative;display:flex;flex-direction:column;gap:8px;padding:16px 16px 18px;border-radius:14px;
+  background:var(--panel);border:1px solid var(--line)}
+.como-n{position:absolute;top:12px;right:14px;font:800 13px/1 var(--mono);color:var(--dim)}
+.como-ic{font-size:28px;line-height:1}
+.como h3{margin:0;font-size:16px;color:var(--ink,#fff)}
+.como p{margin:4px 0 0;font-size:14px;line-height:1.45;color:var(--soft)}
+.como li:not(:last-child)::after{content:"→";position:absolute;right:-11px;top:50%;transform:translateY(-50%);
+  color:var(--gold);font-weight:800;font-size:16px;z-index:1}
+.es-lista{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;padding:0;margin:0}
+.es-lista li{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;border-radius:12px;background:var(--panel);
+  border:1px solid var(--line);font-size:15px;line-height:1.45;color:var(--soft)}
+.es-lista li span{font-size:22px;line-height:1}
+@media (max-width:640px){.como li:not(:last-child)::after{content:"↓";right:auto;left:50%;top:auto;bottom:-14px;transform:translateX(-50%)}}
+.miga-nueva{margin-left:auto;font-weight:700;color:var(--gold);white-space:nowrap}
+.e-mini{margin:4px 0 2px;padding-left:20px;display:grid;gap:5px;font-size:14px;line-height:1.4;color:var(--soft)}
+.e-mini li::marker{color:var(--gold);font-weight:800}

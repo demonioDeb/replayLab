@@ -26,71 +26,78 @@
 <meta name="twitter:title" content="replayLab · replays de juegos de pelea">
 <meta name="twitter:description" content="Análisis de partidas de juegos de pelea: replays de Fightcade grabados, con estadísticas leídas de la propia partida.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=32961d5c17">
+<link rel="stylesheet" href="assets/estilo.css?v=a40e9bcbe0">
 </head>
 <body>
 <header id="cabsitio"></header>
 
 <main class="wrap">
-  <!-- qué es, en una frase, y por dónde se entra -->
+  <!-- (20 oct) La portada sólo cuenta qué es Replay Lab, qué hace y cómo funciona.
+       Las partidas están en cada juego (Juegos) y pedir un replay tiene su pestaña. -->
   <section class="hero">
     <h1 id="h-titulo"></h1>
     <p id="h-texto"></p>
     <div class="hero-cta">
-      <a class="btn prim" href="partidas.html" id="h-ver"></a>
-      <a class="btn" href="juegos.html" id="h-juegos-btn"></a>
+      <a class="btn prim" href="juegos.html" id="h-ver"></a>
+      <a class="btn" href="enviar.html" id="h-pedir"></a>
       <a class="btn cafe" id="h-cafe" target="_blank" rel="noopener" hidden></a>
     </div>
-    <a class="hero-guia" href="guia.html" id="h-guia"></a>
     <div class="hero-cifras" id="cifras"></div>
   </section>
 
-  <!-- (15 oct) qué hace Replay Lab -->
   <section class="bloque">
     <div class="bloque-cab"><h2 id="t-que"></h2></div>
     <p class="que-sub" id="que-sub"></p>
     <div class="que-grid" id="que"></div>
   </section>
 
-  <!-- (15 oct) la invitación al café, grande -->
+  <section class="bloque">
+    <div class="bloque-cab"><h2 id="t-como"></h2></div>
+    <ol class="como" id="como"></ol>
+  </section>
+
+  <section class="bloque">
+    <div class="bloque-cab"><h2 id="t-es"></h2></div>
+    <ul class="es-lista" id="es"></ul>
+  </section>
+
   <div id="cafe"></div>
-
-  <section class="bloque">
-    <div class="bloque-cab"><h2 id="t-juegos"></h2></div>
-    <div class="rejilla-juegos" id="juegos"></div>
-  </section>
-
-  <section class="bloque">
-    <div class="bloque-cab"><h2 id="t-ultimas"></h2><a class="ver-todo" href="partidas.html" id="t-todas"></a></div>
-    <div id="lista" class="lista"></div>
-    <div id="vacio" class="vacio" hidden></div>
-  </section>
-
 </main>
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=b51c2a2c3e"></script>
-<script src="assets/lista.js?v=005562bfb5"></script>
+<script src="assets/app.js?v=cb4fe05d62"></script>
 <script>
 "use strict";
 let INDICE = { videos: [] };
-const ULTIMAS = 6;
 
 function pinta() {
   document.documentElement.lang = LANG;
   textosCabecera(); pintaPie();
-  // (15 oct) qué hace Replay Lab: cuatro tarjetas, cada una lleva a su sitio
+  $("#h-titulo").textContent = T("h_titulo");
+  $("#h-texto").textContent = T("h_texto");
+  $("#h-ver").textContent = "🕹️ " + T("h_ver_juegos");
+  $("#h-pedir").textContent = "📨 " + T("h_pedir");
+  // qué hace: cuatro tarjetas, cada una lleva a su sitio
   $("#t-que").textContent = T("h_que_t");
   $("#que-sub").textContent = T("h_que_sub");
   const dc = urlDiscord();
   $("#que").innerHTML = [
     ["🎥", "h_f1_t", "h_f1_d", "guia.html", false],
     ["▶️", "h_f2_t", "h_f2_d", "canal.html", false],
-    ["📊", "h_f3_t", "h_f3_d", "partidas.html", false],
-    ["💬", "h_f4_t", "h_f4_d", dc || "enviar.html", !!dc],
+    ["📊", "h_f3_t", "h_f3_d", "juegos.html", false],
+    ["💬", "h_f4_t", "h_f4_d", "enviar.html", false],
   ].map(([ic, t, d, href, ext]) => `<a class="que-tarj" href="${esc(href)}"${ext ? ' target="_blank" rel="noopener"' : ""}>
       <span class="que-ic" aria-hidden="true">${ic}</span><h3>${esc(T(t))}</h3><p>${esc(T(d))}</p></a>`).join("");
+  // cómo funciona: del replay a la ficha
+  $("#t-como").textContent = T("h_como_t");
+  $("#como").innerHTML = [["🎮", 1], ["🧠", 2], ["📺", 3], ["🎙️", 4], ["🌐", 5]].map(([ic, n]) =>
+    `<li><span class="como-n">${n}</span><span class="como-ic" aria-hidden="true">${ic}</span>
+      <div><h3>${esc(T("h_c" + n + "_t"))}</h3><p>${esc(T("h_c" + n + "_d"))}</p></div></li>`).join("");
+  // lo que es
+  $("#t-es").textContent = T("h_es_t");
+  $("#es").innerHTML = [["🥊", 1], ["🔬", 2], ["🙌", 3], ["☕", 4]].map(([ic, n]) =>
+    `<li><span aria-hidden="true">${ic}</span>${esc(T("h_es_" + n))}</li>`).join("");
   const don = (SITIO || {}).donacion || {};
   const cafeOk = !!(don.activo && don.url);
   $("#h-cafe").hidden = !cafeOk;
@@ -100,40 +107,15 @@ function pinta() {
       <div class="cp-txt"><h2>${esc(T("h_cafe_t"))}</h2><p>${esc(T("h_cafe_d"))}</p></div>
       <div class="cp-acc"><a class="cafe-btn" href="${esc(don.url)}" target="_blank" rel="noopener">☕ ${esc(T("h_cafe_btn"))}</a>
         <a class="cp-mas" href="apoyo.html">${esc(T("h_cafe_mas"))} →</a></div></aside>` : "";
-  $("#h-titulo").textContent = T("h_titulo");
-  $("#h-texto").textContent = T("h_texto");
-  $("#h-ver").textContent = T("h_ver");
-  $("#h-guia").textContent = "📖 " + T("h_guia") + " →";
-  $("#h-juegos-btn").textContent = T("n_juegos");
-  $("#t-juegos").textContent = T("h_juegos");
-  $("#t-ultimas").textContent = T("h_ultimas");
-  $("#t-todas").textContent = T("h_todas") + " →";
-
-  const todas = INDICE.videos || [];
   // tres cifras reales, sacadas del índice: nada inventado
+  const todas = INDICE.videos || [];
   const peleas = todas.reduce((a, v) => a + (v.peleas || 0), 0);
   const rondas = todas.reduce((a, v) => a + (v.rondas || 0), 0);
+  const juegos = juegosActivos().length;
   $("#cifras").innerHTML = todas.length ? [
-      [todas.length, pl(todas.length, "u_partida", "u_partidas")], [peleas, pl(peleas, "u_pelea", "u_peleas")], [rondas, T("rondas_t").toLowerCase()],
+      [juegos, T("n_juegos").toLowerCase()], [todas.length, pl(todas.length, "u_partida", "u_partidas")],
+      [peleas, pl(peleas, "u_pelea", "u_peleas")], [rondas, T("rondas_t").toLowerCase()],
     ].map(([n, t]) => `<span><b>${milesDe(n)}</b>${esc(t)}</span>`).join("") : "";
-
-  // juegos: primero los activos, luego lo que viene
-  // (con KOF ya son muchos por venir: aquí sólo dos, y una tarjeta que lleva a todos)
-  const prox = JUEGOS.filter(j => j.estado !== "activo"), PROX_PORTADA = 2;
-  const orden = [...juegosActivos(), ...prox.slice(0, PROX_PORTADA)];
-  const resto = prox.length - PROX_PORTADA;
-  $("#juegos").innerHTML = orden.map(j => tarjetaJuego(j, todas)).join("") + (resto > 0
-    ? `<a class="tarj-juego ver-todos" href="juegos.html"><span class="tj-arte"><span class="tj-mono">+${resto}</span></span>
-        <span class="tj-txt"><span class="tj-nombre">${esc(T("j_ver_todos"))}</span></span>
-        <span class="tj-ir" aria-hidden="true">→</span></a>` : "");
-
-  CHAPA_JUEGO = variosJuegos(todas);
-  const ultimas = ordenaLista(todas, "fecha", true).slice(0, ULTIMAS);
-  pintaLista($("#lista"), ultimas, "miniaturas");
-  $("#t-todas").hidden = todas.length <= ULTIMAS;
-  const vacio = $("#vacio");
-  vacio.hidden = ultimas.length > 0;
-  vacio.textContent = T("sin_videos");
 }
 
 montaCabecera("inicio", pinta);

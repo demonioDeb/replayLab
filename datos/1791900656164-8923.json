@@ -1,0 +1,1562 @@
+{
+ "version": 8,
+ "quark": "1791900656164-8923",
+ "carpeta": "20261019_kyoukai_vs_Balcork_1791900656164-8923",
+ "juego": "ssf2xjr1",
+ "juego_nombre": "Super Street Fighter II X",
+ "juego_corto": "SSF2X",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": true
+ },
+ "fecha": "2026-10-13",
+ "youtube": "7MLinYBfJsI",
+ "titulo": "Super Street Fighter II X | 🇫🇷 kyoukai vs 🇫🇷 Balcork",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "kyoukai",
+   "pais": "fr",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Guile",
+   "clave": "guile",
+   "personajes": [
+    "Guile"
+   ],
+   "claves": [
+    "guile"
+   ],
+   "swaps": 0,
+   "super": "Double Somersault"
+  },
+  {
+   "nombre": "Balcork",
+   "pais": "fr",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Fei Long",
+   "clave": "feilong",
+   "personajes": [
+    "Fei Long"
+   ],
+   "claves": [
+    "feilong"
+   ],
+   "swaps": 0,
+   "super": "Rekka Sinken"
+  }
+ ],
+ "marcador": [
+  3,
+  5
+ ],
+ "duracion": 769.1,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 4.9,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 4.9,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 55,
+     "perfect": false,
+     "dano": [
+      144,
+      131
+     ],
+     "combos": [
+      0,
+      2
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 9,
+     "remontada": 0,
+     "fin": 37.27,
+     "vida_final": [
+      9,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 43.52,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 12,
+     "perfect": true,
+     "dano": [
+      0,
+      144
+     ],
+     "combos": [
+      0,
+      2
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 52.43,
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 3,
+     "t": 58.74,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 74,
+     "perfect": false,
+     "dano": [
+      136,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 5,
+     "remontada": 21,
+     "fin": 101.4,
+     "vida_final": [
+      0,
+      5
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Guile",
+    "Fei Long"
+   ],
+   "claves": [
+    "guile",
+    "feilong"
+   ],
+   "fin": 101.89,
+   "resumen": {
+    "dano": [
+     280,
+     419
+    ],
+    "combos": [
+     0,
+     5
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 141
+   }
+  },
+  {
+   "n": 2,
+   "t": 119.43,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 119.43,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      144,
+      89
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 38,
+     "remontada": 47,
+     "fin": 141.55,
+     "vida_final": [
+      38,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 148.0,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 52,
+     "perfect": false,
+     "dano": [
+      89,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 38,
+     "remontada": 0,
+     "fin": 178.5,
+     "vida_final": [
+      0,
+      38
+     ]
+    },
+    {
+     "n": 3,
+     "t": 184.82,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "dano": [
+      144,
+      22
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 84,
+     "remontada": 0,
+     "fin": 211.04,
+     "vida_final": [
+      84,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    1
+   ],
+   "personajes": [
+    "Guile",
+    "Fei Long"
+   ],
+   "claves": [
+    "guile",
+    "feilong"
+   ],
+   "fin": 211.54,
+   "resumen": {
+    "dano": [
+     377,
+     255
+    ],
+    "combos": [
+     2,
+     1
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 134
+   }
+  },
+  {
+   "n": 3,
+   "t": 229.29,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 229.29,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 54,
+     "perfect": false,
+     "dano": [
+      144,
+      99
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 31,
+     "remontada": 4,
+     "fin": 260.51,
+     "vida_final": [
+      31,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 266.7,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      70,
+      144
+     ],
+     "combos": [
+      0,
+      3
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 51,
+     "remontada": 32,
+     "fin": 286.17,
+     "vida_final": [
+      0,
+      51
+     ]
+    },
+    {
+     "n": 3,
+     "t": 292.2,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 40,
+     "perfect": false,
+     "dano": [
+      144,
+      98
+     ],
+     "combos": [
+      1,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 31,
+     "remontada": 32,
+     "fin": 316.64,
+     "vida_final": [
+      31,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    1
+   ],
+   "personajes": [
+    "Guile",
+    "Fei Long"
+   ],
+   "claves": [
+    "guile",
+    "feilong"
+   ],
+   "fin": 317.12,
+   "resumen": {
+    "dano": [
+     358,
+     341
+    ],
+    "combos": [
+     1,
+     4
+    ],
+    "supers": [
+     1,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 125
+   }
+  },
+  {
+   "n": 4,
+   "t": 335.81,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 335.81,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": true,
+     "dano": [
+      144,
+      0
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 351.59,
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 357.93,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      135,
+      144
+     ],
+     "combos": [
+      1,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 6,
+     "remontada": 57,
+     "fin": 378.52,
+     "vida_final": [
+      0,
+      6
+     ]
+    },
+    {
+     "n": 3,
+     "t": 384.82,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 17,
+     "perfect": false,
+     "dano": [
+      6,
+      144
+     ],
+     "combos": [
+      0,
+      3
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 95,
+     "remontada": 0,
+     "fin": 396.45,
+     "vida_final": [
+      0,
+      95
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    2,
+    2
+   ],
+   "personajes": [
+    "Guile",
+    "Fei Long"
+   ],
+   "claves": [
+    "guile",
+    "feilong"
+   ],
+   "fin": 396.94,
+   "resumen": {
+    "dano": [
+     285,
+     288
+    ],
+    "combos": [
+     2,
+     4
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 77
+   }
+  },
+  {
+   "n": 5,
+   "t": 415.49,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 415.49,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      69,
+      144
+     ],
+     "combos": [
+      1,
+      2
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 52,
+     "remontada": 0,
+     "fin": 437.69,
+     "vida_final": [
+      0,
+      52
+     ]
+    },
+    {
+     "n": 2,
+     "t": 443.57,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 49,
+     "perfect": false,
+     "dano": [
+      144,
+      113
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 21,
+     "remontada": 66,
+     "fin": 472.19,
+     "vida_final": [
+      21,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 478.54,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 44,
+     "perfect": false,
+     "dano": [
+      144,
+      51
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 64,
+     "remontada": 2,
+     "fin": 505.06,
+     "vida_final": [
+      64,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    2
+   ],
+   "personajes": [
+    "Guile",
+    "Fei Long"
+   ],
+   "claves": [
+    "guile",
+    "feilong"
+   ],
+   "fin": 505.55,
+   "resumen": {
+    "dano": [
+     357,
+     308
+    ],
+    "combos": [
+     1,
+     3
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 130
+   }
+  },
+  {
+   "n": 6,
+   "t": 523.5,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 523.5,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 36,
+     "perfect": false,
+     "dano": [
+      144,
+      18
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 87,
+     "remontada": 8,
+     "fin": 544.58,
+     "vida_final": [
+      87,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 550.61,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 12,
+     "perfect": true,
+     "dano": [
+      0,
+      144
+     ],
+     "combos": [
+      0,
+      2
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 559.64,
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 3,
+     "t": 565.59,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      115,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 20,
+     "remontada": 8,
+     "fin": 589.1,
+     "vida_final": [
+      0,
+      20
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    3
+   ],
+   "personajes": [
+    "Guile",
+    "Fei Long"
+   ],
+   "claves": [
+    "guile",
+    "feilong"
+   ],
+   "fin": 589.59,
+   "resumen": {
+    "dano": [
+     259,
+     306
+    ],
+    "combos": [
+     0,
+     2
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 87
+   }
+  },
+  {
+   "n": 7,
+   "t": 607.62,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 607.62,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 24,
+     "perfect": false,
+     "dano": [
+      144,
+      26
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 81,
+     "remontada": 3,
+     "fin": 622.62,
+     "vida_final": [
+      81,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 628.29,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      39,
+      144
+     ],
+     "combos": [
+      0,
+      2
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 72,
+     "remontada": 0,
+     "fin": 648.56,
+     "vida_final": [
+      0,
+      72
+     ]
+    },
+    {
+     "n": 3,
+     "t": 654.7,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 27,
+     "perfect": false,
+     "dano": [
+      60,
+      144
+     ],
+     "combos": [
+      0,
+      3
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 58,
+     "remontada": 35,
+     "fin": 671.61,
+     "vida_final": [
+      0,
+      58
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    4
+   ],
+   "personajes": [
+    "Guile",
+    "Fei Long"
+   ],
+   "claves": [
+    "guile",
+    "feilong"
+   ],
+   "fin": 672.1,
+   "resumen": {
+    "dano": [
+     243,
+     314
+    ],
+    "combos": [
+     0,
+     5
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 84
+   }
+  },
+  {
+   "n": 8,
+   "t": 688.69,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 688.69,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 52,
+     "perfect": false,
+     "dano": [
+      97,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 32,
+     "remontada": 48,
+     "fin": 718.27,
+     "vida_final": [
+      0,
+      32
+     ]
+    },
+    {
+     "n": 2,
+     "t": 724.09,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 67,
+     "perfect": false,
+     "dano": [
+      100,
+      144
+     ],
+     "combos": [
+      0,
+      2
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 30,
+     "remontada": 10,
+     "fin": 762.66,
+     "vida_final": [
+      0,
+      30
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    5
+   ],
+   "personajes": [
+    "Guile",
+    "Fei Long"
+   ],
+   "claves": [
+    "guile",
+    "feilong"
+   ],
+   "fin": 763.14,
+   "resumen": {
+    "dano": [
+     197,
+     288
+    ],
+    "combos": [
+     0,
+     3
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 119
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 36.21,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 37.27,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 46.91,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 50.88,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 7
+  },
+  {
+   "t": 52.43,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 52.43,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 71.82,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 4
+  },
+  {
+   "t": 101.4,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 138.76,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 141.26,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 141.55,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 141.55,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 152.57,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 4
+  },
+  {
+   "t": 178.5,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 196.47,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 211.04,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 251.55,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 260.51,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 282.43,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 284.21,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 286.16,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 302.1,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 308.29,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 316.64,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 351.59,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 351.59,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 351.59,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 363.01,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 369.53,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 4
+  },
+  {
+   "t": 378.52,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 378.52,
+   "tipo": "remontada",
+   "jugador": 2,
+   "dato": 57
+  },
+  {
+   "t": 389.04,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 4
+  },
+  {
+   "t": 393.47,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 396.45,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 418.49,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 429.23,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 434.97,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 437.69,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 450.24,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 472.19,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 472.19,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 66
+  },
+  {
+   "t": 505.06,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 544.58,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 553.94,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 557.96,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 7
+  },
+  {
+   "t": 559.64,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 559.64,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 589.1,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 622.61,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 643.37,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 645.92,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 5
+  },
+  {
+   "t": 648.56,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 664.35,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 668.27,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 4
+  },
+  {
+   "t": 671.61,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 700.11,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 4
+  },
+  {
+   "t": 718.27,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 737.11,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 762.66,
+   "tipo": "ko",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 18,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 410,
+   "pelea_rapida": 88,
+   "swaps": 0,
+   "rondas": 10,
+   "rondas_jugadas": 23,
+   "ko": 10,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 2356,
+   "recibido": 2519,
+   "golpes": 194,
+   "golpe_max": 29,
+   "primero": 9,
+   "combos": 6,
+   "combo_max": 3,
+   "combo_dano": 61,
+   "supers": 3,
+   "mareos": 1,
+   "ronda_rapida": 24,
+   "al_limite": 1,
+   "remontada": 66,
+   "racha": 3,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 14,
+   "reversals": 10,
+   "combos_cartel": 7,
+   "vida_al_ganar": 55,
+   "dano_medio": 12.1,
+   "dur_avg": 41,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 76,
+   "dano_barras": 16.36,
+   "recibido_barras": 17.49,
+   "combo_dano_barras": 0.42,
+   "golpe_max_barras": 0.2
+  },
+  {
+   "meter_full": 20,
+   "stun_frames": 118,
+   "stun_peor": 118,
+   "mareado_veces": 1,
+   "dur_sum": 487,
+   "pelea_rapida": 61,
+   "swaps": 0,
+   "rondas": 13,
+   "rondas_jugadas": 23,
+   "ko": 13,
+   "timeup": 0,
+   "perfects": 2,
+   "dano": 2519,
+   "recibido": 2356,
+   "golpes": 223,
+   "golpe_max": 37,
+   "primero": 14,
+   "combos": 27,
+   "combo_max": 7,
+   "combo_dano": 84,
+   "supers": 3,
+   "mareos": 0,
+   "ronda_rapida": 12,
+   "al_limite": 2,
+   "remontada": 57,
+   "racha": 4,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 9,
+   "reversals": 14,
+   "combos_cartel": 27,
+   "vida_al_ganar": 51,
+   "dano_medio": 11.3,
+   "dur_avg": 37,
+   "stun_seg": 2.0,
+   "stun_peor_seg": 2.0,
+   "vida_perdida_ronda": 71,
+   "dano_barras": 17.49,
+   "recibido_barras": 16.36,
+   "combo_dano_barras": 0.58,
+   "golpe_max_barras": 0.26
+  }
+ ]
+}

@@ -2,6 +2,54 @@
  "nota": "Resumen por día de lo que se hizo y lo que se descubrió. Lo escribe a mano quien trabaja en el proyecto; no se genera solo. Cada cambio lleva 'area': 'web' (lo que se ve en replayLab) y/o 'juego' (overlay, grabación, lo descubierto del juego, YouTube), y 'juego' con el id de datos/juegos.json (o una lista de ids si el cambio vale para varios juegos). cambios.html tiene una pestaña por juego.",
  "dias": [
   {
+   "fecha": "2026-10-20",
+   "cambios": [
+    {
+     "t": "cambiado",
+     "area": [
+      "web"
+     ],
+     "es": "Web reorganizada: el inicio cuenta qué es Replay Lab, qué hace y cómo funciona; el menú queda en Inicio, Juegos, Novedades, Pedir un replay y Comunidad (todas las redes). Las partidas de cada juego están en su página.",
+     "en": "The website is reorganised: the home page explains what Replay Lab is, what it does and how it works; the menu is now Home, Games, News, Request a replay and Community (all our socials). Each game's matches are on its page."
+    },
+    {
+     "t": "cambiado",
+     "area": [
+      "web"
+     ],
+     "es": "Pedir un replay: ahora por Telegram o por Discord. Desde la web, el bot de Telegram se abre con el pedido ya escrito, y la cola se ve en vivo. Ya no se pide por GitHub.",
+     "en": "Requesting a replay: now on Telegram or Discord. From the website, the Telegram bot opens with the request already written, and the queue is shown live. Requests no longer go through GitHub."
+    }
+   ]
+  },
+  {
+   "fecha": "2026-10-19",
+   "cambios": [
+    {
+     "t": "añadido",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "kof98"
+     ],
+     "es": "Las reservas heredadas del compañero que cayó salen en morado; las regaladas por el juego siguen en azul y las ganadas en verde.",
+     "en": "Power stocks inherited from the teammate who fell are shown in purple; the ones the game gives away stay blue and the earned ones green."
+    },
+    {
+     "t": "arreglado",
+     "area": [
+      "juego"
+     ],
+     "juego": [
+      "kof2002"
+     ],
+     "es": "Shorts: la ficha de cada jugador ya no sale cortada por abajo.",
+     "en": "Shorts: each player's card is no longer cut off at the bottom."
+    }
+   ]
+  },
+  {
    "fecha": "2026-10-15",
    "cambios": [
     {

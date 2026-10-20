@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-17 23:26",
+ "actualizado": "2026-10-20 04:16",
  "videos": [
   {
    "quark": "1792260541870-6742",
@@ -908,6 +908,49 @@
     }
    ],
    "rondas": 7
+  },
+  {
+   "quark": "1791900656164-8923",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-13",
+   "youtube": "7MLinYBfJsI",
+   "duracion": 769.1,
+   "marcador": [
+    3,
+    5
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "kyoukai",
+     "pais": "fr",
+     "rango_letra": "A",
+     "personaje": "Guile",
+     "clave": "guile",
+     "personajes": [
+      "Guile"
+     ],
+     "claves": [
+      "guile"
+     ]
+    },
+    {
+     "nombre": "Balcork",
+     "pais": "fr",
+     "rango_letra": "A",
+     "personaje": "Fei Long",
+     "clave": "feilong",
+     "personajes": [
+      "Fei Long"
+     ],
+     "claves": [
+      "feilong"
+     ]
+    }
+   ],
+   "rondas": 23
   },
   {
    "quark": "1791683729181-8091",

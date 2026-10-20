@@ -8,9 +8,6 @@
  "canal": "https://www.youtube.com/@replaylab-fcrec",
  "facebook": "https://www.facebook.com/1242629098944143",
  "github": "https://github.com/demonioDeb/replayLab",
- "pedidos": {
-  "_nota": "Pedir un replay: la solicitud va como issue de GitHub (plantilla .github/ISSUE_TEMPLATE/pedir-replay.yml). Si pones aquí la dirección de un formulario (Google Forms, por ejemplo) sale también un botón para quien no tiene cuenta de GitHub. campo_enlace = el 'entry.NNNN' del campo del enlace, para que llegue relleno.",
-  "formulario": "",
-  "campo_enlace": ""
- }
+ "bot_nube": "https://replaylab-bot.demonio-debian.workers.dev",
+ "telegram": "https://t.me/replayLabBot"
 }

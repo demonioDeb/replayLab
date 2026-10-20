@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Set · replayLab</title>
+<meta name="description" content="Un set de Fightcade de un vistazo: el vídeo, la línea de tiempo de cada pelea con sus momentos y las estadísticas de los dos jugadores, como en el overlay.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#0a0d15">
+<link rel="stylesheet" href="assets/estilo.css?v=a40e9bcbe0">
+<style>
+/* (20 oct) Página de un set organizada como la maqueta del usuario: cabecera con el marcador,
+   peleas a la izquierda, vídeo y línea de tiempo en el centro, estadísticas a la derecha y el
+   análisis detallado abajo. Sólo lo que mide cada juego. */
+.sx{--r:#ff3d57;--rd:#7a1020;--b:#37c8ff;--bd:#06496b;--oro:#ffcb45;--caja:#10151f;--caja2:#151b29;--borde:#232c40}
+.sx-wrap{max-width:1500px;margin:0 auto;padding:0 18px}
+.sx-caja{background:var(--caja);border:1px solid var(--borde);border-radius:14px}
+.sx-tit{display:flex;align-items:center;gap:8px;margin:0;padding:12px 14px 10px;font:700 16px/1.15 var(--font);color:#fff;
+  text-transform:none;letter-spacing:0;flex-wrap:wrap}
+.sx-tit small{text-transform:none;letter-spacing:0}
+.sx-tit svg{width:17px;height:17px;color:var(--oro)}
+.sx-tit .sp{flex:1}
+/* cabecera */
+.sx-top{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:16px;padding:14px 0 16px;
+  border-bottom:1px solid var(--borde);margin-bottom:14px}
+.sx-juego{display:flex;align-items:center;gap:12px;min-width:0}
+.sx-juego .ic{width:52px;height:52px;border-radius:10px;flex:none;object-fit:cover;background:#0a0f19;border:1px solid var(--borde)}
+.sx-juego b{display:flex;align-items:center;gap:8px;font:700 17px/1.15 var(--font);color:#fff;flex-wrap:wrap}
+.sx-juego .chapa{font:800 11px/1 var(--font);letter-spacing:.06em;color:#d9c8ff;background:#2a2153;border:1px solid #4b3d8f;padding:4px 7px;border-radius:6px}
+.sx-juego small{display:block;margin-top:5px;color:var(--dim);font-size:13px}
+.sx-duelo{display:flex;align-items:center;gap:0}
+.sx-pl{position:relative;display:flex;flex-direction:column;justify-content:center;gap:5px;min-width:220px;height:62px;padding:0 26px}
+.sx-pl.p1{align-items:flex-end;text-align:right;background:linear-gradient(100deg,#1a0d16,#4a1022 70%,var(--rd));
+  clip-path:polygon(18px 0,100% 0,100% 100%,0 100%);border-radius:0}
+.sx-pl.p2{align-items:flex-start;background:linear-gradient(260deg,#0b1220,#07354c 70%,var(--bd));clip-path:polygon(0 0,100% 0,calc(100% - 18px) 100%,0 100%)}
+.sx-pl.p1::after,.sx-pl.p2::after{content:"";position:absolute;inset:0;pointer-events:none}
+.sx-pl.p1{box-shadow:inset -3px 0 0 var(--r)} .sx-pl.p2{box-shadow:inset 3px 0 0 var(--b)}
+.sx-pl .n{display:flex;align-items:center;gap:8px;font:800 19px/1 var(--font);color:#fff;white-space:nowrap;max-width:280px;overflow:hidden;text-overflow:ellipsis}
+.sx-pl .m{display:flex;align-items:center;gap:6px;font:700 11px/1 var(--font);letter-spacing:.1em;color:var(--oro);text-transform:uppercase}
+.sx-pl.gana .n::after{content:"👑";font-size:15px}
+.sx-pl.p1.gana .n::after{order:-1}
+.sx-marc{padding:0 22px;text-align:center}
+.sx-marc b{display:block;font:900 40px/1 var(--mono);color:#fff;letter-spacing:.04em;font-variant-numeric:tabular-nums}
+.sx-marc b .g{color:var(--oro)}
+.sx-marc small{display:block;margin-top:6px;font:700 11px/1 var(--font);letter-spacing:.16em;color:var(--dim);text-transform:uppercase}
+.sx-acc{display:flex;gap:8px;justify-content:flex-end;flex-wrap:wrap}
+.sx-acc .btn{padding:9px 14px;font-size:14px}
+/* rejilla principal */
+.sx-grid{display:grid;grid-template-columns:290px minmax(0,1fr) 370px;grid-template-areas:"peleas centro stats" "resumen centro stats";
+  grid-template-rows:auto 1fr;gap:14px;align-items:start}
+.sx-peleas{grid-area:peleas} .sx-resumen{grid-area:resumen} .sx-centro{grid-area:centro;display:flex;flex-direction:column;gap:14px;min-width:0}
+.sx-stats{grid-area:stats}
+/* peleas */
+.sx-lista{display:flex;flex-direction:column;gap:6px;padding:0 10px 10px;max-height:470px;overflow:auto}
+.sx-fp{display:grid;grid-template-columns:22px 34px minmax(0,1fr) 34px auto;align-items:center;gap:8px;padding:7px 9px;border-radius:10px;
+  background:var(--caja2);border:1px solid var(--borde);cursor:pointer;color:inherit;text-align:left;font:inherit;width:100%}
+.sx-fp:hover{border-color:#3a4766}
+.sx-fp.sel{border-color:var(--oro);box-shadow:0 0 0 1px var(--oro) inset,0 0 18px rgba(255,203,69,.15)}
+.sx-fp .k{font:800 14px/1 var(--mono);color:var(--dim)} .sx-fp.sel .k{color:var(--oro)}
+.sx-fp img{width:34px;height:34px;border-radius:7px;object-fit:cover;background:#0a0f19;border:2px solid #263049}
+.sx-fp img.g{border-color:var(--oro)}
+.sx-fp .pj{font-size:12.5px;color:var(--soft);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sx-fp .pj i{font-style:normal;color:var(--dim);margin:0 4px}
+.sx-fp .rs{font:800 15px/1 var(--mono);color:#fff;white-space:nowrap;padding-left:4px}
+.sx-fp .rs .w1{color:#ff8d9b} .sx-fp .rs .w2{color:#8fdcff}
+/* resumen */
+.sx-res{display:grid;grid-template-columns:auto 1fr;gap:14px 16px;align-items:center;padding:4px 16px 16px}
+.sx-dona{width:112px;height:112px;position:relative}
+.sx-dona svg{width:100%;height:100%;transform:rotate(-90deg)}
+.sx-dona div{position:absolute;inset:0;display:grid;place-items:center;text-align:center}
+.sx-dona b{display:block;font:900 30px/1 var(--mono);color:#fff}
+.sx-dona small{font-size:12px;color:var(--dim)}
+.sx-vic h4{margin:0 0 8px;font:700 14px/1 var(--font);color:#fff}
+.sx-vic p{display:flex;align-items:center;gap:8px;margin:6px 0;font-size:13.5px;color:var(--soft)}
+.sx-vic p i{width:12px;height:12px;border-radius:3px;flex:none} .sx-vic p b{margin-left:auto;font:800 15px/1 var(--mono);color:#fff}
+.sx-dat{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:12px;border-top:1px solid var(--borde);padding-top:12px}
+.sx-dat div{display:flex;gap:9px;align-items:center}
+.sx-dat svg{width:20px;height:20px;color:var(--dim);flex:none}
+.sx-dat small{display:block;font-size:12px;color:var(--dim)} .sx-dat b{font:800 17px/1.1 var(--mono);color:#fff}
+/* vídeo */
+.sx-video{position:relative;aspect-ratio:16/9;background:#000;border-radius:14px;overflow:hidden;border:1px solid var(--borde)}
+.sx-video iframe,.sx-video #yt{position:absolute;inset:0;width:100%;height:100%;border:0}
+.sx-video .aviso{position:absolute;inset:0;display:grid;place-items:center;text-align:center;color:var(--dim);padding:20px}
+/* línea de tiempo */
+.sx-tl{display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:0}
+.sx-tl-main{padding:0 14px 12px;min-width:0;border-right:1px solid var(--borde)}
+.sx-rds{display:flex;gap:8px;overflow-x:auto;padding:0 0 10px}
+.sx-rd{flex:1 1 0;min-width:96px;display:flex;align-items:center;gap:8px;padding:6px 9px;border-radius:9px;background:var(--caja2);
+  border:1px solid var(--borde);cursor:pointer;color:inherit;font:inherit;text-align:left}
+.sx-rd.act{border-color:var(--oro)}
+.sx-rd .rk{font:800 13px/1 var(--mono);padding:4px 5px;border-radius:5px;color:#fff;background:#2b3349}
+.sx-rd .rk.w1{background:#8d1426} .sx-rd .rk.w2{background:#0b5b85}
+.sx-rd small{display:block;font-size:11px;color:var(--dim);white-space:nowrap} .sx-rd b{display:block;font-size:12px;color:#fff;white-space:nowrap}
+.sx-carril{display:grid;grid-template-columns:96px minmax(0,1fr);gap:10px;align-items:center;margin:6px 0}
+.sx-quien{font:800 12.5px/1 var(--font);padding:8px 8px;border-radius:7px;color:#fff;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sx-quien.p1{background:linear-gradient(90deg,#c5203a,#8d1426)} .sx-quien.p2{background:linear-gradient(90deg,#1593c9,#0b5b85)}
+.sx-pista{position:relative;height:34px;border-radius:7px;cursor:pointer;overflow:visible}
+.sx-pista.p1{background:linear-gradient(90deg,rgba(255,61,87,.16),rgba(255,61,87,.08));border:1px solid rgba(255,61,87,.35)}
+.sx-pista.p2{background:linear-gradient(90deg,rgba(55,200,255,.14),rgba(55,200,255,.07));border:1px solid rgba(55,200,255,.32)}
+.sx-tramo{position:absolute;top:0;bottom:0;border-left:1px dashed rgba(255,255,255,.18)}
+.sx-tramo.gan.p1{background:rgba(255,61,87,.22)} .sx-tramo.gan.p2{background:rgba(55,200,255,.2)}
+.sx-ev{position:absolute;top:50%;transform:translate(-50%,-50%);width:22px;height:22px;display:grid;place-items:center;border-radius:50%;
+  background:#0c111c;border:1.5px solid var(--c);color:var(--c);cursor:pointer;padding:0;z-index:2}
+.sx-ev svg{width:13px;height:13px}
+.sx-ev.alto{top:4px;transform:translate(-50%,0);width:18px;height:18px} .sx-ev.alto svg{width:11px;height:11px}
+.sx-ev:hover,.sx-ev:focus-visible{transform:translate(-50%,-50%) scale(1.25);z-index:4}
+.sx-ev.alto:hover{transform:translate(-50%,0) scale(1.25)}
+.sx-ev[data-t]:hover::after{content:attr(data-t);position:absolute;bottom:calc(100% + 7px);left:50%;transform:translateX(-50%);white-space:nowrap;
+  background:#05070c;border:1px solid var(--borde);color:#fff;font:600 12px/1.2 var(--font);padding:5px 8px;border-radius:7px}
+.sx-eje{position:relative;height:16px;margin-left:106px;font:500 10.5px/1 var(--mono);color:var(--dim)}
+.sx-eje span{position:absolute;transform:translateX(-50%)} .sx-eje span:first-child{transform:none}
+.sx-cab{position:absolute;top:-6px;bottom:-22px;width:2px;background:var(--oro);pointer-events:none;z-index:5;display:none}
+.sx-cab::before{content:attr(data-t);position:absolute;top:-16px;left:50%;transform:translateX(-50%);font:800 10.5px/1 var(--mono);
+  color:#231a00;background:var(--oro);padding:3px 5px;border-radius:4px}
+.sx-pistas{position:relative}
+.sx-lado{padding:0 12px 12px}
+.sx-ley{display:flex;flex-direction:column;gap:7px;margin:0 0 12px;font-size:12.5px;color:var(--soft)}
+.sx-ley span{display:flex;align-items:center;gap:8px}
+.sx-ley svg{width:15px;height:15px}
+.sx-rap h5{margin:0 0 8px;font:700 13px/1 var(--font);color:#fff}
+.sx-rap div{display:grid;grid-template-columns:62px 1fr 1fr;gap:6px;align-items:center;margin:5px 0;font-size:11.5px;color:var(--dim)}
+.sx-rap i{display:block;height:6px;border-radius:3px}
+.sx-rap .a{justify-self:end;background:var(--r)} .sx-rap .b{background:var(--b)}
+/* estadísticas */
+.sx-tabs{display:flex;gap:4px;padding:0 12px;border-bottom:1px solid var(--borde);overflow-x:auto}
+.sx-tabs button{background:none;border:0;border-bottom:2px solid transparent;color:var(--dim);font:700 13.5px/1 var(--font);padding:10px 10px;cursor:pointer;white-space:nowrap}
+.sx-tabs button[aria-selected=true]{color:var(--oro);border-color:var(--oro)}
+.sx-cards{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:12px}
+.sx-card{background:var(--caja2);border:1px solid var(--borde);border-radius:11px;padding:11px 12px}
+.sx-card h4{display:flex;align-items:center;gap:8px;margin:0 0 10px;font:700 13.5px/1.1 var(--font);color:#fff}
+.sx-card h4 svg{width:17px;height:17px;flex:none}
+.sx-card .fl{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 8px;margin:7px 0;font-size:12px;color:var(--soft)}
+.sx-card .fl span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sx-card .fl b{font:800 14px/1 var(--mono);color:#fff;text-align:right}
+.sx-card .fl i{grid-column:1/-1;display:block;height:6px;border-radius:3px;background:#1d2436;overflow:hidden}
+.sx-card .fl i em{display:block;height:100%;border-radius:3px}
+.sx-card .fl.a i em{background:linear-gradient(90deg,#ff5b71,#c5203a)} .sx-card .fl.b i em{background:linear-gradient(90deg,#5ad4ff,#1593c9)}
+.sx-card .fl.lider b{color:var(--oro)}
+.sx-mas{display:block;margin:0 12px 12px;text-align:center;padding:9px;border-radius:9px;border:1px solid var(--borde);color:var(--soft);font-size:13px}
+/* análisis detallado */
+.sx-det{margin-top:14px}
+.sx-det-g{display:grid;grid-template-columns:1.25fr .9fr 1fr 1fr 1fr;gap:12px;padding:0 12px 12px}
+.sx-sub{background:var(--caja2);border:1px solid var(--borde);border-radius:11px;padding:12px}
+.sx-sub h4{margin:0 0 10px;font:700 13.5px/1 var(--font);color:#fff}
+.sx-barras{display:flex;align-items:flex-end;gap:10px;height:130px;padding:8px 0 0;border-bottom:1px solid var(--borde)}
+.sx-barras .gr{flex:1;display:flex;gap:3px;align-items:flex-end;justify-content:center;height:100%}
+.sx-barras .gr i{width:42%;max-width:16px;border-radius:3px 3px 0 0}
+.sx-barras .gr .a{background:linear-gradient(180deg,#ff5b71,#a3162c)} .sx-barras .gr .b{background:linear-gradient(180deg,#5ad4ff,#0d6c9c)}
+.sx-barras-x{display:flex;gap:10px;margin-top:5px;font:600 11px/1 var(--mono);color:var(--dim)} .sx-barras-x span{flex:1;text-align:center}
+.sx-ley2{display:flex;gap:12px;font-size:11.5px;color:var(--dim);margin-top:8px}
+.sx-ley2 span{display:flex;align-items:center;gap:5px} .sx-ley2 i{width:10px;height:10px;border-radius:2px}
+.sx-anillos{display:flex;justify-content:space-around;gap:8px}
+.sx-anillo{text-align:center}
+.sx-anillo .o{position:relative;width:86px;height:86px;margin:0 auto 6px}
+.sx-anillo svg{width:100%;height:100%;transform:rotate(-90deg)}
+.sx-anillo .o div{position:absolute;inset:0;display:grid;place-items:center}
+.sx-anillo b{font:900 18px/1 var(--mono);color:#fff} .sx-anillo small{display:block;font-size:11px;color:var(--dim)}
+.sx-anillo p{margin:0;font-size:12px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:110px}
+.sx-tabla{display:flex;flex-direction:column;gap:8px}
+.sx-tabla div{display:grid;grid-template-columns:22px minmax(0,1fr) auto auto;gap:8px;align-items:center;font-size:12.5px;color:var(--soft)}
+.sx-tabla svg{width:17px;height:17px}
+.sx-tabla b{font:800 14px/1 var(--mono);min-width:34px;text-align:right} .sx-tabla .a{color:#ff8d9b} .sx-tabla .b{color:#8fdcff}
+.sx-hist div{display:grid;grid-template-columns:30px auto minmax(0,1fr);gap:10px;align-items:center;margin:6px 0;font-size:12.5px;color:var(--soft)}
+.sx-hist b{font:800 13px/1 var(--mono);color:#fff}
+.sx-hist span{display:flex;align-items:center;gap:6px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.sx-hist i{width:10px;height:10px;border-radius:2px;flex:none}
+/* tamaños */
+@media (max-width:1280px){
+  .sx-grid{grid-template-columns:270px minmax(0,1fr);grid-template-areas:"peleas centro" "resumen centro" "stats stats"}
+  .sx-cards{grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+  .sx-det-g{grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+}
+@media (max-width:900px){
+  .sx-top{grid-template-columns:1fr;justify-items:center;text-align:center}
+  .sx-juego{justify-content:center} .sx-acc{justify-content:center}
+  .sx-grid{grid-template-columns:minmax(0,1fr);grid-template-areas:"centro" "peleas" "stats" "resumen"}
+  .sx-tl{grid-template-columns:1fr} .sx-tl-main{border-right:0}
+  .sx-lado{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding-top:4px}
+}
+@media (max-width:620px){
+  .sx-wrap{padding:0 10px}
+  .sx-duelo{width:100%} .sx-pl{min-width:0;flex:1;padding:0 14px;height:56px} .sx-pl .n{font-size:15px;max-width:130px}
+  .sx-marc{padding:0 10px} .sx-marc b{font-size:30px}
+  .sx-carril{grid-template-columns:62px minmax(0,1fr);gap:6px} .sx-quien{font-size:11px;padding:7px 4px}
+  .sx-eje{margin-left:68px}
+  .sx-lado{grid-template-columns:1fr}
+  .sx-cards{grid-template-columns:1fr 1fr;gap:8px;padding:10px} .sx-card{padding:9px}
+}
+</style>
+</head>
+<body>
+<header id="cabsitio"></header>
+
+<main class="sx" id="sx"><div class="sx-wrap"><p class="vacio" id="sx-carga">…</p></div></main>
+
+<footer class="wrap" id="pie"></footer>
+
+<script src="assets/app.js?v=cb4fe05d62"></script>
+<script>
+"use strict";
+/* ---------------------------------------------------------------- textos (6 idiomas) */
+const PV = {
+  es: { compartir: "Compartir", copiado: "Enlace copiado", yt: "YouTube", peleas: "Peleas del set", resumen: "Resumen del set",
+    victorias: "Victorias", npeleas: "Peleas", dur_total: "Duración total", rondas_tot: "Rondas totales", prom: "Promedio por pelea",
+    linea: "Línea de tiempo", pelea: "Pelea", ronda: "Ronda", ley: "Momentos", rapida: "Vista rápida de la pelea",
+    stats: "Estadísticas", tab_set: "Set", tab_pelea: "Pelea %s", todos: "Ver todos los datos del set", det: "Análisis detallado",
+    evo: "Daño por pelea (barras de vida)", pct: "Rondas ganadas", rachas: "Rachas más largas", r_rondas: "Racha de rondas", r_peleas: "Racha de peleas",
+    marcas: "Mejores marcas", hist: "Historial de resultados", privado: "El vídeo todavía no es público.", sin_video: "Este set aún no está en YouTube.",
+    sin: "No encuentro este set.", pulsa: "Pulsa un momento o la barra para ir a ese segundo del vídeo.",
+    e_ronda: "Ronda ganada", e_super: "Súper", e_combo: "Combo", e_mareo: "Mareo", e_perfect: "Perfect", e_remontada: "Remontada", e_doble_ko: "Doble K.O.",
+    ko: "K.O.", to: "por tiempo", dko: "doble K.O.",
+    c_dano: "Daño (barras)", c_rondas: "Rondas ganadas", c_timeup: "Ganadas por tiempo", c_meter: "Súper cargado", c_meter_k: "Reservas llenas", c_supers: "Súpers",
+    c_mareos: "Mareos provocados", c_combos: "Combos", c_fa: "First attack", c_rev: "Reversals", c_contras: "Contraataques", c_esquivas: "Esquivas", c_maxes: "MAX",
+    c_guardias: "Guard crush", c_perfects: "Perfects", c_racha: "Racha de peleas", c_remontada: "Mayor remontada", c_vida: "Vida al ganar", c_rapida: "Ronda más rápida",
+    c_dur: "Duración", m_dpr: "Daño por ronda (media)", m_golpe: "Golpe más fuerte (barras)", m_rapida: "Ronda más rápida", m_remontada: "Mayor remontada" },
+  en: { compartir: "Share", copiado: "Link copied", yt: "YouTube", peleas: "Games in the set", resumen: "Set summary",
+    victorias: "Wins", npeleas: "Games", dur_total: "Total length", rondas_tot: "Total rounds", prom: "Average per game",
+    linea: "Timeline", pelea: "Game", ronda: "Round", ley: "Moments", rapida: "Game at a glance",
+    stats: "Stats", tab_set: "Set", tab_pelea: "Game %s", todos: "See all the set data", det: "Detailed analysis",
+    evo: "Damage per game (health bars)", pct: "Rounds won", rachas: "Longest streaks", r_rondas: "Round streak", r_peleas: "Game streak",
+    marcas: "Best marks", hist: "Results", privado: "The video isn't public yet.", sin_video: "This set isn't on YouTube yet.",
+    sin: "I can't find this set.", pulsa: "Tap a moment or the bar to jump to that second of the video.",
+    e_ronda: "Round won", e_super: "Super", e_combo: "Combo", e_mareo: "Dizzy", e_perfect: "Perfect", e_remontada: "Comeback", e_doble_ko: "Double K.O.",
+    ko: "K.O.", to: "on time", dko: "double K.O.",
+    c_dano: "Damage (bars)", c_rondas: "Rounds won", c_timeup: "Won on time", c_meter: "Super charged", c_meter_k: "Full stocks", c_supers: "Supers",
+    c_mareos: "Dizzies dealt", c_combos: "Combos", c_fa: "First attack", c_rev: "Reversals", c_contras: "Guard counters", c_esquivas: "Rolls", c_maxes: "MAX",
+    c_guardias: "Guard crush", c_perfects: "Perfects", c_racha: "Game streak", c_remontada: "Biggest comeback", c_vida: "Health when winning", c_rapida: "Fastest round",
+    c_dur: "Length", m_dpr: "Damage per round (avg)", m_golpe: "Hardest hit (bars)", m_rapida: "Fastest round", m_remontada: "Biggest comeback" },
+  pt: { compartir: "Compartilhar", copiado: "Link copiado", yt: "YouTube", peleas: "Lutas do set", resumen: "Resumo do set",
+    victorias: "Vitórias", npeleas: "Lutas", dur_total: "Duração total", rondas_tot: "Rounds no total", prom: "Média por luta",
+    linea: "Linha do tempo", pelea: "Luta", ronda: "Round", ley: "Momentos", rapida: "A luta num relance",
+    stats: "Estatísticas", tab_set: "Set", tab_pelea: "Luta %s", todos: "Ver todos os dados do set", det: "Análise detalhada",
+    evo: "Dano por luta (barras de vida)", pct: "Rounds vencidos", rachas: "Maiores sequências", r_rondas: "Sequência de rounds", r_peleas: "Sequência de lutas",
+    marcas: "Melhores marcas", hist: "Histórico de resultados", privado: "O vídeo ainda não é público.", sin_video: "Este set ainda não está no YouTube.",
+    sin: "Não encontro este set.", pulsa: "Toque num momento ou na barra para ir a esse segundo do vídeo.",
+    e_ronda: "Round vencido", e_super: "Super", e_combo: "Combo", e_mareo: "Tonto", e_perfect: "Perfect", e_remontada: "Virada", e_doble_ko: "Duplo K.O.",
+    ko: "K.O.", to: "no tempo", dko: "duplo K.O.",
+    c_dano: "Dano (barras)", c_rondas: "Rounds vencidos", c_timeup: "Vencidos no tempo", c_meter: "Super carregado", c_meter_k: "Reservas cheias", c_supers: "Supers",
+    c_mareos: "Tontos causados", c_combos: "Combos", c_fa: "First attack", c_rev: "Reversals", c_contras: "Contra-ataques", c_esquivas: "Esquivas", c_maxes: "MAX",
+    c_guardias: "Guard crush", c_perfects: "Perfects", c_racha: "Sequência de lutas", c_remontada: "Maior virada", c_vida: "Vida ao vencer", c_rapida: "Round mais rápido",
+    c_dur: "Duração", m_dpr: "Dano por round (média)", m_golpe: "Golpe mais forte (barras)", m_rapida: "Round mais rápido", m_remontada: "Maior virada" },
+  fr: { compartir: "Partager", copiado: "Lien copié", yt: "YouTube", peleas: "Combats du set", resumen: "Résumé du set",
+    victorias: "Victoires", npeleas: "Combats", dur_total: "Durée totale", rondas_tot: "Rounds au total", prom: "Moyenne par combat",
+    linea: "Chronologie", pelea: "Combat", ronda: "Round", ley: "Moments", rapida: "Le combat en un coup d'œil",
+    stats: "Statistiques", tab_set: "Set", tab_pelea: "Combat %s", todos: "Voir toutes les données du set", det: "Analyse détaillée",
+    evo: "Dégâts par combat (barres de vie)", pct: "Rounds gagnés", rachas: "Plus longues séries", r_rondas: "Série de rounds", r_peleas: "Série de combats",
+    marcas: "Meilleures marques", hist: "Historique des résultats", privado: "La vidéo n'est pas encore publique.", sin_video: "Ce set n'est pas encore sur YouTube.",
+    sin: "Je ne trouve pas ce set.", pulsa: "Touchez un moment ou la barre pour aller à cette seconde de la vidéo.",
+    e_ronda: "Round gagné", e_super: "Super", e_combo: "Combo", e_mareo: "Étourdi", e_perfect: "Perfect", e_remontada: "Remontada", e_doble_ko: "Double K.O.",
+    ko: "K.O.", to: "au temps", dko: "double K.O.",
+    c_dano: "Dégâts (barres)", c_rondas: "Rounds gagnés", c_timeup: "Gagnés au temps", c_meter: "Super chargé", c_meter_k: "Réserves pleines", c_supers: "Supers",
+    c_mareos: "Étourdissements", c_combos: "Combos", c_fa: "First attack", c_rev: "Reversals", c_contras: "Contre-attaques", c_esquivas: "Esquives", c_maxes: "MAX",
+    c_guardias: "Guard crush", c_perfects: "Perfects", c_racha: "Série de combats", c_remontada: "Plus grosse remontada", c_vida: "Vie en gagnant", c_rapida: "Round le plus rapide",
+    c_dur: "Durée", m_dpr: "Dégâts par round (moy.)", m_golpe: "Plus gros coup (barres)", m_rapida: "Round le plus rapide", m_remontada: "Plus grosse remontada" },
+  ja: { compartir: "共有", copiado: "リンクをコピーしました", yt: "YouTube", peleas: "セットの試合", resumen: "セットのまとめ",
+    victorias: "勝利", npeleas: "試合", dur_total: "合計時間", rondas_tot: "合計ラウンド", prom: "1試合の平均",
+    linea: "タイムライン", pelea: "試合", ronda: "ラウンド", ley: "出来事", rapida: "試合の早見",
+    stats: "スタッツ", tab_set: "セット", tab_pelea: "第%s試合", todos: "セットの全データを見る", det: "詳細分析",
+    evo: "試合ごとのダメージ（ゲージ）", pct: "取得ラウンド", rachas: "最長連勝", r_rondas: "ラウンド連取", r_peleas: "試合連勝",
+    marcas: "ベスト記録", hist: "試合結果", privado: "動画はまだ公開されていません。", sin_video: "このセットはまだYouTubeにありません。",
+    sin: "このセットが見つかりません。", pulsa: "出来事やバーを押すと、動画のその場面に移動します。",
+    e_ronda: "ラウンド取得", e_super: "スーパー", e_combo: "コンボ", e_mareo: "気絶", e_perfect: "パーフェクト", e_remontada: "逆転", e_doble_ko: "ダブルK.O.",
+    ko: "K.O.", to: "タイム", dko: "ダブルK.O.",
+    c_dano: "ダメージ（ゲージ）", c_rondas: "取得ラウンド", c_timeup: "タイム勝ち", c_meter: "スーパー満タン", c_meter_k: "ストック満タン", c_supers: "スーパー",
+    c_mareos: "気絶させた回数", c_combos: "コンボ", c_fa: "ファーストアタック", c_rev: "リバーサル", c_contras: "ガードキャンセル", c_esquivas: "回避", c_maxes: "MAX",
+    c_guardias: "ガードクラッシュ", c_perfects: "パーフェクト", c_racha: "試合連勝", c_remontada: "最大逆転", c_vida: "勝利時の体力", c_rapida: "最速ラウンド",
+    c_dur: "時間", m_dpr: "1ラウンドのダメージ（平均）", m_golpe: "最大の一撃（ゲージ）", m_rapida: "最速ラウンド", m_remontada: "最大逆転" },
+  zh: { compartir: "分享", copiado: "链接已复制", yt: "YouTube", peleas: "本场对局", resumen: "整场总结",
+    victorias: "胜场", npeleas: "局", dur_total: "总时长", rondas_tot: "总回合", prom: "每局平均",
+    linea: "时间线", pelea: "局", ronda: "回合", ley: "事件", rapida: "本局速览",
+    stats: "数据", tab_set: "整场", tab_pelea: "第%s局", todos: "查看整场全部数据", det: "详细分析",
+    evo: "每局伤害（血条）", pct: "赢得回合", rachas: "最长连胜", r_rondas: "回合连胜", r_peleas: "对局连胜",
+    marcas: "最佳纪录", hist: "比赛结果", privado: "视频尚未公开。", sin_video: "这场还没有上传到 YouTube。",
+    sin: "找不到这场比赛。", pulsa: "点击事件或时间条，跳到视频的那一秒。",
+    e_ronda: "赢得回合", e_super: "超必杀", e_combo: "连段", e_mareo: "眩晕", e_perfect: "完胜", e_remontada: "逆转", e_doble_ko: "双 K.O.",
+    ko: "K.O.", to: "时间到", dko: "双 K.O.",
+    c_dano: "伤害（血条）", c_rondas: "赢得回合", c_timeup: "时间到获胜", c_meter: "超必杀蓄满", c_meter_k: "能量满格", c_supers: "超必杀",
+    c_mareos: "击晕次数", c_combos: "连段", c_fa: "First attack", c_rev: "Reversal", c_contras: "防御反击", c_esquivas: "闪避", c_maxes: "MAX",
+    c_guardias: "破防", c_perfects: "完胜", c_racha: "对局连胜", c_remontada: "最大逆转", c_vida: "获胜时剩余体力", c_rapida: "最快回合",
+    c_dur: "时长", m_dpr: "每回合伤害（平均）", m_golpe: "最强一击（血条）", m_rapida: "最快回合", m_remontada: "最大逆转" },
+};
+const P = k => (PV[LANG] || PV.es)[k] ?? PV.es[k] ?? k;
+
+/* ---------------------------------------------------------------- iconos (los del overlay) */
+const ICO = {
+  rayo: '<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>', llama: '<path d="M12 3c2 4 6 5 6 10a6 6 0 0 1-12 0c0-3 2-4 2-7 2 1 3 3 4-3z"/>',
+  escudo: '<path d="M12 3 5 6v6c0 4.5 3 7.5 7 9 4-1.5 7-4.5 7-9V6z"/><path d="M9 12l2 2 4-4"/>',
+  giro: '<path d="M4 12a8 8 0 0 1 14-5M20 12a8 8 0 0 1-14 5"/><path d="M18 3v4h-4M6 21v-4h4"/>',
+  roto: '<path d="M12 3 5 6v6c0 4.5 3 7.5 7 9 4-1.5 7-4.5 7-9V6z"/><path d="M10 8l3 4-2 1 3 4"/>',
+  bolas: '<circle cx="7" cy="12" r="3"/><circle cx="17" cy="12" r="3"/>',
+  estrella: '<path d="M12 2l2.5 6.5L21 9l-5 4.5L17.5 21 12 17l-5.5 4L8 13.5 3 9l6.5-.5z"/>',
+  espadas: '<path d="M14.5 17.5 3 6V3h3l11.5 11.5M13 19l6-6M16 16l4 4M19 21l2-2"/>',
+  copa: '<path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0zM7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3"/>',
+  barras: '<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>', crono: '<circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/>',
+  mareo: '<path d="M12 4a8 8 0 1 0 8 8"/><path d="M12 8a4 4 0 1 0 4 4"/><circle cx="12" cy="12" r="1"/>',
+  combo: '<path d="M4 18l4-6 4 3 4-7 4 5"/>',
+  puno: '<path d="M7 11V7a2 2 0 0 1 4 0v4M11 9a2 2 0 0 1 4 0v2M15 10a2 2 0 0 1 4 0v4a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6v-2a2 2 0 0 1 4 0"/>',
+  primero: '<path d="M5 21V4M5 4h12l-3 4 3 4H5"/>', sube: '<path d="M4 18l6-6 4 4 6-7"/><path d="M15 9h5v5"/>',
+  corazon: '<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
+  corona: '<path d="M3 8l4 4 5-7 5 7 4-4-2 11H5z"/>', cuadro: '<rect x="5" y="5" width="14" height="14" rx="2"/>',
+  reloj: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>', capas: '<path d="M12 3 2 8l10 5 10-5zM2 13l10 5 10-5"/>',
+  compartir: '<path d="M12 3v12M7 8l5-5 5 5M5 14v6h14v-6"/>', tiempo: '<path d="M3 3h18v18H3z"/><path d="M8 12h8M12 8v8"/>',
+};
+const svg = (k, color) => `<svg viewBox="0 0 24 24" fill="none" stroke="${color || "currentColor"}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICO[k] || ""}</svg>`;
+// momentos de la línea de tiempo → icono y color (los mismos que la tarjeta de combate)
+const EV = { ronda: ["corona", "#ffcb45"], super: ["rayo", "#ffd23f"], combo: ["combo", "#ff8a5c"], mareo: ["mareo", "#8b93ff"],
+             perfect: ["estrella", "#ffb84d"], remontada: ["sube", "#2fd6d0"], doble_ko: ["cuadro", "#9aa6c4"] };
+
+/* ---------------------------------------------------------------- tarjetas (sólo lo que mide cada juego) */
+// [clave, icono, color, valor del set, valor de una pelea, opciones]
+const CARDS = [
+  ["c_dano", "puno", "#ff9aa7", s => s.dano_barras, (r, i) => r.dano_b ? r.dano_b[i] : null, { dec: 1 }],
+  ["c_rondas", "corona", "#ffcb45", s => s.rondas, (r, i) => (r.rondas || [])[i], {}],
+  ["c_timeup", "reloj", "#cfd8f0", s => s.timeup, null, { solo_si: true }],
+  ["c_meter", "bolas", "#3ddc84", s => s.meter_full, null, { dato: "super" }],
+  ["c_supers", "rayo", "#ffd23f", s => s.supers, (r, i) => (r.supers || [])[i], { dato: "super" }],
+  ["c_mareos", "mareo", "#8b93ff", s => s.mareos, (r, i) => (r.mareos || [])[i], { dato: "stun" }],
+  ["c_combos", "combo", "#ff8a5c", s => (s.combos_cartel || s.combos || 0), (r, i) => (r.combos || [])[i], { dato: "combos", juegos: ["ssf2x"] }],
+  ["c_fa", "puno", "#2fd6d0", s => s.first_attack, null, { solo_si: true }],
+  ["c_rev", "giro", "#e070ff", s => s.reversals, null, { solo_si: true }],
+  ["c_contras", "escudo", "#e070ff", s => s.contras, null, { juegos: ["kof98", "kof2002"] }],
+  ["c_esquivas", "giro", "#2fd6d0", s => s.esquivas, null, { juegos: ["kof98", "kof2002"] }],
+  ["c_maxes", "llama", "#ff4d6d", s => s.maxes, null, { juegos: ["kof98", "kof2002"] }],
+  ["c_guardias", "roto", "#8b93ff", s => s.guardias, null, { juegos: ["kof2002"] }],
+  ["c_perfects", "estrella", "#ffb84d", s => s.perfects, (r, i) => (r.perfects || [])[i], {}],
+  ["c_remontada", "sube", "#2fd6d0", s => s.remontada, null, { pct: true, solo_si: true }],
+  ["c_vida", "corazon", "#ff5b71", s => s.vida_al_ganar, null, { pct: true }],
+  ["c_rapida", "crono", "#cfd8f0", s => s.ronda_rapida, null, { seg: true, menor: true }],
+];
+
+let F = null, JUEGO = null, SEL = 0, TAB = "set", REPRO = null, LISTO = false, SIGUE = true;
+const lado = n => n === 1 ? "p1" : n === 2 ? "p2" : "p0";
+const tt = s => mmss(Math.max(0, Math.round(s || 0)));
+const nom = n => ((F.jugadores || [])[n - 1] || {}).nombre || "?";
+const esTO = m => m === "time" || m === "tiempo" || m === "timeup";
+const motivo = m => esTO(m) ? P("to") : m === "doble_ko" ? P("dko") : P("ko");
+
+/* La pelea va de su inicio al final de su última ronda. */
+function tramo(p) {
+  const t0 = p.t || 0;
+  return [t0, Math.max(p.fin || 0, ...(p.rondas || []).map(r => r.fin || 0), t0 + 1)];
+}
+/* daño de una pelea en barras: con la misma proporción que el del set */
+function factorBarras() {
+  const s = (F.stats || [])[0] || {};
+  return s.dano && s.dano_barras ? s.dano_barras / s.dano : null;
+}
+
+/* ---------------------------------------------------------------- cabecera */
+function cabecera() {
+  const j = F.jugadores || [{}, {}], m = F.marcador || [0, 0];
+  const gana = m[0] > m[1] ? 1 : m[1] > m[0] ? 2 : 0;
+  const pl = i => {
+    const x = j[i] || {}, n = i + 1;
+    return `<div class="sx-pl ${lado(n)}${gana === n ? " gana" : ""}"><div class="n">${bandera(x.pais)}<span>${esc(x.nombre || "?")}</span></div>
+      <div class="m">${x.rango_letra ? rango(x.rango_letra) : ""}${esc((x.equipo && x.equipo.length ? x.equipo : (x.personajes || [])).slice(0, 3).join(" · "))}</div></div>`;
+  };
+  const jn = JUEGO ? (JUEGO.nombre_completo || JUEGO.nombre) : (F.juego_nombre || "");
+  const cl = (j[0] || {}).clave || "ryu";
+  return `<div class="sx-top">
+    <div class="sx-juego"><img class="ic" src="assets/chars/${esc(cl)}.png" alt="" onerror="this.style.visibility='hidden'">
+      <div><b>${esc(jn)}${JUEGO ? `<span class="chapa">${esc(JUEGO.corto)}</span>` : ""}</b>
+      <small>${esc(fechaCorta(F.fecha))} · ${tt(F.duracion)}${F.ft ? " · FT" + F.ft : ""}</small></div></div>
+    <div class="sx-duelo">${pl(0)}<div class="sx-marc"><b><span class="${gana === 1 ? "g" : ""}">${m[0]}</span> - <span class="${gana === 2 ? "g" : ""}">${m[1]}</span></b><small>${F.ft ? "FT" + F.ft : ""}</small></div>${pl(1)}</div>
+    <div class="sx-acc"><button type="button" class="btn" id="sx-comp">${svg("compartir")} ${esc(P("compartir"))}</button>
+      ${F.youtube ? `<a class="btn" href="https://youtu.be/${esc(F.youtube)}" target="_blank" rel="noopener">▶ ${esc(P("yt"))} ↗</a>` : ""}</div></div>`;
+}
+
+/* ---------------------------------------------------------------- peleas y resumen */
+function listaPeleas() {
+  return (F.peleas || []).map((p, k) => {
+    const rs = p.rondas || [], a = rs.filter(r => r.ganador === 1).length, b = rs.filter(r => r.ganador === 2).length;
+    const cl = p.claves || [], pj = p.personajes || [];
+    return `<button type="button" class="sx-fp${k === SEL ? " sel" : ""}" data-p="${k}">
+      <span class="k">${p.n || k + 1}</span>
+      <img class="${p.ganador === 1 ? "g" : ""}" src="assets/chars/${esc(cl[0] || "ryu")}.png" alt="" onerror="this.style.visibility='hidden'">
+      <span class="pj">${esc(pj[0] || "")}<i>vs</i>${esc(pj[1] || "")}</span>
+      <img class="${p.ganador === 2 ? "g" : ""}" src="assets/chars/${esc(cl[1] || "ryu")}.png" alt="" onerror="this.style.visibility='hidden'">
+      <span class="rs"><span class="${p.ganador === 1 ? "w1" : ""}">${a}</span>-<span class="${p.ganador === 2 ? "w2" : ""}">${b}</span></span></button>`;
+  }).join("");
+}
+
+function resumen() {
+  const ps = F.peleas || [], g1 = ps.filter(p => p.ganador === 1).length, g2 = ps.filter(p => p.ganador === 2).length;
+  const tot = Math.max(1, g1 + g2), C = 2 * Math.PI * 42;
+  const arco = (v, off, col) => `<circle cx="50" cy="50" r="42" fill="none" stroke="${col}" stroke-width="11" stroke-dasharray="${(v / tot * C).toFixed(1)} ${C.toFixed(1)}" stroke-dashoffset="${(-off / tot * C).toFixed(1)}"/>`;
+  const rondas = ps.reduce((a, p) => a + (p.rondas || []).length, 0);
+  const durP = ps.length ? ps.reduce((a, p) => { const [t0, t1] = tramo(p); return a + (t1 - t0); }, 0) / ps.length : 0;
+  return `<div class="sx-res"><div class="sx-dona"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" fill="none" stroke="#1d2436" stroke-width="11"/>
+      ${arco(g1, 0, "#ff3d57")}${arco(g2, g1, "#37c8ff")}</svg><div><span><b>${ps.length}</b><small>${esc(P("npeleas"))}</small></span></div></div>
+    <div class="sx-vic"><h4>${esc(P("victorias"))}</h4><p><i style="background:#ff3d57"></i>${esc(nom(1))}<b>${g1}</b></p><p><i style="background:#37c8ff"></i>${esc(nom(2))}<b>${g2}</b></p></div>
+    <div class="sx-dat"><div>${svg("reloj")}<span><small>${esc(P("dur_total"))}</small><b>${tt(F.duracion)}</b></span></div>
+      <div>${svg("capas")}<span><small>${esc(P("rondas_tot"))}</small><b>${rondas}</b></span></div>
+      <div>${svg("crono")}<span><small>${esc(P("prom"))}</small><b>${tt(durP)}</b></span></div></div></div>`;
+}
+
+/* ---------------------------------------------------------------- línea de tiempo de la pelea elegida */
+function lineaTiempo() {
+  const p = (F.peleas || [])[SEL];
+  if (!p) return "";
+  const [t0, t1] = tramo(p), D = t1 - t0;
+  const pos = t => ((Math.min(Math.max(t, t0), t1) - t0) / D * 100).toFixed(2) + "%";
+  const rs = p.rondas || [];
+  const usados = new Set();
+  const chips = rs.map(r => `<button type="button" class="sx-rd" data-t="${r.t || t0}" data-r="${r.n}">
+      <span class="rk w${r.ganador || 0}">R${r.n}</span><span><small>${esc(P("ronda"))} ${r.n} · ${esc(motivo(r.motivo))}</small>
+      <b>${tt((r.t || t0) - t0)} - ${tt((r.fin || r.t || t0) - t0)}</b></span></button>`).join("");
+  // momentos de esta pelea, cada uno en el carril de quien lo hizo; la corona = ronda ganada
+  const evs = { 1: [], 2: [] };
+  rs.forEach(r => { if (r.ganador === 1 || r.ganador === 2) evs[r.ganador].push({ t: r.fin || r.t, tipo: r.perfect ? "perfect" : "ronda", r }); });
+  (F.momentos || []).filter(e => e.t >= t0 - 0.5 && e.t <= t1 + 0.5 && e.tipo !== "ko" && e.tipo !== "perfect")
+    .forEach(e => { const n = e.jugador === 2 ? 2 : 1; evs[n].push({ t: e.t, tipo: e.tipo }); });
+  const carril = n => {
+    const tramos = rs.map(r => {
+      const a = r.t || t0, b = r.fin || a;
+      return `<span class="sx-tramo${r.ganador === n ? " gan " + lado(n) : ""}" style="left:${pos(a)};width:${((b - a) / D * 100).toFixed(2)}%"></span>`;
+    }).join("");
+    let ult = -99;
+    const ics = evs[n].sort((x, y) => x.t - y.t).map(e => {
+      const [ic, c] = EV[e.tipo] || ["primero", "#9aa6c4"];
+      usados.add(e.tipo === "perfect" ? "perfect" : e.tipo);
+      const x = (Math.min(Math.max(e.t, t0), t1) - t0) / D * 100, alto = x - ult < 2.2;
+      ult = alto ? ult : x;
+      const tip = e.r ? `${P("ronda")} ${e.r.n} · ${nom(n)} · ${motivo(e.r.motivo)}${e.r.perfect ? " · " + P("e_perfect") : ""}`
+                      : `${P("e_" + e.tipo)} · ${nom(n)} · ${tt(e.t - t0)}`;
+      return `<button type="button" class="sx-ev${alto ? " alto" : ""}" style="left:${x.toFixed(2)}%;--c:${c}" data-t="${esc(tip)}" data-ir="${Math.max(0, e.t - 3)}" aria-label="${esc(tip)}">${svg(ic)}</button>`;
+    }).join("");
+    return `<div class="sx-carril"><span class="sx-quien ${lado(n)}">${esc(nom(n))}</span><div class="sx-pista ${lado(n)}" data-n="${n}">${tramos}${ics}</div></div>`;
+  };
+  const carriles = carril(1) + carril(2);       // primero: así la leyenda sabe qué iconos salieron
+  const paso = D > 240 ? 60 : D > 100 ? 30 : 15;
+  let eje = "";
+  for (let s = 0; s <= D; s += paso) eje += `<span style="left:${(s / D * 100).toFixed(2)}%">${tt(s)}</span>`;
+  const ley = ["ronda", "perfect", "super", "combo", "mareo", "remontada", "doble_ko"].filter(k => usados.has(k))
+    .map(k => `<span>${svg(EV[k][0], EV[k][1])}${esc(P("e_" + k))}</span>`).join("");
+  // vista rápida de la pelea: barras espejo con su resumen
+  const res = p.resumen || {}, fb = factorBarras(), d = F.datos || {};
+  const filasR = [["c_dano", (res.dano || []).map(v => fb ? v * fb : v)], ["c_supers", d.super === false ? null : res.supers],
+                  ["c_combos", d.combos === false && JUEGO && JUEGO.id !== "ssf2x" ? null : res.combos], ["c_mareos", d.stun === false ? null : res.mareos],
+                  ["c_perfects", res.perfects], ["c_rondas", res.rondas]]
+    .filter(([, v]) => v && (v[0] || v[1])).map(([k, v]) => {
+      const mx = Math.max(v[0], v[1]) || 1;
+      return `<div><span>${esc(P(k).replace(/ \(.*\)/, ""))}</span><i class="a" style="width:${(v[0] / mx * 100).toFixed(0)}%"></i><i class="b" style="width:${(v[1] / mx * 100).toFixed(0)}%"></i></div>`;
+    }).join("");
+  return `<section class="sx-caja"><h2 class="sx-tit">${svg("crono")}${esc(P("linea"))} · ${esc(P("pelea"))} ${p.n || SEL + 1}<span class="sp"></span>
+      <small style="font:500 12px var(--font);color:var(--dim)">${esc(P("pulsa"))}</small></h2>
+    <div class="sx-tl"><div class="sx-tl-main"><div class="sx-rds">${chips}</div>
+      <div class="sx-pistas" id="sx-pistas">${carriles}<span class="sx-cab" id="sx-cab"></span></div>
+      <div class="sx-eje">${eje}</div></div>
+      <div class="sx-lado"><div><h5 style="margin:0 0 8px;font:700 13px var(--font);color:#fff">${esc(P("ley"))}</h5><div class="sx-ley">${ley}</div></div>
+        <div class="sx-rap"><h5>${esc(P("rapida"))}</h5>${filasR}</div></div></div></section>`;
+}
+
+/* ---------------------------------------------------------------- estadísticas (set o pelea) */
+function tarjetas() {
+  const s = F.stats || [{}, {}], d = F.datos || {}, jid = JUEGO ? JUEGO.id : "", kof = /kof/.test(F.juego || "");
+  const p = (F.peleas || [])[SEL] || {}, res = Object.assign({}, p.resumen || {});
+  const fb = factorBarras();
+  if (res.dano && fb) res.dano_b = res.dano.map(v => v * fb);
+  const dePelea = TAB === "pelea";
+  const cards = CARDS.filter(([k, ic, col, vs, vp, op]) => {
+    if (dePelea && !vp) return false;
+    const val = i => dePelea ? +(vp(res, i) || 0) : +(vs(s[i] || {}) || 0);
+    const a = val(0), b = val(1);
+    if (op.dato && d[op.dato] === false && !(op.juegos || []).includes(jid) && !(a || b)) return false;
+    if (op.juegos && !op.juegos.includes(jid) && !op.dato && !(a || b)) return false;
+    if (op.solo_si && !(a || b)) return false;
+    return true;
+  }).map(([k, ic, col, vs, vp, op]) => {
+    const val = i => dePelea ? +(vp(res, i) || 0) : +(vs(s[i] || {}) || 0);
+    const a = val(0), b = val(1);
+    const fmt = v => (op.menor && !v) ? "—" : op.dec ? v.toFixed(op.dec) : op.pct ? v + "%" : op.seg ? v + "s" : String(Math.round(v));
+    const mx = Math.max(a, b) || 1;
+    const w = v => op.menor ? (v ? Math.min(a || Infinity, b || Infinity) / v * 100 : 0) : v / mx * 100;
+    const la = op.menor ? (a && (!b || a < b)) : a > b, lb = op.menor ? (b && (!a || b < a)) : b > a;
+    const et = k === "c_meter" && kof ? P("c_meter_k") : P(k);
+    return `<div class="sx-card"><h4>${svg(ic, col)}${esc(et)}</h4>
+      <div class="fl a${la ? " lider" : ""}"><span>${esc(nom(1))}</span><b>${fmt(a)}</b><i><em style="width:${w(a).toFixed(1)}%"></em></i></div>
+      <div class="fl b${lb ? " lider" : ""}"><span>${esc(nom(2))}</span><b>${fmt(b)}</b><i><em style="width:${w(b).toFixed(1)}%"></em></i></div></div>`;
+  }).join("");
+  const n = p.n || SEL + 1;
+  return `<section class="sx-caja"><h2 class="sx-tit">${svg("barras")}${esc(P("stats"))}</h2>
+    <div class="sx-tabs" role="tablist"><button type="button" role="tab" data-tab="set" aria-selected="${!dePelea}">${esc(P("tab_set"))}</button>
+      <button type="button" role="tab" data-tab="pelea" aria-selected="${dePelea}">${esc(P("tab_pelea").replace("%s", n))}</button></div>
+    <div class="sx-cards">${cards}</div>
+    <a class="sx-mas" href="video.html?q=${encodeURIComponent(F.quark)}">${esc(P("todos"))} →</a></section>`;
+}
+
+/* ---------------------------------------------------------------- análisis detallado */
+function rachaMax(seq, n) { let m = 0, c = 0; seq.forEach(w => { c = w === n ? c + 1 : 0; m = Math.max(m, c); }); return m; }
+function detallado() {
+  const ps = F.peleas || [], fb = factorBarras(), s = F.stats || [{}, {}];
+  // daño por pelea
+  const danos = ps.map(p => ((p.resumen || {}).dano || [0, 0]).map(v => fb ? v * fb : v));
+  const mx = Math.max(0.01, ...danos.flat());
+  const barras = danos.map(([a, b]) => `<div class="gr"><i class="a" style="height:${(a / mx * 100).toFixed(1)}%" title="${a.toFixed(1)}"></i><i class="b" style="height:${(b / mx * 100).toFixed(1)}%" title="${b.toFixed(1)}"></i></div>`).join("");
+  const xs = ps.map(p => `<span>P${p.n}</span>`).join("");
+  // rondas ganadas en %
+  const rondas = ps.flatMap(p => (p.rondas || []).map(r => r.ganador));
+  const tot = rondas.length || 1, r1 = rondas.filter(w => w === 1).length, r2 = rondas.filter(w => w === 2).length;
+  const C = 2 * Math.PI * 40;
+  const anillo = (v, col, n) => `<div class="sx-anillo"><div class="o"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="#1d2436" stroke-width="9"/>
+      <circle cx="50" cy="50" r="40" fill="none" stroke="${col}" stroke-width="9" stroke-linecap="round" stroke-dasharray="${(v / tot * C).toFixed(1)} ${C.toFixed(1)}"/></svg>
+      <div><span><b>${Math.round(v / tot * 100)}%</b><small>${v}/${tot}</small></span></div></div><p style="color:${col}">${esc(nom(n))}</p></div>`;
+  // rachas (de lo que pasó, ronda a ronda y pelea a pelea)
+  const pel = ps.map(p => p.ganador);
+  const fila = (ic, col, et, a, b) => `<div>${svg(ic, col)}<span>${esc(et)}</span><b class="a">${a}</b><b class="b">${b}</b></div>`;
+  const rach = fila("corona", "#ffcb45", P("r_rondas"), rachaMax(rondas, 1), rachaMax(rondas, 2)) +
+               fila("copa", "#d39a62", P("r_peleas"), rachaMax(pel, 1), rachaMax(pel, 2));
+  // mejores marcas
+  const dpr = i => { const x = s[i] || {}; return x.rondas_jugadas ? (x.dano_barras / x.rondas_jugadas).toFixed(2) : "—"; };
+  const marcas = fila("puno", "#ff9aa7", P("m_dpr"), dpr(0), dpr(1)) +
+    ((s[0] || {}).golpe_max_barras != null ? fila("rayo", "#ffd23f", P("m_golpe"), (+s[0].golpe_max_barras || 0).toFixed(2), (+(s[1] || {}).golpe_max_barras || 0).toFixed(2)) : "") +
+    fila("crono", "#cfd8f0", P("m_rapida"), s[0].ronda_rapida ? s[0].ronda_rapida + "s" : "—", (s[1] || {}).ronda_rapida ? s[1].ronda_rapida + "s" : "—") +
+    fila("sube", "#2fd6d0", P("m_remontada"), (s[0].remontada || 0) + "%", ((s[1] || {}).remontada || 0) + "%");
+  // historial
+  const hist = ps.map(p => {
+    const rs = p.rondas || [], a = rs.filter(r => r.ganador === 1).length, b = rs.filter(r => r.ganador === 2).length;
+    return `<div><b>P${p.n}</b><b>${a} - ${b}</b><span><i style="background:${p.ganador === 1 ? "#ff3d57" : p.ganador === 2 ? "#37c8ff" : "#4b5468"}"></i>${esc(p.ganador ? nom(p.ganador) : "—")}</span></div>`;
+  }).join("");
+  return `<section class="sx-caja sx-det"><h2 class="sx-tit">${svg("rayo")}${esc(P("det"))}</h2><div class="sx-det-g">
+    <div class="sx-sub"><h4>${esc(P("evo"))}</h4><div class="sx-barras">${barras}</div><div class="sx-barras-x">${xs}</div>
+      <div class="sx-ley2"><span><i style="background:#ff3d57"></i>${esc(nom(1))}</span><span><i style="background:#37c8ff"></i>${esc(nom(2))}</span></div></div>
+    <div class="sx-sub"><h4>${esc(P("pct"))}</h4><div class="sx-anillos">${anillo(r1, "#ff5b71", 1)}${anillo(r2, "#4cc3ff", 2)}</div></div>
+    <div class="sx-sub"><h4>${esc(P("rachas"))}</h4><div class="sx-tabla">${rach}</div></div>
+    <div class="sx-sub"><h4>${esc(P("marcas"))}</h4><div class="sx-tabla">${marcas}</div></div>
+    <div class="sx-sub sx-hist"><h4>${esc(P("hist"))}</h4>${hist}</div></div></section>`;
+}
+
+/* ---------------------------------------------------------------- vídeo (API de YouTube, como la ficha) */
+function cargaApi() {
+  if (window.YT && window.YT.Player) return Promise.resolve();
+  return new Promise(res => {
+    window.onYouTubeIframeAPIReady = res;
+    const sc = document.createElement("script");
+    sc.src = "https://www.youtube.com/iframe_api"; sc.onerror = () => res();
+    document.head.appendChild(sc); setTimeout(res, 6000);
+  });
+}
+function salta(t) {
+  t = Math.max(0, t);
+  if (REPRO && LISTO && REPRO.seekTo) { REPRO.seekTo(t, true); REPRO.playVideo(); }
+  else if (F.youtube) window.open(`https://youtu.be/${F.youtube}?t=${Math.floor(t)}`, "_blank", "noopener");
+}
+function video() {
+  const vc = typeof videoCanal === "function" ? videoCanal(F.youtube) : null;
+  const privado = vc && vc.privacidad && vc.privacidad !== "public";
+  if (!F.youtube) return `<div class="sx-video"><div class="aviso">${esc(P("sin_video"))}</div></div>`;
+  if (privado) return `<div class="sx-video"><div class="aviso">${esc(P("privado"))}</div></div>`;
+  return `<div class="sx-video"><div id="yt"></div></div>`;
+}
+function montaVideo() {
+  if (!document.getElementById("yt") || REPRO) return;
+  cargaApi().then(() => {
+    if (!window.YT || !window.YT.Player || !document.getElementById("yt")) return;
+    REPRO = new YT.Player("yt", { videoId: F.youtube, host: "https://www.youtube-nocookie.com",
+      playerVars: { rel: 0, modestbranding: 1 }, events: { onReady: () => { LISTO = true; } } });
+  });
+}
+// la marca amarilla sigue al vídeo; si el vídeo entra en otra pelea, la lista y la línea la siguen
+setInterval(() => {
+  if (!F || !REPRO || !LISTO || typeof REPRO.getCurrentTime !== "function") return;
+  const t = REPRO.getCurrentTime(), ps = F.peleas || [];
+  const k = ps.findIndex(p => { const [a, b] = tramo(p); return t >= a - 1 && t <= b + 4; });
+  if (k >= 0 && k !== SEL && SIGUE && REPRO.getPlayerState && REPRO.getPlayerState() === 1) { SEL = k; pintaDinamico(); }
+  const cab = $("#sx-cab"), p = ps[SEL];
+  if (!cab || !p) return;
+  const [a, b] = tramo(p);
+  if (t < a || t > b) { cab.style.display = "none"; return; }
+  const pistas = $("#sx-pistas"), x0 = pistas.querySelector(".sx-pista").offsetLeft, w = pistas.querySelector(".sx-pista").offsetWidth;
+  cab.style.display = "block"; cab.style.left = (x0 + (t - a) / (b - a) * w) + "px"; cab.dataset.t = tt(t - a);
+  document.querySelectorAll(".sx-rd").forEach(c => { const r = (p.rondas || [])[+c.dataset.r - 1] || {}; c.classList.toggle("act", t >= (r.t || 0) && t <= (r.fin || 0)); });
+}, 250);
+
+/* ---------------------------------------------------------------- montar y eventos */
+function pintaDinamico() {
+  $("#sx-lista").innerHTML = listaPeleas();
+  $("#sx-tl").innerHTML = lineaTiempo();
+  $("#sx-stats").innerHTML = tarjetas();
+}
+function pinta() {
+  document.documentElement.lang = LANG;
+  textosCabecera(); pintaPie();
+  if (!F) return;
+  JUEGO = JUEGOS.find(x => (x.gameids || []).includes(F.juego)) || null;
+  document.title = `${nom(1)} vs ${nom(2)} · replayLab`;
+  const yaVideo = REPRO && document.getElementById("sx-video");
+  const vid = yaVideo ? null : video();
+  const html = `<div class="sx-wrap">${cabecera()}
+    <div class="sx-grid">
+      <section class="sx-caja sx-peleas"><h2 class="sx-tit">${svg("espadas")}${esc(P("peleas"))}</h2><div class="sx-lista" id="sx-lista"></div></section>
+      <section class="sx-caja sx-resumen"><h2 class="sx-tit">${svg("capas")}${esc(P("resumen"))}</h2>${resumen()}</section>
+      <div class="sx-centro"><div id="sx-video">${vid || ""}</div><div id="sx-tl"></div></div>
+      <div class="sx-stats" id="sx-stats"></div>
+    </div>${detallado()}</div>`;
+  if (yaVideo) {                       // al cambiar de idioma no se rehace el reproductor
+    const v = document.getElementById("sx-video"); v.remove();
+    $("#sx").innerHTML = html; $("#sx-video").replaceWith(v);
+  } else { $("#sx").innerHTML = html; }
+  pintaDinamico();
+  montaVideo();
+}
+document.addEventListener("click", e => {
+  const fp = e.target.closest(".sx-fp");
+  if (fp) { SEL = +fp.dataset.p; SIGUE = false; pintaDinamico(); salta(tramo(F.peleas[SEL])[0]); setTimeout(() => { SIGUE = true; }, 4000); return; }
+  const ev = e.target.closest(".sx-ev");
+  if (ev) { salta(+ev.dataset.ir); return; }
+  const rd = e.target.closest(".sx-rd");
+  if (rd) { salta(+rd.dataset.t); return; }
+  const pista = e.target.closest(".sx-pista");
+  if (pista) {
+    const p = F.peleas[SEL], [a, b] = tramo(p), r = pista.getBoundingClientRect();
+    salta(a + (e.clientX - r.left) / r.width * (b - a)); return;
+  }
+  const tab = e.target.closest(".sx-tabs [data-tab]");
+  if (tab) { TAB = tab.dataset.tab; $("#sx-stats").innerHTML = tarjetas(); return; }
+  if (e.target.closest("#sx-comp")) {
+    const url = location.href.split("#")[0];
+    if (navigator.share) navigator.share({ title: document.title, url }).catch(() => {});
+    else { try { navigator.clipboard.writeText(url); } catch (err) {} e.target.closest("#sx-comp").textContent = "✓ " + P("copiado"); }
+  }
+});
+
+montaCabecera("juegos", pinta);
+const QK = (Q.get("q") || "").replace(/[^0-9A-Za-z_-]/g, "");
+Promise.all([cargaBase(), json(`datos/${QK}.json`).then(d => { F = d; }).catch(() => {})])
+  .then(() => { if (!F) $("#sx").innerHTML = `<div class="sx-wrap"><p class="vacio">${esc(P("sin"))}</p></div>`; pinta(); });
+</script>
+</body>
+</html>

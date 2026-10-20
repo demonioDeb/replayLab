@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Partida · replayLab">
 <meta name="twitter:description" content="Una partida de Fightcade analizada: rondas, daño, tiempos y momentos, leídos de la propia partida.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=32961d5c17">
+<link rel="stylesheet" href="assets/estilo.css?v=a40e9bcbe0">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -48,7 +48,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=b51c2a2c3e"></script>
+<script src="assets/app.js?v=cb4fe05d62"></script>
 <script>
 "use strict";
 let F = null, REPRO = null, LISTO = false;
@@ -769,9 +769,12 @@ function pintaMiga() {
   el.innerHTML = `<a href="./">${esc(T("n_inicio"))}</a><span>›</span>
     <a href="juegos.html">${esc(T("n_juegos"))}</a><span>›</span>
     ${j ? `<a href="${hrefJuego(j)}">${esc(j.corto)}</a><span>›</span>` : ""}
-    <b>${esc(a.nombre || "")} vs ${esc(b.nombre || "")}</b>`;
+    <b>${esc(a.nombre || "")} vs ${esc(b.nombre || "")}</b>` +
+    // (20 oct) la vista nueva del set (como el overlay), en pruebas
+    `<a class="miga-nueva" href="partida.html?q=${encodeURIComponent(F.quark || quark)}">✨ ${esc(({ es: "Vista nueva", en: "New view",
+      pt: "Visão nova", fr: "Nouvelle vue", ja: "新しい表示", zh: "新视图" })[LANG] || "Vista nueva")} →</a>`;
 }
-montaCabecera("partidas", pinta);
+montaCabecera("juegos", pinta);
 $("#cargando").textContent = T("cargando");
 const quark = (Q.get("q") || "").replace(/[^0-9A-Za-z_-]/g, "");
 let BASE = false;             // sitio, juegos y canal ya leídos (hace falta para montar el vídeo)
