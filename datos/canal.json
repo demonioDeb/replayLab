@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T05:51:03Z",
+ "actualizado": "2026-10-22T06:16:55Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,32 +7,41 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 33,
  "vistas": 27898,
- "videos": 147,
+ "videos": 149,
  "lista": [
   {
-   "id": "6A5XB72mH2w",
-   "titulo": "The King of Fighters 2002 Plus | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 [SKM] KUNO #shorts",
-   "publicado": "2026-10-22T05:45:47Z",
+   "id": "1zlsLd7xdMo",
+   "titulo": "The King of Fighters 2002 Plus | 🇧🇩 unused vs 🇧🇩 TRAIN123",
+   "publicado": "2026-10-22T06:16:19Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 0,
    "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/6A5XB72mH2w/mqdefault.jpg"
+   "miniatura": "https://i.ytimg.com/vi/1zlsLd7xdMo/mqdefault.jpg"
   },
   {
    "id": "n5k0h014AcE",
    "titulo": "The King of Fighters 2002 Plus | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 [SKM] KUNO",
-   "publicado": "2026-10-22T05:28:53Z",
+   "publicado": "2026-10-22T05:52:35Z",
    "privacidad": "public",
    "vistas": 0,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/n5k0h014AcE/mqdefault.jpg"
   },
   {
+   "id": "6A5XB72mH2w",
+   "titulo": "The King of Fighters 2002 Plus | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 [SKM] KUNO #shorts",
+   "publicado": "2026-10-22T05:45:47Z",
+   "privacidad": "public",
+   "vistas": 2,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/6A5XB72mH2w/mqdefault.jpg"
+  },
+  {
    "id": "LVSXTnMED5c",
    "titulo": "Super Street Fighter II X | 🇫🇷 kyoukai vs 🇫🇷 Balcork #shorts",
    "publicado": "2026-10-20T04:12:38Z",
    "privacidad": "public",
-   "vistas": 580,
+   "vistas": 567,
    "me_gusta": 16,
    "miniatura": "https://i.ytimg.com/vi/LVSXTnMED5c/mqdefault.jpg"
   },
@@ -150,7 +159,7 @@
    "publicado": "2026-10-18T15:26:21Z",
    "privacidad": "public",
    "vistas": 415,
-   "me_gusta": 9,
+   "me_gusta": 10,
    "miniatura": "https://i.ytimg.com/vi/FNHnNpw2wcw/mqdefault.jpg"
   },
   {
@@ -167,7 +176,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇧🇷 ((Caution)) vs 🇹🇷 Sansar #shorts",
    "publicado": "2026-10-18T15:03:54Z",
    "privacidad": "public",
-   "vistas": 678,
+   "vistas": 679,
    "me_gusta": 25,
    "miniatura": "https://i.ytimg.com/vi/Yg779Ef_CZU/mqdefault.jpg"
   },
@@ -451,15 +460,6 @@
    "miniatura": "https://i.ytimg.com/vi/KGew2-Dj4y0/mqdefault.jpg"
   },
   {
-   "id": "p7bTCIdFohE",
-   "titulo": "The King of Fighters '98 | 🇦🇷 DG | Mr Yama vs 🇦🇷 Abel-*CBZ* #shorts",
-   "publicado": "2026-10-16T14:30:40Z",
-   "privacidad": "public",
-   "vistas": 254,
-   "me_gusta": 7,
-   "miniatura": "https://i.ytimg.com/vi/p7bTCIdFohE/mqdefault.jpg"
-  },
-  {
    "id": "KGew2-Dj4y0",
    "titulo": "The King of Fighters '98 | 🇩🇪 a99 vs 🇪🇸 chris24",
    "publicado": "2026-10-16T14:30:56Z",
@@ -467,6 +467,15 @@
    "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/KGew2-Dj4y0/mqdefault.jpg"
+  },
+  {
+   "id": "W_AnK4L6lHY",
+   "titulo": "The King of Fighters '98 | 🇦🇷 DG | Mr Yama vs 🇦🇷 Abel-*CBZ*",
+   "publicado": "2026-10-16T12:30:55Z",
+   "privacidad": "public",
+   "vistas": 6,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/W_AnK4L6lHY/mqdefault.jpg"
   },
   {
    "id": "QUhLjDV4u64",
@@ -681,7 +690,7 @@
    "publicado": "2026-10-11T03:00:43Z",
    "privacidad": "public",
    "vistas": 332,
-   "me_gusta": 0,
+   "me_gusta": 14,
    "miniatura": "https://i.ytimg.com/vi/yj2iMXxF-lE/mqdefault.jpg"
   },
   {
