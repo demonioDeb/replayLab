@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22 21:08",
+ "actualizado": "2026-10-22 21:38",
  "videos": [
   {
    "quark": "1792639806326-5737",
@@ -3578,6 +3578,49 @@
     }
    ],
    "rondas": 8
+  },
+  {
+   "quark": "1683831823536-8980",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2023-05-11",
+   "youtube": "xQQhH9xXxrU",
+   "duracion": 726.0,
+   "marcador": [
+    5,
+    4
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "ChoiBoy",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    },
+    {
+     "nombre": "Fromo",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Blanka",
+     "clave": "blanka",
+     "personajes": [
+      "Blanka"
+     ],
+     "claves": [
+      "blanka"
+     ]
+    }
+   ],
+   "rondas": 22
   },
   {
    "quark": "1680146826140-1141",

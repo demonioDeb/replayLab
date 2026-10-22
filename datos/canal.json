@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T21:08:34Z",
+ "actualizado": "2026-10-22T21:38:07Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -10,13 +10,21 @@
  "videos": 161,
  "lista": [
   {
-   "id": "akl59s21rdM",
-   "titulo": "Super Street Fighter II X | 🇺🇸 Zombie_Damage vs 🇺🇸 znoopyglobal #shorts",
-   "publicado": "2026-10-22T21:05:52Z",
+   "id": "vwH_al_3aP0",
+   "privacidad": "private"
+  },
+  {
+   "id": "xQQhH9xXxrU",
+   "titulo": "Super Street Fighter II X | 🇺🇸 ChoiBoy vs 🇺🇸 Fromo",
+   "publicado": "2026-10-22T21:30:03Z",
    "privacidad": "public",
    "vistas": 0,
    "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/akl59s21rdM/mqdefault.jpg"
+   "miniatura": "https://i.ytimg.com/vi/xQQhH9xXxrU/mqdefault.jpg"
+  },
+  {
+   "id": "akl59s21rdM",
+   "privacidad": "private"
   },
   {
    "id": "CIxbGc2oh6I",
@@ -133,7 +141,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇿🇦 KOFMINISTER vs 🇧🇩 unused #shorts",
    "publicado": "2026-10-22T16:05:59Z",
    "privacidad": "public",
-   "vistas": 24,
+   "vistas": 20,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/qZFiSwmDYkQ/mqdefault.jpg"
   },
@@ -151,7 +159,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 [SKM] KUNO",
    "publicado": "2026-10-22T05:52:35Z",
    "privacidad": "public",
-   "vistas": 8,
+   "vistas": 9,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/n5k0h014AcE/mqdefault.jpg"
   },
@@ -160,8 +168,8 @@
    "titulo": "The King of Fighters 2002 Plus | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 [SKM] KUNO #shorts",
    "publicado": "2026-10-22T05:45:47Z",
    "privacidad": "public",
-   "vistas": 48,
-   "me_gusta": 1,
+   "vistas": 50,
+   "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/6A5XB72mH2w/mqdefault.jpg"
   },
   {
@@ -187,7 +195,7 @@
    "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
    "publicado": "2026-10-19T23:43:24Z",
    "privacidad": "public",
-   "vistas": 12,
+   "vistas": 13,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
   },
@@ -277,7 +285,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Sansar vs 🇧🇷 ((Caution)) #shorts",
    "publicado": "2026-10-18T15:49:00Z",
    "privacidad": "public",
-   "vistas": 2,
+   "vistas": 3,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/u-YZqndV9Mc/mqdefault.jpg"
   },
@@ -417,22 +425,22 @@
    "miniatura": "https://i.ytimg.com/vi/u9WAGq9uJcY/mqdefault.jpg"
   },
   {
-   "id": "Nhao18ZxZzY",
-   "titulo": "The King of Fighters '98 | 🇩🇪 Garam Anday vs 🇧🇷 M@rcio-K@tit@-BR #shorts",
-   "publicado": "2026-10-18T00:22:11Z",
+   "id": "VtSGc38T0W0",
+   "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
+   "publicado": "2026-10-19T23:43:24Z",
    "privacidad": "public",
-   "vistas": 277,
-   "me_gusta": 9,
-   "miniatura": "https://i.ytimg.com/vi/Nhao18ZxZzY/mqdefault.jpg"
+   "vistas": 13,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
   },
   {
-   "id": "GquxxEZTHEM",
-   "titulo": "The King of Fighters '98 | 🇩🇪 Super Champ vs 🇧🇷 barbearialororugal #shorts",
-   "publicado": "2026-10-17T22:57:06Z",
+   "id": "u9WAGq9uJcY",
+   "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john #shorts",
+   "publicado": "2026-10-18T02:38:17Z",
    "privacidad": "public",
-   "vistas": 433,
-   "me_gusta": 7,
-   "miniatura": "https://i.ytimg.com/vi/GquxxEZTHEM/mqdefault.jpg"
+   "vistas": 779,
+   "me_gusta": 21,
+   "miniatura": "https://i.ytimg.com/vi/u9WAGq9uJcY/mqdefault.jpg"
   },
   {
    "id": "Nhao18ZxZzY",
