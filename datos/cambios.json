@@ -2,6 +2,20 @@
  "nota": "Resumen por día de lo que se hizo y lo que se descubrió. Lo escribe a mano quien trabaja en el proyecto; no se genera solo. Cada cambio lleva 'area': 'web' (lo que se ve en replayLab) y/o 'juego' (overlay, grabación, lo descubierto del juego, YouTube), y 'juego' con el id de datos/juegos.json (o una lista de ids si el cambio vale para varios juegos). cambios.html tiene una pestaña por juego.",
  "dias": [
   {
+   "fecha": "2026-10-22",
+   "cambios": [
+    {
+     "t": "nuevo",
+     "area": [
+      "web",
+      "juego"
+     ],
+     "juego": "kf2k2pls",
+     "es": "KOF 2002 Plus ya está activo: sus sets se graban con overlay, se suben a YouTube y salen aquí, con su lista y su canal en Discord."
+    }
+   ]
+  },
+  {
    "fecha": "2026-10-20",
    "cambios": [
     {

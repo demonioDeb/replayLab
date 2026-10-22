@@ -182,6 +182,21 @@
    "nombre_completo": "The King of Fighters 2002",
    "desbloqueado": "2026-10-15",
    "retrato": "kof2002_kyo"
+  },
+  {
+   "id": "kf2k2pls",
+   "nombre": "The King of Fighters 2002 Plus",
+   "subtitulo": "Challenge to Ultimate Battle",
+   "corto": "KOF 2002+",
+   "gameids": [
+    "kf2k2pls"
+   ],
+   "anio": 2002,
+   "compania": "Eolith / Playmore",
+   "estado": "activo",
+   "nombre_completo": "The King of Fighters 2002 Plus",
+   "desbloqueado": "2026-10-22",
+   "retrato": "kof2002_iori"
   }
  ]
 }
