@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T21:49:26Z",
+ "actualizado": "2026-10-22T22:36:42Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,8 +7,21 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 33,
  "vistas": 28063,
- "videos": 161,
+ "videos": 162,
  "lista": [
+  {
+   "id": "0QRvD5JrqMA",
+   "privacidad": "private"
+  },
+  {
+   "id": "I5B9j4Eh8x4",
+   "titulo": "The King of Fighters 2002 | 🇲🇽 Drinkteam-john vs 🇺🇸 [SKM] [P] POLLO",
+   "publicado": "2026-10-22T22:24:01Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/I5B9j4Eh8x4/mqdefault.jpg"
+  },
   {
    "id": "vwH_al_3aP0",
    "privacidad": "private"
@@ -141,7 +154,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇿🇦 KOFMINISTER vs 🇧🇩 unused #shorts",
    "publicado": "2026-10-22T16:05:59Z",
    "privacidad": "public",
-   "vistas": 25,
+   "vistas": 24,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/qZFiSwmDYkQ/mqdefault.jpg"
   },
@@ -159,7 +172,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 [SKM] KUNO",
    "publicado": "2026-10-22T05:52:35Z",
    "privacidad": "public",
-   "vistas": 9,
+   "vistas": 8,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/n5k0h014AcE/mqdefault.jpg"
   },
@@ -177,8 +190,8 @@
    "titulo": "Super Street Fighter II X | 🇫🇷 kyoukai vs 🇫🇷 Balcork #shorts",
    "publicado": "2026-10-20T04:12:38Z",
    "privacidad": "public",
-   "vistas": 616,
-   "me_gusta": 17,
+   "vistas": 618,
+   "me_gusta": 18,
    "miniatura": "https://i.ytimg.com/vi/LVSXTnMED5c/mqdefault.jpg"
   },
   {
@@ -195,7 +208,7 @@
    "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
    "publicado": "2026-10-19T23:43:24Z",
    "privacidad": "public",
-   "vistas": 13,
+   "vistas": 17,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
   },
@@ -407,6 +420,15 @@
    "miniatura": "https://i.ytimg.com/vi/kvdjhZSWWIw/mqdefault.jpg"
   },
   {
+   "id": "VtSGc38T0W0",
+   "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
+   "publicado": "2026-10-19T23:43:24Z",
+   "privacidad": "public",
+   "vistas": 17,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
+  },
+  {
    "id": "Bx9lXYLaMCY",
    "titulo": "Street Fighter II' Champion Edition | 🇧🇷 MiBSF2CE-TV vs 🇺🇸 DJILK #shorts",
    "publicado": "2026-10-18T04:06:33Z",
@@ -414,24 +436,6 @@
    "vistas": 253,
    "me_gusta": 7,
    "miniatura": "https://i.ytimg.com/vi/Bx9lXYLaMCY/mqdefault.jpg"
-  },
-  {
-   "id": "u9WAGq9uJcY",
-   "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john #shorts",
-   "publicado": "2026-10-18T02:38:17Z",
-   "privacidad": "public",
-   "vistas": 779,
-   "me_gusta": 21,
-   "miniatura": "https://i.ytimg.com/vi/u9WAGq9uJcY/mqdefault.jpg"
-  },
-  {
-   "id": "VtSGc38T0W0",
-   "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
-   "publicado": "2026-10-19T23:43:24Z",
-   "privacidad": "public",
-   "vistas": 13,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
   },
   {
    "id": "u9WAGq9uJcY",
@@ -468,6 +472,15 @@
    "vistas": 3,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/8akKzQ_ERgg/mqdefault.jpg"
+  },
+  {
+   "id": "7jQZk0S2rmM",
+   "titulo": "Street Fighter II' Champion Edition | 🇧🇷 MiBSF2CE-TV vs 🇺🇸 DJILK",
+   "publicado": "2026-10-17T21:06:39Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/7jQZk0S2rmM/mqdefault.jpg"
   },
   {
    "id": "vk4KxVDCENM",
