@@ -825,49 +825,6 @@
    "rondas": 33
   },
   {
-   "quark": "1792115975858-5169",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-10-16",
-   "youtube": "yePTNdWB1Tk",
-   "duracion": 434.9,
-   "marcador": [
-    3,
-    1
-   ],
-   "peleas": 4,
-   "jugadores": [
-    {
-     "nombre": "MiBSF2CE-TV",
-     "pais": "br",
-     "rango_letra": "S",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    },
-    {
-     "nombre": "thomas_medeiros",
-     "pais": "br",
-     "rango_letra": "B",
-     "personaje": "Ken",
-     "clave": "ken",
-     "personajes": [
-      "Ken"
-     ],
-     "claves": [
-      "ken"
-     ]
-    }
-   ],
-   "rondas": 11
-  },
-  {
    "quark": "1792099199375-9243",
    "juego": "kof2002",
    "juego_nombre": "The King of Fighters 2002",
@@ -3674,6 +3631,49 @@
     }
    ],
    "rondas": 22
+  },
+  {
+   "quark": "1675826442557-1668",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2023-02-08",
+   "youtube": "wqWS9Xsc1Bc",
+   "duracion": 838.5,
+   "marcador": [
+    3,
+    5
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "SuperrV",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Balrog",
+     "clave": "boxer",
+     "personajes": [
+      "Balrog"
+     ],
+     "claves": [
+      "boxer"
+     ]
+    },
+    {
+     "nombre": "_yito2k_",
+     "pais": "mx",
+     "rango_letra": "S",
+     "personaje": "Dhalsim",
+     "clave": "dhalsim",
+     "personajes": [
+      "Dhalsim"
+     ],
+     "claves": [
+      "dhalsim"
+     ]
+    }
+   ],
+   "rondas": 21
   },
   {
    "quark": "1670984364302-7206",
