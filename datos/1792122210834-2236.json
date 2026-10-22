@@ -1,0 +1,2456 @@
+{
+ "version": 8,
+ "quark": "1792122210834-2236",
+ "carpeta": "20261021_SKM_P_POLLO_vs_SKM_KUNO_1792122210834-2236",
+ "juego": "kf2k2pls",
+ "juego_nombre": "The King of Fighters 2002 Plus",
+ "juego_corto": "KOF2002+",
+ "datos": {
+  "super": true,
+  "stun": false,
+  "combos": false,
+  "guardia": true
+ },
+ "fecha": "2026-10-16",
+ "youtube": "n5k0h014AcE",
+ "titulo": "The King of Fighters 2002 Plus | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 [SKM] KUNO",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "[SKM] [P] POLLO",
+   "pais": "us",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Iori · Yamazaki · Kim",
+   "clave": "kof2002_iori",
+   "equipo": [
+    "Iori",
+    "Yamazaki",
+    "Kim"
+   ],
+   "equipo_claves": [
+    "kof2002_iori",
+    "kof2002_yamazaki",
+    "kof2002_kim"
+   ],
+   "personajes": [
+    "Kim",
+    "Iori",
+    "Yamazaki"
+   ],
+   "claves": [
+    "kof2002_kim",
+    "kof2002_iori",
+    "kof2002_yamazaki"
+   ],
+   "swaps": 4,
+   "super": ""
+  },
+  {
+   "nombre": "[SKM] KUNO",
+   "pais": "mx",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Iori · Kula · Kim",
+   "clave": "kof2002_iori",
+   "equipo": [
+    "Iori",
+    "Kula",
+    "Kim"
+   ],
+   "equipo_claves": [
+    "kof2002_iori",
+    "kof2002_kula",
+    "kof2002_kim"
+   ],
+   "personajes": [
+    "Iori",
+    "Kula",
+    "Kim"
+   ],
+   "claves": [
+    "kof2002_iori",
+    "kof2002_kula",
+    "kof2002_kim"
+   ],
+   "swaps": 2,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  3,
+  5
+ ],
+ "duracion": 1199.0,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 6.06,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 6.06,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      102,
+      9
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 91,
+     "remontada": 0,
+     "fin": 37.77,
+     "personajes": [
+      "Kim",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      91,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 43.21,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      102,
+      2
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 98,
+     "remontada": 0,
+     "fin": 72.7,
+     "personajes": [
+      "Kim",
+      "Kula"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_kula"
+     ],
+     "vida_final": [
+      98,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 78.1,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": true,
+     "dano": [
+      0,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 109.5,
+     "personajes": [
+      "Kim",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 4,
+     "t": 115.03,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      53,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 48,
+     "remontada": 23,
+     "fin": 151.37,
+     "personajes": [
+      "Iori",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      0,
+      48
+     ]
+    },
+    {
+     "n": 5,
+     "t": 156.98,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 32,
+     "perfect": false,
+     "dano": [
+      5,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 62,
+     "remontada": 0,
+     "fin": 187.54,
+     "personajes": [
+      "Yamazaki",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_yamazaki",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      0,
+      62
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Kim · Iori · Yamazaki",
+    "Iori · Kula · Kim"
+   ],
+   "claves": [
+    "kof2002_kim",
+    "kof2002_iori"
+   ],
+   "equipos": [
+    [
+     "Kim",
+     "Iori",
+     "Yamazaki"
+    ],
+    [
+     "Iori",
+     "Kula",
+     "Kim"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_kim",
+     "kof2002_iori",
+     "kof2002_yamazaki"
+    ],
+    [
+     "kof2002_iori",
+     "kof2002_kula",
+     "kof2002_kim"
+    ]
+   ],
+   "fin": 187.54,
+   "resumen": {
+    "dano": [
+     262,
+     317
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     3
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 169
+   }
+  },
+  {
+   "n": 2,
+   "t": 205.36,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 205.36,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": false,
+     "dano": [
+      7,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 93,
+     "remontada": 7,
+     "fin": 226.32,
+     "personajes": [
+      "Iori",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      0,
+      93
+     ]
+    },
+    {
+     "n": 2,
+     "t": 232.85,
+     "ganador": 2,
+     "motivo": "time",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      64,
+      75
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 37,
+     "remontada": 20,
+     "fin": 286.35,
+     "personajes": [
+      "Yamazaki",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_yamazaki",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      26,
+      37
+     ]
+    },
+    {
+     "n": 3,
+     "t": 292.89,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 15,
+     "perfect": false,
+     "dano": [
+      50,
+      18
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 82,
+     "remontada": 0,
+     "fin": 308.95,
+     "personajes": [
+      "Kim",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      82,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 314.41,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      102,
+      56
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 45,
+     "remontada": 5,
+     "fin": 343.94,
+     "personajes": [
+      "Kim",
+      "Kula"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_kula"
+     ],
+     "vida_final": [
+      45,
+      0
+     ]
+    },
+    {
+     "n": 5,
+     "t": 350.53,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 27,
+     "perfect": false,
+     "dano": [
+      102,
+      20
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 45,
+     "remontada": 4,
+     "fin": 376.73,
+     "personajes": [
+      "Kim",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      45,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    1
+   ],
+   "personajes": [
+    "Iori · Yamazaki · Kim",
+    "Iori · Kula · Kim"
+   ],
+   "claves": [
+    "kof2002_iori",
+    "kof2002_iori"
+   ],
+   "equipos": [
+    [
+     "Iori",
+     "Yamazaki",
+     "Kim"
+    ],
+    [
+     "Iori",
+     "Kula",
+     "Kim"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_iori",
+     "kof2002_yamazaki",
+     "kof2002_kim"
+    ],
+    [
+     "kof2002_iori",
+     "kof2002_kula",
+     "kof2002_kim"
+    ]
+   ],
+   "fin": 376.73,
+   "resumen": {
+    "dano": [
+     325,
+     271
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     3
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 155
+   }
+  },
+  {
+   "n": 3,
+   "t": 396.74,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 396.74,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 35,
+     "perfect": false,
+     "dano": [
+      102,
+      19
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 81,
+     "remontada": 11,
+     "fin": 429.41,
+     "personajes": [
+      "Kim",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      81,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 434.83,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 24,
+     "perfect": false,
+     "dano": [
+      102,
+      12
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 88,
+     "remontada": 0,
+     "fin": 458.6,
+     "personajes": [
+      "Kim",
+      "Kula"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_kula"
+     ],
+     "vida_final": [
+      88,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 464.42,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 16,
+     "perfect": false,
+     "dano": [
+      102,
+      13
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 87,
+     "remontada": 4,
+     "fin": 481.1,
+     "personajes": [
+      "Kim",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      87,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    1
+   ],
+   "personajes": [
+    "Kim · Iori · Yamazaki",
+    "Iori · Kula · Kim"
+   ],
+   "claves": [
+    "kof2002_kim",
+    "kof2002_iori"
+   ],
+   "equipos": [
+    [
+     "Kim",
+     "Iori",
+     "Yamazaki"
+    ],
+    [
+     "Iori",
+     "Kula",
+     "Kim"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_kim",
+     "kof2002_iori",
+     "kof2002_yamazaki"
+    ],
+    [
+     "kof2002_iori",
+     "kof2002_kula",
+     "kof2002_kim"
+    ]
+   ],
+   "fin": 481.1,
+   "resumen": {
+    "dano": [
+     306,
+     44
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     4,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     0
+    ],
+    "duracion": 75
+   }
+  },
+  {
+   "n": 4,
+   "t": 503.07,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 503.07,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 43,
+     "perfect": false,
+     "dano": [
+      36,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 64,
+     "remontada": 6,
+     "fin": 542.14,
+     "personajes": [
+      "Iori",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      0,
+      64
+     ]
+    },
+    {
+     "n": 2,
+     "t": 547.58,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 18,
+     "perfect": false,
+     "dano": [
+      14,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 66,
+     "remontada": 0,
+     "fin": 566.65,
+     "personajes": [
+      "Yamazaki",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_yamazaki",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      0,
+      66
+     ]
+    },
+    {
+     "n": 3,
+     "t": 572.03,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 18,
+     "perfect": false,
+     "dano": [
+      12,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 82,
+     "remontada": 12,
+     "fin": 590.53,
+     "personajes": [
+      "Kim",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      0,
+      82
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    2,
+    2
+   ],
+   "personajes": [
+    "Iori · Yamazaki · Kim",
+    "Kim · Kula · Iori"
+   ],
+   "claves": [
+    "kof2002_iori",
+    "kof2002_kim"
+   ],
+   "equipos": [
+    [
+     "Iori",
+     "Yamazaki",
+     "Kim"
+    ],
+    [
+     "Kim",
+     "Kula",
+     "Iori"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_iori",
+     "kof2002_yamazaki",
+     "kof2002_kim"
+    ],
+    [
+     "kof2002_kim",
+     "kof2002_kula",
+     "kof2002_iori"
+    ]
+   ],
+   "fin": 590.53,
+   "resumen": {
+    "dano": [
+     62,
+     306
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     3
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     3
+    ],
+    "duracion": 79
+   }
+  },
+  {
+   "n": 5,
+   "t": 607.23,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 607.23,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 24,
+     "perfect": false,
+     "dano": [
+      102,
+      23
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 77,
+     "remontada": 13,
+     "fin": 631.16,
+     "personajes": [
+      "Iori",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      77,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 636.64,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 20,
+     "perfect": false,
+     "dano": [
+      41,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 59,
+     "remontada": 17,
+     "fin": 658.57,
+     "personajes": [
+      "Iori",
+      "Kula"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_kula"
+     ],
+     "vida_final": [
+      0,
+      59
+     ]
+    },
+    {
+     "n": 3,
+     "t": 664.16,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 10,
+     "perfect": true,
+     "dano": [
+      89,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 675.61,
+     "personajes": [
+      "Yamazaki",
+      "Kula"
+     ],
+     "claves": [
+      "kof2002_yamazaki",
+      "kof2002_kula"
+     ],
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 683.48,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 23,
+     "perfect": true,
+     "dano": [
+      0,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 707.59,
+     "personajes": [
+      "Yamazaki",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_yamazaki",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 5,
+     "t": 712.99,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": true,
+     "dano": [
+      102,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 737.4,
+     "personajes": [
+      "Kim",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      100,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    2
+   ],
+   "personajes": [
+    "Iori · Yamazaki · Kim",
+    "Kim · Kula · Iori"
+   ],
+   "claves": [
+    "kof2002_iori",
+    "kof2002_kim"
+   ],
+   "equipos": [
+    [
+     "Iori",
+     "Yamazaki",
+     "Kim"
+    ],
+    [
+     "Kim",
+     "Kula",
+     "Iori"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_iori",
+     "kof2002_yamazaki",
+     "kof2002_kim"
+    ],
+    [
+     "kof2002_kim",
+     "kof2002_kula",
+     "kof2002_iori"
+    ]
+   ],
+   "fin": 737.4,
+   "resumen": {
+    "dano": [
+     334,
+     227
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     4,
+     3
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     2,
+     1
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 102
+   }
+  },
+  {
+   "n": 6,
+   "t": 750.77,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 750.77,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 43,
+     "perfect": false,
+     "dano": [
+      64,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 37,
+     "remontada": 39,
+     "fin": 790.76,
+     "personajes": [
+      "Iori",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      0,
+      37
+     ]
+    },
+    {
+     "n": 2,
+     "t": 796.41,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      54,
+      49
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 51,
+     "remontada": 0,
+     "fin": 822.39,
+     "personajes": [
+      "Yamazaki",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_yamazaki",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      51,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 827.93,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 17,
+     "perfect": false,
+     "dano": [
+      9,
+      77
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 91,
+     "remontada": 0,
+     "fin": 845.83,
+     "personajes": [
+      "Yamazaki",
+      "Kula"
+     ],
+     "claves": [
+      "kof2002_yamazaki",
+      "kof2002_kula"
+     ],
+     "vida_final": [
+      0,
+      91
+     ]
+    },
+    {
+     "n": 4,
+     "t": 851.22,
+     "ganador": 2,
+     "motivo": "time",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      60,
+      95
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 41,
+     "remontada": 7,
+     "fin": 904.63,
+     "personajes": [
+      "Kim",
+      "Kula"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_kula"
+     ],
+     "vida_final": [
+      6,
+      41
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    3
+   ],
+   "personajes": [
+    "Iori · Yamazaki · Kim",
+    "Iori · Kula · Kim"
+   ],
+   "claves": [
+    "kof2002_iori",
+    "kof2002_iori"
+   ],
+   "equipos": [
+    [
+     "Iori",
+     "Yamazaki",
+     "Kim"
+    ],
+    [
+     "Iori",
+     "Kula",
+     "Kim"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_iori",
+     "kof2002_yamazaki",
+     "kof2002_kim"
+    ],
+    [
+     "kof2002_iori",
+     "kof2002_kula",
+     "kof2002_kim"
+    ]
+   ],
+   "fin": 904.63,
+   "resumen": {
+    "dano": [
+     187,
+     323
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     3
+    ],
+    "duracion": 146
+   }
+  },
+  {
+   "n": 7,
+   "t": 923.1,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 923.1,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 18,
+     "perfect": false,
+     "dano": [
+      102,
+      4
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 96,
+     "remontada": 3,
+     "fin": 942.6,
+     "personajes": [
+      "Iori",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      96,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 948.16,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 21,
+     "perfect": false,
+     "dano": [
+      102,
+      12
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 88,
+     "remontada": 10,
+     "fin": 970.38,
+     "personajes": [
+      "Iori",
+      "Kula"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_kula"
+     ],
+     "vida_final": [
+      88,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 975.82,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 23,
+     "perfect": false,
+     "dano": [
+      11,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 89,
+     "remontada": 0,
+     "fin": 998.02,
+     "personajes": [
+      "Iori",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      0,
+      89
+     ]
+    },
+    {
+     "n": 4,
+     "t": 1005.51,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      39,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 61,
+     "remontada": 29,
+     "fin": 1036.18,
+     "personajes": [
+      "Yamazaki",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_yamazaki",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      0,
+      61
+     ]
+    },
+    {
+     "n": 5,
+     "t": 1041.89,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      31,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 50,
+     "remontada": 22,
+     "fin": 1070.14,
+     "personajes": [
+      "Kim",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      0,
+      50
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    4
+   ],
+   "personajes": [
+    "Iori · Yamazaki · Kim",
+    "Iori · Kula · Kim"
+   ],
+   "claves": [
+    "kof2002_iori",
+    "kof2002_iori"
+   ],
+   "equipos": [
+    [
+     "Iori",
+     "Yamazaki",
+     "Kim"
+    ],
+    [
+     "Iori",
+     "Kula",
+     "Kim"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_iori",
+     "kof2002_yamazaki",
+     "kof2002_kim"
+    ],
+    [
+     "kof2002_iori",
+     "kof2002_kula",
+     "kof2002_kim"
+    ]
+   ],
+   "fin": 1070.14,
+   "resumen": {
+    "dano": [
+     285,
+     322
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     5,
+     6
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 125
+   }
+  },
+  {
+   "n": 8,
+   "t": 1089.64,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 1089.64,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      13,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 87,
+     "remontada": 1,
+     "fin": 1118.7,
+     "personajes": [
+      "Kim",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      0,
+      87
+     ]
+    },
+    {
+     "n": 2,
+     "t": 1124.16,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "dano": [
+      95,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      3
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 6,
+     "remontada": 34,
+     "fin": 1167.24,
+     "personajes": [
+      "Iori",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      0,
+      6
+     ]
+    },
+    {
+     "n": 3,
+     "t": 1174.3,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 17,
+     "perfect": true,
+     "dano": [
+      0,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 22,
+     "remontada": 0,
+     "fin": 1192.99,
+     "personajes": [
+      "Yamazaki",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_yamazaki",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      0,
+      22
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    5
+   ],
+   "personajes": [
+    "Kim · Iori · Yamazaki",
+    "Iori · Kula · Kim"
+   ],
+   "claves": [
+    "kof2002_kim",
+    "kof2002_iori"
+   ],
+   "equipos": [
+    [
+     "Kim",
+     "Iori",
+     "Yamazaki"
+    ],
+    [
+     "Iori",
+     "Kula",
+     "Kim"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_kim",
+     "kof2002_iori",
+     "kof2002_yamazaki"
+    ],
+    [
+     "kof2002_iori",
+     "kof2002_kula",
+     "kof2002_kim"
+    ]
+   ],
+   "fin": 1192.99,
+   "resumen": {
+    "dano": [
+     108,
+     306
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     3,
+     7
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     0,
+     3
+    ],
+    "duracion": 92
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 31.84,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 37.44,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 52.06,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 72.36,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 90.74,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 109.17,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 109.5,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 147.52,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 151.05,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 165.6,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 187.2,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 221.87,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 225.98,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 306.8,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 308.61,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 341.76,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 343.61,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 361.83,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 374.49,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 376.39,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 425.51,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 426.79,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 429.08,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 456.46,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 458.28,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 478.25,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 480.76,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 541.82,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 554.5,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 557.7,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 566.32,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 582.85,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 590.2,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 624.05,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 627.83,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 630.83,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 647.75,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 658.25,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 672.81,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 675.27,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 675.61,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 694.48,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 697.82,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 707.26,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 707.59,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 727.41,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 737.07,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 737.4,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 790.44,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 801.76,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 822.07,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 844.41,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 845.5,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 885.43,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 930.96,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 934.31,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 942.27,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 956.9,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 960.24,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 970.03,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 983.78,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 996.36,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 997.7,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1032.55,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1033.9,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1035.85,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1063.62,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 1066.49,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1067.87,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1069.8,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1097.98,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1101.46,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1115.68,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 1118.36,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1132.43,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1135.78,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1148.82,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 1152.17,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 1165.11,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1166.91,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1186.25,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1189.58,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1192.64,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1192.99,
+   "tipo": "perfect",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 337,
+   "pelea_rapida": 84,
+   "swaps": 4,
+   "rondas": 14,
+   "rondas_jugadas": 33,
+   "ko": 14,
+   "timeup": 0,
+   "perfects": 2,
+   "dano": 1869,
+   "recibido": 2116,
+   "golpes": 385,
+   "golpe_max": 21,
+   "primero": 15,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 21,
+   "mareos": 0,
+   "ronda_rapida": 10,
+   "al_limite": 0,
+   "remontada": 13,
+   "racha": 6,
+   "contras": 0,
+   "esquivas": 17,
+   "maxes": 21,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 81,
+   "dano_medio": 4.9,
+   "dur_avg": 24,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 63,
+   "dano_barras": 18.32,
+   "recibido_barras": 20.75,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.21
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 606,
+   "pelea_rapida": 87,
+   "swaps": 2,
+   "rondas": 19,
+   "rondas_jugadas": 33,
+   "ko": 17,
+   "timeup": 2,
+   "perfects": 3,
+   "dano": 2116,
+   "recibido": 1869,
+   "golpes": 432,
+   "golpe_max": 18,
+   "primero": 18,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 27,
+   "mareos": 0,
+   "ronda_rapida": 17,
+   "al_limite": 1,
+   "remontada": 39,
+   "racha": 6,
+   "contras": 0,
+   "esquivas": 13,
+   "maxes": 21,
+   "guardias": 1,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 63,
+   "dano_medio": 4.9,
+   "dur_avg": 32,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 56,
+   "dano_barras": 20.75,
+   "recibido_barras": 18.32,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.18
+  }
+ ]
+}

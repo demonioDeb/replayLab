@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22 04:56",
+ "actualizado": "2026-10-22 05:50",
  "videos": [
   {
    "quark": "1792260541870-6742",
@@ -624,6 +624,57 @@
     }
    ],
    "rondas": 14
+  },
+  {
+   "quark": "1792122210834-2236",
+   "juego": "kf2k2pls",
+   "juego_nombre": "The King of Fighters 2002 Plus",
+   "juego_corto": "KOF2002+",
+   "fecha": "2026-10-16",
+   "youtube": "n5k0h014AcE",
+   "duracion": 1199.0,
+   "marcador": [
+    3,
+    5
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "[SKM] [P] POLLO",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Iori · Yamazaki · Kim",
+     "clave": "kof2002_iori",
+     "personajes": [
+      "Kim",
+      "Iori",
+      "Yamazaki"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_iori",
+      "kof2002_yamazaki"
+     ]
+    },
+    {
+     "nombre": "[SKM] KUNO",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Iori · Kula · Kim",
+     "clave": "kof2002_iori",
+     "personajes": [
+      "Iori",
+      "Kula",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_kula",
+      "kof2002_kim"
+     ]
+    }
+   ],
+   "rondas": 33
   },
   {
    "quark": "1792117905374-3017",
