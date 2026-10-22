@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T17:30:39Z",
+ "actualizado": "2026-10-22T17:45:27Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 28063,
  "videos": 150,
  "lista": [
+  {
+   "id": "wLd-PcfSdGQ",
+   "privacidad": "private"
+  },
+  {
+   "id": "VPoz9Xprhs4",
+   "privacidad": "private"
+  },
   {
    "id": "7SO4QHbgDm8",
    "privacidad": "private"
@@ -38,7 +46,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇿🇦 KOFMINISTER vs 🇧🇩 unused #shorts",
    "publicado": "2026-10-22T16:05:59Z",
    "privacidad": "public",
-   "vistas": 0,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/qZFiSwmDYkQ/mqdefault.jpg"
   },
@@ -56,7 +64,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 [SKM] KUNO",
    "publicado": "2026-10-22T05:52:35Z",
    "privacidad": "public",
-   "vistas": 7,
+   "vistas": 8,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/n5k0h014AcE/mqdefault.jpg"
   },
@@ -65,7 +73,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 [SKM] KUNO #shorts",
    "publicado": "2026-10-22T05:45:47Z",
    "privacidad": "public",
-   "vistas": 34,
+   "vistas": 41,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/6A5XB72mH2w/mqdefault.jpg"
   },
@@ -74,7 +82,7 @@
    "titulo": "Super Street Fighter II X | 🇫🇷 kyoukai vs 🇫🇷 Balcork #shorts",
    "publicado": "2026-10-20T04:12:38Z",
    "privacidad": "public",
-   "vistas": 611,
+   "vistas": 614,
    "me_gusta": 17,
    "miniatura": "https://i.ytimg.com/vi/LVSXTnMED5c/mqdefault.jpg"
   },
@@ -119,7 +127,7 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 KnockTsuKow vs 🇺🇸 White Ben #shorts",
    "publicado": "2026-10-18T16:51:00Z",
    "privacidad": "public",
-   "vistas": 7,
+   "vistas": 8,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/2QI_mcdrzXA/mqdefault.jpg"
   },
