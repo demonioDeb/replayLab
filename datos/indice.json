@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22 05:50",
+ "actualizado": "2026-10-22 05:51",
  "videos": [
   {
    "quark": "1792260541870-6742",
@@ -2764,6 +2764,49 @@
    "rondas": 5
   },
   {
+   "quark": "1783480697457-1185",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-07-08",
+   "youtube": "q_B1tf5OpTg",
+   "duracion": 783.5,
+   "marcador": [
+    5,
+    4
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "Zombie_Damage",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Fei Long",
+     "clave": "feilong",
+     "personajes": [
+      "Fei Long"
+     ],
+     "claves": [
+      "feilong"
+     ]
+    },
+    {
+     "nombre": "RenoMD",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    }
+   ],
+   "rondas": 21
+  },
+  {
    "quark": "1780973952300-2539",
    "juego": "sf2hf",
    "juego_nombre": "Street Fighter II' Hyper Fighting",
@@ -3194,59 +3237,6 @@
     }
    ],
    "rondas": 14
-  },
-  {
-   "quark": "1680146826140-1141",
-   "juego": "kof98",
-   "juego_nombre": "The King of Fighters '98",
-   "juego_corto": "KOF98",
-   "fecha": "2023-03-30",
-   "youtube": "W_AnK4L6lHY",
-   "duracion": 949.2,
-   "marcador": [
-    0,
-    5
-   ],
-   "peleas": 5,
-   "jugadores": [
-    {
-     "nombre": "DG | Mr Yama",
-     "pais": "ar",
-     "rango_letra": "A",
-     "personaje": "Kim · Chris · Daimon",
-     "clave": "kof98_kim",
-     "personajes": [
-      "Kim",
-      "Chris",
-      "Daimon",
-      "Yashiro"
-     ],
-     "claves": [
-      "kof98_kim",
-      "kof98_chris",
-      "kof98_daimon",
-      "kof98_yashiro"
-     ]
-    },
-    {
-     "nombre": "Abel-*CBZ*",
-     "pais": "ar",
-     "rango_letra": "A",
-     "personaje": "Iori · Chris · Yashiro",
-     "clave": "kof98_iori",
-     "personajes": [
-      "Iori",
-      "Chris",
-      "Yashiro"
-     ],
-     "claves": [
-      "kof98_iori",
-      "kof98_chris",
-      "kof98_yashiro"
-     ]
-    }
-   ],
-   "rondas": 22
   },
   {
    "quark": "1670461325217-6861",
