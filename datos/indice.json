@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22 21:41",
+ "actualizado": "2026-10-22 21:42",
  "videos": [
   {
    "quark": "1792639806326-5737",
@@ -825,55 +825,47 @@
    "rondas": 33
   },
   {
-   "quark": "1792100087055-4264",
-   "juego": "kof2002",
-   "juego_nombre": "The King of Fighters 2002",
-   "juego_corto": "KOF2002",
-   "fecha": "2026-10-15",
-   "youtube": "Zy_fYvwP9M8",
-   "duracion": null,
+   "quark": "1792117905374-3017",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-16",
+   "youtube": "7jQZk0S2rmM",
+   "duracion": 664.6,
    "marcador": [
-    0,
-    0
+    5,
+    1
    ],
-   "peleas": 1,
+   "peleas": 6,
    "jugadores": [
     {
-     "nombre": "[SKM] [P] POLLO",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Kim · Angel · May Lee",
-     "clave": "kof2002_kim",
+     "nombre": "MiBSF2CE-TV",
+     "pais": "br",
+     "rango_letra": "S",
+     "personaje": "M. Bison",
+     "clave": "dictator",
      "personajes": [
-      "Kim",
-      "Angel",
-      "May Lee"
+      "M. Bison"
      ],
      "claves": [
-      "kof2002_kim",
-      "kof2002_angel",
-      "kof2002_maylee"
+      "dictator"
      ]
     },
     {
-     "nombre": "Drinkteam-john",
-     "pais": "mx",
+     "nombre": "DJILK",
+     "pais": "us",
      "rango_letra": "A",
-     "personaje": "Whip · Kim · Leona",
-     "clave": "kof2002_whip",
+     "personaje": "Ryu",
+     "clave": "ryu",
      "personajes": [
-      "Whip",
-      "Kim",
-      "Leona"
+      "Ryu"
      ],
      "claves": [
-      "kof2002_whip",
-      "kof2002_kim",
-      "kof2002_leona"
+      "ryu"
      ]
     }
    ],
-   "rondas": 1
+   "rondas": 15
   },
   {
    "quark": "1792099199375-9243",
