@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T14:42:55Z",
+ "actualizado": "2026-10-22T14:53:35Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 28063,
  "videos": 148,
  "lista": [
+  {
+   "id": "XMVpu54m-qQ",
+   "privacidad": "private"
+  },
+  {
+   "id": "qmBsm_ojuPE",
+   "privacidad": "private"
+  },
   {
    "id": "n5k0h014AcE",
    "titulo": "The King of Fighters 2002 Plus | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 [SKM] KUNO",
@@ -460,13 +468,13 @@
    "miniatura": "https://i.ytimg.com/vi/p7bTCIdFohE/mqdefault.jpg"
   },
   {
-   "id": "KGew2-Dj4y0",
-   "titulo": "The King of Fighters '98 | 🇩🇪 a99 vs 🇪🇸 chris24",
-   "publicado": "2026-10-16T14:30:56Z",
+   "id": "W_AnK4L6lHY",
+   "titulo": "The King of Fighters '98 | 🇦🇷 DG | Mr Yama vs 🇦🇷 Abel-*CBZ*",
+   "publicado": "2026-10-16T12:30:55Z",
    "privacidad": "public",
-   "vistas": 2,
+   "vistas": 6,
    "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/KGew2-Dj4y0/mqdefault.jpg"
+   "miniatura": "https://i.ytimg.com/vi/W_AnK4L6lHY/mqdefault.jpg"
   },
   {
    "id": "QUhLjDV4u64",
@@ -680,7 +688,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Kabal27 vs 🇺🇸 DJILK #shorts",
    "publicado": "2026-10-11T03:00:43Z",
    "privacidad": "public",
-   "vistas": 332,
+   "vistas": 333,
    "me_gusta": 14,
    "miniatura": "https://i.ytimg.com/vi/yj2iMXxF-lE/mqdefault.jpg"
   },
@@ -743,7 +751,7 @@
    "titulo": "Super Street Fighter II X | 🇯🇵 ara@VF2 vs 🇯🇵 xryuit",
    "publicado": "2026-10-09T17:49:21Z",
    "privacidad": "public",
-   "vistas": 88,
+   "vistas": 91,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/dCG6EDS7Yu0/mqdefault.jpg"
   },
