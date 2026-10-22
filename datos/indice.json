@@ -1,6 +1,61 @@
 {
- "actualizado": "2026-10-22 16:50",
+ "actualizado": "2026-10-22 17:15",
  "videos": [
+  {
+   "quark": "1792284979963-6587",
+   "juego": "kf2k2pls",
+   "juego_nombre": "The King of Fighters 2002 Plus",
+   "juego_corto": "KOF2002+",
+   "fecha": "2026-10-18",
+   "youtube": "5OCNvH5Omp0",
+   "duracion": 487.2,
+   "marcador": [
+    1,
+    2
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "TONY DC",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "Vice · Iori · Leona",
+     "clave": "kof2002_vice",
+     "personajes": [
+      "Vice",
+      "Iori",
+      "Leona"
+     ],
+     "claves": [
+      "kof2002_vice",
+      "kof2002_iori",
+      "kof2002_leona"
+     ]
+    },
+    {
+     "nombre": "[JDK] -Zr-El jhon Sg",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Kim · Choi · Iori",
+     "clave": "kof2002_kim",
+     "personajes": [
+      "Angel",
+      "K9999",
+      "Kim",
+      "Choi",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_k9999",
+      "kof2002_kim",
+      "kof2002_choi",
+      "kof2002_iori"
+     ]
+    }
+   ],
+   "rondas": 14
+  },
   {
    "quark": "1792260541870-6742",
    "juego": "sf2ce",
