@@ -2,6 +2,154 @@
  "actualizado": "2026-10-22 20:16",
  "videos": [
   {
+   "quark": "1792639806326-5737",
+   "juego": "kf2k2pls",
+   "juego_nombre": "The King of Fighters 2002 Plus",
+   "juego_corto": "KOF2002+",
+   "fecha": "2026-10-22",
+   "youtube": "9FAT3a_xb6s",
+   "duracion": 827.4,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "IRK-ZR-ALCOHOL OFER",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Joe · Clark · Kim",
+     "clave": "kof2002_joe",
+     "personajes": [
+      "Joe",
+      "Clark",
+      "Kim",
+      "Shermie",
+      "Mature",
+      "K9999",
+      "Seth",
+      "Kensou",
+      "Yamazaki",
+      "Takuma",
+      "Whip",
+      "Robert",
+      "Andy"
+     ],
+     "claves": [
+      "kof2002_joe",
+      "kof2002_clark",
+      "kof2002_kim",
+      "kof2002_shermie",
+      "kof2002_mature",
+      "kof2002_k9999",
+      "kof2002_seth",
+      "kof2002_kensou",
+      "kof2002_yamazaki",
+      "kof2002_takuma",
+      "kof2002_whip",
+      "kof2002_robert",
+      "kof2002_andy"
+     ]
+    },
+    {
+     "nombre": "[NOG]-FER YAGAMI",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "Vanessa · Mai · Iori",
+     "clave": "kof2002_vanessa",
+     "personajes": [
+      "Vanessa",
+      "Mai",
+      "Iori",
+      "Chang",
+      "Leona",
+      "Choi",
+      "Andy",
+      "Mature",
+      "Mary",
+      "Clark",
+      "Whip",
+      "Seth",
+      "Robert",
+      "Maxima"
+     ],
+     "claves": [
+      "kof2002_vanessa",
+      "kof2002_mai",
+      "kof2002_iori",
+      "kof2002_chang",
+      "kof2002_leona",
+      "kof2002_choi",
+      "kof2002_andy",
+      "kof2002_mature",
+      "kof2002_mary",
+      "kof2002_clark",
+      "kof2002_whip",
+      "kof2002_seth",
+      "kof2002_robert",
+      "kof2002_maxima"
+     ]
+    }
+   ],
+   "rondas": 24
+  },
+  {
+   "quark": "1792284979963-6587",
+   "juego": "kf2k2pls",
+   "juego_nombre": "The King of Fighters 2002 Plus",
+   "juego_corto": "KOF2002+",
+   "fecha": "2026-10-18",
+   "youtube": "5OCNvH5Omp0",
+   "duracion": 487.2,
+   "marcador": [
+    1,
+    2
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "TONY DC",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "Vice · Iori · Leona",
+     "clave": "kof2002_vice",
+     "personajes": [
+      "Vice",
+      "Iori",
+      "Leona"
+     ],
+     "claves": [
+      "kof2002_vice",
+      "kof2002_iori",
+      "kof2002_leona"
+     ]
+    },
+    {
+     "nombre": "[JDK] -Zr-El jhon Sg",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Kim · Choi · Iori",
+     "clave": "kof2002_kim",
+     "personajes": [
+      "Angel",
+      "K9999",
+      "Kim",
+      "Choi",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_k9999",
+      "kof2002_kim",
+      "kof2002_choi",
+      "kof2002_iori"
+     ]
+    }
+   ],
+   "rondas": 14
+  },
+  {
    "quark": "1792260541870-6742",
    "juego": "sf2ce",
    "juego_nombre": "Street Fighter II' Champion Edition",
@@ -1780,6 +1928,67 @@
    "rondas": 18
   },
   {
+   "quark": "1790884957412-2875",
+   "juego": "kf2k2pls",
+   "juego_nombre": "The King of Fighters 2002 Plus",
+   "juego_corto": "KOF2002+",
+   "fecha": "2026-10-01",
+   "youtube": "kZKDp2VIoMg",
+   "duracion": 299.1,
+   "marcador": [
+    2,
+    0
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "Test_King",
+     "pais": "bd",
+     "rango_letra": "S",
+     "personaje": "Daimon · Mai · Mary",
+     "clave": "kof2002_daimon",
+     "personajes": [
+      "Daimon",
+      "Mai",
+      "Mary",
+      "K9999",
+      "K'",
+      "Chris"
+     ],
+     "claves": [
+      "kof2002_daimon",
+      "kof2002_mai",
+      "kof2002_mary",
+      "kof2002_k9999",
+      "kof2002_kdash",
+      "kof2002_chris"
+     ]
+    },
+    {
+     "nombre": "siamahasan",
+     "pais": "bd",
+     "rango_letra": "A",
+     "personaje": "Takuma · Kyo · Chris",
+     "clave": "kof2002_takuma",
+     "personajes": [
+      "Takuma",
+      "Kyo",
+      "Chris",
+      "Mature",
+      "Yashiro"
+     ],
+     "claves": [
+      "kof2002_takuma",
+      "kof2002_kyo",
+      "kof2002_chris",
+      "kof2002_mature",
+      "kof2002_yashiro"
+     ]
+    }
+   ],
+   "rondas": 8
+  },
+  {
    "quark": "1790828329188-3709",
    "juego": "ssf2xjr1",
    "juego_nombre": "Super Street Fighter II X",
@@ -3141,6 +3350,57 @@
    "rondas": 10
   },
   {
+   "quark": "1731761114391-5994",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2024-11-16",
+   "youtube": "fRjnvWqyAsE",
+   "duracion": 271.3,
+   "marcador": [
+    2,
+    0
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "a99",
+     "pais": "de",
+     "rango_letra": "S",
+     "personaje": "Daimon · Chris · Yashiro",
+     "clave": "kof98_daimon",
+     "personajes": [
+      "Daimon",
+      "Chris",
+      "Yashiro"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_chris",
+      "kof98_yashiro"
+     ]
+    },
+    {
+     "nombre": "chris24",
+     "pais": "es",
+     "rango_letra": "A",
+     "personaje": "Iori · Kyo · Daimon",
+     "clave": "kof98_iori",
+     "personajes": [
+      "Iori",
+      "Kyo",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_kyo",
+      "kof98_daimon"
+     ]
+    }
+   ],
+   "rondas": 8
+  },
+  {
    "quark": "1729965837906-7568",
    "juego": "kof98",
    "juego_nombre": "The King of Fighters '98",
@@ -3306,6 +3566,61 @@
    "rondas": 14
   },
   {
+   "quark": "1695411648868-8238",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2023-09-22",
+   "youtube": "VPoz9Xprhs4",
+   "duracion": 354.0,
+   "marcador": [
+    2,
+    0
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "mirza mudassar",
+     "pais": "pk",
+     "rango_letra": "S",
+     "personaje": "Daimon · Choi · Iori",
+     "clave": "kof98_daimon",
+     "personajes": [
+      "Daimon",
+      "Choi",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_choi",
+      "kof98_iori"
+     ]
+    },
+    {
+     "nombre": "a99",
+     "pais": "de",
+     "rango_letra": "A",
+     "personaje": "Daimon · Chris · Yashiro",
+     "clave": "kof98_daimon",
+     "personajes": [
+      "Daimon",
+      "Chris",
+      "Yashiro",
+      "Yuri",
+      "Shermie"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_chris",
+      "kof98_yashiro",
+      "kof98_yuri",
+      "kof98_shermie"
+     ]
+    }
+   ],
+   "rondas": 8
+  },
+  {
    "quark": "1680146826140-1141",
    "juego": "kof98",
    "juego_nombre": "The King of Fighters '98",
@@ -3357,51 +3672,6 @@
     }
    ],
    "rondas": 22
-  },
-  {
-   "quark": "1670984364302-7206",
-   "juego": "ssf2xjr1",
-   "juego_nombre": "Super Street Fighter II X",
-   "juego_corto": "SSF2X",
-   "fecha": "2022-12-14",
-   "youtube": "fQbzddYEhEc",
-   "duracion": 696.2,
-   "marcador": [
-    5,
-    2
-   ],
-   "peleas": 7,
-   "jugadores": [
-    {
-     "nombre": "Hokuto",
-     "pais": "mx",
-     "rango_letra": "S",
-     "personaje": "Vega",
-     "clave": "claw",
-     "personajes": [
-      "Vega",
-      "Fei Long"
-     ],
-     "claves": [
-      "claw",
-      "feilong"
-     ]
-    },
-    {
-     "nombre": "MegamanX-8",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Zangief",
-     "clave": "zangief",
-     "personajes": [
-      "Zangief"
-     ],
-     "claves": [
-      "zangief"
-     ]
-    }
-   ],
-   "rondas": 19
   },
   {
    "quark": "1670461325217-6861",
