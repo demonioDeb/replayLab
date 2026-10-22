@@ -1,0 +1,279 @@
+{
+ "version": 8,
+ "quark": "1792100087055-4264",
+ "carpeta": "20261022_SKM_P_POLLO_vs_Drinkteam-john_1792100087055-4264",
+ "juego": "kof2002",
+ "juego_nombre": "The King of Fighters 2002",
+ "juego_corto": "KOF2002",
+ "datos": {
+  "super": true,
+  "stun": false,
+  "combos": false,
+  "guardia": true
+ },
+ "fecha": "2026-10-15",
+ "youtube": "Zy_fYvwP9M8",
+ "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "[SKM] [P] POLLO",
+   "pais": "us",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Kim · Angel · May Lee",
+   "clave": "kof2002_kim",
+   "equipo": [
+    "Kim",
+    "Angel",
+    "May Lee"
+   ],
+   "equipo_claves": [
+    "kof2002_kim",
+    "kof2002_angel",
+    "kof2002_maylee"
+   ],
+   "personajes": [
+    "Kim",
+    "Angel",
+    "May Lee"
+   ],
+   "claves": [
+    "kof2002_kim",
+    "kof2002_angel",
+    "kof2002_maylee"
+   ],
+   "swaps": 0,
+   "super": ""
+  },
+  {
+   "nombre": "Drinkteam-john",
+   "pais": "mx",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Whip · Kim · Leona",
+   "clave": "kof2002_whip",
+   "equipo": [
+    "Whip",
+    "Kim",
+    "Leona"
+   ],
+   "equipo_claves": [
+    "kof2002_whip",
+    "kof2002_kim",
+    "kof2002_leona"
+   ],
+   "personajes": [
+    "Whip",
+    "Kim",
+    "Leona"
+   ],
+   "claves": [
+    "kof2002_whip",
+    "kof2002_kim",
+    "kof2002_leona"
+   ],
+   "swaps": 0,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  0,
+  0
+ ],
+ "duracion": null,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 9.72,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 9.72,
+     "ganador": null,
+     "motivo": null,
+     "duracion": null,
+     "perfect": false,
+     "dano": [
+      0,
+      21
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": null,
+     "remontada": 0,
+     "sin_cierre": true,
+     "fin": null,
+     "vida_final": [
+      79,
+      100
+     ]
+    }
+   ],
+   "ganador": null,
+   "marcador": null,
+   "personajes": [
+    "Kim · Angel · May Lee",
+    "Whip · Kim · Leona"
+   ],
+   "claves": [
+    "kof2002_kim",
+    "kof2002_whip"
+   ],
+   "equipos": [
+    [
+     "Kim",
+     "Angel",
+     "May Lee"
+    ],
+    [
+     "Whip",
+     "Kim",
+     "Leona"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_kim",
+     "kof2002_angel",
+     "kof2002_maylee"
+    ],
+    [
+     "kof2002_whip",
+     "kof2002_kim",
+     "kof2002_leona"
+    ]
+   ],
+   "resumen": {
+    "dano": [
+     0,
+     21
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     0
+    ],
+    "duracion": 0
+   }
+  }
+ ],
+ "momentos": [],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 0,
+   "pelea_rapida": 0,
+   "swaps": 0,
+   "rondas": 0,
+   "rondas_jugadas": 0,
+   "ko": 0,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 0,
+   "recibido": 21,
+   "golpes": 0,
+   "golpe_max": 0,
+   "primero": 0,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 0,
+   "al_limite": 0,
+   "remontada": 0,
+   "racha": 0,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": null,
+   "dano_medio": 0,
+   "dur_avg": 0,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 0,
+   "dano_barras": 0.0,
+   "recibido_barras": 0.21,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.0
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 0,
+   "pelea_rapida": 0,
+   "swaps": 0,
+   "rondas": 0,
+   "rondas_jugadas": 0,
+   "ko": 0,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 21,
+   "recibido": 0,
+   "golpes": 2,
+   "golpe_max": 11,
+   "primero": 1,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 0,
+   "al_limite": 0,
+   "remontada": 0,
+   "racha": 0,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": null,
+   "dano_medio": 10.5,
+   "dur_avg": 0,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 0,
+   "dano_barras": 0.21,
+   "recibido_barras": 0.0,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.11
+  }
+ ]
+}
