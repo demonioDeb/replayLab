@@ -1,6 +1,99 @@
 {
- "actualizado": "2026-10-22 15:56",
+ "actualizado": "2026-10-22 16:50",
  "videos": [
+  {
+   "quark": "1792639806326-5737",
+   "juego": "kf2k2pls",
+   "juego_nombre": "The King of Fighters 2002 Plus",
+   "juego_corto": "KOF2002+",
+   "fecha": "2026-10-22",
+   "youtube": "9FAT3a_xb6s",
+   "duracion": 827.4,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "IRK-ZR-ALCOHOL OFER",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Joe · Clark · Kim",
+     "clave": "kof2002_joe",
+     "personajes": [
+      "Joe",
+      "Clark",
+      "Kim",
+      "Shermie",
+      "Mature",
+      "K9999",
+      "Seth",
+      "Kensou",
+      "Yamazaki",
+      "Takuma",
+      "Whip",
+      "Robert",
+      "Andy"
+     ],
+     "claves": [
+      "kof2002_joe",
+      "kof2002_clark",
+      "kof2002_kim",
+      "kof2002_shermie",
+      "kof2002_mature",
+      "kof2002_k9999",
+      "kof2002_seth",
+      "kof2002_kensou",
+      "kof2002_yamazaki",
+      "kof2002_takuma",
+      "kof2002_whip",
+      "kof2002_robert",
+      "kof2002_andy"
+     ]
+    },
+    {
+     "nombre": "[NOG]-FER YAGAMI",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "Vanessa · Mai · Iori",
+     "clave": "kof2002_vanessa",
+     "personajes": [
+      "Vanessa",
+      "Mai",
+      "Iori",
+      "Chang",
+      "Leona",
+      "Choi",
+      "Andy",
+      "Mature",
+      "Mary",
+      "Clark",
+      "Whip",
+      "Seth",
+      "Robert",
+      "Maxima"
+     ],
+     "claves": [
+      "kof2002_vanessa",
+      "kof2002_mai",
+      "kof2002_iori",
+      "kof2002_chang",
+      "kof2002_leona",
+      "kof2002_choi",
+      "kof2002_andy",
+      "kof2002_mature",
+      "kof2002_mary",
+      "kof2002_clark",
+      "kof2002_whip",
+      "kof2002_seth",
+      "kof2002_robert",
+      "kof2002_maxima"
+     ]
+    }
+   ],
+   "rondas": 24
+  },
   {
    "quark": "1792260541870-6742",
    "juego": "sf2ce",
