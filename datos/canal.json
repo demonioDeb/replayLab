@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T14:54:05Z",
+ "actualizado": "2026-10-22T15:56:11Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -10,11 +10,11 @@
  "videos": 148,
  "lista": [
   {
-   "id": "XMVpu54m-qQ",
+   "id": "qZFiSwmDYkQ",
    "privacidad": "private"
   },
   {
-   "id": "qmBsm_ojuPE",
+   "id": "d7O74ikHurE",
    "privacidad": "private"
   },
   {
@@ -31,8 +31,8 @@
    "titulo": "The King of Fighters 2002 Plus | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 [SKM] KUNO #shorts",
    "publicado": "2026-10-22T05:45:47Z",
    "privacidad": "public",
-   "vistas": 28,
-   "me_gusta": 0,
+   "vistas": 34,
+   "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/6A5XB72mH2w/mqdefault.jpg"
   },
   {
@@ -40,7 +40,7 @@
    "titulo": "Super Street Fighter II X | 🇫🇷 kyoukai vs 🇫🇷 Balcork #shorts",
    "publicado": "2026-10-20T04:12:38Z",
    "privacidad": "public",
-   "vistas": 607,
+   "vistas": 605,
    "me_gusta": 17,
    "miniatura": "https://i.ytimg.com/vi/LVSXTnMED5c/mqdefault.jpg"
   },
@@ -157,7 +157,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 yolcu vs 🇹🇷 DOMIT_BEG #shorts",
    "publicado": "2026-10-18T15:26:21Z",
    "privacidad": "public",
-   "vistas": 420,
+   "vistas": 422,
    "me_gusta": 10,
    "miniatura": "https://i.ytimg.com/vi/FNHnNpw2wcw/mqdefault.jpg"
   },
@@ -175,7 +175,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇧🇷 ((Caution)) vs 🇹🇷 Sansar #shorts",
    "publicado": "2026-10-18T15:03:54Z",
    "privacidad": "public",
-   "vistas": 680,
+   "vistas": 681,
    "me_gusta": 24,
    "miniatura": "https://i.ytimg.com/vi/Yg779Ef_CZU/mqdefault.jpg"
   },
@@ -751,7 +751,7 @@
    "titulo": "Super Street Fighter II X | 🇯🇵 ara@VF2 vs 🇯🇵 xryuit",
    "publicado": "2026-10-09T17:49:21Z",
    "privacidad": "public",
-   "vistas": 90,
+   "vistas": 91,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/dCG6EDS7Yu0/mqdefault.jpg"
   },

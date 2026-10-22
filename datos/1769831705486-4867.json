@@ -1,0 +1,896 @@
+{
+ "version": 8,
+ "quark": "1769831705486-4867",
+ "carpeta": "20261022_KOFMINISTER_vs_unused_1769831705486-4867",
+ "juego": "kf2k2pls",
+ "juego_nombre": "The King of Fighters 2002 Plus",
+ "juego_corto": "KOF2002+",
+ "datos": {
+  "super": true,
+  "stun": false,
+  "combos": false,
+  "guardia": true
+ },
+ "fecha": "2026-01-31",
+ "youtube": "d7O74ikHurE",
+ "titulo": "The King of Fighters 2002 Plus | 🇿🇦 KOFMINISTER vs 🇧🇩 unused",
+ "ft": 3,
+ "jugadores": [
+  {
+   "nombre": "KOFMINISTER",
+   "pais": "za",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Chris · Yashiro · Vice",
+   "clave": "kof2002_chris",
+   "equipo": [
+    "Chris",
+    "Yashiro",
+    "Vice"
+   ],
+   "equipo_claves": [
+    "kof2002_chris",
+    "kof2002_yashiro",
+    "kof2002_vice"
+   ],
+   "personajes": [
+    "Chris",
+    "Yashiro",
+    "Vice",
+    "Mai",
+    "Takuma",
+    "Mature"
+   ],
+   "claves": [
+    "kof2002_chris",
+    "kof2002_yashiro",
+    "kof2002_vice",
+    "kof2002_mai",
+    "kof2002_takuma",
+    "kof2002_mature"
+   ],
+   "swaps": 2,
+   "super": ""
+  },
+  {
+   "nombre": "unused",
+   "pais": "bd",
+   "rango": 6,
+   "rango_letra": "S",
+   "personaje": "Yamazaki · Takuma · Clark",
+   "clave": "kof2002_yamazaki",
+   "equipo": [
+    "Yamazaki",
+    "Takuma",
+    "Clark"
+   ],
+   "equipo_claves": [
+    "kof2002_yamazaki",
+    "kof2002_takuma",
+    "kof2002_clark"
+   ],
+   "personajes": [
+    "Yamazaki",
+    "Takuma",
+    "Clark",
+    "Iori",
+    "Billy",
+    "Robert",
+    "Shermie",
+    "Yashiro"
+   ],
+   "claves": [
+    "kof2002_yamazaki",
+    "kof2002_takuma",
+    "kof2002_clark",
+    "kof2002_iori",
+    "kof2002_billy",
+    "kof2002_robert",
+    "kof2002_shermie",
+    "kof2002_yashiro"
+   ],
+   "swaps": 2,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  0,
+  3
+ ],
+ "duracion": 331.0,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 9.72,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 9.72,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 24,
+     "perfect": true,
+     "dano": [
+      0,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 32.58,
+     "personajes": [
+      "Chris",
+      "Yamazaki"
+     ],
+     "claves": [
+      "kof2002_chris",
+      "kof2002_yamazaki"
+     ],
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 2,
+     "t": 40.15,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": true,
+     "dano": [
+      0,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 64.65,
+     "personajes": [
+      "Yashiro",
+      "Yamazaki"
+     ],
+     "claves": [
+      "kof2002_yashiro",
+      "kof2002_yamazaki"
+     ],
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 3,
+     "t": 70.12,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      39,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 61,
+     "remontada": 0,
+     "fin": 95.51,
+     "personajes": [
+      "Vice",
+      "Yamazaki"
+     ],
+     "claves": [
+      "kof2002_vice",
+      "kof2002_yamazaki"
+     ],
+     "vida_final": [
+      0,
+      61
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Chris · Yashiro · Vice",
+    "Yamazaki · Takuma · Clark"
+   ],
+   "claves": [
+    "kof2002_chris",
+    "kof2002_yamazaki"
+   ],
+   "equipos": [
+    [
+     "Chris",
+     "Yashiro",
+     "Vice"
+    ],
+    [
+     "Yamazaki",
+     "Takuma",
+     "Clark"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_chris",
+     "kof2002_yashiro",
+     "kof2002_vice"
+    ],
+    [
+     "kof2002_yamazaki",
+     "kof2002_takuma",
+     "kof2002_clark"
+    ]
+   ],
+   "fin": 95.51,
+   "resumen": {
+    "dano": [
+     39,
+     306
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     3
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     2
+    ],
+    "rondas": [
+     0,
+     3
+    ],
+    "duracion": 75
+   }
+  },
+  {
+   "n": 2,
+   "t": 115.18,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 115.18,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 42,
+     "perfect": false,
+     "dano": [
+      97,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 46,
+     "fin": 153.58,
+     "personajes": [
+      "Mai",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_mai",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      0,
+      4
+     ]
+    },
+    {
+     "n": 2,
+     "t": 161.65,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": true,
+     "dano": [
+      0,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 20,
+     "remontada": 0,
+     "fin": 185.03,
+     "personajes": [
+      "Takuma",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_takuma",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      0,
+      20
+     ]
+    },
+    {
+     "n": 3,
+     "t": 190.59,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      43,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 1,
+     "remontada": 37,
+     "fin": 219.29,
+     "personajes": [
+      "Yashiro",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_yashiro",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      0,
+      1
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    2
+   ],
+   "personajes": [
+    "Mai · Takuma · Yashiro",
+    "Iori · Billy · Robert"
+   ],
+   "claves": [
+    "kof2002_mai",
+    "kof2002_iori"
+   ],
+   "equipos": [
+    [
+     "Mai",
+     "Takuma",
+     "Yashiro"
+    ],
+    [
+     "Iori",
+     "Billy",
+     "Robert"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_mai",
+     "kof2002_takuma",
+     "kof2002_yashiro"
+    ],
+    [
+     "kof2002_iori",
+     "kof2002_billy",
+     "kof2002_robert"
+    ]
+   ],
+   "fin": 219.29,
+   "resumen": {
+    "dano": [
+     140,
+     306
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     4
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     0,
+     3
+    ],
+    "duracion": 92
+   }
+  },
+  {
+   "n": 3,
+   "t": 236.36,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 236.36,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": true,
+     "dano": [
+      0,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 267.79,
+     "personajes": [
+      "Mature",
+      "Yamazaki"
+     ],
+     "claves": [
+      "kof2002_mature",
+      "kof2002_yamazaki"
+     ],
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 2,
+     "t": 274.96,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": false,
+     "dano": [
+      44,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 56,
+     "remontada": 17,
+     "fin": 299.58,
+     "personajes": [
+      "Vice",
+      "Yamazaki"
+     ],
+     "claves": [
+      "kof2002_vice",
+      "kof2002_yamazaki"
+     ],
+     "vida_final": [
+      0,
+      56
+     ]
+    },
+    {
+     "n": 3,
+     "t": 305.27,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 20,
+     "perfect": true,
+     "dano": [
+      0,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 80,
+     "remontada": 0,
+     "fin": 325.03,
+     "personajes": [
+      "Yashiro",
+      "Yamazaki"
+     ],
+     "claves": [
+      "kof2002_yashiro",
+      "kof2002_yamazaki"
+     ],
+     "vida_final": [
+      0,
+      80
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    3
+   ],
+   "personajes": [
+    "Mature · Vice · Yashiro",
+    "Yamazaki · Shermie · Yashiro"
+   ],
+   "claves": [
+    "kof2002_mature",
+    "kof2002_yamazaki"
+   ],
+   "equipos": [
+    [
+     "Mature",
+     "Vice",
+     "Yashiro"
+    ],
+    [
+     "Yamazaki",
+     "Shermie",
+     "Yashiro"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_mature",
+     "kof2002_vice",
+     "kof2002_yashiro"
+    ],
+    [
+     "kof2002_yamazaki",
+     "kof2002_shermie",
+     "kof2002_yashiro"
+    ]
+   ],
+   "fin": 325.03,
+   "resumen": {
+    "dano": [
+     44,
+     306
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     3
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     2
+    ],
+    "rondas": [
+     0,
+     3
+    ],
+    "duracion": 79
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 15.58,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 21.86,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 22.41,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 32.25,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 32.58,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 49.72,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 52.26,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 64.32,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 64.65,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 95.17,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 135.82,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 153.25,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 171.07,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 174.43,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 184.7,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 185.03,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 209.5,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 213.0,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 218.95,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 253.35,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 267.46,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 267.79,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 299.25,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 321.93,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 322.44,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 324.7,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 325.03,
+   "tipo": "perfect",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 0,
+   "pelea_rapida": 0,
+   "swaps": 2,
+   "rondas": 0,
+   "rondas_jugadas": 9,
+   "ko": 0,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 223,
+   "recibido": 918,
+   "golpes": 34,
+   "golpe_max": 16,
+   "primero": 2,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 3,
+   "mareos": 0,
+   "ronda_rapida": 0,
+   "al_limite": 0,
+   "remontada": 0,
+   "racha": 0,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 2,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": null,
+   "dano_medio": 6.6,
+   "dur_avg": 0,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 100,
+   "dano_barras": 2.19,
+   "recibido_barras": 9.0,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.16
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 246,
+   "pelea_rapida": 86,
+   "swaps": 2,
+   "rondas": 9,
+   "rondas_jugadas": 9,
+   "ko": 9,
+   "timeup": 0,
+   "perfects": 5,
+   "dano": 918,
+   "recibido": 223,
+   "golpes": 246,
+   "golpe_max": 20,
+   "primero": 7,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 10,
+   "mareos": 0,
+   "ronda_rapida": 20,
+   "al_limite": 2,
+   "remontada": 46,
+   "racha": 9,
+   "contras": 0,
+   "esquivas": 3,
+   "maxes": 11,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 58,
+   "dano_medio": 3.7,
+   "dur_avg": 27,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 24,
+   "dano_barras": 9.0,
+   "recibido_barras": 2.19,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.2
+  }
+ ]
+}
