@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T20:16:58Z",
+ "actualizado": "2026-10-22T20:44:55Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,15 +7,46 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 33,
  "vistas": 28063,
- "videos": 155,
+ "videos": 158,
  "lista": [
+  {
+   "id": "5OCNvH5Omp0",
+   "titulo": "The King of Fighters 2002 Plus | 🇲🇽 TONY DC vs 🇲🇽 [JDK] -Zr-El jhon Sg",
+   "publicado": "2026-10-22T20:41:44Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/5OCNvH5Omp0/mqdefault.jpg"
+  },
+  {
+   "id": "BJPDK9hutVo",
+   "titulo": "The King of Fighters 2002 Plus | 🇲🇽 TONY DC vs 🇲🇽 [JDK] -Zr-El jhon Sg #shorts",
+   "publicado": "2026-10-22T20:42:09Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/BJPDK9hutVo/mqdefault.jpg"
+  },
+  {
+   "id": "mtN-u91ayDU",
+   "privacidad": "private"
+  },
+  {
+   "id": "wqWS9Xsc1Bc",
+   "privacidad": "private"
+  },
   {
    "id": "DgymbcGSTJo",
    "privacidad": "private"
   },
   {
    "id": "fQbzddYEhEc",
-   "privacidad": "private"
+   "titulo": "Super Street Fighter II X | 🇲🇽 Hokuto vs 🇺🇸 MegamanX-8",
+   "publicado": "2026-10-22T20:07:57Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/fQbzddYEhEc/mqdefault.jpg"
   },
   {
    "id": "8hSXB4kTzJU",
@@ -73,19 +104,6 @@
    "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/kZKDp2VIoMg/mqdefault.jpg"
-  },
-  {
-   "id": "BJPDK9hutVo",
-   "privacidad": "private"
-  },
-  {
-   "id": "5OCNvH5Omp0",
-   "titulo": "The King of Fighters 2002 Plus | 🇲🇽 TONY DC vs 🇲🇽 [JDK] -Zr-El jhon Sg",
-   "publicado": "2026-10-22T17:09:02Z",
-   "privacidad": "public",
-   "vistas": 0,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/5OCNvH5Omp0/mqdefault.jpg"
   },
   {
    "id": "qZFiSwmDYkQ",
@@ -412,13 +430,13 @@
    "miniatura": "https://i.ytimg.com/vi/yePTNdWB1Tk/mqdefault.jpg"
   },
   {
-   "id": "7jQZk0S2rmM",
-   "titulo": "Street Fighter II' Champion Edition | 🇧🇷 MiBSF2CE-TV vs 🇺🇸 DJILK",
-   "publicado": "2026-10-17T21:06:39Z",
+   "id": "GquxxEZTHEM",
+   "titulo": "The King of Fighters '98 | 🇩🇪 Super Champ vs 🇧🇷 barbearialororugal #shorts",
+   "publicado": "2026-10-17T22:57:06Z",
    "privacidad": "public",
-   "vistas": 1,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/7jQZk0S2rmM/mqdefault.jpg"
+   "vistas": 433,
+   "me_gusta": 7,
+   "miniatura": "https://i.ytimg.com/vi/GquxxEZTHEM/mqdefault.jpg"
   },
   {
    "id": "vk4KxVDCENM",
