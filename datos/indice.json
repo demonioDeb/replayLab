@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22 17:59",
+ "actualizado": "2026-10-22 20:16",
  "videos": [
   {
    "quark": "1792260541870-6742",
@@ -3357,6 +3357,51 @@
     }
    ],
    "rondas": 22
+  },
+  {
+   "quark": "1670984364302-7206",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2022-12-14",
+   "youtube": "fQbzddYEhEc",
+   "duracion": 696.2,
+   "marcador": [
+    5,
+    2
+   ],
+   "peleas": 7,
+   "jugadores": [
+    {
+     "nombre": "Hokuto",
+     "pais": "mx",
+     "rango_letra": "S",
+     "personaje": "Vega",
+     "clave": "claw",
+     "personajes": [
+      "Vega",
+      "Fei Long"
+     ],
+     "claves": [
+      "claw",
+      "feilong"
+     ]
+    },
+    {
+     "nombre": "MegamanX-8",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Zangief",
+     "clave": "zangief",
+     "personajes": [
+      "Zangief"
+     ],
+     "claves": [
+      "zangief"
+     ]
+    }
+   ],
+   "rondas": 19
   },
   {
    "quark": "1670461325217-6861",
