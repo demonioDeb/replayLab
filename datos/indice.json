@@ -1780,67 +1780,6 @@
    "rondas": 18
   },
   {
-   "quark": "1790884957412-2875",
-   "juego": "kf2k2pls",
-   "juego_nombre": "The King of Fighters 2002 Plus",
-   "juego_corto": "KOF2002+",
-   "fecha": "2026-10-01",
-   "youtube": "kZKDp2VIoMg",
-   "duracion": 299.1,
-   "marcador": [
-    2,
-    0
-   ],
-   "peleas": 2,
-   "jugadores": [
-    {
-     "nombre": "Test_King",
-     "pais": "bd",
-     "rango_letra": "S",
-     "personaje": "Daimon · Mai · Mary",
-     "clave": "kof2002_daimon",
-     "personajes": [
-      "Daimon",
-      "Mai",
-      "Mary",
-      "K9999",
-      "K'",
-      "Chris"
-     ],
-     "claves": [
-      "kof2002_daimon",
-      "kof2002_mai",
-      "kof2002_mary",
-      "kof2002_k9999",
-      "kof2002_kdash",
-      "kof2002_chris"
-     ]
-    },
-    {
-     "nombre": "siamahasan",
-     "pais": "bd",
-     "rango_letra": "A",
-     "personaje": "Takuma · Kyo · Chris",
-     "clave": "kof2002_takuma",
-     "personajes": [
-      "Takuma",
-      "Kyo",
-      "Chris",
-      "Mature",
-      "Yashiro"
-     ],
-     "claves": [
-      "kof2002_takuma",
-      "kof2002_kyo",
-      "kof2002_chris",
-      "kof2002_mature",
-      "kof2002_yashiro"
-     ]
-    }
-   ],
-   "rondas": 8
-  },
-  {
    "quark": "1790828329188-3709",
    "juego": "ssf2xjr1",
    "juego_nombre": "Super Street Fighter II X",
