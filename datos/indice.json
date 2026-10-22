@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22 20:45",
+ "actualizado": "2026-10-22 21:08",
  "videos": [
   {
    "quark": "1792639806326-5737",
@@ -3126,6 +3126,51 @@
     }
    ],
    "rondas": 9
+  },
+  {
+   "quark": "1752985523906-1011",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2025-07-20",
+   "youtube": "CIxbGc2oh6I",
+   "duracion": 687.5,
+   "marcador": [
+    5,
+    3
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "Zombie_Damage",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Fei Long",
+     "clave": "feilong",
+     "personajes": [
+      "Fei Long"
+     ],
+     "claves": [
+      "feilong"
+     ]
+    },
+    {
+     "nombre": "znoopyglobal",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Chun-Li",
+     "clave": "chunli",
+     "personajes": [
+      "Chun-Li",
+      "E. Honda"
+     ],
+     "claves": [
+      "chunli",
+      "honda"
+     ]
+    }
+   ],
+   "rondas": 20
   },
   {
    "quark": "1752015096202-7451",
