@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T22:37:10Z",
+ "actualizado": "2026-10-22T23:08:35Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,8 +7,34 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 33,
  "vistas": 28063,
- "videos": 162,
+ "videos": 163,
  "lista": [
+  {
+   "id": "w851PrTcA10",
+   "privacidad": "private"
+  },
+  {
+   "id": "5cvxCbyapb8",
+   "privacidad": "private"
+  },
+  {
+   "id": "7SO4QHbgDm8",
+   "titulo": "The King of Fighters 2002 Plus | 🇧🇩 Test_King vs 🇧🇩 siamahasan #shorts",
+   "publicado": "2026-10-22T22:42:04Z",
+   "privacidad": "public",
+   "vistas": 3,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/7SO4QHbgDm8/mqdefault.jpg"
+  },
+  {
+   "id": "kZKDp2VIoMg",
+   "titulo": "The King of Fighters 2002 Plus | 🇧🇩 Test_King vs 🇧🇩 siamahasan",
+   "publicado": "2026-10-22T22:41:43Z",
+   "privacidad": "public",
+   "vistas": 2,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/kZKDp2VIoMg/mqdefault.jpg"
+  },
   {
    "id": "0QRvD5JrqMA",
    "privacidad": "private"
@@ -106,7 +132,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇲🇽 IRK-ZR-ALCOHOL OFER vs 🇲🇽 [NOG]-FER YAGAMI",
    "publicado": "2026-10-22T18:41:38Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 0,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/9FAT3a_xb6s/mqdefault.jpg"
   },
@@ -137,24 +163,11 @@
    "miniatura": "https://i.ytimg.com/vi/VPoz9Xprhs4/mqdefault.jpg"
   },
   {
-   "id": "7SO4QHbgDm8",
-   "privacidad": "private"
-  },
-  {
-   "id": "kZKDp2VIoMg",
-   "titulo": "The King of Fighters 2002 Plus | 🇧🇩 Test_King vs 🇧🇩 siamahasan",
-   "publicado": "2026-10-22T17:23:53Z",
-   "privacidad": "public",
-   "vistas": 2,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/kZKDp2VIoMg/mqdefault.jpg"
-  },
-  {
    "id": "qZFiSwmDYkQ",
    "titulo": "The King of Fighters 2002 Plus | 🇿🇦 KOFMINISTER vs 🇧🇩 unused #shorts",
    "publicado": "2026-10-22T16:05:59Z",
    "privacidad": "public",
-   "vistas": 25,
+   "vistas": 24,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/qZFiSwmDYkQ/mqdefault.jpg"
   },
@@ -172,7 +185,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 [SKM] KUNO",
    "publicado": "2026-10-22T05:52:35Z",
    "privacidad": "public",
-   "vistas": 9,
+   "vistas": 8,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/n5k0h014AcE/mqdefault.jpg"
   },
@@ -181,8 +194,8 @@
    "titulo": "The King of Fighters 2002 Plus | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 [SKM] KUNO #shorts",
    "publicado": "2026-10-22T05:45:47Z",
    "privacidad": "public",
-   "vistas": 51,
-   "me_gusta": 2,
+   "vistas": 54,
+   "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/6A5XB72mH2w/mqdefault.jpg"
   },
   {
@@ -402,13 +415,13 @@
    "miniatura": "https://i.ytimg.com/vi/abHG7sxVCGY/mqdefault.jpg"
   },
   {
-   "id": "K0eZGntW3gc",
-   "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Serdar80s vs 🇹🇷 yolcu",
-   "publicado": "2026-10-18T13:18:27Z",
+   "id": "VtSGc38T0W0",
+   "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
+   "publicado": "2026-10-19T23:43:24Z",
    "privacidad": "public",
-   "vistas": 6,
-   "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/K0eZGntW3gc/mqdefault.jpg"
+   "vistas": 17,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
   },
   {
    "id": "kvdjhZSWWIw",
@@ -418,15 +431,6 @@
    "vistas": 644,
    "me_gusta": 20,
    "miniatura": "https://i.ytimg.com/vi/kvdjhZSWWIw/mqdefault.jpg"
-  },
-  {
-   "id": "VtSGc38T0W0",
-   "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
-   "publicado": "2026-10-19T23:43:24Z",
-   "privacidad": "public",
-   "vistas": 17,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
   },
   {
    "id": "Bx9lXYLaMCY",
@@ -472,6 +476,15 @@
    "vistas": 3,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/8akKzQ_ERgg/mqdefault.jpg"
+  },
+  {
+   "id": "yePTNdWB1Tk",
+   "titulo": "Street Fighter II' Champion Edition | 🇧🇷 MiBSF2CE-TV vs 🇧🇷 thomas_medeiros",
+   "publicado": "2026-10-17T21:34:57Z",
+   "privacidad": "public",
+   "vistas": 8,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/yePTNdWB1Tk/mqdefault.jpg"
   },
   {
    "id": "7jQZk0S2rmM",
