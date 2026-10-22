@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22 14:06",
+ "actualizado": "2026-10-22 14:07",
  "videos": [
   {
    "quark": "1792260541870-6742",
@@ -2893,73 +2893,6 @@
     }
    ],
    "rondas": 14
-  },
-  {
-   "quark": "1769831705486-4867",
-   "juego": "kf2k2pls",
-   "juego_nombre": "The King of Fighters 2002 Plus",
-   "juego_corto": "KOF2002+",
-   "fecha": "2026-01-31",
-   "youtube": "eJlQJXru5-0",
-   "duracion": 326.8,
-   "marcador": [
-    0,
-    3
-   ],
-   "peleas": 3,
-   "jugadores": [
-    {
-     "nombre": "KOFMINISTER",
-     "pais": "za",
-     "rango_letra": "B",
-     "personaje": "Chris · Yashiro · Vice",
-     "clave": "kof2002_chris",
-     "personajes": [
-      "Chris",
-      "Yashiro",
-      "Vice",
-      "Mai",
-      "Takuma",
-      "Mature"
-     ],
-     "claves": [
-      "kof2002_chris",
-      "kof2002_yashiro",
-      "kof2002_vice",
-      "kof2002_mai",
-      "kof2002_takuma",
-      "kof2002_mature"
-     ]
-    },
-    {
-     "nombre": "unused",
-     "pais": "bd",
-     "rango_letra": "S",
-     "personaje": "Yamazaki · Takuma · Clark",
-     "clave": "kof2002_yamazaki",
-     "personajes": [
-      "Yamazaki",
-      "Takuma",
-      "Clark",
-      "Iori",
-      "Billy",
-      "Robert",
-      "Shermie",
-      "Yashiro"
-     ],
-     "claves": [
-      "kof2002_yamazaki",
-      "kof2002_takuma",
-      "kof2002_clark",
-      "kof2002_iori",
-      "kof2002_billy",
-      "kof2002_robert",
-      "kof2002_shermie",
-      "kof2002_yashiro"
-     ]
-    }
-   ],
-   "rondas": 9
   },
   {
    "quark": "1752015096202-7451",
