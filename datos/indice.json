@@ -3306,61 +3306,6 @@
    "rondas": 14
   },
   {
-   "quark": "1695411648868-8238",
-   "juego": "kof98",
-   "juego_nombre": "The King of Fighters '98",
-   "juego_corto": "KOF98",
-   "fecha": "2023-09-22",
-   "youtube": "VPoz9Xprhs4",
-   "duracion": 354.0,
-   "marcador": [
-    2,
-    0
-   ],
-   "peleas": 2,
-   "jugadores": [
-    {
-     "nombre": "mirza mudassar",
-     "pais": "pk",
-     "rango_letra": "S",
-     "personaje": "Daimon · Choi · Iori",
-     "clave": "kof98_daimon",
-     "personajes": [
-      "Daimon",
-      "Choi",
-      "Iori"
-     ],
-     "claves": [
-      "kof98_daimon",
-      "kof98_choi",
-      "kof98_iori"
-     ]
-    },
-    {
-     "nombre": "a99",
-     "pais": "de",
-     "rango_letra": "A",
-     "personaje": "Daimon · Chris · Yashiro",
-     "clave": "kof98_daimon",
-     "personajes": [
-      "Daimon",
-      "Chris",
-      "Yashiro",
-      "Yuri",
-      "Shermie"
-     ],
-     "claves": [
-      "kof98_daimon",
-      "kof98_chris",
-      "kof98_yashiro",
-      "kof98_yuri",
-      "kof98_shermie"
-     ]
-    }
-   ],
-   "rondas": 8
-  },
-  {
    "quark": "1680146826140-1141",
    "juego": "kof98",
    "juego_nombre": "The King of Fighters '98",
