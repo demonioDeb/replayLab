@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22T06:16:55Z",
+ "actualizado": "2026-10-22T06:19:31Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,15 @@
  "vistas": 27898,
  "videos": 149,
  "lista": [
+  {
+   "id": "x0YNcvaEeRk",
+   "titulo": "The King of Fighters 2002 Plus | 🇧🇩 unused vs 🇧🇩 TRAIN123 #shorts",
+   "publicado": "2026-10-22T06:19:08Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/x0YNcvaEeRk/mqdefault.jpg"
+  },
   {
    "id": "1zlsLd7xdMo",
    "titulo": "The King of Fighters 2002 Plus | 🇧🇩 unused vs 🇧🇩 TRAIN123",
@@ -460,13 +469,13 @@
    "miniatura": "https://i.ytimg.com/vi/KGew2-Dj4y0/mqdefault.jpg"
   },
   {
-   "id": "KGew2-Dj4y0",
-   "titulo": "The King of Fighters '98 | 🇩🇪 a99 vs 🇪🇸 chris24",
-   "publicado": "2026-10-16T14:30:56Z",
+   "id": "p7bTCIdFohE",
+   "titulo": "The King of Fighters '98 | 🇦🇷 DG | Mr Yama vs 🇦🇷 Abel-*CBZ* #shorts",
+   "publicado": "2026-10-16T14:30:40Z",
    "privacidad": "public",
-   "vistas": 2,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/KGew2-Dj4y0/mqdefault.jpg"
+   "vistas": 254,
+   "me_gusta": 7,
+   "miniatura": "https://i.ytimg.com/vi/p7bTCIdFohE/mqdefault.jpg"
   },
   {
    "id": "W_AnK4L6lHY",

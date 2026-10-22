@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-22 05:51",
+ "actualizado": "2026-10-22 06:19",
  "videos": [
   {
    "quark": "1792260541870-6742",
@@ -1778,6 +1778,69 @@
     }
    ],
    "rondas": 18
+  },
+  {
+   "quark": "1790885341479-3656",
+   "juego": "kf2k2pls",
+   "juego_nombre": "The King of Fighters 2002 Plus",
+   "juego_corto": "KOF2002+",
+   "fecha": "2026-10-01",
+   "youtube": "1zlsLd7xdMo",
+   "duracion": 243.3,
+   "marcador": [
+    2,
+    0
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "unused",
+     "pais": "bd",
+     "rango_letra": "S",
+     "personaje": "Iori · Ramon · Yamazaki",
+     "clave": "kof2002_iori",
+     "personajes": [
+      "Iori",
+      "Ramon",
+      "Yamazaki",
+      "Yashiro",
+      "Leona",
+      "K'"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_ramon",
+      "kof2002_yamazaki",
+      "kof2002_yashiro",
+      "kof2002_leona",
+      "kof2002_kdash"
+     ]
+    },
+    {
+     "nombre": "TRAIN123",
+     "pais": "bd",
+     "rango_letra": "A",
+     "personaje": "Leona · Yuri · Yamazaki",
+     "clave": "kof2002_leona",
+     "personajes": [
+      "Leona",
+      "Yuri",
+      "Yamazaki",
+      "Shermie",
+      "K9999",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_leona",
+      "kof2002_yuri",
+      "kof2002_yamazaki",
+      "kof2002_shermie",
+      "kof2002_k9999",
+      "kof2002_choi"
+     ]
+    }
+   ],
+   "rondas": 7
   },
   {
    "quark": "1790828329188-3709",

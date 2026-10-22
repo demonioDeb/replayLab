@@ -8,7 +8,8 @@
  "datos": {
   "super": true,
   "stun": true,
-  "combos": true
+  "combos": true,
+  "guardia": false
  },
  "fecha": "2022-12-08",
  "youtube": "xpT3YllshRo",
