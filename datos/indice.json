@@ -45,69 +45,6 @@
    "rondas": 82
   },
   {
-   "quark": "1792703253983-1604",
-   "juego": "kf2k2pls",
-   "juego_nombre": "The King of Fighters 2002 Plus",
-   "juego_corto": "KOF2002+",
-   "fecha": "2026-10-22",
-   "youtube": "77TqdcQ6e7c",
-   "duracion": 1054.7,
-   "marcador": [
-    5,
-    1
-   ],
-   "peleas": 6,
-   "jugadores": [
-    {
-     "nombre": "ACL_Cesarin69",
-     "pais": "mx",
-     "rango_letra": "B",
-     "personaje": "Choi · Kula · Iori",
-     "clave": "kof2002_choi",
-     "personajes": [
-      "Choi",
-      "Kula",
-      "Iori",
-      "Chris"
-     ],
-     "claves": [
-      "kof2002_choi",
-      "kof2002_kula",
-      "kof2002_iori",
-      "kof2002_chris"
-     ]
-    },
-    {
-     "nombre": "[SKM] Fat Joe",
-     "pais": "mx",
-     "rango_letra": "C",
-     "personaje": "Chris · Kula · Iori",
-     "clave": "kof2002_chris",
-     "personajes": [
-      "K'",
-      "Kyo",
-      "Iori",
-      "Yuri",
-      "Kula",
-      "Chris",
-      "Athena",
-      "Kim"
-     ],
-     "claves": [
-      "kof2002_kdash",
-      "kof2002_kyo",
-      "kof2002_iori",
-      "kof2002_yuri",
-      "kof2002_kula",
-      "kof2002_chris",
-      "kof2002_athena",
-      "kof2002_kim"
-     ]
-    }
-   ],
-   "rondas": 27
-  },
-  {
    "quark": "1792701064097-8033",
    "juego": "kof98",
    "juego_nombre": "The King of Fighters '98",
@@ -354,51 +291,6 @@
    "rondas": 14
   },
   {
-   "quark": "1792260541870-6742",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-10-17",
-   "youtube": "ucre00SiUJI",
-   "duracion": 530.2,
-   "marcador": [
-    5,
-    0
-   ],
-   "peleas": 5,
-   "jugadores": [
-    {
-     "nombre": "yolcu",
-     "pais": "tr",
-     "rango_letra": "A",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    },
-    {
-     "nombre": "DOMIT_BEG",
-     "pais": "tr",
-     "rango_letra": "B",
-     "personaje": "Ken",
-     "clave": "ken",
-     "personajes": [
-      "Ken",
-      "Guile"
-     ],
-     "claves": [
-      "ken",
-      "guile"
-     ]
-    }
-   ],
-   "rondas": 11
-  },
-  {
    "quark": "1792259495912-4307",
    "juego": "sf2ce",
    "juego_nombre": "Street Fighter II' Champion Edition",
@@ -528,6 +420,53 @@
      ],
      "claves": [
       "dictator"
+     ]
+    }
+   ],
+   "rondas": 12
+  },
+  {
+   "quark": "1792258140164-1065",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-17",
+   "youtube": "iQq6_iX9Nwo",
+   "duracion": 483.4,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "((Caution))",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    },
+    {
+     "nombre": "Sansar",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "Guile",
+     "clave": "guile",
+     "personajes": [
+      "Guile",
+      "Zangief",
+      "E. Honda"
+     ],
+     "claves": [
+      "guile",
+      "zangief",
+      "honda"
      ]
     }
    ],
