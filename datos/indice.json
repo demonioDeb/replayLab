@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23 23:54",
+ "actualizado": "2026-10-23 23:55",
  "videos": [
   {
    "quark": "1792787670401-5055",
@@ -330,49 +330,6 @@
    "rondas": 14
   },
   {
-   "quark": "1792698041234-1069",
-   "juego": "ssf2xjr1",
-   "juego_nombre": "Super Street Fighter II X",
-   "juego_corto": "SSF2X",
-   "fecha": "2026-10-22",
-   "youtube": "vrY6ckX3X0Q",
-   "duracion": 546.1,
-   "marcador": [
-    3,
-    2
-   ],
-   "peleas": 5,
-   "jugadores": [
-    {
-     "nombre": "znoopyglobal",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Chun-Li",
-     "clave": "chunli",
-     "personajes": [
-      "Chun-Li"
-     ],
-     "claves": [
-      "chunli"
-     ]
-    },
-    {
-     "nombre": "ChoiBoy",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Ryu",
-     "clave": "ryu",
-     "personajes": [
-      "Ryu"
-     ],
-     "claves": [
-      "ryu"
-     ]
-    }
-   ],
-   "rondas": 14
-  },
-  {
    "quark": "1792696774652-5360",
    "juego": "sf2ce",
    "juego_nombre": "Street Fighter II' Champion Edition",
@@ -556,49 +513,6 @@
     }
    ],
    "rondas": 16
-  },
-  {
-   "quark": "1792536665698-5791",
-   "juego": "ssf2xjr1",
-   "juego_nombre": "Super Street Fighter II X",
-   "juego_corto": "SSF2X",
-   "fecha": "2026-10-20",
-   "youtube": "KdKMuyaaawo",
-   "duracion": 693.4,
-   "marcador": [
-    4,
-    2
-   ],
-   "peleas": 7,
-   "jugadores": [
-    {
-     "nombre": "FRS | Biridin",
-     "pais": "br",
-     "rango_letra": "A",
-     "personaje": "Dee Jay",
-     "clave": "deejay",
-     "personajes": [
-      "Dee Jay"
-     ],
-     "claves": [
-      "deejay"
-     ]
-    },
-    {
-     "nombre": "IMP | Laboca",
-     "pais": "br",
-     "rango_letra": "A",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    }
-   ],
-   "rondas": 19
   },
   {
    "quark": "1792284979963-6587",
