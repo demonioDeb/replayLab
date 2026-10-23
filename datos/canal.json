@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T22:28:00Z",
+ "actualizado": "2026-10-23T22:48:23Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 28460,
  "videos": 177,
  "lista": [
+  {
+   "id": "2wcFF8CeS0c",
+   "privacidad": "private"
+  },
+  {
+   "id": "vrY6ckX3X0Q",
+   "privacidad": "private"
+  },
   {
    "id": "NeFe26r3x1I",
    "privacidad": "private"
@@ -22,7 +30,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 ChoiBoy vs 🇺🇸 Fromo #shorts",
    "publicado": "2026-10-23T18:08:19Z",
    "privacidad": "public",
-   "vistas": 22,
+   "vistas": 24,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/vwH_al_3aP0/mqdefault.jpg"
   },
@@ -402,13 +410,13 @@
    "miniatura": "https://i.ytimg.com/vi/rTojqMLwYNc/mqdefault.jpg"
   },
   {
-   "id": "bmBmb0DFjYs",
-   "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 Digitalinfamy vs 🇺🇸 DJILK #shorts",
-   "publicado": "2026-10-18T16:12:51Z",
+   "id": "VtSGc38T0W0",
+   "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
+   "publicado": "2026-10-19T23:43:24Z",
    "privacidad": "public",
-   "vistas": 2,
-   "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/bmBmb0DFjYs/mqdefault.jpg"
+   "vistas": 19,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
   },
   {
    "id": "4CSv3cisV9Y",
@@ -420,15 +428,6 @@
    "miniatura": "https://i.ytimg.com/vi/4CSv3cisV9Y/mqdefault.jpg"
   },
   {
-   "id": "VtSGc38T0W0",
-   "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
-   "publicado": "2026-10-19T23:43:24Z",
-   "privacidad": "public",
-   "vistas": 19,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
-  },
-  {
    "id": "ZmpZmSQ_vMg",
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Sansar vs 🇧🇷 ((Caution))",
    "publicado": "2026-10-18T15:49:04Z",
@@ -436,6 +435,15 @@
    "vistas": 3,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/ZmpZmSQ_vMg/mqdefault.jpg"
+  },
+  {
+   "id": "u-YZqndV9Mc",
+   "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Sansar vs 🇧🇷 ((Caution)) #shorts",
+   "publicado": "2026-10-18T15:49:00Z",
+   "privacidad": "public",
+   "vistas": 3,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/u-YZqndV9Mc/mqdefault.jpg"
   },
   {
    "id": "FNHnNpw2wcw",
@@ -852,24 +860,6 @@
    "miniatura": "https://i.ytimg.com/vi/OLhW7r6qM8s/mqdefault.jpg"
   },
   {
-   "id": "JsnuculyCrA",
-   "titulo": "The King of Fighters 2002 | 🇩🇿 dz101010 vs 🇧🇷 modo sedex",
-   "publicado": "2026-10-16T01:02:21Z",
-   "privacidad": "public",
-   "vistas": 1,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/JsnuculyCrA/mqdefault.jpg"
-  },
-  {
-   "id": "zR7ORIt8jg0",
-   "titulo": "The King of Fighters 2002 | 🇵🇰 mirza mudassar vs 🇫🇷 preciouss #shorts",
-   "publicado": "2026-10-16T00:43:58Z",
-   "privacidad": "public",
-   "vistas": 33,
-   "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/zR7ORIt8jg0/mqdefault.jpg"
-  },
-  {
    "id": "sXP217Z_uoo",
    "titulo": "The King of Fighters 2002 | 🇲🇽 Jonathan Tijuana vs 🇲🇽 KGS_KINF_KULA",
    "publicado": "2026-10-16T01:03:24Z",
@@ -877,6 +867,24 @@
    "vistas": 3,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/sXP217Z_uoo/mqdefault.jpg"
+  },
+  {
+   "id": "OLhW7r6qM8s",
+   "titulo": "The King of Fighters 2002 | 🇲🇽 Jonathan Tijuana vs 🇲🇽 KGS_KINF_KULA #shorts",
+   "publicado": "2026-10-16T01:02:49Z",
+   "privacidad": "public",
+   "vistas": 174,
+   "me_gusta": 4,
+   "miniatura": "https://i.ytimg.com/vi/OLhW7r6qM8s/mqdefault.jpg"
+  },
+  {
+   "id": "U21HTnN1GBA",
+   "titulo": "The King of Fighters 2002 | 🇵🇰 mirza mudassar vs 🇫🇷 preciouss",
+   "publicado": "2026-10-16T00:43:56Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/U21HTnN1GBA/mqdefault.jpg"
   },
   {
    "id": "NfpjS5D_bJ4",
@@ -1320,13 +1328,13 @@
    "miniatura": "https://i.ytimg.com/vi/VKwKClpHftY/mqdefault.jpg"
   },
   {
-   "id": "VKwKClpHftY",
-   "titulo": "Street Fighter II' Champion Edition | 🇺🇸 DJILK vs 🇧🇷 RAC | Flavio.Ryu",
-   "publicado": "2026-10-02T15:45:06Z",
+   "id": "OmfxsVR8SMU",
+   "titulo": "Street Fighter II' Champion Edition | 🇺🇸 DJILK vs 🇧🇷 RAC | Flavio.Ryu #shorts",
+   "publicado": "2026-10-02T15:15:03Z",
    "privacidad": "public",
-   "vistas": 45,
-   "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/VKwKClpHftY/mqdefault.jpg"
+   "vistas": 283,
+   "me_gusta": 2,
+   "miniatura": "https://i.ytimg.com/vi/OmfxsVR8SMU/mqdefault.jpg"
   },
   {
    "id": "EYs2bo77Mos",

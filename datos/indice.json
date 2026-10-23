@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23 22:28",
+ "actualizado": "2026-10-23 22:48",
  "videos": [
   {
    "quark": "1792704660641-4103",
@@ -230,6 +230,49 @@
       "kof2002_clark",
       "kof2002_angel",
       "kof2002_choi"
+     ]
+    }
+   ],
+   "rondas": 14
+  },
+  {
+   "quark": "1792698041234-1069",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-22",
+   "youtube": "vrY6ckX3X0Q",
+   "duracion": 546.1,
+   "marcador": [
+    3,
+    2
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "znoopyglobal",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Chun-Li",
+     "clave": "chunli",
+     "personajes": [
+      "Chun-Li"
+     ],
+     "claves": [
+      "chunli"
+     ]
+    },
+    {
+     "nombre": "ChoiBoy",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
      ]
     }
    ],
