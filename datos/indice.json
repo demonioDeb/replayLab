@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23 23:28",
+ "actualizado": "2026-10-23 23:54",
  "videos": [
   {
    "quark": "1792787670401-5055",
@@ -556,6 +556,49 @@
     }
    ],
    "rondas": 16
+  },
+  {
+   "quark": "1792536665698-5791",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-20",
+   "youtube": "KdKMuyaaawo",
+   "duracion": 693.4,
+   "marcador": [
+    4,
+    2
+   ],
+   "peleas": 7,
+   "jugadores": [
+    {
+     "nombre": "FRS | Biridin",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Dee Jay",
+     "clave": "deejay",
+     "personajes": [
+      "Dee Jay"
+     ],
+     "claves": [
+      "deejay"
+     ]
+    },
+    {
+     "nombre": "IMP | Laboca",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    }
+   ],
+   "rondas": 19
   },
   {
    "quark": "1792284979963-6587",
