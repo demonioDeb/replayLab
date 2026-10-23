@@ -1,6 +1,49 @@
 {
- "actualizado": "2026-10-23 02:39",
+ "actualizado": "2026-10-23 22:27",
  "videos": [
+  {
+   "quark": "1792787670401-5055",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-23",
+   "youtube": "yLH_6m5O-Xc",
+   "duracion": 971.0,
+   "marcador": [
+    3,
+    5
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "G0KTuG",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken"
+     ],
+     "claves": [
+      "ken"
+     ]
+    },
+    {
+     "nombre": "BachataHero",
+     "pais": "tr",
+     "rango_letra": "A",
+     "personaje": "Guile",
+     "clave": "guile",
+     "personajes": [
+      "Guile"
+     ],
+     "claves": [
+      "guile"
+     ]
+    }
+   ],
+   "rondas": 22
+  },
   {
    "quark": "1792704660641-4103",
    "juego": "ssf2xjr1",
