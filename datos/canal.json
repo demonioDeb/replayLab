@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T02:01:24Z",
+ "actualizado": "2026-10-23T02:35:03Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 28063,
  "videos": 168,
  "lista": [
+  {
+   "id": "bqof3ZYcxSQ",
+   "privacidad": "private"
+  },
+  {
+   "id": "77TqdcQ6e7c",
+   "privacidad": "private"
+  },
   {
    "id": "Yl_c492xSSw",
    "privacidad": "private"
@@ -57,7 +65,7 @@
    "titulo": "The King of Fighters '98 | 🇵🇰 mirza mudassar vs 🇩🇪 a99 #shorts",
    "publicado": "2026-10-23T00:41:43Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 0,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/wLd-PcfSdGQ/mqdefault.jpg"
   },
@@ -92,7 +100,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇧🇩 Test_King vs 🇧🇩 siamahasan #shorts",
    "publicado": "2026-10-22T22:42:04Z",
    "privacidad": "public",
-   "vistas": 3,
+   "vistas": 40,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/7SO4QHbgDm8/mqdefault.jpg"
   },
@@ -149,7 +157,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇲🇽 TONY DC vs 🇲🇽 [JDK] -Zr-El jhon Sg #shorts",
    "publicado": "2026-10-22T20:42:09Z",
    "privacidad": "public",
-   "vistas": 20,
+   "vistas": 21,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/BJPDK9hutVo/mqdefault.jpg"
   },
@@ -382,13 +390,13 @@
    "miniatura": "https://i.ytimg.com/vi/FNHnNpw2wcw/mqdefault.jpg"
   },
   {
-   "id": "ucre00SiUJI",
-   "titulo": "Street Fighter II' Champion Edition | 🇹🇷 yolcu vs 🇹🇷 DOMIT_BEG",
-   "publicado": "2026-10-18T15:26:03Z",
+   "id": "VtSGc38T0W0",
+   "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
+   "publicado": "2026-10-19T23:43:24Z",
    "privacidad": "public",
-   "vistas": 2,
+   "vistas": 18,
    "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/ucre00SiUJI/mqdefault.jpg"
+   "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
   },
   {
    "id": "Yg779Ef_CZU",
@@ -400,13 +408,13 @@
    "miniatura": "https://i.ytimg.com/vi/Yg779Ef_CZU/mqdefault.jpg"
   },
   {
-   "id": "VtSGc38T0W0",
-   "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
-   "publicado": "2026-10-19T23:43:24Z",
+   "id": "iQq6_iX9Nwo",
+   "titulo": "Street Fighter II' Champion Edition | 🇧🇷 ((Caution)) vs 🇹🇷 Sansar",
+   "publicado": "2026-10-18T15:03:28Z",
    "privacidad": "public",
-   "vistas": 18,
+   "vistas": 5,
    "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
+   "miniatura": "https://i.ytimg.com/vi/iQq6_iX9Nwo/mqdefault.jpg"
   },
   {
    "id": "Nol8uOpCOaU",
