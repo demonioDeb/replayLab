@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T01:14:44Z",
+ "actualizado": "2026-10-23T01:37:08Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 28063,
  "videos": 168,
  "lista": [
+  {
+   "id": "WYYBnLxY0GM",
+   "privacidad": "private"
+  },
+  {
+   "id": "omhtN9QAwdY",
+   "privacidad": "private"
+  },
   {
    "id": "hjg-44Fyn7c",
    "titulo": "The King of Fighters '98 | 🇧🇷 olivercan vs 🇧🇷 Raphael pe #shorts",
@@ -402,13 +410,13 @@
    "miniatura": "https://i.ytimg.com/vi/Nol8uOpCOaU/mqdefault.jpg"
   },
   {
-   "id": "D31P2gT4eMQ",
-   "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 Loboesteparius vs 🇺🇸 White Ben #shorts",
-   "publicado": "2026-10-18T14:40:44Z",
+   "id": "VtSGc38T0W0",
+   "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
+   "publicado": "2026-10-19T23:43:24Z",
    "privacidad": "public",
-   "vistas": 297,
-   "me_gusta": 10,
-   "miniatura": "https://i.ytimg.com/vi/D31P2gT4eMQ/mqdefault.jpg"
+   "vistas": 18,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
   },
   {
    "id": "brOcNy1IbbU",
@@ -420,13 +428,13 @@
    "miniatura": "https://i.ytimg.com/vi/brOcNy1IbbU/mqdefault.jpg"
   },
   {
-   "id": "VtSGc38T0W0",
-   "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
-   "publicado": "2026-10-19T23:43:24Z",
+   "id": "jCEg8kSok1E",
+   "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Leakage vs 🇹🇷 yolcu",
+   "publicado": "2026-10-18T14:13:51Z",
    "privacidad": "public",
-   "vistas": 18,
+   "vistas": 5,
    "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
+   "miniatura": "https://i.ytimg.com/vi/jCEg8kSok1E/mqdefault.jpg"
   },
   {
    "id": "p6twxgtvkyM",
