@@ -100,79 +100,6 @@
    "rondas": 36
   },
   {
-   "quark": "1792698884006-3411",
-   "juego": "kof2002",
-   "juego_nombre": "The King of Fighters 2002",
-   "juego_corto": "KOF2002",
-   "fecha": "2026-10-22",
-   "youtube": "omhtN9QAwdY",
-   "duracion": 520.0,
-   "marcador": [
-    2,
-    1
-   ],
-   "peleas": 3,
-   "jugadores": [
-    {
-     "nombre": "HONESTO OFICIAL",
-     "pais": "br",
-     "rango_letra": "A",
-     "personaje": "Kim · Mai · Mature",
-     "clave": "kof2002_kim",
-     "personajes": [
-      "Kim",
-      "Mai",
-      "Mature",
-      "Terry",
-      "Choi",
-      "Kula",
-      "May Lee",
-      "Leona",
-      "Vice"
-     ],
-     "claves": [
-      "kof2002_kim",
-      "kof2002_mai",
-      "kof2002_mature",
-      "kof2002_terry",
-      "kof2002_choi",
-      "kof2002_kula",
-      "kof2002_maylee",
-      "kof2002_leona",
-      "kof2002_vice"
-     ]
-    },
-    {
-     "nombre": "MobbyRJ",
-     "pais": "br",
-     "rango_letra": "B",
-     "personaje": "Shermie · Yashiro · Andy",
-     "clave": "kof2002_shermie",
-     "personajes": [
-      "Shermie",
-      "Yashiro",
-      "Andy",
-      "Maxima",
-      "Seth",
-      "Clark",
-      "Angel",
-      "Choi"
-     ],
-     "claves": [
-      "kof2002_shermie",
-      "kof2002_yashiro",
-      "kof2002_andy",
-      "kof2002_maxima",
-      "kof2002_seth",
-      "kof2002_clark",
-      "kof2002_angel",
-      "kof2002_choi"
-     ]
-    }
-   ],
-   "rondas": 14
-  },
-  {
    "quark": "1792696774652-5360",
    "juego": "sf2ce",
    "juego_nombre": "Street Fighter II' Champion Edition",
@@ -589,6 +516,51 @@
     }
    ],
    "rondas": 12
+  },
+  {
+   "quark": "1792258071010-6678",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-17",
+   "youtube": "jCEg8kSok1E",
+   "duracion": 876.7,
+   "marcador": [
+    1,
+    5
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "Leakage",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken",
+      "Ryu"
+     ],
+     "claves": [
+      "ken",
+      "ryu"
+     ]
+    },
+    {
+     "nombre": "yolcu",
+     "pais": "tr",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    }
+   ],
+   "rondas": 16
   },
   {
    "quark": "1792255139229-2301",
