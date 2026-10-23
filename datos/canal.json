@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T02:35:29Z",
+ "actualizado": "2026-10-23T02:38:41Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,10 @@
  "vistas": 28063,
  "videos": 168,
  "lista": [
+  {
+   "id": "HPrhU88NPc0",
+   "privacidad": "private"
+  },
   {
    "id": "bqof3ZYcxSQ",
    "privacidad": "private"
@@ -381,15 +385,6 @@
    "miniatura": "https://i.ytimg.com/vi/u-YZqndV9Mc/mqdefault.jpg"
   },
   {
-   "id": "FNHnNpw2wcw",
-   "titulo": "Street Fighter II' Champion Edition | 🇹🇷 yolcu vs 🇹🇷 DOMIT_BEG #shorts",
-   "publicado": "2026-10-18T15:26:21Z",
-   "privacidad": "public",
-   "vistas": 424,
-   "me_gusta": 10,
-   "miniatura": "https://i.ytimg.com/vi/FNHnNpw2wcw/mqdefault.jpg"
-  },
-  {
    "id": "VtSGc38T0W0",
    "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
    "publicado": "2026-10-19T23:43:24Z",
@@ -397,6 +392,15 @@
    "vistas": 18,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
+  },
+  {
+   "id": "ucre00SiUJI",
+   "titulo": "Street Fighter II' Champion Edition | 🇹🇷 yolcu vs 🇹🇷 DOMIT_BEG",
+   "publicado": "2026-10-18T15:26:03Z",
+   "privacidad": "public",
+   "vistas": 2,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/ucre00SiUJI/mqdefault.jpg"
   },
   {
    "id": "Yg779Ef_CZU",
@@ -831,13 +835,13 @@
    "miniatura": "https://i.ytimg.com/vi/NfpjS5D_bJ4/mqdefault.jpg"
   },
   {
-   "id": "O0JfTeWhBBU",
-   "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Flawless | Victory vs 🇹🇷 Serdar80s #shorts",
-   "publicado": "2026-10-16T00:24:14Z",
+   "id": "NfpjS5D_bJ4",
+   "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Flawless | Victory vs 🇹🇷 Serdar80s",
+   "publicado": "2026-10-16T00:24:18Z",
    "privacidad": "public",
-   "vistas": 70,
-   "me_gusta": 3,
-   "miniatura": "https://i.ytimg.com/vi/O0JfTeWhBBU/mqdefault.jpg"
+   "vistas": 313,
+   "me_gusta": 1,
+   "miniatura": "https://i.ytimg.com/vi/NfpjS5D_bJ4/mqdefault.jpg"
   },
   {
    "id": "bkqQoJNSkmg",
@@ -907,7 +911,7 @@
    "titulo": "Super Street Fighter II X | 🇬🇧 DojaCat vs 🇺🇸 DGV",
    "publicado": "2026-10-11T03:25:30Z",
    "privacidad": "public",
-   "vistas": 16,
+   "vistas": 17,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/-bXHiFOG0sg/mqdefault.jpg"
   },
@@ -1141,7 +1145,7 @@
    "titulo": "Super Street Fighter II X | 🇧🇷 LABOCA vs 🇧🇷 RAC | Flavio.Ryu",
    "publicado": "2026-10-06T13:26:07Z",
    "privacidad": "public",
-   "vistas": 9,
+   "vistas": 10,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/4xmZ3e2nfjQ/mqdefault.jpg"
   },

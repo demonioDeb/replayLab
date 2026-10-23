@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23 02:35",
+ "actualizado": "2026-10-23 02:38",
  "videos": [
   {
    "quark": "1792704660641-4103",
@@ -1005,6 +1005,57 @@
     }
    ],
    "rondas": 11
+  },
+  {
+   "quark": "1792100087055-4264",
+   "juego": "kof2002",
+   "juego_nombre": "The King of Fighters 2002",
+   "juego_corto": "KOF2002",
+   "fecha": "2026-10-15",
+   "youtube": "HPrhU88NPc0",
+   "duracion": null,
+   "marcador": [
+    0,
+    0
+   ],
+   "peleas": 1,
+   "jugadores": [
+    {
+     "nombre": "[SKM] [P] POLLO",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Kim · Angel · May Lee",
+     "clave": "kof2002_kim",
+     "personajes": [
+      "Kim",
+      "Angel",
+      "May Lee"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_angel",
+      "kof2002_maylee"
+     ]
+    },
+    {
+     "nombre": "Drinkteam-john",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Whip · Kim · Leona",
+     "clave": "kof2002_whip",
+     "personajes": [
+      "Whip",
+      "Kim",
+      "Leona"
+     ],
+     "claves": [
+      "kof2002_whip",
+      "kof2002_kim",
+      "kof2002_leona"
+     ]
+    }
+   ],
+   "rondas": 1
   },
   {
    "quark": "1792099199375-9243",
