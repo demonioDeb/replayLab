@@ -1,6 +1,49 @@
 {
- "actualizado": "2026-10-23 23:27",
+ "actualizado": "2026-10-23 23:28",
  "videos": [
+  {
+   "quark": "1792787670401-5055",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-23",
+   "youtube": "yLH_6m5O-Xc",
+   "duracion": 971.0,
+   "marcador": [
+    3,
+    5
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "G0KTuG",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken"
+     ],
+     "claves": [
+      "ken"
+     ]
+    },
+    {
+     "nombre": "BachataHero",
+     "pais": "tr",
+     "rango_letra": "A",
+     "personaje": "Guile",
+     "clave": "guile",
+     "personajes": [
+      "Guile"
+     ],
+     "claves": [
+      "guile"
+     ]
+    }
+   ],
+   "rondas": 22
+  },
   {
    "quark": "1792713054428-5968",
    "juego": "kf2k2pls",
@@ -281,6 +324,49 @@
       "kof2002_clark",
       "kof2002_angel",
       "kof2002_choi"
+     ]
+    }
+   ],
+   "rondas": 14
+  },
+  {
+   "quark": "1792698041234-1069",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-22",
+   "youtube": "vrY6ckX3X0Q",
+   "duracion": 546.1,
+   "marcador": [
+    3,
+    2
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "znoopyglobal",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Chun-Li",
+     "clave": "chunli",
+     "personajes": [
+      "Chun-Li"
+     ],
+     "claves": [
+      "chunli"
+     ]
+    },
+    {
+     "nombre": "ChoiBoy",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
      ]
     }
    ],
@@ -2914,6 +3000,57 @@
     }
    ],
    "rondas": 13
+  },
+  {
+   "quark": "1790618360197-9568",
+   "juego": "kof2002",
+   "juego_nombre": "The King of Fighters 2002",
+   "juego_corto": "KOF2002",
+   "fecha": "2026-09-28",
+   "youtube": "JsnuculyCrA",
+   "duracion": 301.3,
+   "marcador": [
+    0,
+    1
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "dz101010",
+     "pais": "dz",
+     "rango_letra": "A",
+     "personaje": "Benimaru · Leona · Choi",
+     "clave": "kof2002_benimaru",
+     "personajes": [
+      "Benimaru",
+      "Leona",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_benimaru",
+      "kof2002_leona",
+      "kof2002_choi"
+     ]
+    },
+    {
+     "nombre": "modo sedex",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Andy · Mai · Mary",
+     "clave": "kof2002_andy",
+     "personajes": [
+      "Andy",
+      "Mai",
+      "Mary"
+     ],
+     "claves": [
+      "kof2002_andy",
+      "kof2002_mai",
+      "kof2002_mary"
+     ]
+    }
+   ],
+   "rondas": 8
   },
   {
    "quark": "1790562701321-6838",
