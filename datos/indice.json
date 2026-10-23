@@ -45,6 +45,49 @@
    "rondas": 82
   },
   {
+   "quark": "1792696774652-5360",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-22",
+   "youtube": "5cvxCbyapb8",
+   "duracion": 879.2,
+   "marcador": [
+    5,
+    2
+   ],
+   "peleas": 7,
+   "jugadores": [
+    {
+     "nombre": "Destur",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    },
+    {
+     "nombre": "BachataHero",
+     "pais": "tr",
+     "rango_letra": "A",
+     "personaje": "Guile",
+     "clave": "guile",
+     "personajes": [
+      "Guile"
+     ],
+     "claves": [
+      "guile"
+     ]
+    }
+   ],
+   "rondas": 20
+  },
+  {
    "quark": "1792639806326-5737",
    "juego": "kf2k2pls",
    "juego_nombre": "The King of Fighters 2002 Plus",
@@ -236,6 +279,49 @@
     }
    ],
    "rondas": 11
+  },
+  {
+   "quark": "1792259495912-4307",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-17",
+   "youtube": "K0eZGntW3gc",
+   "duracion": 982.3,
+   "marcador": [
+    3,
+    5
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "Serdar80s",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    },
+    {
+     "nombre": "yolcu",
+     "pais": "tr",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    }
+   ],
+   "rondas": 20
   },
   {
    "quark": "1792258982678-1558",
@@ -555,49 +641,6 @@
     }
    ],
    "rondas": 22
-  },
-  {
-   "quark": "1792197475604-7224",
-   "juego": "sf2hf",
-   "juego_nombre": "Street Fighter II' Hyper Fighting",
-   "juego_corto": "SF2HF",
-   "fecha": "2026-10-17",
-   "youtube": "4YMeczHVHug",
-   "duracion": 388.0,
-   "marcador": [
-    1,
-    3
-   ],
-   "peleas": 4,
-   "jugadores": [
-    {
-     "nombre": "Digitalinfamy",
-     "pais": "us",
-     "rango_letra": "B",
-     "personaje": "E. Honda",
-     "clave": "honda",
-     "personajes": [
-      "E. Honda"
-     ],
-     "claves": [
-      "honda"
-     ]
-    },
-    {
-     "nombre": "ChoiBoy",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    }
-   ],
-   "rondas": 11
   },
   {
    "quark": "1792195509747-8342",
