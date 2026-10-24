@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24T00:18:19Z",
+ "actualizado": "2026-10-24T00:46:49Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 28460,
  "videos": 180,
  "lista": [
+  {
+   "id": "Elepf4KDHfc",
+   "privacidad": "private"
+  },
+  {
+   "id": "qldiNwJM418",
+   "privacidad": "private"
+  },
   {
    "id": "Sitd_0texPY",
    "privacidad": "private"
@@ -92,7 +100,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 Zombie_Damage vs 🇺🇸 znoopyglobal #shorts",
    "publicado": "2026-10-23T16:08:29Z",
    "privacidad": "public",
-   "vistas": 19,
+   "vistas": 16,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/akl59s21rdM/mqdefault.jpg"
   },
@@ -128,7 +136,7 @@
    "titulo": "Super Street Fighter II X | 🇲🇽 Hokuto vs 🇺🇸 MegamanX-8 #shorts",
    "publicado": "2026-10-23T12:08:11Z",
    "privacidad": "public",
-   "vistas": 40,
+   "vistas": 39,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/DgymbcGSTJo/mqdefault.jpg"
   },
@@ -146,7 +154,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 Drinkteam-john vs 🇺🇸 [SKM] [P] POLLO",
    "publicado": "2026-10-23T04:48:10Z",
    "privacidad": "public",
-   "vistas": 10,
+   "vistas": 11,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/I5B9j4Eh8x4/mqdefault.jpg"
   },
@@ -173,7 +181,7 @@
    "titulo": "The King of Fighters '98 | 🇩🇪 a99 vs 🇪🇸 chris24 #shorts",
    "publicado": "2026-10-23T02:41:39Z",
    "privacidad": "public",
-   "vistas": 93,
+   "vistas": 95,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/OT5cS4ykuq8/mqdefault.jpg"
   },
@@ -296,7 +304,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇧🇩 Test_King vs 🇧🇩 siamahasan",
    "publicado": "2026-10-22T22:41:43Z",
    "privacidad": "public",
-   "vistas": 3,
+   "vistas": 4,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/kZKDp2VIoMg/mqdefault.jpg"
   },
@@ -314,7 +322,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇲🇽 TONY DC vs 🇲🇽 [JDK] -Zr-El jhon Sg",
    "publicado": "2026-10-22T20:41:44Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/5OCNvH5Omp0/mqdefault.jpg"
   },
@@ -350,7 +358,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇿🇦 KOFMINISTER vs 🇧🇩 unused",
    "publicado": "2026-10-22T16:05:49Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/d7O74ikHurE/mqdefault.jpg"
   },
@@ -400,13 +408,13 @@
    "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
   },
   {
-   "id": "VtSGc38T0W0",
-   "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
-   "publicado": "2026-10-19T23:43:24Z",
+   "id": "9b3AJyNyHmk",
+   "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 Royal Plush vs 🇺🇸 ChoiBoy #shorts",
+   "publicado": "2026-10-18T17:13:11Z",
    "privacidad": "public",
-   "vistas": 19,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
+   "vistas": 8,
+   "me_gusta": 2,
+   "miniatura": "https://i.ytimg.com/vi/9b3AJyNyHmk/mqdefault.jpg"
   },
   {
    "id": "6Ah0M3rXdTA",
@@ -832,13 +840,13 @@
    "miniatura": "https://i.ytimg.com/vi/J-8V2DWIk7s/mqdefault.jpg"
   },
   {
-   "id": "7A6JAOI1kSg",
-   "titulo": "The King of Fighters 2002 | 🇪🇨 #ELKOFNosUne vs 🇨🇴 onimenodacho #shorts",
-   "publicado": "2026-10-16T02:14:14Z",
+   "id": "J-8V2DWIk7s",
+   "titulo": "The King of Fighters 2002 | 🇪🇨 #ELKOFNosUne vs 🇨🇴 onimenodacho",
+   "publicado": "2026-10-16T02:14:15Z",
    "privacidad": "public",
-   "vistas": 257,
-   "me_gusta": 6,
-   "miniatura": "https://i.ytimg.com/vi/7A6JAOI1kSg/mqdefault.jpg"
+   "vistas": 4,
+   "me_gusta": 1,
+   "miniatura": "https://i.ytimg.com/vi/J-8V2DWIk7s/mqdefault.jpg"
   },
   {
    "id": "waZ6IGnHEUw",
@@ -850,13 +858,13 @@
    "miniatura": "https://i.ytimg.com/vi/waZ6IGnHEUw/mqdefault.jpg"
   },
   {
-   "id": "waZ6IGnHEUw",
-   "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel",
-   "publicado": "2026-10-16T01:52:22Z",
+   "id": "Nas-Ex7erA0",
+   "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel #shorts",
+   "publicado": "2026-10-16T01:51:59Z",
    "privacidad": "public",
-   "vistas": 4,
-   "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/waZ6IGnHEUw/mqdefault.jpg"
+   "vistas": 170,
+   "me_gusta": 8,
+   "miniatura": "https://i.ytimg.com/vi/Nas-Ex7erA0/mqdefault.jpg"
   },
   {
    "id": "Azq03K1eaUM",
@@ -1282,24 +1290,6 @@
    "miniatura": "https://i.ytimg.com/vi/q_B1tf5OpTg/mqdefault.jpg"
   },
   {
-   "id": "BwLIPF8RbdQ",
-   "titulo": "Super Street Fighter II X | 🇺🇸 Zombie_Damage vs 🇺🇸 RenoMD #shorts",
-   "publicado": "2026-10-05T03:58:06Z",
-   "privacidad": "public",
-   "vistas": 241,
-   "me_gusta": 3,
-   "miniatura": "https://i.ytimg.com/vi/BwLIPF8RbdQ/mqdefault.jpg"
-  },
-  {
-   "id": "xbKV3KAuvug",
-   "titulo": "Super Street Fighter II X | 🇫🇷 kazel vs 🇫🇷 Zagi #shorts",
-   "publicado": "2026-10-04T12:00:31Z",
-   "privacidad": "public",
-   "vistas": 643,
-   "me_gusta": 6,
-   "miniatura": "https://i.ytimg.com/vi/xbKV3KAuvug/mqdefault.jpg"
-  },
-  {
    "id": "mH6nIeWWI1Q",
    "titulo": "Super Street Fighter II X | 🇺🇸 DJILK-SF2TV vs 🇺🇸 Fromo",
    "publicado": "2026-10-06T03:43:53Z",
@@ -1307,6 +1297,24 @@
    "vistas": 13,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/mH6nIeWWI1Q/mqdefault.jpg"
+  },
+  {
+   "id": "m6Gyw4Itunw",
+   "titulo": "Super Street Fighter II X | 🇫🇷 kazel vs 🇫🇷 Zagi",
+   "publicado": "2026-10-06T03:43:49Z",
+   "privacidad": "public",
+   "vistas": 10,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/m6Gyw4Itunw/mqdefault.jpg"
+  },
+  {
+   "id": "ZS_mohBIQ90",
+   "titulo": "Super Street Fighter II X | 🇺🇸 DJILK-SF2TV vs 🇺🇸 Fromo #shorts",
+   "publicado": "2026-10-04T03:17:49Z",
+   "privacidad": "public",
+   "vistas": 494,
+   "me_gusta": 12,
+   "miniatura": "https://i.ytimg.com/vi/ZS_mohBIQ90/mqdefault.jpg"
   },
   {
    "id": "PsmfC8iSfnc",
