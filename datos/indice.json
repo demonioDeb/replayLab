@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24 00:17",
+ "actualizado": "2026-10-24 00:18",
  "videos": [
   {
    "quark": "1792787670401-5055",
@@ -330,6 +330,49 @@
    "rondas": 14
   },
   {
+   "quark": "1792698041234-1069",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-22",
+   "youtube": "vrY6ckX3X0Q",
+   "duracion": 546.1,
+   "marcador": [
+    3,
+    2
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "znoopyglobal",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Chun-Li",
+     "clave": "chunli",
+     "personajes": [
+      "Chun-Li"
+     ],
+     "claves": [
+      "chunli"
+     ]
+    },
+    {
+     "nombre": "ChoiBoy",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    }
+   ],
+   "rondas": 14
+  },
+  {
    "quark": "1792696774652-5360",
    "juego": "sf2ce",
    "juego_nombre": "Street Fighter II' Champion Edition",
@@ -367,57 +410,6 @@
      ],
      "claves": [
       "guile"
-     ]
-    }
-   ],
-   "rondas": 20
-  },
-  {
-   "quark": "1792642283637-8431",
-   "juego": "kf2k2pls",
-   "juego_nombre": "The King of Fighters 2002 Plus",
-   "juego_corto": "KOF2002+",
-   "fecha": "2026-10-22",
-   "youtube": "tyWc8adHWUU",
-   "duracion": 648.2,
-   "marcador": [
-    5,
-    0
-   ],
-   "peleas": 5,
-   "jugadores": [
-    {
-     "nombre": "IRK-ZR-ALCOHOL OFER",
-     "pais": "mx",
-     "rango_letra": "A",
-     "personaje": "Kim · Iori · Choi",
-     "clave": "kof2002_kim",
-     "personajes": [
-      "Kim",
-      "Iori",
-      "Choi"
-     ],
-     "claves": [
-      "kof2002_kim",
-      "kof2002_iori",
-      "kof2002_choi"
-     ]
-    },
-    {
-     "nombre": "[CSK] TZK CAMARON",
-     "pais": "mx",
-     "rango_letra": "A",
-     "personaje": "Angel · Whip · Athena",
-     "clave": "kof2002_angel",
-     "personajes": [
-      "Angel",
-      "Whip",
-      "Athena"
-     ],
-     "claves": [
-      "kof2002_angel",
-      "kof2002_whip",
-      "kof2002_athena"
      ]
     }
    ],
@@ -564,6 +556,49 @@
     }
    ],
    "rondas": 16
+  },
+  {
+   "quark": "1792536665698-5791",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-20",
+   "youtube": "KdKMuyaaawo",
+   "duracion": 693.4,
+   "marcador": [
+    4,
+    2
+   ],
+   "peleas": 7,
+   "jugadores": [
+    {
+     "nombre": "FRS | Biridin",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Dee Jay",
+     "clave": "deejay",
+     "personajes": [
+      "Dee Jay"
+     ],
+     "claves": [
+      "deejay"
+     ]
+    },
+    {
+     "nombre": "IMP | Laboca",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    }
+   ],
+   "rondas": 19
   },
   {
    "quark": "1792284979963-6587",
