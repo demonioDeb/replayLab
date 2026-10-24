@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-23T23:54:52Z",
+ "actualizado": "2026-10-24T00:17:50Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,15 +7,28 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 34,
  "vistas": 28460,
- "videos": 179,
+ "videos": 180,
  "lista": [
+  {
+   "id": "Sitd_0texPY",
+   "privacidad": "private"
+  },
+  {
+   "id": "tyWc8adHWUU",
+   "privacidad": "private"
+  },
   {
    "id": "ee03Jzq9EHg",
    "privacidad": "private"
   },
   {
    "id": "KdKMuyaaawo",
-   "privacidad": "private"
+   "titulo": "Super Street Fighter II X | 🇧🇷 FRS | Biridin vs 🇧🇷 IMP | Laboca",
+   "publicado": "2026-10-23T23:45:45Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/KdKMuyaaawo/mqdefault.jpg"
   },
   {
    "id": "AqlXZ3Dru10",
@@ -36,7 +49,12 @@
   },
   {
    "id": "vrY6ckX3X0Q",
-   "privacidad": "private"
+   "titulo": "Super Street Fighter II X | 🇺🇸 znoopyglobal vs 🇺🇸 ChoiBoy",
+   "publicado": "2026-10-23T22:41:24Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/vrY6ckX3X0Q/mqdefault.jpg"
   },
   {
    "id": "NeFe26r3x1I",
@@ -382,13 +400,13 @@
    "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
   },
   {
-   "id": "9b3AJyNyHmk",
-   "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 Royal Plush vs 🇺🇸 ChoiBoy #shorts",
-   "publicado": "2026-10-18T17:13:11Z",
+   "id": "VtSGc38T0W0",
+   "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
+   "publicado": "2026-10-19T23:43:24Z",
    "privacidad": "public",
-   "vistas": 8,
-   "me_gusta": 2,
-   "miniatura": "https://i.ytimg.com/vi/9b3AJyNyHmk/mqdefault.jpg"
+   "vistas": 19,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
   },
   {
    "id": "6Ah0M3rXdTA",
@@ -400,13 +418,13 @@
    "miniatura": "https://i.ytimg.com/vi/6Ah0M3rXdTA/mqdefault.jpg"
   },
   {
-   "id": "VtSGc38T0W0",
-   "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
-   "publicado": "2026-10-19T23:43:24Z",
+   "id": "2QI_mcdrzXA",
+   "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 KnockTsuKow vs 🇺🇸 White Ben #shorts",
+   "publicado": "2026-10-18T16:51:00Z",
    "privacidad": "public",
-   "vistas": 19,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
+   "vistas": 8,
+   "me_gusta": 2,
+   "miniatura": "https://i.ytimg.com/vi/2QI_mcdrzXA/mqdefault.jpg"
   },
   {
    "id": "HqNGEqePIyE",
@@ -832,13 +850,13 @@
    "miniatura": "https://i.ytimg.com/vi/waZ6IGnHEUw/mqdefault.jpg"
   },
   {
-   "id": "Nas-Ex7erA0",
-   "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel #shorts",
-   "publicado": "2026-10-16T01:51:59Z",
+   "id": "waZ6IGnHEUw",
+   "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel",
+   "publicado": "2026-10-16T01:52:22Z",
    "privacidad": "public",
-   "vistas": 170,
-   "me_gusta": 8,
-   "miniatura": "https://i.ytimg.com/vi/Nas-Ex7erA0/mqdefault.jpg"
+   "vistas": 4,
+   "me_gusta": 1,
+   "miniatura": "https://i.ytimg.com/vi/waZ6IGnHEUw/mqdefault.jpg"
   },
   {
    "id": "Azq03K1eaUM",
@@ -1106,7 +1124,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 unsensored vs 🇺🇸 la_manilla012",
    "publicado": "2026-10-09T03:54:57Z",
    "privacidad": "public",
-   "vistas": 34,
+   "vistas": 35,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/RDVwE74ylWU/mqdefault.jpg"
   },
@@ -1282,13 +1300,13 @@
    "miniatura": "https://i.ytimg.com/vi/xbKV3KAuvug/mqdefault.jpg"
   },
   {
-   "id": "ZS_mohBIQ90",
-   "titulo": "Super Street Fighter II X | 🇺🇸 DJILK-SF2TV vs 🇺🇸 Fromo #shorts",
-   "publicado": "2026-10-04T03:17:49Z",
+   "id": "mH6nIeWWI1Q",
+   "titulo": "Super Street Fighter II X | 🇺🇸 DJILK-SF2TV vs 🇺🇸 Fromo",
+   "publicado": "2026-10-06T03:43:53Z",
    "privacidad": "public",
-   "vistas": 494,
-   "me_gusta": 12,
-   "miniatura": "https://i.ytimg.com/vi/ZS_mohBIQ90/mqdefault.jpg"
+   "vistas": 13,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/mH6nIeWWI1Q/mqdefault.jpg"
   },
   {
    "id": "PsmfC8iSfnc",
