@@ -1,0 +1,2333 @@
+{
+ "version": 8,
+ "quark": "1792938695922-5307",
+ "carpeta": "20261025_Not_B_vs_it_s_1792938695922-5307",
+ "juego": "kof98",
+ "juego_nombre": "The King of Fighters '98",
+ "juego_corto": "KOF98",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": false,
+  "guardia": true
+ },
+ "fecha": "2026-10-25",
+ "youtube": "vz-x8DVMbQw",
+ "titulo": "The King of Fighters '98 | 🇰🇷 Not_B. vs 🇰🇷 it`s",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "Not_B.",
+   "pais": "kr",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Yashiro · Billy · Chang",
+   "clave": "kof98_yashiro",
+   "equipo": [
+    "Yashiro",
+    "Billy",
+    "Chang"
+   ],
+   "equipo_claves": [
+    "kof98_yashiro",
+    "kof98_billy",
+    "kof98_chang"
+   ],
+   "personajes": [
+    "Yashiro",
+    "Billy",
+    "Chang"
+   ],
+   "claves": [
+    "kof98_yashiro",
+    "kof98_billy",
+    "kof98_chang"
+   ],
+   "swaps": 3,
+   "super": ""
+  },
+  {
+   "nombre": "it`s",
+   "pais": "kr",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Iori · Chizuru · Takuma",
+   "clave": "kof98_iori",
+   "equipo": [
+    "Iori",
+    "Chizuru",
+    "Takuma"
+   ],
+   "equipo_claves": [
+    "kof98_iori",
+    "kof98_chizuru",
+    "kof98_takuma"
+   ],
+   "personajes": [
+    "Iori",
+    "Chizuru",
+    "Takuma"
+   ],
+   "claves": [
+    "kof98_iori",
+    "kof98_chizuru",
+    "kof98_takuma"
+   ],
+   "swaps": 2,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  2,
+  5
+ ],
+ "duracion": 1455.0,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 10.52,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 10.52,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 46,
+     "perfect": false,
+     "dano": [
+      100,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 2,
+     "remontada": 71,
+     "fin": 54.53,
+     "personajes": [
+      "Yashiro",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_yashiro",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      0,
+      2
+     ]
+    },
+    {
+     "n": 2,
+     "t": 58.4,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 8,
+     "perfect": false,
+     "dano": [
+      19,
+      41
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 60,
+     "remontada": 0,
+     "fin": 71.63,
+     "personajes": [
+      "Billy",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      60,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 76.2,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      68,
+      94
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 33,
+     "remontada": 16,
+     "fin": 111.18,
+     "personajes": [
+      "Billy",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      0,
+      33
+     ]
+    },
+    {
+     "n": 4,
+     "t": 115.06,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": false,
+     "dano": [
+      55,
+      76
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 26,
+     "remontada": 0,
+     "fin": 140.62,
+     "personajes": [
+      "Chang",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      26,
+      0
+     ]
+    },
+    {
+     "n": 5,
+     "t": 144.47,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 47,
+     "perfect": false,
+     "dano": [
+      97,
+      51
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 5,
+     "remontada": 21,
+     "fin": 190.94,
+     "personajes": [
+      "Chang",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      5
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Yashiro · Billy · Chang",
+    "Iori · Chizuru · Takuma"
+   ],
+   "claves": [
+    "kof98_yashiro",
+    "kof98_iori"
+   ],
+   "equipos": [
+    [
+     "Yashiro",
+     "Billy",
+     "Chang"
+    ],
+    [
+     "Iori",
+     "Chizuru",
+     "Takuma"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_yashiro",
+     "kof98_billy",
+     "kof98_chang"
+    ],
+    [
+     "kof98_iori",
+     "kof98_chizuru",
+     "kof98_takuma"
+    ]
+   ],
+   "fin": 190.94,
+   "resumen": {
+    "dano": [
+     339,
+     365
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     5
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 157
+   }
+  },
+  {
+   "n": 2,
+   "t": 213.16,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 213.16,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 53,
+     "perfect": false,
+     "dano": [
+      56,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 45,
+     "remontada": 28,
+     "fin": 262.92,
+     "personajes": [
+      "Yashiro",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_yashiro",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      0,
+      45
+     ]
+    },
+    {
+     "n": 2,
+     "t": 266.99,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 46,
+     "perfect": false,
+     "dano": [
+      59,
+      77
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 25,
+     "remontada": 0,
+     "fin": 312.21,
+     "personajes": [
+      "Billy",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      25,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 316.53,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 19,
+     "perfect": false,
+     "dano": [
+      43,
+      42
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 58,
+     "remontada": 0,
+     "fin": 338.72,
+     "personajes": [
+      "Billy",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      0,
+      58
+     ]
+    },
+    {
+     "n": 4,
+     "t": 342.79,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 41,
+     "perfect": false,
+     "dano": [
+      88,
+      47
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 54,
+     "remontada": 19,
+     "fin": 383.31,
+     "personajes": [
+      "Chang",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      54,
+      0
+     ]
+    },
+    {
+     "n": 5,
+     "t": 387.13,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      21,
+      72
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 79,
+     "remontada": 0,
+     "fin": 425.26,
+     "personajes": [
+      "Chang",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      79
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    2
+   ],
+   "personajes": [
+    "Yashiro · Billy · Chang",
+    "Iori · Chizuru · Takuma"
+   ],
+   "claves": [
+    "kof98_yashiro",
+    "kof98_iori"
+   ],
+   "equipos": [
+    [
+     "Yashiro",
+     "Billy",
+     "Chang"
+    ],
+    [
+     "Iori",
+     "Chizuru",
+     "Takuma"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_yashiro",
+     "kof98_billy",
+     "kof98_chang"
+    ],
+    [
+     "kof98_iori",
+     "kof98_chizuru",
+     "kof98_takuma"
+    ]
+   ],
+   "fin": 425.26,
+   "resumen": {
+    "dano": [
+     267,
+     341
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     3
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 196
+   }
+  },
+  {
+   "n": 3,
+   "t": 447.72,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 447.72,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      103,
+      58
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 43,
+     "remontada": 33,
+     "fin": 481.28,
+     "personajes": [
+      "Yashiro",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_yashiro",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      43,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 485.29,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 24,
+     "perfect": false,
+     "dano": [
+      61,
+      65
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 40,
+     "remontada": 0,
+     "fin": 511.87,
+     "personajes": [
+      "Yashiro",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_yashiro",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      0,
+      40
+     ]
+    },
+    {
+     "n": 3,
+     "t": 516.06,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 13,
+     "perfect": false,
+     "dano": [
+      66,
+      1
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 99,
+     "remontada": 0,
+     "fin": 532.91,
+     "personajes": [
+      "Billy",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      99,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 536.77,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 21,
+     "perfect": false,
+     "dano": [
+      15,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 85,
+     "remontada": 5,
+     "fin": 560.91,
+     "personajes": [
+      "Billy",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      85
+     ]
+    },
+    {
+     "n": 5,
+     "t": 565.01,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      8,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 92,
+     "remontada": 0,
+     "fin": 597.55,
+     "personajes": [
+      "Chang",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      92
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    3
+   ],
+   "personajes": [
+    "Yashiro",
+    "Iori · Chizuru · Takuma"
+   ],
+   "claves": [
+    "kof98_yashiro",
+    "kof98_iori"
+   ],
+   "equipos": [
+    null,
+    [
+     "Iori",
+     "Chizuru",
+     "Takuma"
+    ]
+   ],
+   "equipos_claves": [
+    null,
+    [
+     "kof98_iori",
+     "kof98_chizuru",
+     "kof98_takuma"
+    ]
+   ],
+   "fin": 597.55,
+   "resumen": {
+    "dano": [
+     253,
+     330
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     4
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 123
+   }
+  },
+  {
+   "n": 4,
+   "t": 625.53,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 625.53,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      103,
+      77
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 25,
+     "remontada": 23,
+     "fin": 655.4,
+     "personajes": [
+      "Yashiro",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_yashiro",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      25,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 659.48,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 21,
+     "perfect": false,
+     "dano": [
+      18,
+      50
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 82,
+     "remontada": 0,
+     "fin": 683.48,
+     "personajes": [
+      "Yashiro",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_yashiro",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      0,
+      82
+     ]
+    },
+    {
+     "n": 3,
+     "t": 687.48,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 49,
+     "perfect": false,
+     "dano": [
+      103,
+      58
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 43,
+     "remontada": 45,
+     "fin": 735.59,
+     "personajes": [
+      "Billy",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      43,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 739.51,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 11,
+     "perfect": true,
+     "dano": [
+      0,
+      61
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 755.15,
+     "personajes": [
+      "Billy",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 5,
+     "t": 760.02,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 42,
+     "perfect": false,
+     "dano": [
+      103,
+      83
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 19,
+     "remontada": 63,
+     "fin": 802.08,
+     "personajes": [
+      "Chang",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      19,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    3
+   ],
+   "personajes": [
+    "Yashiro · Billy · Chang",
+    "Iori · Chizuru · Takuma"
+   ],
+   "claves": [
+    "kof98_yashiro",
+    "kof98_iori"
+   ],
+   "equipos": [
+    [
+     "Yashiro",
+     "Billy",
+     "Chang"
+    ],
+    [
+     "Iori",
+     "Chizuru",
+     "Takuma"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_yashiro",
+     "kof98_billy",
+     "kof98_chang"
+    ],
+    [
+     "kof98_iori",
+     "kof98_chizuru",
+     "kof98_takuma"
+    ]
+   ],
+   "fin": 802.08,
+   "resumen": {
+    "dano": [
+     327,
+     329
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     4
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 153
+   }
+  },
+  {
+   "n": 5,
+   "t": 823.11,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 823.11,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 27,
+     "perfect": false,
+     "dano": [
+      54,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 47,
+     "remontada": 3,
+     "fin": 851.34,
+     "personajes": [
+      "Yashiro",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_yashiro",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      0,
+      47
+     ]
+    },
+    {
+     "n": 2,
+     "t": 855.43,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      73,
+      42
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 59,
+     "remontada": 0,
+     "fin": 884.87,
+     "personajes": [
+      "Billy",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      59,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 889.01,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      83,
+      85
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 19,
+     "remontada": 36,
+     "fin": 920.89,
+     "personajes": [
+      "Billy",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      0,
+      19
+     ]
+    },
+    {
+     "n": 4,
+     "t": 926.94,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 43,
+     "perfect": false,
+     "dano": [
+      44,
+      74
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 28,
+     "remontada": 0,
+     "fin": 970.88,
+     "personajes": [
+      "Chang",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      28,
+      0
+     ]
+    },
+    {
+     "n": 5,
+     "t": 974.75,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      76,
+      45
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 26,
+     "remontada": 0,
+     "fin": 1004.4,
+     "personajes": [
+      "Chang",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      26
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    4
+   ],
+   "personajes": [
+    "Yashiro · Billy · Chang",
+    "Chizuru · Iori · Takuma"
+   ],
+   "claves": [
+    "kof98_yashiro",
+    "kof98_chizuru"
+   ],
+   "equipos": [
+    [
+     "Yashiro",
+     "Billy",
+     "Chang"
+    ],
+    [
+     "Chizuru",
+     "Iori",
+     "Takuma"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_yashiro",
+     "kof98_billy",
+     "kof98_chang"
+    ],
+    [
+     "kof98_chizuru",
+     "kof98_iori",
+     "kof98_takuma"
+    ]
+   ],
+   "fin": 1004.4,
+   "resumen": {
+    "dano": [
+     330,
+     349
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     4
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 156
+   }
+  },
+  {
+   "n": 6,
+   "t": 1026.53,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 1026.53,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 52,
+     "perfect": false,
+     "dano": [
+      82,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 20,
+     "remontada": 36,
+     "fin": 1076.51,
+     "personajes": [
+      "Chang",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      0,
+      20
+     ]
+    },
+    {
+     "n": 2,
+     "t": 1080.67,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 13,
+     "perfect": false,
+     "dano": [
+      33,
+      21
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 79,
+     "remontada": 0,
+     "fin": 1097.86,
+     "personajes": [
+      "Billy",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      79,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 1102.16,
+     "ganador": 1,
+     "motivo": "time",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      101,
+      64
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 37,
+     "remontada": 0,
+     "fin": 1158.15,
+     "personajes": [
+      "Billy",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      37,
+      1
+     ]
+    },
+    {
+     "n": 4,
+     "t": 1162.95,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 42,
+     "perfect": false,
+     "dano": [
+      103,
+      33
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 17,
+     "remontada": 0,
+     "fin": 1205.0,
+     "personajes": [
+      "Billy",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      17,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    4
+   ],
+   "personajes": [
+    "Chang · Billy · Yashiro",
+    "Iori · Chizuru · Takuma"
+   ],
+   "claves": [
+    "kof98_chang",
+    "kof98_iori"
+   ],
+   "equipos": [
+    [
+     "Chang",
+     "Billy",
+     "Yashiro"
+    ],
+    [
+     "Iori",
+     "Chizuru",
+     "Takuma"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_chang",
+     "kof98_billy",
+     "kof98_yashiro"
+    ],
+    [
+     "kof98_iori",
+     "kof98_chizuru",
+     "kof98_takuma"
+    ]
+   ],
+   "fin": 1205.0,
+   "resumen": {
+    "dano": [
+     319,
+     221
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     1
+    ],
+    "duracion": 167
+   }
+  },
+  {
+   "n": 7,
+   "t": 1234.4,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 1234.4,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 57,
+     "perfect": false,
+     "dano": [
+      71,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 31,
+     "remontada": 0,
+     "fin": 1287.88,
+     "personajes": [
+      "Chang",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      0,
+      31
+     ]
+    },
+    {
+     "n": 2,
+     "t": 1291.74,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 29,
+     "perfect": false,
+     "dano": [
+      44,
+      37
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 64,
+     "remontada": 0,
+     "fin": 1322.16,
+     "personajes": [
+      "Billy",
+      "Iori"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_iori"
+     ],
+     "vida_final": [
+      64,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 1326.03,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 59,
+     "perfect": false,
+     "dano": [
+      103,
+      53
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 35,
+     "remontada": 0,
+     "fin": 1381.98,
+     "personajes": [
+      "Billy",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_chizuru"
+     ],
+     "vida_final": [
+      35,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 1385.96,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 7,
+     "perfect": false,
+     "dano": [
+      3,
+      49
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 97,
+     "remontada": 0,
+     "fin": 1397.83,
+     "personajes": [
+      "Billy",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      97
+     ]
+    },
+    {
+     "n": 5,
+     "t": 1402.61,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 47,
+     "perfect": false,
+     "dano": [
+      39,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 62,
+     "remontada": 20,
+     "fin": 1448.97,
+     "personajes": [
+      "Yashiro",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_yashiro",
+      "kof98_takuma"
+     ],
+     "vida_final": [
+      0,
+      62
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    2,
+    5
+   ],
+   "personajes": [
+    "Chang · Billy · Yashiro",
+    "Iori · Chizuru · Takuma"
+   ],
+   "claves": [
+    "kof98_chang",
+    "kof98_iori"
+   ],
+   "equipos": [
+    [
+     "Chang",
+     "Billy",
+     "Yashiro"
+    ],
+    [
+     "Iori",
+     "Chizuru",
+     "Takuma"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_chang",
+     "kof98_billy",
+     "kof98_yashiro"
+    ],
+    [
+     "kof98_iori",
+     "kof98_chizuru",
+     "kof98_takuma"
+    ]
+   ],
+   "fin": 1448.97,
+   "resumen": {
+    "dano": [
+     260,
+     345
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 199
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 54.2,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 54.53,
+   "tipo": "remontada",
+   "jugador": 2,
+   "dato": 71
+  },
+  {
+   "t": 71.3,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 88.47,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 109.27,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 110.85,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 133.16,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 139.81,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 140.29,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 151.98,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 185.09,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 190.6,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 262.59,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 311.88,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 337.78,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 338.39,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 348.86,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 382.98,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 400.4,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 411.33,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 422.61,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 424.92,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 480.95,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 494.45,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 496.28,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 511.54,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 532.58,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 556.04,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 560.57,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 581.98,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 596.34,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 597.21,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 650.53,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 655.07,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 681.38,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 683.15,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 702.87,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 735.26,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 749.14,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 754.81,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 755.15,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 772.43,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 798.21,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 801.74,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 802.08,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 63
+  },
+  {
+   "t": 842.54,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 851.01,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 884.54,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 917.21,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 920.56,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 952.81,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 970.54,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 994.53,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1004.05,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1062.63,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1076.18,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1097.53,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1110.64,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 1204.65,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1280.49,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 1287.55,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1321.83,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1381.65,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1393.89,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1397.5,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1423.71,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1448.63,
+   "tipo": "ko",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 559,
+   "pelea_rapida": 177,
+   "swaps": 3,
+   "rondas": 16,
+   "rondas_jugadas": 34,
+   "ko": 15,
+   "timeup": 1,
+   "perfects": 0,
+   "dano": 2095,
+   "recibido": 2280,
+   "golpes": 387,
+   "golpe_max": 28,
+   "primero": 24,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 8,
+   "mareos": 0,
+   "ronda_rapida": 8,
+   "al_limite": 0,
+   "remontada": 63,
+   "racha": 3,
+   "contras": 18,
+   "esquivas": 3,
+   "maxes": 6,
+   "guardias": 7,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 45,
+   "dano_medio": 5.4,
+   "dur_avg": 35,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 65,
+   "dano_barras": 20.34,
+   "recibido_barras": 22.14,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.27
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 592,
+   "pelea_rapida": 150,
+   "swaps": 2,
+   "rondas": 18,
+   "rondas_jugadas": 34,
+   "ko": 18,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 2280,
+   "recibido": 2095,
+   "golpes": 454,
+   "golpe_max": 24,
+   "primero": 10,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 23,
+   "mareos": 0,
+   "ronda_rapida": 7,
+   "al_limite": 2,
+   "remontada": 71,
+   "racha": 2,
+   "contras": 13,
+   "esquivas": 7,
+   "maxes": 10,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 51,
+   "dano_medio": 5.0,
+   "dur_avg": 33,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 60,
+   "dano_barras": 22.14,
+   "recibido_barras": 20.34,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.23
+  }
+ ]
+}

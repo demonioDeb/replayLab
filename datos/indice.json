@@ -1,6 +1,57 @@
 {
- "actualizado": "2026-10-24 00:47",
+ "actualizado": "2026-10-26 03:24",
  "videos": [
+  {
+   "quark": "1792938695922-5307",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2026-10-25",
+   "youtube": "vz-x8DVMbQw",
+   "duracion": 1455.0,
+   "marcador": [
+    2,
+    5
+   ],
+   "peleas": 7,
+   "jugadores": [
+    {
+     "nombre": "Not_B.",
+     "pais": "kr",
+     "rango_letra": "B",
+     "personaje": "Yashiro · Billy · Chang",
+     "clave": "kof98_yashiro",
+     "personajes": [
+      "Yashiro",
+      "Billy",
+      "Chang"
+     ],
+     "claves": [
+      "kof98_yashiro",
+      "kof98_billy",
+      "kof98_chang"
+     ]
+    },
+    {
+     "nombre": "it`s",
+     "pais": "kr",
+     "rango_letra": "A",
+     "personaje": "Iori · Chizuru · Takuma",
+     "clave": "kof98_iori",
+     "personajes": [
+      "Iori",
+      "Chizuru",
+      "Takuma"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_chizuru",
+      "kof98_takuma"
+     ]
+    }
+   ],
+   "rondas": 34
+  },
   {
    "quark": "1792787670401-5055",
    "juego": "sf2ce",
