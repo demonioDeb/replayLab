@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26 18:07",
+ "actualizado": "2026-10-26 18:25",
  "videos": [
   {
    "quark": "1792938695922-5307",
@@ -94,6 +94,49 @@
     }
    ],
    "rondas": 20
+  },
+  {
+   "quark": "1792853759110-5182",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-24",
+   "youtube": "Kp_zjCn3gY8",
+   "duracion": 472.2,
+   "marcador": [
+    0,
+    5
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "ZOOLANDER",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Dee Jay",
+     "clave": "deejay",
+     "personajes": [
+      "Dee Jay"
+     ],
+     "claves": [
+      "deejay"
+     ]
+    },
+    {
+     "nombre": "MegamanX-8",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Zangief",
+     "clave": "zangief",
+     "personajes": [
+      "Zangief"
+     ],
+     "claves": [
+      "zangief"
+     ]
+    }
+   ],
+   "rondas": 13
   },
   {
    "quark": "1792787670401-5055",
