@@ -53,49 +53,6 @@
    "rondas": 34
   },
   {
-   "quark": "1792866171520-3258",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-10-24",
-   "youtube": "JwhryOcSyFM",
-   "duracion": 930.9,
-   "marcador": [
-    3,
-    5
-   ],
-   "peleas": 8,
-   "jugadores": [
-    {
-     "nombre": "DJILK",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Ryu",
-     "clave": "ryu",
-     "personajes": [
-      "Ryu"
-     ],
-     "claves": [
-      "ryu"
-     ]
-    },
-    {
-     "nombre": "jianchi123",
-     "pais": "kr",
-     "rango_letra": "A",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    }
-   ],
-   "rondas": 20
-  },
-  {
    "quark": "1792787670401-5055",
    "juego": "sf2ce",
    "juego_nombre": "Street Fighter II' Champion Edition",
@@ -4464,59 +4421,6 @@
      ],
      "claves": [
       "blanka"
-     ]
-    }
-   ],
-   "rondas": 22
-  },
-  {
-   "quark": "1680146826140-1141",
-   "juego": "kof98",
-   "juego_nombre": "The King of Fighters '98",
-   "juego_corto": "KOF98",
-   "fecha": "2023-03-30",
-   "youtube": "W_AnK4L6lHY",
-   "duracion": 949.2,
-   "marcador": [
-    0,
-    5
-   ],
-   "peleas": 5,
-   "jugadores": [
-    {
-     "nombre": "DG | Mr Yama",
-     "pais": "ar",
-     "rango_letra": "A",
-     "personaje": "Kim · Chris · Daimon",
-     "clave": "kof98_kim",
-     "personajes": [
-      "Kim",
-      "Chris",
-      "Daimon",
-      "Yashiro"
-     ],
-     "claves": [
-      "kof98_kim",
-      "kof98_chris",
-      "kof98_daimon",
-      "kof98_yashiro"
-     ]
-    },
-    {
-     "nombre": "Abel-*CBZ*",
-     "pais": "ar",
-     "rango_letra": "A",
-     "personaje": "Iori · Chris · Yashiro",
-     "clave": "kof98_iori",
-     "personajes": [
-      "Iori",
-      "Chris",
-      "Yashiro"
-     ],
-     "claves": [
-      "kof98_iori",
-      "kof98_chris",
-      "kof98_yashiro"
      ]
     }
    ],
