@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26 03:24",
+ "actualizado": "2026-10-26 03:25",
  "videos": [
   {
    "quark": "1792938695922-5307",
@@ -461,6 +461,110 @@
      ],
      "claves": [
       "guile"
+     ]
+    }
+   ],
+   "rondas": 20
+  },
+  {
+   "quark": "1792645303428-3041",
+   "juego": "kof2002",
+   "juego_nombre": "The King of Fighters 2002",
+   "juego_corto": "KOF2002",
+   "fecha": "2026-10-22",
+   "youtube": "qldiNwJM418",
+   "duracion": 903.8,
+   "marcador": [
+    5,
+    1
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "[CSK] TZK CAMARON",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Angel · Whip · Athena",
+     "clave": "kof2002_angel",
+     "personajes": [
+      "Angel",
+      "Whip",
+      "Athena"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_whip",
+      "kof2002_athena"
+     ]
+    },
+    {
+     "nombre": "IRK-ZR-ALCOHOL OFER",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Iori · Kim · Choi",
+     "clave": "kof2002_iori",
+     "personajes": [
+      "Kula",
+      "Kim",
+      "Choi",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_kula",
+      "kof2002_kim",
+      "kof2002_choi",
+      "kof2002_iori"
+     ]
+    }
+   ],
+   "rondas": 24
+  },
+  {
+   "quark": "1792642283637-8431",
+   "juego": "kf2k2pls",
+   "juego_nombre": "The King of Fighters 2002 Plus",
+   "juego_corto": "KOF2002+",
+   "fecha": "2026-10-22",
+   "youtube": "tyWc8adHWUU",
+   "duracion": 648.2,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "IRK-ZR-ALCOHOL OFER",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Kim · Iori · Choi",
+     "clave": "kof2002_kim",
+     "personajes": [
+      "Kim",
+      "Iori",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_iori",
+      "kof2002_choi"
+     ]
+    },
+    {
+     "nombre": "[CSK] TZK CAMARON",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Angel · Whip · Athena",
+     "clave": "kof2002_angel",
+     "personajes": [
+      "Angel",
+      "Whip",
+      "Athena"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_whip",
+      "kof2002_athena"
      ]
     }
    ],

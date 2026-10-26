@@ -1,0 +1,1796 @@
+{
+ "version": 8,
+ "quark": "1792645303428-3041",
+ "carpeta": "20261023_CSK_TZK_CAMARON_vs_IRK-ZR-ALCOHOL_OFER_1792645303428-3041",
+ "juego": "kof2002",
+ "juego_nombre": "The King of Fighters 2002",
+ "juego_corto": "KOF2002",
+ "datos": {
+  "super": true,
+  "stun": false,
+  "combos": false,
+  "guardia": true
+ },
+ "fecha": "2026-10-22",
+ "youtube": "qldiNwJM418",
+ "titulo": "The King of Fighters 2002 | 🇲🇽 [CSK] TZK CAMARON vs 🇲🇽 IRK-ZR-ALCOHOL OFER",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "[CSK] TZK CAMARON",
+   "pais": "mx",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Angel · Whip · Athena",
+   "clave": "kof2002_angel",
+   "equipo": [
+    "Angel",
+    "Whip",
+    "Athena"
+   ],
+   "equipo_claves": [
+    "kof2002_angel",
+    "kof2002_whip",
+    "kof2002_athena"
+   ],
+   "personajes": [
+    "Angel",
+    "Whip",
+    "Athena"
+   ],
+   "claves": [
+    "kof2002_angel",
+    "kof2002_whip",
+    "kof2002_athena"
+   ],
+   "swaps": 2,
+   "super": ""
+  },
+  {
+   "nombre": "IRK-ZR-ALCOHOL OFER",
+   "pais": "mx",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Iori · Kim · Choi",
+   "clave": "kof2002_iori",
+   "equipo": [
+    "Iori",
+    "Kim",
+    "Choi"
+   ],
+   "equipo_claves": [
+    "kof2002_iori",
+    "kof2002_kim",
+    "kof2002_choi"
+   ],
+   "personajes": [
+    "Kula",
+    "Kim",
+    "Choi",
+    "Iori"
+   ],
+   "claves": [
+    "kof2002_kula",
+    "kof2002_kim",
+    "kof2002_choi",
+    "kof2002_iori"
+   ],
+   "swaps": 4,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  5,
+  1
+ ],
+ "duracion": 903.8,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 15.7,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 15.7,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      102,
+      27
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 73,
+     "remontada": 0,
+     "fin": 52.13,
+     "personajes": [
+      "Angel",
+      "Kula"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_kula"
+     ],
+     "vida_final": [
+      73,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 57.6,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      5,
+      95
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 95,
+     "remontada": 0,
+     "fin": 82.87,
+     "personajes": [
+      "Angel",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      0,
+      95
+     ]
+    },
+    {
+     "n": 3,
+     "t": 88.43,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      102,
+      32
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 68,
+     "remontada": 0,
+     "fin": 115.23,
+     "personajes": [
+      "Whip",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_whip",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      68,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 120.61,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 18,
+     "perfect": true,
+     "dano": [
+      102,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 92,
+     "remontada": 0,
+     "fin": 139.18,
+     "personajes": [
+      "Whip",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_whip",
+      "kof2002_choi"
+     ],
+     "vida_final": [
+      92,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Angel · Whip · Athena",
+    "Kula · Kim · Choi"
+   ],
+   "claves": [
+    "kof2002_angel",
+    "kof2002_kula"
+   ],
+   "equipos": [
+    [
+     "Angel",
+     "Whip",
+     "Athena"
+    ],
+    [
+     "Kula",
+     "Kim",
+     "Choi"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_angel",
+     "kof2002_whip",
+     "kof2002_athena"
+    ],
+    [
+     "kof2002_kula",
+     "kof2002_kim",
+     "kof2002_choi"
+    ]
+   ],
+   "fin": 139.18,
+   "resumen": {
+    "dano": [
+     311,
+     154
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     3,
+     1
+    ],
+    "duracion": 111
+   }
+  },
+  {
+   "n": 2,
+   "t": 158.51,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 158.51,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 23,
+     "perfect": true,
+     "dano": [
+      102,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 181.48,
+     "personajes": [
+      "Angel",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 187.36,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      102,
+      64
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 37,
+     "remontada": 12,
+     "fin": 224.75,
+     "personajes": [
+      "Angel",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      37,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 230.23,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      76,
+      58
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 25,
+     "remontada": 10,
+     "fin": 260.14,
+     "personajes": [
+      "Angel",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_choi"
+     ],
+     "vida_final": [
+      0,
+      25
+     ]
+    },
+    {
+     "n": 4,
+     "t": 265.98,
+     "ganador": 0,
+     "motivo": "doble_ko",
+     "duracion": 29,
+     "perfect": false,
+     "dano": [
+      46,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 0,
+     "remontada": 0,
+     "fin": 293.98,
+     "personajes": [
+      "Whip",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_whip",
+      "kof2002_choi"
+     ],
+     "vida_final": [
+      0,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "Angel · Whip · Athena",
+    "Kim · Iori · Choi"
+   ],
+   "claves": [
+    "kof2002_angel",
+    "kof2002_kim"
+   ],
+   "equipos": [
+    [
+     "Angel",
+     "Whip",
+     "Athena"
+    ],
+    [
+     "Kim",
+     "Iori",
+     "Choi"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_angel",
+     "kof2002_whip",
+     "kof2002_athena"
+    ],
+    [
+     "kof2002_kim",
+     "kof2002_iori",
+     "kof2002_choi"
+    ]
+   ],
+   "fin": 293.98,
+   "resumen": {
+    "dano": [
+     326,
+     224
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 122
+   }
+  },
+  {
+   "n": 3,
+   "t": 324.78,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 324.78,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      102,
+      43
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 57,
+     "remontada": 0,
+     "fin": 353.33,
+     "personajes": [
+      "Angel",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      57,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 358.81,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      102,
+      69
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 13,
+     "remontada": 45,
+     "fin": 391.83,
+     "personajes": [
+      "Angel",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      13,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 397.28,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 32,
+     "perfect": false,
+     "dano": [
+      73,
+      34
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 28,
+     "remontada": 5,
+     "fin": 429.1,
+     "personajes": [
+      "Angel",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_choi"
+     ],
+     "vida_final": [
+      0,
+      28
+     ]
+    },
+    {
+     "n": 4,
+     "t": 434.71,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": false,
+     "dano": [
+      49,
+      62
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 39,
+     "remontada": 0,
+     "fin": 459.27,
+     "personajes": [
+      "Whip",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_whip",
+      "kof2002_choi"
+     ],
+     "vida_final": [
+      39,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    0
+   ],
+   "personajes": [
+    "Angel · Whip · Athena",
+    "Iori · Kim · Choi"
+   ],
+   "claves": [
+    "kof2002_angel",
+    "kof2002_iori"
+   ],
+   "equipos": [
+    [
+     "Angel",
+     "Whip",
+     "Athena"
+    ],
+    [
+     "Iori",
+     "Kim",
+     "Choi"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_angel",
+     "kof2002_whip",
+     "kof2002_athena"
+    ],
+    [
+     "kof2002_iori",
+     "kof2002_kim",
+     "kof2002_choi"
+    ]
+   ],
+   "fin": 459.27,
+   "resumen": {
+    "dano": [
+     326,
+     208
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     4,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     1
+    ],
+    "duracion": 121
+   }
+  },
+  {
+   "n": 4,
+   "t": 478.74,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 478.74,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 51,
+     "perfect": false,
+     "dano": [
+      98,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 3,
+     "remontada": 92,
+     "fin": 525.13,
+     "personajes": [
+      "Angel",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      0,
+      3
+     ]
+    },
+    {
+     "n": 2,
+     "t": 532.28,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 21,
+     "perfect": false,
+     "dano": [
+      7,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 8,
+     "remontada": 0,
+     "fin": 554.02,
+     "personajes": [
+      "Whip",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_whip",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      0,
+      8
+     ]
+    },
+    {
+     "n": 3,
+     "t": 559.49,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 18,
+     "perfect": false,
+     "dano": [
+      33,
+      92
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 9,
+     "remontada": 0,
+     "fin": 578.24,
+     "personajes": [
+      "Athena",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_athena",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      9,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 583.73,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 18,
+     "perfect": false,
+     "dano": [
+      25,
+      38
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 75,
+     "remontada": 0,
+     "fin": 602.44,
+     "personajes": [
+      "Athena",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_athena",
+      "kof2002_choi"
+     ],
+     "vida_final": [
+      0,
+      75
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    1
+   ],
+   "personajes": [
+    "Angel · Whip · Athena",
+    "Kim · Choi · Iori"
+   ],
+   "claves": [
+    "kof2002_angel",
+    "kof2002_kim"
+   ],
+   "equipos": [
+    [
+     "Angel",
+     "Whip",
+     "Athena"
+    ],
+    [
+     "Kim",
+     "Choi",
+     "Iori"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_angel",
+     "kof2002_whip",
+     "kof2002_athena"
+    ],
+    [
+     "kof2002_kim",
+     "kof2002_choi",
+     "kof2002_iori"
+    ]
+   ],
+   "fin": 602.44,
+   "resumen": {
+    "dano": [
+     163,
+     334
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     3
+    ],
+    "duracion": 108
+   }
+  },
+  {
+   "n": 5,
+   "t": 616.11,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 616.11,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 27,
+     "perfect": false,
+     "dano": [
+      42,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 58,
+     "remontada": 0,
+     "fin": 641.88,
+     "personajes": [
+      "Whip",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_whip",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      0,
+      58
+     ]
+    },
+    {
+     "n": 2,
+     "t": 647.39,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 27,
+     "perfect": false,
+     "dano": [
+      84,
+      30
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 70,
+     "remontada": 0,
+     "fin": 673.35,
+     "personajes": [
+      "Angel",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      70,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 678.79,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 38,
+     "perfect": false,
+     "dano": [
+      102,
+      50
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 45,
+     "remontada": 0,
+     "fin": 714.77,
+     "personajes": [
+      "Angel",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      45,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 720.2,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 43,
+     "perfect": false,
+     "dano": [
+      80,
+      66
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      3,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 21,
+     "remontada": 0,
+     "fin": 760.56,
+     "personajes": [
+      "Angel",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_choi"
+     ],
+     "vida_final": [
+      0,
+      21
+     ]
+    },
+    {
+     "n": 5,
+     "t": 765.97,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 21,
+     "perfect": false,
+     "dano": [
+      38,
+      56
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 45,
+     "remontada": 0,
+     "fin": 787.2,
+     "personajes": [
+      "Athena",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_athena",
+      "kof2002_choi"
+     ],
+     "vida_final": [
+      45,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    4,
+    1
+   ],
+   "personajes": [
+    "Whip · Angel · Athena",
+    "Iori · Kim · Choi"
+   ],
+   "claves": [
+    "kof2002_whip",
+    "kof2002_iori"
+   ],
+   "equipos": [
+    [
+     "Whip",
+     "Angel",
+     "Athena"
+    ],
+    [
+     "Iori",
+     "Kim",
+     "Choi"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_whip",
+     "kof2002_angel",
+     "kof2002_athena"
+    ],
+    [
+     "kof2002_iori",
+     "kof2002_kim",
+     "kof2002_choi"
+    ]
+   ],
+   "fin": 787.2,
+   "resumen": {
+    "dano": [
+     346,
+     304
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     4,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 156
+   }
+  },
+  {
+   "n": 6,
+   "t": 802.02,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 802.02,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      102,
+      35
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 65,
+     "remontada": 1,
+     "fin": 832.81,
+     "personajes": [
+      "Angel",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      65,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 838.26,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 15,
+     "perfect": true,
+     "dano": [
+      102,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 85,
+     "remontada": 0,
+     "fin": 854.57,
+     "personajes": [
+      "Angel",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      85,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 860.11,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 40,
+     "perfect": false,
+     "dano": [
+      102,
+      53
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 48,
+     "remontada": 17,
+     "fin": 897.79,
+     "personajes": [
+      "Angel",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_choi"
+     ],
+     "vida_final": [
+      48,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    5,
+    1
+   ],
+   "personajes": [
+    "Angel · Whip · Athena",
+    "Iori · Kim · Choi"
+   ],
+   "claves": [
+    "kof2002_angel",
+    "kof2002_iori"
+   ],
+   "equipos": [
+    [
+     "Angel",
+     "Whip",
+     "Athena"
+    ],
+    [
+     "Iori",
+     "Kim",
+     "Choi"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_angel",
+     "kof2002_whip",
+     "kof2002_athena"
+    ],
+    [
+     "kof2002_iori",
+     "kof2002_kim",
+     "kof2002_choi"
+    ]
+   ],
+   "fin": 897.79,
+   "resumen": {
+    "dano": [
+     306,
+     88
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     3,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     3,
+     0
+    ],
+    "duracion": 88
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 51.8,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 82.53,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 114.9,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 135.09,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 138.84,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 139.18,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 181.16,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 181.48,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 198.74,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 224.43,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 235.59,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 240.0,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 259.81,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 285.93,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 293.64,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 293.98,
+   "tipo": "doble_ko",
+   "jugador": null
+  },
+  {
+   "t": 344.93,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 353.0,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 368.02,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 385.54,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 391.49,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 408.77,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 423.0,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 428.78,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 458.93,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 524.8,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 525.13,
+   "tipo": "remontada",
+   "jugador": 2,
+   "dato": 92
+  },
+  {
+   "t": 547.34,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 553.69,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 577.92,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 602.11,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 641.55,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 660.7,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 673.02,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 686.45,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 714.44,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 732.09,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 738.17,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 750.16,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 759.73,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 760.24,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 786.87,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 827.05,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 832.49,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 854.23,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 854.57,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 872.61,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 878.29,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 886.16,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 897.46,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 428,
+   "pelea_rapida": 96,
+   "swaps": 2,
+   "rondas": 15,
+   "rondas_jugadas": 24,
+   "ko": 15,
+   "timeup": 0,
+   "perfects": 3,
+   "dano": 1778,
+   "recibido": 1312,
+   "golpes": 380,
+   "golpe_max": 17,
+   "primero": 13,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 14,
+   "mareos": 0,
+   "ronda_rapida": 15,
+   "al_limite": 1,
+   "remontada": 45,
+   "racha": 4,
+   "contras": 2,
+   "esquivas": 5,
+   "maxes": 1,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 56,
+   "dano_medio": 4.7,
+   "dur_avg": 29,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 54,
+   "dano_barras": 17.43,
+   "recibido_barras": 12.86,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.17
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 249,
+   "pelea_rapida": 124,
+   "swaps": 4,
+   "rondas": 8,
+   "rondas_jugadas": 24,
+   "ko": 8,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1312,
+   "recibido": 1778,
+   "golpes": 263,
+   "golpe_max": 19,
+   "primero": 11,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 7,
+   "mareos": 0,
+   "ronda_rapida": 18,
+   "al_limite": 2,
+   "remontada": 92,
+   "racha": 2,
+   "contras": 7,
+   "esquivas": 3,
+   "maxes": 1,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 39,
+   "dano_medio": 5.0,
+   "dur_avg": 31,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 73,
+   "dano_barras": 12.86,
+   "recibido_barras": 17.43,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.19
+  }
+ ]
+}
