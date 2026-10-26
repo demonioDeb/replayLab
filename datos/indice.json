@@ -53,55 +53,47 @@
    "rondas": 34
   },
   {
-   "quark": "1792809059425-8069",
-   "juego": "kf2k2pls",
-   "juego_nombre": "The King of Fighters 2002 Plus",
-   "juego_corto": "KOF2002+",
+   "quark": "1792866171520-3258",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
    "fecha": "2026-10-24",
-   "youtube": "1taPAD6CpW8",
-   "duracion": 898.4,
+   "youtube": "JwhryOcSyFM",
+   "duracion": 930.9,
    "marcador": [
-    1,
+    3,
     5
    ],
-   "peleas": 6,
+   "peleas": 8,
    "jugadores": [
     {
-     "nombre": "[IRK] Tecate Roja",
-     "pais": "mx",
+     "nombre": "DJILK",
+     "pais": "us",
      "rango_letra": "A",
-     "personaje": "Kim · Kyo · Iori",
-     "clave": "kof2002_kim",
+     "personaje": "Ryu",
+     "clave": "ryu",
      "personajes": [
-      "Kim",
-      "Iori",
-      "Kyo"
+      "Ryu"
      ],
      "claves": [
-      "kof2002_kim",
-      "kof2002_iori",
-      "kof2002_kyo"
+      "ryu"
      ]
     },
     {
-     "nombre": "[SKM] KUNO",
-     "pais": "mx",
+     "nombre": "jianchi123",
+     "pais": "kr",
      "rango_letra": "A",
-     "personaje": "Iori · Kim · Kyo",
-     "clave": "kof2002_iori",
+     "personaje": "M. Bison",
+     "clave": "dictator",
      "personajes": [
-      "Iori",
-      "Kim",
-      "Kyo"
+      "M. Bison"
      ],
      "claves": [
-      "kof2002_iori",
-      "kof2002_kim",
-      "kof2002_kyo"
+      "dictator"
      ]
     }
    ],
-   "rondas": 24
+   "rondas": 20
   },
   {
    "quark": "1792787670401-5055",
@@ -4472,6 +4464,59 @@
      ],
      "claves": [
       "blanka"
+     ]
+    }
+   ],
+   "rondas": 22
+  },
+  {
+   "quark": "1680146826140-1141",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2023-03-30",
+   "youtube": "W_AnK4L6lHY",
+   "duracion": 949.2,
+   "marcador": [
+    0,
+    5
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "DG | Mr Yama",
+     "pais": "ar",
+     "rango_letra": "A",
+     "personaje": "Kim · Chris · Daimon",
+     "clave": "kof98_kim",
+     "personajes": [
+      "Kim",
+      "Chris",
+      "Daimon",
+      "Yashiro"
+     ],
+     "claves": [
+      "kof98_kim",
+      "kof98_chris",
+      "kof98_daimon",
+      "kof98_yashiro"
+     ]
+    },
+    {
+     "nombre": "Abel-*CBZ*",
+     "pais": "ar",
+     "rango_letra": "A",
+     "personaje": "Iori · Chris · Yashiro",
+     "clave": "kof98_iori",
+     "personajes": [
+      "Iori",
+      "Chris",
+      "Yashiro"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_chris",
+      "kof98_yashiro"
      ]
     }
    ],
