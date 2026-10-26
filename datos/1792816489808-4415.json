@@ -1,0 +1,1594 @@
+{
+ "version": 8,
+ "quark": "1792816489808-4415",
+ "carpeta": "20261026_CSK_TZK_CAMARON_vs_UWL_MDF-DannyLee_1792816489808-4415",
+ "juego": "kof2002",
+ "juego_nombre": "The King of Fighters 2002",
+ "juego_corto": "KOF2002",
+ "datos": {
+  "super": true,
+  "stun": false,
+  "combos": false,
+  "guardia": true
+ },
+ "fecha": "2026-10-24",
+ "youtube": "t-gHvXKns7w",
+ "titulo": "The King of Fighters 2002 | 🇲🇽 [CSK] TZK CAMARON vs 🇲🇽 UWL/MDF-DannyLee",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "[CSK] TZK CAMARON",
+   "pais": "mx",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Angel · Leona · Athena",
+   "clave": "kof2002_angel",
+   "equipo": [
+    "Angel",
+    "Leona",
+    "Athena"
+   ],
+   "equipo_claves": [
+    "kof2002_angel",
+    "kof2002_leona",
+    "kof2002_athena"
+   ],
+   "personajes": [
+    "Angel",
+    "Leona",
+    "Athena"
+   ],
+   "claves": [
+    "kof2002_angel",
+    "kof2002_leona",
+    "kof2002_athena"
+   ],
+   "swaps": 0,
+   "super": ""
+  },
+  {
+   "nombre": "UWL/MDF-DannyLee",
+   "pais": "mx",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "May Lee · Leona · Iori",
+   "clave": "kof2002_maylee",
+   "equipo": [
+    "May Lee",
+    "Leona",
+    "Iori"
+   ],
+   "equipo_claves": [
+    "kof2002_maylee",
+    "kof2002_leona",
+    "kof2002_iori"
+   ],
+   "personajes": [
+    "May Lee",
+    "Leona",
+    "Iori"
+   ],
+   "claves": [
+    "kof2002_maylee",
+    "kof2002_leona",
+    "kof2002_iori"
+   ],
+   "swaps": 4,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  5,
+  0
+ ],
+ "duracion": 818.6,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 19.74,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 19.74,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 55,
+     "perfect": false,
+     "dano": [
+      102,
+      80
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 21,
+     "remontada": 12,
+     "fin": 69.94,
+     "personajes": [
+      "Angel",
+      "May Lee"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_maylee"
+     ],
+     "vida_final": [
+      21,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 75.95,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 5,
+     "perfect": false,
+     "dano": [
+      5,
+      34
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 95,
+     "remontada": 0,
+     "fin": 83.83,
+     "personajes": [
+      "Angel",
+      "Leona"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_leona"
+     ],
+     "vida_final": [
+      0,
+      95
+     ]
+    },
+    {
+     "n": 3,
+     "t": 90.57,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      102,
+      62
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 39,
+     "remontada": 0,
+     "fin": 119.79,
+     "personajes": [
+      "Leona",
+      "Leona"
+     ],
+     "claves": [
+      "kof2002_leona",
+      "kof2002_leona"
+     ],
+     "vida_final": [
+      39,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 126.66,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      102,
+      37
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 26,
+     "remontada": 2,
+     "fin": 152.41,
+     "personajes": [
+      "Leona",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_leona",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      26,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Angel · Leona · Athena",
+    "May Lee · Leona · Iori"
+   ],
+   "claves": [
+    "kof2002_angel",
+    "kof2002_maylee"
+   ],
+   "equipos": [
+    [
+     "Angel",
+     "Leona",
+     "Athena"
+    ],
+    [
+     "May Lee",
+     "Leona",
+     "Iori"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_angel",
+     "kof2002_leona",
+     "kof2002_athena"
+    ],
+    [
+     "kof2002_maylee",
+     "kof2002_leona",
+     "kof2002_iori"
+    ]
+   ],
+   "fin": 152.41,
+   "resumen": {
+    "dano": [
+     311,
+     213
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     3,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     1
+    ],
+    "duracion": 116
+   }
+  },
+  {
+   "n": 2,
+   "t": 169.59,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 169.59,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 20,
+     "perfect": false,
+     "dano": [
+      102,
+      50
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 50,
+     "remontada": 0,
+     "fin": 189.2,
+     "personajes": [
+      "Angel",
+      "Leona"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_leona"
+     ],
+     "vida_final": [
+      50,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 195.25,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 35,
+     "perfect": false,
+     "dano": [
+      45,
+      80
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 55,
+     "remontada": 13,
+     "fin": 228.54,
+     "personajes": [
+      "Angel",
+      "May Lee"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_maylee"
+     ],
+     "vida_final": [
+      0,
+      55
+     ]
+    },
+    {
+     "n": 3,
+     "t": 233.99,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      77,
+      44
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 56,
+     "remontada": 0,
+     "fin": 265.85,
+     "personajes": [
+      "Leona",
+      "May Lee"
+     ],
+     "claves": [
+      "kof2002_leona",
+      "kof2002_maylee"
+     ],
+     "vida_final": [
+      56,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 275.65,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 29,
+     "perfect": false,
+     "dano": [
+      68,
+      78
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 33,
+     "remontada": 8,
+     "fin": 304.27,
+     "personajes": [
+      "Leona",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_leona",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      0,
+      33
+     ]
+    },
+    {
+     "n": 5,
+     "t": 309.68,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 24,
+     "perfect": false,
+     "dano": [
+      58,
+      15
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 85,
+     "remontada": 0,
+     "fin": 333.59,
+     "personajes": [
+      "Athena",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_athena",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      85,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "Angel · Leona · Athena",
+    "Leona · May Lee · Iori"
+   ],
+   "claves": [
+    "kof2002_angel",
+    "kof2002_leona"
+   ],
+   "equipos": [
+    [
+     "Angel",
+     "Leona",
+     "Athena"
+    ],
+    [
+     "Leona",
+     "May Lee",
+     "Iori"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_angel",
+     "kof2002_leona",
+     "kof2002_athena"
+    ],
+    [
+     "kof2002_leona",
+     "kof2002_maylee",
+     "kof2002_iori"
+    ]
+   ],
+   "fin": 333.59,
+   "resumen": {
+    "dano": [
+     350,
+     267
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     3,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 142
+   }
+  },
+  {
+   "n": 3,
+   "t": 348.55,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 348.55,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 21,
+     "perfect": true,
+     "dano": [
+      102,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 369.4,
+     "personajes": [
+      "Angel",
+      "May Lee"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_maylee"
+     ],
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 374.86,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 18,
+     "perfect": false,
+     "dano": [
+      102,
+      39
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 61,
+     "remontada": 0,
+     "fin": 393.63,
+     "personajes": [
+      "Angel",
+      "Leona"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_leona"
+     ],
+     "vida_final": [
+      61,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 399.37,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 32,
+     "perfect": false,
+     "dano": [
+      23,
+      91
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 77,
+     "remontada": 0,
+     "fin": 430.45,
+     "personajes": [
+      "Angel",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      0,
+      77
+     ]
+    },
+    {
+     "n": 4,
+     "t": 435.92,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 38,
+     "perfect": false,
+     "dano": [
+      46,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 51,
+     "remontada": 5,
+     "fin": 471.64,
+     "personajes": [
+      "Leona",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_leona",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      0,
+      51
+     ]
+    },
+    {
+     "n": 5,
+     "t": 477.2,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": false,
+     "dano": [
+      73,
+      53
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 48,
+     "remontada": 13,
+     "fin": 502.3,
+     "personajes": [
+      "Athena",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_athena",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      48,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    0
+   ],
+   "personajes": [
+    "Angel · Leona · Athena",
+    "May Lee · Leona · Iori"
+   ],
+   "claves": [
+    "kof2002_angel",
+    "kof2002_maylee"
+   ],
+   "equipos": [
+    [
+     "Angel",
+     "Leona",
+     "Athena"
+    ],
+    [
+     "May Lee",
+     "Leona",
+     "Iori"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_angel",
+     "kof2002_leona",
+     "kof2002_athena"
+    ],
+    [
+     "kof2002_maylee",
+     "kof2002_leona",
+     "kof2002_iori"
+    ]
+   ],
+   "fin": 502.3,
+   "resumen": {
+    "dano": [
+     346,
+     285
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 134
+   }
+  },
+  {
+   "n": 4,
+   "t": 522.1,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 522.1,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 46,
+     "perfect": false,
+     "dano": [
+      102,
+      73
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 28,
+     "remontada": 20,
+     "fin": 564.69,
+     "personajes": [
+      "Angel",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      28,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 571.73,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      102,
+      13
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 31,
+     "remontada": 0,
+     "fin": 599.4,
+     "personajes": [
+      "Angel",
+      "May Lee"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_maylee"
+     ],
+     "vida_final": [
+      31,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 604.92,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 17,
+     "perfect": false,
+     "dano": [
+      37,
+      56
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 63,
+     "remontada": 0,
+     "fin": 622.67,
+     "personajes": [
+      "Angel",
+      "Leona"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_leona"
+     ],
+     "vida_final": [
+      0,
+      63
+     ]
+    },
+    {
+     "n": 4,
+     "t": 628.1,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      93,
+      71
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 30,
+     "remontada": 49,
+     "fin": 657.95,
+     "personajes": [
+      "Leona",
+      "Leona"
+     ],
+     "claves": [
+      "kof2002_leona",
+      "kof2002_leona"
+     ],
+     "vida_final": [
+      30,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    4,
+    0
+   ],
+   "personajes": [
+    "Angel · Leona · Athena",
+    "Iori · May Lee · Leona"
+   ],
+   "claves": [
+    "kof2002_angel",
+    "kof2002_iori"
+   ],
+   "equipos": [
+    [
+     "Angel",
+     "Leona",
+     "Athena"
+    ],
+    [
+     "Iori",
+     "May Lee",
+     "Leona"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_angel",
+     "kof2002_leona",
+     "kof2002_athena"
+    ],
+    [
+     "kof2002_iori",
+     "kof2002_maylee",
+     "kof2002_leona"
+    ]
+   ],
+   "fin": 657.95,
+   "resumen": {
+    "dano": [
+     334,
+     213
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     3,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     1
+    ],
+    "duracion": 122
+   }
+  },
+  {
+   "n": 5,
+   "t": 691.52,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 691.52,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 20,
+     "perfect": false,
+     "dano": [
+      102,
+      16
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 84,
+     "remontada": 0,
+     "fin": 711.79,
+     "personajes": [
+      "Angel",
+      "May Lee"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_maylee"
+     ],
+     "vida_final": [
+      84,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 717.46,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 27,
+     "perfect": false,
+     "dano": [
+      102,
+      26
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 74,
+     "remontada": 11,
+     "fin": 743.95,
+     "personajes": [
+      "Angel",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_iori"
+     ],
+     "vida_final": [
+      74,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 750.98,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      75,
+      100
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 26,
+     "remontada": 10,
+     "fin": 787.98,
+     "personajes": [
+      "Angel",
+      "Leona"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_leona"
+     ],
+     "vida_final": [
+      0,
+      26
+     ]
+    },
+    {
+     "n": 4,
+     "t": 797.76,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 13,
+     "perfect": false,
+     "dano": [
+      47,
+      21
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 79,
+     "remontada": 0,
+     "fin": 812.64,
+     "personajes": [
+      "Leona",
+      "Leona"
+     ],
+     "claves": [
+      "kof2002_leona",
+      "kof2002_leona"
+     ],
+     "vida_final": [
+      79,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    5,
+    0
+   ],
+   "personajes": [
+    "Angel · Leona · Athena",
+    "May Lee · Iori · Leona"
+   ],
+   "claves": [
+    "kof2002_angel",
+    "kof2002_maylee"
+   ],
+   "equipos": [
+    [
+     "Angel",
+     "Leona",
+     "Athena"
+    ],
+    [
+     "May Lee",
+     "Iori",
+     "Leona"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_angel",
+     "kof2002_leona",
+     "kof2002_athena"
+    ],
+    [
+     "kof2002_maylee",
+     "kof2002_iori",
+     "kof2002_leona"
+    ]
+   ],
+   "fin": 812.64,
+   "resumen": {
+    "dano": [
+     326,
+     163
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     4,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     1
+    ],
+    "duracion": 97
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 50.17,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 69.61,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 83.49,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 119.45,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 141.92,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 151.25,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 152.06,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 188.88,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 202.99,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 223.75,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 228.21,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 264.65,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 265.51,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 303.95,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 333.26,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 369.06,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 369.4,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 393.3,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 430.12,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 460.01,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 471.31,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 498.03,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 501.14,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 501.96,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 564.37,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 588.76,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 599.07,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 621.44,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 622.34,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 633.67,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 649.71,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 657.61,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 711.46,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 721.05,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 740.81,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 743.62,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 776.46,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 787.65,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 803.14,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 812.31,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 418,
+   "pelea_rapida": 121,
+   "swaps": 0,
+   "rondas": 15,
+   "rondas_jugadas": 22,
+   "ko": 15,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 1667,
+   "recibido": 1141,
+   "golpes": 270,
+   "golpe_max": 51,
+   "primero": 13,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 15,
+   "mareos": 0,
+   "ronda_rapida": 13,
+   "al_limite": 0,
+   "remontada": 49,
+   "racha": 3,
+   "contras": 1,
+   "esquivas": 1,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 54,
+   "dano_medio": 6.2,
+   "dur_avg": 28,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 51,
+   "dano_barras": 16.34,
+   "recibido_barras": 11.19,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.5
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 193,
+   "pelea_rapida": 0,
+   "swaps": 4,
+   "rondas": 7,
+   "rondas_jugadas": 22,
+   "ko": 7,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1141,
+   "recibido": 1667,
+   "golpes": 178,
+   "golpe_max": 19,
+   "primero": 9,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 2,
+   "mareos": 0,
+   "ronda_rapida": 5,
+   "al_limite": 0,
+   "remontada": 13,
+   "racha": 2,
+   "contras": 12,
+   "esquivas": 3,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 57,
+   "dano_medio": 6.4,
+   "dur_avg": 28,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 74,
+   "dano_barras": 11.19,
+   "recibido_barras": 16.34,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.19
+  }
+ ]
+}
