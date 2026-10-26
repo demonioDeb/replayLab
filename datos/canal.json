@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T17:47:23Z",
+ "actualizado": "2026-10-26T18:06:47Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,14 @@
  "vistas": 30537,
  "videos": 198,
  "lista": [
+  {
+   "id": "yAcYOvt5krE",
+   "privacidad": "private"
+  },
+  {
+   "id": "vdCLY4bysMU",
+   "privacidad": "private"
+  },
   {
    "id": "EqlyBC-LQRA",
    "privacidad": "private"
@@ -31,7 +39,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇺🇸 DJILK vs 🇰🇷 jianchi123 #shorts",
    "publicado": "2026-10-26T17:25:19Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/AWceZM94cJk/mqdefault.jpg"
   },
@@ -85,7 +93,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇲🇽 IRK-ZR-ALCOHOL OFER vs 🇲🇽 [CSK] TZK CAMARON #shorts",
    "publicado": "2026-10-26T00:19:34Z",
    "privacidad": "public",
-   "vistas": 67,
+   "vistas": 62,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/Sitd_0texPY/mqdefault.jpg"
   },
@@ -94,7 +102,7 @@
    "titulo": "Super Street Fighter II X | 🇧🇷 FRS | Biridin vs 🇧🇷 IMP | Laboca #shorts",
    "publicado": "2026-10-25T21:19:52Z",
    "privacidad": "public",
-   "vistas": 50,
+   "vistas": 51,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/ee03Jzq9EHg/mqdefault.jpg"
   },
@@ -121,7 +129,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇺🇸 [SKM] [P] POLLO vs 🇨🇴 [RGT] DARKYS #shorts",
    "publicado": "2026-10-25T18:19:52Z",
    "privacidad": "public",
-   "vistas": 74,
+   "vistas": 80,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/AqlXZ3Dru10/mqdefault.jpg"
   },
@@ -139,7 +147,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 znoopyglobal vs 🇺🇸 ChoiBoy #shorts",
    "publicado": "2026-10-25T15:19:42Z",
    "privacidad": "public",
-   "vistas": 28,
+   "vistas": 29,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/2wcFF8CeS0c/mqdefault.jpg"
   },
@@ -202,7 +210,7 @@
    "titulo": "The King of Fighters 2002 | 🇧🇷 HONESTO OFICIAL vs 🇧🇷 MobbyRJ #shorts",
    "publicado": "2026-10-24T18:00:04Z",
    "privacidad": "public",
-   "vistas": 104,
+   "vistas": 107,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/WYYBnLxY0GM/mqdefault.jpg"
   },
@@ -1780,24 +1788,6 @@
    "vistas": 241,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/iOQ92p-ZzFo/mqdefault.jpg"
-  },
-  {
-   "id": "Vf-7qvclez8",
-   "titulo": "Super Street Fighter II X | 🇲🇽 djfrijoles vs 🇺🇸 mrcarabano",
-   "publicado": "2026-09-28T21:07:51Z",
-   "privacidad": "public",
-   "vistas": 31,
-   "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/Vf-7qvclez8/mqdefault.jpg"
-  },
-  {
-   "id": "l_q-Mm-qxI4",
-   "titulo": "Super Street Fighter II X | 🇲🇽 H-Zero vs 🇲🇽 hassasin10",
-   "publicado": "2026-09-28T20:12:47Z",
-   "privacidad": "public",
-   "vistas": 26,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/l_q-Mm-qxI4/mqdefault.jpg"
   }
  ]
 }
