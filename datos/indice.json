@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26 17:18",
+ "actualizado": "2026-10-26 17:47",
  "videos": [
   {
    "quark": "1792938695922-5307",
@@ -51,6 +51,57 @@
     }
    ],
    "rondas": 34
+  },
+  {
+   "quark": "1792809059425-8069",
+   "juego": "kf2k2pls",
+   "juego_nombre": "The King of Fighters 2002 Plus",
+   "juego_corto": "KOF2002+",
+   "fecha": "2026-10-24",
+   "youtube": "1taPAD6CpW8",
+   "duracion": 898.4,
+   "marcador": [
+    1,
+    5
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "[IRK] Tecate Roja",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Kim · Kyo · Iori",
+     "clave": "kof2002_kim",
+     "personajes": [
+      "Kim",
+      "Iori",
+      "Kyo"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_iori",
+      "kof2002_kyo"
+     ]
+    },
+    {
+     "nombre": "[SKM] KUNO",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Iori · Kim · Kyo",
+     "clave": "kof2002_iori",
+     "personajes": [
+      "Iori",
+      "Kim",
+      "Kyo"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_kim",
+      "kof2002_kyo"
+     ]
+    }
+   ],
+   "rondas": 24
   },
   {
    "quark": "1792787670401-5055",

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26T17:18:49Z",
+ "actualizado": "2026-10-26T17:47:23Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -7,15 +7,33 @@
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
  "suscriptores": 35,
  "vistas": 30537,
- "videos": 196,
+ "videos": 198,
  "lista": [
   {
-   "id": "AWceZM94cJk",
+   "id": "EqlyBC-LQRA",
+   "privacidad": "private"
+  },
+  {
+   "id": "1taPAD6CpW8",
    "privacidad": "private"
   },
   {
    "id": "JwhryOcSyFM",
-   "privacidad": "private"
+   "titulo": "Street Fighter II' Champion Edition | 🇺🇸 DJILK vs 🇰🇷 jianchi123",
+   "publicado": "2026-10-26T17:25:54Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/JwhryOcSyFM/mqdefault.jpg"
+  },
+  {
+   "id": "AWceZM94cJk",
+   "titulo": "Street Fighter II' Champion Edition | 🇺🇸 DJILK vs 🇰🇷 jianchi123 #shorts",
+   "publicado": "2026-10-26T17:25:19Z",
+   "privacidad": "public",
+   "vistas": 1,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/AWceZM94cJk/mqdefault.jpg"
   },
   {
    "id": "7XyT5ailOFQ",
@@ -130,7 +148,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 G0KTuG vs 🇹🇷 BachataHero #shorts",
    "publicado": "2026-10-25T12:20:11Z",
    "privacidad": "public",
-   "vistas": 89,
+   "vistas": 102,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/NeFe26r3x1I/mqdefault.jpg"
   },
@@ -211,7 +229,7 @@
    "titulo": "The King of Fighters '98 | 🇧🇷 olivercan vs 🇧🇷 Raphael pe #shorts",
    "publicado": "2026-10-24T16:00:03Z",
    "privacidad": "public",
-   "vistas": 138,
+   "vistas": 148,
    "me_gusta": 3,
    "miniatura": "https://i.ytimg.com/vi/hjg-44Fyn7c/mqdefault.jpg"
   },
@@ -229,7 +247,7 @@
    "titulo": "Super Street Fighter II X | 🇫🇷 KillerOh! vs 🇺🇸 Voltech #shorts",
    "publicado": "2026-10-24T13:59:58Z",
    "privacidad": "public",
-   "vistas": 124,
+   "vistas": 130,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/n_DNVXt7r5U/mqdefault.jpg"
   },
@@ -805,7 +823,7 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 White Ben vs 🇺🇸 DJILK",
    "publicado": "2026-10-17T18:57:10Z",
    "privacidad": "public",
-   "vistas": 0,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/oqGZVPRe1qU/mqdefault.jpg"
   },
@@ -900,13 +918,13 @@
    "miniatura": "https://i.ytimg.com/vi/p7bTCIdFohE/mqdefault.jpg"
   },
   {
-   "id": "KGew2-Dj4y0",
-   "titulo": "The King of Fighters '98 | 🇩🇪 a99 vs 🇪🇸 chris24",
-   "publicado": "2026-10-16T14:30:56Z",
+   "id": "W_AnK4L6lHY",
+   "titulo": "The King of Fighters '98 | 🇦🇷 DG | Mr Yama vs 🇦🇷 Abel-*CBZ*",
+   "publicado": "2026-10-16T12:30:55Z",
    "privacidad": "public",
-   "vistas": 2,
+   "vistas": 7,
    "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/KGew2-Dj4y0/mqdefault.jpg"
+   "miniatura": "https://i.ytimg.com/vi/W_AnK4L6lHY/mqdefault.jpg"
   },
   {
    "id": "QUhLjDV4u64",
