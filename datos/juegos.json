@@ -1,202 +1,264 @@
 {
- "_nota": "Registro de juegos de replayLab. Se edita a mano. Replay Lab es SOLO de juegos de pelea. Para incorporar un juego: se añade aquí con estado 'activo' y sus gameids de Fightcade; la web lo recoge sola. Las partidas se asignan a un juego por su gameid. 'nombre_completo' (opcional) es el nombre para una frase suelta, cuando 'nombre' solo no basta (\"Street Fighter II'\" a secas no dice cuál es). 'desbloqueado' (opcional, AAAA-MM-DD): el día en que un juego que estaba en 'proximamente' pasó a 'activo'; con eso sigue saliendo en «Lo que viene» de la página de apoyo, marcado como desbloqueado.",
- "juegos": [
-  {
-   "id": "ssf2x",
-   "nombre": "Super Street Fighter II X",
-   "subtitulo": "Grand Master Challenge",
-   "corto": "SSF2X",
-   "gameids": [
-    "ssf2xjr1",
-    "ssf2xj",
-    "ssf2t",
-    "ssf2tu"
-   ],
-   "anio": 1994,
-   "compania": "Capcom",
-   "retrato": "ryu",
-   "estado": "activo"
-  },
-  {
-   "id": "sfiii3",
-   "nombre": "Street Fighter III 3rd Strike",
-   "subtitulo": "Fight for the Future",
-   "corto": "3S",
-   "gameids": [
-    "sfiii3nr1",
-    "sfiii3"
-   ],
-   "anio": 1999,
-   "compania": "Capcom",
-   "estado": "proximamente"
-  },
-  {
-   "id": "sf2ce",
-   "nombre": "Street Fighter II'",
-   "subtitulo": "Champion Edition",
-   "corto": "CE",
-   "gameids": [
-    "sf2ce"
-   ],
-   "anio": 1992,
-   "compania": "Capcom",
-   "estado": "activo",
-   "nombre_completo": "Street Fighter II' Champion Edition",
-   "retrato": "guile",
-   "desbloqueado": "2026-09-24"
-  },
-  {
-   "id": "sf2hf",
-   "nombre": "Street Fighter II'",
-   "subtitulo": "Hyper Fighting",
-   "corto": "HF",
-   "gameids": [
-    "sf2hf",
-    "sf2hfu",
-    "sf2hfj"
-   ],
-   "anio": 1992,
-   "compania": "Capcom",
-   "estado": "activo",
-   "nombre_completo": "Street Fighter II' Hyper Fighting",
-   "retrato": "ken",
-   "desbloqueado": "2026-10-13"
-  },
-  {
-   "id": "kof94",
-   "nombre": "The King of Fighters '94",
-   "subtitulo": "",
-   "corto": "KOF 94",
-   "gameids": [
-    "kof94"
-   ],
-   "anio": 1994,
-   "compania": "SNK",
-   "estado": "proximamente",
-   "nombre_completo": "The King of Fighters '94"
-  },
-  {
-   "id": "kof95",
-   "nombre": "The King of Fighters '95",
-   "subtitulo": "",
-   "corto": "KOF 95",
-   "gameids": [
-    "kof95"
-   ],
-   "anio": 1995,
-   "compania": "SNK",
-   "estado": "proximamente",
-   "nombre_completo": "The King of Fighters '95"
-  },
-  {
-   "id": "kof96",
-   "nombre": "The King of Fighters '96",
-   "subtitulo": "",
-   "corto": "KOF 96",
-   "gameids": [
-    "kof96"
-   ],
-   "anio": 1996,
-   "compania": "SNK",
-   "estado": "proximamente",
-   "nombre_completo": "The King of Fighters '96"
-  },
-  {
-   "id": "kof97",
-   "nombre": "The King of Fighters '97",
-   "subtitulo": "",
-   "corto": "KOF 97",
-   "gameids": [
-    "kof97"
-   ],
-   "anio": 1997,
-   "compania": "SNK",
-   "estado": "proximamente",
-   "nombre_completo": "The King of Fighters '97"
-  },
-  {
-   "id": "kof98",
-   "nombre": "The King of Fighters '98",
-   "subtitulo": "The Slugfest",
-   "corto": "KOF 98",
-   "gameids": [
-    "kof98"
-   ],
-   "anio": 1998,
-   "compania": "SNK",
-   "estado": "activo",
-   "nombre_completo": "The King of Fighters '98",
-   "desbloqueado": "2026-10-07",
-   "retrato": "kof98_kyo"
-  },
-  {
-   "id": "kof99",
-   "nombre": "The King of Fighters '99",
-   "subtitulo": "Millennium Battle",
-   "corto": "KOF 99",
-   "gameids": [
-    "kof99"
-   ],
-   "anio": 1999,
-   "compania": "SNK",
-   "estado": "proximamente",
-   "nombre_completo": "The King of Fighters '99"
-  },
-  {
-   "id": "kof2000",
-   "nombre": "The King of Fighters 2000",
-   "subtitulo": "",
-   "corto": "KOF 2000",
-   "gameids": [
-    "kof2000"
-   ],
-   "anio": 2000,
-   "compania": "SNK",
-   "estado": "proximamente",
-   "nombre_completo": "The King of Fighters 2000"
-  },
-  {
-   "id": "kof2001",
-   "nombre": "The King of Fighters 2001",
-   "subtitulo": "",
-   "corto": "KOF 2001",
-   "gameids": [
-    "kof2001"
-   ],
-   "anio": 2001,
-   "compania": "Eolith / Playmore",
-   "estado": "proximamente",
-   "nombre_completo": "The King of Fighters 2001"
-  },
-  {
-   "id": "kof2002",
-   "nombre": "The King of Fighters 2002",
-   "subtitulo": "Challenge to Ultimate Battle",
-   "corto": "KOF 2002",
-   "gameids": [
-    "kof2002"
-   ],
-   "anio": 2002,
-   "compania": "Eolith / Playmore",
-   "estado": "activo",
-   "nombre_completo": "The King of Fighters 2002",
-   "desbloqueado": "2026-10-15",
-   "retrato": "kof2002_kyo"
-  },
-  {
-   "id": "kf2k2pls",
-   "nombre": "The King of Fighters 2002 Plus",
-   "subtitulo": "Challenge to Ultimate Battle",
-   "corto": "KOF 2002+",
-   "gameids": [
-    "kf2k2pls"
-   ],
-   "anio": 2002,
-   "compania": "Eolith / Playmore",
-   "estado": "activo",
-   "nombre_completo": "The King of Fighters 2002 Plus",
-   "desbloqueado": "2026-10-22",
-   "retrato": "kof2002_iori"
-  }
- ]
+  "_nota": "Registro de juegos de replayLab. Se edita a mano. Replay Lab es SOLO de juegos de pelea. Para incorporar un juego: se añade aquí con estado 'activo' y sus gameids de Fightcade; la web lo recoge sola. Las partidas se asignan a un juego por su gameid. 'nombre_completo' (opcional) es el nombre para una frase suelta, cuando 'nombre' solo no basta (\"Street Fighter II'\" a secas no dice cuál es). 'desbloqueado' (opcional, AAAA-MM-DD): el día en que un juego que estaba en 'proximamente' pasó a 'activo'; con eso sigue saliendo en «Lo que viene» de la página de apoyo, marcado como desbloqueado.",
+  "juegos": [
+    {
+      "id": "ssf2x",
+      "nombre": "Super Street Fighter II X",
+      "subtitulo": "Grand Master Challenge",
+      "corto": "SSF2X",
+      "gameids": [
+        "ssf2xjr1",
+        "ssf2xj",
+        "ssf2t",
+        "ssf2tu"
+      ],
+      "anio": 1994,
+      "compania": "Capcom",
+      "retrato": "ryu",
+      "estado": "activo"
+    },
+    {
+      "id": "sfiii3",
+      "nombre": "Street Fighter III 3rd Strike",
+      "subtitulo": "Fight for the Future",
+      "corto": "3S",
+      "gameids": [
+        "sfiii3nr1",
+        "sfiii3"
+      ],
+      "anio": 1999,
+      "compania": "Capcom",
+      "estado": "proximamente"
+    },
+    {
+      "id": "sf2ce",
+      "nombre": "Street Fighter II'",
+      "subtitulo": "Champion Edition",
+      "corto": "CE",
+      "gameids": [
+        "sf2ce"
+      ],
+      "anio": 1992,
+      "compania": "Capcom",
+      "estado": "activo",
+      "nombre_completo": "Street Fighter II' Champion Edition",
+      "retrato": "guile",
+      "desbloqueado": "2026-09-24"
+    },
+    {
+      "id": "sf2hf",
+      "nombre": "Street Fighter II'",
+      "subtitulo": "Hyper Fighting",
+      "corto": "HF",
+      "gameids": [
+        "sf2hf",
+        "sf2hfu",
+        "sf2hfj"
+      ],
+      "anio": 1992,
+      "compania": "Capcom",
+      "estado": "activo",
+      "nombre_completo": "Street Fighter II' Hyper Fighting",
+      "retrato": "ken",
+      "desbloqueado": "2026-10-13"
+    },
+    {
+      "id": "kof94",
+      "nombre": "The King of Fighters '94",
+      "subtitulo": "",
+      "corto": "KOF 94",
+      "gameids": [
+        "kof94"
+      ],
+      "anio": 1994,
+      "compania": "SNK",
+      "estado": "proximamente",
+      "nombre_completo": "The King of Fighters '94"
+    },
+    {
+      "id": "kof95",
+      "nombre": "The King of Fighters '95",
+      "subtitulo": "",
+      "corto": "KOF 95",
+      "gameids": [
+        "kof95"
+      ],
+      "anio": 1995,
+      "compania": "SNK",
+      "estado": "proximamente",
+      "nombre_completo": "The King of Fighters '95"
+    },
+    {
+      "id": "kof96",
+      "nombre": "The King of Fighters '96",
+      "subtitulo": "",
+      "corto": "KOF 96",
+      "gameids": [
+        "kof96"
+      ],
+      "anio": 1996,
+      "compania": "SNK",
+      "estado": "proximamente",
+      "nombre_completo": "The King of Fighters '96"
+    },
+    {
+      "id": "kof97",
+      "nombre": "The King of Fighters '97",
+      "subtitulo": "",
+      "corto": "KOF 97",
+      "gameids": [
+        "kof97"
+      ],
+      "anio": 1997,
+      "compania": "SNK",
+      "estado": "proximamente",
+      "nombre_completo": "The King of Fighters '97"
+    },
+    {
+      "id": "kof98",
+      "nombre": "The King of Fighters '98",
+      "subtitulo": "The Slugfest",
+      "corto": "KOF 98",
+      "gameids": [
+        "kof98"
+      ],
+      "anio": 1998,
+      "compania": "SNK",
+      "estado": "activo",
+      "nombre_completo": "The King of Fighters '98",
+      "desbloqueado": "2026-10-07",
+      "retrato": "kof98_kyo"
+    },
+    {
+      "id": "kof99",
+      "nombre": "The King of Fighters '99",
+      "subtitulo": "Millennium Battle",
+      "corto": "KOF 99",
+      "gameids": [
+        "kof99"
+      ],
+      "anio": 1999,
+      "compania": "SNK",
+      "estado": "proximamente",
+      "nombre_completo": "The King of Fighters '99"
+    },
+    {
+      "id": "kof2000",
+      "nombre": "The King of Fighters 2000",
+      "subtitulo": "",
+      "corto": "KOF 2000",
+      "gameids": [
+        "kof2000"
+      ],
+      "anio": 2000,
+      "compania": "SNK",
+      "estado": "proximamente",
+      "nombre_completo": "The King of Fighters 2000"
+    },
+    {
+      "id": "kof2001",
+      "nombre": "The King of Fighters 2001",
+      "subtitulo": "",
+      "corto": "KOF 2001",
+      "gameids": [
+        "kof2001"
+      ],
+      "anio": 2001,
+      "compania": "Eolith / Playmore",
+      "estado": "proximamente",
+      "nombre_completo": "The King of Fighters 2001"
+    },
+    {
+      "id": "kof2002",
+      "nombre": "The King of Fighters 2002",
+      "subtitulo": "Challenge to Ultimate Battle",
+      "corto": "KOF 2002",
+      "gameids": [
+        "kof2002"
+      ],
+      "anio": 2002,
+      "compania": "Eolith / Playmore",
+      "estado": "activo",
+      "nombre_completo": "The King of Fighters 2002",
+      "desbloqueado": "2026-10-15",
+      "retrato": "kof2002_kyo"
+    },
+    {
+      "id": "kf2k2pls",
+      "nombre": "The King of Fighters 2002 Plus",
+      "subtitulo": "Challenge to Ultimate Battle",
+      "corto": "KOF 2002+",
+      "gameids": [
+        "kf2k2pls"
+      ],
+      "anio": 2002,
+      "compania": "Eolith / Playmore",
+      "estado": "activo",
+      "nombre_completo": "The King of Fighters 2002 Plus",
+      "desbloqueado": "2026-10-22",
+      "retrato": "kof2002_iori"
+    },
+    {
+      "id": "sfa2",
+      "nombre": "Street Fighter Alpha 2",
+      "subtitulo": "",
+      "corto": "SFA2",
+      "gameids": [
+        "sfa2",
+        "sfa2u"
+      ],
+      "anio": 1996,
+      "compania": "Capcom",
+      "estado": "activo",
+      "nombre_completo": "Street Fighter Alpha 2",
+      "desbloqueado": "2026-10-27",
+      "retrato": "sfa2_ryu"
+    },
+    {
+      "id": "sfa3",
+      "nombre": "Street Fighter Alpha 3",
+      "subtitulo": "",
+      "corto": "SFA3",
+      "gameids": [
+        "sfa3",
+        "sfa3u"
+      ],
+      "anio": 1998,
+      "compania": "Capcom",
+      "estado": "activo",
+      "nombre_completo": "Street Fighter Alpha 3",
+      "desbloqueado": "2026-10-27",
+      "retrato": "sfa3_ken"
+    },
+    {
+      "id": "msh",
+      "nombre": "Marvel Super Heroes",
+      "subtitulo": "",
+      "corto": "MSH",
+      "gameids": [
+        "msh"
+      ],
+      "anio": 1995,
+      "compania": "Capcom",
+      "estado": "activo",
+      "nombre_completo": "Marvel Super Heroes",
+      "desbloqueado": "2026-10-27",
+      "retrato": "msh_spiderman"
+    },
+    {
+      "id": "xmcota",
+      "nombre": "X-Men: Children of the Atom",
+      "subtitulo": "",
+      "corto": "XMCOTA",
+      "gameids": [
+        "xmcota"
+      ],
+      "anio": 1994,
+      "compania": "Capcom",
+      "estado": "activo",
+      "nombre_completo": "X-Men: Children of the Atom",
+      "desbloqueado": "2026-10-27",
+      "retrato": "xmcota_wolverine"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-26 19:11",
+ "actualizado": "2026-10-27 22:57",
  "videos": [
   {
    "quark": "1792938695922-5307",
@@ -2573,6 +2573,49 @@
      ],
      "claves": [
       "claw"
+     ]
+    }
+   ],
+   "rondas": 20
+  },
+  {
+   "quark": "1791250909496-3455",
+   "juego": "msh",
+   "juego_nombre": "Marvel Super Heroes",
+   "juego_corto": "MSH",
+   "fecha": "2026-10-06",
+   "youtube": "icRcvVNFV-Q",
+   "duracion": 891.7,
+   "marcador": [
+    5,
+    3
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "-LiquidMetalX",
+     "pais": "ca",
+     "rango_letra": "B",
+     "personaje": "Wolverine",
+     "clave": "msh_wolverine",
+     "personajes": [
+      "Wolverine"
+     ],
+     "claves": [
+      "msh_wolverine"
+     ]
+    },
+    {
+     "nombre": "Ninten Clos",
+     "pais": "co",
+     "rango_letra": "B",
+     "personaje": "Wolverine",
+     "clave": "msh_wolverine",
+     "personajes": [
+      "Wolverine"
+     ],
+     "claves": [
+      "msh_wolverine"
      ]
     }
    ],
