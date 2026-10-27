@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27 23:34",
+ "actualizado": "2026-10-27 23:35",
  "videos": [
   {
    "quark": "1792987783039-9247",
@@ -1905,63 +1905,6 @@
     }
    ],
    "rondas": 5
-  },
-  {
-   "quark": "1792096337114-7008",
-   "juego": "kof2002",
-   "juego_nombre": "The King of Fighters 2002",
-   "juego_corto": "KOF2002",
-   "fecha": "2026-10-15",
-   "youtube": "I5B9j4Eh8x4",
-   "duracion": 1369.3,
-   "marcador": [
-    3,
-    5
-   ],
-   "peleas": 8,
-   "jugadores": [
-    {
-     "nombre": "Drinkteam-john",
-     "pais": "mx",
-     "rango_letra": "A",
-     "personaje": "Whip · Kim · Leona",
-     "clave": "kof2002_whip",
-     "personajes": [
-      "K'",
-      "Leona",
-      "Whip",
-      "Kim"
-     ],
-     "claves": [
-      "kof2002_kdash",
-      "kof2002_leona",
-      "kof2002_whip",
-      "kof2002_kim"
-     ]
-    },
-    {
-     "nombre": "[SKM] [P] POLLO",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Kim · Angel · Iori",
-     "clave": "kof2002_kim",
-     "personajes": [
-      "Kim",
-      "May Lee",
-      "Yamazaki",
-      "Angel",
-      "Iori"
-     ],
-     "claves": [
-      "kof2002_kim",
-      "kof2002_maylee",
-      "kof2002_yamazaki",
-      "kof2002_angel",
-      "kof2002_iori"
-     ]
-    }
-   ],
-   "rondas": 35
   },
   {
    "quark": "1792084722783-2507",
