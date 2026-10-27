@@ -1,6 +1,49 @@
 {
- "actualizado": "2026-10-27 22:57",
+ "actualizado": "2026-10-27 22:58",
  "videos": [
+  {
+   "quark": "1792987783039-9247",
+   "juego": "sf2hf",
+   "juego_nombre": "Street Fighter II' Hyper Fighting",
+   "juego_corto": "SF2HF",
+   "fecha": "2026-10-26",
+   "youtube": "vdCLY4bysMU",
+   "duracion": 587.1,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "DJILK",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    },
+    {
+     "nombre": "ChoiBoy",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Guile",
+     "clave": "guile",
+     "personajes": [
+      "Guile"
+     ],
+     "claves": [
+      "guile"
+     ]
+    }
+   ],
+   "rondas": 12
+  },
   {
    "quark": "1792938695922-5307",
    "juego": "kof98",
@@ -53,6 +96,59 @@
    "rondas": 34
   },
   {
+   "quark": "1792883151334-9492",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2026-10-24",
+   "youtube": "7nrwjXdn8D0",
+   "duracion": 505.2,
+   "marcador": [
+    0,
+    3
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "Garam Anday",
+     "pais": "de",
+     "rango_letra": "A",
+     "personaje": "Yashiro · Chris · Ralf",
+     "clave": "kof98_yashiro",
+     "personajes": [
+      "Yashiro",
+      "Chris",
+      "Ralf",
+      "Mary"
+     ],
+     "claves": [
+      "kof98_yashiro",
+      "kof98_chris",
+      "kof98_ralf",
+      "kof98_mary"
+     ]
+    },
+    {
+     "nombre": "chato1985",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "Kyo · Clark · Ralf",
+     "clave": "kof98_kyo",
+     "personajes": [
+      "Kyo",
+      "Clark",
+      "Ralf"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_clark",
+      "kof98_ralf"
+     ]
+    }
+   ],
+   "rondas": 12
+  },
+  {
    "quark": "1792866171520-3258",
    "juego": "sf2ce",
    "juego_nombre": "Street Fighter II' Champion Edition",
@@ -94,6 +190,151 @@
     }
    ],
    "rondas": 20
+  },
+  {
+   "quark": "1792853759110-5182",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-24",
+   "youtube": "Kp_zjCn3gY8",
+   "duracion": 472.2,
+   "marcador": [
+    0,
+    5
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "ZOOLANDER",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Dee Jay",
+     "clave": "deejay",
+     "personajes": [
+      "Dee Jay"
+     ],
+     "claves": [
+      "deejay"
+     ]
+    },
+    {
+     "nombre": "MegamanX-8",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Zangief",
+     "clave": "zangief",
+     "personajes": [
+      "Zangief"
+     ],
+     "claves": [
+      "zangief"
+     ]
+    }
+   ],
+   "rondas": 13
+  },
+  {
+   "quark": "1792816489808-4415",
+   "juego": "kof2002",
+   "juego_nombre": "The King of Fighters 2002",
+   "juego_corto": "KOF2002",
+   "fecha": "2026-10-24",
+   "youtube": "t-gHvXKns7w",
+   "duracion": 818.6,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "[CSK] TZK CAMARON",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Angel · Leona · Athena",
+     "clave": "kof2002_angel",
+     "personajes": [
+      "Angel",
+      "Leona",
+      "Athena"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_leona",
+      "kof2002_athena"
+     ]
+    },
+    {
+     "nombre": "UWL/MDF-DannyLee",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "May Lee · Leona · Iori",
+     "clave": "kof2002_maylee",
+     "personajes": [
+      "May Lee",
+      "Leona",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_maylee",
+      "kof2002_leona",
+      "kof2002_iori"
+     ]
+    }
+   ],
+   "rondas": 22
+  },
+  {
+   "quark": "1792809059425-8069",
+   "juego": "kf2k2pls",
+   "juego_nombre": "The King of Fighters 2002 Plus",
+   "juego_corto": "KOF2002+",
+   "fecha": "2026-10-24",
+   "youtube": "1taPAD6CpW8",
+   "duracion": 898.4,
+   "marcador": [
+    1,
+    5
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "[IRK] Tecate Roja",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Kim · Kyo · Iori",
+     "clave": "kof2002_kim",
+     "personajes": [
+      "Kim",
+      "Iori",
+      "Kyo"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_iori",
+      "kof2002_kyo"
+     ]
+    },
+    {
+     "nombre": "[SKM] KUNO",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Iori · Kim · Kyo",
+     "clave": "kof2002_iori",
+     "personajes": [
+      "Iori",
+      "Kim",
+      "Kyo"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_kim",
+      "kof2002_kyo"
+     ]
+    }
+   ],
+   "rondas": 24
   },
   {
    "quark": "1792787670401-5055",
