@@ -1,0 +1,1033 @@
+{
+ "version": 8,
+ "quark": "1640310595479-5533",
+ "carpeta": "20261027_NM_Akuma_vs_bignasty_3620_1640310595479-5533",
+ "juego": "xmcota",
+ "juego_nombre": "X-Men: Children of the Atom",
+ "juego_corto": "XMCOTA",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": false,
+  "guardia": false
+ },
+ "fecha": "2021-12-24",
+ "youtube": "LyYqRInZmSw",
+ "titulo": "X-Men: Children of the Atom | 🇪🇸 NM_Akuma vs 🇺🇸 bignasty_3620",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "NM_Akuma",
+   "pais": "es",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Wolverine",
+   "clave": "xmcota_wolverine",
+   "personajes": [
+    "Wolverine"
+   ],
+   "claves": [
+    "xmcota_wolverine"
+   ],
+   "swaps": 0,
+   "super": ""
+  },
+  {
+   "nombre": "bignasty_3620",
+   "pais": "us",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Cyclops",
+   "clave": "xmcota_cyclops",
+   "personajes": [
+    "Cyclops"
+   ],
+   "claves": [
+    "xmcota_cyclops"
+   ],
+   "swaps": 0,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  2,
+  5
+ ],
+ "duracion": 743.4,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 11.4,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 11.4,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 77,
+     "perfect": false,
+     "dano": [
+      57,
+      143
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 59,
+     "remontada": 40,
+     "fin": 66.9,
+     "vida_final": [
+      0,
+      59
+     ]
+    },
+    {
+     "n": 2,
+     "t": 72.41,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 50,
+     "perfect": false,
+     "dano": [
+      64,
+      143
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      2
+     ],
+     "vida_fin": 54,
+     "remontada": 5,
+     "fin": 109.09,
+     "vida_final": [
+      0,
+      54
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Wolverine",
+    "Cyclops"
+   ],
+   "claves": [
+    "xmcota_wolverine",
+    "xmcota_cyclops"
+   ],
+   "fin": 109.58,
+   "resumen": {
+    "dano": [
+     121,
+     286
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     2
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 127
+   }
+  },
+  {
+   "n": 2,
+   "t": 123.47,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 123.47,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 63,
+     "perfect": false,
+     "dano": [
+      66,
+      143
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 53,
+     "remontada": 0,
+     "fin": 169.79,
+     "vida_final": [
+      0,
+      53
+     ]
+    },
+    {
+     "n": 2,
+     "t": 173.77,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 53,
+     "perfect": false,
+     "dano": [
+      72,
+      143
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 49,
+     "remontada": 25,
+     "fin": 212.14,
+     "vida_final": [
+      0,
+      49
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    2
+   ],
+   "personajes": [
+    "Wolverine",
+    "Cyclops"
+   ],
+   "claves": [
+    "xmcota_wolverine",
+    "xmcota_cyclops"
+   ],
+   "fin": 212.64,
+   "resumen": {
+    "dano": [
+     138,
+     286
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 116
+   }
+  },
+  {
+   "n": 3,
+   "t": 229.54,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 229.54,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 56,
+     "perfect": false,
+     "dano": [
+      143,
+      73
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 48,
+     "remontada": 0,
+     "fin": 270.87,
+     "vida_final": [
+      48,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 278.1,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 42,
+     "perfect": false,
+     "dano": [
+      143,
+      34
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 75,
+     "remontada": 0,
+     "fin": 308.99,
+     "vida_final": [
+      75,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    2
+   ],
+   "personajes": [
+    "Wolverine",
+    "Cyclops"
+   ],
+   "claves": [
+    "xmcota_wolverine",
+    "xmcota_cyclops"
+   ],
+   "fin": 309.48,
+   "resumen": {
+    "dano": [
+     286,
+     107
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 98
+   }
+  },
+  {
+   "n": 4,
+   "t": 323.15,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 323.15,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 67,
+     "perfect": false,
+     "dano": [
+      143,
+      140
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 2,
+     "remontada": 40,
+     "fin": 372.14,
+     "vida_final": [
+      2,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 378.77,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 40,
+     "perfect": false,
+     "dano": [
+      35,
+      143
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 75,
+     "remontada": 0,
+     "fin": 408.81,
+     "vida_final": [
+      0,
+      75
+     ]
+    },
+    {
+     "n": 3,
+     "t": 412.74,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 76,
+     "perfect": false,
+     "dano": [
+      143,
+      141
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      1
+     ],
+     "vida_fin": 1,
+     "remontada": 46,
+     "fin": 466.51,
+     "vida_final": [
+      1,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    2
+   ],
+   "personajes": [
+    "Wolverine",
+    "Cyclops"
+   ],
+   "claves": [
+    "xmcota_wolverine",
+    "xmcota_cyclops"
+   ],
+   "fin": 467.0,
+   "resumen": {
+    "dano": [
+     321,
+     424
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     2
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 183
+   }
+  },
+  {
+   "n": 5,
+   "t": 481.84,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 481.84,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 58,
+     "perfect": false,
+     "dano": [
+      129,
+      143
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 9,
+     "remontada": 31,
+     "fin": 524.65,
+     "vida_final": [
+      0,
+      9
+     ]
+    },
+    {
+     "n": 2,
+     "t": 528.76,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      39,
+      143
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 72,
+     "remontada": 11,
+     "fin": 552.71,
+     "vida_final": [
+      0,
+      72
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    2,
+    3
+   ],
+   "personajes": [
+    "Wolverine",
+    "Cyclops"
+   ],
+   "claves": [
+    "xmcota_wolverine",
+    "xmcota_cyclops"
+   ],
+   "fin": 553.2,
+   "resumen": {
+    "dano": [
+     168,
+     286
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 89
+   }
+  },
+  {
+   "n": 6,
+   "t": 568.25,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 568.25,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 32,
+     "perfect": false,
+     "dano": [
+      31,
+      143
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 77,
+     "remontada": 16,
+     "fin": 593.83,
+     "vida_final": [
+      0,
+      77
+     ]
+    },
+    {
+     "n": 2,
+     "t": 598.31,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 51,
+     "perfect": false,
+     "dano": [
+      131,
+      143
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      1
+     ],
+     "vida_fin": 8,
+     "remontada": 39,
+     "fin": 635.19,
+     "vida_final": [
+      0,
+      8
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    2,
+    4
+   ],
+   "personajes": [
+    "Wolverine",
+    "Cyclops"
+   ],
+   "claves": [
+    "xmcota_wolverine",
+    "xmcota_cyclops"
+   ],
+   "fin": 635.69,
+   "resumen": {
+    "dano": [
+     162,
+     286
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     2
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 83
+   }
+  },
+  {
+   "n": 7,
+   "t": 649.34,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 649.34,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 67,
+     "perfect": false,
+     "dano": [
+      112,
+      143
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      1
+     ],
+     "vida_fin": 21,
+     "remontada": 78,
+     "fin": 698.31,
+     "vida_final": [
+      0,
+      21
+     ]
+    },
+    {
+     "n": 2,
+     "t": 704.01,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "dano": [
+      119,
+      143
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 16,
+     "remontada": 17,
+     "fin": 736.96,
+     "vida_final": [
+      0,
+      16
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    2,
+    5
+   ],
+   "personajes": [
+    "Wolverine",
+    "Cyclops"
+   ],
+   "claves": [
+    "xmcota_wolverine",
+    "xmcota_cyclops"
+   ],
+   "fin": 737.44,
+   "resumen": {
+    "dano": [
+     231,
+     286
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     1,
+     2
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 112
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 81.49,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 107.5,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 201.68,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 288.04,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 290.58,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 346.19,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 438.41,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 464.66,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 550.82,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 579.39,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 625.78,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 633.6,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 660.56,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 674.09,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 698.31,
+   "tipo": "remontada",
+   "jugador": 2,
+   "dato": 78
+  },
+  {
+   "t": 712.16,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 735.4,
+   "tipo": "super",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 24,
+   "stun_frames": 728,
+   "stun_peor": 92,
+   "mareado_veces": 10,
+   "dur_sum": 241,
+   "pelea_rapida": 80,
+   "swaps": 0,
+   "rondas": 4,
+   "rondas_jugadas": 15,
+   "ko": 4,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1427,
+   "recibido": 1961,
+   "golpes": 297,
+   "golpe_max": 28,
+   "primero": 12,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 2,
+   "mareos": 4,
+   "ronda_rapida": 42,
+   "al_limite": 2,
+   "remontada": 46,
+   "racha": 3,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 12,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 32,
+   "dano_medio": 4.8,
+   "dur_avg": 60,
+   "stun_seg": 12.2,
+   "stun_peor_seg": 1.5,
+   "vida_perdida_ronda": 91,
+   "dano_barras": 9.91,
+   "recibido_barras": 13.62,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.19
+  },
+  {
+   "meter_full": 23,
+   "stun_frames": 356,
+   "stun_peor": 95,
+   "mareado_veces": 4,
+   "dur_sum": 567,
+   "pelea_rapida": 67,
+   "swaps": 0,
+   "rondas": 11,
+   "rondas_jugadas": 15,
+   "ko": 11,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1961,
+   "recibido": 1427,
+   "golpes": 333,
+   "golpe_max": 34,
+   "primero": 3,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 10,
+   "ronda_rapida": 31,
+   "al_limite": 2,
+   "remontada": 78,
+   "racha": 6,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 3,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "vida_al_ganar": 45,
+   "dano_medio": 5.9,
+   "dur_avg": 52,
+   "stun_seg": 6.0,
+   "stun_peor_seg": 1.6,
+   "vida_perdida_ronda": 66,
+   "dano_barras": 13.62,
+   "recibido_barras": 9.91,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.24
+  }
+ ]
+}

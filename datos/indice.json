@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27 22:58",
+ "actualizado": "2026-10-27 23:34",
  "videos": [
   {
    "quark": "1792987783039-9247",
@@ -4936,6 +4936,49 @@
     }
    ],
    "rondas": 17
+  },
+  {
+   "quark": "1640310595479-5533",
+   "juego": "xmcota",
+   "juego_nombre": "X-Men: Children of the Atom",
+   "juego_corto": "XMCOTA",
+   "fecha": "2021-12-24",
+   "youtube": "LyYqRInZmSw",
+   "duracion": 743.4,
+   "marcador": [
+    2,
+    5
+   ],
+   "peleas": 7,
+   "jugadores": [
+    {
+     "nombre": "NM_Akuma",
+     "pais": "es",
+     "rango_letra": "B",
+     "personaje": "Wolverine",
+     "clave": "xmcota_wolverine",
+     "personajes": [
+      "Wolverine"
+     ],
+     "claves": [
+      "xmcota_wolverine"
+     ]
+    },
+    {
+     "nombre": "bignasty_3620",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Cyclops",
+     "clave": "xmcota_cyclops",
+     "personajes": [
+      "Cyclops"
+     ],
+     "claves": [
+      "xmcota_cyclops"
+     ]
+    }
+   ],
+   "rondas": 15
   },
   {
    "quark": "1634869846993-9696",
