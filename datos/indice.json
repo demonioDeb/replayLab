@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28 03:59",
+ "actualizado": "2026-10-28 22:27",
  "videos": [
   {
    "quark": "1792987783039-9247",
@@ -39,6 +39,51 @@
      ],
      "claves": [
       "guile"
+     ]
+    }
+   ],
+   "rondas": 12
+  },
+  {
+   "quark": "1792956024896-8438",
+   "juego": "sfa3",
+   "juego_nombre": "Street Fighter Alpha 3",
+   "juego_corto": "SFA3",
+   "fecha": "2026-10-25",
+   "youtube": "6pZ3pGkRH1s",
+   "duracion": 597.5,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "Salt_Ver",
+     "pais": "cl",
+     "rango_letra": "A",
+     "personaje": "Zangief",
+     "clave": "sfa3_zangief",
+     "personajes": [
+      "Zangief"
+     ],
+     "claves": [
+      "sfa3_zangief"
+     ]
+    },
+    {
+     "nombre": "OCXRIDAH",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Dhalsim",
+     "clave": "sfa3_dhalsim",
+     "personajes": [
+      "Dhalsim",
+      "Gen"
+     ],
+     "claves": [
+      "sfa3_dhalsim",
+      "sfa3_gen"
      ]
     }
    ],
