@@ -1,0 +1,611 @@
+{
+ "version": 8,
+ "quark": "1675570292995-9852",
+ "carpeta": "20261027_Ana_Gomez_vs_makozero_1675570292995-9852",
+ "juego": "sfa3",
+ "juego_nombre": "Street Fighter Alpha 3",
+ "juego_corto": "SFA3",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": false,
+  "guardia": true
+ },
+ "fecha": "2023-02-05",
+ "youtube": "vT_hpcg3do0",
+ "titulo": "Street Fighter Alpha 3 | 🇲🇽 Ana Gomez vs 🇨🇦 makozero",
+ "ft": 2,
+ "jugadores": [
+  {
+   "nombre": "Ana Gomez",
+   "pais": "mx",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Gen",
+   "clave": "sfa3_gen",
+   "personajes": [
+    "Gen"
+   ],
+   "claves": [
+    "sfa3_gen"
+   ],
+   "swaps": 0,
+   "super": ""
+  },
+  {
+   "nombre": "makozero",
+   "pais": "ca",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Adon",
+   "clave": "sfa3_adon",
+   "personajes": [
+    "Adon"
+   ],
+   "claves": [
+    "sfa3_adon"
+   ],
+   "swaps": 0,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  1,
+  2
+ ],
+ "duracion": 370.9,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 15.89,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 15.89,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 49,
+     "perfect": false,
+     "dano": [
+      144,
+      137
+     ],
+     "combos": [
+      2,
+      3
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 7,
+     "fin": 58.23,
+     "vida_final": [
+      4,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 63.95,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 77,
+     "perfect": false,
+     "dano": [
+      144,
+      139
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 3,
+     "remontada": 16,
+     "fin": 125.57,
+     "vida_final": [
+      3,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Gen",
+    "Adon"
+   ],
+   "claves": [
+    "sfa3_gen",
+    "sfa3_adon"
+   ],
+   "fin": 125.57,
+   "resumen": {
+    "dano": [
+     288,
+     276
+    ],
+    "combos": [
+     2,
+     4
+    ],
+    "supers": [
+     3,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 126
+   }
+  },
+  {
+   "n": 2,
+   "t": 138.88,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 138.88,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      90,
+      144
+     ],
+     "combos": [
+      0,
+      2
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 37,
+     "remontada": 11,
+     "fin": 189.11,
+     "vida_final": [
+      0,
+      37
+     ]
+    },
+    {
+     "n": 2,
+     "t": 194.94,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "dano": [
+      101,
+      144
+     ],
+     "combos": [
+      1,
+      5
+     ],
+     "supers": [
+      2,
+      1
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 29,
+     "remontada": 15,
+     "fin": 233.07,
+     "vida_final": [
+      0,
+      29
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    1
+   ],
+   "personajes": [
+    "Gen",
+    "Adon"
+   ],
+   "claves": [
+    "sfa3_gen",
+    "sfa3_adon"
+   ],
+   "fin": 235.91,
+   "resumen": {
+    "dano": [
+     191,
+     288
+    ],
+    "combos": [
+     1,
+     7
+    ],
+    "supers": [
+     4,
+     1
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 105
+   }
+  },
+  {
+   "n": 3,
+   "t": 246.24,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 246.24,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 29,
+     "perfect": false,
+     "dano": [
+      16,
+      144
+     ],
+     "combos": [
+      0,
+      4
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 88,
+     "remontada": 0,
+     "fin": 272.27,
+     "vida_final": [
+      0,
+      88
+     ]
+    },
+    {
+     "n": 2,
+     "t": 278.14,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 52,
+     "perfect": false,
+     "dano": [
+      144,
+      69
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 52,
+     "remontada": 13,
+     "fin": 321.18,
+     "vida_final": [
+      52,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 326.64,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 44,
+     "perfect": false,
+     "dano": [
+      54,
+      144
+     ],
+     "combos": [
+      0,
+      1
+     ],
+     "supers": [
+      2,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 62,
+     "remontada": 15,
+     "fin": 364.85,
+     "vida_final": [
+      0,
+      62
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    2
+   ],
+   "personajes": [
+    "Gen",
+    "Adon"
+   ],
+   "claves": [
+    "sfa3_gen",
+    "sfa3_adon"
+   ],
+   "fin": 364.85,
+   "resumen": {
+    "dano": [
+     214,
+     357
+    ],
+    "combos": [
+     0,
+     5
+    ],
+    "supers": [
+     4,
+     1
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 125
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 26.7,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 31.13,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 4
+  },
+  {
+   "t": 52.64,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 82.06,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 124.0,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 155.21,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 164.56,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 205.28,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 220.7,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 223.09,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 224.38,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 231.42,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 266.84,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 269.9,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 5
+  },
+  {
+   "t": 283.93,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 288.55,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 345.75,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 350.95,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 363.36,
+   "tipo": "super",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 6,
+   "stun_frames": 196,
+   "stun_peor": 99,
+   "mareado_veces": 2,
+   "dur_sum": 178,
+   "pelea_rapida": 110,
+   "swaps": 0,
+   "rondas": 3,
+   "rondas_jugadas": 7,
+   "ko": 3,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 693,
+   "recibido": 921,
+   "golpes": 77,
+   "golpe_max": 30,
+   "primero": 3,
+   "combos": 3,
+   "combo_max": 4,
+   "combo_dano": 76,
+   "supers": 11,
+   "mareos": 0,
+   "ronda_rapida": 49,
+   "al_limite": 2,
+   "remontada": 16,
+   "racha": 2,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 3,
+   "reversals": 0,
+   "combos_cartel": 3,
+   "tech_hit": 0,
+   "vida_al_ganar": 20,
+   "dano_medio": 9.0,
+   "dur_avg": 59,
+   "stun_seg": 3.3,
+   "stun_peor_seg": 1.7,
+   "vida_perdida_ronda": 91,
+   "dano_barras": 4.81,
+   "recibido_barras": 6.4,
+   "combo_dano_barras": 0.53,
+   "golpe_max_barras": 0.21
+  },
+  {
+   "meter_full": 2,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 178,
+   "pelea_rapida": 97,
+   "swaps": 0,
+   "rondas": 4,
+   "rondas_jugadas": 7,
+   "ko": 4,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 921,
+   "recibido": 693,
+   "golpes": 105,
+   "golpe_max": 21,
+   "primero": 4,
+   "combos": 16,
+   "combo_max": 5,
+   "combo_dano": 43,
+   "supers": 3,
+   "mareos": 2,
+   "ronda_rapida": 29,
+   "al_limite": 0,
+   "remontada": 15,
+   "racha": 3,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 1,
+   "first_attack": 4,
+   "reversals": 0,
+   "combos_cartel": 16,
+   "tech_hit": 0,
+   "vida_al_ganar": 54,
+   "dano_medio": 8.8,
+   "dur_avg": 45,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 69,
+   "dano_barras": 6.4,
+   "recibido_barras": 4.81,
+   "combo_dano_barras": 0.3,
+   "golpe_max_barras": 0.15
+  }
+ ]
+}

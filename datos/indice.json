@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27 23:35",
+ "actualizado": "2026-10-28 03:40",
  "videos": [
   {
    "quark": "1792987783039-9247",
@@ -4791,6 +4791,49 @@
     }
    ],
    "rondas": 21
+  },
+  {
+   "quark": "1675570292995-9852",
+   "juego": "sfa3",
+   "juego_nombre": "Street Fighter Alpha 3",
+   "juego_corto": "SFA3",
+   "fecha": "2023-02-05",
+   "youtube": "vT_hpcg3do0",
+   "duracion": 370.9,
+   "marcador": [
+    1,
+    2
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "Ana Gomez",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Gen",
+     "clave": "sfa3_gen",
+     "personajes": [
+      "Gen"
+     ],
+     "claves": [
+      "sfa3_gen"
+     ]
+    },
+    {
+     "nombre": "makozero",
+     "pais": "ca",
+     "rango_letra": "A",
+     "personaje": "Adon",
+     "clave": "sfa3_adon",
+     "personajes": [
+      "Adon"
+     ],
+     "claves": [
+      "sfa3_adon"
+     ]
+    }
+   ],
+   "rondas": 7
   },
   {
    "quark": "1670984364302-7206",
