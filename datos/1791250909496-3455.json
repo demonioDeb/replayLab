@@ -963,7 +963,7 @@
      ],
      "supers": [
       0,
-      1
+      0
      ],
      "mareos": [
       0,
@@ -1034,7 +1034,7 @@
     ],
     "supers": [
      1,
-     1
+     0
     ],
     "mareos": [
      1,
@@ -1280,11 +1280,6 @@
    "t": 824.42,
    "tipo": "mareo",
    "jugador": 2
-  },
-  {
-   "t": 838.98,
-   "tipo": "super",
-   "jugador": 2
   }
  ],
  "stats": [
@@ -1322,6 +1317,7 @@
    "first_attack": 10,
    "reversals": 0,
    "combos_cartel": 0,
+   "tech_hit": 0,
    "vida_al_ganar": 73,
    "dano_medio": 2.8,
    "dur_avg": 45,
@@ -1354,19 +1350,20 @@
    "combos": 0,
    "combo_max": 0,
    "combo_dano": 0,
-   "supers": 10,
+   "supers": 9,
    "mareos": 11,
    "ronda_rapida": 15,
    "al_limite": 0,
    "remontada": 82,
    "racha": 4,
-   "contras": 3,
+   "contras": 4,
    "esquivas": 0,
    "maxes": 0,
    "guardias": 0,
    "first_attack": 10,
    "reversals": 0,
    "combos_cartel": 0,
+   "tech_hit": 0,
    "vida_al_ganar": 71,
    "dano_medio": 3.0,
    "dur_avg": 35,
