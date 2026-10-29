@@ -1,48 +1,48 @@
 {
- "actualizado": "2026-10-29 02:44",
+ "actualizado": "2026-10-29 02:45",
  "videos": [
   {
-   "quark": "1793159145720-9494",
-   "juego": "sf2hf",
-   "juego_nombre": "Street Fighter II' Hyper Fighting",
-   "juego_corto": "SF2HF",
+   "quark": "1793149852594-1106",
+   "juego": "sfa2u",
+   "juego_nombre": "Street Fighter Alpha 2",
+   "juego_corto": "SFA2",
    "fecha": "2026-10-28",
-   "youtube": "S_IvQmI5nhQ",
-   "duracion": 318.1,
+   "youtube": "9tU1VFaETsk",
+   "duracion": 1247.2,
    "marcador": [
     3,
-    0
+    5
    ],
-   "peleas": 4,
+   "peleas": 8,
    "jugadores": [
     {
-     "nombre": "DJILK",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Ryu",
-     "clave": "ryu",
+     "nombre": "sta_lipexctba",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Chun-Li",
+     "clave": "sfa2_chunli",
      "personajes": [
-      "Ryu"
+      "Chun-Li"
      ],
      "claves": [
-      "ryu"
+      "sfa2_chunli"
      ]
     },
     {
-     "nombre": "ChoiBoy",
-     "pais": "us",
-     "rango_letra": "B",
-     "personaje": "Ryu",
-     "clave": "ryu",
+     "nombre": "papaidosbaianos",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Ken",
+     "clave": "sfa2_ken",
      "personajes": [
-      "Ryu"
+      "Ken"
      ],
      "claves": [
-      "ryu"
+      "sfa2_ken"
      ]
     }
    ],
-   "rondas": 8
+   "rondas": 21
   },
   {
    "quark": "1792987783039-9247",
@@ -1858,6 +1858,49 @@
    "rondas": 33
   },
   {
+   "quark": "1792117905374-3017",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-16",
+   "youtube": "7jQZk0S2rmM",
+   "duracion": 664.6,
+   "marcador": [
+    5,
+    1
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "MiBSF2CE-TV",
+     "pais": "br",
+     "rango_letra": "S",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    },
+    {
+     "nombre": "DJILK",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    }
+   ],
+   "rondas": 15
+  },
+  {
    "quark": "1792099199375-9243",
    "juego": "kof2002",
    "juego_nombre": "The King of Fighters 2002",
@@ -1907,6 +1950,63 @@
     }
    ],
    "rondas": 5
+  },
+  {
+   "quark": "1792096337114-7008",
+   "juego": "kof2002",
+   "juego_nombre": "The King of Fighters 2002",
+   "juego_corto": "KOF2002",
+   "fecha": "2026-10-15",
+   "youtube": "I5B9j4Eh8x4",
+   "duracion": 1369.3,
+   "marcador": [
+    3,
+    5
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "Drinkteam-john",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Whip · Kim · Leona",
+     "clave": "kof2002_whip",
+     "personajes": [
+      "K'",
+      "Leona",
+      "Whip",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_kdash",
+      "kof2002_leona",
+      "kof2002_whip",
+      "kof2002_kim"
+     ]
+    },
+    {
+     "nombre": "[SKM] [P] POLLO",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Kim · Angel · Iori",
+     "clave": "kof2002_kim",
+     "personajes": [
+      "Kim",
+      "May Lee",
+      "Yamazaki",
+      "Angel",
+      "Iori"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_maylee",
+      "kof2002_yamazaki",
+      "kof2002_angel",
+      "kof2002_iori"
+     ]
+    }
+   ],
+   "rondas": 35
   },
   {
    "quark": "1792084722783-2507",
