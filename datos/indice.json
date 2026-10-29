@@ -1228,49 +1228,6 @@
    "rondas": 11
   },
   {
-   "quark": "1792259495912-4307",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-10-17",
-   "youtube": "K0eZGntW3gc",
-   "duracion": 982.3,
-   "marcador": [
-    3,
-    5
-   ],
-   "peleas": 8,
-   "jugadores": [
-    {
-     "nombre": "Serdar80s",
-     "pais": "tr",
-     "rango_letra": "B",
-     "personaje": "Ryu",
-     "clave": "ryu",
-     "personajes": [
-      "Ryu"
-     ],
-     "claves": [
-      "ryu"
-     ]
-    },
-    {
-     "nombre": "yolcu",
-     "pais": "tr",
-     "rango_letra": "A",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    }
-   ],
-   "rondas": 20
-  },
-  {
    "quark": "1792258982678-1558",
    "juego": "sf2ce",
    "juego_nombre": "Street Fighter II' Champion Edition",
@@ -1899,6 +1856,49 @@
     }
    ],
    "rondas": 15
+  },
+  {
+   "quark": "1792115975858-5169",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-16",
+   "youtube": "yePTNdWB1Tk",
+   "duracion": 434.9,
+   "marcador": [
+    3,
+    1
+   ],
+   "peleas": 4,
+   "jugadores": [
+    {
+     "nombre": "MiBSF2CE-TV",
+     "pais": "br",
+     "rango_letra": "S",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    },
+    {
+     "nombre": "thomas_medeiros",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken"
+     ],
+     "claves": [
+      "ken"
+     ]
+    }
+   ],
+   "rondas": 11
   },
   {
    "quark": "1792099199375-9243",
@@ -3656,51 +3656,6 @@
     }
    ],
    "rondas": 22
-  },
-  {
-   "quark": "1790449688173-6572",
-   "juego": "msh",
-   "juego_nombre": "Marvel Super Heroes",
-   "juego_corto": "MSH",
-   "fecha": "2026-09-26",
-   "youtube": "UgWeiS7qmqQ",
-   "duracion": 1053.6,
-   "marcador": [
-    4,
-    5
-   ],
-   "peleas": 9,
-   "jugadores": [
-    {
-     "nombre": "bibi1983",
-     "pais": "br",
-     "rango_letra": "B",
-     "personaje": "Shuma-Gorath",
-     "clave": "msh_shumagorath",
-     "personajes": [
-      "Shuma-Gorath",
-      "Spider-Man"
-     ],
-     "claves": [
-      "msh_shumagorath",
-      "msh_spiderman"
-     ]
-    },
-    {
-     "nombre": "Angneto",
-     "pais": "mx",
-     "rango_letra": "B",
-     "personaje": "Spider-Man",
-     "clave": "msh_spiderman",
-     "personajes": [
-      "Spider-Man"
-     ],
-     "claves": [
-      "msh_spiderman"
-     ]
-    }
-   ],
-   "rondas": 23
   },
   {
    "quark": "1790448197407-6191",
