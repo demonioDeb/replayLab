@@ -1,57 +1,6 @@
 {
- "actualizado": "2026-10-29 18:15",
+ "actualizado": "2026-10-29 18:16",
  "videos": [
-  {
-   "quark": "1793248963744-6757",
-   "juego": "kof2002",
-   "juego_nombre": "The King of Fighters 2002",
-   "juego_corto": "KOF2002",
-   "fecha": "2026-10-29",
-   "youtube": "9kmWjhrtykM",
-   "duracion": 913.0,
-   "marcador": [
-    5,
-    1
-   ],
-   "peleas": 6,
-   "jugadores": [
-    {
-     "nombre": "HONESTO OFICIAL",
-     "pais": "br",
-     "rango_letra": "A",
-     "personaje": "Daimon · Joe · Vice",
-     "clave": "kof2002_daimon",
-     "personajes": [
-      "Joe",
-      "Vice",
-      "Daimon"
-     ],
-     "claves": [
-      "kof2002_joe",
-      "kof2002_vice",
-      "kof2002_daimon"
-     ]
-    },
-    {
-     "nombre": "Bronce35",
-     "pais": "pe",
-     "rango_letra": "B",
-     "personaje": "Ramon · Leona · Vanessa",
-     "clave": "kof2002_ramon",
-     "personajes": [
-      "Ramon",
-      "Leona",
-      "Vanessa"
-     ],
-     "claves": [
-      "kof2002_ramon",
-      "kof2002_leona",
-      "kof2002_vanessa"
-     ]
-    }
-   ],
-   "rondas": 26
-  },
   {
    "quark": "1793149852594-1106",
    "juego": "sfa2u",
@@ -1365,6 +1314,49 @@
    "rondas": 20
   },
   {
+   "quark": "1792258982678-1558",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-17",
+   "youtube": "rTojqMLwYNc",
+   "duracion": 484.7,
+   "marcador": [
+    0,
+    5
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "Serdar80s",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken"
+     ],
+     "claves": [
+      "ken"
+     ]
+    },
+    {
+     "nombre": "yolcu",
+     "pais": "tr",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    }
+   ],
+   "rondas": 11
+  },
+  {
    "quark": "1792258690613-2256",
    "juego": "sf2ce",
    "juego_nombre": "Street Fighter II' Champion Edition",
@@ -1768,49 +1760,6 @@
     }
    ],
    "rondas": 13
-  },
-  {
-   "quark": "1792192514284-6023",
-   "juego": "sf2hf",
-   "juego_nombre": "Street Fighter II' Hyper Fighting",
-   "juego_corto": "SF2HF",
-   "fecha": "2026-10-16",
-   "youtube": "HqNGEqePIyE",
-   "duracion": 170.2,
-   "marcador": [
-    0,
-    3
-   ],
-   "peleas": 3,
-   "jugadores": [
-    {
-     "nombre": "KnockTsuKow",
-     "pais": "us",
-     "rango_letra": "B",
-     "personaje": "Guile",
-     "clave": "guile",
-     "personajes": [
-      "Guile"
-     ],
-     "claves": [
-      "guile"
-     ]
-    },
-    {
-     "nombre": "White Ben",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Ken",
-     "clave": "ken",
-     "personajes": [
-      "Ken"
-     ],
-     "claves": [
-      "ken"
-     ]
-    }
-   ],
-   "rondas": 6
   },
   {
    "quark": "1792187806395-7038",
@@ -3613,6 +3562,57 @@
     }
    ],
    "rondas": 13
+  },
+  {
+   "quark": "1790618360197-9568",
+   "juego": "kof2002",
+   "juego_nombre": "The King of Fighters 2002",
+   "juego_corto": "KOF2002",
+   "fecha": "2026-09-28",
+   "youtube": "JsnuculyCrA",
+   "duracion": 301.3,
+   "marcador": [
+    0,
+    1
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "dz101010",
+     "pais": "dz",
+     "rango_letra": "A",
+     "personaje": "Benimaru · Leona · Choi",
+     "clave": "kof2002_benimaru",
+     "personajes": [
+      "Benimaru",
+      "Leona",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_benimaru",
+      "kof2002_leona",
+      "kof2002_choi"
+     ]
+    },
+    {
+     "nombre": "modo sedex",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Andy · Mai · Mary",
+     "clave": "kof2002_andy",
+     "personajes": [
+      "Andy",
+      "Mai",
+      "Mary"
+     ],
+     "claves": [
+      "kof2002_andy",
+      "kof2002_mai",
+      "kof2002_mary"
+     ]
+    }
+   ],
+   "rondas": 8
   },
   {
    "quark": "1790562701321-6838",
