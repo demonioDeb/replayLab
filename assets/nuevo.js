@@ -255,24 +255,29 @@ const botNube = () => String(D.sitio.bot_nube || "").replace(/\/$/, "");
 function enviarPinta() {
   titulo(T("e_titulo"));
   const previo = $("#e-url") ? $("#e-url").value : (Q.get("replay") || "");
+  const tg = urlTelegram(), dc = urlDiscord();
+  const panel = (cls, ic, nombre, ks, btn, id) => `<section class="vs-p ${cls}"><span class="vs-ic" aria-hidden="true">${ic}</span><h2>${nombre}</h2>
+      <ol>${ks.map(k => `<li>${esc(T(k))}</li>`).join("")}</ol><a class="vs-b" id="${id}" target="_blank" rel="noopener">${esc(T(btn))} ↗</a></section>`;
   $("#m").innerHTML = `<div class="wrap"><div class="pag-cab"><h1>${esc(T("e_titulo"))}</h1><p>${esc(T("e_sub"))}</p></div>
-    <div class="ped"><section class="ped-izq">
-      <label class="ped-et" for="e-url">${esc(T("e_campo"))}</label>
-      <div class="ped-fila"><input id="e-url" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="https://replay.fightcade.com/fbneo/ssf2xjr1/…" value="${esc(previo)}">
-        <button class="btn" type="button" id="e-pegar">${esc(T("x_pegar"))}</button></div>
-      <div class="ticket" id="ticket" aria-live="polite"></div>
-      <p class="ped-et" id="e-elige"></p>
-      <div class="ped-bt" id="e-redes"></div>
-      <details class="ped-como"><summary>${esc(T("e_como"))}</summary><ol>${["e_p1", "e_p2", "e_p3", "e_p4", "e_p5"].map(k => `<li>${esc(T(k))}</li>`).join("")}</ol></details>
-    </section>
-    <aside class="ped-der"><h2 class="ped-et">${esc(T("e_cola"))}</h2><ul class="cola" id="cola"></ul>
-      <p class="ped-et" style="margin-top:20px">${esc(T("e_juegos"))}</p>
-      <div class="jchips">${activos().map(j => `<span style="--g:${colorDe(j)}">${esc(j.corto)}</span>`).join("")}</div></aside></div></div>`;
+    <div class="vsbar"><label class="sr" for="e-url">${esc(T("e_campo"))}</label>
+      <input id="e-url" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="${esc(T("e_campo"))} · https://replay.fightcade.com/…" value="${esc(previo)}">
+      <button class="btn" type="button" id="e-pegar">${esc(T("x_pegar"))}</button></div>
+    <div class="ticket" id="ticket" aria-live="polite"></div>
+    <p class="vs-t">${esc(T("e_elige"))}</p>
+    <div class="vs">${tg ? panel("tg", "✈️", "Telegram", ["e_tg_1", "e_tg_2", "e_tg_3"], "e_tg_btn", "b-tg") : ""}${dc ? panel("dc", "💬", "Discord", ["e_dc_1", "e_dc_2", "e_dc_3"], "e_dc_btn", "b-dc") : ""}</div>
+    <section class="sec"><div class="sec-cab"><h2>${esc(T("e_cola"))}</h2></div><ul class="cola" id="cola"></ul>
+      <div class="jchips">${activos().map(j => `<span style="--g:${colorDe(j)}">${esc(j.corto)}</span>`).join("")}</div></section></div>`;
   $("#e-url").oninput = revisa;
   $("#e-pegar").onclick = async () => {
     try { $("#e-url").value = await navigator.clipboard.readText(); } catch (e) { $("#e-url").focus(); return; }
     revisa();
   };
+  const bd = $("#b-dc");
+  if (bd) bd.addEventListener("click", () => {
+    if (!PEDIDO) return;
+    try { navigator.clipboard.writeText(PEDIDO.url).catch(() => {}); } catch (e) {}
+    const tk = $("#ticket"); tk.className = "ticket cola"; tk.innerHTML = `<span class="tk-i">📋</span><div><div class="tk-m">${esc(T("e_copiado"))}</div></div>`;
+  });
   pintaCola();
   revisa();
 }
@@ -296,20 +301,10 @@ function revisa() {
   pintaRedes();
 }
 function pintaRedes() {
-  const tg = urlTelegram(), dc = urlDiscord();
-  $("#e-elige").hidden = !(tg || dc);
-  $("#e-elige").textContent = T("e_elige");
-  const listo = PEDIDO ? " listo" : "";
-  const hrefTg = tg && PEDIDO && PEDIDO.gameid ? `${tg}?start=${encodeURIComponent(`p_${PEDIDO.gameid}_${PEDIDO.quark}`)}` : tg;
-  $("#e-redes").innerHTML =
-    (tg ? `<a class="ped-b tg${listo}" href="${esc(hrefTg)}" target="_blank" rel="noopener"><b>✈️ Telegram</b><span>${esc(T("e_tg_btn"))} ↗</span></a>` : "") +
-    (dc ? `<a class="ped-b dc${listo}" id="e-dc-btn" href="${esc(dc)}" target="_blank" rel="noopener"><b>💬 Discord</b><span>${esc(T("e_dc_btn"))} ↗</span></a>` : "");
-  const b = $("#e-dc-btn");
-  if (b) b.addEventListener("click", () => {
-    if (!PEDIDO) return;
-    try { navigator.clipboard.writeText(PEDIDO.url).catch(() => {}); } catch (e) {}
-    const tk = $("#ticket"); tk.className = "ticket cola"; tk.innerHTML = `<span class="tk-i">📋</span><div><div class="tk-m">${esc(T("e_copiado"))}</div></div>`;
-  });
+  const tg = urlTelegram(), dc = urlDiscord(), listo = !!PEDIDO;
+  const bt = $("#b-tg"), bd = $("#b-dc");
+  if (bt) { bt.href = tg && PEDIDO && PEDIDO.gameid ? `${tg}?start=${encodeURIComponent(`p_${PEDIDO.gameid}_${PEDIDO.quark}`)}` : tg; bt.classList.toggle("listo", listo); }
+  if (bd) { bd.href = dc; bd.classList.toggle("listo", listo); }
 }
 function pintaCola() {
   const ul = $("#cola");

@@ -142,14 +142,25 @@ main{flex:1;padding-bottom:40px}
 .cuenta{color:var(--dim);font:600 15px var(--f-u);letter-spacing:.5px;margin:0 0 12px}
 
 /* ---------- pedir replay ---------- */
-.ped{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:24px;margin-top:22px;align-items:start}
-@media (max-width:860px){.ped{grid-template-columns:1fr}}
-.ped-izq{background:var(--panel);border-left:5px solid var(--oro);padding:22px}
-.ped-et{display:block;margin:0 0 8px;font:700 13px var(--f-u);letter-spacing:1.6px;text-transform:uppercase;color:var(--dim)}
-.ped-fila{display:flex;gap:8px}
-.ped-fila input{flex:1;min-width:0;background:#0b0e14;border:2px solid var(--line2);padding:16px;font:500 18px var(--f-t);border-radius:2px}
-.ped-fila input:focus{border-color:var(--oro);outline:0}
-.ticket{display:flex;gap:14px;align-items:center;margin:14px 0 22px;padding:14px 16px;background:#0b0e14;border-left:5px solid var(--line2);min-height:74px}
+.vsbar{display:flex;gap:8px;margin-top:22px}
+.vsbar input{flex:1;min-width:0;background:var(--panel);border:2px solid var(--line2);padding:15px 16px;font:500 17px var(--f-t);border-radius:2px}
+.vsbar input:focus{border-color:var(--oro);outline:0}
+.vs-t{margin:26px 0 12px;font:400 30px/1 var(--f-d);letter-spacing:1.5px;color:var(--soft)}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.vs-p{--c:#37aee2;position:relative;padding:30px 34px 34px;min-height:340px;display:flex;flex-direction:column;gap:14px;background:linear-gradient(160deg,color-mix(in srgb,var(--c) 38%,#0b0e14),#0f1420 70%)}
+.vs-p.tg{clip-path:polygon(0 0,100% 0,calc(100% - 46px) 100%,0 100%);padding-right:80px}
+.vs-p.dc{--c:#7983f5;clip-path:polygon(46px 0,100% 0,100% 100%,0 100%);padding-left:80px;background:linear-gradient(200deg,color-mix(in srgb,var(--c) 38%,#0b0e14),#0f1420 70%)}
+.vs-p:only-child{grid-column:1/-1;clip-path:none;padding:30px 34px}
+.vs-ic{font-size:54px;line-height:1}
+.vs-p h2{margin:0;font:400 clamp(44px,6vw,72px)/.9 var(--f-d);letter-spacing:2px;color:#fff}
+.vs-p ol{margin:0;padding-left:20px;display:grid;gap:6px;font-size:16.5px;color:var(--soft)}
+.vs-p li::marker{color:var(--c);font-weight:700}
+.vs-b{margin-top:auto;align-self:flex-start;background:transparent;border:2px solid #fff;color:#fff;font:700 16px/1 var(--f-u);letter-spacing:1.3px;text-transform:uppercase;padding:15px 22px;cursor:pointer}
+.vs-b:hover{background:#fff;color:#0b0e14}
+.vs-b.listo{background:var(--oro);border-color:var(--oro);color:#0b0e14}
+.vs-b.listo:hover{background:var(--oro2)}
+@media (max-width:760px){.vs{grid-template-columns:1fr;gap:12px}.vs-p.tg,.vs-p.dc{clip-path:none;padding:24px;min-height:0}.vs-p.tg::after{display:none}.vsbar{flex-wrap:wrap}.vsbar input{flex-basis:100%}}
+.ticket{display:flex;gap:14px;align-items:center;margin:10px 0 0;padding:14px 16px;background:#0b0e14;border-left:5px solid var(--line2);min-height:74px}
 .ticket .tk-i{font-size:28px;line-height:1;flex:none}
 .ticket .tk-m{font:700 19px/1.25 var(--f-u)}
 .ticket .tk-s{margin-top:4px;font:600 14px var(--f-u);color:var(--dim);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
@@ -160,12 +171,6 @@ main{flex:1;padding-bottom:40px}
 .ticket.ya{border-left-color:var(--p2)} .ticket.cola{border-left-color:var(--oro)} .ticket.cola .tk-m{color:var(--oro)}
 .ticket.mal{border-left-color:var(--p1)} .ticket.mal .tk-m{color:var(--p1)}
 .ped-bt{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
-.ped-b{display:flex;flex-direction:column;gap:4px;padding:18px 20px;background:transparent;border:2px solid var(--line2);color:var(--ink);transition:background .15s,border-color .15s}
-.ped-b b{font:700 24px/1 var(--f-u);letter-spacing:.5px}
-.ped-b span{font:700 13px var(--f-u);letter-spacing:1.4px;text-transform:uppercase;color:var(--dim)}
-.ped-b:hover{border-color:var(--oro)}
-.ped-b.listo{background:var(--oro);border-color:var(--oro);color:#0b0e14}
-.ped-b.listo span{color:#3a3114}
 .ped-como{margin-top:22px;color:var(--soft)}
 .ped-como summary{cursor:pointer;font:700 14px var(--f-u);letter-spacing:1.4px;text-transform:uppercase;color:var(--oro)}
 .ped-como ol{margin:10px 0 0;padding-left:22px;display:grid;gap:6px;font-size:16px}
