@@ -1,6 +1,49 @@
 {
- "actualizado": "2026-10-29 16:40",
+ "actualizado": "2026-10-29 17:08",
  "videos": [
+  {
+   "quark": "1793183025953-6423",
+   "juego": "sfa2u",
+   "juego_nombre": "Street Fighter Alpha 2",
+   "juego_corto": "SFA2",
+   "fecha": "2026-10-28",
+   "youtube": "UU2p0oNeUOo",
+   "duracion": 754.6,
+   "marcador": [
+    2,
+    5
+   ],
+   "peleas": 7,
+   "jugadores": [
+    {
+     "nombre": "HELLSW1ND2",
+     "pais": "bg",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "sfa2_ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "sfa2_ryu"
+     ]
+    },
+    {
+     "nombre": "quasar84",
+     "pais": "tr",
+     "rango_letra": "A",
+     "personaje": "Sagat",
+     "clave": "sfa2_sagat",
+     "personajes": [
+      "Sagat"
+     ],
+     "claves": [
+      "sfa2_sagat"
+     ]
+    }
+   ],
+   "rondas": 16
+  },
   {
    "quark": "1793149852594-1106",
    "juego": "sfa2u",
