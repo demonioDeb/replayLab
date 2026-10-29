@@ -1,6 +1,49 @@
 {
- "actualizado": "2026-10-28 22:28",
+ "actualizado": "2026-10-29 02:25",
  "videos": [
+  {
+   "quark": "1793149852594-1106",
+   "juego": "sfa2u",
+   "juego_nombre": "Street Fighter Alpha 2",
+   "juego_corto": "SFA2",
+   "fecha": "2026-10-28",
+   "youtube": "9tU1VFaETsk",
+   "duracion": 1247.2,
+   "marcador": [
+    3,
+    5
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "sta_lipexctba",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Chun-Li",
+     "clave": "sfa2_chunli",
+     "personajes": [
+      "Chun-Li"
+     ],
+     "claves": [
+      "sfa2_chunli"
+     ]
+    },
+    {
+     "nombre": "papaidosbaianos",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Ken",
+     "clave": "sfa2_ken",
+     "personajes": [
+      "Ken"
+     ],
+     "claves": [
+      "sfa2_ken"
+     ]
+    }
+   ],
+   "rondas": 21
+  },
   {
    "quark": "1792987783039-9247",
    "juego": "sf2hf",
