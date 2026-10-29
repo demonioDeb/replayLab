@@ -12,22 +12,22 @@ const NOMBRE_IDIOMA = { es: "Español", en: "English", pt: "Português", fr: "Fr
 
 /* Claves nuevas de este diseño. Lo demás ya existía en el diccionario. */
 const NUEVO = {
-  es: { x_pegar: "Pegar", x_stats: "Estadísticas", x_hero_a: "Cada set,", x_hero_b: "con su marcador", x_apoyo: "Apoyo", x_menu: "Menú",
+  es: { x_ejemplo: "Ejemplo", x_pegar: "Pegar", x_stats: "Estadísticas", x_hero_a: "Cada set,", x_hero_b: "con su marcador", x_apoyo: "Apoyo", x_menu: "Menú",
         x_buscar: "Buscar jugador o personaje", x_todos: "Todos", x_juego: "Juego", x_orden: "Ordenar",
         x_n_sets: "%s sets", x_n_set: "%s set", x_ir_partidas: "Ver partidas" },
-  en: { x_pegar: "Paste", x_stats: "Stats", x_hero_a: "Every set,", x_hero_b: "with its score", x_apoyo: "Support", x_menu: "Menu",
+  en: { x_ejemplo: "Example", x_pegar: "Paste", x_stats: "Stats", x_hero_a: "Every set,", x_hero_b: "with its score", x_apoyo: "Support", x_menu: "Menu",
         x_buscar: "Search player or character", x_todos: "All", x_juego: "Game", x_orden: "Sort",
         x_n_sets: "%s sets", x_n_set: "%s set", x_ir_partidas: "See matches" },
-  pt: { x_pegar: "Colar", x_stats: "Estatísticas", x_hero_a: "Cada set,", x_hero_b: "com o seu placar", x_apoyo: "Apoio", x_menu: "Menu",
+  pt: { x_ejemplo: "Exemplo", x_pegar: "Colar", x_stats: "Estatísticas", x_hero_a: "Cada set,", x_hero_b: "com o seu placar", x_apoyo: "Apoio", x_menu: "Menu",
         x_buscar: "Buscar jogador ou personagem", x_todos: "Todos", x_juego: "Jogo", x_orden: "Ordenar",
         x_n_sets: "%s sets", x_n_set: "%s set", x_ir_partidas: "Ver partidas" },
-  fr: { x_pegar: "Coller", x_stats: "Statistiques", x_hero_a: "Chaque set,", x_hero_b: "avec son score", x_apoyo: "Soutien", x_menu: "Menu",
+  fr: { x_ejemplo: "Exemple", x_pegar: "Coller", x_stats: "Statistiques", x_hero_a: "Chaque set,", x_hero_b: "avec son score", x_apoyo: "Soutien", x_menu: "Menu",
         x_buscar: "Chercher un joueur ou un personnage", x_todos: "Tous", x_juego: "Jeu", x_orden: "Trier",
         x_n_sets: "%s sets", x_n_set: "%s set", x_ir_partidas: "Voir les parties" },
-  ja: { x_pegar: "貼り付け", x_stats: "統計", x_hero_a: "すべてのセットを、", x_hero_b: "スコア付きで", x_apoyo: "サポート", x_menu: "メニュー",
+  ja: { x_ejemplo: "例", x_pegar: "貼り付け", x_stats: "統計", x_hero_a: "すべてのセットを、", x_hero_b: "スコア付きで", x_apoyo: "サポート", x_menu: "メニュー",
         x_buscar: "プレイヤーまたはキャラを検索", x_todos: "すべて", x_juego: "ゲーム", x_orden: "並べ替え",
         x_n_sets: "%s セット", x_n_set: "%s セット", x_ir_partidas: "試合を見る" },
-  zh: { x_pegar: "粘贴", x_stats: "统计", x_hero_a: "每一场对战，", x_hero_b: "附带比分", x_apoyo: "支持", x_menu: "菜单",
+  zh: { x_ejemplo: "示例", x_pegar: "粘贴", x_stats: "统计", x_hero_a: "每一场对战，", x_hero_b: "附带比分", x_apoyo: "支持", x_menu: "菜单",
         x_buscar: "搜索玩家或角色", x_todos: "全部", x_juego: "游戏", x_orden: "排序",
         x_n_sets: "%s 场", x_n_set: "%s 场", x_ir_partidas: "查看对战" },
 };
@@ -248,6 +248,7 @@ function partidasLista() {
    piden por Telegram o por Discord. A la derecha, la cola en vivo. */
 let COLA = null, PEDIDO = null;
 const RE_ENLACE = /(?:replay\/(?:fbneo\/|flycast\/|[a-z0-9]+\/)?)?([a-z0-9_]+)\/(\d{10,}-\d+)(?:\.\d+)?/i;
+const EJEMPLO = "https://replay.fightcade.com/fbneo/sfa3/1761000000000-12345";
 const RE_QUARK = /^\d{10,}-\d+$/;
 function leeEnlace(txt) {
   txt = (txt || "").trim();
@@ -265,7 +266,7 @@ function montaPedido(root, previo) {
   const tg = urlTelegram(), dc = urlDiscord();
   const panel = (cls, ic, nombre, key) => `<a class="vs-p ${cls}" data-b="${cls}" target="_blank" rel="noopener"><span class="vs-ic" aria-hidden="true">${ic}</span><h2>${nombre}</h2><span class="vs-go">${esc(T(key))} ↗</span></a>`;
   root.classList.add("pd");
-  root.innerHTML = `<div class="vsbar"><input type="url" inputmode="url" autocomplete="off" spellcheck="false" aria-label="${esc(T("e_campo"))}" placeholder="🔗 ${esc(T("e_campo"))}" value="${esc(previo || "")}">
+  root.innerHTML = `<div class="vsbar"><input type="url" inputmode="url" autocomplete="off" spellcheck="false" aria-label="${esc(T("e_campo"))}" placeholder="${esc(EJEMPLO)}" value="${esc(previo || "")}">
       <button class="btn" type="button" data-pegar>📋 ${esc(T("x_pegar"))}</button></div>
     <div class="ticket" aria-live="polite"></div>
     <div class="vs">${tg ? panel("tg", "✈️", "Telegram", "e_tg_btn") : ""}${dc ? panel("dc", "💬", "Discord", "e_dc_btn") : ""}</div>`;
@@ -275,7 +276,7 @@ function montaPedido(root, previo) {
   function revisa() {
     const r = leeEnlace(inp.value);
     ped = null;
-    if (!r) caja("vacio", "🔗", T("e_campo"), "");
+    if (!r) { tk.className = "ticket vacio"; tk.innerHTML = ""; }
     else if (r.mal) caja("mal", "✖", T("e_mal"), "");
     else {
       const ya = D.indice.find(v => v.quark === r.quark), enCola = (COLA || []).findIndex(c => c.q === r.quark), j = r.gameid ? juegoDeId(r.gameid) : null;
@@ -350,28 +351,16 @@ const HITOS = [1, 10, 100, 500, 1000], HITOS_RONDAS = [100, 1000];
 const COSTES = [["⚙️", "ap_c1"], ["💾", "ap_c2"], ["🌐", "ap_c3"], ["⚡", "ap_c4"], ["🛠️", "ap_c5"], ["🧪", "ap_c6"], ["🎮", "ap_c7"]];
 function apoyoPinta() {
   titulo(T("x_apoyo"));
-  const d = D.sitio.donacion || {}, todas = D.indice, n = todas.length, rondas = todas.reduce((a, v) => a + (v.rondas || 0), 0);
-  const conPartidas = activos().filter(j => todas.some(v => juegoDe(v) === j)).length;
+  const d = D.sitio.donacion || {}, todas = D.indice, n = todas.length;
   const sig = HITOS.find(h => h > n), pct = sig ? Math.min(100, Math.round(n * 100 / sig)) : 100;
-  const viene = [`<li><a href="enviar.html">✅ ${esc(T("ap_enviar"))}</a> · ${esc(T("ap_ok"))}</li>`,
-    ...D.juegos.filter(j => j.estado === "activo" && j.desbloqueado).map(j => `<li><a href="${hrefJuego(j)}">✅ ${esc(F("ap_incorporar", j.nombre_completo || j.nombre))}</a> · ${esc(T("ap_desbloqueado"))}</li>`),
-    ...D.juegos.filter(j => j.estado === "proximamente").map(j => `<li>🎮 ${esc(F("ap_incorporar", j.nombre_completo || j.nombre))}</li>`)];
-  const L = [[n >= 1, T("l_primero")], ...HITOS.filter(h => h > 1).map(h => [n >= h, F("l_n", miles(h))]),
-             ...HITOS_RONDAS.map(h => [rondas >= h, F("l_rondas", miles(h))]), [conPartidas >= 1, T("l_juego1")], [conPartidas >= 2, T("l_juego2")]]
-    .sort((a, b) => b[0] - a[0]);
   $("#m").innerHTML = `<div class="wrap estrecho"><div class="pag-cab"><h1>☕ ${esc(T("ap_titulo"))}</h1></div>
-    <div class="prosa"><p>${esc(T("ap_p1"))}</p><p>${esc(T("ap_p2"))}</p><p>${esc(T("ap_p3"))}</p></div>
+    <div class="prosa"><p>${esc(T("ap_p2"))}</p></div>
     ${d.activo && d.url ? `<a class="cafe" href="${esc(d.url)}" target="_blank" rel="noopener">☕ ${esc(T("donar"))}</a>` : ""}
-    <p class="cuenta">❤️ ${esc(T("ap_nota"))}</p>
-    <section class="sec"><div class="sec-cab"><h2>🔧 ${esc(T("ap_cuesta"))}</h2></div><ul class="costes">${COSTES.map(([ic, k]) => { const [t, ...r] = T(k).split(":");
-      return `<li><span class="ic">${ic}</span><span><b>${esc(t)}</b>${r.length ? " · " + esc(r.join(":").trim()) : ""}</span></li>`; }).join("")}</ul></section>
-    <section class="sec prog"><div class="sec-cab"><h2>🏆 ${esc(T("ap_progreso"))}</h2></div>
-      <div class="pg-n">${miles(n)}<small>${esc(pl(n, "ap_procesada", "ap_procesadas"))}</small></div>
+    <section class="sec"><div class="sec-cab"><h2>🔧 ${esc(T("ap_cuesta"))}</h2></div><ul class="costes">${COSTES.map(([ic, k]) => `<li><span class="ic">${ic}</span><b>${esc(T(k).split(":")[0])}</b></li>`).join("")}</ul>
+      <p class="cuenta" style="margin-top:14px">❤️ ${esc(T("ap_nota"))}</p></section>
+    <section class="sec prog"><div class="pg-n">${miles(n)}<small>${esc(pl(n, "ap_procesada", "ap_procesadas"))}</small></div>
       ${sig ? `<div class="barra-pg" role="progressbar" aria-valuemin="0" aria-valuemax="${sig}" aria-valuenow="${n}"><i style="width:${pct}%"></i></div>
-        <div class="lin"><span>🎯 ${esc(T("ap_siguiente"))}: ${esc(F("l_n", miles(sig)))}</span><span>${miles(n)} / ${miles(sig)}</span></div>` : ""}
-      <p class="cuenta" style="margin-top:16px">🚀 ${esc(T("ap_viene"))}</p><ul class="viene">${viene.join("")}</ul></section>
-    <section class="sec"><div class="sec-cab"><h2>🎖️ ${esc(T("ap_logros"))}</h2></div><p class="cuenta">${esc(T("ap_logros_sub"))}</p>
-      <ul class="logros">${L.map(([ok, t]) => `<li class="${ok ? "ok" : "no"}"><span>${ok ? "✓" : "🔒"}</span><span>${esc(t)}</span><span class="e">${esc(T(ok ? "ap_ok" : "ap_no"))}</span></li>`).join("")}</ul></section></div>`;
+        <div class="lin"><span>🎯 ${esc(T("ap_siguiente"))}: ${esc(F("l_n", miles(sig)))}</span><span>${miles(n)} / ${miles(sig)}</span></div>` : ""}</section></div>`;
 }
 
 /* ---------------------------------------------------------------- redes
@@ -399,6 +388,92 @@ function canalPinta() {
   const tg = urlTelegram();
   if (tg) t.push(barraRed({ clase: "tg", red: "Telegram", letra: "✈️", icono: "✈️", nombre: "replayLab Bot", cifras: "", seguir: tg, tSeguir: T("e_tg_btn") }));
   $("#m").innerHTML = `<div class="wrap"><div class="pag-cab"><h1>🌐 ${esc(T("rd_titulo"))}</h1><p>${esc(T("rd_sub"))}</p></div><div class="rbs">${t.join("")}</div>${franjaApoyo()}</div>`;
+}
+
+/* ---------------------------------------------------------------- efectos
+   Fondo vivo: una rejilla de puntos que se acerca al ratón como un imán y se enciende en oro; al irse
+   vuelve a su sitio con un muelle. Sólo se anima mientras algo se mueve. Sin ratón (móvil) o con
+   «menos movimiento» en el sistema se queda la rejilla quieta de CSS.
+   Aparición al bajar: lo que entra en pantalla sale poco a poco, en cascada. */
+const SIN_MOVIMIENTO = !!(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches);
+(function fondoVivo() {
+  if (SIN_MOVIMIENTO || !matchMedia("(hover: hover) and (pointer: fine)").matches) return;
+  const PASO = 26, RADIO = 190, TIRON = 17, MUELLE = 0.15;
+  const cv = document.createElement("canvas");
+  cv.id = "fondo"; cv.setAttribute("aria-hidden", "true");
+  let ctx, w = 0, h = 0, cols = 0, filas = 0, dx, dy, luz, mx = -9999, my = -9999, activo = false, raf = 0, brillo = 0;
+  const pide = () => { if (!raf && !document.hidden) raf = requestAnimationFrame(paso); };
+  function mide() {
+    const dpr = Math.min(2, window.devicePixelRatio || 1);
+    w = innerWidth; h = innerHeight;
+    cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr);
+    ctx = cv.getContext("2d"); ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    cols = Math.ceil(w / PASO) + 1; filas = Math.ceil(h / PASO) + 1;
+    dx = new Float32Array(cols * filas); dy = new Float32Array(cols * filas); luz = new Float32Array(cols * filas);
+    pide();
+  }
+  function paso() {
+    raf = 0;
+    ctx.clearRect(0, 0, w, h);
+    brillo += ((activo ? 1 : 0) - brillo) * 0.12;
+    let vivo = Math.abs((activo ? 1 : 0) - brillo) > 0.01;
+    if (brillo > 0.01) {                                 // resplandor suave bajo el cursor
+      const g = ctx.createRadialGradient(mx, my, 0, mx, my, 300);
+      g.addColorStop(0, `rgba(255,200,61,${0.09 * brillo})`); g.addColorStop(1, "rgba(255,200,61,0)");
+      ctx.fillStyle = g; ctx.fillRect(mx - 300, my - 300, 600, 600);
+    }
+    for (let j = 0; j < filas; j++) {
+      const y0 = PASO / 2 + j * PASO;
+      for (let i = 0; i < cols; i++) {
+        const k = j * cols + i, x0 = PASO / 2 + i * PASO;
+        let tx = 0, ty = 0, tl = 0;
+        if (activo) {
+          const ex = mx - x0, ey = my - y0, d = Math.hypot(ex, ey);
+          if (d < RADIO && d > 0.01) { const f = (1 - d / RADIO) ** 2; tx = ex / d * f * TIRON; ty = ey / d * f * TIRON; tl = f; }
+        }
+        dx[k] += (tx - dx[k]) * MUELLE; dy[k] += (ty - dy[k]) * MUELLE; luz[k] += (tl - luz[k]) * MUELLE;
+        if (Math.abs(tx - dx[k]) > 0.05 || Math.abs(ty - dy[k]) > 0.05 || Math.abs(tl - luz[k]) > 0.01) vivo = true;
+        const l = luz[k];
+        ctx.fillStyle = l > 0.02 ? `rgba(${141 + 114 * l | 0},${151 + 49 * l | 0},${171 - 110 * l | 0},${0.16 + 0.74 * l})` : "rgba(141,151,171,.16)";
+        const r = 1 + l * 1.7;
+        ctx.fillRect(x0 + dx[k] - r, y0 + dy[k] - r, r * 2, r * 2);
+      }
+    }
+    if (vivo) pide();
+  }
+  addEventListener("pointermove", e => { if (e.pointerType === "mouse") { mx = e.clientX; my = e.clientY; activo = true; pide(); } }, { passive: true });
+  document.addEventListener("pointerleave", () => { activo = false; pide(); });
+  addEventListener("blur", () => { activo = false; pide(); });
+  addEventListener("resize", mide);
+  document.addEventListener("visibilitychange", pide);
+  const arranca = () => { document.body.prepend(cv); document.documentElement.classList.add("fondo-vivo"); mide(); };
+  document.body ? arranca() : document.addEventListener("DOMContentLoaded", arranca);
+})();
+
+const REVELA = ".hero>div>*, .sec-cab, .pag-cab>*, .set, .paso, .rb, .banda-pd, .banda, .vs-p, .costes li, .logros li, .prog>*, .prosa p, .cafe, .legal h2";
+let IO = null;
+function revela() {
+  if (SIN_MOVIMIENTO || !("IntersectionObserver" in window)) return;
+  if (!IO) IO = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return;
+    const el = e.target;
+    el.classList.add("vis"); IO.unobserve(el);
+    // al terminar la entrada se quita la clase: así el hover de las tarjetas vuelve a ser rápido
+    setTimeout(() => { el.classList.remove("rv", "vis"); el.style.removeProperty("--d"); }, 1100);
+  }), { threshold: 0.06, rootMargin: "0px 0px -5% 0px" });
+  let n = 0, ultimo = null;
+  $$(REVELA, $("#m")).forEach(el => {
+    if (el.dataset.rv) return;
+    el.dataset.rv = "1";
+    if (el.parentElement !== ultimo) { ultimo = el.parentElement; n = 0; }
+    el.style.setProperty("--d", (n++ % 4) * 90 + "ms");
+    el.classList.add("rv"); IO.observe(el);
+  });
+}
+{
+  let t = 0;
+  const m = $("#m");
+  if (m && !SIN_MOVIMIENTO) new MutationObserver(() => { cancelAnimationFrame(t); t = requestAnimationFrame(revela); }).observe(m, { childList: true, subtree: true });
 }
 
 /* ---------------------------------------------------------------- arranque */
