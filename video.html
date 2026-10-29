@@ -25,7 +25,7 @@
 <meta name="twitter:title" content="Partida · replayLab">
 <meta name="twitter:description" content="Una partida de Fightcade analizada: rondas, daño, tiempos y momentos, leídos de la propia partida.">
 <meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=a40e9bcbe0">
+<link rel="stylesheet" href="assets/estilo.css?v=35426b03be">
 </head>
 <body>
 <header id="cabsitio"></header>
@@ -48,7 +48,7 @@
 
 <footer class="wrap" id="pie"></footer>
 
-<script src="assets/app.js?v=cb4fe05d62"></script>
+<script src="assets/app.js?v=444a77a3c3"></script>
 <script>
 "use strict";
 let F = null, REPRO = null, LISTO = false;
@@ -148,7 +148,8 @@ function cabecera() {
   const nr = (F.peleas || []).reduce((x, p) => x + (p.rondas || []).length, 0);
   const datos = [F.ft ? "FT" + F.ft : "", (F.peleas || []).length + " " + pl((F.peleas || []).length, "u_pelea", "u_peleas"),
                  nr + " " + T("rondas_t").toLowerCase(), F.duracion ? mmss(F.duracion) : ""].filter(Boolean);
-  return `<div class="cab">${lado(a, 1)}
+  const gancho = ganchoDe(F);
+  return (gancho ? `<p class="gancho-ficha">${esc(gancho)}</p>` : "") + `<div class="cab">${lado(a, 1)}
     <div class="centro">
       <div class="marc"><span class="${g === 1 ? "g" : ""}">${m[0]}</span>–<span class="${g === 2 ? "g" : ""}">${m[1]}</span></div>
       ${g ? `<div class="gana-set" style="color:${pcl(g)}">${esc(nombre(g))} ${esc(T("r_gana_set"))}</div>`

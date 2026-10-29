@@ -78,6 +78,29 @@ const PINTA = {
     <span class="meta dur">${v.duracion ? mmss(v.duracion) : "—"}</span></a>`,
 };
 
+/* (29 oct) La tarjeta de la portada: se entiende de un vistazo. Juego y duración arriba, las dos
+   caras con el marcador y el FT en medio, los nombres (el que gana, sin apagar), los
+   personajes, el gancho de la partida y la fecha. */
+const ftDe = v => { const m = v.marcador || [0, 0]; const n = Math.max(m[0], m[1]); return n ? "FT" + n : ""; };
+PINTA.set = v => {
+  const [a, b] = v.jugadores, m = v.marcador || [0, 0];
+  const g = m[0] === m[1] ? 0 : (m[0] > m[1] ? 1 : 2);
+  const j = juegoDe(v), gancho = ganchoDe(v), ft = ftDe(v);
+  const lado = (x, n) => `<span class="ts-lado n${n}${g && g !== n ? " pierde" : ""}">${bandera(x.pais)}${rango(x.rango_letra)}<span class="ts-nom">${esc(x.nombre)}</span></span>`;
+  return `<a class="tarj-set" href="${hrefPartida(v)}">
+    <span class="ts-cab"><span class="chip-juego">${esc(j ? j.corto : (v.juego_corto || v.juego))}</span>
+      ${v.duracion ? `<span class="ts-dur">${mmss(v.duracion)}</span>` : ""}</span>
+    <span class="ts-medio">${retrato(a.clave, a.personaje)}
+      <span class="ts-res"><span class="ts-marc"><span class="${g === 1 ? "g" : ""}">${m[0]}</span><i>–</i><span class="${g === 2 ? "g" : ""}">${m[1]}</span></span>
+        ${ft ? `<span class="ts-ft">${ft}</span>` : ""}</span>
+      ${retrato(b.clave, b.personaje)}</span>
+    <span class="ts-nombres">${lado(a, 1)}${lado(b, 2)}</span>
+    <span class="ts-pj">${chars(v)}</span>
+    ${gancho ? `<span class="ts-gancho">${esc(gancho)}</span>` : ""}
+    <span class="ts-pie"><span>${esc(v.fecha || "")} · ${v.peleas} ${esc(pl(v.peleas, "u_pelea", "u_peleas"))}</span>
+      <b>${esc(T("ver_ficha"))} →</b></span></a>`;
+};
+
 function pintaDetalles(lista, orden, desc) {
   const cols = [["", ""], ["jugador", "o_jugador"], ["peleas", "o_peleas"],
                 ["", "rondas_t"], ["duracion", "o_duracion"], ["fecha", "o_fecha"]];
