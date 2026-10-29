@@ -184,57 +184,6 @@
    "rondas": 34
   },
   {
-   "quark": "1792895743031-9113",
-   "juego": "kf2k2pls",
-   "juego_nombre": "The King of Fighters 2002 Plus",
-   "juego_corto": "KOF2002+",
-   "fecha": "2026-10-25",
-   "youtube": "kAPF5lfhFik",
-   "duracion": 469.1,
-   "marcador": [
-    3,
-    0
-   ],
-   "peleas": 3,
-   "jugadores": [
-    {
-     "nombre": "[SKM] KUNO",
-     "pais": "mx",
-     "rango_letra": "A",
-     "personaje": "Iori · Choi · Kim",
-     "clave": "kof2002_iori",
-     "personajes": [
-      "Iori",
-      "Choi",
-      "Kim"
-     ],
-     "claves": [
-      "kof2002_iori",
-      "kof2002_choi",
-      "kof2002_kim"
-     ]
-    },
-    {
-     "nombre": "IDKOF REYES",
-     "pais": "mx",
-     "rango_letra": "B",
-     "personaje": "Kim · Choi · Chris",
-     "clave": "kof2002_kim",
-     "personajes": [
-      "Kim",
-      "Choi",
-      "Chris"
-     ],
-     "claves": [
-      "kof2002_kim",
-      "kof2002_choi",
-      "kof2002_chris"
-     ]
-    }
-   ],
-   "rondas": 14
-  },
-  {
    "quark": "1792883151334-9492",
    "juego": "kof98",
    "juego_nombre": "The King of Fighters '98",
@@ -1461,51 +1410,6 @@
    "rondas": 12
   },
   {
-   "quark": "1792258071010-6678",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-10-17",
-   "youtube": "jCEg8kSok1E",
-   "duracion": 876.7,
-   "marcador": [
-    1,
-    5
-   ],
-   "peleas": 6,
-   "jugadores": [
-    {
-     "nombre": "Leakage",
-     "pais": "tr",
-     "rango_letra": "B",
-     "personaje": "Ken",
-     "clave": "ken",
-     "personajes": [
-      "Ken",
-      "Ryu"
-     ],
-     "claves": [
-      "ken",
-      "ryu"
-     ]
-    },
-    {
-     "nombre": "yolcu",
-     "pais": "tr",
-     "rango_letra": "A",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    }
-   ],
-   "rondas": 16
-  },
-  {
    "quark": "1792255139229-2301",
    "juego": "sf2hf",
    "juego_nombre": "Street Fighter II' Hyper Fighting",
@@ -1639,6 +1543,49 @@
     }
    ],
    "rondas": 22
+  },
+  {
+   "quark": "1792197475604-7224",
+   "juego": "sf2hf",
+   "juego_nombre": "Street Fighter II' Hyper Fighting",
+   "juego_corto": "SF2HF",
+   "fecha": "2026-10-17",
+   "youtube": "4YMeczHVHug",
+   "duracion": 388.0,
+   "marcador": [
+    1,
+    3
+   ],
+   "peleas": 4,
+   "jugadores": [
+    {
+     "nombre": "Digitalinfamy",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "E. Honda",
+     "clave": "honda",
+     "personajes": [
+      "E. Honda"
+     ],
+     "claves": [
+      "honda"
+     ]
+    },
+    {
+     "nombre": "ChoiBoy",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    }
+   ],
+   "rondas": 11
   },
   {
    "quark": "1792195509747-8342",
