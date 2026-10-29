@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29 03:36",
+ "actualizado": "2026-10-29 04:19",
  "videos": [
   {
    "quark": "1793149852594-1106",
@@ -3656,6 +3656,51 @@
     }
    ],
    "rondas": 22
+  },
+  {
+   "quark": "1790449688173-6572",
+   "juego": "msh",
+   "juego_nombre": "Marvel Super Heroes",
+   "juego_corto": "MSH",
+   "fecha": "2026-09-26",
+   "youtube": "UgWeiS7qmqQ",
+   "duracion": 1053.6,
+   "marcador": [
+    4,
+    5
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "bibi1983",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Shuma-Gorath",
+     "clave": "msh_shumagorath",
+     "personajes": [
+      "Shuma-Gorath",
+      "Spider-Man"
+     ],
+     "claves": [
+      "msh_shumagorath",
+      "msh_spiderman"
+     ]
+    },
+    {
+     "nombre": "Angneto",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "Spider-Man",
+     "clave": "msh_spiderman",
+     "personajes": [
+      "Spider-Man"
+     ],
+     "claves": [
+      "msh_spiderman"
+     ]
+    }
+   ],
+   "rondas": 23
   },
   {
    "quark": "1790448197407-6191",
