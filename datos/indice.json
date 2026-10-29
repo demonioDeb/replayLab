@@ -1,51 +1,6 @@
 {
- "actualizado": "2026-10-29 17:41",
+ "actualizado": "2026-10-29 17:42",
  "videos": [
-  {
-   "quark": "1793233983477-9102",
-   "juego": "sf2hf",
-   "juego_nombre": "Street Fighter II' Hyper Fighting",
-   "juego_corto": "SF2HF",
-   "fecha": "2026-10-29",
-   "youtube": "ewd4azbMXPc",
-   "duracion": 972.4,
-   "marcador": [
-    4,
-    5
-   ],
-   "peleas": 9,
-   "jugadores": [
-    {
-     "nombre": "Wahzu",
-     "pais": "nz",
-     "rango_letra": "B",
-     "personaje": "Ken",
-     "clave": "ken",
-     "personajes": [
-      "Ken"
-     ],
-     "claves": [
-      "ken"
-     ]
-    },
-    {
-     "nombre": "MauE1Azcino",
-     "pais": "us",
-     "rango_letra": "B",
-     "personaje": "Ryu",
-     "clave": "ryu",
-     "personajes": [
-      "Ryu",
-      "Vega"
-     ],
-     "claves": [
-      "ryu",
-      "claw"
-     ]
-    }
-   ],
-   "rondas": 24
-  },
   {
    "quark": "1793149852594-1106",
    "juego": "sfa2u",
@@ -1359,49 +1314,6 @@
    "rondas": 20
   },
   {
-   "quark": "1792258982678-1558",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-10-17",
-   "youtube": "rTojqMLwYNc",
-   "duracion": 484.7,
-   "marcador": [
-    0,
-    5
-   ],
-   "peleas": 5,
-   "jugadores": [
-    {
-     "nombre": "Serdar80s",
-     "pais": "tr",
-     "rango_letra": "B",
-     "personaje": "Ken",
-     "clave": "ken",
-     "personajes": [
-      "Ken"
-     ],
-     "claves": [
-      "ken"
-     ]
-    },
-    {
-     "nombre": "yolcu",
-     "pais": "tr",
-     "rango_letra": "A",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    }
-   ],
-   "rondas": 11
-  },
-  {
    "quark": "1792258690613-2256",
    "juego": "sf2ce",
    "juego_nombre": "Street Fighter II' Champion Edition",
@@ -1762,6 +1674,49 @@
     }
    ],
    "rondas": 20
+  },
+  {
+   "quark": "1792194941594-1373",
+   "juego": "sf2hf",
+   "juego_nombre": "Street Fighter II' Hyper Fighting",
+   "juego_corto": "SF2HF",
+   "fecha": "2026-10-16",
+   "youtube": "4CSv3cisV9Y",
+   "duracion": 542.1,
+   "marcador": [
+    0,
+    5
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "Digitalinfamy",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    },
+    {
+     "nombre": "DJILK",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    }
+   ],
+   "rondas": 13
   },
   {
    "quark": "1792192514284-6023",
@@ -2189,6 +2144,59 @@
     }
    ],
    "rondas": 20
+  },
+  {
+   "quark": "1791912767348-2260",
+   "juego": "kof2002",
+   "juego_nombre": "The King of Fighters 2002",
+   "juego_corto": "KOF2002",
+   "fecha": "2026-10-13",
+   "youtube": "U21HTnN1GBA",
+   "duracion": 260.7,
+   "marcador": [
+    2,
+    0
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "mirza mudassar",
+     "pais": "pk",
+     "rango_letra": "A",
+     "personaje": "Choi · Kim · Vanessa",
+     "clave": "kof2002_choi",
+     "personajes": [
+      "Choi",
+      "Kim",
+      "Vanessa"
+     ],
+     "claves": [
+      "kof2002_choi",
+      "kof2002_kim",
+      "kof2002_vanessa"
+     ]
+    },
+    {
+     "nombre": "preciouss",
+     "pais": "fr",
+     "rango_letra": "B",
+     "personaje": "Angel · Daimon · Kim",
+     "clave": "kof2002_angel",
+     "personajes": [
+      "Angel",
+      "Daimon",
+      "Kim",
+      "Andy"
+     ],
+     "claves": [
+      "kof2002_angel",
+      "kof2002_daimon",
+      "kof2002_kim",
+      "kof2002_andy"
+     ]
+    }
+   ],
+   "rondas": 7
   },
   {
    "quark": "1791900656164-8923",
@@ -3554,57 +3562,6 @@
     }
    ],
    "rondas": 13
-  },
-  {
-   "quark": "1790618360197-9568",
-   "juego": "kof2002",
-   "juego_nombre": "The King of Fighters 2002",
-   "juego_corto": "KOF2002",
-   "fecha": "2026-09-28",
-   "youtube": "JsnuculyCrA",
-   "duracion": 301.3,
-   "marcador": [
-    0,
-    1
-   ],
-   "peleas": 3,
-   "jugadores": [
-    {
-     "nombre": "dz101010",
-     "pais": "dz",
-     "rango_letra": "A",
-     "personaje": "Benimaru · Leona · Choi",
-     "clave": "kof2002_benimaru",
-     "personajes": [
-      "Benimaru",
-      "Leona",
-      "Choi"
-     ],
-     "claves": [
-      "kof2002_benimaru",
-      "kof2002_leona",
-      "kof2002_choi"
-     ]
-    },
-    {
-     "nombre": "modo sedex",
-     "pais": "br",
-     "rango_letra": "A",
-     "personaje": "Andy · Mai · Mary",
-     "clave": "kof2002_andy",
-     "personajes": [
-      "Andy",
-      "Mai",
-      "Mary"
-     ],
-     "claves": [
-      "kof2002_andy",
-      "kof2002_mai",
-      "kof2002_mary"
-     ]
-    }
-   ],
-   "rondas": 8
   },
   {
    "quark": "1790562701321-6838",
