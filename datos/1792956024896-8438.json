@@ -1,0 +1,1051 @@
+{
+ "version": 8,
+ "quark": "1792956024896-8438",
+ "carpeta": "20261028_Salt_Ver_vs_OCXRIDAH_1792956024896-8438",
+ "juego": "sfa3",
+ "juego_nombre": "Street Fighter Alpha 3",
+ "juego_corto": "SFA3",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": false,
+  "guardia": true
+ },
+ "fecha": "2026-10-25",
+ "youtube": "6pZ3pGkRH1s",
+ "titulo": "SFA3: Set dominado: Salt_Ver gana 5-0 | Salt_Ver vs OCXRIDAH",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "Salt_Ver",
+   "pais": "cl",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Zangief",
+   "clave": "sfa3_zangief",
+   "personajes": [
+    "Zangief"
+   ],
+   "claves": [
+    "sfa3_zangief"
+   ],
+   "swaps": 0,
+   "super": ""
+  },
+  {
+   "nombre": "OCXRIDAH",
+   "pais": "us",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Dhalsim",
+   "clave": "sfa3_dhalsim",
+   "personajes": [
+    "Dhalsim",
+    "Gen"
+   ],
+   "claves": [
+    "sfa3_dhalsim",
+    "sfa3_gen"
+   ],
+   "swaps": 2,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  5,
+  0
+ ],
+ "duracion": 597.5,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 5.0,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 5.0,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 52,
+     "perfect": false,
+     "dano": [
+      144,
+      139
+     ],
+     "combos": [
+      2,
+      3
+     ],
+     "supers": [
+      2,
+      3
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 3,
+     "remontada": 13,
+     "fin": 50.04,
+     "vida_final": [
+      3,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 55.56,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 53,
+     "perfect": false,
+     "dano": [
+      144,
+      126
+     ],
+     "combos": [
+      3,
+      0
+     ],
+     "supers": [
+      1,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 12,
+     "remontada": 0,
+     "fin": 99.45,
+     "vida_final": [
+      12,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Zangief",
+    "Dhalsim"
+   ],
+   "claves": [
+    "sfa3_zangief",
+    "sfa3_dhalsim"
+   ],
+   "fin": 99.45,
+   "resumen": {
+    "dano": [
+     288,
+     265
+    ],
+    "combos": [
+     5,
+     3
+    ],
+    "supers": [
+     3,
+     5
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 105
+   }
+  },
+  {
+   "n": 2,
+   "t": 109.44,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 109.44,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "dano": [
+      144,
+      71
+     ],
+     "combos": [
+      3,
+      1
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 50,
+     "remontada": 14,
+     "fin": 148.05,
+     "vida_final": [
+      50,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 153.27,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 40,
+     "perfect": false,
+     "dano": [
+      144,
+      67
+     ],
+     "combos": [
+      2,
+      1
+     ],
+     "supers": [
+      1,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 53,
+     "remontada": 0,
+     "fin": 187.29,
+     "vida_final": [
+      53,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "Zangief",
+    "Dhalsim"
+   ],
+   "claves": [
+    "sfa3_zangief",
+    "sfa3_dhalsim"
+   ],
+   "fin": 187.29,
+   "resumen": {
+    "dano": [
+     288,
+     138
+    ],
+    "combos": [
+     5,
+     2
+    ],
+    "supers": [
+     2,
+     3
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 85
+   }
+  },
+  {
+   "n": 3,
+   "t": 198.88,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 198.88,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 44,
+     "perfect": false,
+     "dano": [
+      144,
+      112
+     ],
+     "combos": [
+      1,
+      2
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 22,
+     "remontada": 15,
+     "fin": 237.32,
+     "vida_final": [
+      22,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 244.87,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 47,
+     "perfect": false,
+     "dano": [
+      79,
+      144
+     ],
+     "combos": [
+      0,
+      5
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 45,
+     "remontada": 22,
+     "fin": 284.12,
+     "vida_final": [
+      0,
+      45
+     ]
+    },
+    {
+     "n": 3,
+     "t": 289.6,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 32,
+     "perfect": false,
+     "dano": [
+      144,
+      41
+     ],
+     "combos": [
+      1,
+      1
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 71,
+     "remontada": 0,
+     "fin": 317.66,
+     "vida_final": [
+      71,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    0
+   ],
+   "personajes": [
+    "Zangief",
+    "Gen"
+   ],
+   "claves": [
+    "sfa3_zangief",
+    "sfa3_gen"
+   ],
+   "fin": 317.66,
+   "resumen": {
+    "dano": [
+     367,
+     297
+    ],
+    "combos": [
+     2,
+     8
+    ],
+    "supers": [
+     3,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 123
+   }
+  },
+  {
+   "n": 4,
+   "t": 329.21,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 329.21,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 50,
+     "perfect": false,
+     "dano": [
+      144,
+      66
+     ],
+     "combos": [
+      3,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 54,
+     "remontada": 11,
+     "fin": 371.64,
+     "vida_final": [
+      54,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 377.37,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 59,
+     "perfect": false,
+     "dano": [
+      60,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 58,
+     "remontada": 12,
+     "fin": 424.57,
+     "vida_final": [
+      0,
+      58
+     ]
+    },
+    {
+     "n": 3,
+     "t": 430.1,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      144,
+      44
+     ],
+     "combos": [
+      2,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 69,
+     "remontada": 0,
+     "fin": 456.62,
+     "vida_final": [
+      69,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    4,
+    0
+   ],
+   "personajes": [
+    "Zangief",
+    "Dhalsim"
+   ],
+   "claves": [
+    "sfa3_zangief",
+    "sfa3_dhalsim"
+   ],
+   "fin": 456.62,
+   "resumen": {
+    "dano": [
+     348,
+     254
+    ],
+    "combos": [
+     5,
+     0
+    ],
+    "supers": [
+     2,
+     3
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 139
+   }
+  },
+  {
+   "n": 5,
+   "t": 468.0,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 468.0,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 72,
+     "perfect": false,
+     "dano": [
+      144,
+      130
+     ],
+     "combos": [
+      1,
+      4
+     ],
+     "supers": [
+      2,
+      3
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 9,
+     "remontada": 19,
+     "fin": 528.13,
+     "vida_final": [
+      9,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 534.88,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 70,
+     "perfect": false,
+     "dano": [
+      144,
+      140
+     ],
+     "combos": [
+      1,
+      0
+     ],
+     "supers": [
+      2,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 2,
+     "remontada": 0,
+     "fin": 591.53,
+     "vida_final": [
+      2,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    5,
+    0
+   ],
+   "personajes": [
+    "Zangief",
+    "Dhalsim"
+   ],
+   "claves": [
+    "sfa3_zangief",
+    "sfa3_dhalsim"
+   ],
+   "fin": 591.53,
+   "resumen": {
+    "dano": [
+     288,
+     270
+    ],
+    "combos": [
+     2,
+     4
+    ],
+    "supers": [
+     4,
+     4
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 142
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 20.93,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 26.73,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 28.05,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 41.49,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 42.91,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 61.43,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 71.53,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 88.18,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 88.6,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 94.51,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 96.61,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 117.46,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 118.3,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 131.53,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 159.7,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 170.39,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 171.64,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 173.8,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 181.31,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 214.06,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 230.65,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 233.77,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 6
+  },
+  {
+   "t": 235.36,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 244.75,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 252.21,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 263.57,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 3
+  },
+  {
+   "t": 271.45,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 5
+  },
+  {
+   "t": 275.38,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 6
+  },
+  {
+   "t": 276.87,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 4
+  },
+  {
+   "t": 295.84,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 301.18,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 10
+  },
+  {
+   "t": 302.41,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 4
+  },
+  {
+   "t": 316.18,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 349.28,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 352.74,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 5
+  },
+  {
+   "t": 354.01,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 393.68,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 443.85,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 454.41,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 455.71,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 462.7,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 475.88,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 477.29,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 477.44,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 483.72,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 485.36,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 4
+  },
+  {
+   "t": 506.95,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 509.01,
+   "tipo": "combo",
+   "jugador": 2,
+   "dato": 7
+  },
+  {
+   "t": 528.13,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 540.7,
+   "tipo": "combo",
+   "jugador": 1,
+   "dato": 3
+  },
+  {
+   "t": 567.37,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 569.23,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 591.53,
+   "tipo": "super",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 2,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 488,
+   "pelea_rapida": 78,
+   "swaps": 0,
+   "rondas": 10,
+   "rondas_jugadas": 12,
+   "ko": 10,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1579,
+   "recibido": 1224,
+   "golpes": 153,
+   "golpe_max": 19,
+   "primero": 9,
+   "combos": 19,
+   "combo_max": 10,
+   "combo_dano": 88,
+   "supers": 14,
+   "mareos": 0,
+   "ronda_rapida": 30,
+   "al_limite": 3,
+   "remontada": 19,
+   "racha": 5,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 1,
+   "first_attack": 9,
+   "reversals": 0,
+   "combos_cartel": 19,
+   "tech_hit": 0,
+   "vida_al_ganar": 35,
+   "dano_medio": 10.3,
+   "dur_avg": 49,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 71,
+   "dano_barras": 10.97,
+   "recibido_barras": 8.5,
+   "combo_dano_barras": 0.61,
+   "golpe_max_barras": 0.13
+  },
+  {
+   "meter_full": 6,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 106,
+   "pelea_rapida": 0,
+   "swaps": 2,
+   "rondas": 2,
+   "rondas_jugadas": 12,
+   "ko": 2,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1224,
+   "recibido": 1579,
+   "golpes": 213,
+   "golpe_max": 18,
+   "primero": 3,
+   "combos": 17,
+   "combo_max": 7,
+   "combo_dano": 26,
+   "supers": 17,
+   "mareos": 0,
+   "ronda_rapida": 47,
+   "al_limite": 0,
+   "remontada": 22,
+   "racha": 1,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 1,
+   "first_attack": 3,
+   "reversals": 0,
+   "combos_cartel": 17,
+   "tech_hit": 0,
+   "vida_al_ganar": 52,
+   "dano_medio": 5.7,
+   "dur_avg": 53,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 91,
+   "dano_barras": 8.5,
+   "recibido_barras": 10.97,
+   "combo_dano_barras": 0.18,
+   "golpe_max_barras": 0.12
+  }
+ ]
+}

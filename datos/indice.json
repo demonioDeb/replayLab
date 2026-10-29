@@ -1,49 +1,6 @@
 {
- "actualizado": "2026-10-29 02:25",
+ "actualizado": "2026-10-29 02:26",
  "videos": [
-  {
-   "quark": "1793149852594-1106",
-   "juego": "sfa2u",
-   "juego_nombre": "Street Fighter Alpha 2",
-   "juego_corto": "SFA2",
-   "fecha": "2026-10-28",
-   "youtube": "9tU1VFaETsk",
-   "duracion": 1247.2,
-   "marcador": [
-    3,
-    5
-   ],
-   "peleas": 8,
-   "jugadores": [
-    {
-     "nombre": "sta_lipexctba",
-     "pais": "br",
-     "rango_letra": "B",
-     "personaje": "Chun-Li",
-     "clave": "sfa2_chunli",
-     "personajes": [
-      "Chun-Li"
-     ],
-     "claves": [
-      "sfa2_chunli"
-     ]
-    },
-    {
-     "nombre": "papaidosbaianos",
-     "pais": "br",
-     "rango_letra": "A",
-     "personaje": "Ken",
-     "clave": "sfa2_ken",
-     "personajes": [
-      "Ken"
-     ],
-     "claves": [
-      "sfa2_ken"
-     ]
-    }
-   ],
-   "rondas": 21
-  },
   {
    "quark": "1792987783039-9247",
    "juego": "sf2hf",
@@ -82,6 +39,51 @@
      ],
      "claves": [
       "guile"
+     ]
+    }
+   ],
+   "rondas": 12
+  },
+  {
+   "quark": "1792956024896-8438",
+   "juego": "sfa3",
+   "juego_nombre": "Street Fighter Alpha 3",
+   "juego_corto": "SFA3",
+   "fecha": "2026-10-25",
+   "youtube": "6pZ3pGkRH1s",
+   "duracion": 597.5,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "Salt_Ver",
+     "pais": "cl",
+     "rango_letra": "A",
+     "personaje": "Zangief",
+     "clave": "sfa3_zangief",
+     "personajes": [
+      "Zangief"
+     ],
+     "claves": [
+      "sfa3_zangief"
+     ]
+    },
+    {
+     "nombre": "OCXRIDAH",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Dhalsim",
+     "clave": "sfa3_dhalsim",
+     "personajes": [
+      "Dhalsim",
+      "Gen"
+     ],
+     "claves": [
+      "sfa3_dhalsim",
+      "sfa3_gen"
      ]
     }
    ],
