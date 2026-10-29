@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29 03:24",
+ "actualizado": "2026-10-29 03:35",
  "videos": [
   {
    "quark": "1793149852594-1106",
@@ -43,6 +43,49 @@
     }
    ],
    "rondas": 21
+  },
+  {
+   "quark": "1793133728853-3685",
+   "juego": "msh",
+   "juego_nombre": "Marvel Super Heroes",
+   "juego_corto": "MSH",
+   "fecha": "2026-10-27",
+   "youtube": "74zsNkgsnbA",
+   "duracion": 721.6,
+   "marcador": [
+    5,
+    2
+   ],
+   "peleas": 7,
+   "jugadores": [
+    {
+     "nombre": "kbcbilly",
+     "pais": "br",
+     "rango_letra": "D",
+     "personaje": "Wolverine",
+     "clave": "msh_wolverine",
+     "personajes": [
+      "Wolverine"
+     ],
+     "claves": [
+      "msh_wolverine"
+     ]
+    },
+    {
+     "nombre": "Raiijinn",
+     "pais": "br",
+     "rango_letra": "C",
+     "personaje": "Wolverine",
+     "clave": "msh_wolverine",
+     "personajes": [
+      "Wolverine"
+     ],
+     "claves": [
+      "msh_wolverine"
+     ]
+    }
+   ],
+   "rondas": 19
   },
   {
    "quark": "1792987783039-9247",

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T03:24:29Z",
+ "actualizado": "2026-10-29T03:35:51Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
@@ -9,6 +9,10 @@
  "vistas": 31938,
  "videos": 218,
  "lista": [
+  {
+   "id": "frpR1S_daB4",
+   "privacidad": "private"
+  },
   {
    "id": "74zsNkgsnbA",
    "privacidad": "private"
@@ -27,7 +31,7 @@
    "titulo": "1 Perfect de sta_lipexctba | SFA2 #Shorts",
    "publicado": "2026-10-29T02:26:39Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/OC5w3VLpG5w/mqdefault.jpg"
   },
@@ -45,7 +49,7 @@
    "titulo": "Set dominado por Salt_Ver | SFA3 #Shorts",
    "publicado": "2026-10-28T22:32:05Z",
    "privacidad": "public",
-   "vistas": 15,
+   "vistas": 16,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/GEhcywxFIAA/mqdefault.jpg"
   },
@@ -72,7 +76,7 @@
    "titulo": "X-Men: Children of the Atom | 🇪🇸 NM_Akuma vs 🇺🇸 bignasty_3620 #shorts",
    "publicado": "2026-10-27T23:31:55Z",
    "privacidad": "public",
-   "vistas": 5,
+   "vistas": 6,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/dlka_cP_Rfo/mqdefault.jpg"
   },
@@ -99,7 +103,7 @@
    "titulo": "Marvel Super Heroes | 🇨🇦 -LiquidMetalX vs 🇨🇴 Ninten Clos #shorts",
    "publicado": "2026-10-27T22:56:46Z",
    "privacidad": "public",
-   "vistas": 6,
+   "vistas": 9,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/HaE63XuZrq4/mqdefault.jpg"
   },
@@ -108,7 +112,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [CSK] TZK CAMARON vs 🇲🇽 UWL/MDF-DannyLee #shorts",
    "publicado": "2026-10-27T08:25:53Z",
    "privacidad": "public",
-   "vistas": 129,
+   "vistas": 130,
    "me_gusta": 5,
    "miniatura": "https://i.ytimg.com/vi/BBKulPfH1-c/mqdefault.jpg"
   },
@@ -162,7 +166,7 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 DJILK vs 🇺🇸 ChoiBoy",
    "publicado": "2026-10-26T23:25:47Z",
    "privacidad": "public",
-   "vistas": 80,
+   "vistas": 89,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/vdCLY4bysMU/mqdefault.jpg"
   },
@@ -171,7 +175,7 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 DJILK vs 🇺🇸 ChoiBoy #shorts",
    "publicado": "2026-10-26T23:25:27Z",
    "privacidad": "public",
-   "vistas": 200,
+   "vistas": 204,
    "me_gusta": 7,
    "miniatura": "https://i.ytimg.com/vi/yAcYOvt5krE/mqdefault.jpg"
   },
@@ -180,7 +184,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇲🇽 [IRK] Tecate Roja vs 🇲🇽 [SKM] KUNO #shorts",
    "publicado": "2026-10-26T20:25:42Z",
    "privacidad": "public",
-   "vistas": 203,
+   "vistas": 205,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/EqlyBC-LQRA/mqdefault.jpg"
   },
@@ -243,7 +247,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [CSK] TZK CAMARON vs 🇲🇽 IRK-ZR-ALCOHOL OFER",
    "publicado": "2026-10-26T03:19:44Z",
    "privacidad": "public",
-   "vistas": 101,
+   "vistas": 89,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/qldiNwJM418/mqdefault.jpg"
   },
@@ -455,15 +459,6 @@
    "miniatura": "https://i.ytimg.com/vi/vwH_al_3aP0/mqdefault.jpg"
   },
   {
-   "id": "vwH_al_3aP0",
-   "titulo": "Super Street Fighter II X | 🇺🇸 ChoiBoy vs 🇺🇸 Fromo #shorts",
-   "publicado": "2026-10-23T18:08:19Z",
-   "privacidad": "public",
-   "vistas": 86,
-   "me_gusta": 4,
-   "miniatura": "https://i.ytimg.com/vi/vwH_al_3aP0/mqdefault.jpg"
-  },
-  {
    "id": "xQQhH9xXxrU",
    "titulo": "Super Street Fighter II X | 🇺🇸 ChoiBoy vs 🇺🇸 Fromo",
    "publicado": "2026-10-23T18:08:06Z",
@@ -534,6 +529,15 @@
    "vistas": 15,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/I5B9j4Eh8x4/mqdefault.jpg"
+  },
+  {
+   "id": "0QRvD5JrqMA",
+   "titulo": "The King of Fighters 2002 | 🇲🇽 Drinkteam-john vs 🇺🇸 [SKM] [P] POLLO #shorts",
+   "publicado": "2026-10-23T04:48:00Z",
+   "privacidad": "public",
+   "vistas": 99,
+   "me_gusta": 1,
+   "miniatura": "https://i.ytimg.com/vi/0QRvD5JrqMA/mqdefault.jpg"
   },
   {
    "id": "fRjnvWqyAsE",
@@ -896,15 +900,6 @@
    "miniatura": "https://i.ytimg.com/vi/kvdjhZSWWIw/mqdefault.jpg"
   },
   {
-   "id": "Bx9lXYLaMCY",
-   "titulo": "Street Fighter II' Champion Edition | 🇧🇷 MiBSF2CE-TV vs 🇺🇸 DJILK #shorts",
-   "publicado": "2026-10-18T04:06:33Z",
-   "privacidad": "public",
-   "vistas": 253,
-   "me_gusta": 7,
-   "miniatura": "https://i.ytimg.com/vi/Bx9lXYLaMCY/mqdefault.jpg"
-  },
-  {
    "id": "VtSGc38T0W0",
    "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john",
    "publicado": "2026-10-19T23:43:24Z",
@@ -912,6 +907,15 @@
    "vistas": 23,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
+  },
+  {
+   "id": "Bx9lXYLaMCY",
+   "titulo": "Street Fighter II' Champion Edition | 🇧🇷 MiBSF2CE-TV vs 🇺🇸 DJILK #shorts",
+   "publicado": "2026-10-18T04:06:33Z",
+   "privacidad": "public",
+   "vistas": 253,
+   "me_gusta": 7,
+   "miniatura": "https://i.ytimg.com/vi/Bx9lXYLaMCY/mqdefault.jpg"
   },
   {
    "id": "u9WAGq9uJcY",
@@ -1794,15 +1798,6 @@
    "vistas": 22,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/gOcFJFUv8bI/mqdefault.jpg"
-  },
-  {
-   "id": "nwDPFJrNHz4",
-   "titulo": "Street Fighter II' Champion Edition | 🇧🇷 lub-Iaboca vs 🇧🇷 Sonic Gyn #shorts",
-   "publicado": "2026-10-01T08:46:52Z",
-   "privacidad": "public",
-   "vistas": 1078,
-   "me_gusta": 7,
-   "miniatura": "https://i.ytimg.com/vi/nwDPFJrNHz4/mqdefault.jpg"
   }
  ]
 }
