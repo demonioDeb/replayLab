@@ -1,5 +1,5 @@
 /* replayLab · código del diseño «Transmisión» (29 oct).
-   Lo usan la portada, partidas, juegos, un juego, pedir replay, apoyo, redes, novedades y los
+   Lo usan la portada, partidas, pedir replay, apoyo, redes y los
    textos legales. Cada página sólo declara <body data-p="...">; aquí está lo común (idiomas,
    cabecera, pie, datos) y lo de cada página.
    Los textos salen de datos/textos.json (el mismo diccionario de siempre, extraído de app.js
@@ -12,22 +12,22 @@ const NOMBRE_IDIOMA = { es: "Español", en: "English", pt: "Português", fr: "Fr
 
 /* Claves nuevas de este diseño. Lo demás ya existía en el diccionario. */
 const NUEVO = {
-  es: { x_stats: "Estadísticas", x_hero_a: "Cada set,", x_hero_b: "con su marcador", x_apoyo: "Apoyo", x_menu: "Menú",
+  es: { x_pegar: "Pegar", x_stats: "Estadísticas", x_hero_a: "Cada set,", x_hero_b: "con su marcador", x_apoyo: "Apoyo", x_menu: "Menú",
         x_buscar: "Buscar jugador o personaje", x_todos: "Todos", x_juego: "Juego", x_orden: "Ordenar",
         x_n_sets: "%s sets", x_n_set: "%s set", x_ir_partidas: "Ver partidas" },
-  en: { x_stats: "Stats", x_hero_a: "Every set,", x_hero_b: "with its score", x_apoyo: "Support", x_menu: "Menu",
+  en: { x_pegar: "Paste", x_stats: "Stats", x_hero_a: "Every set,", x_hero_b: "with its score", x_apoyo: "Support", x_menu: "Menu",
         x_buscar: "Search player or character", x_todos: "All", x_juego: "Game", x_orden: "Sort",
         x_n_sets: "%s sets", x_n_set: "%s set", x_ir_partidas: "See matches" },
-  pt: { x_stats: "Estatísticas", x_hero_a: "Cada set,", x_hero_b: "com o seu placar", x_apoyo: "Apoio", x_menu: "Menu",
+  pt: { x_pegar: "Colar", x_stats: "Estatísticas", x_hero_a: "Cada set,", x_hero_b: "com o seu placar", x_apoyo: "Apoio", x_menu: "Menu",
         x_buscar: "Buscar jogador ou personagem", x_todos: "Todos", x_juego: "Jogo", x_orden: "Ordenar",
         x_n_sets: "%s sets", x_n_set: "%s set", x_ir_partidas: "Ver partidas" },
-  fr: { x_stats: "Statistiques", x_hero_a: "Chaque set,", x_hero_b: "avec son score", x_apoyo: "Soutien", x_menu: "Menu",
+  fr: { x_pegar: "Coller", x_stats: "Statistiques", x_hero_a: "Chaque set,", x_hero_b: "avec son score", x_apoyo: "Soutien", x_menu: "Menu",
         x_buscar: "Chercher un joueur ou un personnage", x_todos: "Tous", x_juego: "Jeu", x_orden: "Trier",
         x_n_sets: "%s sets", x_n_set: "%s set", x_ir_partidas: "Voir les parties" },
-  ja: { x_stats: "統計", x_hero_a: "すべてのセットを、", x_hero_b: "スコア付きで", x_apoyo: "サポート", x_menu: "メニュー",
+  ja: { x_pegar: "貼り付け", x_stats: "統計", x_hero_a: "すべてのセットを、", x_hero_b: "スコア付きで", x_apoyo: "サポート", x_menu: "メニュー",
         x_buscar: "プレイヤーまたはキャラを検索", x_todos: "すべて", x_juego: "ゲーム", x_orden: "並べ替え",
         x_n_sets: "%s セット", x_n_set: "%s セット", x_ir_partidas: "試合を見る" },
-  zh: { x_stats: "统计", x_hero_a: "每一场对战，", x_hero_b: "附带比分", x_apoyo: "支持", x_menu: "菜单",
+  zh: { x_pegar: "粘贴", x_stats: "统计", x_hero_a: "每一场对战，", x_hero_b: "附带比分", x_apoyo: "支持", x_menu: "菜单",
         x_buscar: "搜索玩家或角色", x_todos: "全部", x_juego: "游戏", x_orden: "排序",
         x_n_sets: "%s 场", x_n_set: "%s 场", x_ir_partidas: "查看对战" },
 };
@@ -58,8 +58,8 @@ const FUENTES = {
   dc: () => json("datos/discord.json").then(d => { D.dc = d; }),
   cambios: () => json("datos/cambios.json").then(d => { D.cambios = d; }),
 };
-const NECESITA = { index: ["indice", "dc"], partidas: ["indice"], juegos: ["indice"], juego: ["indice"], enviar: ["indice", "dc"],
-                   apoyo: ["indice"], canal: ["canal", "fb", "dc"], cambios: ["cambios"], legal: [] };
+const NECESITA = { index: ["indice", "dc"], partidas: ["indice"], enviar: ["indice", "dc"],
+                   apoyo: ["indice"], canal: ["canal", "fb", "dc"], legal: [] };
 const quarkN = v => parseInt(String(v.quark || "0").split("-")[0], 10) || 0;
 function ordenFecha(a, b) { return (b.fecha || "").localeCompare(a.fecha || "") || quarkN(b) - quarkN(a); }
 
@@ -68,7 +68,7 @@ const colorDe = j => COLORES[Math.max(0, D.juegos.findIndex(x => j && x.id === j
 const juegoDe = v => D.juegos.find(j => (j.gameids || []).includes(v.juego)) || null;
 const juegoPorId = id => D.juegos.find(j => j.id === id) || null;
 const activos = () => D.juegos.filter(j => j.estado === "activo");
-const hrefJuego = j => `juego.html?id=${encodeURIComponent(j.id)}`;
+const hrefJuego = j => `partidas.html?juego=${encodeURIComponent(j.id)}`;
 const hrefSet = v => `video.html?q=${encodeURIComponent(v.quark)}`;
 
 const frescoDe = o => !!(o && o.actualizado && (Date.now() - new Date(String(o.actualizado).replace(" ", "T")).getTime()) < 30 * 864e5);
@@ -118,17 +118,6 @@ function cardSet(v) {
     ${gancho ? `<span class="gancho">${esc(gancho)}</span>` : ""}
     <span class="pie"><span>${esc(v.fecha || "")} · ${v.peleas} ${esc(pl(v.peleas, "u_pelea", "u_peleas"))}</span><b>${esc(T("ver_ficha"))} →</b></span></a>`;
 }
-function cardJuego(j) {
-  const suyas = D.indice.filter(v => juegoDe(v) === j);
-  const peleas = suyas.reduce((a, v) => a + (v.peleas || 0), 0);
-  const act = j.estado === "activo";
-  const cuerpo = `<span class="arte">${j.retrato ? retrato(j.retrato, j.nombre) : `<span class="mono">${esc(j.corto)}</span>`}</span>
-    <span><span class="st">${esc(T(act ? "j_disp" : "j_prox"))}</span><span class="nm">${esc(j.nombre)}</span>
-      <span class="sb">${esc(j.subtitulo || "")}</span><span class="me">${esc(j.compania || "")}${j.anio ? " · " + j.anio : ""}</span>
-      ${act ? `<span class="ci"><b>${suyas.length}</b> ${esc(pl(suyas.length, "u_partida", "u_partidas"))}${peleas ? ` · <b>${peleas}</b> ${esc(pl(peleas, "u_pelea", "u_peleas"))}` : ""}</span>` : ""}</span>`;
-  return act ? `<a class="jue" href="${hrefJuego(j)}" style="--g:${colorDe(j)}">${cuerpo}</a>`
-             : `<div class="jue prox" style="--g:${colorDe(j)}" aria-disabled="true">${cuerpo}</div>`;
-}
 const bandaPedir = () => {
   const tg = urlTelegram(), dc = urlDiscord();
   return `<section class="banda"><div class="txt"><h2>${esc(T("pide_t"))}</h2><p>${esc(T("pide_d"))}</p></div>
@@ -146,10 +135,9 @@ const franjaApoyo = () => {
 };
 
 /* ---------------------------------------------------------------- cabecera y pie */
-const NAV = [["index", "n_inicio", "./"], ["partidas", "n_partidas", "partidas.html"], ["juegos", "n_juegos", "juegos.html"],
-             ["cambios", "n_cambios", "cambios.html"], ["canal", "n_redes", "canal.html"]];
+const NAV = [["index", "n_inicio", "./"], ["partidas", "n_partidas", "partidas.html"], ["canal", "n_redes", "canal.html"]];
 const PAG = document.body.dataset.p;
-const ACTIVA = { juego: "juegos", enviar: "", apoyo: "", legal: "" }[PAG] ?? PAG;
+const ACTIVA = { enviar: "", apoyo: "", legal: "" }[PAG] ?? PAG;
 
 function montaShell() {
   const cab = $("#cab");
@@ -204,8 +192,6 @@ function portadaPinta() {
     ${bandaPedir()}
     <section class="sec"><div class="sec-cab"><h2>${esc(T("h_como_t"))}</h2></div>
       <div class="pasos">${["1", "2", "3", "4"].map(i => `<div class="paso"><b>${esc(T("h_c" + i + "_t"))}</b><span>${esc(T("h_c" + i + "_d"))}</span></div>`).join("")}</div></section>
-    <section class="sec"><div class="sec-cab"><h2>${esc(T("n_juegos"))}</h2><a class="mas" href="juegos.html">${esc(T("h_ver_juegos"))} →</a></div>
-      <div class="juegos chico">${activos().map(cardJuego).join("")}</div></section>
     ${franjaApoyo()}</div>`;
   portadaRejilla();
 }
@@ -250,80 +236,10 @@ function partidasLista() {
   if (quedan > 0) $("#vm").onclick = () => { p.n += 24; partidasLista(); };
 }
 
-/* ---------------------------------------------------------------- juegos */
-function juegosPinta() {
-  titulo(T("n_juegos"));
-  const prox = D.juegos.filter(j => j.estado === "proximamente");
-  $("#m").innerHTML = `<div class="wrap"><div class="pag-cab"><h1>${esc(T("n_juegos"))}</h1><p>${esc(T("j_sub"))}</p></div>
-    <section class="sec"><div class="sec-cab"><h2>${esc(T("j_pelea"))}</h2></div><div class="juegos">${activos().map(cardJuego).join("")}</div></section>
-    ${prox.length ? `<section class="sec"><div class="sec-cab"><h2>${esc(T("j_prox"))}</h2></div><div class="juegos">${prox.map(cardJuego).join("")}</div></section>` : ""}</div>`;
-}
-
-/* ---------------------------------------------------------------- un juego */
-function jugadoresDe(lista) {
-  const m = new Map();
-  lista.forEach(v => v.jugadores.forEach((j, i) => {
-    const r = m.get(j.nombre) || { nombre: j.nombre, pais: j.pais, rango: j.rango_letra, partidas: 0, ganadas: 0, claves: new Map() };
-    r.partidas++; r.ganadas += (v.marcador || [0, 0])[i] || 0;
-    (j.claves || [j.clave]).forEach((c, k) => { if (c) r.claves.set(c, (j.personajes || [j.personaje])[k] || c); });
-    if (j.rango_letra) r.rango = j.rango_letra;
-    m.set(j.nombre, r);
-  }));
-  return [...m.values()].sort((a, b) => b.partidas - a.partidas || b.ganadas - a.ganadas);
-}
-function personajesDe(lista) {
-  const m = new Map();
-  lista.forEach(v => v.jugadores.forEach(j => (j.claves || [j.clave]).forEach((c, k) => {
-    if (!c) return;
-    const r = m.get(c) || { clave: c, nombre: (j.personajes || [j.personaje])[k] || c, n: 0 };
-    r.n++; m.set(c, r);
-  })));
-  return [...m.values()].sort((a, b) => b.n - a.n || a.nombre.localeCompare(b.nombre));
-}
-const PESTANAS = [["partidas", "n_partidas"], ["jugadores", "g_jugadores"], ["personajes", "s_pers"], ["estadisticas", "x_stats"]];
-const pestana = () => { const h = location.hash.slice(1); return PESTANAS.some(([k]) => k === h) ? h : "partidas"; };
-let CUANTOS_J = 30, CUANTAS_P = 24;
-function juegoPinta() {
-  const j = juegoPorId(Q.get("id") || "");
-  if (!j || j.estado !== "activo") {
-    titulo("");
-    $("#m").innerHTML = `<div class="wrap"><p class="vacio">${esc(T(D.juegos.length ? "g_noexiste" : "cargando"))}</p></div>`;
-    return;
-  }
-  titulo(j.nombre);
-  const lista = D.indice.filter(v => juegoDe(v) === j), peleas = lista.reduce((a, v) => a + (v.peleas || 0), 0);
-  const act = pestana();
-  $("#m").innerHTML = `<div class="wrap"><nav class="miga"><a href="./">${esc(T("n_inicio"))}</a><span>›</span><a href="juegos.html">${esc(T("n_juegos"))}</a><span>›</span><b>${esc(j.nombre)}</b></nav>
-    <header class="cjue" style="--g:${colorDe(j)}"><span class="arte">${j.retrato ? retrato(j.retrato, j.nombre) : ""}</span>
-      <div><h1>${esc(j.nombre)}</h1><p>${esc(j.subtitulo || "")}</p><p class="cm">${esc(j.compania || "")}${j.anio ? " · " + j.anio : ""}</p></div>
-      <div class="cf"><span><b>${lista.length}</b>${esc(pl(lista.length, "u_partida", "u_partidas"))}</span><span><b>${peleas}</b>${esc(pl(peleas, "u_pelea", "u_peleas"))}</span></div></header>
-    <div class="tabs" role="tablist">${PESTANAS.map(([k, t]) => `<a href="#${k}" role="tab" aria-selected="${act === k}">${esc(T(t))}</a>`).join("")}</div>
-    <div id="panel"></div></div>`;
-  const P = $("#panel");
-  if (!lista.length) { P.innerHTML = `<p class="vacio">${esc(T("g_sin"))}</p>`; return; }
-  if (act === "partidas") {
-    P.innerHTML = `<div class="sets">${lista.slice(0, CUANTAS_P).map(cardSet).join("")}</div>` +
-      (lista.length > CUANTAS_P ? `<div class="mas-fila"><button class="btn" type="button" id="vm">${esc(T("ver_mas"))} · ${esc(F("quedan", miles(lista.length - CUANTAS_P)))}</button></div>` : "");
-    if ($("#vm")) $("#vm").onclick = () => { CUANTAS_P += 24; juegoPinta(); };
-  } else if (act === "jugadores") {
-    const js = jugadoresDe(lista);
-    P.innerHTML = `<div class="tabla"><table><thead><tr><th>${esc(T("g_jugadores"))}</th><th>${esc(T("s_pers"))}</th><th class="num">${esc(T("g_jugadas"))}</th><th class="num">${esc(T("g_ganadas"))}</th></tr></thead><tbody>` +
-      js.slice(0, CUANTOS_J).map(r => `<tr><td><a class="jug" href="partidas.html?juego=${encodeURIComponent(j.id)}&q=${encodeURIComponent(r.nombre)}" title="${esc(F("sus_partidas", r.nombre))}">${bandera(r.pais)}${rango(r.rango)}<span>${esc(r.nombre)}</span></a></td>
-        <td><span class="caras">${[...r.claves].map(([c, n]) => retrato(c, n)).join("")}</span></td><td class="num">${r.partidas}</td><td class="num">${r.ganadas}</td></tr>`).join("") +
-      `</tbody></table></div>` + (js.length > CUANTOS_J ? `<div class="mas-fila"><button class="btn" type="button" id="vm">${esc(T("ver_mas"))} · ${esc(F("quedan", miles(js.length - CUANTOS_J)))}</button></div>` : "");
-    if ($("#vm")) $("#vm").onclick = () => { CUANTOS_J += 30; juegoPinta(); };
-  } else if (act === "personajes") {
-    P.innerHTML = `<div class="pers">${personajesDe(lista).map(p => `<div>${retrato(p.clave, p.nombre)}<b>${esc(p.nombre)}</b><span>${p.n} ${esc(T("g_apar").toLowerCase())}</span></div>`).join("")}</div>`;
-  } else {
-    const rondas = lista.reduce((a, v) => a + (v.rondas || 0), 0), seg = lista.reduce((a, v) => a + (v.duracion || 0), 0);
-    const horas = seg >= 3600 ? `${Math.floor(seg / 3600)} h ${Math.round(seg % 3600 / 60)} min` : `${Math.round(seg / 60)} min`;
-    const celdas = [[lista.length, T("g_jugadas")], [peleas, T("u_peleas")], [rondas, T("rondas_t")], [horas, T("g_tiempo")], [jugadoresDe(lista).length, T("g_njug")], [personajesDe(lista).length, T("g_npers")]];
-    P.innerHTML = `<div class="cifras" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr))">${celdas.map(([x, t]) => `<div class="cifra"><b>${typeof x === "number" ? miles(x) : esc(x)}</b><span>${esc(t)}</span></div>`).join("")}</div>`;
-  }
-}
-window.addEventListener("hashchange", () => { if (PAG === "juego") juegoPinta(); });
-
-/* ---------------------------------------------------------------- pedir replay */
+/* ---------------------------------------------------------------- pedir replay
+   Una sola pantalla: se pega el enlace, un «billete» dice al momento qué pasa con él (listo, ya
+   publicado, en cola, juego no disponible o enlace no válido) y los dos botones grandes lo
+   piden por Telegram o por Discord. A la derecha, la cola en vivo. */
 let COLA = null, PEDIDO = null;
 const RE_ENLACE = /(?:replay\/(?:fbneo\/|flycast\/|[a-z0-9]+\/)?)?([a-z0-9_]+)\/(\d{10,}-\d+)(?:\.\d+)?/i;
 const RE_QUARK = /^\d{10,}-\d+$/;
@@ -339,60 +255,69 @@ const botNube = () => String(D.sitio.bot_nube || "").replace(/\/$/, "");
 function enviarPinta() {
   titulo(T("e_titulo"));
   const previo = $("#e-url") ? $("#e-url").value : (Q.get("replay") || "");
-  const orden = [...activos(), ...D.juegos.filter(j => j.estado !== "activo")];
-  $("#m").innerHTML = `<div class="wrap estrecho" style="max-width:900px"><div class="pag-cab"><h1>${esc(T("e_titulo"))}</h1><p>${esc(T("e_sub"))}</p></div>
-    <form class="form" id="e-form" novalidate><label for="e-url">${esc(T("e_campo"))}</label>
-      <input id="e-url" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="https://replay.fightcade.com/fbneo/ssf2xjr1/…" value="${esc(previo)}">
-      <p class="est" id="e-estado" aria-live="polite"></p></form>
-    <p class="elige" id="e-elige"></p><div class="redes" id="e-redes"></div>
-    <section class="sec" id="b-cola" hidden><div class="sec-cab"><h2>${esc(T("e_cola"))}</h2></div><ul class="cola" id="cola"></ul></section>
-    <section class="sec"><div class="sec-cab"><h2>${esc(T("e_como"))}</h2></div>
-      <div class="pasos">${["e_p1", "e_p2", "e_p3", "e_p4", "e_p5"].map(k => `<div class="paso"><span>${esc(T(k))}</span></div>`).join("")}</div></section>
-    <section class="sec"><div class="sec-cab"><h2>${esc(T("e_juegos"))}</h2></div><div class="juegos">${orden.map(cardJuego).join("")}</div></section></div>`;
-  $("#e-form").onsubmit = e => { e.preventDefault(); revisa(); };
+  $("#m").innerHTML = `<div class="wrap"><div class="pag-cab"><h1>${esc(T("e_titulo"))}</h1><p>${esc(T("e_sub"))}</p></div>
+    <div class="ped"><section class="ped-izq">
+      <label class="ped-et" for="e-url">${esc(T("e_campo"))}</label>
+      <div class="ped-fila"><input id="e-url" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="https://replay.fightcade.com/fbneo/ssf2xjr1/…" value="${esc(previo)}">
+        <button class="btn" type="button" id="e-pegar">${esc(T("x_pegar"))}</button></div>
+      <div class="ticket" id="ticket" aria-live="polite"></div>
+      <p class="ped-et" id="e-elige"></p>
+      <div class="ped-bt" id="e-redes"></div>
+      <details class="ped-como"><summary>${esc(T("e_como"))}</summary><ol>${["e_p1", "e_p2", "e_p3", "e_p4", "e_p5"].map(k => `<li>${esc(T(k))}</li>`).join("")}</ol></details>
+    </section>
+    <aside class="ped-der"><h2 class="ped-et">${esc(T("e_cola"))}</h2><ul class="cola" id="cola"></ul>
+      <p class="ped-et" style="margin-top:20px">${esc(T("e_juegos"))}</p>
+      <div class="jchips">${activos().map(j => `<span style="--g:${colorDe(j)}">${esc(j.corto)}</span>`).join("")}</div></aside></div></div>`;
   $("#e-url").oninput = revisa;
+  $("#e-pegar").onclick = async () => {
+    try { $("#e-url").value = await navigator.clipboard.readText(); } catch (e) { $("#e-url").focus(); return; }
+    revisa();
+  };
   pintaCola();
   revisa();
 }
 function revisa() {
-  const r = leeEnlace($("#e-url").value), est = $("#e-estado");
-  PEDIDO = null; est.className = "est";
-  if (!r) est.textContent = "";
-  else if (r.mal) { est.textContent = T("e_mal"); est.classList.add("mal"); }
-  else {
+  const r = leeEnlace($("#e-url").value), tk = $("#ticket");
+  PEDIDO = null;
+  let cls = "vacio", ic = "🔗", msg = T("e_campo"), sub = "";
+  if (r && r.mal) { cls = "mal"; ic = "✖"; msg = T("e_mal"); }
+  else if (r) {
     const ya = D.indice.find(v => v.quark === r.quark), enCola = (COLA || []).findIndex(c => c.q === r.quark), j = r.gameid ? juegoDeId(r.gameid) : null;
-    if (ya) { est.innerHTML = `✅ ${esc(T("e_ya"))} <a href="video.html?q=${encodeURIComponent(r.quark)}">${esc(T("e_ver"))} →</a>`; est.classList.add("ok"); }
-    else if (enCola >= 0) { est.textContent = `⏳ ${T("e_en_cola")} · #${enCola + 1}`; est.classList.add("aviso"); }
-    else if (r.gameid && !j) { est.textContent = T("e_nojuego"); est.classList.add("mal"); }
-    else if (j && j.estado !== "activo") { est.textContent = F("e_prox", j.nombre_completo || j.nombre); est.classList.add("mal"); }
-    else { PEDIDO = { ...r, juego: j }; est.textContent = "✔ " + (j ? F("e_ok", j.nombre_completo || j.nombre) : T("e_ok_sin")); est.classList.add("ok"); }
+    sub = `<span class="tk-q">${esc(r.quark)}</span>`;
+    if (ya) { cls = "ya"; ic = "✅"; msg = T("e_ya"); sub += ` <a href="video.html?q=${encodeURIComponent(r.quark)}">${esc(T("e_ver"))} →</a>`; }
+    else if (enCola >= 0) { cls = "cola"; ic = "⏳"; msg = `${T("e_en_cola")} · #${enCola + 1}`; }
+    else if (r.gameid && !j) { cls = "mal"; ic = "✖"; msg = T("e_nojuego"); }
+    else if (j && j.estado !== "activo") { cls = "mal"; ic = "🔒"; msg = F("e_prox", j.nombre_completo || j.nombre); }
+    else { cls = "ok"; ic = "✔"; msg = j ? F("e_ok", j.nombre_completo || j.nombre) : T("e_ok_sin"); PEDIDO = { ...r, juego: j }; }
+    if (j) sub = `<span class="tk-j" style="--g:${colorDe(j)}">${esc(j.corto)}</span> ` + sub;
   }
+  tk.className = "ticket " + cls;
+  tk.innerHTML = `<span class="tk-i">${ic}</span><div><div class="tk-m">${esc(msg)}</div>${sub ? `<div class="tk-s">${sub}</div>` : ""}</div>`;
   pintaRedes();
 }
 function pintaRedes() {
   const tg = urlTelegram(), dc = urlDiscord();
   $("#e-elige").hidden = !(tg || dc);
   $("#e-elige").textContent = T("e_elige");
-  const caja = (cls, tit, ks, href, btn, id) => `<div class="red ${cls}"><b class="t">${tit}</b><ol>${ks.map(k => `<li>${esc(T(k))}</li>`).join("")}</ol>
-    <a class="btn oro" ${id ? `id="${id}"` : ""} href="${esc(href)}" target="_blank" rel="noopener">${esc(T(btn))} ↗</a></div>`;
+  const listo = PEDIDO ? " listo" : "";
   const hrefTg = tg && PEDIDO && PEDIDO.gameid ? `${tg}?start=${encodeURIComponent(`p_${PEDIDO.gameid}_${PEDIDO.quark}`)}` : tg;
-  $("#e-redes").innerHTML = (tg ? caja("tg", "✈️ " + esc(T("e_tg_t")), ["e_tg_1", "e_tg_2", "e_tg_3"], hrefTg, "e_tg_btn") : "") +
-                            (dc ? caja("dc", "💬 " + esc(T("e_dc_t")), ["e_dc_1", "e_dc_2", "e_dc_3"], dc, "e_dc_btn", "e-dc-btn") : "");
+  $("#e-redes").innerHTML =
+    (tg ? `<a class="ped-b tg${listo}" href="${esc(hrefTg)}" target="_blank" rel="noopener"><b>✈️ Telegram</b><span>${esc(T("e_tg_btn"))} ↗</span></a>` : "") +
+    (dc ? `<a class="ped-b dc${listo}" id="e-dc-btn" href="${esc(dc)}" target="_blank" rel="noopener"><b>💬 Discord</b><span>${esc(T("e_dc_btn"))} ↗</span></a>` : "");
   const b = $("#e-dc-btn");
   if (b) b.addEventListener("click", () => {
     if (!PEDIDO) return;
     try { navigator.clipboard.writeText(PEDIDO.url).catch(() => {}); } catch (e) {}
-    const est = $("#e-estado"); est.className = "est aviso"; est.textContent = "📋 " + T("e_copiado");
+    const tk = $("#ticket"); tk.className = "ticket cola"; tk.innerHTML = `<span class="tk-i">📋</span><div><div class="tk-m">${esc(T("e_copiado"))}</div></div>`;
   });
 }
 function pintaCola() {
-  const b = $("#b-cola"), ul = $("#cola");
-  if (!b) return;
-  b.hidden = COLA === null;
-  if (COLA === null) return;
-  ul.innerHTML = !COLA.length ? `<li><span></span><span></span><span>${esc(T("e_cola_vacia"))}</span><span></span></li>` :
-    COLA.slice(0, 15).map((c, i) => { const j = c.g ? juegoDeId(c.g) : null;
-      return `<li><span class="n">#${i + 1}</span><span class="j">${esc(j ? j.corto : (c.g || "?"))}</span><span>${esc(c.p || c.q || "—")}</span>${c.pedido ? `<span class="p">📩 ${esc(T("e_pedido"))}</span>` : "<span></span>"}</li>`; }).join("");
+  const ul = $("#cola");
+  if (!ul) return;
+  if (COLA === null) { ul.innerHTML = `<li class="vac">${esc(T("e_cola_error"))}</li>`; return; }
+  ul.innerHTML = !COLA.length ? `<li class="vac">${esc(T("e_cola_vacia"))}</li>` :
+    COLA.slice(0, 10).map((c, i) => { const j = c.g ? juegoDeId(c.g) : null;
+      return `<li><span class="n">${i + 1}</span><span class="j" style="--g:${colorDe(j)}">${esc(j ? j.corto : (c.g || "?"))}</span><span class="q">${esc(c.p || c.q || "—")}</span>${c.pedido ? `<span class="p">📩</span>` : ""}</li>`; }).join("");
 }
 async function cargaCola() {
   const b = botNube();
@@ -430,72 +355,35 @@ function apoyoPinta() {
       <ul class="logros">${L.map(([ok, t]) => `<li class="${ok ? "ok" : "no"}"><span>${ok ? "✓" : "🔒"}</span><span>${esc(t)}</span><span class="e">${esc(T(ok ? "ap_ok" : "ap_no"))}</span></li>`).join("")}</ul></section></div>`;
 }
 
-/* ---------------------------------------------------------------- redes */
-function redTarjeta(o) {
+/* ---------------------------------------------------------------- redes
+   Una barra por red, como el rótulo inferior de una transmisión: icono de color, nombre, cifras y botón. */
+function barraRed(o) {
   const cifra = (x, k) => x == null ? "" : `<div><b>${miles(x)}</b><span>${esc(T(k))}</span></div>`;
-  const foto = o.foto ? `<img class="foto" src="${esc(o.foto)}" alt="" referrerpolicy="no-referrer">` : `<span class="foto">${o.letra}</span>`;
-  return `<article class="rd ${o.clase}"><div class="top">${foto}<div><span class="rn">${esc(o.red)}</span><h2>${esc(o.nombre)}</h2>${o.sub ? `<span class="hd">${esc(o.sub)}</span>` : ""}</div></div>
-    <p>${esc(o.desc)}</p>${o.cifras ? `<div class="cf">${o.cifras}</div>` : ""}
-    <div class="bt">${o.seguir ? `<a class="btn oro" href="${esc(o.seguir)}" target="_blank" rel="noopener">${o.icono} ${esc(o.tSeguir)}</a>` : ""}${o.ver ? `<a class="btn" href="${esc(o.ver)}" target="_blank" rel="noopener">${esc(o.tVer)} ↗</a>` : ""}</div>
-    ${o.fuente ? `<p class="fu">${esc(o.fuente)}</p>` : ""}</article>`;
+  const ic = o.foto ? `<img src="${esc(o.foto)}" alt="" referrerpolicy="no-referrer">` : `<span>${o.letra}</span>`;
+  return `<article class="rb ${o.clase}"><div class="rb-ic">${ic}</div>
+    <div class="rb-id"><span class="rn">${esc(o.red)}</span><h2>${esc(o.nombre)}</h2>${o.sub ? `<span class="hd">${esc(o.sub)}</span>` : ""}</div>
+    <div class="rb-n">${o.cifras || ""}</div>
+    <div class="rb-bt">${o.seguir ? `<a class="btn oro" href="${esc(o.seguir)}" target="_blank" rel="noopener">${o.icono} ${esc(o.tSeguir)}</a>` : ""}</div>
+    ${o.fuente ? `<p class="rb-f">${esc(o.fuente)}</p>` : ""}</article>`;
 }
 function canalPinta() {
   titulo(T("n_redes"));
   const t = [], c = D.canal || {}, f = D.fb || {}, dc = D.dc || {}, yt = frescoDe(D.canal), fb = frescoDe(D.fb), dk = frescoDe(D.dc);
   const cifra = (x, k) => x == null ? "" : `<div><b>${miles(x)}</b><span>${esc(T(k))}</span></div>`;
-  if (urlCanal()) t.push(redTarjeta({ clase: "yt", red: "YouTube", letra: "▶", icono: "🔔", foto: yt ? c.avatar : "", nombre: (yt && c.nombre) || "replayLab",
-    sub: yt && c.handle ? "@" + c.handle : "", desc: T("rd_yt_desc"),
-    cifras: yt ? cifra(c.suscriptores, "yt_suscriptores") + cifra(c.videos, "yt_videos") + cifra(c.vistas, "yt_vistas") : "",
-    seguir: urlSuscribir(), tSeguir: T("yt_suscribete"), ver: urlCanal(), tVer: T("yt_ver_canal"), fuente: yt ? F("yt_datos", fechaCorta(c.actualizado)) : "" }));
-  if (urlFacebook()) t.push(redTarjeta({ clase: "fb", red: "Facebook", letra: "f", icono: "👍", foto: fb ? f.foto : "", nombre: (fb && f.nombre) || "replayLab", desc: T("rd_fb_desc"),
+  if (urlCanal()) t.push(barraRed({ clase: "yt", red: "YouTube", letra: "▶", icono: "🔔", foto: yt ? c.avatar : "", nombre: (yt && c.nombre) || "replayLab",
+    sub: yt && c.handle ? "@" + c.handle : "", cifras: yt ? cifra(c.suscriptores, "yt_suscriptores") + cifra(c.videos, "yt_videos") + cifra(c.vistas, "yt_vistas") : "",
+    seguir: urlSuscribir(), tSeguir: T("yt_suscribete"), fuente: yt ? F("yt_datos", fechaCorta(c.actualizado)) : "" }));
+  if (urlFacebook()) t.push(barraRed({ clase: "fb", red: "Facebook", letra: "f", icono: "👍", foto: fb ? f.foto : "", nombre: (fb && f.nombre) || "replayLab",
     cifras: fb ? cifra(f.seguidores, "fb_seguidores") : "", seguir: urlFacebook(), tSeguir: T("fb_seguir"), fuente: fb ? F("fb_datos", fechaCorta(f.actualizado)) : "" }));
-  if (urlDiscord()) t.push(redTarjeta({ clase: "dc", red: "Discord", letra: "💬", icono: "💬", foto: dk ? dc.icono : "", nombre: (dk && dc.nombre) || "replayLab", desc: T("rd_dc_desc"),
+  if (urlDiscord()) t.push(barraRed({ clase: "dc", red: "Discord", letra: "💬", icono: "💬", foto: dk ? dc.icono : "", nombre: (dk && dc.nombre) || "replayLab",
     cifras: dk ? cifra(dc.miembros, "dc_miembros") + cifra(dc.en_linea, "dc_en_linea") : "", seguir: urlDiscord(), tSeguir: T("dc_unirse"), fuente: dk ? F("dc_datos", fechaCorta(dc.actualizado)) : "" }));
-  $("#m").innerHTML = `<div class="wrap"><div class="pag-cab"><h1>${esc(T("rd_titulo"))}</h1><p>${esc(T("rd_sub"))}</p></div><div class="redes2">${t.join("")}</div>${franjaApoyo()}</div>`;
-}
-
-/* ---------------------------------------------------------------- novedades */
-const TIPO = { hallazgo: ["c_hallazgo", "#7dfcb0"], "añadido": ["c_añadido", "#3fd0ff"], cambiado: ["c_cambiado", "#ffc83d"], arreglado: ["c_arreglado", "#ff8d9b"] };
-const textoCambio = c => c[LANG] || c.es || "";
-const areas = c => c.area || ["web"];
-const idWeb = x => juegoPorId(x) ? x : ((D.juegos.find(j => (j.gameids || []).includes(x)) || {}).id || x);
-const juegosDeC = c => [...new Set([].concat(c.juego || []).map(idWeb))];
-const nombreJuego = id => (juegoPorId(id) || {}).nombre_completo || (juegoPorId(id) || {}).nombre || id || "";
-let FILTRO_C = Q.get("juego") ? "j:" + Q.get("juego") : (Q.get("area") === "web" ? "web" : ""), DIAS = 7;
-const pasaC = (c, f) => !f || (f === "web" ? areas(c).includes("web") : juegosDeC(c).includes(f.slice(2)));
-const fechaLarga = f => { try { const [y, m, d] = f.split("-").map(Number); return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString(LANG, { timeZone: "UTC", year: "numeric", month: "long", day: "numeric" }); } catch (e) { return f; } };
-const grupoC = (ic, tit, lista) => !lista.length ? "" : `<div class="cg"><div class="gt">${ic} ${esc(tit)}<small>${lista.length}</small></div>` + lista.map(c => {
-  const [k, col] = TIPO[c.t] || ["c_cambiado", "#94a6cc"];
-  return `<div class="cf2"><span class="sello" style="--c:${col}">${esc(T(k))}</span><span class="ct">${esc(textoCambio(c))}</span></div>`; }).join("") + `</div>`;
-function cambiosPinta() {
-  titulo(T("t_cambios"));
-  const dias = (D.cambios && D.cambios.dias) || [], todas = dias.flatMap(d => d.cambios || []);
-  const con = new Set(todas.flatMap(juegosDeC));
-  const ids = [...D.juegos.map(j => j.id).filter(id => con.has(id)), ...[...con].filter(id => !juegoPorId(id))];
-  if (FILTRO_C.startsWith("j:") && !ids.includes(FILTRO_C.slice(2))) FILTRO_C = "";
-  const tabs = [["", T("c_todo")], ["web", "🌐 " + T("c_web")], ...ids.map(id => ["j:" + id, (juegoPorId(id) || {}).corto || id])];
-  const secciones = dias.map(d => {
-    const cs = (d.cambios || []).filter(c => pasaC(c, FILTRO_C));
-    let cuerpo;
-    if (FILTRO_C.startsWith("j:")) cuerpo = grupoC("🎮", nombreJuego(FILTRO_C.slice(2)), cs.filter(c => areas(c).includes("juego"))) + grupoC("🌐", T("c_web"), cs.filter(c => !areas(c).includes("juego")));
-    else {
-      const web = !FILTRO_C || FILTRO_C === "web" ? cs.filter(c => areas(c).includes("web")) : [];
-      const dj = FILTRO_C ? [] : cs.filter(c => areas(c).includes("juego"));
-      const clave = c => juegosDeC(c).length > 1 ? "*" : (juegosDeC(c)[0] || "");
-      cuerpo = grupoC("🌐", T("c_web"), web) + [...new Set(dj.map(clave))].map(k => grupoC("🎮", k === "*" ? T("c_varios") : (nombreJuego(k) || T("c_juegos")), dj.filter(c => clave(c) === k))).join("");
-    }
-    return cuerpo ? `<section class="dia"><h3>${esc(fechaLarga(d.fecha))}</h3>${cuerpo}</section>` : "";
-  }).filter(Boolean);
-  $("#m").innerHTML = `<div class="wrap estrecho" style="max-width:900px"><div class="pag-cab"><h1>${esc(T("t_cambios"))}</h1><p>${esc(T("sub_cambios"))}</p></div>
-    <div class="chips" style="margin-top:16px">${tabs.map(([f, t]) => `<button class="chip" type="button" data-f="${esc(f)}" aria-pressed="${FILTRO_C === f}">${esc(t)} <small>${todas.filter(c => pasaC(c, f)).length}</small></button>`).join("")}</div>
-    ${secciones.slice(0, DIAS).join("") || `<p class="vacio">${esc(T("g_sin"))}</p>`}
-    ${secciones.length > DIAS ? `<div class="mas-fila"><button class="btn" type="button" id="vm">${esc(T("ver_mas"))}</button></div>` : ""}</div>`;
-  $$(".chip").forEach(b => b.onclick = () => { FILTRO_C = b.dataset.f; DIAS = 7; cambiosPinta(); });
-  if ($("#vm")) $("#vm").onclick = () => { DIAS += 7; cambiosPinta(); };
+  const tg = urlTelegram();
+  if (tg) t.push(barraRed({ clase: "tg", red: "Telegram", letra: "✈️", icono: "✈️", nombre: "replayLab Bot", cifras: "", seguir: tg, tSeguir: T("e_tg_btn") }));
+  $("#m").innerHTML = `<div class="wrap"><div class="pag-cab"><h1>${esc(T("rd_titulo"))}</h1><p>${esc(T("rd_sub"))}</p></div><div class="rbs">${t.join("")}</div>${franjaApoyo()}</div>`;
 }
 
 /* ---------------------------------------------------------------- arranque */
-const PINTORES = { index: portadaPinta, partidas: partidasPinta, juegos: juegosPinta, juego: juegoPinta, enviar: enviarPinta, apoyo: apoyoPinta, canal: canalPinta, cambios: cambiosPinta, legal: () => titulo(document.body.dataset.t || "") };
+const PINTORES = { index: portadaPinta, partidas: partidasPinta, enviar: enviarPinta, apoyo: apoyoPinta, canal: canalPinta, legal: () => titulo(document.body.dataset.t || "") };
 let LISTO = false;
 function pinta() { pintaShell(); if (LISTO || PAG === "legal") PINTORES[PAG] && PINTORES[PAG](); }
 (async () => {
