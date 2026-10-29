@@ -1,79 +1,6 @@
 {
- "actualizado": "2026-10-29 15:38",
+ "actualizado": "2026-10-29 15:39",
  "videos": [
-  {
-   "quark": "1793250297051-5691",
-   "juego": "kf2k2pls",
-   "juego_nombre": "The King of Fighters 2002 Plus",
-   "juego_corto": "KOF2002+",
-   "fecha": "2026-10-29",
-   "youtube": "VIMKRer3Wy0",
-   "duracion": 426.9,
-   "marcador": [
-    2,
-    1
-   ],
-   "peleas": 3,
-   "jugadores": [
-    {
-     "nombre": "unused",
-     "pais": "bd",
-     "rango_letra": "S",
-     "personaje": "Yashiro · Ryo · Andy",
-     "clave": "kof2002_yashiro",
-     "personajes": [
-      "Yashiro",
-      "Ryo",
-      "Andy",
-      "Kim",
-      "Maxima",
-      "Mai",
-      "Vanessa",
-      "Yamazaki",
-      "Clark"
-     ],
-     "claves": [
-      "kof2002_yashiro",
-      "kof2002_ryo",
-      "kof2002_andy",
-      "kof2002_kim",
-      "kof2002_maxima",
-      "kof2002_mai",
-      "kof2002_vanessa",
-      "kof2002_yamazaki",
-      "kof2002_clark"
-     ]
-    },
-    {
-     "nombre": "Test_King",
-     "pais": "bd",
-     "rango_letra": "S",
-     "personaje": "Vanessa · Choi · Yuri",
-     "clave": "kof2002_vanessa",
-     "personajes": [
-      "Vanessa",
-      "Choi",
-      "Yuri",
-      "Chris",
-      "Chin",
-      "Shermie",
-      "Kim",
-      "Athena"
-     ],
-     "claves": [
-      "kof2002_vanessa",
-      "kof2002_choi",
-      "kof2002_yuri",
-      "kof2002_chris",
-      "kof2002_chin",
-      "kof2002_shermie",
-      "kof2002_kim",
-      "kof2002_athena"
-     ]
-    }
-   ],
-   "rondas": 13
-  },
   {
    "quark": "1793149852594-1106",
    "juego": "sfa2u",
@@ -116,6 +43,49 @@
     }
    ],
    "rondas": 21
+  },
+  {
+   "quark": "1793133728853-3685",
+   "juego": "msh",
+   "juego_nombre": "Marvel Super Heroes",
+   "juego_corto": "MSH",
+   "fecha": "2026-10-27",
+   "youtube": "74zsNkgsnbA",
+   "duracion": 721.6,
+   "marcador": [
+    5,
+    2
+   ],
+   "peleas": 7,
+   "jugadores": [
+    {
+     "nombre": "kbcbilly",
+     "pais": "br",
+     "rango_letra": "D",
+     "personaje": "Wolverine",
+     "clave": "msh_wolverine",
+     "personajes": [
+      "Wolverine"
+     ],
+     "claves": [
+      "msh_wolverine"
+     ]
+    },
+    {
+     "nombre": "Raiijinn",
+     "pais": "br",
+     "rango_letra": "C",
+     "personaje": "Wolverine",
+     "clave": "msh_wolverine",
+     "personajes": [
+      "Wolverine"
+     ],
+     "claves": [
+      "msh_wolverine"
+     ]
+    }
+   ],
+   "rondas": 19
   },
   {
    "quark": "1792987783039-9247",
@@ -1430,53 +1400,6 @@
      ],
      "claves": [
       "dictator"
-     ]
-    }
-   ],
-   "rondas": 12
-  },
-  {
-   "quark": "1792258140164-1065",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-10-17",
-   "youtube": "iQq6_iX9Nwo",
-   "duracion": 483.4,
-   "marcador": [
-    5,
-    0
-   ],
-   "peleas": 5,
-   "jugadores": [
-    {
-     "nombre": "((Caution))",
-     "pais": "br",
-     "rango_letra": "A",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    },
-    {
-     "nombre": "Sansar",
-     "pais": "tr",
-     "rango_letra": "B",
-     "personaje": "Guile",
-     "clave": "guile",
-     "personajes": [
-      "Guile",
-      "Zangief",
-      "E. Honda"
-     ],
-     "claves": [
-      "guile",
-      "zangief",
-      "honda"
      ]
     }
    ],
@@ -3772,6 +3695,51 @@
     }
    ],
    "rondas": 22
+  },
+  {
+   "quark": "1790449688173-6572",
+   "juego": "msh",
+   "juego_nombre": "Marvel Super Heroes",
+   "juego_corto": "MSH",
+   "fecha": "2026-09-26",
+   "youtube": "UgWeiS7qmqQ",
+   "duracion": 1053.6,
+   "marcador": [
+    4,
+    5
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "bibi1983",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Shuma-Gorath",
+     "clave": "msh_shumagorath",
+     "personajes": [
+      "Shuma-Gorath",
+      "Spider-Man"
+     ],
+     "claves": [
+      "msh_shumagorath",
+      "msh_spiderman"
+     ]
+    },
+    {
+     "nombre": "Angneto",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "Spider-Man",
+     "clave": "msh_spiderman",
+     "personajes": [
+      "Spider-Man"
+     ],
+     "claves": [
+      "msh_spiderman"
+     ]
+    }
+   ],
+   "rondas": 23
   },
   {
    "quark": "1790448197407-6191",
