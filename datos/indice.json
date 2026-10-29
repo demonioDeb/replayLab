@@ -1,6 +1,49 @@
 {
- "actualizado": "2026-10-29 16:09",
+ "actualizado": "2026-10-29 16:39",
  "videos": [
+  {
+   "quark": "1793225356217-4058",
+   "juego": "sfa3",
+   "juego_nombre": "Street Fighter Alpha 3",
+   "juego_corto": "SFA3",
+   "fecha": "2026-10-28",
+   "youtube": "i5haCCxrERs",
+   "duracion": 792.8,
+   "marcador": [
+    5,
+    1
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "5th master",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Chun-Li",
+     "clave": "sfa3_chunli",
+     "personajes": [
+      "Chun-Li"
+     ],
+     "claves": [
+      "sfa3_chunli"
+     ]
+    },
+    {
+     "nombre": "MiamiX-Alex",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Sodom",
+     "clave": "sfa3_sodom",
+     "personajes": [
+      "Sodom"
+     ],
+     "claves": [
+      "sfa3_sodom"
+     ]
+    }
+   ],
+   "rondas": 17
+  },
   {
    "quark": "1793149852594-1106",
    "juego": "sfa2u",
