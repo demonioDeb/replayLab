@@ -116,28 +116,28 @@ function cardSet(v) {
     <span class="noms">${lado(a, 1)}${lado(b, 2)}</span>
     <span class="pj">${personajes(v)}</span>
     ${gancho ? `<span class="gancho">${esc(gancho)}</span>` : ""}
-    <span class="pie"><span>${esc(v.fecha || "")} · ${v.peleas} ${esc(pl(v.peleas, "u_pelea", "u_peleas"))}</span><b>${esc(T("ver_ficha"))} →</b></span></a>`;
+    <span class="pie"><span>📅 ${esc(v.fecha || "")} · ⚔️ ${v.peleas} ${esc(pl(v.peleas, "u_pelea", "u_peleas"))}</span><b>${esc(T("ver_ficha"))} →</b></span></a>`;
 }
 const bandaPedir = () => {
   const tg = urlTelegram(), dc = urlDiscord();
-  return `<section class="banda"><div class="txt"><h2>${esc(T("pide_t"))}</h2><p>${esc(T("pide_d"))}</p></div>
-    <div class="bt"><a class="bn" href="enviar.html">${esc(T("n_enviar"))}</a>
-      ${dc ? `<a class="bn" href="${esc(dc)}" target="_blank" rel="noopener">Discord ↗</a>` : ""}
-      ${tg ? `<a class="bn" href="${esc(tg)}" target="_blank" rel="noopener">Telegram ↗</a>` : ""}</div></section>`;
+  return `<section class="banda"><div class="txt"><h2>📨 ${esc(T("pide_t"))}</h2><p>${esc(T("pide_d"))}</p></div>
+    <div class="bt"><a class="bn" href="enviar.html">📨 ${esc(T("n_enviar"))}</a>
+      ${dc ? `<a class="bn" href="${esc(dc)}" target="_blank" rel="noopener">💬 Discord ↗</a>` : ""}
+      ${tg ? `<a class="bn" href="${esc(tg)}" target="_blank" rel="noopener">✈️ Telegram ↗</a>` : ""}</div></section>`;
 };
 const franjaApoyo = () => {
   const d = D.sitio.donacion || {};
   if (!d.activo || !d.url) return "";
   return `<section class="banda" style="background:var(--panel);color:var(--ink);clip-path:none;border-left:5px solid var(--oro)">
-    <div class="txt"><h2>☕ ${esc(T("x_apoyo"))}</h2><p style="color:var(--soft)">${esc(T("ap_compacto"))}</p></div>
+    <div class="txt"><h2>☕ ${esc(T("donar"))}</h2><p style="color:var(--soft)">${esc(T("ap_compacto"))}</p></div>
     <div class="bt"><a class="bn" style="background:var(--oro);color:#0b0e14" href="${esc(d.url)}" target="_blank" rel="noopener">☕ ${esc(T("donar"))}</a>
       <a class="bn" style="background:var(--panel2);color:var(--ink)" href="apoyo.html">${esc(T("ap_como"))}</a></div></section>`;
 };
 
 /* ---------------------------------------------------------------- cabecera y pie */
-const NAV = [["index", "n_inicio", "./"], ["partidas", "n_partidas", "partidas.html"], ["canal", "n_redes", "canal.html"]];
+const NAV = [["index", "n_inicio", "./", "🏠"], ["partidas", "n_partidas", "partidas.html", "🥊"], ["canal", "n_redes", "canal.html", "🌐"], ["apoyo", "x_apoyo", "apoyo.html", "☕"]];
 const PAG = document.body.dataset.p;
-const ACTIVA = { enviar: "", apoyo: "", legal: "" }[PAG] ?? PAG;
+const ACTIVA = { enviar: "", legal: "" }[PAG] ?? PAG;
 
 function montaShell() {
   const cab = $("#cab");
@@ -155,9 +155,9 @@ function montaShell() {
 }
 function pintaShell() {
   document.documentElement.lang = LANG;
-  $("#nav").innerHTML = NAV.map(([k, t, h]) => `<a href="${h}"${ACTIVA === k ? ' aria-current="page"' : ""}>${esc(T(t))}</a>`).join("")
-    + `<a class="solo-m" href="enviar.html">${esc(T("n_enviar"))}</a>`;
-  $("#cta").textContent = T("n_enviar");
+  $("#nav").innerHTML = NAV.map(([k, t, h, ic]) => `<a href="${h}"${ACTIVA === k ? ' aria-current="page"' : ""}><span aria-hidden="true">${ic}</span> ${esc(T(t))}</a>`).join("")
+    + `<a class="solo-m" href="enviar.html">📨 ${esc(T("n_enviar"))}</a>`;
+  $("#cta").textContent = "📨 " + T("n_enviar");
   $("#mtx").textContent = T("x_menu");
   $("#idioma").value = LANG;
   $("#pie").innerHTML = `<div class="wrap in"><span>© ${new Date().getFullYear()} Replay Lab</span><span>·</span><span>${esc(T("pie_indep"))}</span><span>·</span>
@@ -181,17 +181,17 @@ function portadaPinta() {
   titulo("");
   const todas = D.indice, n = todas.length;
   const peleas = todas.reduce((a, v) => a + (v.peleas || 0), 0), rondas = todas.reduce((a, v) => a + (v.rondas || 0), 0);
-  const cifras = [[n, T("u_partidas")], [peleas, T("u_peleas")], [rondas, T("rondas_t")], [activos().length, T("n_juegos")]];
+  const cifras = [["🥊", n, T("u_partidas")], ["⚔️", peleas, T("u_peleas")], ["🔁", rondas, T("rondas_t")], ["🎮", activos().length, T("n_juegos")]];
   $("#m").innerHTML = `<div class="wrap">
     <section class="hero"><div><h1>${esc(T("x_hero_a"))} <em>${esc(T("x_hero_b"))}</em></h1>
       <p>${esc(T("h_texto2"))}</p>
-      <div class="acc"><a class="btn oro" href="#sets">${esc(T("h_sets_t"))}</a><a class="btn" href="enviar.html">${esc(T("n_enviar"))}</a></div></div>
-      <div class="cifras">${cifras.map(([x, t]) => `<div class="cifra"><b>${miles(x)}</b><span>${esc(t)}</span></div>`).join("")}</div></section>
-    <section class="sec" id="sets"><div class="sec-cab"><h2>${esc(T("h_sets_t"))}</h2><a class="mas" href="partidas.html">${esc(T("h_ver_todas"))} →</a></div>
+      <div class="acc"><a class="btn oro" href="#sets">🔥 ${esc(T("h_sets_t"))}</a><a class="btn" href="enviar.html">📨 ${esc(T("n_enviar"))}</a></div></div>
+      <div class="cifras">${cifras.map(([e, x, t]) => `<div class="cifra"><b>${miles(x)}</b><span>${e} ${esc(t)}</span></div>`).join("")}</div></section>
+    <section class="sec" id="sets"><div class="sec-cab"><h2>🔥 ${esc(T("h_sets_t"))}</h2><a class="mas" href="partidas.html">${esc(T("h_ver_todas"))} →</a></div>
       <div id="chips"></div><div class="sets" id="rejilla"></div></section>
     ${bandaPedir()}
-    <section class="sec"><div class="sec-cab"><h2>${esc(T("h_como_t"))}</h2></div>
-      <div class="pasos">${["1", "2", "3", "4"].map(i => `<div class="paso"><b>${esc(T("h_c" + i + "_t"))}</b><span>${esc(T("h_c" + i + "_d"))}</span></div>`).join("")}</div></section>
+    <section class="sec"><div class="sec-cab"><h2>⚙️ ${esc(T("h_como_t"))}</h2></div>
+      <div class="pasos">${["1", "2", "3", "4"].map(i => `<div class="paso"><b>${["📼", "🔎", "📺", "🎬"][i - 1]} ${esc(T("h_c" + i + "_t"))}</b><span>${esc(T("h_c" + i + "_d"))}</span></div>`).join("")}</div></section>
     ${franjaApoyo()}</div>`;
   portadaRejilla();
 }
@@ -214,7 +214,7 @@ function buscaTexto(v, q) {
 function partidasPinta() {
   titulo(T("n_partidas"));
   const p = ST.p;
-  $("#m").innerHTML = `<div class="wrap"><div class="pag-cab"><h1>${esc(T("n_partidas"))}</h1><p>${esc(T("h_texto2"))}</p></div>
+  $("#m").innerHTML = `<div class="wrap"><div class="pag-cab"><h1>🥊 ${esc(T("n_partidas"))}</h1><p>${esc(T("h_texto2"))}</p></div>
     <div class="barra"><input id="q" type="search" autocomplete="off" placeholder="${esc(T("x_buscar"))}" aria-label="${esc(T("x_buscar"))}" value="${esc(p.q)}">
       <select id="ord" aria-label="${esc(T("x_orden"))}">${[["fecha", "o_fecha"], ["duracion", "o_duracion"], ["peleas", "o_peleas"], ["jugador", "o_jugador"]]
         .map(([k, t]) => `<option value="${k}"${p.orden === k ? " selected" : ""}>${esc(T("x_orden"))}: ${esc(T(t))}</option>`).join("")}</select></div>
@@ -256,17 +256,14 @@ function enviarPinta() {
   titulo(T("e_titulo"));
   const previo = $("#e-url") ? $("#e-url").value : (Q.get("replay") || "");
   const tg = urlTelegram(), dc = urlDiscord();
-  const panel = (cls, ic, nombre, ks, btn, id) => `<section class="vs-p ${cls}"><span class="vs-ic" aria-hidden="true">${ic}</span><h2>${nombre}</h2>
-      <ol>${ks.map(k => `<li>${esc(T(k))}</li>`).join("")}</ol><a class="vs-b" id="${id}" target="_blank" rel="noopener">${esc(T(btn))} ↗</a></section>`;
-  $("#m").innerHTML = `<div class="wrap"><div class="pag-cab"><h1>${esc(T("e_titulo"))}</h1><p>${esc(T("e_sub"))}</p></div>
+  const panel = (cls, ic, nombre, id) => `<a class="vs-p ${cls}" id="${id}" target="_blank" rel="noopener"><span class="vs-ic" aria-hidden="true">${ic}</span><h2>${nombre}</h2><span class="vs-go">${esc(T(id === "b-tg" ? "e_tg_btn" : "e_dc_btn"))} ↗</span></a>`;
+  $("#m").innerHTML = `<div class="wrap"><div class="pag-cab"><h1>📨 ${esc(T("e_titulo"))}</h1><p>${esc(T("e_sub"))}</p></div>
     <div class="vsbar"><label class="sr" for="e-url">${esc(T("e_campo"))}</label>
-      <input id="e-url" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="${esc(T("e_campo"))} · https://replay.fightcade.com/…" value="${esc(previo)}">
-      <button class="btn" type="button" id="e-pegar">${esc(T("x_pegar"))}</button></div>
+      <input id="e-url" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="🔗 ${esc(T("e_campo"))}" value="${esc(previo)}">
+      <button class="btn" type="button" id="e-pegar">📋 ${esc(T("x_pegar"))}</button></div>
     <div class="ticket" id="ticket" aria-live="polite"></div>
-    <p class="vs-t">${esc(T("e_elige"))}</p>
-    <div class="vs">${tg ? panel("tg", "✈️", "Telegram", ["e_tg_1", "e_tg_2", "e_tg_3"], "e_tg_btn", "b-tg") : ""}${dc ? panel("dc", "💬", "Discord", ["e_dc_1", "e_dc_2", "e_dc_3"], "e_dc_btn", "b-dc") : ""}</div>
-    <section class="sec"><div class="sec-cab"><h2>${esc(T("e_cola"))}</h2></div><ul class="cola" id="cola"></ul>
-      <div class="jchips">${activos().map(j => `<span style="--g:${colorDe(j)}">${esc(j.corto)}</span>`).join("")}</div></section></div>`;
+    <div class="vs">${tg ? panel("tg", "✈️", "Telegram", "b-tg") : ""}${dc ? panel("dc", "💬", "Discord", "b-dc") : ""}</div>
+    <section class="sec" id="b-cola" hidden><div class="sec-cab"><h2>⏳ ${esc(T("e_cola"))}</h2></div><ul class="cola" id="cola"></ul></section></div>`;
   $("#e-url").oninput = revisa;
   $("#e-pegar").onclick = async () => {
     try { $("#e-url").value = await navigator.clipboard.readText(); } catch (e) { $("#e-url").focus(); return; }
@@ -307,12 +304,12 @@ function pintaRedes() {
   if (bd) { bd.href = dc; bd.classList.toggle("listo", listo); }
 }
 function pintaCola() {
-  const ul = $("#cola");
+  const ul = $("#cola"), sec = $("#b-cola");
   if (!ul) return;
-  if (COLA === null) { ul.innerHTML = `<li class="vac">${esc(T("e_cola_error"))}</li>`; return; }
-  ul.innerHTML = !COLA.length ? `<li class="vac">${esc(T("e_cola_vacia"))}</li>` :
-    COLA.slice(0, 10).map((c, i) => { const j = c.g ? juegoDeId(c.g) : null;
-      return `<li><span class="n">${i + 1}</span><span class="j" style="--g:${colorDe(j)}">${esc(j ? j.corto : (c.g || "?"))}</span><span class="q">${esc(c.p || c.q || "—")}</span>${c.pedido ? `<span class="p">📩</span>` : ""}</li>`; }).join("");
+  sec.hidden = !COLA || !COLA.length;
+  if (sec.hidden) return;
+  ul.innerHTML = COLA.slice(0, 8).map((c, i) => { const j = c.g ? juegoDeId(c.g) : null;
+    return `<li><span class="n">${i + 1}</span><span class="j" style="--g:${colorDe(j)}">${esc(j ? j.corto : (c.g || "?"))}</span><span class="q">${esc(c.p || c.q || "—")}</span>${c.pedido ? `<span class="p">📩</span>` : ""}</li>`; }).join("");
 }
 async function cargaCola() {
   const b = botNube();
@@ -339,14 +336,14 @@ function apoyoPinta() {
     <div class="prosa"><p>${esc(T("ap_p1"))}</p><p>${esc(T("ap_p2"))}</p><p>${esc(T("ap_p3"))}</p></div>
     ${d.activo && d.url ? `<a class="cafe" href="${esc(d.url)}" target="_blank" rel="noopener">☕ ${esc(T("donar"))}</a>` : ""}
     <p class="cuenta">${esc(T("ap_nota"))}</p>
-    <section class="sec"><div class="sec-cab"><h2>${esc(T("ap_cuesta"))}</h2></div><ul class="costes">${COSTES.map(([ic, k]) => { const [t, ...r] = T(k).split(":");
+    <section class="sec"><div class="sec-cab"><h2>🔧 ${esc(T("ap_cuesta"))}</h2></div><ul class="costes">${COSTES.map(([ic, k]) => { const [t, ...r] = T(k).split(":");
       return `<li><span class="ic">${ic}</span><span><b>${esc(t)}</b>${r.length ? " · " + esc(r.join(":").trim()) : ""}</span></li>`; }).join("")}</ul></section>
-    <section class="sec prog"><div class="sec-cab"><h2>${esc(T("ap_progreso"))}</h2></div>
+    <section class="sec prog"><div class="sec-cab"><h2>🏆 ${esc(T("ap_progreso"))}</h2></div>
       <div class="pg-n">${miles(n)}<small>${esc(pl(n, "ap_procesada", "ap_procesadas"))}</small></div>
       ${sig ? `<div class="barra-pg" role="progressbar" aria-valuemin="0" aria-valuemax="${sig}" aria-valuenow="${n}"><i style="width:${pct}%"></i></div>
         <div class="lin"><span>${esc(T("ap_siguiente"))}: ${esc(F("l_n", miles(sig)))}</span><span>${miles(n)} / ${miles(sig)}</span></div>` : ""}
       <p class="cuenta" style="margin-top:16px">${esc(T("ap_viene"))}</p><ul class="viene">${viene.join("")}</ul></section>
-    <section class="sec"><div class="sec-cab"><h2>${esc(T("ap_logros"))}</h2></div><p class="cuenta">${esc(T("ap_logros_sub"))}</p>
+    <section class="sec"><div class="sec-cab"><h2>🎖️ ${esc(T("ap_logros"))}</h2></div><p class="cuenta">${esc(T("ap_logros_sub"))}</p>
       <ul class="logros">${L.map(([ok, t]) => `<li class="${ok ? "ok" : "no"}"><span>${ok ? "✓" : "🔒"}</span><span>${esc(t)}</span><span class="e">${esc(T(ok ? "ap_ok" : "ap_no"))}</span></li>`).join("")}</ul></section></div>`;
 }
 
@@ -374,7 +371,7 @@ function canalPinta() {
     cifras: dk ? cifra(dc.miembros, "dc_miembros") + cifra(dc.en_linea, "dc_en_linea") : "", seguir: urlDiscord(), tSeguir: T("dc_unirse"), fuente: dk ? F("dc_datos", fechaCorta(dc.actualizado)) : "" }));
   const tg = urlTelegram();
   if (tg) t.push(barraRed({ clase: "tg", red: "Telegram", letra: "✈️", icono: "✈️", nombre: "replayLab Bot", cifras: "", seguir: tg, tSeguir: T("e_tg_btn") }));
-  $("#m").innerHTML = `<div class="wrap"><div class="pag-cab"><h1>${esc(T("rd_titulo"))}</h1><p>${esc(T("rd_sub"))}</p></div><div class="rbs">${t.join("")}</div>${franjaApoyo()}</div>`;
+  $("#m").innerHTML = `<div class="wrap"><div class="pag-cab"><h1>🌐 ${esc(T("rd_titulo"))}</h1><p>${esc(T("rd_sub"))}</p></div><div class="rbs">${t.join("")}</div>${franjaApoyo()}</div>`;
 }
 
 /* ---------------------------------------------------------------- arranque */
