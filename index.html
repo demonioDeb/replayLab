@@ -3,145 +3,30 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>replayLab</title>
-<meta name="description" content="Análisis de partidas de juegos de pelea: replays de Fightcade grabados, con estadísticas leídas de la propia partida.">
+<title>Replay Lab · replayLab</title>
+<meta name="description" content="Replays de Fightcade con su marcador y estadísticas: cada set de juegos de pelea, analizado y subido a YouTube.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
-<meta name="theme-color" content="#0a0d15">
-<meta name="google-site-verification" content="jsIm7nFWKCDffjTVnqlvtT30W5uBaSsZl49o3GyhV9A" />
-<!-- vista previa al compartir (Open Graph / X): imagen de 1200 × 630 en assets/og.png -->
+<meta name="theme-color" content="#0b0e14">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="replayLab">
-<meta property="og:title" content="replayLab · replays de juegos de pelea">
-<meta property="og:description" content="Análisis de partidas de juegos de pelea: replays de Fightcade grabados, con estadísticas leídas de la propia partida.">
-<meta property="og:url" content="https://demoniodeb.github.io/replayLab/">
+<meta property="og:title" content="Replay Lab · replayLab">
+<meta property="og:description" content="Replays de Fightcade con su marcador y estadísticas: cada set de juegos de pelea, analizado y subido a YouTube.">
+<meta property="og:url" content="https://demoniodeb.github.io/replayLab/index.html">
 <meta property="og:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="replayLab: replays de juegos de pelea de Fightcade con estadísticas">
-<meta property="og:locale" content="es_ES">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="replayLab · replays de juegos de pelea">
-<meta name="twitter:description" content="Análisis de partidas de juegos de pelea: replays de Fightcade grabados, con estadísticas leídas de la propia partida.">
-<meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=35426b03be">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Bebas+Neue&family=Rajdhani:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/nuevo.css?v=460860264e">
 </head>
-<body>
-<header id="cabsitio"></header>
-
-<main class="wrap">
-  <!-- (29 oct) Portada nueva: frase corta, cifras y los últimos sets (la misma tarjeta que usa
-       la lista de partidas). El «cómo funciona» queda plegado; lo demás vive en su página. -->
-  <section class="hero hero2">
-    <div class="hero-txt">
-      <h1 id="h-titulo"></h1>
-      <p id="h-texto"></p>
-      <div class="hero-cta">
-        <a class="btn prim" href="#sets" id="h-ver"></a>
-        <a class="btn" href="enviar.html" id="h-pedir"></a>
-        <a class="btn cafe" id="h-cafe" target="_blank" rel="noopener" hidden></a>
-      </div>
-    </div>
-    <div class="hero-cifras" id="cifras"></div>
-  </section>
-
-  <section class="bloque" id="sets">
-    <div class="bloque-cab"><h2 id="t-sets"></h2><a class="ver-todas" id="ver-todas" href="partidas.html"></a></div>
-    <div class="filtro-juegos" id="filtro" role="group"></div>
-    <div class="sets-grid" id="lista"></div>
-  </section>
-
-  <section class="pide" id="pide">
-    <div class="pide-txt"><h2 id="pide-t"></h2><p id="pide-d"></p></div>
-    <div class="pide-bt" id="pide-bt"></div>
-  </section>
-
-  <details class="como-det">
-    <summary id="t-como"></summary>
-    <ol class="como" id="como"></ol>
-  </details>
-
-  <div id="cafe"></div>
-</main>
-
-<footer class="wrap" id="pie"></footer>
-
-<script src="assets/app.js?v=444a77a3c3"></script>
-<script src="assets/lista.js?v=53b075d4c0"></script>
-<script>
-"use strict";
-let INDICE = { videos: [] };
-let FILTRO = "";
-const CUANTOS = 6;       // sets que enseña la portada; el resto está en Partidas
-
-function pintaFiltro(todas) {
-  const conPartidas = juegosActivos().filter(j => todas.some(v => juegoDe(v) === j));
-  const el = $("#filtro");
-  el.hidden = conPartidas.length <= 1;
-  const chip = (id, texto, n) =>
-    `<button data-j="${esc(id)}" aria-pressed="${FILTRO === id}">${esc(texto)}<span class="n">${n}</span></button>`;
-  el.innerHTML = chip("", T("p_todos"), todas.length) +
-    conPartidas.map(j => chip(j.id, j.corto || j.nombre, todas.filter(v => juegoDe(v) === j).length)).join("");
-}
-
-function pinta() {
-  document.documentElement.lang = LANG;
-  textosCabecera(); pintaPie();
-  $("#h-titulo").textContent = T("h_titulo");
-  $("#h-texto").textContent = T("h_texto2");
-  $("#h-ver").textContent = "🕹️ " + T("h_sets_t");
-  $("#h-pedir").textContent = "📨 " + T("h_pedir");
-  $("#t-sets").textContent = T("h_sets_t");
-  $("#pide-t").textContent = T("pide_t");
-  $("#pide-d").textContent = T("pide_d");
-  const dc = urlDiscord(), tg = urlTelegram();
-  $("#pide-bt").innerHTML = `<a class="btn prim" href="enviar.html">📨 ${esc(T("h_pedir"))}</a>`
-    + (dc ? `<a class="btn" href="${esc(dc)}" target="_blank" rel="noopener">${esc(T("n_discord"))}</a>` : "")
-    + (tg ? `<a class="btn" href="${esc(tg)}" target="_blank" rel="noopener">${esc(T("n_telegram"))}</a>` : "");
-  // cómo funciona: del replay a la ficha (plegado)
-  $("#t-como").textContent = T("h_como_t");
-  $("#como").innerHTML = [["🎮", 1], ["🧠", 2], ["📺", 3], ["🎙️", 4], ["🌐", 5]].map(([ic, n]) =>
-    `<li><span class="como-n">${n}</span><span class="como-ic" aria-hidden="true">${ic}</span>
-      <div><h3>${esc(T("h_c" + n + "_t"))}</h3><p>${esc(T("h_c" + n + "_d"))}</p></div></li>`).join("");
-  const don = (SITIO || {}).donacion || {};
-  const cafeOk = !!(don.activo && don.url);
-  $("#h-cafe").hidden = !cafeOk;
-  if (cafeOk) { $("#h-cafe").href = don.url; $("#h-cafe").textContent = "☕ " + T("h_cafe_btn"); }
-  $("#cafe").innerHTML = cafeOk ? `<aside class="cafe-panel">
-      <span class="cp-ic" aria-hidden="true">☕</span>
-      <div class="cp-txt"><h2>${esc(T("h_cafe_t"))}</h2><p>${esc(T("h_cafe_d"))}</p></div>
-      <div class="cp-acc"><a class="cafe-btn" href="${esc(don.url)}" target="_blank" rel="noopener">☕ ${esc(T("h_cafe_btn"))}</a>
-        <a class="cp-mas" href="apoyo.html">${esc(T("h_cafe_mas"))} →</a></div></aside>` : "";
-  // cifras reales, sacadas del índice: nada inventado
-  const todas = INDICE.videos || [];
-  const peleas = todas.reduce((a, v) => a + (v.peleas || 0), 0);
-  const rondas = todas.reduce((a, v) => a + (v.rondas || 0), 0);
-  const juegos = juegosActivos().length;
-  $("#cifras").innerHTML = todas.length ? [
-      [juegos, T("n_juegos").toLowerCase()], [todas.length, pl(todas.length, "u_partida", "u_partidas")],
-      [peleas, pl(peleas, "u_pelea", "u_peleas")], [rondas, T("rondas_t").toLowerCase()],
-    ].map(([n, t]) => `<span><b>${milesDe(n)}</b>${esc(t)}</span>`).join("") : "";
-  // los últimos sets (con filtro por juego)
-  pintaFiltro(todas);
-  const lista = todas.filter(v => !FILTRO || (juegoDe(v) || {}).id === FILTRO).slice(0, CUANTOS);
-  $("#lista").innerHTML = lista.map(PINTA.set).join("");
-  const ver = $("#ver-todas");
-  ver.textContent = T("h_ver_todas") + " →";
-  ver.href = "partidas.html" + (FILTRO ? "?juego=" + encodeURIComponent(FILTRO) : "");
-}
-
-$("#filtro").addEventListener("click", e => {
-  const b = e.target.closest("button[data-j]");
-  if (!b) return;
-  FILTRO = b.dataset.j;
-  sinSalto(pinta, "#filtro");
-});
-montaCabecera("inicio", pinta);
-pinta();
-Promise.all([cargaBase(), json("datos/indice.json").then(d => { INDICE = d; }).catch(() => {})])
-  .then(pinta);
-</script>
+<body data-p="index">
+<header id="cab"></header>
+<main id="m"><div class="wrap"><p class="vacio">…</p></div></main>
+<footer id="pie"></footer>
+<script src="assets/nuevo.js?v=c1967bac1c"></script>
 </body>
 </html>

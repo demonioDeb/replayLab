@@ -4,113 +4,29 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Redes · replayLab</title>
-<meta name="description" content="replayLab en YouTube y en Facebook: cada partida nueva con su overlay de estadísticas.">
+<meta name="description" content="YouTube, Facebook y Discord de Replay Lab.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
-<meta name="theme-color" content="#0a0d15">
-<!-- vista previa al compartir (Open Graph / X): imagen de 1200 × 630 en assets/og.png -->
+<meta name="theme-color" content="#0b0e14">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="replayLab">
 <meta property="og:title" content="Redes · replayLab">
-<meta property="og:description" content="replayLab en YouTube y en Facebook: cada partida nueva con su overlay de estadísticas.">
+<meta property="og:description" content="YouTube, Facebook y Discord de Replay Lab.">
 <meta property="og:url" content="https://demoniodeb.github.io/replayLab/canal.html">
 <meta property="og:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="replayLab: replays de juegos de pelea de Fightcade con estadísticas">
-<meta property="og:locale" content="es_ES">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Redes · replayLab">
-<meta name="twitter:description" content="replayLab en YouTube y en Facebook: cada partida nueva con su overlay de estadísticas.">
-<meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=35426b03be">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Bebas+Neue&family=Rajdhani:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/nuevo.css?v=460860264e">
 </head>
-<body>
-<header id="cabsitio"></header>
-
-<main class="wrap">
-  <!-- Las redes de replayLab: datos básicos de cada una y el botón para seguirla.
-       YouTube: datos/canal.json · Facebook: datos/facebook.json · Discord: datos/discord.json
-       (los escribe fcrec).
-       Las cifras se enseñan tal cual y sólo si tienen menos de 30 días. -->
-  <section class="rd-cab">
-    <h1 id="rd-t"></h1>
-    <p id="rd-s"></p>
-  </section>
-  <section class="rd-redes" id="redes"></section>
-  <div id="apoyo"></div>
-</main>
-
-<footer class="wrap" id="pie"></footer>
-
-<script src="assets/app.js?v=444a77a3c3"></script>
-<script>
-"use strict";
-const cifra = (n, k) => n == null ? "" :
-  `<div class="rd-cifra"><b>${milesDe(n)}</b><span>${esc(T(k))}</span></div>`;
-
-// Una tarjeta por red: foto, nombre, qué se publica, cifras y botones.
-function tarjeta(o) {
-  const foto = o.foto
-    ? `<img class="rd-foto" src="${esc(o.foto)}" alt="" referrerpolicy="no-referrer">`
-    : `<span class="rd-foto rd-sin">${o.letra}</span>`;
-  return `<article class="rd-red ${o.clase}">
-      <div class="rd-top">${foto}
-        <div class="rd-id"><span class="rd-red-n">${esc(o.red)}</span>
-          <h2>${esc(o.nombre)}</h2>${o.sub ? `<span class="rd-handle">${esc(o.sub)}</span>` : ""}</div></div>
-      <p class="rd-desc">${esc(o.desc)}</p>
-      ${o.cifras ? `<div class="rd-cifras">${o.cifras}</div>` : ""}
-      <div class="rd-botones">
-        ${o.seguir ? `<a class="btn rd-seguir" href="${esc(o.seguir)}" target="_blank" rel="noopener">${o.icono} ${esc(o.tSeguir)}</a>` : ""}
-        ${o.ver ? `<a class="btn" href="${esc(o.ver)}" target="_blank" rel="noopener">${esc(o.tVer)} ↗</a>` : ""}</div>
-      ${o.fuente ? `<p class="rd-fuente">${esc(o.fuente)}</p>` : ""}
-    </article>`;
-}
-
-function pinta() {
-  document.documentElement.lang = LANG;
-  document.title = T("n_redes") + " · replayLab";
-  textosCabecera(); pintaPie(); pintaApoyo();
-  $("#rd-t").textContent = T("rd_titulo");
-  $("#rd-s").textContent = T("rd_sub");
-  const tarjetas = [];
-  // YouTube
-  const c = CANAL || {}, ytOk = canalFresco();
-  if (urlCanal()) tarjetas.push(tarjeta({
-    clase: "rd-yt", red: "YouTube", letra: "▶", icono: "🔔",
-    foto: ytOk ? c.avatar : "", nombre: (ytOk && c.nombre) || "replayLab",
-    sub: ytOk && c.handle ? "@" + c.handle : "", desc: T("rd_yt_desc"),
-    cifras: ytOk ? (c.suscriptores != null ? cifra(c.suscriptores, "yt_suscriptores") : "") +
-                   cifra(c.videos, "yt_videos") + cifra(c.vistas, "yt_vistas") : "",
-    seguir: urlSuscribir(), tSeguir: T("yt_suscribete"), ver: urlCanal(), tVer: T("yt_ver_canal"),
-    fuente: ytOk ? T("yt_datos").replace("%s", fechaCorta(c.actualizado)) : "" }));
-  // Facebook
-  const f = FACEBOOK || {}, fbOk = facebookFresco();
-  if (urlFacebook()) tarjetas.push(tarjeta({
-    clase: "rd-fb", red: "Facebook", letra: "f", icono: "👍",
-    foto: fbOk ? f.foto : "", nombre: (fbOk && f.nombre) || "replayLab", sub: "",
-    desc: T("rd_fb_desc"),
-    cifras: fbOk && f.seguidores != null ? cifra(f.seguidores, "fb_seguidores") : "",
-    seguir: urlFacebook(), tSeguir: T("fb_seguir"), ver: "", tVer: "",
-    fuente: fbOk ? T("fb_datos").replace("%s", fechaCorta(f.actualizado)) : "" }));
-  // Discord (7 oct)
-  const dc = DISCORD || {}, dcOk = discordFresco();
-  if (urlDiscord()) tarjetas.push(tarjeta({
-    clase: "rd-dc", red: "Discord", letra: "💬", icono: "💬",
-    foto: dcOk ? dc.icono : "", nombre: (dcOk && dc.nombre) || "replayLab", sub: "",
-    desc: T("rd_dc_desc"),
-    cifras: dcOk ? (dc.miembros != null ? cifra(dc.miembros, "dc_miembros") : "") +
-                   (dc.en_linea != null ? cifra(dc.en_linea, "dc_en_linea") : "") : "",
-    seguir: urlDiscord(), tSeguir: T("dc_unirse"), ver: "", tVer: "",
-    fuente: dcOk ? T("dc_datos").replace("%s", fechaCorta(dc.actualizado)) : "" }));
-  $("#redes").innerHTML = tarjetas.join("");
-}
-
-montaCabecera("canal", pinta);
-pinta();
-cargaBase().then(pinta);
-</script>
+<body data-p="canal">
+<header id="cab"></header>
+<main id="m"><div class="wrap"><p class="vacio">…</p></div></main>
+<footer id="pie"></footer>
+<script src="assets/nuevo.js?v=c1967bac1c"></script>
 </body>
 </html>

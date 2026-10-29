@@ -3,208 +3,30 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Pedir un replay · replayLab</title>
-<meta name="description" content="Pide a Replay Lab un replay de Fightcade por Telegram o Discord: lo grabamos, lo analizamos y lo publicamos con todas sus estadísticas.">
+<title>Pide un replay · replayLab</title>
+<meta name="description" content="Pide que Replay Lab grabe tu replay de Fightcade por Telegram o Discord.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
-<meta name="theme-color" content="#0a0d15">
-<!-- vista previa al compartir (Open Graph / X): imagen de 1200 × 630 en assets/og.png -->
+<meta name="theme-color" content="#0b0e14">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="replayLab">
-<meta property="og:title" content="Pedir un replay · replayLab">
-<meta property="og:description" content="Pide a Replay Lab un replay de Fightcade por Telegram o Discord: lo grabamos, lo analizamos y lo publicamos con todas sus estadísticas.">
+<meta property="og:title" content="Pide un replay · replayLab">
+<meta property="og:description" content="Pide que Replay Lab grabe tu replay de Fightcade por Telegram o Discord.">
 <meta property="og:url" content="https://demoniodeb.github.io/replayLab/enviar.html">
 <meta property="og:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="replayLab: replays de juegos de pelea de Fightcade con estadísticas">
-<meta property="og:locale" content="es_ES">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Pedir un replay · replayLab">
-<meta name="twitter:description" content="Pide a Replay Lab un replay de Fightcade por Telegram o Discord: lo grabamos, lo analizamos y lo publicamos con todas sus estadísticas.">
-<meta name="twitter:image" content="https://demoniodeb.github.io/replayLab/assets/og.png">
-<link rel="stylesheet" href="assets/estilo.css?v=35426b03be">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Bebas+Neue&family=Rajdhani:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="assets/nuevo.css?v=460860264e">
 </head>
-<body>
-<header id="cabsitio"></header>
-
-<main class="wrap estrecho">
-  <!-- (20 oct) Pedir un replay: sólo por Telegram o por Discord (antes, un issue de GitHub).
-       Los dos bots viven en el Worker de Cloudflare (nube/worker.js) y contestan con la PC
-       apagada. Desde aquí se comprueba el enlace y Telegram se abre con el pedido ya escrito
-       (t.me/<bot>?start=p_<juego>_<número>); para Discord se copia el enlace y se abre el
-       servidor. La cola sale en vivo del Worker (GET /cola, sin datos de nadie). -->
-  <section class="enviar activa">
-    <h1 id="e-titulo"></h1>
-    <p class="e-sub" id="e-sub"></p>
-    <form class="e-form" id="e-form" novalidate>
-      <label for="e-url" id="e-campo"></label>
-      <div class="e-fila">
-        <input id="e-url" type="url" inputmode="url" autocomplete="off" spellcheck="false"
-               placeholder="https://replay.fightcade.com/fbneo/ssf2xjr1/…">
-      </div>
-      <p class="e-estado" id="e-estado" aria-live="polite"></p>
-    </form>
-    <p class="e-elige" id="e-elige"></p>
-    <div class="e-redes">
-      <aside class="e-discord tg" id="e-tg" hidden></aside>
-      <aside class="e-discord" id="e-dc" hidden></aside>
-    </div>
-  </section>
-
-  <section class="bloque" id="b-cola" hidden>
-    <div class="bloque-cab"><h2 id="t-cola"></h2></div>
-    <ul class="cola" id="cola"></ul>
-  </section>
-
-  <section class="bloque">
-    <div class="bloque-cab"><h2 id="t-como"></h2></div>
-    <ol class="pasos" id="pasos"></ol>
-  </section>
-
-  <section class="bloque">
-    <div class="bloque-cab"><h2 id="t-juegos"></h2></div>
-    <div class="rejilla-juegos" id="juegos"></div>
-  </section>
-
-  <div id="apoyo"></div>
-</main>
-
-<footer class="wrap" id="pie"></footer>
-
-<script src="assets/app.js?v=444a77a3c3"></script>
-<script src="assets/lista.js?v=53b075d4c0"></script>
-<script>
-"use strict";
-let INDICE = { videos: [] };
-let COLA = null;             // la cola del Worker: [{g, p, q, pedido}] · null = sin cargar
-let COLA_ERROR = false;
-let PEDIDO = null;           // lo que se va a pedir: {url, quark, gameid, juego}
-
-// El mismo patrón que fcrec/fightcade.py (parse_link): …/<gameid>/<quark> o el quark suelto.
-const RE_ENLACE = /(?:replay\/(?:fbneo\/|flycast\/|[a-z0-9]+\/)?)?([a-z0-9_]+)\/(\d{10,}-\d+)(?:\.\d+)?/i;
-const RE_QUARK = /^\d{10,}-\d+$/;
-function leeEnlace(txt) {
-  txt = (txt || "").trim();
-  if (!txt) return null;
-  if (RE_QUARK.test(txt)) return { url: txt, quark: txt, gameid: "" };
-  const m = txt.match(RE_ENLACE);
-  return m ? { url: txt, quark: m[2], gameid: m[1].toLowerCase() } : { mal: true };
-}
-const juegoDeId = gid => JUEGOS.find(j => (j.gameids || []).includes(gid)) || null;
-const botNube = () => String((SITIO || {}).bot_nube || "").replace(/\/$/, "");
-
-// Comprueba el enlace mientras se escribe y deja los botones listos o dice por qué no.
-function revisa() {
-  const r = leeEnlace($("#e-url").value), est = $("#e-estado");
-  PEDIDO = null;
-  est.className = "e-estado";
-  if (!r) { est.textContent = ""; }
-  else if (r.mal) { est.textContent = T("e_mal"); est.classList.add("mal"); }
-  else {
-    const ya = (INDICE.videos || []).find(v => v.quark === r.quark);
-    const enCola = (COLA || []).findIndex(c => c.q === r.quark);
-    const j = r.gameid ? juegoDeId(r.gameid) : null;
-    if (ya) {
-      est.innerHTML = `✅ ${esc(T("e_ya"))} <a href="video.html?q=${encodeURIComponent(r.quark)}">${esc(T("e_ver"))} →</a>`;
-      est.classList.add("ok");
-    } else if (enCola >= 0) {
-      est.textContent = `⏳ ${T("e_en_cola")} · #${enCola + 1}`; est.classList.add("aviso");
-    } else if (r.gameid && !j) {
-      est.textContent = T("e_nojuego"); est.classList.add("mal");
-    } else if (j && j.estado !== "activo") {
-      est.textContent = T("e_prox").replace("%s", j.nombre_completo || j.nombre); est.classList.add("mal");
-    } else {
-      PEDIDO = { ...r, juego: j };
-      est.textContent = "✔ " + (j ? T("e_ok").replace("%s", j.nombre_completo || j.nombre) : T("e_ok_sin"));
-      est.classList.add("ok");
-    }
-  }
-  pintaRedes();
-}
-
-// Las dos formas de pedir. Telegram: con el enlace bueno, el bot se abre con el pedido
-// escrito (sólo hace falta el juego en el enlace). Discord: se copia el enlace y se abre.
-function pintaRedes() {
-  const tg = urlTelegram(), dc = urlDiscord();
-  $("#e-elige").hidden = !(tg || dc);
-  $("#e-elige").textContent = T("e_elige");
-  const tge = $("#e-tg"), dce = $("#e-dc");
-  tge.hidden = !tg; dce.hidden = !dc;
-  if (tg) {
-    const directo = PEDIDO && PEDIDO.gameid;
-    const href = directo ? `${tg}?start=${encodeURIComponent(`p_${PEDIDO.gameid}_${PEDIDO.quark}`)}` : tg;
-    tge.innerHTML = `<div class="e-dc-txt"><b>✈️ ${esc(T("e_tg_t"))}</b>
-        <ol class="e-mini">${["e_tg_1", "e_tg_2", "e_tg_3"].map(k => `<li>${esc(T(k))}</li>`).join("")}</ol></div>
-      <a class="btn e-tg-btn" href="${esc(href)}" target="_blank" rel="noopener">${esc(T("e_tg_btn"))} ↗</a>`;
-  }
-  if (dc) {
-    dce.innerHTML = `<div class="e-dc-txt"><b>💬 ${esc(T("e_dc_t"))}</b>
-        <ol class="e-mini">${["e_dc_1", "e_dc_2", "e_dc_3"].map(k => `<li>${esc(T(k))}</li>`).join("")}</ol></div>
-      <a class="btn e-dc-btn" id="e-dc-btn" href="${esc(dc)}" target="_blank" rel="noopener">${esc(T("e_dc_btn"))} ↗</a>`;
-    $("#e-dc-btn").addEventListener("click", () => {
-      if (!PEDIDO) return;
-      try { navigator.clipboard.writeText(PEDIDO.url); } catch (e) {}
-      const est = $("#e-estado");
-      est.className = "e-estado aviso"; est.textContent = "📋 " + T("e_copiado");
-    });
-  }
-}
-$("#e-form").addEventListener("submit", e => { e.preventDefault(); revisa(); });
-$("#e-url").addEventListener("input", revisa);
-
-// La cola, en vivo desde el Worker (lo próximo que se graba; los pedidos van primero).
-async function cargaCola() {
-  const b = botNube();
-  if (!b) return;
-  try {
-    const r = await fetch(b + "/cola");
-    if (!r.ok) throw new Error(r.status);
-    COLA = (await r.json()).cola || [];
-  } catch (err) { COLA = null; }        // sin cola (Worker viejo o caído): la sección no sale
-  pinta();
-}
-
-function pintaCola() {
-  $("#b-cola").hidden = COLA === null;
-  if (COLA === null) return;
-  $("#t-cola").textContent = "⏳ " + T("e_cola");
-  if (COLA_ERROR) { $("#cola").innerHTML = `<li class="vacio">${esc(T("e_cola_error"))}</li>`; return; }
-  if (!COLA.length) { $("#cola").innerHTML = `<li class="vacio">${esc(T("e_cola_vacia"))}</li>`; return; }
-  $("#cola").innerHTML = COLA.slice(0, 15).map((c, i) => {
-    const j = c.g ? juegoDeId(c.g) : null;
-    return `<li>
-      <span class="c-n">#${i + 1}</span>
-      <span class="c-j">${esc(j ? j.corto : (c.g || "?"))}</span>
-      <span class="c-q">${esc(c.p || c.q || "—")}</span>
-      <span class="c-f"></span>
-      ${c.pedido ? `<span class="c-p">📩 ${esc(T("e_pedido"))}</span>` : `<span></span>`}</li>`;
-  }).join("");
-}
-
-function pinta() {
-  document.documentElement.lang = LANG;
-  document.title = T("e_titulo") + " · replayLab";
-  textosCabecera(); pintaPie(); pintaApoyo();
-  $("#e-titulo").textContent = "📨 " + T("e_titulo");
-  $("#e-sub").textContent = T("e_sub");
-  $("#e-campo").textContent = T("e_campo");
-  $("#t-como").textContent = T("e_como");
-  $("#pasos").innerHTML = ["e_p1", "e_p2", "e_p3", "e_p4", "e_p5"].map(k => `<li>${esc(T(k))}</li>`).join("");
-  $("#t-juegos").textContent = T("e_juegos");
-  const orden = [...juegosActivos(), ...JUEGOS.filter(j => j.estado !== "activo")];
-  $("#juegos").innerHTML = orden.map(j => tarjetaJuego(j, INDICE.videos || [])).join("");
-  pintaCola();
-  revisa();
-}
-montaCabecera("enviar", pinta);
-// se puede enlazar con el replay ya puesto: enviar.html?replay=<enlace>
-if (Q.get("replay")) $("#e-url").value = Q.get("replay");
-pinta();
-Promise.all([cargaBase(), json("datos/indice.json").then(d => { INDICE = d; }).catch(() => {})])
-  .then(() => { pinta(); cargaCola(); });
-</script>
+<body data-p="enviar">
+<header id="cab"></header>
+<main id="m"><div class="wrap"><p class="vacio">…</p></div></main>
+<footer id="pie"></footer>
+<script src="assets/nuevo.js?v=c1967bac1c"></script>
 </body>
 </html>
