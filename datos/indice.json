@@ -1,49 +1,6 @@
 {
- "actualizado": "2026-10-29 16:39",
+ "actualizado": "2026-10-29 16:40",
  "videos": [
-  {
-   "quark": "1793225356217-4058",
-   "juego": "sfa3",
-   "juego_nombre": "Street Fighter Alpha 3",
-   "juego_corto": "SFA3",
-   "fecha": "2026-10-28",
-   "youtube": "i5haCCxrERs",
-   "duracion": 792.8,
-   "marcador": [
-    5,
-    1
-   ],
-   "peleas": 6,
-   "jugadores": [
-    {
-     "nombre": "5th master",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Chun-Li",
-     "clave": "sfa3_chunli",
-     "personajes": [
-      "Chun-Li"
-     ],
-     "claves": [
-      "sfa3_chunli"
-     ]
-    },
-    {
-     "nombre": "MiamiX-Alex",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Sodom",
-     "clave": "sfa3_sodom",
-     "personajes": [
-      "Sodom"
-     ],
-     "claves": [
-      "sfa3_sodom"
-     ]
-    }
-   ],
-   "rondas": 17
-  },
   {
    "quark": "1793149852594-1106",
    "juego": "sfa2u",
@@ -1267,6 +1224,51 @@
     }
    ],
    "rondas": 14
+  },
+  {
+   "quark": "1792260541870-6742",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-17",
+   "youtube": "ucre00SiUJI",
+   "duracion": 530.2,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "yolcu",
+     "pais": "tr",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    },
+    {
+     "nombre": "DOMIT_BEG",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken",
+      "Guile"
+     ],
+     "claves": [
+      "ken",
+      "guile"
+     ]
+    }
+   ],
+   "rondas": 11
   },
   {
    "quark": "1792259495912-4307",

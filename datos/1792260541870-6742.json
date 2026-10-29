@@ -1,0 +1,814 @@
+{
+ "version": 8,
+ "quark": "1792260541870-6742",
+ "carpeta": "20261017_yolcu_vs_DOMIT_BEG_1792260541870-6742",
+ "juego": "sf2ce",
+ "juego_nombre": "Street Fighter II' Champion Edition",
+ "juego_corto": "SF2CE",
+ "datos": {
+  "super": false,
+  "stun": true,
+  "combos": false,
+  "guardia": false
+ },
+ "fecha": "2026-10-17",
+ "youtube": "ucre00SiUJI",
+ "titulo": "Street Fighter II' Champion Edition | 🇹🇷 yolcu vs 🇹🇷 DOMIT_BEG",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "yolcu",
+   "pais": "tr",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "M. Bison",
+   "clave": "dictator",
+   "personajes": [
+    "M. Bison"
+   ],
+   "claves": [
+    "dictator"
+   ],
+   "swaps": 0,
+   "super": ""
+  },
+  {
+   "nombre": "DOMIT_BEG",
+   "pais": "tr",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Ken",
+   "clave": "ken",
+   "personajes": [
+    "Ken",
+    "Guile"
+   ],
+   "claves": [
+    "ken",
+    "guile"
+   ],
+   "swaps": 1,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  5,
+  0
+ ],
+ "duracion": 530.2,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 5.91,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 5.92,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 66,
+     "perfect": false,
+     "dano": [
+      144,
+      142
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 1,
+     "remontada": 30,
+     "fin": 53.12,
+     "vida_final": [
+      1,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 60.19,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 42,
+     "perfect": false,
+     "dano": [
+      144,
+      86
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 40,
+     "remontada": 50,
+     "fin": 91.41,
+     "vida_final": [
+      40,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "M. Bison",
+    "Ken"
+   ],
+   "claves": [
+    "dictator",
+    "ken"
+   ],
+   "fin": 91.89,
+   "resumen": {
+    "dano": [
+     288,
+     228
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 108
+   }
+  },
+  {
+   "n": 2,
+   "t": 107.02,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 107.02,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 62,
+     "perfect": false,
+     "dano": [
+      144,
+      137
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 30,
+     "fin": 150.97,
+     "vida_final": [
+      4,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 158.0,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 48,
+     "perfect": false,
+     "dano": [
+      144,
+      28
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 80,
+     "remontada": 2,
+     "fin": 193.61,
+     "vida_final": [
+      80,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "M. Bison",
+    "Ken"
+   ],
+   "claves": [
+    "dictator",
+    "ken"
+   ],
+   "fin": 194.09,
+   "resumen": {
+    "dano": [
+     288,
+     165
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 110
+   }
+  },
+  {
+   "n": 3,
+   "t": 209.72,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 209.72,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 74,
+     "perfect": false,
+     "dano": [
+      144,
+      129
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 10,
+     "remontada": 8,
+     "fin": 261.91,
+     "vida_final": [
+      10,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 268.98,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 47,
+     "perfect": false,
+     "dano": [
+      144,
+      78
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 45,
+     "remontada": 0,
+     "fin": 303.64,
+     "vida_final": [
+      45,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    0
+   ],
+   "personajes": [
+    "M. Bison",
+    "Guile"
+   ],
+   "claves": [
+    "dictator",
+    "guile"
+   ],
+   "fin": 304.12,
+   "resumen": {
+    "dano": [
+     288,
+     207
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 121
+   }
+  },
+  {
+   "n": 4,
+   "t": 319.45,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 319.45,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 66,
+     "perfect": false,
+     "dano": [
+      144,
+      133
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 7,
+     "remontada": 3,
+     "fin": 366.34,
+     "vida_final": [
+      7,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 373.39,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 29,
+     "perfect": false,
+     "dano": [
+      144,
+      34
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 76,
+     "remontada": 0,
+     "fin": 395.61,
+     "vida_final": [
+      76,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    4,
+    0
+   ],
+   "personajes": [
+    "M. Bison",
+    "Guile"
+   ],
+   "claves": [
+    "dictator",
+    "guile"
+   ],
+   "fin": 396.08,
+   "resumen": {
+    "dano": [
+     288,
+     167
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 95
+   }
+  },
+  {
+   "n": 5,
+   "t": 412.58,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 412.58,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "dano": [
+      144,
+      53
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 63,
+     "remontada": 8,
+     "fin": 445.6,
+     "vida_final": [
+      63,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 452.81,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 49,
+     "perfect": false,
+     "dano": [
+      121,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 15,
+     "remontada": 35,
+     "fin": 488.65,
+     "vida_final": [
+      0,
+      15
+     ]
+    },
+    {
+     "n": 3,
+     "t": 495.78,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      144,
+      45
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 68,
+     "remontada": 27,
+     "fin": 523.73,
+     "vida_final": [
+      68,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    5,
+    0
+   ],
+   "personajes": [
+    "M. Bison",
+    "Guile"
+   ],
+   "claves": [
+    "dictator",
+    "guile"
+   ],
+   "fin": 524.2,
+   "resumen": {
+    "dano": [
+     409,
+     242
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     2,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 131
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 53.12,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 86.71,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 91.41,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 91.41,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 50
+  },
+  {
+   "t": 150.97,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 190.54,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 193.61,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 261.91,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 303.64,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 366.34,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 395.61,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 445.6,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 457.27,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 488.65,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 515.41,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 523.73,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 516,
+   "pelea_rapida": 77,
+   "swaps": 0,
+   "rondas": 10,
+   "rondas_jugadas": 11,
+   "ko": 10,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1561,
+   "recibido": 1009,
+   "golpes": 149,
+   "golpe_max": 32,
+   "primero": 4,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 4,
+   "ronda_rapida": 29,
+   "al_limite": 4,
+   "remontada": 50,
+   "racha": 9,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 39,
+   "dano_medio": 10.5,
+   "dur_avg": 52,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 64,
+   "dano_barras": 10.84,
+   "recibido_barras": 7.01,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.22
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 525,
+   "stun_peor": 161,
+   "mareado_veces": 4,
+   "dur_sum": 49,
+   "pelea_rapida": 0,
+   "swaps": 1,
+   "rondas": 1,
+   "rondas_jugadas": 11,
+   "ko": 1,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1009,
+   "recibido": 1561,
+   "golpes": 94,
+   "golpe_max": 33,
+   "primero": 7,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 49,
+   "al_limite": 0,
+   "remontada": 35,
+   "racha": 1,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 15,
+   "dano_medio": 10.7,
+   "dur_avg": 49,
+   "stun_seg": 8.8,
+   "stun_peor_seg": 2.7,
+   "vida_perdida_ronda": 99,
+   "dano_barras": 7.01,
+   "recibido_barras": 10.84,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.23
+  }
+ ]
+}
