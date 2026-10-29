@@ -1,49 +1,6 @@
 {
- "actualizado": "2026-10-29 16:08",
+ "actualizado": "2026-10-29 16:09",
  "videos": [
-  {
-   "quark": "1793223233924-2061",
-   "juego": "ssf2xjr1",
-   "juego_nombre": "Super Street Fighter II X",
-   "juego_corto": "SSF2X",
-   "fecha": "2026-10-28",
-   "youtube": "oIxzuYjC7UU",
-   "duracion": 720.5,
-   "marcador": [
-    5,
-    4
-   ],
-   "peleas": 9,
-   "jugadores": [
-    {
-     "nombre": "Zombie_Damage",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Fei Long",
-     "clave": "feilong",
-     "personajes": [
-      "Fei Long"
-     ],
-     "claves": [
-      "feilong"
-     ]
-    },
-    {
-     "nombre": "mrcarabano",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Guile",
-     "clave": "guile",
-     "personajes": [
-      "Guile"
-     ],
-     "claves": [
-      "guile"
-     ]
-    }
-   ],
-   "rondas": 23
-  },
   {
    "quark": "1793149852594-1106",
    "juego": "sfa2u",
@@ -1269,51 +1226,6 @@
    "rondas": 14
   },
   {
-   "quark": "1792260541870-6742",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-10-17",
-   "youtube": "ucre00SiUJI",
-   "duracion": 530.2,
-   "marcador": [
-    5,
-    0
-   ],
-   "peleas": 5,
-   "jugadores": [
-    {
-     "nombre": "yolcu",
-     "pais": "tr",
-     "rango_letra": "A",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    },
-    {
-     "nombre": "DOMIT_BEG",
-     "pais": "tr",
-     "rango_letra": "B",
-     "personaje": "Ken",
-     "clave": "ken",
-     "personajes": [
-      "Ken",
-      "Guile"
-     ],
-     "claves": [
-      "ken",
-      "guile"
-     ]
-    }
-   ],
-   "rondas": 11
-  },
-  {
    "quark": "1792259495912-4307",
    "juego": "sf2ce",
    "juego_nombre": "Street Fighter II' Champion Edition",
@@ -1443,6 +1355,53 @@
      ],
      "claves": [
       "dictator"
+     ]
+    }
+   ],
+   "rondas": 12
+  },
+  {
+   "quark": "1792258140164-1065",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-17",
+   "youtube": "iQq6_iX9Nwo",
+   "duracion": 483.4,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "((Caution))",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    },
+    {
+     "nombre": "Sansar",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "Guile",
+     "clave": "guile",
+     "personajes": [
+      "Guile",
+      "Zangief",
+      "E. Honda"
+     ],
+     "claves": [
+      "guile",
+      "zangief",
+      "honda"
      ]
     }
    ],
