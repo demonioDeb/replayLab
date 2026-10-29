@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29 04:48",
+ "actualizado": "2026-10-29 04:49",
  "videos": [
   {
    "quark": "1793149852594-1106",
@@ -1228,6 +1228,49 @@
    "rondas": 11
   },
   {
+   "quark": "1792259495912-4307",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-17",
+   "youtube": "K0eZGntW3gc",
+   "duracion": 982.3,
+   "marcador": [
+    3,
+    5
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "Serdar80s",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    },
+    {
+     "nombre": "yolcu",
+     "pais": "tr",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    }
+   ],
+   "rondas": 20
+  },
+  {
    "quark": "1792258982678-1558",
    "juego": "sf2ce",
    "juego_nombre": "Street Fighter II' Champion Edition",
@@ -1545,49 +1588,6 @@
     }
    ],
    "rondas": 22
-  },
-  {
-   "quark": "1792197475604-7224",
-   "juego": "sf2hf",
-   "juego_nombre": "Street Fighter II' Hyper Fighting",
-   "juego_corto": "SF2HF",
-   "fecha": "2026-10-17",
-   "youtube": "4YMeczHVHug",
-   "duracion": 388.0,
-   "marcador": [
-    1,
-    3
-   ],
-   "peleas": 4,
-   "jugadores": [
-    {
-     "nombre": "Digitalinfamy",
-     "pais": "us",
-     "rango_letra": "B",
-     "personaje": "E. Honda",
-     "clave": "honda",
-     "personajes": [
-      "E. Honda"
-     ],
-     "claves": [
-      "honda"
-     ]
-    },
-    {
-     "nombre": "ChoiBoy",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    }
-   ],
-   "rondas": 11
   },
   {
    "quark": "1792195509747-8342",
@@ -4149,49 +4149,6 @@
     }
    ],
    "rondas": 22
-  },
-  {
-   "quark": "1780524399529-8493",
-   "juego": "msh",
-   "juego_nombre": "Marvel Super Heroes",
-   "juego_corto": "MSH",
-   "fecha": "2026-06-03",
-   "youtube": "B8z5-0IvjNc",
-   "duracion": 494.8,
-   "marcador": [
-    0,
-    5
-   ],
-   "peleas": 5,
-   "jugadores": [
-    {
-     "nombre": "leoPA",
-     "pais": "br",
-     "rango_letra": "B",
-     "personaje": "Spider-Man",
-     "clave": "msh_spiderman",
-     "personajes": [
-      "Spider-Man"
-     ],
-     "claves": [
-      "msh_spiderman"
-     ]
-    },
-    {
-     "nombre": "Ninten Clos",
-     "pais": "co",
-     "rango_letra": "B",
-     "personaje": "Wolverine",
-     "clave": "msh_wolverine",
-     "personajes": [
-      "Wolverine"
-     ],
-     "claves": [
-      "msh_wolverine"
-     ]
-    }
-   ],
-   "rondas": 11
   },
   {
    "quark": "1775618604662-9103",
