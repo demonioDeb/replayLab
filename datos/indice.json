@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29 05:16",
+ "actualizado": "2026-10-29 05:45",
  "videos": [
   {
    "quark": "1793149852594-1106",
@@ -182,6 +182,49 @@
     }
    ],
    "rondas": 34
+  },
+  {
+   "quark": "1792910165655-9199",
+   "juego": "xmcota",
+   "juego_nombre": "X-Men: Children of the Atom",
+   "juego_corto": "XMCOTA",
+   "fecha": "2026-10-25",
+   "youtube": "Ipfy9UASycU",
+   "duracion": 600.2,
+   "marcador": [
+    0,
+    5
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "TELEPATHICMASSAGE",
+     "pais": "ca",
+     "rango_letra": "D",
+     "personaje": "Silver Samurai",
+     "clave": "xmcota_silversamurai",
+     "personajes": [
+      "Silver Samurai"
+     ],
+     "claves": [
+      "xmcota_silversamurai"
+     ]
+    },
+    {
+     "nombre": "HTMFights.com",
+     "pais": "us",
+     "rango_letra": "C",
+     "personaje": "Sentinel",
+     "clave": "xmcota_sentinel",
+     "personajes": [
+      "Sentinel"
+     ],
+     "claves": [
+      "xmcota_sentinel"
+     ]
+    }
+   ],
+   "rondas": 11
   },
   {
    "quark": "1792883151334-9492",
