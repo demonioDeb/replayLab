@@ -1,0 +1,1115 @@
+{
+ "version": 8,
+ "quark": "1793250297051-5691",
+ "carpeta": "20261029_unused_vs_Test_King_1793250297051-5691",
+ "juego": "kf2k2pls",
+ "juego_nombre": "The King of Fighters 2002 Plus",
+ "juego_corto": "KOF2002+",
+ "datos": {
+  "super": true,
+  "stun": false,
+  "combos": false,
+  "guardia": true
+ },
+ "fecha": "2026-10-29",
+ "youtube": "VIMKRer3Wy0",
+ "titulo": "KOF2002+: Lluvia de supers: 24 en total | unused vs Test_King",
+ "ft": 2,
+ "jugadores": [
+  {
+   "nombre": "unused",
+   "pais": "bd",
+   "rango": 6,
+   "rango_letra": "S",
+   "personaje": "Yashiro · Ryo · Andy",
+   "clave": "kof2002_yashiro",
+   "equipo": [
+    "Yashiro",
+    "Ryo",
+    "Andy"
+   ],
+   "equipo_claves": [
+    "kof2002_yashiro",
+    "kof2002_ryo",
+    "kof2002_andy"
+   ],
+   "personajes": [
+    "Yashiro",
+    "Ryo",
+    "Andy",
+    "Kim",
+    "Maxima",
+    "Mai",
+    "Vanessa",
+    "Yamazaki",
+    "Clark"
+   ],
+   "claves": [
+    "kof2002_yashiro",
+    "kof2002_ryo",
+    "kof2002_andy",
+    "kof2002_kim",
+    "kof2002_maxima",
+    "kof2002_mai",
+    "kof2002_vanessa",
+    "kof2002_yamazaki",
+    "kof2002_clark"
+   ],
+   "swaps": 2,
+   "super": ""
+  },
+  {
+   "nombre": "Test_King",
+   "pais": "bd",
+   "rango": 6,
+   "rango_letra": "S",
+   "personaje": "Vanessa · Choi · Yuri",
+   "clave": "kof2002_vanessa",
+   "equipo": [
+    "Vanessa",
+    "Choi",
+    "Yuri"
+   ],
+   "equipo_claves": [
+    "kof2002_vanessa",
+    "kof2002_choi",
+    "kof2002_yuri"
+   ],
+   "personajes": [
+    "Vanessa",
+    "Choi",
+    "Yuri",
+    "Chris",
+    "Chin",
+    "Shermie",
+    "Kim",
+    "Athena"
+   ],
+   "claves": [
+    "kof2002_vanessa",
+    "kof2002_choi",
+    "kof2002_yuri",
+    "kof2002_chris",
+    "kof2002_chin",
+    "kof2002_shermie",
+    "kof2002_kim",
+    "kof2002_athena"
+   ],
+   "swaps": 2,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  2,
+  1
+ ],
+ "duracion": 426.9,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 7.43,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 7.43,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 21,
+     "perfect": false,
+     "dano": [
+      8,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 92,
+     "remontada": 0,
+     "fin": 28.17,
+     "personajes": [
+      "Yashiro",
+      "Vanessa"
+     ],
+     "claves": [
+      "kof2002_yashiro",
+      "kof2002_vanessa"
+     ],
+     "vida_final": [
+      0,
+      92
+     ]
+    },
+    {
+     "n": 2,
+     "t": 34.03,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      102,
+      69
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 32,
+     "remontada": 34,
+     "fin": 60.21,
+     "personajes": [
+      "Ryo",
+      "Vanessa"
+     ],
+     "claves": [
+      "kof2002_ryo",
+      "kof2002_vanessa"
+     ],
+     "vida_final": [
+      32,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 65.67,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": false,
+     "dano": [
+      15,
+      57
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 85,
+     "remontada": 0,
+     "fin": 87.43,
+     "personajes": [
+      "Ryo",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_ryo",
+      "kof2002_choi"
+     ],
+     "vida_final": [
+      0,
+      85
+     ]
+    },
+    {
+     "n": 4,
+     "t": 92.91,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 27,
+     "perfect": false,
+     "dano": [
+      46,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 54,
+     "remontada": 9,
+     "fin": 119.46,
+     "personajes": [
+      "Andy",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_andy",
+      "kof2002_choi"
+     ],
+     "vida_final": [
+      0,
+      54
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Yashiro · Ryo · Andy",
+    "Vanessa · Choi · Yuri"
+   ],
+   "claves": [
+    "kof2002_yashiro",
+    "kof2002_vanessa"
+   ],
+   "equipos": [
+    [
+     "Yashiro",
+     "Ryo",
+     "Andy"
+    ],
+    [
+     "Vanessa",
+     "Choi",
+     "Yuri"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_yashiro",
+     "kof2002_ryo",
+     "kof2002_andy"
+    ],
+    [
+     "kof2002_vanessa",
+     "kof2002_choi",
+     "kof2002_yuri"
+    ]
+   ],
+   "fin": 119.46,
+   "resumen": {
+    "dano": [
+     171,
+     330
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     3
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     3
+    ],
+    "duracion": 96
+   }
+  },
+  {
+   "n": 2,
+   "t": 133.45,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 133.46,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 27,
+     "perfect": false,
+     "dano": [
+      102,
+      20
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 80,
+     "remontada": 0,
+     "fin": 159.3,
+     "personajes": [
+      "Kim",
+      "Chris"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_chris"
+     ],
+     "vida_final": [
+      80,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 164.81,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "dano": [
+      94,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 7,
+     "remontada": 42,
+     "fin": 207.3,
+     "personajes": [
+      "Kim",
+      "Chin"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_chin"
+     ],
+     "vida_final": [
+      0,
+      7
+     ]
+    },
+    {
+     "n": 3,
+     "t": 213.12,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 5,
+     "perfect": true,
+     "dano": [
+      24,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 221.49,
+     "personajes": [
+      "Maxima",
+      "Chin"
+     ],
+     "claves": [
+      "kof2002_maxima",
+      "kof2002_chin"
+     ],
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 228.07,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      61,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      4
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 40,
+     "remontada": 0,
+     "fin": 259.64,
+     "personajes": [
+      "Maxima",
+      "Shermie"
+     ],
+     "claves": [
+      "kof2002_maxima",
+      "kof2002_shermie"
+     ],
+     "vida_final": [
+      0,
+      40
+     ]
+    },
+    {
+     "n": 5,
+     "t": 265.31,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 19,
+     "perfect": false,
+     "dano": [
+      61,
+      27
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 73,
+     "remontada": 0,
+     "fin": 285.27,
+     "personajes": [
+      "Mai",
+      "Shermie"
+     ],
+     "claves": [
+      "kof2002_mai",
+      "kof2002_shermie"
+     ],
+     "vida_final": [
+      73,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    1
+   ],
+   "personajes": [
+    "Kim · Maxima · Mai",
+    "Chris · Chin · Shermie"
+   ],
+   "claves": [
+    "kof2002_kim",
+    "kof2002_chris"
+   ],
+   "equipos": [
+    [
+     "Kim",
+     "Maxima",
+     "Mai"
+    ],
+    [
+     "Chris",
+     "Chin",
+     "Shermie"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_kim",
+     "kof2002_maxima",
+     "kof2002_mai"
+    ],
+    [
+     "kof2002_chris",
+     "kof2002_chin",
+     "kof2002_shermie"
+    ]
+   ],
+   "fin": 285.27,
+   "resumen": {
+    "dano": [
+     342,
+     251
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     8
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 129
+   }
+  },
+  {
+   "n": 3,
+   "t": 299.08,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 299.08,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 38,
+     "perfect": false,
+     "dano": [
+      97,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      5
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 38,
+     "fin": 334.34,
+     "personajes": [
+      "Vanessa",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_vanessa",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      0,
+      4
+     ]
+    },
+    {
+     "n": 2,
+     "t": 342.01,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 9,
+     "perfect": false,
+     "dano": [
+      25,
+      20
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 80,
+     "remontada": 0,
+     "fin": 353.33,
+     "personajes": [
+      "Yamazaki",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_yamazaki",
+      "kof2002_kim"
+     ],
+     "vida_final": [
+      80,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 359.64,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 24,
+     "perfect": false,
+     "dano": [
+      102,
+      1
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 99,
+     "remontada": 0,
+     "fin": 383.23,
+     "personajes": [
+      "Yamazaki",
+      "Vanessa"
+     ],
+     "claves": [
+      "kof2002_yamazaki",
+      "kof2002_vanessa"
+     ],
+     "vida_final": [
+      99,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 388.75,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      102,
+      33
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 67,
+     "remontada": 8,
+     "fin": 420.86,
+     "personajes": [
+      "Yamazaki",
+      "Athena"
+     ],
+     "claves": [
+      "kof2002_yamazaki",
+      "kof2002_athena"
+     ],
+     "vida_final": [
+      67,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    1
+   ],
+   "personajes": [
+    "Vanessa · Yamazaki · Clark",
+    "Kim · Vanessa · Athena"
+   ],
+   "claves": [
+    "kof2002_vanessa",
+    "kof2002_kim"
+   ],
+   "equipos": [
+    [
+     "Vanessa",
+     "Yamazaki",
+     "Clark"
+    ],
+    [
+     "Kim",
+     "Vanessa",
+     "Athena"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof2002_vanessa",
+     "kof2002_yamazaki",
+     "kof2002_clark"
+    ],
+    [
+     "kof2002_kim",
+     "kof2002_vanessa",
+     "kof2002_athena"
+    ]
+   ],
+   "fin": 420.86,
+   "resumen": {
+    "dano": [
+     326,
+     156
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     3,
+     8
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     1
+    ],
+    "duracion": 105
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 24.03,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 27.84,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 44.99,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 54.7,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 59.88,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 87.1,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 103.91,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 119.12,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 153.18,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 158.97,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 184.02,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 199.2,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 206.97,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 221.15,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 221.49,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 237.51,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 239.88,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 244.33,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 249.75,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 253.95,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 259.32,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 273.7,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 284.94,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 303.01,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 305.85,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 307.69,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 312.99,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 318.06,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 326.28,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 332.25,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 334.01,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 345.24,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 352.99,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 379.98,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 382.89,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 392.55,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 404.14,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 420.53,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 144,
+   "pelea_rapida": 122,
+   "swaps": 2,
+   "rondas": 7,
+   "rondas_jugadas": 13,
+   "ko": 7,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 839,
+   "recibido": 737,
+   "golpes": 132,
+   "golpe_max": 21,
+   "primero": 6,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 5,
+   "mareos": 0,
+   "ronda_rapida": 5,
+   "al_limite": 0,
+   "remontada": 34,
+   "racha": 3,
+   "contras": 0,
+   "esquivas": 7,
+   "maxes": 8,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 76,
+   "dano_medio": 6.4,
+   "dur_avg": 21,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 56,
+   "dano_barras": 8.23,
+   "recibido_barras": 7.23,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.21
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 186,
+   "pelea_rapida": 112,
+   "swaps": 2,
+   "rondas": 6,
+   "rondas_jugadas": 13,
+   "ko": 6,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 737,
+   "recibido": 839,
+   "golpes": 128,
+   "golpe_max": 40,
+   "primero": 7,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 19,
+   "mareos": 0,
+   "ronda_rapida": 21,
+   "al_limite": 2,
+   "remontada": 42,
+   "racha": 2,
+   "contras": 0,
+   "esquivas": 3,
+   "maxes": 8,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 47,
+   "dano_medio": 5.8,
+   "dur_avg": 31,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 63,
+   "dano_barras": 7.23,
+   "recibido_barras": 8.23,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.39
+  }
+ ]
+}

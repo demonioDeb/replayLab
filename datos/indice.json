@@ -1,6 +1,79 @@
 {
- "actualizado": "2026-10-29 05:45",
+ "actualizado": "2026-10-29 15:38",
  "videos": [
+  {
+   "quark": "1793250297051-5691",
+   "juego": "kf2k2pls",
+   "juego_nombre": "The King of Fighters 2002 Plus",
+   "juego_corto": "KOF2002+",
+   "fecha": "2026-10-29",
+   "youtube": "VIMKRer3Wy0",
+   "duracion": 426.9,
+   "marcador": [
+    2,
+    1
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "unused",
+     "pais": "bd",
+     "rango_letra": "S",
+     "personaje": "Yashiro · Ryo · Andy",
+     "clave": "kof2002_yashiro",
+     "personajes": [
+      "Yashiro",
+      "Ryo",
+      "Andy",
+      "Kim",
+      "Maxima",
+      "Mai",
+      "Vanessa",
+      "Yamazaki",
+      "Clark"
+     ],
+     "claves": [
+      "kof2002_yashiro",
+      "kof2002_ryo",
+      "kof2002_andy",
+      "kof2002_kim",
+      "kof2002_maxima",
+      "kof2002_mai",
+      "kof2002_vanessa",
+      "kof2002_yamazaki",
+      "kof2002_clark"
+     ]
+    },
+    {
+     "nombre": "Test_King",
+     "pais": "bd",
+     "rango_letra": "S",
+     "personaje": "Vanessa · Choi · Yuri",
+     "clave": "kof2002_vanessa",
+     "personajes": [
+      "Vanessa",
+      "Choi",
+      "Yuri",
+      "Chris",
+      "Chin",
+      "Shermie",
+      "Kim",
+      "Athena"
+     ],
+     "claves": [
+      "kof2002_vanessa",
+      "kof2002_choi",
+      "kof2002_yuri",
+      "kof2002_chris",
+      "kof2002_chin",
+      "kof2002_shermie",
+      "kof2002_kim",
+      "kof2002_athena"
+     ]
+    }
+   ],
+   "rondas": 13
+  },
   {
    "quark": "1793149852594-1106",
    "juego": "sfa2u",
