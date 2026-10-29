@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29 04:49",
+ "actualizado": "2026-10-29 05:16",
  "videos": [
   {
    "quark": "1793149852594-1106",
@@ -182,6 +182,57 @@
     }
    ],
    "rondas": 34
+  },
+  {
+   "quark": "1792895743031-9113",
+   "juego": "kf2k2pls",
+   "juego_nombre": "The King of Fighters 2002 Plus",
+   "juego_corto": "KOF2002+",
+   "fecha": "2026-10-25",
+   "youtube": "kAPF5lfhFik",
+   "duracion": 469.1,
+   "marcador": [
+    3,
+    0
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "[SKM] KUNO",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Iori · Choi · Kim",
+     "clave": "kof2002_iori",
+     "personajes": [
+      "Iori",
+      "Choi",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_choi",
+      "kof2002_kim"
+     ]
+    },
+    {
+     "nombre": "IDKOF REYES",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "Kim · Choi · Chris",
+     "clave": "kof2002_kim",
+     "personajes": [
+      "Kim",
+      "Choi",
+      "Chris"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_choi",
+      "kof2002_chris"
+     ]
+    }
+   ],
+   "rondas": 14
   },
   {
    "quark": "1792883151334-9492",
