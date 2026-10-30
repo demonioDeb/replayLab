@@ -1,0 +1,547 @@
+{
+ "version": 8,
+ "quark": "1792192514284-6023",
+ "carpeta": "20261017_KnockTsuKow_vs_White_Ben_1792192514284-6023",
+ "juego": "sf2hf",
+ "juego_nombre": "Street Fighter II' Hyper Fighting",
+ "juego_corto": "SF2HF",
+ "datos": {
+  "super": false,
+  "stun": true,
+  "combos": false,
+  "guardia": false
+ },
+ "fecha": "2026-10-16",
+ "youtube": "HqNGEqePIyE",
+ "titulo": "KnockTsuKow vs White Ben | Street Fighter II' Hyper Fighting | White Ben marea a KnockTsuKow 5 veces",
+ "ft": 3,
+ "jugadores": [
+  {
+   "nombre": "KnockTsuKow",
+   "pais": "us",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Guile",
+   "clave": "guile",
+   "personajes": [
+    "Guile"
+   ],
+   "claves": [
+    "guile"
+   ],
+   "swaps": 0,
+   "super": ""
+  },
+  {
+   "nombre": "White Ben",
+   "pais": "us",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Ken",
+   "clave": "ken",
+   "personajes": [
+    "Ken"
+   ],
+   "claves": [
+    "ken"
+   ],
+   "swaps": 0,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  0,
+  3
+ ],
+ "duracion": 170.2,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 2.7,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 2.7,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 27,
+     "perfect": false,
+     "dano": [
+      53,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      2
+     ],
+     "vida_fin": 63,
+     "remontada": 37,
+     "fin": 19.15,
+     "vida_final": [
+      0,
+      63
+     ]
+    },
+    {
+     "n": 2,
+     "t": 25.54,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 40,
+     "perfect": false,
+     "dano": [
+      85,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 40,
+     "remontada": 37,
+     "fin": 49.16,
+     "vida_final": [
+      0,
+      40
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Guile",
+    "Ken"
+   ],
+   "claves": [
+    "guile",
+    "ken"
+   ],
+   "fin": 49.64,
+   "resumen": {
+    "dano": [
+     138,
+     288
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     3
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 67
+   }
+  },
+  {
+   "n": 2,
+   "t": 61.7,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 61.7,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 68,
+     "perfect": false,
+     "dano": [
+      106,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 26,
+     "remontada": 3,
+     "fin": 100.09,
+     "vida_final": [
+      0,
+      26
+     ]
+    },
+    {
+     "n": 2,
+     "t": 106.09,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 9,
+     "perfect": true,
+     "dano": [
+      0,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 113.67,
+     "vida_final": [
+      0,
+      100
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    2
+   ],
+   "personajes": [
+    "Guile",
+    "Ken"
+   ],
+   "claves": [
+    "guile",
+    "ken"
+   ],
+   "fin": 114.15,
+   "resumen": {
+    "dano": [
+     106,
+     288
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 77
+   }
+  },
+  {
+   "n": 3,
+   "t": 128.68,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 128.68,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 14,
+     "perfect": true,
+     "dano": [
+      0,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 138.3,
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 2,
+     "t": 146.25,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      21,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 85,
+     "remontada": 3,
+     "fin": 163.76,
+     "vida_final": [
+      0,
+      85
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    3
+   ],
+   "personajes": [
+    "Guile",
+    "Ken"
+   ],
+   "claves": [
+    "guile",
+    "ken"
+   ],
+   "fin": 164.24,
+   "resumen": {
+    "dano": [
+     21,
+     288
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 42
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 11.07,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 17.28,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 19.15,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 46.94,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 49.16,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 100.09,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 111.39,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 113.67,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 113.67,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 134.6,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 138.3,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 138.3,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 163.76,
+   "tipo": "ko",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 559,
+   "stun_peor": 149,
+   "mareado_veces": 5,
+   "dur_sum": 0,
+   "pelea_rapida": 0,
+   "swaps": 0,
+   "rondas": 0,
+   "rondas_jugadas": 6,
+   "ko": 0,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 265,
+   "recibido": 864,
+   "golpes": 23,
+   "golpe_max": 27,
+   "primero": 4,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 0,
+   "al_limite": 0,
+   "remontada": 0,
+   "racha": 0,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": null,
+   "dano_medio": 11.5,
+   "dur_avg": 0,
+   "stun_seg": 9.4,
+   "stun_peor_seg": 2.5,
+   "vida_perdida_ronda": 100,
+   "dano_barras": 1.84,
+   "recibido_barras": 6.0,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.19
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 186,
+   "pelea_rapida": 36,
+   "swaps": 0,
+   "rondas": 6,
+   "rondas_jugadas": 6,
+   "ko": 6,
+   "timeup": 0,
+   "perfects": 2,
+   "dano": 864,
+   "recibido": 265,
+   "golpes": 60,
+   "golpe_max": 33,
+   "primero": 2,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 5,
+   "ronda_rapida": 9,
+   "al_limite": 0,
+   "remontada": 37,
+   "racha": 6,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 69,
+   "dano_medio": 14.4,
+   "dur_avg": 31,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 31,
+   "dano_barras": 6.0,
+   "recibido_barras": 1.84,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.23
+  }
+ ]
+}

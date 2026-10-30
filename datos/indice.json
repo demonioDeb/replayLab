@@ -1,55 +1,125 @@
 {
- "actualizado": "2026-10-30 15:09",
+ "actualizado": "2026-10-30 15:10",
  "videos": [
   {
-   "quark": "1793232759046-8549",
-   "juego": "msh",
-   "juego_nombre": "Marvel Super Heroes",
-   "juego_corto": "MSH",
+   "quark": "1793250297051-5691",
+   "juego": "kf2k2pls",
+   "juego_nombre": "The King of Fighters 2002 Plus",
+   "juego_corto": "KOF2002+",
    "fecha": "2026-10-29",
-   "youtube": "m4ileNB6byQ",
-   "titulo": "bibi1983 vs Deivide jc | Marvel Super Heroes | Deivide jc remonta un round yendo 73% por detrás",
-   "duracion": 718.1,
+   "youtube": "VIMKRer3Wy0",
+   "titulo": "unused vs Test_King | The King of Fighters 2002 Plus | Lluvia de supers: 24 en total",
+   "duracion": 426.9,
    "marcador": [
-    5,
+    2,
     1
    ],
-   "peleas": 6,
+   "peleas": 3,
    "jugadores": [
     {
-     "nombre": "bibi1983",
-     "pais": "br",
-     "rango_letra": "B",
-     "personaje": "Shuma-Gorath",
-     "clave": "msh_shumagorath",
+     "nombre": "unused",
+     "pais": "bd",
+     "rango_letra": "S",
+     "personaje": "Yashiro · Ryo · Andy",
+     "clave": "kof2002_yashiro",
      "personajes": [
-      "Shuma-Gorath",
-      "Spider-Man"
+      "Yashiro",
+      "Ryo",
+      "Andy",
+      "Kim",
+      "Maxima",
+      "Mai",
+      "Vanessa",
+      "Yamazaki",
+      "Clark"
      ],
      "claves": [
-      "msh_shumagorath",
-      "msh_spiderman"
+      "kof2002_yashiro",
+      "kof2002_ryo",
+      "kof2002_andy",
+      "kof2002_kim",
+      "kof2002_maxima",
+      "kof2002_mai",
+      "kof2002_vanessa",
+      "kof2002_yamazaki",
+      "kof2002_clark"
      ]
     },
     {
-     "nombre": "Deivide jc",
-     "pais": "br",
-     "rango_letra": "C",
-     "personaje": "Wolverine",
-     "clave": "msh_wolverine",
+     "nombre": "Test_King",
+     "pais": "bd",
+     "rango_letra": "S",
+     "personaje": "Vanessa · Choi · Yuri",
+     "clave": "kof2002_vanessa",
      "personajes": [
-      "Wolverine",
-      "Blackheart",
-      "Spider-Man"
+      "Vanessa",
+      "Choi",
+      "Yuri",
+      "Chris",
+      "Chin",
+      "Shermie",
+      "Kim",
+      "Athena"
      ],
      "claves": [
-      "msh_wolverine",
-      "msh_blackheart",
-      "msh_spiderman"
+      "kof2002_vanessa",
+      "kof2002_choi",
+      "kof2002_yuri",
+      "kof2002_chris",
+      "kof2002_chin",
+      "kof2002_shermie",
+      "kof2002_kim",
+      "kof2002_athena"
      ]
     }
    ],
-   "rondas": 15
+   "rondas": 13
+  },
+  {
+   "quark": "1793233983477-9102",
+   "juego": "sf2hf",
+   "juego_nombre": "Street Fighter II' Hyper Fighting",
+   "juego_corto": "SF2HF",
+   "fecha": "2026-10-29",
+   "youtube": "ewd4azbMXPc",
+   "titulo": "Wahzu vs MauE1Azcino | SF2HF | MauE1Azcino da la vuelta al set desde el 3-1",
+   "duracion": 972.4,
+   "marcador": [
+    4,
+    5
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "Wahzu",
+     "pais": "nz",
+     "rango_letra": "B",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken"
+     ],
+     "claves": [
+      "ken"
+     ]
+    },
+    {
+     "nombre": "MauE1Azcino",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu",
+      "Vega"
+     ],
+     "claves": [
+      "ryu",
+      "claw"
+     ]
+    }
+   ],
+   "rondas": 24
   },
   {
    "quark": "1793225597342-9253",
@@ -98,6 +168,94 @@
     }
    ],
    "rondas": 10
+  },
+  {
+   "quark": "1793223233924-2061",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-28",
+   "youtube": "oIxzuYjC7UU",
+   "titulo": "Zombie_Damage vs mrcarabano | SSF2X | Por un hilo: Zombie_Damage sobrevive y gana ante mrcarabano",
+   "duracion": 720.5,
+   "marcador": [
+    5,
+    4
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "Zombie_Damage",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Fei Long",
+     "clave": "feilong",
+     "personajes": [
+      "Fei Long"
+     ],
+     "claves": [
+      "feilong"
+     ]
+    },
+    {
+     "nombre": "mrcarabano",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Guile",
+     "clave": "guile",
+     "personajes": [
+      "Guile"
+     ],
+     "claves": [
+      "guile"
+     ]
+    }
+   ],
+   "rondas": 23
+  },
+  {
+   "quark": "1793183025953-6423",
+   "juego": "sfa2u",
+   "juego_nombre": "Street Fighter Alpha 2",
+   "juego_corto": "SFA2",
+   "fecha": "2026-10-28",
+   "youtube": "UU2p0oNeUOo",
+   "titulo": "HELLSW1ND2 vs quasar84 | Street Fighter Alpha 2 | HELLSW1ND2 remonta un round yendo 63% por detrás",
+   "duracion": 754.6,
+   "marcador": [
+    2,
+    5
+   ],
+   "peleas": 7,
+   "jugadores": [
+    {
+     "nombre": "HELLSW1ND2",
+     "pais": "bg",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "sfa2_ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "sfa2_ryu"
+     ]
+    },
+    {
+     "nombre": "quasar84",
+     "pais": "tr",
+     "rango_letra": "A",
+     "personaje": "Sagat",
+     "clave": "sfa2_sagat",
+     "personajes": [
+      "Sagat"
+     ],
+     "claves": [
+      "sfa2_sagat"
+     ]
+    }
+   ],
+   "rondas": 16
   },
   {
    "quark": "1793149852594-1106",
@@ -1894,6 +2052,50 @@
     }
    ],
    "rondas": 13
+  },
+  {
+   "quark": "1792192514284-6023",
+   "juego": "sf2hf",
+   "juego_nombre": "Street Fighter II' Hyper Fighting",
+   "juego_corto": "SF2HF",
+   "fecha": "2026-10-16",
+   "youtube": "HqNGEqePIyE",
+   "titulo": "KnockTsuKow vs White Ben | Street Fighter II' Hyper Fighting | White Ben marea a KnockTsuKow 5 veces",
+   "duracion": 170.2,
+   "marcador": [
+    0,
+    3
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "KnockTsuKow",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Guile",
+     "clave": "guile",
+     "personajes": [
+      "Guile"
+     ],
+     "claves": [
+      "guile"
+     ]
+    },
+    {
+     "nombre": "White Ben",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken"
+     ],
+     "claves": [
+      "ken"
+     ]
+    }
+   ],
+   "rondas": 6
   },
   {
    "quark": "1792187806395-7038",
@@ -4424,6 +4626,50 @@
     }
    ],
    "rondas": 22
+  },
+  {
+   "quark": "1780524399529-8493",
+   "juego": "msh",
+   "juego_nombre": "Marvel Super Heroes",
+   "juego_corto": "MSH",
+   "fecha": "2026-06-03",
+   "youtube": "B8z5-0IvjNc",
+   "titulo": "leoPA vs Ninten Clos | Marvel Super Heroes | Ninten Clos marea a leoPA 10 veces",
+   "duracion": 494.8,
+   "marcador": [
+    0,
+    5
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "leoPA",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Spider-Man",
+     "clave": "msh_spiderman",
+     "personajes": [
+      "Spider-Man"
+     ],
+     "claves": [
+      "msh_spiderman"
+     ]
+    },
+    {
+     "nombre": "Ninten Clos",
+     "pais": "co",
+     "rango_letra": "B",
+     "personaje": "Wolverine",
+     "clave": "msh_wolverine",
+     "personajes": [
+      "Wolverine"
+     ],
+     "claves": [
+      "msh_wolverine"
+     ]
+    }
+   ],
+   "rondas": 11
   },
   {
    "quark": "1775618604662-9103",
