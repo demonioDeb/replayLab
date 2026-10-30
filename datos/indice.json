@@ -1,6 +1,56 @@
 {
- "actualizado": "2026-10-30 15:10",
+ "actualizado": "2026-10-30 16:32",
  "videos": [
+  {
+   "quark": "1793276184729-6411",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-29",
+   "youtube": "X_rRsUkCl-Q",
+   "titulo": "MiBSF2CE-TV vs Jean_Claude_VanDamme | SF2CE | MiBSF2CE-TV remonta un round yendo 75% por detrás",
+   "duracion": 505.7,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "MiBSF2CE-TV",
+     "pais": "br",
+     "rango_letra": "S",
+     "personaje": "Blanka",
+     "clave": "blanka",
+     "personajes": [
+      "Blanka"
+     ],
+     "claves": [
+      "blanka"
+     ]
+    },
+    {
+     "nombre": "Jean_Claude_VanDamme",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Guile",
+     "clave": "guile",
+     "personajes": [
+      "Guile",
+      "M. Bison",
+      "E. Honda",
+      "Blanka"
+     ],
+     "claves": [
+      "guile",
+      "dictator",
+      "honda",
+      "blanka"
+     ]
+    }
+   ],
+   "rondas": 12
+  },
   {
    "quark": "1793250297051-5691",
    "juego": "kf2k2pls",
