@@ -1,0 +1,977 @@
+{
+ "version": 8,
+ "quark": "1793232759046-8549",
+ "carpeta": "20261029_bibi1983_vs_Deivide_jc_1793232759046-8549",
+ "juego": "msh",
+ "juego_nombre": "Marvel Super Heroes",
+ "juego_corto": "MSH",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": false,
+  "guardia": false
+ },
+ "fecha": "2026-10-29",
+ "youtube": "m4ileNB6byQ",
+ "titulo": "bibi1983 vs Deivide jc | Marvel Super Heroes | Deivide jc remonta un round yendo 73% por detrás",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "bibi1983",
+   "pais": "br",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Shuma-Gorath",
+   "clave": "msh_shumagorath",
+   "personajes": [
+    "Shuma-Gorath",
+    "Spider-Man"
+   ],
+   "claves": [
+    "msh_shumagorath",
+    "msh_spiderman"
+   ],
+   "swaps": 1,
+   "super": ""
+  },
+  {
+   "nombre": "Deivide jc",
+   "pais": "br",
+   "rango": 3,
+   "rango_letra": "C",
+   "personaje": "Wolverine",
+   "clave": "msh_wolverine",
+   "personajes": [
+    "Wolverine",
+    "Blackheart",
+    "Spider-Man"
+   ],
+   "claves": [
+    "msh_wolverine",
+    "msh_blackheart",
+    "msh_spiderman"
+   ],
+   "swaps": 3,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  5,
+  1
+ ],
+ "duracion": 718.1,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 12.91,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 12.91,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": false,
+     "dano": [
+      144,
+      44
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 76,
+     "remontada": 20,
+     "fin": 36.98,
+     "vida_final": [
+      76,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 41.24,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": true,
+     "dano": [
+      144,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 63.51,
+     "vida_final": [
+      100,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Shuma-Gorath",
+    "Wolverine"
+   ],
+   "claves": [
+    "msh_shumagorath",
+    "msh_wolverine"
+   ],
+   "fin": 63.51,
+   "resumen": {
+    "dano": [
+     288,
+     44
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 50
+   }
+  },
+  {
+   "n": 2,
+   "t": 93.75,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 93.75,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 49,
+     "perfect": false,
+     "dano": [
+      75,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 47,
+     "remontada": 53,
+     "fin": 137.06,
+     "vida_final": [
+      0,
+      47
+     ]
+    },
+    {
+     "n": 2,
+     "t": 141.24,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 50,
+     "perfect": false,
+     "dano": [
+      144,
+      135
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 13,
+     "remontada": 36,
+     "fin": 182.24,
+     "vida_final": [
+      13,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 186.42,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 32,
+     "perfect": false,
+     "dano": [
+      144,
+      33
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 77,
+     "remontada": 0,
+     "fin": 215.37,
+     "vida_final": [
+      77,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "Shuma-Gorath",
+    "Wolverine"
+   ],
+   "claves": [
+    "msh_shumagorath",
+    "msh_wolverine"
+   ],
+   "fin": 215.37,
+   "resumen": {
+    "dano": [
+     363,
+     312
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 131
+   }
+  },
+  {
+   "n": 3,
+   "t": 232.69,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 232.69,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 7,
+     "perfect": false,
+     "dano": [
+      144,
+      9
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 93,
+     "remontada": 0,
+     "fin": 246.42,
+     "vida_final": [
+      93,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 263.49,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 64,
+     "perfect": false,
+     "dano": [
+      133,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 7,
+     "remontada": 73,
+     "fin": 317.41,
+     "vida_final": [
+      0,
+      7
+     ]
+    },
+    {
+     "n": 3,
+     "t": 321.56,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 57,
+     "perfect": false,
+     "dano": [
+      53,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 63,
+     "remontada": 28,
+     "fin": 367.14,
+     "vida_final": [
+      0,
+      63
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    2,
+    1
+   ],
+   "personajes": [
+    "Shuma-Gorath",
+    "Blackheart"
+   ],
+   "claves": [
+    "msh_shumagorath",
+    "msh_blackheart"
+   ],
+   "fin": 367.14,
+   "resumen": {
+    "dano": [
+     330,
+     297
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 128
+   }
+  },
+  {
+   "n": 4,
+   "t": 385.21,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 385.21,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      175,
+      5
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 96,
+     "remontada": 0,
+     "fin": 421.54,
+     "vida_final": [
+      96,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 425.72,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 44,
+     "perfect": false,
+     "dano": [
+      144,
+      65
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 54,
+     "remontada": 0,
+     "fin": 462.72,
+     "vida_final": [
+      54,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    1
+   ],
+   "personajes": [
+    "Spider-Man",
+    "Wolverine"
+   ],
+   "claves": [
+    "msh_spiderman",
+    "msh_wolverine"
+   ],
+   "fin": 462.72,
+   "resumen": {
+    "dano": [
+     319,
+     70
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 83
+   }
+  },
+  {
+   "n": 5,
+   "t": 486.83,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 486.83,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      144,
+      10
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 93,
+     "remontada": 0,
+     "fin": 511.47,
+     "vida_final": [
+      93,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 515.64,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 61,
+     "perfect": false,
+     "dano": [
+      144,
+      115
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 20,
+     "remontada": 55,
+     "fin": 567.51,
+     "vida_final": [
+      20,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    4,
+    1
+   ],
+   "personajes": [
+    "Spider-Man",
+    "Spider-Man"
+   ],
+   "claves": [
+    "msh_spiderman",
+    "msh_spiderman"
+   ],
+   "fin": 567.51,
+   "resumen": {
+    "dano": [
+     288,
+     125
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 87
+   }
+  },
+  {
+   "n": 6,
+   "t": 592.32,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 592.32,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 44,
+     "perfect": false,
+     "dano": [
+      118,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 18,
+     "remontada": 72,
+     "fin": 631.13,
+     "vida_final": [
+      0,
+      18
+     ]
+    },
+    {
+     "n": 2,
+     "t": 635.46,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "dano": [
+      144,
+      67
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 53,
+     "remontada": 11,
+     "fin": 674.12,
+     "vida_final": [
+      53,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 678.51,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 40,
+     "perfect": false,
+     "dano": [
+      144,
+      7
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 95,
+     "remontada": 3,
+     "fin": 712.08,
+     "vida_final": [
+      95,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    5,
+    1
+   ],
+   "personajes": [
+    "Spider-Man",
+    "Spider-Man"
+   ],
+   "claves": [
+    "msh_spiderman",
+    "msh_spiderman"
+   ],
+   "fin": 712.08,
+   "resumen": {
+    "dano": [
+     406,
+     218
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 129
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 54.2,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 59.82,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 63.51,
+   "tipo": "perfect",
+   "jugador": 1
+  },
+  {
+   "t": 137.06,
+   "tipo": "remontada",
+   "jugador": 2,
+   "dato": 53
+  },
+  {
+   "t": 157.3,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 317.41,
+   "tipo": "remontada",
+   "jugador": 2,
+   "dato": 73
+  },
+  {
+   "t": 550.35,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 561.18,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 565.99,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 567.51,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 55
+  },
+  {
+   "t": 631.13,
+   "tipo": "remontada",
+   "jugador": 2,
+   "dato": 72
+  },
+  {
+   "t": 667.37,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 671.91,
+   "tipo": "super",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 13,
+   "stun_frames": 110,
+   "stun_peor": 110,
+   "mareado_veces": 1,
+   "dur_sum": 394,
+   "pelea_rapida": 51,
+   "swaps": 1,
+   "rondas": 11,
+   "rondas_jugadas": 15,
+   "ko": 11,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 1994,
+   "recibido": 1066,
+   "golpes": 452,
+   "golpe_max": 133,
+   "primero": 14,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 4,
+   "mareos": 1,
+   "ronda_rapida": 7,
+   "al_limite": 0,
+   "remontada": 55,
+   "racha": 4,
+   "contras": 1,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 13,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 70,
+   "dano_medio": 4.4,
+   "dur_avg": 36,
+   "stun_seg": 1.8,
+   "stun_peor_seg": 1.8,
+   "vida_perdida_ronda": 49,
+   "dano_barras": 13.85,
+   "recibido_barras": 7.4,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.92
+  },
+  {
+   "meter_full": 16,
+   "stun_frames": 114,
+   "stun_peor": 114,
+   "mareado_veces": 1,
+   "dur_sum": 214,
+   "pelea_rapida": 134,
+   "swaps": 3,
+   "rondas": 4,
+   "rondas_jugadas": 15,
+   "ko": 4,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1066,
+   "recibido": 1994,
+   "golpes": 389,
+   "golpe_max": 22,
+   "primero": 1,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 2,
+   "mareos": 1,
+   "ronda_rapida": 44,
+   "al_limite": 1,
+   "remontada": 73,
+   "racha": 2,
+   "contras": 2,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 2,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 34,
+   "dano_medio": 2.7,
+   "dur_avg": 54,
+   "stun_seg": 1.9,
+   "stun_peor_seg": 1.9,
+   "vida_perdida_ronda": 92,
+   "dano_barras": 7.4,
+   "recibido_barras": 13.85,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.15
+  }
+ ]
+}

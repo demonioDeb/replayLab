@@ -1,6 +1,104 @@
 {
- "actualizado": "2026-10-29 18:16",
+ "actualizado": "2026-10-30 15:09",
  "videos": [
+  {
+   "quark": "1793232759046-8549",
+   "juego": "msh",
+   "juego_nombre": "Marvel Super Heroes",
+   "juego_corto": "MSH",
+   "fecha": "2026-10-29",
+   "youtube": "m4ileNB6byQ",
+   "titulo": "bibi1983 vs Deivide jc | Marvel Super Heroes | Deivide jc remonta un round yendo 73% por detrás",
+   "duracion": 718.1,
+   "marcador": [
+    5,
+    1
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "bibi1983",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Shuma-Gorath",
+     "clave": "msh_shumagorath",
+     "personajes": [
+      "Shuma-Gorath",
+      "Spider-Man"
+     ],
+     "claves": [
+      "msh_shumagorath",
+      "msh_spiderman"
+     ]
+    },
+    {
+     "nombre": "Deivide jc",
+     "pais": "br",
+     "rango_letra": "C",
+     "personaje": "Wolverine",
+     "clave": "msh_wolverine",
+     "personajes": [
+      "Wolverine",
+      "Blackheart",
+      "Spider-Man"
+     ],
+     "claves": [
+      "msh_wolverine",
+      "msh_blackheart",
+      "msh_spiderman"
+     ]
+    }
+   ],
+   "rondas": 15
+  },
+  {
+   "quark": "1793225597342-9253",
+   "juego": "xmcota",
+   "juego_nombre": "X-Men: Children of the Atom",
+   "juego_corto": "XMCOTA",
+   "fecha": "2026-10-28",
+   "youtube": "5Z0Mxt4luAk",
+   "titulo": "xmencota1 vs BHF | Balrogdomal | XMCOTA | xmencota1 gana un round con la vida al límite",
+   "duracion": 466.1,
+   "marcador": [
+    3,
+    1
+   ],
+   "peleas": 4,
+   "jugadores": [
+    {
+     "nombre": "xmencota1",
+     "pais": "us",
+     "rango_letra": "D",
+     "personaje": "Cyclops",
+     "clave": "xmcota_cyclops",
+     "personajes": [
+      "Cyclops"
+     ],
+     "claves": [
+      "xmcota_cyclops"
+     ]
+    },
+    {
+     "nombre": "BHF | Balrogdomal",
+     "pais": "br",
+     "rango_letra": "",
+     "personaje": "Sentinel",
+     "clave": "xmcota_sentinel",
+     "personajes": [
+      "Sentinel",
+      "Iceman",
+      "Omega Red"
+     ],
+     "claves": [
+      "xmcota_sentinel",
+      "xmcota_iceman",
+      "xmcota_omegared"
+     ]
+    }
+   ],
+   "rondas": 10
+  },
   {
    "quark": "1793149852594-1106",
    "juego": "sfa2u",
@@ -8,6 +106,7 @@
    "juego_corto": "SFA2",
    "fecha": "2026-10-28",
    "youtube": "9tU1VFaETsk",
+   "titulo": "sta_lipexctba vs papaidosbaianos | SFA2 | sta_lipexctba se luce con 1 Perfect frente a papaidosbaia…",
    "duracion": 1247.2,
    "marcador": [
     3,
@@ -51,6 +150,7 @@
    "juego_corto": "MSH",
    "fecha": "2026-10-27",
    "youtube": "74zsNkgsnbA",
+   "titulo": "kbcbilly vs Raiijinn | Marvel Super Heroes | 7 mareos de kbcbilly a Raiijinn",
    "duracion": 721.6,
    "marcador": [
     5,
@@ -94,6 +194,7 @@
    "juego_corto": "SF2HF",
    "fecha": "2026-10-26",
    "youtube": "vdCLY4bysMU",
+   "titulo": "DJILK vs ChoiBoy | Street Fighter II' Hyper Fighting | Racha de 5: DJILK no suelta a ChoiBoy",
    "duracion": 587.1,
    "marcador": [
     5,
@@ -137,6 +238,7 @@
    "juego_corto": "SFA3",
    "fecha": "2026-10-25",
    "youtube": "6pZ3pGkRH1s",
+   "titulo": "Salt_Ver vs OCXRIDAH | Street Fighter Alpha 3 | Set dominado: Salt_Ver gana 5-0",
    "duracion": 597.5,
    "marcador": [
     5,
@@ -182,6 +284,7 @@
    "juego_corto": "KOF98",
    "fecha": "2026-10-25",
    "youtube": "vz-x8DVMbQw",
+   "titulo": "Not_B. vs it`s | The King of Fighters '98 | Lluvia de supers: 31 en total",
    "duracion": 1455.0,
    "marcador": [
     2,
@@ -233,6 +336,7 @@
    "juego_corto": "KOF98",
    "fecha": "2026-10-24",
    "youtube": "7nrwjXdn8D0",
+   "titulo": "Garam Anday vs chato1985 | The King of Fighters '98 | Choque de países: DE contra MX",
    "duracion": 505.2,
    "marcador": [
     0,
@@ -286,6 +390,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-24",
    "youtube": "JwhryOcSyFM",
+   "titulo": "DJILK vs jianchi123 | Street Fighter II' Champion Edition | DJILK no recibe ni un golpe: 2 Perfects",
    "duracion": 930.9,
    "marcador": [
     3,
@@ -329,6 +434,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-10-24",
    "youtube": "Kp_zjCn3gY8",
+   "titulo": "ZOOLANDER vs MegamanX-8 | Super Street Fighter II X",
    "duracion": 472.2,
    "marcador": [
     0,
@@ -372,6 +478,7 @@
    "juego_corto": "KOF2002",
    "fecha": "2026-10-24",
    "youtube": "t-gHvXKns7w",
+   "titulo": "[CSK] TZK CAMARON vs UWL/MDF-DannyLee | KOF2002 | KO en 5 segundos de UWL/MDF-DannyLee contra [CSK]…",
    "duracion": 818.6,
    "marcador": [
     5,
@@ -423,6 +530,7 @@
    "juego_corto": "KOF2002+",
    "fecha": "2026-10-24",
    "youtube": "1taPAD6CpW8",
+   "titulo": "[IRK] Tecate Roja vs [SKM] KUNO | KOF2002+ | [SKM] KUNO no deja respirar a [IRK] Tecate Roja: 5-1",
    "duracion": 898.4,
    "marcador": [
     1,
@@ -474,6 +582,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-23",
    "youtube": "yLH_6m5O-Xc",
+   "titulo": "G0KTuG vs BachataHero | SF2CE | BachataHero encadena 4 peleas ganadas a G0KTuG",
    "duracion": 971.0,
    "marcador": [
     3,
@@ -517,6 +626,7 @@
    "juego_corto": "KOF2002+",
    "fecha": "2026-10-22",
    "youtube": "qBFPZFfhmVc",
+   "titulo": "[SKM] [P] POLLO vs [RGT] DARKYS | KOF2002+ | [SKM] [P] POLLO se luce con 5 Perfects frente a [RGT]…",
    "duracion": 1292.6,
    "marcador": [
     4,
@@ -568,6 +678,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-10-22",
    "youtube": "lYmIyRvzwrc",
+   "titulo": "KillerOh! vs Voltech | Super Street Fighter II X | Racha de 9: KillerOh! no suelta a Voltech",
    "duracion": 3237.1,
    "marcador": [
     20,
@@ -611,6 +722,7 @@
    "juego_corto": "KOF2002+",
    "fecha": "2026-10-22",
    "youtube": "77TqdcQ6e7c",
+   "titulo": "ACL_Cesarin69 vs [SKM] Fat Joe | KOF2002+ | [SKM] Fat Joe no recibe ni un golpe: 2 Perfects",
    "duracion": 1054.7,
    "marcador": [
     5,
@@ -674,6 +786,7 @@
    "juego_corto": "KOF98",
    "fecha": "2026-10-22",
    "youtube": "901AbyvNxSI",
+   "titulo": "olivercan vs Raphael pe | The King of Fighters '98 | De 2-0 abajo a ganar: olivercan vs Raphael pe",
    "duracion": 1338.0,
    "marcador": [
     5,
@@ -729,6 +842,7 @@
    "juego_corto": "KOF2002",
    "fecha": "2026-10-22",
    "youtube": "omhtN9QAwdY",
+   "titulo": "HONESTO OFICIAL vs MobbyRJ | KOF2002 | KO en 3 segundos de MobbyRJ contra HONESTO OFICIAL",
    "duracion": 520.0,
    "marcador": [
     2,
@@ -802,6 +916,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-10-22",
    "youtube": "vrY6ckX3X0Q",
+   "titulo": "znoopyglobal vs ChoiBoy | SSF2X | znoopyglobal gana 3-2 a ChoiBoy en un set al límite",
    "duracion": 546.1,
    "marcador": [
     3,
@@ -845,6 +960,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-22",
    "youtube": "5cvxCbyapb8",
+   "titulo": "Destur vs BachataHero | SF2CE | Doble KO en el set de Destur vs BachataHero",
    "duracion": 879.2,
    "marcador": [
     5,
@@ -888,6 +1004,7 @@
    "juego_corto": "KOF2002",
    "fecha": "2026-10-22",
    "youtube": "qldiNwJM418",
+   "titulo": "[CSK] TZK CAMARON vs IRK-ZR-ALCOHOL OFER | KOF2002 | [CSK] TZK CAMARON no recibe ni un golpe: 3 Per…",
    "duracion": 903.8,
    "marcador": [
     5,
@@ -941,6 +1058,7 @@
    "juego_corto": "KOF2002+",
    "fecha": "2026-10-22",
    "youtube": "tyWc8adHWUU",
+   "titulo": "IRK-ZR-ALCOHOL OFER vs [CSK] TZK CAMARON | KOF2002+ | IRK-ZR-ALCOHOL OFER arrasa a [CSK] TZK CAMARO…",
    "duracion": 648.2,
    "marcador": [
     5,
@@ -992,6 +1110,7 @@
    "juego_corto": "KOF2002+",
    "fecha": "2026-10-22",
    "youtube": "9FAT3a_xb6s",
+   "titulo": "IRK-ZR-ALCOHOL OFER vs [NOG]-FER YAGAMI | KOF2002+ | Lluvia de supers: 43 en total",
    "duracion": 827.4,
    "marcador": [
     5,
@@ -1085,6 +1204,7 @@
    "juego_corto": "SF2HF",
    "fecha": "2026-10-22",
    "youtube": "Vii4uHrKenA",
+   "titulo": "yooonster vs ChoiBoy | Street Fighter II' Hyper Fighting | Set dominado: ChoiBoy gana 5-1",
    "duracion": 714.7,
    "marcador": [
     1,
@@ -1134,6 +1254,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-10-20",
    "youtube": "KdKMuyaaawo",
+   "titulo": "FRS | Biridin vs IMP | Laboca | SSF2X | FRS | Biridin remonta un round yendo 76% por detrás",
    "duracion": 693.4,
    "marcador": [
     4,
@@ -1177,6 +1298,7 @@
    "juego_corto": "KOF2002+",
    "fecha": "2026-10-18",
    "youtube": "5OCNvH5Omp0",
+   "titulo": "TONY DC vs [JDK] -Zr-El jhon Sg | KOF2002+ | 16 supers en un set: [JDK] -Zr-El jhon Sg vs TONY DC",
    "duracion": 487.2,
    "marcador": [
     1,
@@ -1232,6 +1354,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-17",
    "youtube": "ucre00SiUJI",
+   "titulo": "yolcu vs DOMIT_BEG | Street Fighter II' Champion Edition | Racha de 5: yolcu no suelta a DOMIT_BEG",
    "duracion": 530.2,
    "marcador": [
     5,
@@ -1277,6 +1400,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-17",
    "youtube": "K0eZGntW3gc",
+   "titulo": "Serdar80s vs yolcu | Street Fighter II' Champion Edition | yolcu no recibe ni un golpe: 1 Perfect",
    "duracion": 982.3,
    "marcador": [
     3,
@@ -1320,6 +1444,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-17",
    "youtube": "rTojqMLwYNc",
+   "titulo": "Serdar80s vs yolcu | Street Fighter II' Champion Edition | yolcu no recibe ni un golpe: 1 Perfect",
    "duracion": 484.7,
    "marcador": [
     0,
@@ -1363,6 +1488,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-17",
    "youtube": "ZmpZmSQ_vMg",
+   "titulo": "Sansar vs ((Caution)) | SF2CE | ((Caution)) se luce con 4 Perfects frente a Sansar",
    "duracion": 536.8,
    "marcador": [
     0,
@@ -1412,6 +1538,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-17",
    "youtube": "iQq6_iX9Nwo",
+   "titulo": "((Caution)) vs Sansar | Street Fighter II' Champion Edition | Set dominado: ((Caution)) gana 5-0",
    "duracion": 483.4,
    "marcador": [
     5,
@@ -1459,6 +1586,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-17",
    "youtube": "jCEg8kSok1E",
+   "titulo": "Leakage vs yolcu | Street Fighter II' Champion Edition | Set dominado: yolcu gana 5-1",
    "duracion": 876.7,
    "marcador": [
     1,
@@ -1504,6 +1632,7 @@
    "juego_corto": "SF2HF",
    "fecha": "2026-10-17",
    "youtube": "6Ah0M3rXdTA",
+   "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 Royal Plush vs 🇺🇸 ChoiBoy",
    "duracion": 606.1,
    "marcador": [
     1,
@@ -1553,6 +1682,7 @@
    "juego_corto": "SF2HF",
    "fecha": "2026-10-17",
    "youtube": "HipvTJpxB9Q",
+   "titulo": "White Ben vs Wahzu | Street Fighter II' Hyper Fighting | Wahzu da la vuelta al set desde el 2-0",
    "duracion": 808.0,
    "marcador": [
     4,
@@ -1596,6 +1726,7 @@
    "juego_corto": "SF2HF",
    "fecha": "2026-10-17",
    "youtube": "hn7sQ2R75is",
+   "titulo": "Digitalinfamy vs White Ben | SF2HF | Digitalinfamy gana 5-4 a White Ben en un set al límite",
    "duracion": 853.9,
    "marcador": [
     5,
@@ -1639,6 +1770,7 @@
    "juego_corto": "SF2HF",
    "fecha": "2026-10-17",
    "youtube": "4YMeczHVHug",
+   "titulo": "Digitalinfamy vs ChoiBoy | SF2HF | ChoiBoy cierra el set por un hilo ante Digitalinfamy",
    "duracion": 388.0,
    "marcador": [
     1,
@@ -1682,6 +1814,7 @@
    "juego_corto": "SF2HF",
    "fecha": "2026-10-17",
    "youtube": "oqGZVPRe1qU",
+   "titulo": "White Ben vs DJILK | Street Fighter II' Hyper Fighting | 5 mareos de DJILK a White Ben",
    "duracion": 778.6,
    "marcador": [
     3,
@@ -1725,6 +1858,7 @@
    "juego_corto": "SF2HF",
    "fecha": "2026-10-16",
    "youtube": "4CSv3cisV9Y",
+   "titulo": "Digitalinfamy vs DJILK | SF2HF | DJILK encadena 5 peleas ganadas a Digitalinfamy",
    "duracion": 542.1,
    "marcador": [
     0,
@@ -1768,6 +1902,7 @@
    "juego_corto": "SF2HF",
    "fecha": "2026-10-16",
    "youtube": "Nol8uOpCOaU",
+   "titulo": "Loboesteparius vs White Ben | SF2HF | Por un hilo: Loboesteparius sobrevive y gana ante White Ben",
    "duracion": 558.0,
    "marcador": [
     2,
@@ -1813,6 +1948,7 @@
    "juego_corto": "KOF2002+",
    "fecha": "2026-10-16",
    "youtube": "n5k0h014AcE",
+   "titulo": "[SKM] [P] POLLO vs [SKM] KUNO | KOF2002+ | [SKM] KUNO no se rinde: round remontado ante [SKM] [P] P…",
    "duracion": 1199.0,
    "marcador": [
     3,
@@ -1864,6 +2000,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-16",
    "youtube": "7jQZk0S2rmM",
+   "titulo": "MiBSF2CE-TV vs DJILK | SF2CE | MiBSF2CE-TV encadena 5 peleas ganadas a DJILK",
    "duracion": 664.6,
    "marcador": [
     5,
@@ -1907,6 +2044,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-16",
    "youtube": "yePTNdWB1Tk",
+   "titulo": "MiBSF2CE-TV vs thomas_medeiros | SF2CE | MiBSF2CE-TV marea a thomas_medeiros 4 veces",
    "duracion": 434.9,
    "marcador": [
     3,
@@ -1950,6 +2088,7 @@
    "juego_corto": "KOF2002",
    "fecha": "2026-10-15",
    "youtube": "VtSGc38T0W0",
+   "titulo": "[SKM] [P] POLLO vs Drinkteam-john | The King of Fighters 2002",
    "duracion": null,
    "marcador": [
     0,
@@ -2001,6 +2140,7 @@
    "juego_corto": "KOF2002",
    "fecha": "2026-10-15",
    "youtube": "I5B9j4Eh8x4",
+   "titulo": "Drinkteam-john vs [SKM] [P] POLLO | KOF2002 | Drinkteam-john liquida un round en 6 segundos",
    "duracion": 1369.3,
    "marcador": [
     3,
@@ -2058,6 +2198,7 @@
    "juego_corto": "KOF98",
    "fecha": "2026-10-15",
    "youtube": "03Gip9P0CoI",
+   "titulo": "Bhayankar Yagami. vs Arham0786 | KOF98 | Bhayankar Yagami. liquida un round en 5 segundos",
    "duracion": 1748.2,
    "marcador": [
     5,
@@ -2109,6 +2250,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-15",
    "youtube": "NfpjS5D_bJ4",
+   "titulo": "Flawless | Victory vs Serdar80s | SF2CE | Flawless | Victory no recibe ni un golpe: 1 Perfect",
    "duracion": 958.0,
    "marcador": [
     4,
@@ -2152,6 +2294,7 @@
    "juego_corto": "KOF2002",
    "fecha": "2026-10-13",
    "youtube": "U21HTnN1GBA",
+   "titulo": "mirza mudassar vs preciouss | KOF2002 | mirza mudassar cierra el set por un hilo ante preciouss",
    "duracion": 260.7,
    "marcador": [
     2,
@@ -2205,6 +2348,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-10-13",
    "youtube": "7MLinYBfJsI",
+   "titulo": "kyoukai vs Balcork | Super Street Fighter II X | Por un hilo: Balcork sobrevive y gana ante kyoukai",
    "duracion": 769.1,
    "marcador": [
     3,
@@ -2248,6 +2392,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-10-11",
    "youtube": "-bXHiFOG0sg",
+   "titulo": "DojaCat vs DGV | Super Street Fighter II X | DojaCat no deja respirar a DGV: 5-0",
    "duracion": 490.9,
    "marcador": [
     5,
@@ -2293,6 +2438,7 @@
    "juego_corto": "KOF98",
    "fecha": "2026-10-11",
    "youtube": "9v_YGEYjrSI",
+   "titulo": "YeopMun vs qbdwk2003 | The King of Fighters '98 | YeopMun remonta un round yendo 66% por detrás",
    "duracion": 824.1,
    "marcador": [
     5,
@@ -2346,6 +2492,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-11",
    "youtube": "44t7ZqPMyok",
+   "titulo": "Kabal27 vs DJILK | Street Fighter II' Champion Edition | DJILK gana un round con la vida al límite",
    "duracion": 963.8,
    "marcador": [
     5,
@@ -2389,6 +2536,7 @@
    "juego_corto": "KOF98",
    "fecha": "2026-10-10",
    "youtube": "vk4KxVDCENM",
+   "titulo": "Super Champ vs barbearialororugal | KOF98 | KO en 10 segundos de barbearialororugal contra Super Ch…",
    "duracion": 309.1,
    "marcador": [
     0,
@@ -2440,6 +2588,7 @@
    "juego_corto": "KOF98",
    "fecha": "2026-10-10",
    "youtube": "8akKzQ_ERgg",
+   "titulo": "Garam Anday vs M@rcio-K@tit@-BR | KOF98 | M@rcio-K@tit@-BR se luce con 1 Perfect frente a Garam And…",
    "duracion": 393.7,
    "marcador": [
     0,
@@ -2493,6 +2642,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-09",
    "youtube": "Xhis_smxz1w",
+   "titulo": "TTB-Ricks Alonso vs El Regio Lero Lero | SF2CE | El Regio Lero Lero se luce con 4 Perfects frente a…",
    "duracion": 2237.1,
    "marcador": [
     8,
@@ -2540,6 +2690,7 @@
    "juego_corto": "KOF98",
    "fecha": "2026-10-09",
    "youtube": "l-QI4hCMVW0",
+   "titulo": "hogusung vs Niobin | The King of Fighters '98 | Niobin no recibe ni un golpe: 3 Perfects",
    "duracion": 1537.8,
    "marcador": [
     5,
@@ -2591,6 +2742,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-10-09",
    "youtube": "dCG6EDS7Yu0",
+   "titulo": "ara@VF2 vs xryuit | Super Street Fighter II X | ara@VF2 marea a xryuit 5 veces",
    "duracion": 757.9,
    "marcador": [
     5,
@@ -2634,6 +2786,7 @@
    "juego_corto": "KOF98",
    "fecha": "2026-10-09",
    "youtube": "PjTL8DeUWzQ",
+   "titulo": "bukeyishi vs MORGANGTZ | The King of Fighters '98 | De 2-0 abajo a ganar: MORGANGTZ vs bukeyishi",
    "duracion": 1811.0,
    "marcador": [
     4,
@@ -2685,6 +2838,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-10-09",
    "youtube": "RDVwE74ylWU",
+   "titulo": "unsensored vs la_manilla012 | Super Street Fighter II X | Lluvia de supers: 19 en total",
    "duracion": 2086.6,
    "marcador": [
     9,
@@ -2736,6 +2890,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-08",
    "youtube": "FcO3Jk4_DVw",
+   "titulo": "Sonic Gyn vs GUTO RJ/BR | SF2CE | Sonic Gyn remonta el set tras ir 2-0 abajo",
    "duracion": 913.6,
    "marcador": [
     5,
@@ -2783,6 +2938,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-10-06",
    "youtube": "uQ2FtevB2Pk",
+   "titulo": "RAC | Flavio.Ryu vs fack | SSF2X | Por un hilo: RAC | Flavio.Ryu sobrevive y gana ante fack",
    "duracion": 638.1,
    "marcador": [
     2,
@@ -2828,6 +2984,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-10-06",
    "youtube": "u6FbTcP7mvQ",
+   "titulo": "FabsGtz vs djfrijoles | Super Street Fighter II X | FabsGtz gana un round con la vida al límite",
    "duracion": 740.2,
    "marcador": [
     5,
@@ -2871,6 +3028,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-10-06",
    "youtube": "7_hf0t3fl3Q",
+   "titulo": "djfrijoles vs fack | Super Street Fighter II X | djfrijoles no se rinde: round remontado ante fack",
    "duracion": 624.2,
    "marcador": [
     5,
@@ -2914,6 +3072,7 @@
    "juego_corto": "MSH",
    "fecha": "2026-10-06",
    "youtube": "icRcvVNFV-Q",
+   "titulo": "-LiquidMetalX vs Ninten Clos | Marvel Super Heroes | -LiquidMetalX marea a Ninten Clos 10 veces",
    "duracion": 891.7,
    "marcador": [
     5,
@@ -2957,6 +3116,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-10-05",
    "youtube": "4xmZ3e2nfjQ",
+   "titulo": "LABOCA vs RAC | Flavio.Ryu | SSF2X | RAC | Flavio.Ryu se luce con 2 Perfects frente a LABOCA",
    "duracion": 932.4,
    "marcador": [
     3,
@@ -3000,6 +3160,7 @@
    "juego_corto": "KOF98",
    "fecha": "2026-10-05",
    "youtube": "qEK7yr4c77I",
+   "titulo": "Q.E.D. vs it`s | The King of Fighters '98 | Relámpago: KO de Q.E.D. en 5 segundos",
    "duracion": 742.5,
    "marcador": [
     1,
@@ -3067,6 +3228,7 @@
    "juego_corto": "KOF2002+",
    "fecha": "2026-10-01",
    "youtube": "kZKDp2VIoMg",
+   "titulo": "Test_King vs siamahasan | The King of Fighters 2002 Plus | Test_King liquida un round en 4 segundos",
    "duracion": 299.1,
    "marcador": [
     2,
@@ -3128,6 +3290,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-10-01",
    "youtube": "smy-4QWwLY8",
+   "titulo": "_yito2k_ vs KELA420 | Super Street Fighter II X | Lluvia de supers: 21 en total",
    "duracion": 810.9,
    "marcador": [
     4,
@@ -3171,6 +3334,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-10-01",
    "youtube": "Phqkqo3mdZo",
+   "titulo": "_yito2k_ vs KELA420 | Super Street Fighter II X | _yito2k_ remonta un round yendo 64% por detrás",
    "duracion": 868.7,
    "marcador": [
     4,
@@ -3214,6 +3378,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-01",
    "youtube": "Jzln-FKDhTQ",
+   "titulo": "((Caution)) vs lub-Iaboca | SF2CE | lub-Iaboca se luce con 1 Perfect frente a ((Caution))",
    "duracion": 317.7,
    "marcador": [
     3,
@@ -3257,6 +3422,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-10-01",
    "youtube": "fUGlwkCF3eE",
+   "titulo": "lub-Iaboca vs Sonic Gyn | SF2CE | Por un hilo: Sonic Gyn sobrevive y gana ante lub-Iaboca",
    "duracion": 751.3,
    "marcador": [
     5,
@@ -3300,6 +3466,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-10-01",
    "youtube": "n2W8MPQnQ8M",
+   "titulo": "RAC | Flavio.Ryu vs BeastFromBrazil | SSF2X | RAC | Flavio.Ryu da la vuelta al set desde el 3-0",
    "duracion": 789.4,
    "marcador": [
     5,
@@ -3355,6 +3522,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-09-30",
    "youtube": "gOcFJFUv8bI",
+   "titulo": "stevetren vs znoopyglobal | SSF2X | 17 supers en un set: znoopyglobal vs stevetren",
    "duracion": 728.9,
    "marcador": [
     3,
@@ -3398,6 +3566,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-09-30",
    "youtube": "NN8pWm4Wvzg",
+   "titulo": "Bruh vs Cone of Cold | Super Street Fighter II X | De 4-1 abajo a ganar: Bruh vs Cone of Cold",
    "duracion": 910.1,
    "marcador": [
     5,
@@ -3441,6 +3610,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-09-30",
    "youtube": "_Fk0U8nvRUg",
+   "titulo": "mrcarabano vs RenoMD | Super Street Fighter II X | RenoMD encadena 4 peleas ganadas a mrcarabano",
    "duracion": 737.1,
    "marcador": [
     2,
@@ -3484,6 +3654,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-09-30",
    "youtube": "VuzmAK5xmw0",
+   "titulo": "kazel vs training12 | Super Street Fighter II X | kazel conecta 7 golpes seguidos",
    "duracion": 762.2,
    "marcador": [
     3,
@@ -3527,6 +3698,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-09-28",
    "youtube": "Vf-7qvclez8",
+   "titulo": "djfrijoles vs mrcarabano | Super Street Fighter II X | Racha de 5: djfrijoles no suelta a mrcarabano",
    "duracion": 497.0,
    "marcador": [
     5,
@@ -3570,6 +3742,7 @@
    "juego_corto": "KOF2002",
    "fecha": "2026-09-28",
    "youtube": "JsnuculyCrA",
+   "titulo": "dz101010 vs modo sedex | The King of Fighters 2002 | modo sedex gana un round con la vida al límite",
    "duracion": 301.3,
    "marcador": [
     0,
@@ -3621,6 +3794,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-09-28",
    "youtube": "jgXK-Paf60U",
+   "titulo": "KELA420 vs znoopyglobal | Super Street Fighter II X | Lluvia de supers: 39 en total",
    "duracion": 1051.1,
    "marcador": [
     5,
@@ -3664,6 +3838,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-09-27",
    "youtube": "DEUvaIRxw0M",
+   "titulo": "MT Yurikowa vs Nostrax | SF2CE | MT Yurikowa gana 5-4 a Nostrax en un set al límite",
    "duracion": 806.4,
    "marcador": [
     5,
@@ -3707,6 +3882,7 @@
    "juego_corto": "MSH",
    "fecha": "2026-09-26",
    "youtube": "UgWeiS7qmqQ",
+   "titulo": "bibi1983 vs Angneto | Marvel Super Heroes | Angneto no recibe ni un golpe: 5 Perfects",
    "duracion": 1053.6,
    "marcador": [
     4,
@@ -3752,6 +3928,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-09-26",
    "youtube": "_fHib8xl3-g",
+   "titulo": "hassasin10 vs RenoMD | Super Street Fighter II X | Choque de países: MX contra US",
    "duracion": 663.4,
    "marcador": [
     1,
@@ -3795,6 +3972,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-09-25",
    "youtube": "l_q-Mm-qxI4",
+   "titulo": "H-Zero vs hassasin10 | Super Street Fighter II X | H-Zero no recibe ni un golpe: 1 Perfect",
    "duracion": 641.6,
    "marcador": [
     5,
@@ -3838,6 +4016,7 @@
    "juego_corto": "KOF2002",
    "fecha": "2026-09-21",
    "youtube": "sXP217Z_uoo",
+   "titulo": "Jonathan Tijuana vs KGS_KINF_KULA | KOF2002 | 17 supers en un set: KGS_KINF_KULA vs Jonathan Tijuana",
    "duracion": 960.4,
    "marcador": [
     1,
@@ -3899,6 +4078,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-09-17",
    "youtube": "iAwTPGZ3Y5k",
+   "titulo": "RAC | Flavio.Ryu vs thomas_medeiros | Super Street Fighter II X | Lluvia de supers: 13 en total",
    "duracion": 814.2,
    "marcador": [
     5,
@@ -3942,6 +4122,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-09-14",
    "youtube": "y_5QiM0n2Ts",
+   "titulo": "Fromo vs znoopyglobal | SSF2X | Por un hilo: Fromo sobrevive y gana ante znoopyglobal",
    "duracion": 478.7,
    "marcador": [
     3,
@@ -3985,6 +4166,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-09-14",
    "youtube": "mH6nIeWWI1Q",
+   "titulo": "DJILK-SF2TV vs Fromo | Super Street Fighter II X | DJILK-SF2TV remonta el set tras ir 3-1 abajo",
    "duracion": 922.3,
    "marcador": [
     5,
@@ -4028,6 +4210,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-09-09",
    "youtube": "m6Gyw4Itunw",
+   "titulo": "kazel vs Zagi | Super Street Fighter II X | Racha de 5: kazel no suelta a Zagi",
    "duracion": 507.1,
    "marcador": [
     5,
@@ -4071,6 +4254,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-09-05",
    "youtube": "fd09uL7WuWY",
+   "titulo": "Zombie_Damage vs znoopyglobal | SSF2X | Zombie_Damage no recibe ni un golpe: 1 Perfect",
    "duracion": 433.0,
    "marcador": [
     3,
@@ -4114,6 +4298,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-08-28",
    "youtube": "jv7n1WWtnN4",
+   "titulo": "ChoiBoy vs djfrijoles | Super Street Fighter II X | US vs MX: djfrijoles contra ChoiBoy",
    "duracion": 165.0,
    "marcador": [
     0,
@@ -4157,6 +4342,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2026-07-08",
    "youtube": "q_B1tf5OpTg",
+   "titulo": "Zombie_Damage vs RenoMD | SSF2X | Zombie_Damage gana 5-4 a RenoMD en un set al límite",
    "duracion": 783.5,
    "marcador": [
     5,
@@ -4200,6 +4386,7 @@
    "juego_corto": "SF2HF",
    "fecha": "2026-06-09",
    "youtube": "FqaY8KTOV38",
+   "titulo": "padoodey vs DJILK | Street Fighter II' Hyper Fighting | 13 mareos de padoodey a DJILK",
    "duracion": 746.4,
    "marcador": [
     5,
@@ -4245,6 +4432,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2026-04-08",
    "youtube": "VKwKClpHftY",
+   "titulo": "DJILK vs RAC | Flavio.Ryu | SF2CE | RAC | Flavio.Ryu arrasa a DJILK 5-1",
    "duracion": 679.7,
    "marcador": [
     1,
@@ -4288,6 +4476,7 @@
    "juego_corto": "KOF2002+",
    "fecha": "2026-01-31",
    "youtube": "d7O74ikHurE",
+   "titulo": "KOFMINISTER vs unused | The King of Fighters 2002 Plus | unused no recibe ni un golpe: 5 Perfects",
    "duracion": 331.0,
    "marcador": [
     0,
@@ -4355,6 +4544,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2025-07-20",
    "youtube": "CIxbGc2oh6I",
+   "titulo": "Zombie_Damage vs znoopyglobal | SSF2X | Zombie_Damage cierra el set por un hilo ante znoopyglobal",
    "duracion": 687.5,
    "marcador": [
     5,
@@ -4400,6 +4590,7 @@
    "juego_corto": "KOF98",
    "fecha": "2025-07-08",
    "youtube": "GMYqkkl4LSw",
+   "titulo": "rammsa vs Black-C | The King of Fighters '98 | Black-C arrasa a rammsa 5-0",
    "duracion": 918.8,
    "marcador": [
     0,
@@ -4465,6 +4656,7 @@
    "juego_corto": "KOF2002",
    "fecha": "2025-04-05",
    "youtube": "JZUIHXmToRU",
+   "titulo": "mirza mudassar vs CombosMX | KOF2002 | mirza mudassar remonta un round yendo 79% por detrás",
    "duracion": 315.2,
    "marcador": [
     2,
@@ -4528,6 +4720,7 @@
    "juego_corto": "KOF98",
    "fecha": "2024-12-05",
    "youtube": "tqwtwh_t5zk",
+   "titulo": "Devta vs Mirza2002Champ | The King of Fighters '98",
    "duracion": 363.2,
    "marcador": [
     0,
@@ -4579,6 +4772,7 @@
    "juego_corto": "KOF98",
    "fecha": "2024-11-16",
    "youtube": "fRjnvWqyAsE",
+   "titulo": "a99 vs chris24 | The King of Fighters '98 | Choque de países: DE contra ES",
    "duracion": 271.3,
    "marcador": [
     2,
@@ -4630,6 +4824,7 @@
    "juego_corto": "KOF98",
    "fecha": "2024-10-26",
    "youtube": "KGew2-Dj4y0",
+   "titulo": "a99 vs chris24 | The King of Fighters '98 | a99 liquida un round en 10 segundos",
    "duracion": 374.1,
    "marcador": [
     3,
@@ -4681,6 +4876,7 @@
    "juego_corto": "KOF98",
    "fecha": "2024-10-16",
    "youtube": "-TDGmrpAIww",
+   "titulo": "Mirza2002Champ vs Devta | The King of Fighters '98 | Lluvia de supers: 6 en total",
    "duracion": 337.5,
    "marcador": [
     2,
@@ -4742,6 +4938,7 @@
    "juego_corto": "KOF98",
    "fecha": "2023-10-08",
    "youtube": "hfRJGKGRNAo",
+   "titulo": "Mundo Kurono vs mirza mudassar | KOF98 | KO en 9 segundos de Mundo Kurono contra mirza mudassar",
    "duracion": 458.6,
    "marcador": [
     2,
@@ -4795,6 +4992,7 @@
    "juego_corto": "KOF98",
    "fecha": "2023-09-22",
    "youtube": "VPoz9Xprhs4",
+   "titulo": "mirza mudassar vs a99 | The King of Fighters '98 | mirza mudassar no recibe ni un golpe: 1 Perfect",
    "duracion": 354.0,
    "marcador": [
     2,
@@ -4850,6 +5048,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2023-05-11",
    "youtube": "xQQhH9xXxrU",
+   "titulo": "ChoiBoy vs Fromo | Super Street Fighter II X | Fromo marea a ChoiBoy 5 veces",
    "duracion": 726.0,
    "marcador": [
     5,
@@ -4893,6 +5092,7 @@
    "juego_corto": "KOF98",
    "fecha": "2023-03-30",
    "youtube": "W_AnK4L6lHY",
+   "titulo": "DG | Mr Yama vs Abel-*CBZ* | KOF98 | Abel-*CBZ* encadena 5 peleas ganadas a DG | Mr Yama",
    "duracion": 949.2,
    "marcador": [
     0,
@@ -4946,6 +5146,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2023-02-08",
    "youtube": "wqWS9Xsc1Bc",
+   "titulo": "SuperrV vs _yito2k_ | Super Street Fighter II X | Doble KO en el set de _yito2k_ vs SuperrV",
    "duracion": 838.5,
    "marcador": [
     3,
@@ -4989,6 +5190,7 @@
    "juego_corto": "SFA3",
    "fecha": "2023-02-05",
    "youtube": "vT_hpcg3do0",
+   "titulo": "Ana Gomez vs makozero | Street Fighter Alpha 3 | Lluvia de supers: 14 en total",
    "duracion": 370.9,
    "marcador": [
     1,
@@ -5032,6 +5234,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2022-12-14",
    "youtube": "fQbzddYEhEc",
+   "titulo": "Hokuto vs MegamanX-8 | Super Street Fighter II X | Hokuto conecta 7 golpes seguidos",
    "duracion": 696.2,
    "marcador": [
     5,
@@ -5077,6 +5280,7 @@
    "juego_corto": "SSF2X",
    "fecha": "2022-12-08",
    "youtube": "xpT3YllshRo",
+   "titulo": "ChoiBoy vs SuperrV | Super Street Fighter II X | 3 rounds se deciden por tiempo: ChoiBoy vs SuperrV",
    "duracion": 795.4,
    "marcador": [
     5,
@@ -5120,6 +5324,7 @@
    "juego_corto": "XMCOTA",
    "fecha": "2021-12-24",
    "youtube": "LyYqRInZmSw",
+   "titulo": "NM_Akuma vs bignasty_3620 | XMCOTA | NM_Akuma gana un round con la vida al límite",
    "duracion": 743.4,
    "marcador": [
     2,
@@ -5163,6 +5368,7 @@
    "juego_corto": "SF2CE",
    "fecha": "2021-10-22",
    "youtube": "W_0wpT0per4",
+   "titulo": "((Caution)) vs Devaud | SF2CE | Doble KO en el set de ((Caution)) vs Devaud",
    "duracion": 1829.5,
    "marcador": [
     10,
@@ -5216,6 +5422,7 @@
    "juego_corto": "KOF2002",
    "fecha": "2021-09-05",
    "youtube": "J-8V2DWIk7s",
+   "titulo": "#ELKOFNosUne vs onimenodacho | KOF2002 | #ELKOFNosUne no recibe ni un golpe: 6 Perfects",
    "duracion": 107.8,
    "marcador": [
     2,
@@ -5269,6 +5476,7 @@
    "juego_corto": "KOF2002",
    "fecha": "2021-08-01",
    "youtube": "waZ6IGnHEUw",
+   "titulo": "[GZP] CHAPES vs GT/ACL/DarkAngel | KOF2002 | Set dominado: GT/ACL/DarkAngel gana 5-0",
    "duracion": 696.0,
    "marcador": [
     0,

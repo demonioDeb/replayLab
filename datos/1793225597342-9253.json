@@ -1,0 +1,713 @@
+{
+ "version": 8,
+ "quark": "1793225597342-9253",
+ "carpeta": "20261030_xmencota1_vs_BHF_Balrogdomal_1793225597342-9253",
+ "juego": "xmcota",
+ "juego_nombre": "X-Men: Children of the Atom",
+ "juego_corto": "XMCOTA",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": false,
+  "guardia": false
+ },
+ "fecha": "2026-10-28",
+ "youtube": "5Z0Mxt4luAk",
+ "titulo": "xmencota1 vs BHF | Balrogdomal | XMCOTA | xmencota1 gana un round con la vida al límite",
+ "ft": 3,
+ "jugadores": [
+  {
+   "nombre": "xmencota1",
+   "pais": "us",
+   "rango": 2,
+   "rango_letra": "D",
+   "personaje": "Cyclops",
+   "clave": "xmcota_cyclops",
+   "personajes": [
+    "Cyclops"
+   ],
+   "claves": [
+    "xmcota_cyclops"
+   ],
+   "swaps": 0,
+   "super": ""
+  },
+  {
+   "nombre": "BHF | Balrogdomal",
+   "pais": "br",
+   "rango": null,
+   "rango_letra": "",
+   "personaje": "Sentinel",
+   "clave": "xmcota_sentinel",
+   "personajes": [
+    "Sentinel",
+    "Iceman",
+    "Omega Red"
+   ],
+   "claves": [
+    "xmcota_sentinel",
+    "xmcota_iceman",
+    "xmcota_omegared"
+   ],
+   "swaps": 2,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  3,
+  1
+ ],
+ "duracion": 466.1,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 11.9,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 11.9,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 57,
+     "perfect": false,
+     "dano": [
+      143,
+      131
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 8,
+     "remontada": 0,
+     "fin": 53.95,
+     "vida_final": [
+      8,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 60.6,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 77,
+     "perfect": false,
+     "dano": [
+      127,
+      143
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 11,
+     "remontada": 30,
+     "fin": 115.32,
+     "vida_final": [
+      0,
+      11
+     ]
+    },
+    {
+     "n": 3,
+     "t": 120.79,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 22,
+     "perfect": false,
+     "dano": [
+      76,
+      143
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 46,
+     "remontada": 0,
+     "fin": 138.64,
+     "vida_final": [
+      0,
+      46
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Cyclops",
+    "Sentinel"
+   ],
+   "claves": [
+    "xmcota_cyclops",
+    "xmcota_sentinel"
+   ],
+   "fin": 139.13,
+   "resumen": {
+    "dano": [
+     346,
+     417
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     3,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     2
+    ],
+    "duracion": 156
+   }
+  },
+  {
+   "n": 2,
+   "t": 159.42,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 159.42,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 51,
+     "perfect": false,
+     "dano": [
+      143,
+      93
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 34,
+     "remontada": 22,
+     "fin": 197.72,
+     "vida_final": [
+      34,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 204.37,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 25,
+     "perfect": false,
+     "dano": [
+      21,
+      143
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 84,
+     "remontada": 0,
+     "fin": 224.16,
+     "vida_final": [
+      0,
+      84
+     ]
+    },
+    {
+     "n": 3,
+     "t": 228.28,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 42,
+     "perfect": false,
+     "dano": [
+      143,
+      67
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 52,
+     "remontada": 4,
+     "fin": 259.48,
+     "vida_final": [
+      52,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    1
+   ],
+   "personajes": [
+    "Cyclops",
+    "Sentinel"
+   ],
+   "claves": [
+    "xmcota_cyclops",
+    "xmcota_sentinel"
+   ],
+   "fin": 259.98,
+   "resumen": {
+    "dano": [
+     307,
+     303
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 118
+   }
+  },
+  {
+   "n": 3,
+   "t": 288.02,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 288.02,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      143,
+      129
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 9,
+     "remontada": 19,
+     "fin": 332.5,
+     "vida_final": [
+      9,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 339.15,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 29,
+     "perfect": false,
+     "dano": [
+      143,
+      80
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 43,
+     "remontada": 0,
+     "fin": 361.72,
+     "vida_final": [
+      43,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    1
+   ],
+   "personajes": [
+    "Cyclops",
+    "Iceman"
+   ],
+   "claves": [
+    "xmcota_cyclops",
+    "xmcota_iceman"
+   ],
+   "fin": 362.21,
+   "resumen": {
+    "dano": [
+     286,
+     209
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 89
+   }
+  },
+  {
+   "n": 4,
+   "t": 388.05,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 388.05,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 50,
+     "perfect": false,
+     "dano": [
+      144,
+      125
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 12,
+     "remontada": 54,
+     "fin": 425.85,
+     "vida_final": [
+      12,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 434.07,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      143,
+      57
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 59,
+     "remontada": 0,
+     "fin": 459.62,
+     "vida_final": [
+      59,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    1
+   ],
+   "personajes": [
+    "Cyclops",
+    "Omega Red"
+   ],
+   "claves": [
+    "xmcota_cyclops",
+    "xmcota_omegared"
+   ],
+   "fin": 460.13,
+   "resumen": {
+    "dano": [
+     287,
+     182
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 83
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 36.13,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 84.01,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 109.27,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 190.37,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 252.04,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 323.1,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 324.9,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 425.71,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 425.85,
+   "tipo": "remontada",
+   "jugador": 1,
+   "dato": 54
+  },
+  {
+   "t": 453.26,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 456.59,
+   "tipo": "super",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 22,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 322,
+   "pelea_rapida": 72,
+   "swaps": 0,
+   "rondas": 7,
+   "rondas_jugadas": 10,
+   "ko": 7,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1226,
+   "recibido": 1111,
+   "golpes": 279,
+   "golpe_max": 30,
+   "primero": 6,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 8,
+   "mareos": 0,
+   "ronda_rapida": 29,
+   "al_limite": 2,
+   "remontada": 54,
+   "racha": 5,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 5,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 31,
+   "dano_medio": 4.4,
+   "dur_avg": 46,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 77,
+   "dano_barras": 8.51,
+   "recibido_barras": 7.72,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.21
+  },
+  {
+   "meter_full": 11,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 124,
+   "pelea_rapida": 127,
+   "swaps": 2,
+   "rondas": 3,
+   "rondas_jugadas": 10,
+   "ko": 3,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1111,
+   "recibido": 1226,
+   "golpes": 122,
+   "golpe_max": 40,
+   "primero": 4,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 2,
+   "mareos": 0,
+   "ronda_rapida": 22,
+   "al_limite": 0,
+   "remontada": 30,
+   "racha": 2,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 5,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 47,
+   "dano_medio": 9.1,
+   "dur_avg": 41,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 85,
+   "dano_barras": 7.72,
+   "recibido_barras": 8.51,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.28
+  }
+ ]
+}
