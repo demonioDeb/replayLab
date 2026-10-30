@@ -1,50 +1,6 @@
 {
- "actualizado": "2026-10-30 17:03",
+ "actualizado": "2026-10-30 17:04",
  "videos": [
-  {
-   "quark": "1793315762382-5367",
-   "juego": "ssf2xjr1",
-   "juego_nombre": "Super Street Fighter II X",
-   "juego_corto": "SSF2X",
-   "fecha": "2026-10-29",
-   "youtube": "VQkwT2QuEMw",
-   "titulo": "Hyphen-ated vs MegamanX-8 | SSF2X | De 3-0 abajo a ganar: MegamanX-8 vs Hyphen-ated",
-   "duracion": 762.1,
-   "marcador": [
-    4,
-    5
-   ],
-   "peleas": 9,
-   "jugadores": [
-    {
-     "nombre": "Hyphen-ated",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Fei Long",
-     "clave": "feilong",
-     "personajes": [
-      "Fei Long"
-     ],
-     "claves": [
-      "feilong"
-     ]
-    },
-    {
-     "nombre": "MegamanX-8",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Zangief",
-     "clave": "zangief",
-     "personajes": [
-      "Zangief"
-     ],
-     "claves": [
-      "zangief"
-     ]
-    }
-   ],
-   "rondas": 22
-  },
   {
    "quark": "1793250297051-5691",
    "juego": "kf2k2pls",
