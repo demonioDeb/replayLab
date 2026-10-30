@@ -1,50 +1,6 @@
 {
- "actualizado": "2026-10-30 17:51",
+ "actualizado": "2026-10-30 17:52",
  "videos": [
-  {
-   "quark": "1793313299225-2993",
-   "juego": "sfa2u",
-   "juego_nombre": "Street Fighter Alpha 2",
-   "juego_corto": "SFA2",
-   "fecha": "2026-10-29",
-   "youtube": "J1pCa9P4qSQ",
-   "titulo": "tubarao bass vs Grande Gancho. | SFA2 | Grande Gancho. remonta el set tras ir 3-0 abajo",
-   "duracion": 1304.1,
-   "marcador": [
-    3,
-    5
-   ],
-   "peleas": 9,
-   "jugadores": [
-    {
-     "nombre": "tubarao bass",
-     "pais": "br",
-     "rango_letra": "A",
-     "personaje": "Rose",
-     "clave": "sfa2_rose",
-     "personajes": [
-      "Rose"
-     ],
-     "claves": [
-      "sfa2_rose"
-     ]
-    },
-    {
-     "nombre": "Grande Gancho.",
-     "pais": "br",
-     "rango_letra": "A",
-     "personaje": "Ken",
-     "clave": "sfa2_ken",
-     "personajes": [
-      "Ken"
-     ],
-     "claves": [
-      "sfa2_ken"
-     ]
-    }
-   ],
-   "rondas": 24
-  },
   {
    "quark": "1793250297051-5691",
    "juego": "kf2k2pls",
@@ -4516,50 +4472,6 @@
     }
    ],
    "rondas": 5
-  },
-  {
-   "quark": "1783480697457-1185",
-   "juego": "ssf2xjr1",
-   "juego_nombre": "Super Street Fighter II X",
-   "juego_corto": "SSF2X",
-   "fecha": "2026-07-08",
-   "youtube": "q_B1tf5OpTg",
-   "titulo": "Zombie_Damage vs RenoMD | SSF2X | Zombie_Damage gana 5-4 a RenoMD en un set al límite",
-   "duracion": 783.5,
-   "marcador": [
-    5,
-    4
-   ],
-   "peleas": 9,
-   "jugadores": [
-    {
-     "nombre": "Zombie_Damage",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Fei Long",
-     "clave": "feilong",
-     "personajes": [
-      "Fei Long"
-     ],
-     "claves": [
-      "feilong"
-     ]
-    },
-    {
-     "nombre": "RenoMD",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    }
-   ],
-   "rondas": 21
   },
   {
    "quark": "1780973952300-2539",
