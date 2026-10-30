@@ -1,60 +1,6 @@
 {
- "actualizado": "2026-10-30 19:30",
+ "actualizado": "2026-10-30 19:31",
  "videos": [
-  {
-   "quark": "1793332418220-1938",
-   "juego": "kof2002",
-   "juego_nombre": "The King of Fighters 2002",
-   "juego_corto": "KOF2002",
-   "fecha": "2026-10-30",
-   "youtube": "3m-YiAnWT8U",
-   "titulo": "Drinkteam-john vs [KING]-Sanagua147*** | KOF2002 | Drinkteam-john arrasa a [KING]-Sanagua147*** 5-1",
-   "duracion": 850.6,
-   "marcador": [
-    5,
-    1
-   ],
-   "peleas": 6,
-   "jugadores": [
-    {
-     "nombre": "Drinkteam-john",
-     "pais": "mx",
-     "rango_letra": "A",
-     "personaje": "Kim · Leona · Whip",
-     "clave": "kof2002_kim",
-     "personajes": [
-      "Kim",
-      "Leona",
-      "Whip"
-     ],
-     "claves": [
-      "kof2002_kim",
-      "kof2002_leona",
-      "kof2002_whip"
-     ]
-    },
-    {
-     "nombre": "[KING]-Sanagua147***",
-     "pais": "ar",
-     "rango_letra": "B",
-     "personaje": "Billy · Chris · Kim",
-     "clave": "kof2002_billy",
-     "personajes": [
-      "Angel",
-      "Billy",
-      "Kim",
-      "Chris"
-     ],
-     "claves": [
-      "kof2002_angel",
-      "kof2002_billy",
-      "kof2002_kim",
-      "kof2002_chris"
-     ]
-    }
-   ],
-   "rondas": 24
-  },
   {
    "quark": "1793250297051-5691",
    "juego": "kf2k2pls",
@@ -5316,6 +5262,60 @@
      ],
      "claves": [
       "blanka"
+     ]
+    }
+   ],
+   "rondas": 22
+  },
+  {
+   "quark": "1680146826140-1141",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2023-03-30",
+   "youtube": "W_AnK4L6lHY",
+   "titulo": "DG | Mr Yama vs Abel-*CBZ* | KOF98 | Abel-*CBZ* encadena 5 peleas ganadas a DG | Mr Yama",
+   "duracion": 949.2,
+   "marcador": [
+    0,
+    5
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "DG | Mr Yama",
+     "pais": "ar",
+     "rango_letra": "A",
+     "personaje": "Kim · Chris · Daimon",
+     "clave": "kof98_kim",
+     "personajes": [
+      "Kim",
+      "Chris",
+      "Daimon",
+      "Yashiro"
+     ],
+     "claves": [
+      "kof98_kim",
+      "kof98_chris",
+      "kof98_daimon",
+      "kof98_yashiro"
+     ]
+    },
+    {
+     "nombre": "Abel-*CBZ*",
+     "pais": "ar",
+     "rango_letra": "A",
+     "personaje": "Iori · Chris · Yashiro",
+     "clave": "kof98_iori",
+     "personajes": [
+      "Iori",
+      "Chris",
+      "Yashiro"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_chris",
+      "kof98_yashiro"
      ]
     }
    ],
