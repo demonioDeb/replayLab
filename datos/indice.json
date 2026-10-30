@@ -1,6 +1,68 @@
 {
- "actualizado": "2026-10-30 17:52",
+ "actualizado": "2026-10-30 18:59",
  "videos": [
+  {
+   "quark": "1793279293878-1643",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2026-10-29",
+   "youtube": "ltrauI6Pke0",
+   "titulo": "Not_B. vs it`s | The King of Fighters '98 | it`s liquida un round en 3 segundos",
+   "duracion": 1784.0,
+   "marcador": [
+    5,
+    4
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "Not_B.",
+     "pais": "kr",
+     "rango_letra": "B",
+     "personaje": "Billy · Chang · Yashiro",
+     "clave": "kof98_billy",
+     "personajes": [
+      "Billy",
+      "Chang",
+      "Yashiro"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_chang",
+      "kof98_yashiro"
+     ]
+    },
+    {
+     "nombre": "it`s",
+     "pais": "kr",
+     "rango_letra": "B",
+     "personaje": "Chizuru · Kyo · Takuma",
+     "clave": "kof98_chizuru",
+     "personajes": [
+      "Iori",
+      "Kyo",
+      "Takuma",
+      "Daimon",
+      "Ryo",
+      "Chris",
+      "Mai",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_kyo",
+      "kof98_takuma",
+      "kof98_daimon",
+      "kof98_ryo",
+      "kof98_chris",
+      "kof98_mai",
+      "kof98_chizuru"
+     ]
+    }
+   ],
+   "rondas": 43
+  },
   {
    "quark": "1793250297051-5691",
    "juego": "kf2k2pls",
