@@ -1,56 +1,6 @@
 {
- "actualizado": "2026-10-30 16:32",
+ "actualizado": "2026-10-30 16:33",
  "videos": [
-  {
-   "quark": "1793276184729-6411",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-10-29",
-   "youtube": "X_rRsUkCl-Q",
-   "titulo": "MiBSF2CE-TV vs Jean_Claude_VanDamme | SF2CE | MiBSF2CE-TV remonta un round yendo 75% por detrás",
-   "duracion": 505.7,
-   "marcador": [
-    5,
-    0
-   ],
-   "peleas": 5,
-   "jugadores": [
-    {
-     "nombre": "MiBSF2CE-TV",
-     "pais": "br",
-     "rango_letra": "S",
-     "personaje": "Blanka",
-     "clave": "blanka",
-     "personajes": [
-      "Blanka"
-     ],
-     "claves": [
-      "blanka"
-     ]
-    },
-    {
-     "nombre": "Jean_Claude_VanDamme",
-     "pais": "br",
-     "rango_letra": "A",
-     "personaje": "Guile",
-     "clave": "guile",
-     "personajes": [
-      "Guile",
-      "M. Bison",
-      "E. Honda",
-      "Blanka"
-     ],
-     "claves": [
-      "guile",
-      "dictator",
-      "honda",
-      "blanka"
-     ]
-    }
-   ],
-   "rondas": 12
-  },
   {
    "quark": "1793250297051-5691",
    "juego": "kf2k2pls",
@@ -218,6 +168,50 @@
     }
    ],
    "rondas": 10
+  },
+  {
+   "quark": "1793225356217-4058",
+   "juego": "sfa3",
+   "juego_nombre": "Street Fighter Alpha 3",
+   "juego_corto": "SFA3",
+   "fecha": "2026-10-28",
+   "youtube": "i5haCCxrERs",
+   "titulo": "5th master vs MiamiX-Alex | Street Fighter Alpha 3 | 5th master arrasa a MiamiX-Alex 5-1",
+   "duracion": 792.8,
+   "marcador": [
+    5,
+    1
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "5th master",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Chun-Li",
+     "clave": "sfa3_chunli",
+     "personajes": [
+      "Chun-Li"
+     ],
+     "claves": [
+      "sfa3_chunli"
+     ]
+    },
+    {
+     "nombre": "MiamiX-Alex",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Sodom",
+     "clave": "sfa3_sodom",
+     "personajes": [
+      "Sodom"
+     ],
+     "claves": [
+      "sfa3_sodom"
+     ]
+    }
+   ],
+   "rondas": 17
   },
   {
    "quark": "1793223233924-2061",
@@ -1834,56 +1828,6 @@
    "rondas": 16
   },
   {
-   "quark": "1792255139229-2301",
-   "juego": "sf2hf",
-   "juego_nombre": "Street Fighter II' Hyper Fighting",
-   "juego_corto": "SF2HF",
-   "fecha": "2026-10-17",
-   "youtube": "6Ah0M3rXdTA",
-   "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 Royal Plush vs 🇺🇸 ChoiBoy",
-   "duracion": 606.1,
-   "marcador": [
-    1,
-    5
-   ],
-   "peleas": 6,
-   "jugadores": [
-    {
-     "nombre": "Royal Plush",
-     "pais": "us",
-     "rango_letra": "C",
-     "personaje": "Blanka",
-     "clave": "blanka",
-     "personajes": [
-      "Blanka",
-      "Ryu",
-      "Guile",
-      "Sagat"
-     ],
-     "claves": [
-      "blanka",
-      "ryu",
-      "guile",
-      "sagat"
-     ]
-    },
-    {
-     "nombre": "ChoiBoy",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Zangief",
-     "clave": "zangief",
-     "personajes": [
-      "Zangief"
-     ],
-     "claves": [
-      "zangief"
-     ]
-    }
-   ],
-   "rondas": 14
-  },
-  {
    "quark": "1792220353871-8960",
    "juego": "sf2hf",
    "juego_nombre": "Street Fighter II' Hyper Fighting",
@@ -2384,64 +2328,6 @@
     }
    ],
    "rondas": 5
-  },
-  {
-   "quark": "1792096337114-7008",
-   "juego": "kof2002",
-   "juego_nombre": "The King of Fighters 2002",
-   "juego_corto": "KOF2002",
-   "fecha": "2026-10-15",
-   "youtube": "I5B9j4Eh8x4",
-   "titulo": "Drinkteam-john vs [SKM] [P] POLLO | KOF2002 | Drinkteam-john liquida un round en 6 segundos",
-   "duracion": 1369.3,
-   "marcador": [
-    3,
-    5
-   ],
-   "peleas": 8,
-   "jugadores": [
-    {
-     "nombre": "Drinkteam-john",
-     "pais": "mx",
-     "rango_letra": "A",
-     "personaje": "Whip · Kim · Leona",
-     "clave": "kof2002_whip",
-     "personajes": [
-      "K'",
-      "Leona",
-      "Whip",
-      "Kim"
-     ],
-     "claves": [
-      "kof2002_kdash",
-      "kof2002_leona",
-      "kof2002_whip",
-      "kof2002_kim"
-     ]
-    },
-    {
-     "nombre": "[SKM] [P] POLLO",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Kim · Angel · Iori",
-     "clave": "kof2002_kim",
-     "personajes": [
-      "Kim",
-      "May Lee",
-      "Yamazaki",
-      "Angel",
-      "Iori"
-     ],
-     "claves": [
-      "kof2002_kim",
-      "kof2002_maylee",
-      "kof2002_yamazaki",
-      "kof2002_angel",
-      "kof2002_iori"
-     ]
-    }
-   ],
-   "rondas": 35
   },
   {
    "quark": "1792084722783-2507",
