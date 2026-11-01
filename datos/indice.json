@@ -1,15 +1,15 @@
 {
- "actualizado": "2026-11-01 20:27",
+ "actualizado": "2026-11-01 20:28",
  "videos": [
   {
-   "quark": "1793312895160-8415",
-   "juego": "ssf2xjr1",
-   "juego_nombre": "Super Street Fighter II X",
-   "juego_corto": "SSF2X",
-   "fecha": "2026-10-29",
-   "youtube": "CpuKB8U_u_0",
-   "titulo": "REV HANZOBRASIL vs robertodaimon | SSF2X | REV HANZOBRASIL se luce con 2 Perfects frente a robertod…",
-   "duracion": 614.1,
+   "quark": "1793332418220-1938",
+   "juego": "kof2002",
+   "juego_nombre": "The King of Fighters 2002",
+   "juego_corto": "KOF2002",
+   "fecha": "2026-10-30",
+   "youtube": "3m-YiAnWT8U",
+   "titulo": "Drinkteam-john vs [KING]-Sanagua147*** | KOF2002 | Drinkteam-john arrasa a [KING]-Sanagua147*** 5-1",
+   "duracion": 850.6,
    "marcador": [
     5,
     1
@@ -17,33 +17,243 @@
    "peleas": 6,
    "jugadores": [
     {
-     "nombre": "REV HANZOBRASIL",
-     "pais": "br",
+     "nombre": "Drinkteam-john",
+     "pais": "mx",
      "rango_letra": "A",
-     "personaje": "Vega",
-     "clave": "claw",
+     "personaje": "Kim · Leona · Whip",
+     "clave": "kof2002_kim",
      "personajes": [
-      "Vega"
+      "Kim",
+      "Leona",
+      "Whip"
      ],
      "claves": [
-      "claw"
+      "kof2002_kim",
+      "kof2002_leona",
+      "kof2002_whip"
      ]
     },
     {
-     "nombre": "robertodaimon",
-     "pais": "br",
-     "rango_letra": "A",
-     "personaje": "Dhalsim",
-     "clave": "dhalsim",
+     "nombre": "[KING]-Sanagua147***",
+     "pais": "ar",
+     "rango_letra": "B",
+     "personaje": "Billy · Chris · Kim",
+     "clave": "kof2002_billy",
      "personajes": [
-      "Dhalsim"
+      "Angel",
+      "Billy",
+      "Kim",
+      "Chris"
      ],
      "claves": [
-      "dhalsim"
+      "kof2002_angel",
+      "kof2002_billy",
+      "kof2002_kim",
+      "kof2002_chris"
      ]
     }
    ],
-   "rondas": 17
+   "rondas": 24
+  },
+  {
+   "quark": "1793315762382-5367",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-29",
+   "youtube": "VQkwT2QuEMw",
+   "titulo": "Hyphen-ated vs MegamanX-8 | SSF2X | De 3-0 abajo a ganar: MegamanX-8 vs Hyphen-ated",
+   "duracion": 762.1,
+   "marcador": [
+    4,
+    5
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "Hyphen-ated",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Fei Long",
+     "clave": "feilong",
+     "personajes": [
+      "Fei Long"
+     ],
+     "claves": [
+      "feilong"
+     ]
+    },
+    {
+     "nombre": "MegamanX-8",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "Zangief",
+     "clave": "zangief",
+     "personajes": [
+      "Zangief"
+     ],
+     "claves": [
+      "zangief"
+     ]
+    }
+   ],
+   "rondas": 22
+  },
+  {
+   "quark": "1793313299225-2993",
+   "juego": "sfa2u",
+   "juego_nombre": "Street Fighter Alpha 2",
+   "juego_corto": "SFA2",
+   "fecha": "2026-10-29",
+   "youtube": "J1pCa9P4qSQ",
+   "titulo": "tubarao bass vs Grande Gancho. | SFA2 | Grande Gancho. remonta el set tras ir 3-0 abajo",
+   "duracion": 1304.1,
+   "marcador": [
+    3,
+    5
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "tubarao bass",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Rose",
+     "clave": "sfa2_rose",
+     "personajes": [
+      "Rose"
+     ],
+     "claves": [
+      "sfa2_rose"
+     ]
+    },
+    {
+     "nombre": "Grande Gancho.",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Ken",
+     "clave": "sfa2_ken",
+     "personajes": [
+      "Ken"
+     ],
+     "claves": [
+      "sfa2_ken"
+     ]
+    }
+   ],
+   "rondas": 24
+  },
+  {
+   "quark": "1793279293878-1643",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2026-10-29",
+   "youtube": "ltrauI6Pke0",
+   "titulo": "Not_B. vs it`s | The King of Fighters '98 | it`s liquida un round en 3 segundos",
+   "duracion": 1784.0,
+   "marcador": [
+    5,
+    4
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "Not_B.",
+     "pais": "kr",
+     "rango_letra": "B",
+     "personaje": "Billy · Chang · Yashiro",
+     "clave": "kof98_billy",
+     "personajes": [
+      "Billy",
+      "Chang",
+      "Yashiro"
+     ],
+     "claves": [
+      "kof98_billy",
+      "kof98_chang",
+      "kof98_yashiro"
+     ]
+    },
+    {
+     "nombre": "it`s",
+     "pais": "kr",
+     "rango_letra": "B",
+     "personaje": "Chizuru · Kyo · Takuma",
+     "clave": "kof98_chizuru",
+     "personajes": [
+      "Iori",
+      "Kyo",
+      "Takuma",
+      "Daimon",
+      "Ryo",
+      "Chris",
+      "Mai",
+      "Chizuru"
+     ],
+     "claves": [
+      "kof98_iori",
+      "kof98_kyo",
+      "kof98_takuma",
+      "kof98_daimon",
+      "kof98_ryo",
+      "kof98_chris",
+      "kof98_mai",
+      "kof98_chizuru"
+     ]
+    }
+   ],
+   "rondas": 43
+  },
+  {
+   "quark": "1793276184729-6411",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-29",
+   "youtube": "X_rRsUkCl-Q",
+   "titulo": "MiBSF2CE-TV vs Jean_Claude_VanDamme | SF2CE | MiBSF2CE-TV remonta un round yendo 75% por detrás",
+   "duracion": 505.7,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "MiBSF2CE-TV",
+     "pais": "br",
+     "rango_letra": "S",
+     "personaje": "Blanka",
+     "clave": "blanka",
+     "personajes": [
+      "Blanka"
+     ],
+     "claves": [
+      "blanka"
+     ]
+    },
+    {
+     "nombre": "Jean_Claude_VanDamme",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Guile",
+     "clave": "guile",
+     "personajes": [
+      "Guile",
+      "M. Bison",
+      "E. Honda",
+      "Blanka"
+     ],
+     "claves": [
+      "guile",
+      "dictator",
+      "honda",
+      "blanka"
+     ]
+    }
+   ],
+   "rondas": 12
   },
   {
    "quark": "1793250297051-5691",
@@ -118,6 +328,58 @@
     }
    ],
    "rondas": 13
+  },
+  {
+   "quark": "1793248963744-6757",
+   "juego": "kof2002",
+   "juego_nombre": "The King of Fighters 2002",
+   "juego_corto": "KOF2002",
+   "fecha": "2026-10-29",
+   "youtube": "9kmWjhrtykM",
+   "titulo": "HONESTO OFICIAL vs Bronce35 | KOF2002 | Brazil vs Peru Frente a Frente",
+   "duracion": 913.0,
+   "marcador": [
+    5,
+    1
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "HONESTO OFICIAL",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Daimon · Joe · Vice",
+     "clave": "kof2002_daimon",
+     "personajes": [
+      "Joe",
+      "Vice",
+      "Daimon"
+     ],
+     "claves": [
+      "kof2002_joe",
+      "kof2002_vice",
+      "kof2002_daimon"
+     ]
+    },
+    {
+     "nombre": "Bronce35",
+     "pais": "pe",
+     "rango_letra": "B",
+     "personaje": "Ramon · Leona · Vanessa",
+     "clave": "kof2002_ramon",
+     "personajes": [
+      "Ramon",
+      "Leona",
+      "Vanessa"
+     ],
+     "claves": [
+      "kof2002_ramon",
+      "kof2002_leona",
+      "kof2002_vanessa"
+     ]
+    }
+   ],
+   "rondas": 26
   },
   {
    "quark": "1793233983477-9102",
@@ -574,6 +836,102 @@
     }
    ],
    "rondas": 34
+  },
+  {
+   "quark": "1792910165655-9199",
+   "juego": "xmcota",
+   "juego_nombre": "X-Men: Children of the Atom",
+   "juego_corto": "XMCOTA",
+   "fecha": "2026-10-25",
+   "youtube": "Ipfy9UASycU",
+   "titulo": "TELEPATHICMASSAGE vs HTMFights.com | XMCOTA | HTMFights.com encadena 5 peleas ganadas a TELEPATHICM…",
+   "duracion": 600.2,
+   "marcador": [
+    0,
+    5
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "TELEPATHICMASSAGE",
+     "pais": "ca",
+     "rango_letra": "D",
+     "personaje": "Silver Samurai",
+     "clave": "xmcota_silversamurai",
+     "personajes": [
+      "Silver Samurai"
+     ],
+     "claves": [
+      "xmcota_silversamurai"
+     ]
+    },
+    {
+     "nombre": "HTMFights.com",
+     "pais": "us",
+     "rango_letra": "C",
+     "personaje": "Sentinel",
+     "clave": "xmcota_sentinel",
+     "personajes": [
+      "Sentinel"
+     ],
+     "claves": [
+      "xmcota_sentinel"
+     ]
+    }
+   ],
+   "rondas": 11
+  },
+  {
+   "quark": "1792895743031-9113",
+   "juego": "kf2k2pls",
+   "juego_nombre": "The King of Fighters 2002 Plus",
+   "juego_corto": "KOF2002+",
+   "fecha": "2026-10-25",
+   "youtube": "kAPF5lfhFik",
+   "titulo": "[SKM] KUNO vs IDKOF REYES | KOF2002+ | KO en 8 segundos de IDKOF REYES contra [SKM] KUNO",
+   "duracion": 469.1,
+   "marcador": [
+    3,
+    0
+   ],
+   "peleas": 3,
+   "jugadores": [
+    {
+     "nombre": "[SKM] KUNO",
+     "pais": "mx",
+     "rango_letra": "A",
+     "personaje": "Iori · Choi · Kim",
+     "clave": "kof2002_iori",
+     "personajes": [
+      "Iori",
+      "Choi",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_choi",
+      "kof2002_kim"
+     ]
+    },
+    {
+     "nombre": "IDKOF REYES",
+     "pais": "mx",
+     "rango_letra": "B",
+     "personaje": "Kim · Choi · Chris",
+     "clave": "kof2002_kim",
+     "personajes": [
+      "Kim",
+      "Choi",
+      "Chris"
+     ],
+     "claves": [
+      "kof2002_kim",
+      "kof2002_choi",
+      "kof2002_chris"
+     ]
+    }
+   ],
+   "rondas": 14
   },
   {
    "quark": "1792883151334-9492",
