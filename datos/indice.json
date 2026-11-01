@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-01 22:53",
+ "actualizado": "2026-11-01 22:54",
  "videos": [
   {
    "quark": "1793332418220-1938",
@@ -186,50 +186,6 @@
     }
    ],
    "rondas": 17
-  },
-  {
-   "quark": "1793301624656-8435",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-10-29",
-   "youtube": "QwNeE_gqfJo",
-   "titulo": "Serdar80s vs HardTarget34 | SF2CE | De 4-1 abajo a ganar: Serdar80s vs HardTarget34",
-   "duracion": 1117.3,
-   "marcador": [
-    5,
-    4
-   ],
-   "peleas": 9,
-   "jugadores": [
-    {
-     "nombre": "Serdar80s",
-     "pais": "tr",
-     "rango_letra": "B",
-     "personaje": "Ryu",
-     "clave": "ryu",
-     "personajes": [
-      "Ryu"
-     ],
-     "claves": [
-      "ryu"
-     ]
-    },
-    {
-     "nombre": "HardTarget34",
-     "pais": "tr",
-     "rango_letra": "B",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    }
-   ],
-   "rondas": 24
   },
   {
    "quark": "1793279293878-1643",
