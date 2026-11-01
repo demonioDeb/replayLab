@@ -1,0 +1,761 @@
+{
+ "version": 8,
+ "quark": "1793384920163-9200",
+ "carpeta": "20261101_Bismarck_Rudvan_vs_BradockSG_1793384920163-9200",
+ "juego": "kof98",
+ "juego_nombre": "The King of Fighters '98",
+ "juego_corto": "KOF98",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": false,
+  "guardia": true
+ },
+ "fecha": "2026-10-30",
+ "youtube": "pQ3cbwLRc-w",
+ "titulo": "Bismarck Rudvan vs BradockSG | The King of Fighters '98 | Se acaba el reloj: 2 rounds por tiempo",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "Bismarck Rudvan",
+   "pais": "br",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Lucky · Chang · Daimon",
+   "clave": "kof98_lucky",
+   "equipo": [
+    "Lucky",
+    "Chang",
+    "Daimon"
+   ],
+   "equipo_claves": [
+    "kof98_lucky",
+    "kof98_chang",
+    "kof98_daimon"
+   ],
+   "personajes": [
+    "Lucky",
+    "Chang",
+    "Daimon"
+   ],
+   "claves": [
+    "kof98_lucky",
+    "kof98_chang",
+    "kof98_daimon"
+   ],
+   "swaps": 0,
+   "super": ""
+  },
+  {
+   "nombre": "BradockSG",
+   "pais": "br",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Yamazaki · Yashiro · Mary",
+   "clave": "kof98_yamazaki",
+   "equipo": [
+    "Yamazaki",
+    "Yashiro",
+    "Mary"
+   ],
+   "equipo_claves": [
+    "kof98_yamazaki",
+    "kof98_yashiro",
+    "kof98_mary"
+   ],
+   "personajes": [
+    "Yamazaki",
+    "Yashiro",
+    "Mary"
+   ],
+   "claves": [
+    "kof98_yamazaki",
+    "kof98_yashiro",
+    "kof98_mary"
+   ],
+   "swaps": 0,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  2,
+  0
+ ],
+ "duracion": 456.7,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 12.61,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 12.61,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 44,
+     "perfect": false,
+     "dano": [
+      103,
+      52
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 49,
+     "remontada": 0,
+     "fin": 54.51,
+     "personajes": [
+      "Lucky",
+      "Yamazaki"
+     ],
+     "claves": [
+      "kof98_lucky",
+      "kof98_yamazaki"
+     ],
+     "vida_final": [
+      49,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 58.42,
+     "ganador": 2,
+     "motivo": "time",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      64,
+      58
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 37,
+     "remontada": 2,
+     "fin": 114.82,
+     "personajes": [
+      "Lucky",
+      "Yashiro"
+     ],
+     "claves": [
+      "kof98_lucky",
+      "kof98_yashiro"
+     ],
+     "vida_final": [
+      43,
+      37
+     ]
+    },
+    {
+     "n": 3,
+     "t": 124.64,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      51,
+      35
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 66,
+     "remontada": 0,
+     "fin": 156.41,
+     "personajes": [
+      "Chang",
+      "Yashiro"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_yashiro"
+     ],
+     "vida_final": [
+      66,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 163.79,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      53,
+      88
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 48,
+     "remontada": 17,
+     "fin": 199.25,
+     "personajes": [
+      "Chang",
+      "Mary"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_mary"
+     ],
+     "vida_final": [
+      0,
+      48
+     ]
+    },
+    {
+     "n": 5,
+     "t": 203.2,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 35,
+     "perfect": false,
+     "dano": [
+      70,
+      59
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 42,
+     "remontada": 8,
+     "fin": 239.08,
+     "personajes": [
+      "Daimon",
+      "Mary"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_mary"
+     ],
+     "vida_final": [
+      42,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Lucky · Chang · Daimon",
+    "Yamazaki · Yashiro · Mary"
+   ],
+   "claves": [
+    "kof98_lucky",
+    "kof98_yamazaki"
+   ],
+   "equipos": [
+    [
+     "Lucky",
+     "Chang",
+     "Daimon"
+    ],
+    [
+     "Yamazaki",
+     "Yashiro",
+     "Mary"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_lucky",
+     "kof98_chang",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_yamazaki",
+     "kof98_yashiro",
+     "kof98_mary"
+    ]
+   ],
+   "fin": 239.08,
+   "resumen": {
+    "dano": [
+     341,
+     292
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     5,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 204
+   }
+  },
+  {
+   "n": 2,
+   "t": 272.5,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 272.5,
+     "ganador": 2,
+     "motivo": "time",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      91,
+      100
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 11,
+     "remontada": 41,
+     "fin": 327.16,
+     "personajes": [
+      "Lucky",
+      "Yamazaki"
+     ],
+     "claves": [
+      "kof98_lucky",
+      "kof98_yamazaki"
+     ],
+     "vida_final": [
+      2,
+      11
+     ]
+    },
+    {
+     "n": 2,
+     "t": 333.92,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 17,
+     "perfect": false,
+     "dano": [
+      24,
+      37
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 64,
+     "remontada": 0,
+     "fin": 354.7,
+     "personajes": [
+      "Chang",
+      "Yamazaki"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_yamazaki"
+     ],
+     "vida_final": [
+      64,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 359.38,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 31,
+     "perfect": false,
+     "dano": [
+      103,
+      14
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 77,
+     "remontada": 0,
+     "fin": 392.19,
+     "personajes": [
+      "Chang",
+      "Yashiro"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_yashiro"
+     ],
+     "vida_final": [
+      77,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 400.09,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 53,
+     "perfect": false,
+     "dano": [
+      103,
+      58
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 40,
+     "remontada": 46,
+     "fin": 450.66,
+     "personajes": [
+      "Chang",
+      "Mary"
+     ],
+     "claves": [
+      "kof98_chang",
+      "kof98_mary"
+     ],
+     "vida_final": [
+      40,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    0
+   ],
+   "personajes": [
+    "Lucky · Chang · Daimon",
+    "Yamazaki · Yashiro · Mary"
+   ],
+   "claves": [
+    "kof98_lucky",
+    "kof98_yamazaki"
+   ],
+   "equipos": [
+    [
+     "Lucky",
+     "Chang",
+     "Daimon"
+    ],
+    [
+     "Yamazaki",
+     "Yashiro",
+     "Mary"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_lucky",
+     "kof98_chang",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_yamazaki",
+     "kof98_yashiro",
+     "kof98_mary"
+    ]
+   ],
+   "fin": 450.66,
+   "resumen": {
+    "dano": [
+     321,
+     209
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     1
+    ],
+    "duracion": 161
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 28.75,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 53.59,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 54.18,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 113.71,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 156.08,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 187.66,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 187.87,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 196.79,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 198.93,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 238.74,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 294.53,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 316.25,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 316.45,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 354.37,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 391.87,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 430.37,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 450.31,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 211,
+   "pelea_rapida": 178,
+   "swaps": 0,
+   "rondas": 6,
+   "rondas_jugadas": 9,
+   "ko": 6,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 662,
+   "recibido": 501,
+   "golpes": 93,
+   "golpe_max": 24,
+   "primero": 4,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 7,
+   "mareos": 0,
+   "ronda_rapida": 17,
+   "al_limite": 0,
+   "remontada": 46,
+   "racha": 3,
+   "contras": 5,
+   "esquivas": 0,
+   "maxes": 1,
+   "guardias": 3,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 56,
+   "dano_medio": 7.1,
+   "dur_avg": 35,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 54,
+   "dano_barras": 6.43,
+   "recibido_barras": 4.86,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.23
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 154,
+   "pelea_rapida": 0,
+   "swaps": 0,
+   "rondas": 3,
+   "rondas_jugadas": 9,
+   "ko": 1,
+   "timeup": 2,
+   "perfects": 0,
+   "dano": 501,
+   "recibido": 662,
+   "golpes": 86,
+   "golpe_max": 33,
+   "primero": 5,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 3,
+   "mareos": 0,
+   "ronda_rapida": 34,
+   "al_limite": 0,
+   "remontada": 41,
+   "racha": 1,
+   "contras": 0,
+   "esquivas": 1,
+   "maxes": 2,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 32,
+   "dano_medio": 5.8,
+   "dur_avg": 51,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 71,
+   "dano_barras": 4.86,
+   "recibido_barras": 6.43,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.32
+  }
+ ]
+}
