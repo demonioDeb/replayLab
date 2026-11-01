@@ -1,6 +1,58 @@
 {
- "actualizado": "2026-11-01 21:00",
+ "actualizado": "2026-11-01 21:50",
  "videos": [
+  {
+   "quark": "1793371691510-4976",
+   "juego": "kof2002",
+   "juego_nombre": "The King of Fighters 2002",
+   "juego_corto": "KOF2002",
+   "fecha": "2026-10-30",
+   "youtube": "xw0QMfqg7as",
+   "titulo": "Soichi vs minatosan | The King of Fighters 2002 | minatosan da la vuelta al set desde el 4-0",
+   "duracion": 1584.8,
+   "marcador": [
+    4,
+    5
+   ],
+   "peleas": 9,
+   "jugadores": [
+    {
+     "nombre": "Soichi",
+     "pais": "kr",
+     "rango_letra": "A",
+     "personaje": "Kula · Whip · Athena",
+     "clave": "kof2002_kula",
+     "personajes": [
+      "Kula",
+      "Whip",
+      "Athena"
+     ],
+     "claves": [
+      "kof2002_kula",
+      "kof2002_whip",
+      "kof2002_athena"
+     ]
+    },
+    {
+     "nombre": "minatosan",
+     "pais": "jp",
+     "rango_letra": "B",
+     "personaje": "Kim · Billy · Choi",
+     "clave": "kof2002_kim",
+     "personajes": [
+      "Billy",
+      "Kim",
+      "Choi"
+     ],
+     "claves": [
+      "kof2002_billy",
+      "kof2002_kim",
+      "kof2002_choi"
+     ]
+    }
+   ],
+   "rondas": 39
+  },
   {
    "quark": "1793332418220-1938",
    "juego": "kof2002",
