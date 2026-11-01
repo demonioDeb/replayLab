@@ -1,0 +1,1121 @@
+{
+ "version": 8,
+ "quark": "1793386204606-5589",
+ "carpeta": "20261101_BachataHero_vs_show_no_mercy_1793386204606-5589",
+ "juego": "sf2ce",
+ "juego_nombre": "Street Fighter II' Champion Edition",
+ "juego_corto": "SF2CE",
+ "datos": {
+  "super": false,
+  "stun": true,
+  "combos": false,
+  "guardia": false
+ },
+ "fecha": "2026-10-30",
+ "youtube": "PGeKaG6tReY",
+ "titulo": "BachataHero vs show_no_mercy | SF2CE | 4 mareos de BachataHero a show_no_mercy",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "BachataHero",
+   "pais": "tr",
+   "rango": 5,
+   "rango_letra": "A",
+   "personaje": "Guile",
+   "clave": "guile",
+   "personajes": [
+    "Guile"
+   ],
+   "claves": [
+    "guile"
+   ],
+   "swaps": 0,
+   "super": ""
+  },
+  {
+   "nombre": "show_no_mercy",
+   "pais": "tr",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Sagat",
+   "clave": "sagat",
+   "personajes": [
+    "Sagat"
+   ],
+   "claves": [
+    "sagat"
+   ],
+   "swaps": 0,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  5,
+  2
+ ],
+ "duracion": 775.6,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 11.13,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 11.13,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 75,
+     "perfect": false,
+     "dano": [
+      144,
+      138
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 3,
+     "fin": 63.78,
+     "vida_final": [
+      4,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 71.45,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 63,
+     "perfect": false,
+     "dano": [
+      144,
+      136
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 5,
+     "remontada": 0,
+     "fin": 116.78,
+     "vida_final": [
+      5,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    0
+   ],
+   "personajes": [
+    "Guile",
+    "Sagat"
+   ],
+   "claves": [
+    "guile",
+    "sagat"
+   ],
+   "fin": 117.25,
+   "resumen": {
+    "dano": [
+     288,
+     274
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 138
+   }
+  },
+  {
+   "n": 2,
+   "t": 132.99,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 132.99,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 74,
+     "perfect": false,
+     "dano": [
+      129,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 10,
+     "remontada": 4,
+     "fin": 185.38,
+     "vida_final": [
+      0,
+      10
+     ]
+    },
+    {
+     "n": 2,
+     "t": 193.67,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      66,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 54,
+     "remontada": 4,
+     "fin": 216.9,
+     "vida_final": [
+      0,
+      54
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    1
+   ],
+   "personajes": [
+    "Guile",
+    "Sagat"
+   ],
+   "claves": [
+    "guile",
+    "sagat"
+   ],
+   "fin": 217.39,
+   "resumen": {
+    "dano": [
+     195,
+     288
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 104
+   }
+  },
+  {
+   "n": 3,
+   "t": 230.99,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 230.99,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 37,
+     "perfect": false,
+     "dano": [
+      144,
+      119
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 17,
+     "remontada": 0,
+     "fin": 258.62,
+     "vida_final": [
+      17,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 265.68,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 34,
+     "perfect": false,
+     "dano": [
+      64,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 55,
+     "remontada": 15,
+     "fin": 291.89,
+     "vida_final": [
+      0,
+      55
+     ]
+    },
+    {
+     "n": 3,
+     "t": 299.09,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 53,
+     "perfect": false,
+     "dano": [
+      144,
+      92
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 36,
+     "remontada": 15,
+     "fin": 337.52,
+     "vida_final": [
+      36,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    1
+   ],
+   "personajes": [
+    "Guile",
+    "Sagat"
+   ],
+   "claves": [
+    "guile",
+    "sagat"
+   ],
+   "fin": 338.0,
+   "resumen": {
+    "dano": [
+     352,
+     355
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 124
+   }
+  },
+  {
+   "n": 4,
+   "t": 352.45,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 352.45,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 23,
+     "perfect": false,
+     "dano": [
+      144,
+      2
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 98,
+     "remontada": 0,
+     "fin": 370.83,
+     "vida_final": [
+      98,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 378.31,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 40,
+     "perfect": false,
+     "dano": [
+      63,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      1
+     ],
+     "vida_fin": 56,
+     "remontada": 10,
+     "fin": 407.91,
+     "vida_final": [
+      0,
+      56
+     ]
+    },
+    {
+     "n": 3,
+     "t": 415.04,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 58,
+     "perfect": false,
+     "dano": [
+      144,
+      30
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 79,
+     "remontada": 18,
+     "fin": 456.7,
+     "vida_final": [
+      79,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    1
+   ],
+   "personajes": [
+    "Guile",
+    "Sagat"
+   ],
+   "claves": [
+    "guile",
+    "sagat"
+   ],
+   "fin": 457.19,
+   "resumen": {
+    "dano": [
+     351,
+     176
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     1
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 121
+   }
+  },
+  {
+   "n": 5,
+   "t": 470.47,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 470.47,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 77,
+     "perfect": false,
+     "dano": [
+      144,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 0,
+     "remontada": 3,
+     "fin": 524.92,
+     "vida_final": [
+      0,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 532.67,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 76,
+     "perfect": false,
+     "dano": [
+      138,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 4,
+     "remontada": 17,
+     "fin": 586.93,
+     "vida_final": [
+      0,
+      4
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    2
+   ],
+   "personajes": [
+    "Guile",
+    "Sagat"
+   ],
+   "claves": [
+    "guile",
+    "sagat"
+   ],
+   "fin": 587.4,
+   "resumen": {
+    "dano": [
+     282,
+     288
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 153
+   }
+  },
+  {
+   "n": 6,
+   "t": 602.42,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 602.42,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 45,
+     "perfect": false,
+     "dano": [
+      144,
+      57
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 60,
+     "remontada": 0,
+     "fin": 634.9,
+     "vida_final": [
+      60,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 642.14,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 26,
+     "perfect": false,
+     "dano": [
+      144,
+      17
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 88,
+     "remontada": 0,
+     "fin": 662.61,
+     "vida_final": [
+      88,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    4,
+    2
+   ],
+   "personajes": [
+    "Guile",
+    "Sagat"
+   ],
+   "claves": [
+    "guile",
+    "sagat"
+   ],
+   "fin": 663.09,
+   "resumen": {
+    "dano": [
+     288,
+     74
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 71
+   }
+  },
+  {
+   "n": 7,
+   "t": 679.7,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 679.7,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 35,
+     "perfect": false,
+     "dano": [
+      144,
+      37
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 74,
+     "remontada": 2,
+     "fin": 706.11,
+     "vida_final": [
+      74,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 714.62,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      70,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 51,
+     "remontada": 17,
+     "fin": 739.88,
+     "vida_final": [
+      0,
+      51
+     ]
+    },
+    {
+     "n": 3,
+     "t": 747.02,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      144,
+      62
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 56,
+     "remontada": 32,
+     "fin": 769.15,
+     "vida_final": [
+      56,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    5,
+    2
+   ],
+   "personajes": [
+    "Guile",
+    "Sagat"
+   ],
+   "claves": [
+    "guile",
+    "sagat"
+   ],
+   "fin": 769.63,
+   "resumen": {
+    "dano": [
+     358,
+     243
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     1
+    ],
+    "duracion": 96
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 63.78,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 116.78,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 185.38,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 216.9,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 255.92,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 258.62,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 291.89,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 337.52,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 359.43,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 370.83,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 396.14,
+   "tipo": "mareo",
+   "jugador": 2
+  },
+  {
+   "t": 407.91,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 456.7,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 524.92,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 586.93,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 634.9,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 659.45,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 662.61,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 706.11,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 739.88,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 766.31,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 769.15,
+   "tipo": "ko",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 179,
+   "stun_peor": 179,
+   "mareado_veces": 1,
+   "dur_sum": 443,
+   "pelea_rapida": 61,
+   "swaps": 0,
+   "rondas": 10,
+   "rondas_jugadas": 17,
+   "ko": 10,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 2114,
+   "recibido": 1698,
+   "golpes": 185,
+   "golpe_max": 33,
+   "primero": 12,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 4,
+   "ronda_rapida": 23,
+   "al_limite": 2,
+   "remontada": 32,
+   "racha": 3,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 52,
+   "dano_medio": 11.4,
+   "dur_avg": 44,
+   "stun_seg": 3.0,
+   "stun_peor_seg": 3.0,
+   "vida_perdida_ronda": 69,
+   "dano_barras": 14.68,
+   "recibido_barras": 11.79,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.23
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 523,
+   "stun_peor": 161,
+   "mareado_veces": 4,
+   "dur_sum": 364,
+   "pelea_rapida": 84,
+   "swaps": 0,
+   "rondas": 7,
+   "rondas_jugadas": 17,
+   "ko": 7,
+   "timeup": 0,
+   "perfects": 0,
+   "dano": 1698,
+   "recibido": 2114,
+   "golpes": 146,
+   "golpe_max": 44,
+   "primero": 5,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 1,
+   "ronda_rapida": 30,
+   "al_limite": 3,
+   "remontada": 17,
+   "racha": 2,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 33,
+   "dano_medio": 11.6,
+   "dur_avg": 52,
+   "stun_seg": 8.8,
+   "stun_peor_seg": 2.7,
+   "vida_perdida_ronda": 86,
+   "dano_barras": 11.79,
+   "recibido_barras": 14.68,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.31
+  }
+ ]
+}
