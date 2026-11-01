@@ -1,50 +1,6 @@
 {
- "actualizado": "2026-11-01 22:17",
+ "actualizado": "2026-11-01 22:18",
  "videos": [
-  {
-   "quark": "1793386204606-5589",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-10-30",
-   "youtube": "PGeKaG6tReY",
-   "titulo": "BachataHero vs show_no_mercy | SF2CE | 4 mareos de BachataHero a show_no_mercy",
-   "duracion": 775.6,
-   "marcador": [
-    5,
-    2
-   ],
-   "peleas": 7,
-   "jugadores": [
-    {
-     "nombre": "BachataHero",
-     "pais": "tr",
-     "rango_letra": "A",
-     "personaje": "Guile",
-     "clave": "guile",
-     "personajes": [
-      "Guile"
-     ],
-     "claves": [
-      "guile"
-     ]
-    },
-    {
-     "nombre": "show_no_mercy",
-     "pais": "tr",
-     "rango_letra": "B",
-     "personaje": "Sagat",
-     "clave": "sagat",
-     "personajes": [
-      "Sagat"
-     ],
-     "claves": [
-      "sagat"
-     ]
-    }
-   ],
-   "rondas": 17
-  },
   {
    "quark": "1793332418220-1938",
    "juego": "kof2002",
