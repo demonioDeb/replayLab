@@ -1,69 +1,181 @@
 {
- "actualizado": "2026-10-30T19:31:33Z",
+ "actualizado": "2026-11-01T20:27:26Z",
  "fuente": "YouTube Data API v3",
  "id": "UCTzzkN3Pup4P6Y99OSt4wkA",
  "nombre": "replayLab",
  "handle": "replaylab-fcrec",
  "avatar": "https://yt3.ggpht.com/G4yY831_CbPLEo8e_7l-LlZh3Zus0xnupsZIL7v7X6TfFxoV-hLWRpnQGMFP7PxjiEgmljlHxg=s240-c-k-c0x00ffffff-no-rj",
- "suscriptores": 35,
- "vistas": 32473,
- "videos": 234,
+ "suscriptores": 37,
+ "vistas": 33148,
+ "videos": 250,
  "lista": [
   {
-   "id": "UHjX7o3AH54",
+   "id": "lFekZpZuavQ",
+   "privacidad": "private"
+  },
+  {
+   "id": "CpuKB8U_u_0",
    "privacidad": "private"
   },
   {
    "id": "3m-YiAnWT8U",
-   "privacidad": "private"
+   "titulo": "Drinkteam-john vs [KING]-Sanagua147*** | KOF2002 | Drinkteam-john arrasa a [KING]-Sanagua147*** 5-1",
+   "publicado": "2026-11-01T09:24:49Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/3m-YiAnWT8U/mqdefault.jpg"
   },
   {
-   "id": "0bx08XyygM4",
-   "privacidad": "private"
+   "id": "UHjX7o3AH54",
+   "titulo": "Drinkteam-john arrasa a [KING]-Sanagua147*** | KOF2002 #Shorts",
+   "publicado": "2026-11-01T09:24:36Z",
+   "privacidad": "public",
+   "vistas": 11,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/UHjX7o3AH54/mqdefault.jpg"
   },
   {
    "id": "ltrauI6Pke0",
-   "privacidad": "private"
+   "titulo": "Not_B. vs it`s | The King of Fighters '98 | it`s liquida un round en 3 segundos",
+   "publicado": "2026-11-01T05:24:39Z",
+   "privacidad": "public",
+   "vistas": 5,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/ltrauI6Pke0/mqdefault.jpg"
+  },
+  {
+   "id": "0bx08XyygM4",
+   "titulo": "Round liquidado en 3 s | KOF98 #Shorts",
+   "publicado": "2026-11-01T05:24:13Z",
+   "privacidad": "public",
+   "vistas": 10,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/0bx08XyygM4/mqdefault.jpg"
   },
   {
    "id": "DD_ix9CZtIc",
-   "privacidad": "private"
+   "titulo": "Remontada de set de Grande Gancho. | SFA2 #Shorts",
+   "publicado": "2026-11-01T01:24:42Z",
+   "privacidad": "public",
+   "vistas": 19,
+   "me_gusta": 1,
+   "miniatura": "https://i.ytimg.com/vi/DD_ix9CZtIc/mqdefault.jpg"
   },
   {
    "id": "J1pCa9P4qSQ",
-   "privacidad": "private"
-  },
-  {
-   "id": "fhrV1lUoLZc",
-   "privacidad": "private"
+   "titulo": "tubarao bass vs Grande Gancho. | SFA2 | Grande Gancho. remonta el set tras ir 3-0 abajo",
+   "publicado": "2026-11-01T01:24:15Z",
+   "privacidad": "public",
+   "vistas": 3,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/J1pCa9P4qSQ/mqdefault.jpg"
   },
   {
    "id": "VQkwT2QuEMw",
-   "privacidad": "private"
+   "titulo": "Hyphen-ated vs MegamanX-8 | SSF2X | De 3-0 abajo a ganar: MegamanX-8 vs Hyphen-ated",
+   "publicado": "2026-10-31T21:24:26Z",
+   "privacidad": "public",
+   "vistas": 23,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/VQkwT2QuEMw/mqdefault.jpg"
+  },
+  {
+   "id": "fhrV1lUoLZc",
+   "titulo": "De 3-0 abajo a ganar | SSF2X #Shorts",
+   "publicado": "2026-10-31T21:24:24Z",
+   "privacidad": "public",
+   "vistas": 34,
+   "me_gusta": 1,
+   "miniatura": "https://i.ytimg.com/vi/fhrV1lUoLZc/mqdefault.jpg"
+  },
+  {
+   "id": "P24RmRV8hLs",
+   "titulo": "Round remontado por MiBSF2CE-TV | SF2CE #Shorts",
+   "publicado": "2026-10-31T17:24:43Z",
+   "privacidad": "public",
+   "vistas": 97,
+   "me_gusta": 2,
+   "miniatura": "https://i.ytimg.com/vi/P24RmRV8hLs/mqdefault.jpg"
+  },
+  {
+   "id": "X_rRsUkCl-Q",
+   "titulo": "MiBSF2CE-TV vs Jean_Claude_VanDamme | SF2CE | MiBSF2CE-TV remonta un round yendo 75% por detrás",
+   "publicado": "2026-10-31T17:24:41Z",
+   "privacidad": "public",
+   "vistas": 8,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/X_rRsUkCl-Q/mqdefault.jpg"
+  },
+  {
+   "id": "tJEerBReTTw",
+   "titulo": "Round remontado por HONESTO OFICIAL | KOF2002 #Shorts",
+   "publicado": "2026-10-31T14:00:32Z",
+   "privacidad": "public",
+   "vistas": 47,
+   "me_gusta": 3,
+   "miniatura": "https://i.ytimg.com/vi/tJEerBReTTw/mqdefault.jpg"
+  },
+  {
+   "id": "9kmWjhrtykM",
+   "titulo": "HONESTO OFICIAL vs Bronce35 | KOF2002 | Brazil vs Peru Frente a Frente",
+   "publicado": "2026-10-31T14:00:31Z",
+   "privacidad": "public",
+   "vistas": 0,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/9kmWjhrtykM/mqdefault.jpg"
+  },
+  {
+   "id": "Y5bJ7ZxRtsc",
+   "titulo": "KO en 8 segundos | KOF2002+ #Shorts",
+   "publicado": "2026-10-31T00:52:19Z",
+   "privacidad": "public",
+   "vistas": 123,
+   "me_gusta": 5,
+   "miniatura": "https://i.ytimg.com/vi/Y5bJ7ZxRtsc/mqdefault.jpg"
+  },
+  {
+   "id": "kAPF5lfhFik",
+   "titulo": "[SKM] KUNO vs IDKOF REYES | KOF2002+ | KO en 8 segundos de IDKOF REYES contra [SKM] KUNO",
+   "publicado": "2026-10-31T00:22:16Z",
+   "privacidad": "public",
+   "vistas": 34,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/kAPF5lfhFik/mqdefault.jpg"
+  },
+  {
+   "id": "vFQdS2lZnWE",
+   "titulo": "5 peleas seguidas de HTMFights.com | XMCOTA #Shorts",
+   "publicado": "2026-10-30T20:52:33Z",
+   "privacidad": "public",
+   "vistas": 20,
+   "me_gusta": 1,
+   "miniatura": "https://i.ytimg.com/vi/vFQdS2lZnWE/mqdefault.jpg"
+  },
+  {
+   "id": "Ipfy9UASycU",
+   "titulo": "TELEPATHICMASSAGE vs HTMFights.com | XMCOTA | HTMFights.com encadena 5 peleas ganadas a TELEPATHICM…",
+   "publicado": "2026-10-30T20:22:02Z",
+   "privacidad": "public",
+   "vistas": 4,
+   "me_gusta": 0,
+   "miniatura": "https://i.ytimg.com/vi/Ipfy9UASycU/mqdefault.jpg"
   },
   {
    "id": "oc1SMnBOoF0",
    "titulo": "5th master arrasa a MiamiX-Alex | SFA3 #Shorts",
    "publicado": "2026-10-30T16:52:23Z",
    "privacidad": "public",
-   "vistas": 1,
-   "me_gusta": 0,
+   "vistas": 103,
+   "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/oc1SMnBOoF0/mqdefault.jpg"
-  },
-  {
-   "id": "P24RmRV8hLs",
-   "privacidad": "private"
-  },
-  {
-   "id": "X_rRsUkCl-Q",
-   "privacidad": "private"
   },
   {
    "id": "i5haCCxrERs",
    "titulo": "5th master vs MiamiX-Alex | Street Fighter Alpha 3 | 5th master arrasa a MiamiX-Alex 5-1",
    "publicado": "2026-10-30T16:22:21Z",
    "privacidad": "public",
-   "vistas": 0,
+   "vistas": 7,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/i5haCCxrERs/mqdefault.jpg"
   },
@@ -72,8 +184,8 @@
    "titulo": "xmencota1 gana con la vida al límite | XMCOTA #Shorts",
    "publicado": "2026-10-30T15:08:17Z",
    "privacidad": "public",
-   "vistas": 5,
-   "me_gusta": 0,
+   "vistas": 24,
+   "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/jp4W9jB97vI/mqdefault.jpg"
   },
   {
@@ -81,7 +193,7 @@
    "titulo": "xmencota1 vs BHF | Balrogdomal | XMCOTA | xmencota1 gana un round con la vida al límite",
    "publicado": "2026-10-30T15:04:08Z",
    "privacidad": "public",
-   "vistas": 2,
+   "vistas": 10,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/5Z0Mxt4luAk/mqdefault.jpg"
   },
@@ -90,8 +202,8 @@
    "titulo": "Round remontado por HELLSW1ND2 | SFA2 #Shorts",
    "publicado": "2026-10-30T12:52:33Z",
    "privacidad": "public",
-   "vistas": 13,
-   "me_gusta": 1,
+   "vistas": 65,
+   "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/BB5mPxAhisE/mqdefault.jpg"
   },
   {
@@ -108,8 +220,8 @@
    "titulo": "24 supers en total | KOF2002+ #Shorts",
    "publicado": "2026-10-30T04:52:36Z",
    "privacidad": "public",
-   "vistas": 17,
-   "me_gusta": 0,
+   "vistas": 45,
+   "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/kcN9MaLvh1o/mqdefault.jpg"
   },
   {
@@ -117,7 +229,7 @@
    "titulo": "unused vs Test_King | The King of Fighters 2002 Plus | Lluvia de supers: 24 en total",
    "publicado": "2026-10-30T04:22:27Z",
    "privacidad": "public",
-   "vistas": 3,
+   "vistas": 7,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/VIMKRer3Wy0/mqdefault.jpg"
   },
@@ -126,7 +238,7 @@
    "titulo": "MauE1Azcino da la vuelta al set | SF2HF #Shorts",
    "publicado": "2026-10-30T00:52:38Z",
    "privacidad": "public",
-   "vistas": 34,
+   "vistas": 72,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/5fAp8n1c56M/mqdefault.jpg"
   },
@@ -135,7 +247,7 @@
    "titulo": "Wahzu vs MauE1Azcino | SF2HF | MauE1Azcino da la vuelta al set desde el 3-1",
    "publicado": "2026-10-30T00:22:27Z",
    "privacidad": "public",
-   "vistas": 3,
+   "vistas": 4,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/ewd4azbMXPc/mqdefault.jpg"
   },
@@ -144,7 +256,7 @@
    "titulo": "Por un hilo | SSF2X #Shorts",
    "publicado": "2026-10-29T20:52:17Z",
    "privacidad": "public",
-   "vistas": 48,
+   "vistas": 67,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/lpU2wN_EhNQ/mqdefault.jpg"
   },
@@ -153,7 +265,7 @@
    "titulo": "Zombie_Damage vs mrcarabano | SSF2X | Por un hilo: Zombie_Damage sobrevive y gana ante mrcarabano",
    "publicado": "2026-10-29T20:22:14Z",
    "privacidad": "public",
-   "vistas": 23,
+   "vistas": 62,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/oIxzuYjC7UU/mqdefault.jpg"
   },
@@ -162,7 +274,7 @@
    "titulo": "Ninten Clos marea a leoPA 10 veces | MSH #Shorts",
    "publicado": "2026-10-29T18:26:49Z",
    "privacidad": "public",
-   "vistas": 17,
+   "vistas": 27,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/r9PJKf2uZjw/mqdefault.jpg"
   },
@@ -171,24 +283,16 @@
    "titulo": "leoPA vs Ninten Clos | Marvel Super Heroes | Ninten Clos marea a leoPA 10 veces",
    "publicado": "2026-10-29T18:26:47Z",
    "privacidad": "public",
-   "vistas": 4,
+   "vistas": 8,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/B8z5-0IvjNc/mqdefault.jpg"
-  },
-  {
-   "id": "tJEerBReTTw",
-   "privacidad": "private"
-  },
-  {
-   "id": "9kmWjhrtykM",
-   "privacidad": "private"
   },
   {
    "id": "UgWeiS7qmqQ",
    "titulo": "bibi1983 vs Angneto | Marvel Super Heroes | Angneto no recibe ni un golpe: 5 Perfects",
    "publicado": "2026-10-29T14:26:37Z",
    "privacidad": "public",
-   "vistas": 4,
+   "vistas": 5,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/UgWeiS7qmqQ/mqdefault.jpg"
   },
@@ -197,7 +301,7 @@
    "titulo": "Ni un golpe recibido | MSH #Shorts",
    "publicado": "2026-10-29T14:26:34Z",
    "privacidad": "public",
-   "vistas": 26,
+   "vistas": 44,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/6qukL0DFvwo/mqdefault.jpg"
   },
@@ -220,22 +324,6 @@
    "miniatura": "https://i.ytimg.com/vi/frpR1S_daB4/mqdefault.jpg"
   },
   {
-   "id": "vFQdS2lZnWE",
-   "privacidad": "private"
-  },
-  {
-   "id": "Ipfy9UASycU",
-   "privacidad": "private"
-  },
-  {
-   "id": "Y5bJ7ZxRtsc",
-   "privacidad": "private"
-  },
-  {
-   "id": "kAPF5lfhFik",
-   "privacidad": "private"
-  },
-  {
    "id": "9tU1VFaETsk",
    "titulo": "sta_lipexctba vs papaidosbaianos | SFA2 | sta_lipexctba se luce con 1 Perfect frente a papaidosbaia…",
    "publicado": "2026-10-29T02:26:58Z",
@@ -249,7 +337,7 @@
    "titulo": "1 Perfect de sta_lipexctba | SFA2 #Shorts",
    "publicado": "2026-10-29T02:26:39Z",
    "privacidad": "public",
-   "vistas": 27,
+   "vistas": 28,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/OC5w3VLpG5w/mqdefault.jpg"
   },
@@ -258,7 +346,7 @@
    "titulo": "Salt_Ver vs OCXRIDAH | Street Fighter Alpha 3 | Set dominado: Salt_Ver gana 5-0",
    "publicado": "2026-10-28T22:32:08Z",
    "privacidad": "public",
-   "vistas": 8,
+   "vistas": 13,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/6pZ3pGkRH1s/mqdefault.jpg"
   },
@@ -267,7 +355,7 @@
    "titulo": "Set dominado por Salt_Ver | SFA3 #Shorts",
    "publicado": "2026-10-28T22:32:05Z",
    "privacidad": "public",
-   "vistas": 59,
+   "vistas": 67,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/GEhcywxFIAA/mqdefault.jpg"
   },
@@ -276,7 +364,7 @@
    "titulo": "14 supers en total | SFA3 #Shorts",
    "publicado": "2026-10-28T03:41:43Z",
    "privacidad": "public",
-   "vistas": 43,
+   "vistas": 40,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/1LW_IIcxTzQ/mqdefault.jpg"
   },
@@ -285,7 +373,7 @@
    "titulo": "Ana Gomez vs makozero | Street Fighter Alpha 3 | Lluvia de supers: 14 en total",
    "publicado": "2026-10-28T03:41:32Z",
    "privacidad": "public",
-   "vistas": 9,
+   "vistas": 11,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/vT_hpcg3do0/mqdefault.jpg"
   },
@@ -294,7 +382,7 @@
    "titulo": "NM_Akuma gana con la vida al límite | XMCOTA #Shorts",
    "publicado": "2026-10-27T23:31:55Z",
    "privacidad": "public",
-   "vistas": 20,
+   "vistas": 18,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/dlka_cP_Rfo/mqdefault.jpg"
   },
@@ -303,7 +391,7 @@
    "titulo": "NM_Akuma vs bignasty_3620 | XMCOTA | NM_Akuma gana un round con la vida al límite",
    "publicado": "2026-10-27T23:27:47Z",
    "privacidad": "public",
-   "vistas": 19,
+   "vistas": 13,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/LyYqRInZmSw/mqdefault.jpg"
   },
@@ -312,7 +400,7 @@
    "titulo": "-LiquidMetalX vs Ninten Clos | Marvel Super Heroes | -LiquidMetalX marea a Ninten Clos 10 veces",
    "publicado": "2026-10-27T22:57:05Z",
    "privacidad": "public",
-   "vistas": 5,
+   "vistas": 4,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/icRcvVNFV-Q/mqdefault.jpg"
   },
@@ -321,7 +409,7 @@
    "titulo": "Marvel Super Heroes | 🇨🇦 -LiquidMetalX vs 🇨🇴 Ninten Clos #shorts",
    "publicado": "2026-10-27T22:56:46Z",
    "privacidad": "public",
-   "vistas": 16,
+   "vistas": 14,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/HaE63XuZrq4/mqdefault.jpg"
   },
@@ -330,7 +418,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [CSK] TZK CAMARON vs 🇲🇽 UWL/MDF-DannyLee #shorts",
    "publicado": "2026-10-27T08:25:53Z",
    "privacidad": "public",
-   "vistas": 153,
+   "vistas": 156,
    "me_gusta": 5,
    "miniatura": "https://i.ytimg.com/vi/BBKulPfH1-c/mqdefault.jpg"
   },
@@ -339,7 +427,7 @@
    "titulo": "[CSK] TZK CAMARON vs UWL/MDF-DannyLee | KOF2002 | KO en 5 segundos de UWL/MDF-DannyLee contra [CSK]…",
    "publicado": "2026-10-27T08:25:35Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 2,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/t-gHvXKns7w/mqdefault.jpg"
   },
@@ -366,7 +454,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 ZOOLANDER vs 🇺🇸 MegamanX-8 #shorts",
    "publicado": "2026-10-27T02:25:42Z",
    "privacidad": "public",
-   "vistas": 47,
+   "vistas": 48,
    "me_gusta": 2,
    "miniatura": "https://i.ytimg.com/vi/p_rDtRmeric/mqdefault.jpg"
   },
@@ -375,7 +463,7 @@
    "titulo": "ZOOLANDER vs MegamanX-8 | Super Street Fighter II X | Racha de 5: MegamanX-8 no suelta a ZOOLANDER",
    "publicado": "2026-10-27T02:25:40Z",
    "privacidad": "public",
-   "vistas": 3,
+   "vistas": 4,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/Kp_zjCn3gY8/mqdefault.jpg"
   },
@@ -384,7 +472,7 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 DJILK vs 🇺🇸 ChoiBoy",
    "publicado": "2026-10-26T23:25:47Z",
    "privacidad": "public",
-   "vistas": 116,
+   "vistas": 120,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/vdCLY4bysMU/mqdefault.jpg"
   },
@@ -394,7 +482,7 @@
    "publicado": "2026-10-26T23:25:27Z",
    "privacidad": "public",
    "vistas": 209,
-   "me_gusta": 7,
+   "me_gusta": 6,
    "miniatura": "https://i.ytimg.com/vi/yAcYOvt5krE/mqdefault.jpg"
   },
   {
@@ -411,7 +499,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇲🇽 [IRK] Tecate Roja vs 🇲🇽 [SKM] KUNO",
    "publicado": "2026-10-26T20:25:17Z",
    "privacidad": "public",
-   "vistas": 4,
+   "vistas": 5,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/1taPAD6CpW8/mqdefault.jpg"
   },
@@ -420,7 +508,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇺🇸 DJILK vs 🇰🇷 jianchi123",
    "publicado": "2026-10-26T17:25:54Z",
    "privacidad": "public",
-   "vistas": 41,
+   "vistas": 48,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/JwhryOcSyFM/mqdefault.jpg"
   },
@@ -438,7 +526,7 @@
    "titulo": "The King of Fighters '98 | 🇰🇷 Not_B. vs 🇰🇷 it`s #shorts",
    "publicado": "2026-10-26T03:21:13Z",
    "privacidad": "public",
-   "vistas": 87,
+   "vistas": 88,
    "me_gusta": 3,
    "miniatura": "https://i.ytimg.com/vi/7XyT5ailOFQ/mqdefault.jpg"
   },
@@ -456,7 +544,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [CSK] TZK CAMARON vs 🇲🇽 IRK-ZR-ALCOHOL OFER #shorts",
    "publicado": "2026-10-26T03:20:03Z",
    "privacidad": "public",
-   "vistas": 85,
+   "vistas": 90,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/Elepf4KDHfc/mqdefault.jpg"
   },
@@ -465,7 +553,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [CSK] TZK CAMARON vs 🇲🇽 IRK-ZR-ALCOHOL OFER",
    "publicado": "2026-10-26T03:19:44Z",
    "privacidad": "public",
-   "vistas": 122,
+   "vistas": 124,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/qldiNwJM418/mqdefault.jpg"
   },
@@ -474,7 +562,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇲🇽 IRK-ZR-ALCOHOL OFER vs 🇲🇽 [CSK] TZK CAMARON",
    "publicado": "2026-10-26T00:19:42Z",
    "privacidad": "public",
-   "vistas": 1,
+   "vistas": 2,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/tyWc8adHWUU/mqdefault.jpg"
   },
@@ -501,7 +589,7 @@
    "titulo": "Super Street Fighter II X | 🇧🇷 FRS | Biridin vs 🇧🇷 IMP | Laboca",
    "publicado": "2026-10-25T21:19:44Z",
    "privacidad": "public",
-   "vistas": 7,
+   "vistas": 9,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/KdKMuyaaawo/mqdefault.jpg"
   },
@@ -555,7 +643,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 G0KTuG vs 🇹🇷 BachataHero",
    "publicado": "2026-10-25T12:19:45Z",
    "privacidad": "public",
-   "vistas": 83,
+   "vistas": 85,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/yLH_6m5O-Xc/mqdefault.jpg"
   },
@@ -618,7 +706,7 @@
    "titulo": "The King of Fighters '98 | 🇧🇷 olivercan vs 🇧🇷 Raphael pe",
    "publicado": "2026-10-24T16:00:04Z",
    "privacidad": "public",
-   "vistas": 7,
+   "vistas": 8,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/901AbyvNxSI/mqdefault.jpg"
   },
@@ -636,7 +724,7 @@
    "titulo": "Super Street Fighter II X | 🇫🇷 KillerOh! vs 🇺🇸 Voltech",
    "publicado": "2026-10-24T14:00:05Z",
    "privacidad": "public",
-   "vistas": 58,
+   "vistas": 66,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/lYmIyRvzwrc/mqdefault.jpg"
   },
@@ -663,7 +751,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Destur vs 🇹🇷 BachataHero",
    "publicado": "2026-10-24T12:00:16Z",
    "privacidad": "public",
-   "vistas": 149,
+   "vistas": 152,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/5cvxCbyapb8/mqdefault.jpg"
   },
@@ -699,7 +787,7 @@
    "titulo": "Zombie_Damage vs znoopyglobal | SSF2X | Zombie_Damage cierra el set por un hilo ante znoopyglobal",
    "publicado": "2026-10-23T16:08:03Z",
    "privacidad": "public",
-   "vistas": 9,
+   "vistas": 11,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/CIxbGc2oh6I/mqdefault.jpg"
   },
@@ -708,7 +796,7 @@
    "titulo": "Super Street Fighter II X | 🇺🇸 SuperrV vs 🇲🇽 _yito2k_",
    "publicado": "2026-10-23T14:08:03Z",
    "privacidad": "public",
-   "vistas": 11,
+   "vistas": 13,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/wqWS9Xsc1Bc/mqdefault.jpg"
   },
@@ -735,7 +823,7 @@
    "titulo": "Hokuto vs MegamanX-8 | Super Street Fighter II X | Hokuto conecta 7 golpes seguidos",
    "publicado": "2026-10-23T12:08:04Z",
    "privacidad": "public",
-   "vistas": 6,
+   "vistas": 7,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/fQbzddYEhEc/mqdefault.jpg"
   },
@@ -834,7 +922,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇿🇦 KOFMINISTER vs 🇧🇩 unused #shorts",
    "publicado": "2026-10-22T16:05:59Z",
    "privacidad": "public",
-   "vistas": 176,
+   "vistas": 175,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/qZFiSwmDYkQ/mqdefault.jpg"
   },
@@ -861,7 +949,7 @@
    "titulo": "The King of Fighters 2002 Plus | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 [SKM] KUNO #shorts",
    "publicado": "2026-10-22T05:45:47Z",
    "privacidad": "public",
-   "vistas": 75,
+   "vistas": 76,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/6A5XB72mH2w/mqdefault.jpg"
   },
@@ -870,7 +958,7 @@
    "titulo": "Por un hilo | SSF2X #Shorts",
    "publicado": "2026-10-20T04:12:38Z",
    "privacidad": "public",
-   "vistas": 623,
+   "vistas": 624,
    "me_gusta": 18,
    "miniatura": "https://i.ytimg.com/vi/LVSXTnMED5c/mqdefault.jpg"
   },
@@ -879,7 +967,7 @@
    "titulo": "kyoukai vs Balcork | Super Street Fighter II X | Por un hilo: Balcork sobrevive y gana ante kyoukai",
    "publicado": "2026-10-20T04:11:30Z",
    "privacidad": "public",
-   "vistas": 27,
+   "vistas": 30,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/7MLinYBfJsI/mqdefault.jpg"
   },
@@ -888,7 +976,7 @@
    "titulo": "[SKM] [P] POLLO vs Drinkteam-john | The King of Fighters 2002",
    "publicado": "2026-10-19T23:43:24Z",
    "privacidad": "public",
-   "vistas": 24,
+   "vistas": 26,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/VtSGc38T0W0/mqdefault.jpg"
   },
@@ -906,8 +994,8 @@
    "titulo": "Street Fighter II' Hyper Fighting | 🇺🇸 Royal Plush vs 🇺🇸 ChoiBoy",
    "publicado": "2026-10-18T17:13:09Z",
    "privacidad": "public",
-   "vistas": 7,
-   "me_gusta": 0,
+   "vistas": 9,
+   "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/6Ah0M3rXdTA/mqdefault.jpg"
   },
   {
@@ -942,7 +1030,7 @@
    "titulo": "Serdar80s vs yolcu | Street Fighter II' Champion Edition | yolcu no recibe ni un golpe: 1 Perfect",
    "publicado": "2026-10-18T16:34:57Z",
    "privacidad": "public",
-   "vistas": 6,
+   "vistas": 7,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/rTojqMLwYNc/mqdefault.jpg"
   },
@@ -969,7 +1057,7 @@
    "titulo": "Street Fighter II' Champion Edition | 🇹🇷 Sansar vs 🇧🇷 ((Caution))",
    "publicado": "2026-10-18T15:49:04Z",
    "privacidad": "public",
-   "vistas": 4,
+   "vistas": 5,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/ZmpZmSQ_vMg/mqdefault.jpg"
   },
@@ -996,7 +1084,7 @@
    "titulo": "yolcu vs DOMIT_BEG | Street Fighter II' Champion Edition | Racha de 5: yolcu no suelta a DOMIT_BEG",
    "publicado": "2026-10-18T15:26:03Z",
    "privacidad": "public",
-   "vistas": 3,
+   "vistas": 4,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/ucre00SiUJI/mqdefault.jpg"
   },
@@ -1014,7 +1102,7 @@
    "titulo": "((Caution)) vs Sansar | Street Fighter II' Champion Edition | Set dominado: ((Caution)) gana 5-0",
    "publicado": "2026-10-18T15:03:28Z",
    "privacidad": "public",
-   "vistas": 7,
+   "vistas": 8,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/iQq6_iX9Nwo/mqdefault.jpg"
   },
@@ -1032,7 +1120,7 @@
    "titulo": "Por un hilo | SF2HF #Shorts",
    "publicado": "2026-10-18T14:40:44Z",
    "privacidad": "public",
-   "vistas": 298,
+   "vistas": 300,
    "me_gusta": 10,
    "miniatura": "https://i.ytimg.com/vi/D31P2gT4eMQ/mqdefault.jpg"
   },
@@ -1059,7 +1147,7 @@
    "titulo": "ChoiBoy cierra por un hilo | SF2HF #Shorts",
    "publicado": "2026-10-18T13:44:33Z",
    "privacidad": "public",
-   "vistas": 217,
+   "vistas": 218,
    "me_gusta": 5,
    "miniatura": "https://i.ytimg.com/vi/p6twxgtvkyM/mqdefault.jpg"
   },
@@ -1086,7 +1174,7 @@
    "titulo": "Serdar80s vs yolcu | Street Fighter II' Champion Edition | yolcu no recibe ni un golpe: 1 Perfect",
    "publicado": "2026-10-18T13:18:27Z",
    "privacidad": "public",
-   "vistas": 11,
+   "vistas": 15,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/K0eZGntW3gc/mqdefault.jpg"
   },
@@ -1113,7 +1201,7 @@
    "titulo": "The King of Fighters 2002 | 🇺🇸 [SKM] [P] POLLO vs 🇲🇽 Drinkteam-john #shorts",
    "publicado": "2026-10-18T02:38:17Z",
    "privacidad": "public",
-   "vistas": 782,
+   "vistas": 781,
    "me_gusta": 21,
    "miniatura": "https://i.ytimg.com/vi/u9WAGq9uJcY/mqdefault.jpg"
   },
@@ -1122,7 +1210,7 @@
    "titulo": "1 Perfect de M@rcio-K@tit@-BR | KOF98 #Shorts",
    "publicado": "2026-10-18T00:22:11Z",
    "privacidad": "public",
-   "vistas": 278,
+   "vistas": 279,
    "me_gusta": 9,
    "miniatura": "https://i.ytimg.com/vi/Nhao18ZxZzY/mqdefault.jpg"
   },
@@ -1149,7 +1237,7 @@
    "titulo": "MiBSF2CE-TV vs thomas_medeiros | SF2CE | MiBSF2CE-TV marea a thomas_medeiros 4 veces",
    "publicado": "2026-10-17T21:34:57Z",
    "privacidad": "public",
-   "vistas": 10,
+   "vistas": 12,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/yePTNdWB1Tk/mqdefault.jpg"
   },
@@ -1167,7 +1255,7 @@
    "titulo": "Super Champ vs barbearialororugal | KOF98 | KO en 10 segundos de barbearialororugal contra Super Ch…",
    "publicado": "2026-10-17T20:57:10Z",
    "privacidad": "public",
-   "vistas": 0,
+   "vistas": 1,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/vk4KxVDCENM/mqdefault.jpg"
   },
@@ -1185,7 +1273,7 @@
    "titulo": "Digitalinfamy vs White Ben | SF2HF | Digitalinfamy gana 5-4 a White Ben en un set al límite",
    "publicado": "2026-10-17T19:29:05Z",
    "privacidad": "public",
-   "vistas": 16,
+   "vistas": 18,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/hn7sQ2R75is/mqdefault.jpg"
   },
@@ -1221,7 +1309,7 @@
    "titulo": "White Ben vs Wahzu | Street Fighter II' Hyper Fighting | Wahzu da la vuelta al set desde el 2-0",
    "publicado": "2026-10-17T15:52:07Z",
    "privacidad": "public",
-   "vistas": 24,
+   "vistas": 26,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/HipvTJpxB9Q/mqdefault.jpg"
   },
@@ -1230,7 +1318,7 @@
    "titulo": "Duelo de top 6 | KOF98 #Shorts",
    "publicado": "2026-10-16T23:30:38Z",
    "privacidad": "public",
-   "vistas": 3,
+   "vistas": 4,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/QPK1rrxgieA/mqdefault.jpg"
   },
@@ -1257,8 +1345,8 @@
    "titulo": "rammsa vs Black-C | The King of Fighters '98 | Black-C arrasa a rammsa 5-0",
    "publicado": "2026-10-16T20:00:34Z",
    "privacidad": "public",
-   "vistas": 8,
-   "me_gusta": 0,
+   "vistas": 9,
+   "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/GMYqkkl4LSw/mqdefault.jpg"
   },
   {
@@ -1302,7 +1390,7 @@
    "titulo": "DG | Mr Yama vs Abel-*CBZ* | KOF98 | Abel-*CBZ* encadena 5 peleas ganadas a DG | Mr Yama",
    "publicado": "2026-10-16T12:30:55Z",
    "privacidad": "public",
-   "vistas": 8,
+   "vistas": 10,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/W_AnK4L6lHY/mqdefault.jpg"
   },
@@ -1347,7 +1435,7 @@
    "titulo": "The King of Fighters 2002 | 🇲🇽 [GZP] CHAPES vs 🇲🇽 GT/ACL/DarkAngel #shorts",
    "publicado": "2026-10-16T01:51:59Z",
    "privacidad": "public",
-   "vistas": 171,
+   "vistas": 173,
    "me_gusta": 8,
    "miniatura": "https://i.ytimg.com/vi/Nas-Ex7erA0/mqdefault.jpg"
   },
@@ -1374,7 +1462,7 @@
    "titulo": "Jonathan Tijuana vs KGS_KINF_KULA | KOF2002 | 17 supers en un set: KGS_KINF_KULA vs Jonathan Tijuana",
    "publicado": "2026-10-16T01:03:24Z",
    "privacidad": "public",
-   "vistas": 4,
+   "vistas": 5,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/sXP217Z_uoo/mqdefault.jpg"
   },
@@ -1428,7 +1516,7 @@
    "titulo": "Flawless | Victory vs Serdar80s | SF2CE | Flawless | Victory no recibe ni un golpe: 1 Perfect",
    "publicado": "2026-10-16T00:24:18Z",
    "privacidad": "public",
-   "vistas": 316,
+   "vistas": 317,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/NfpjS5D_bJ4/mqdefault.jpg"
   },
@@ -1482,7 +1570,7 @@
    "titulo": "YeopMun vs qbdwk2003 | The King of Fighters '98 | YeopMun remonta un round yendo 66% por detrás",
    "publicado": "2026-10-11T14:00:21Z",
    "privacidad": "public",
-   "vistas": 19,
+   "vistas": 20,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/9v_YGEYjrSI/mqdefault.jpg"
   },
@@ -1509,7 +1597,7 @@
    "titulo": "DojaCat vs DGV | Super Street Fighter II X | DojaCat no deja respirar a DGV: 5-0",
    "publicado": "2026-10-11T03:25:30Z",
    "privacidad": "public",
-   "vistas": 21,
+   "vistas": 22,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/-bXHiFOG0sg/mqdefault.jpg"
   },
@@ -1617,7 +1705,7 @@
    "titulo": "unsensored vs la_manilla012 | Super Street Fighter II X | Lluvia de supers: 19 en total",
    "publicado": "2026-10-09T03:54:57Z",
    "privacidad": "public",
-   "vistas": 41,
+   "vistas": 44,
    "me_gusta": 0,
    "miniatura": "https://i.ytimg.com/vi/RDVwE74ylWU/mqdefault.jpg"
   },
@@ -1671,7 +1759,7 @@
    "titulo": "Q.E.D. vs it`s | The King of Fighters '98 | Relámpago: KO de Q.E.D. en 5 segundos",
    "publicado": "2026-10-07T13:59:07Z",
    "privacidad": "public",
-   "vistas": 66,
+   "vistas": 67,
    "me_gusta": 1,
    "miniatura": "https://i.ytimg.com/vi/qEK7yr4c77I/mqdefault.jpg"
   },
@@ -1710,474 +1798,6 @@
    "vistas": 25,
    "me_gusta": 4,
    "miniatura": "https://i.ytimg.com/vi/7_hf0t3fl3Q/mqdefault.jpg"
-  },
-  {
-   "id": "uQ2FtevB2Pk",
-   "titulo": "RAC | Flavio.Ryu vs fack | SSF2X | Por un hilo: RAC | Flavio.Ryu sobrevive y gana ante fack",
-   "publicado": "2026-10-06T13:54:47Z",
-   "privacidad": "public",
-   "vistas": 18,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/uQ2FtevB2Pk/mqdefault.jpg"
-  },
-  {
-   "id": "5ms3xTYFMQ4",
-   "titulo": "Super Street Fighter II X | 🇧🇷 RAC | Flavio.Ryu vs 🇲🇽 fack #shorts",
-   "publicado": "2026-10-06T13:54:28Z",
-   "privacidad": "public",
-   "vistas": 494,
-   "me_gusta": 11,
-   "miniatura": "https://i.ytimg.com/vi/5ms3xTYFMQ4/mqdefault.jpg"
-  },
-  {
-   "id": "s63s_2AZGgM",
-   "titulo": "Super Street Fighter II X | 🇧🇷 LABOCA vs 🇧🇷 RAC | Flavio.Ryu #shorts",
-   "publicado": "2026-10-06T13:26:24Z",
-   "privacidad": "public",
-   "vistas": 606,
-   "me_gusta": 6,
-   "miniatura": "https://i.ytimg.com/vi/s63s_2AZGgM/mqdefault.jpg"
-  },
-  {
-   "id": "4xmZ3e2nfjQ",
-   "titulo": "LABOCA vs RAC | Flavio.Ryu | SSF2X | RAC | Flavio.Ryu se luce con 2 Perfects frente a LABOCA",
-   "publicado": "2026-10-06T13:26:07Z",
-   "privacidad": "public",
-   "vistas": 13,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/4xmZ3e2nfjQ/mqdefault.jpg"
-  },
-  {
-   "id": "mH6nIeWWI1Q",
-   "titulo": "DJILK-SF2TV vs Fromo | Super Street Fighter II X | DJILK-SF2TV remonta el set tras ir 3-1 abajo",
-   "publicado": "2026-10-06T03:43:53Z",
-   "privacidad": "public",
-   "vistas": 14,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/mH6nIeWWI1Q/mqdefault.jpg"
-  },
-  {
-   "id": "m6Gyw4Itunw",
-   "titulo": "kazel vs Zagi | Super Street Fighter II X | Racha de 5: kazel no suelta a Zagi",
-   "publicado": "2026-10-06T03:43:49Z",
-   "privacidad": "public",
-   "vistas": 10,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/m6Gyw4Itunw/mqdefault.jpg"
-  },
-  {
-   "id": "q_B1tf5OpTg",
-   "titulo": "Zombie_Damage vs RenoMD | SSF2X | Zombie_Damage gana 5-4 a RenoMD en un set al límite",
-   "publicado": "2026-10-05T03:59:46Z",
-   "privacidad": "public",
-   "vistas": 30,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/q_B1tf5OpTg/mqdefault.jpg"
-  },
-  {
-   "id": "BwLIPF8RbdQ",
-   "titulo": "Super Street Fighter II X | 🇺🇸 Zombie_Damage vs 🇺🇸 RenoMD #shorts",
-   "publicado": "2026-10-05T03:58:06Z",
-   "privacidad": "public",
-   "vistas": 241,
-   "me_gusta": 3,
-   "miniatura": "https://i.ytimg.com/vi/BwLIPF8RbdQ/mqdefault.jpg"
-  },
-  {
-   "id": "xbKV3KAuvug",
-   "titulo": "Super Street Fighter II X | 🇫🇷 kazel vs 🇫🇷 Zagi #shorts",
-   "publicado": "2026-10-04T12:00:31Z",
-   "privacidad": "public",
-   "vistas": 644,
-   "me_gusta": 6,
-   "miniatura": "https://i.ytimg.com/vi/xbKV3KAuvug/mqdefault.jpg"
-  },
-  {
-   "id": "ZS_mohBIQ90",
-   "titulo": "Super Street Fighter II X | 🇺🇸 DJILK-SF2TV vs 🇺🇸 Fromo #shorts",
-   "publicado": "2026-10-04T03:17:49Z",
-   "privacidad": "public",
-   "vistas": 494,
-   "me_gusta": 12,
-   "miniatura": "https://i.ytimg.com/vi/ZS_mohBIQ90/mqdefault.jpg"
-  },
-  {
-   "id": "PsmfC8iSfnc",
-   "titulo": "Super Street Fighter II X | 🇲🇽 hassasin10 vs 🇺🇸 RenoMD #shorts",
-   "publicado": "2026-10-03T17:02:22Z",
-   "privacidad": "public",
-   "vistas": 316,
-   "me_gusta": 10,
-   "miniatura": "https://i.ytimg.com/vi/PsmfC8iSfnc/mqdefault.jpg"
-  },
-  {
-   "id": "_fHib8xl3-g",
-   "titulo": "hassasin10 vs RenoMD | Super Street Fighter II X | Choque de países: MX contra US",
-   "publicado": "2026-10-03T17:02:05Z",
-   "privacidad": "public",
-   "vistas": 5,
-   "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/_fHib8xl3-g/mqdefault.jpg"
-  },
-  {
-   "id": "jgXK-Paf60U",
-   "titulo": "KELA420 vs znoopyglobal | Super Street Fighter II X | Lluvia de supers: 39 en total",
-   "publicado": "2026-10-03T16:28:11Z",
-   "privacidad": "public",
-   "vistas": 142,
-   "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/jgXK-Paf60U/mqdefault.jpg"
-  },
-  {
-   "id": "s07f4No07ws",
-   "titulo": "Super Street Fighter II X | 🇲🇽 KELA420 vs 🇺🇸 znoopyglobal #shorts",
-   "publicado": "2026-10-03T16:27:53Z",
-   "privacidad": "public",
-   "vistas": 159,
-   "me_gusta": 2,
-   "miniatura": "https://i.ytimg.com/vi/s07f4No07ws/mqdefault.jpg"
-  },
-  {
-   "id": "oe9FYRROg-E",
-   "titulo": "Super Street Fighter II X | 🇲🇽 _yito2k_ vs 🇲🇽 KELA420 #shorts",
-   "publicado": "2026-10-03T15:49:05Z",
-   "privacidad": "public",
-   "vistas": 419,
-   "me_gusta": 9,
-   "miniatura": "https://i.ytimg.com/vi/oe9FYRROg-E/mqdefault.jpg"
-  },
-  {
-   "id": "smy-4QWwLY8",
-   "titulo": "_yito2k_ vs KELA420 | Super Street Fighter II X | Lluvia de supers: 21 en total",
-   "publicado": "2026-10-03T15:49:00Z",
-   "privacidad": "public",
-   "vistas": 103,
-   "me_gusta": 2,
-   "miniatura": "https://i.ytimg.com/vi/smy-4QWwLY8/mqdefault.jpg"
-  },
-  {
-   "id": "VKwKClpHftY",
-   "titulo": "DJILK vs RAC | Flavio.Ryu | SF2CE | RAC | Flavio.Ryu arrasa a DJILK 5-1",
-   "publicado": "2026-10-02T15:45:06Z",
-   "privacidad": "public",
-   "vistas": 50,
-   "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/VKwKClpHftY/mqdefault.jpg"
-  },
-  {
-   "id": "OmfxsVR8SMU",
-   "titulo": "Street Fighter II' Champion Edition | 🇺🇸 DJILK vs 🇧🇷 RAC | Flavio.Ryu #shorts",
-   "publicado": "2026-10-02T15:15:03Z",
-   "privacidad": "public",
-   "vistas": 283,
-   "me_gusta": 2,
-   "miniatura": "https://i.ytimg.com/vi/OmfxsVR8SMU/mqdefault.jpg"
-  },
-  {
-   "id": "EYs2bo77Mos",
-   "titulo": "Super Street Fighter II X | 🇺🇸 Fromo vs 🇺🇸 znoopyglobal #shorts",
-   "publicado": "2026-10-02T02:07:18Z",
-   "privacidad": "public",
-   "vistas": 1105,
-   "me_gusta": 14,
-   "miniatura": "https://i.ytimg.com/vi/EYs2bo77Mos/mqdefault.jpg"
-  },
-  {
-   "id": "y_5QiM0n2Ts",
-   "titulo": "Fromo vs znoopyglobal | SSF2X | Por un hilo: Fromo sobrevive y gana ante znoopyglobal",
-   "publicado": "2026-10-02T02:06:55Z",
-   "privacidad": "public",
-   "vistas": 54,
-   "me_gusta": 2,
-   "miniatura": "https://i.ytimg.com/vi/y_5QiM0n2Ts/mqdefault.jpg"
-  },
-  {
-   "id": "ovHfwiIQhRg",
-   "titulo": "Super Street Fighter II X | 🇺🇸 Zombie_Damage vs 🇺🇸 znoopyglobal #shorts",
-   "publicado": "2026-10-01T23:40:01Z",
-   "privacidad": "public",
-   "vistas": 195,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/ovHfwiIQhRg/mqdefault.jpg"
-  },
-  {
-   "id": "fd09uL7WuWY",
-   "titulo": "Zombie_Damage vs znoopyglobal | SSF2X | Zombie_Damage no recibe ni un golpe: 1 Perfect",
-   "publicado": "2026-10-01T23:39:39Z",
-   "privacidad": "public",
-   "vistas": 15,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/fd09uL7WuWY/mqdefault.jpg"
-  },
-  {
-   "id": "p5C2n4_Viws",
-   "titulo": "Super Street Fighter II X | 🇧🇷 RAC | Flavio.Ryu vs 🇧🇷 thomas_medeiros #shorts",
-   "publicado": "2026-10-01T19:41:34Z",
-   "privacidad": "public",
-   "vistas": 651,
-   "me_gusta": 7,
-   "miniatura": "https://i.ytimg.com/vi/p5C2n4_Viws/mqdefault.jpg"
-  },
-  {
-   "id": "iAwTPGZ3Y5k",
-   "titulo": "RAC | Flavio.Ryu vs thomas_medeiros | Super Street Fighter II X | Lluvia de supers: 13 en total",
-   "publicado": "2026-10-01T19:38:53Z",
-   "privacidad": "public",
-   "vistas": 8,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/iAwTPGZ3Y5k/mqdefault.jpg"
-  },
-  {
-   "id": "oUJb56kG7TY",
-   "titulo": "Street Fighter II' Champion Edition | 🇧🇷 ((Caution)) vs 🇧🇷 lub-Iaboca #shorts",
-   "publicado": "2026-10-01T19:29:32Z",
-   "privacidad": "public",
-   "vistas": 480,
-   "me_gusta": 2,
-   "miniatura": "https://i.ytimg.com/vi/oUJb56kG7TY/mqdefault.jpg"
-  },
-  {
-   "id": "Jzln-FKDhTQ",
-   "titulo": "((Caution)) vs lub-Iaboca | SF2CE | lub-Iaboca se luce con 1 Perfect frente a ((Caution))",
-   "publicado": "2026-10-01T19:29:20Z",
-   "privacidad": "public",
-   "vistas": 11,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/Jzln-FKDhTQ/mqdefault.jpg"
-  },
-  {
-   "id": "_Fk0U8nvRUg",
-   "titulo": "mrcarabano vs RenoMD | Super Street Fighter II X | RenoMD encadena 4 peleas ganadas a mrcarabano",
-   "publicado": "2026-10-01T19:09:12Z",
-   "privacidad": "public",
-   "vistas": 16,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/_Fk0U8nvRUg/mqdefault.jpg"
-  },
-  {
-   "id": "-04Yoef-v9c",
-   "titulo": "Super Street Fighter II X | 🇺🇸 mrcarabano vs 🇺🇸 RenoMD #shorts",
-   "publicado": "2026-10-01T19:08:59Z",
-   "privacidad": "public",
-   "vistas": 523,
-   "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/-04Yoef-v9c/mqdefault.jpg"
-  },
-  {
-   "id": "Phqkqo3mdZo",
-   "titulo": "_yito2k_ vs KELA420 | Super Street Fighter II X | _yito2k_ remonta un round yendo 64% por detrás",
-   "publicado": "2026-10-01T18:40:29Z",
-   "privacidad": "public",
-   "vistas": 43,
-   "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/Phqkqo3mdZo/mqdefault.jpg"
-  },
-  {
-   "id": "nUIdYB39E1o",
-   "titulo": "Super Street Fighter II X | 🇲🇽 _yito2k_ vs 🇲🇽 KELA420 #shorts",
-   "publicado": "2026-10-01T18:40:25Z",
-   "privacidad": "public",
-   "vistas": 1244,
-   "me_gusta": 10,
-   "miniatura": "https://i.ytimg.com/vi/nUIdYB39E1o/mqdefault.jpg"
-  },
-  {
-   "id": "gF2yGomC8bk",
-   "titulo": "Super Street Fighter II X | 🇺🇸 stevetren vs 🇺🇸 znoopyglobal #shorts",
-   "publicado": "2026-10-01T09:12:16Z",
-   "privacidad": "public",
-   "vistas": 674,
-   "me_gusta": 2,
-   "miniatura": "https://i.ytimg.com/vi/gF2yGomC8bk/mqdefault.jpg"
-  },
-  {
-   "id": "gOcFJFUv8bI",
-   "titulo": "stevetren vs znoopyglobal | SSF2X | 17 supers en un set: znoopyglobal vs stevetren",
-   "publicado": "2026-10-01T09:10:08Z",
-   "privacidad": "public",
-   "vistas": 22,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/gOcFJFUv8bI/mqdefault.jpg"
-  },
-  {
-   "id": "nwDPFJrNHz4",
-   "titulo": "Street Fighter II' Champion Edition | 🇧🇷 lub-Iaboca vs 🇧🇷 Sonic Gyn #shorts",
-   "publicado": "2026-10-01T08:46:52Z",
-   "privacidad": "public",
-   "vistas": 1078,
-   "me_gusta": 7,
-   "miniatura": "https://i.ytimg.com/vi/nwDPFJrNHz4/mqdefault.jpg"
-  },
-  {
-   "id": "fUGlwkCF3eE",
-   "titulo": "lub-Iaboca vs Sonic Gyn | SF2CE | Por un hilo: Sonic Gyn sobrevive y gana ante lub-Iaboca",
-   "publicado": "2026-10-01T08:44:16Z",
-   "privacidad": "public",
-   "vistas": 10,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/fUGlwkCF3eE/mqdefault.jpg"
-  },
-  {
-   "id": "l3CsgwggBxs",
-   "titulo": "Super Street Fighter II X | 🇫🇷 kazel vs 🇧🇪 training12 #shorts",
-   "publicado": "2026-10-01T08:19:10Z",
-   "privacidad": "public",
-   "vistas": 1092,
-   "me_gusta": 9,
-   "miniatura": "https://i.ytimg.com/vi/l3CsgwggBxs/mqdefault.jpg"
-  },
-  {
-   "id": "VuzmAK5xmw0",
-   "titulo": "kazel vs training12 | Super Street Fighter II X | kazel conecta 7 golpes seguidos",
-   "publicado": "2026-10-01T08:16:35Z",
-   "privacidad": "public",
-   "vistas": 10,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/VuzmAK5xmw0/mqdefault.jpg"
-  },
-  {
-   "id": "mWwAV0RXPXs",
-   "titulo": "Super Street Fighter II X | 🇧🇷 RAC | Flavio.Ryu vs 🇧🇷 BeastFromBrazil #shorts",
-   "publicado": "2026-10-01T07:15:33Z",
-   "privacidad": "public",
-   "vistas": 765,
-   "me_gusta": 4,
-   "miniatura": "https://i.ytimg.com/vi/mWwAV0RXPXs/mqdefault.jpg"
-  },
-  {
-   "id": "n2W8MPQnQ8M",
-   "titulo": "RAC | Flavio.Ryu vs BeastFromBrazil | SSF2X | RAC | Flavio.Ryu da la vuelta al set desde el 3-0",
-   "publicado": "2026-10-01T07:12:48Z",
-   "privacidad": "public",
-   "vistas": 26,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/n2W8MPQnQ8M/mqdefault.jpg"
-  },
-  {
-   "id": "10POOGkIT0g",
-   "titulo": "Super Street Fighter II X | 🇨🇦 Bruh vs 🇺🇸 Cone of Cold #shorts",
-   "publicado": "2026-10-01T06:45:53Z",
-   "privacidad": "public",
-   "vistas": 431,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/10POOGkIT0g/mqdefault.jpg"
-  },
-  {
-   "id": "NN8pWm4Wvzg",
-   "titulo": "Bruh vs Cone of Cold | Super Street Fighter II X | De 4-1 abajo a ganar: Bruh vs Cone of Cold",
-   "publicado": "2026-10-01T06:42:48Z",
-   "privacidad": "public",
-   "vistas": 19,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/NN8pWm4Wvzg/mqdefault.jpg"
-  },
-  {
-   "id": "FmMaYnqK8ME",
-   "titulo": "Super Street Fighter II X | 🇺🇸 ChoiBoy vs 🇺🇸 SuperrV #shorts",
-   "publicado": "2026-09-30T01:37:57Z",
-   "privacidad": "public",
-   "vistas": 774,
-   "me_gusta": 4,
-   "miniatura": "https://i.ytimg.com/vi/FmMaYnqK8ME/mqdefault.jpg"
-  },
-  {
-   "id": "xpT3YllshRo",
-   "titulo": "ChoiBoy vs SuperrV | Super Street Fighter II X | 3 rounds se deciden por tiempo: ChoiBoy vs SuperrV",
-   "publicado": "2026-09-30T01:37:41Z",
-   "privacidad": "public",
-   "vistas": 23,
-   "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/xpT3YllshRo/mqdefault.jpg"
-  },
-  {
-   "id": "lKXlacjOfSg",
-   "titulo": "Super Street Fighter II X | 🇺🇸 ChoiBoy vs 🇲🇽 djfrijoles #shorts",
-   "publicado": "2026-09-30T00:15:26Z",
-   "privacidad": "public",
-   "vistas": 501,
-   "me_gusta": 2,
-   "miniatura": "https://i.ytimg.com/vi/lKXlacjOfSg/mqdefault.jpg"
-  },
-  {
-   "id": "jv7n1WWtnN4",
-   "titulo": "ChoiBoy vs djfrijoles | Super Street Fighter II X | US vs MX: djfrijoles contra ChoiBoy",
-   "publicado": "2026-09-30T00:15:01Z",
-   "privacidad": "public",
-   "vistas": 13,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/jv7n1WWtnN4/mqdefault.jpg"
-  },
-  {
-   "id": "3GiDmnz3X_4",
-   "titulo": "Street Fighter II' Champion Edition | 🇧🇷 ((Caution)) vs 🇨🇱 Devaud #shorts",
-   "publicado": "2026-09-29T22:02:44Z",
-   "privacidad": "public",
-   "vistas": 174,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/3GiDmnz3X_4/mqdefault.jpg"
-  },
-  {
-   "id": "W_0wpT0per4",
-   "titulo": "((Caution)) vs Devaud | SF2CE | Doble KO en el set de ((Caution)) vs Devaud",
-   "publicado": "2026-09-29T21:53:36Z",
-   "privacidad": "public",
-   "vistas": 13,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/W_0wpT0per4/mqdefault.jpg"
-  },
-  {
-   "id": "wT1KazJhf8o",
-   "titulo": "Street Fighter II' Champion Edition | 🇲🇽 MT Yurikowa vs 🇦🇷 Nostrax #shorts",
-   "publicado": "2026-09-29T20:21:36Z",
-   "privacidad": "public",
-   "vistas": 238,
-   "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/wT1KazJhf8o/mqdefault.jpg"
-  },
-  {
-   "id": "DEUvaIRxw0M",
-   "titulo": "MT Yurikowa vs Nostrax | SF2CE | MT Yurikowa gana 5-4 a Nostrax en un set al límite",
-   "publicado": "2026-09-29T20:17:50Z",
-   "privacidad": "public",
-   "vistas": 15,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/DEUvaIRxw0M/mqdefault.jpg"
-  },
-  {
-   "id": "8CFIrAQEmfA",
-   "titulo": "Super Street Fighter II X | 🇲🇽 H-Zero vs 🇲🇽 hassasin10 #shorts",
-   "publicado": "2026-09-29T19:53:56Z",
-   "privacidad": "public",
-   "vistas": 197,
-   "me_gusta": 2,
-   "miniatura": "https://i.ytimg.com/vi/8CFIrAQEmfA/mqdefault.jpg"
-  },
-  {
-   "id": "iOQ92p-ZzFo",
-   "titulo": "Super Street Fighter II X | 🇲🇽 djfrijoles vs 🇺🇸 mrcarabano #shorts",
-   "publicado": "2026-09-29T19:53:56Z",
-   "privacidad": "public",
-   "vistas": 241,
-   "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/iOQ92p-ZzFo/mqdefault.jpg"
-  },
-  {
-   "id": "Vf-7qvclez8",
-   "titulo": "djfrijoles vs mrcarabano | Super Street Fighter II X | Racha de 5: djfrijoles no suelta a mrcarabano",
-   "publicado": "2026-09-28T21:07:51Z",
-   "privacidad": "public",
-   "vistas": 32,
-   "me_gusta": 1,
-   "miniatura": "https://i.ytimg.com/vi/Vf-7qvclez8/mqdefault.jpg"
-  },
-  {
-   "id": "l_q-Mm-qxI4",
-   "titulo": "H-Zero vs hassasin10 | Super Street Fighter II X | H-Zero no recibe ni un golpe: 1 Perfect",
-   "publicado": "2026-09-28T20:12:47Z",
-   "privacidad": "public",
-   "vistas": 26,
-   "me_gusta": 0,
-   "miniatura": "https://i.ytimg.com/vi/l_q-Mm-qxI4/mqdefault.jpg"
   }
  ]
 }

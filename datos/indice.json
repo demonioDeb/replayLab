@@ -1,6 +1,50 @@
 {
- "actualizado": "2026-10-30 19:31",
+ "actualizado": "2026-11-01 20:27",
  "videos": [
+  {
+   "quark": "1793312895160-8415",
+   "juego": "ssf2xjr1",
+   "juego_nombre": "Super Street Fighter II X",
+   "juego_corto": "SSF2X",
+   "fecha": "2026-10-29",
+   "youtube": "CpuKB8U_u_0",
+   "titulo": "REV HANZOBRASIL vs robertodaimon | SSF2X | REV HANZOBRASIL se luce con 2 Perfects frente a robertod…",
+   "duracion": 614.1,
+   "marcador": [
+    5,
+    1
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "REV HANZOBRASIL",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Vega",
+     "clave": "claw",
+     "personajes": [
+      "Vega"
+     ],
+     "claves": [
+      "claw"
+     ]
+    },
+    {
+     "nombre": "robertodaimon",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Dhalsim",
+     "clave": "dhalsim",
+     "personajes": [
+      "Dhalsim"
+     ],
+     "claves": [
+      "dhalsim"
+     ]
+    }
+   ],
+   "rondas": 17
+  },
   {
    "quark": "1793250297051-5691",
    "juego": "kf2k2pls",
