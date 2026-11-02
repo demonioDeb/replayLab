@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02 00:26",
+ "actualizado": "2026-11-02 00:27",
  "videos": [
   {
    "quark": "1793332418220-1938",
@@ -50,52 +50,6 @@
       "kof2002_billy",
       "kof2002_kim",
       "kof2002_chris"
-     ]
-    }
-   ],
-   "rondas": 24
-  },
-  {
-   "quark": "1793316936730-6745",
-   "juego": "sfa2u",
-   "juego_nombre": "Street Fighter Alpha 2",
-   "juego_corto": "SFA2",
-   "fecha": "2026-10-29",
-   "youtube": "d1JJbsVBUHc",
-   "titulo": "FC so tem trapaceiro vs Rvieira | SFA2 | Por un hilo: FC so tem trapaceiro sobrevive y gana ante Rv…",
-   "duracion": 1090.7,
-   "marcador": [
-    4,
-    5
-   ],
-   "peleas": 9,
-   "jugadores": [
-    {
-     "nombre": "FC so tem trapaceiro",
-     "pais": "br",
-     "rango_letra": "B",
-     "personaje": "Charlie",
-     "clave": "sfa2_charlie",
-     "personajes": [
-      "Charlie"
-     ],
-     "claves": [
-      "sfa2_charlie"
-     ]
-    },
-    {
-     "nombre": "Rvieira",
-     "pais": "br",
-     "rango_letra": "B",
-     "personaje": "Adon",
-     "clave": "sfa2_adon",
-     "personajes": [
-      "Adon",
-      "M. Bison"
-     ],
-     "claves": [
-      "sfa2_adon",
-      "sfa2_mbison"
      ]
     }
    ],
@@ -2680,50 +2634,6 @@
     }
    ],
    "rondas": 33
-  },
-  {
-   "quark": "1792117905374-3017",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-10-16",
-   "youtube": "7jQZk0S2rmM",
-   "titulo": "MiBSF2CE-TV vs DJILK | SF2CE | MiBSF2CE-TV encadena 5 peleas ganadas a DJILK",
-   "duracion": 664.6,
-   "marcador": [
-    5,
-    1
-   ],
-   "peleas": 6,
-   "jugadores": [
-    {
-     "nombre": "MiBSF2CE-TV",
-     "pais": "br",
-     "rango_letra": "S",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    },
-    {
-     "nombre": "DJILK",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Ryu",
-     "clave": "ryu",
-     "personajes": [
-      "Ryu"
-     ],
-     "claves": [
-      "ryu"
-     ]
-    }
-   ],
-   "rondas": 15
   },
   {
    "quark": "1792115975858-5169",
