@@ -1,6 +1,50 @@
 {
- "actualizado": "2026-11-02 02:05",
+ "actualizado": "2026-11-02 02:41",
  "videos": [
+  {
+   "quark": "1793411604375-5624",
+   "juego": "sfa3",
+   "juego_nombre": "Street Fighter Alpha 3",
+   "juego_corto": "SFA3",
+   "fecha": "2026-10-31",
+   "youtube": "P6plSwYufBg",
+   "titulo": "REV | Carlota vs 1ST Prado | SFA3 | REV | Carlota remonta un round yendo 76% por detrás",
+   "duracion": 1017.6,
+   "marcador": [
+    4,
+    4
+   ],
+   "peleas": 10,
+   "jugadores": [
+    {
+     "nombre": "REV | Carlota",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Ken",
+     "clave": "sfa3_ken",
+     "personajes": [
+      "Ken"
+     ],
+     "claves": [
+      "sfa3_ken"
+     ]
+    },
+    {
+     "nombre": "1ST Prado",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Sakura",
+     "clave": "sfa3_sakura",
+     "personajes": [
+      "Sakura"
+     ],
+     "claves": [
+      "sfa3_sakura"
+     ]
+    }
+   ],
+   "rondas": 22
+  },
   {
    "quark": "1793384920163-9200",
    "juego": "kof98",
