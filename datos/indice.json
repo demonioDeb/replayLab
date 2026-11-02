@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02 04:05",
+ "actualizado": "2026-11-02 04:06",
  "videos": [
   {
    "quark": "1793384920163-9200",
@@ -240,60 +240,6 @@
    "rondas": 17
   },
   {
-   "quark": "1793302610761-5800",
-   "juego": "kf2k2pls",
-   "juego_nombre": "The King of Fighters 2002 Plus",
-   "juego_corto": "KOF2002+",
-   "fecha": "2026-10-29",
-   "youtube": "qZApPKDTzfc",
-   "titulo": "rawoord vs baixada-sp | The King of Fighters 2002 Plus | Lluvia de supers: 41 en total",
-   "duracion": 768.9,
-   "marcador": [
-    2,
-    3
-   ],
-   "peleas": 5,
-   "jugadores": [
-    {
-     "nombre": "rawoord",
-     "pais": "br",
-     "rango_letra": "B",
-     "personaje": "Iori · Mary · Kim",
-     "clave": "kof2002_iori",
-     "personajes": [
-      "Mary",
-      "Iori",
-      "Kim"
-     ],
-     "claves": [
-      "kof2002_mary",
-      "kof2002_iori",
-      "kof2002_kim"
-     ]
-    },
-    {
-     "nombre": "baixada-sp",
-     "pais": "br",
-     "rango_letra": "B",
-     "personaje": "Iori · Yuri · Kim",
-     "clave": "kof2002_iori",
-     "personajes": [
-      "Iori",
-      "Yuri",
-      "Kim",
-      "Takuma"
-     ],
-     "claves": [
-      "kof2002_iori",
-      "kof2002_yuri",
-      "kof2002_kim",
-      "kof2002_takuma"
-     ]
-    }
-   ],
-   "rondas": 23
-  },
-  {
    "quark": "1793279293878-1643",
    "juego": "kof98",
    "juego_nombre": "The King of Fighters '98",
@@ -530,52 +476,6 @@
     }
    ],
    "rondas": 26
-  },
-  {
-   "quark": "1793233983477-9102",
-   "juego": "sf2hf",
-   "juego_nombre": "Street Fighter II' Hyper Fighting",
-   "juego_corto": "SF2HF",
-   "fecha": "2026-10-29",
-   "youtube": "ewd4azbMXPc",
-   "titulo": "Wahzu vs MauE1Azcino | SF2HF | MauE1Azcino da la vuelta al set desde el 3-1",
-   "duracion": 972.4,
-   "marcador": [
-    4,
-    5
-   ],
-   "peleas": 9,
-   "jugadores": [
-    {
-     "nombre": "Wahzu",
-     "pais": "nz",
-     "rango_letra": "B",
-     "personaje": "Ken",
-     "clave": "ken",
-     "personajes": [
-      "Ken"
-     ],
-     "claves": [
-      "ken"
-     ]
-    },
-    {
-     "nombre": "MauE1Azcino",
-     "pais": "us",
-     "rango_letra": "B",
-     "personaje": "Ryu",
-     "clave": "ryu",
-     "personajes": [
-      "Ryu",
-      "Vega"
-     ],
-     "claves": [
-      "ryu",
-      "claw"
-     ]
-    }
-   ],
-   "rondas": 24
   },
   {
    "quark": "1793225597342-9253",
@@ -2290,52 +2190,6 @@
    "rondas": 12
   },
   {
-   "quark": "1792258071010-6678",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-10-17",
-   "youtube": "jCEg8kSok1E",
-   "titulo": "Leakage vs yolcu | Street Fighter II' Champion Edition | Set dominado: yolcu gana 5-1",
-   "duracion": 876.7,
-   "marcador": [
-    1,
-    5
-   ],
-   "peleas": 6,
-   "jugadores": [
-    {
-     "nombre": "Leakage",
-     "pais": "tr",
-     "rango_letra": "B",
-     "personaje": "Ken",
-     "clave": "ken",
-     "personajes": [
-      "Ken",
-      "Ryu"
-     ],
-     "claves": [
-      "ken",
-      "ryu"
-     ]
-    },
-    {
-     "nombre": "yolcu",
-     "pais": "tr",
-     "rango_letra": "A",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    }
-   ],
-   "rondas": 16
-  },
-  {
    "quark": "1792220353871-8960",
    "juego": "sf2hf",
    "juego_nombre": "Street Fighter II' Hyper Fighting",
@@ -2422,6 +2276,50 @@
     }
    ],
    "rondas": 22
+  },
+  {
+   "quark": "1792197475604-7224",
+   "juego": "sf2hf",
+   "juego_nombre": "Street Fighter II' Hyper Fighting",
+   "juego_corto": "SF2HF",
+   "fecha": "2026-10-17",
+   "youtube": "4YMeczHVHug",
+   "titulo": "Digitalinfamy vs ChoiBoy | SF2HF | ChoiBoy cierra el set por un hilo ante Digitalinfamy",
+   "duracion": 388.0,
+   "marcador": [
+    1,
+    3
+   ],
+   "peleas": 4,
+   "jugadores": [
+    {
+     "nombre": "Digitalinfamy",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "E. Honda",
+     "clave": "honda",
+     "personajes": [
+      "E. Honda"
+     ],
+     "claves": [
+      "honda"
+     ]
+    },
+    {
+     "nombre": "ChoiBoy",
+     "pais": "us",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    }
+   ],
+   "rondas": 11
   },
   {
    "quark": "1792195509747-8342",
