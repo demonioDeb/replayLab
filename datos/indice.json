@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02 05:52",
+ "actualizado": "2026-11-02 06:08",
  "videos": [
   {
    "quark": "1793384920163-9200",
@@ -158,6 +158,50 @@
     }
    ],
    "rondas": 24
+  },
+  {
+   "quark": "1793330156017-6323",
+   "juego": "msh",
+   "juego_nombre": "Marvel Super Heroes",
+   "juego_corto": "MSH",
+   "fecha": "2026-10-30",
+   "youtube": "_YtHn-G77_0",
+   "titulo": "CRISTOFERB22 vs Dacubav | Marvel Super Heroes | CRISTOFERB22 se luce con 1 Perfect frente a Dacubav",
+   "duracion": 244.4,
+   "marcador": [
+    2,
+    0
+   ],
+   "peleas": 2,
+   "jugadores": [
+    {
+     "nombre": "CRISTOFERB22",
+     "pais": "ec",
+     "rango_letra": "",
+     "personaje": "Psylocke",
+     "clave": "msh_psylocke",
+     "personajes": [
+      "Psylocke"
+     ],
+     "claves": [
+      "msh_psylocke"
+     ]
+    },
+    {
+     "nombre": "Dacubav",
+     "pais": "ec",
+     "rango_letra": "",
+     "personaje": "Blackheart",
+     "clave": "msh_blackheart",
+     "personajes": [
+      "Blackheart"
+     ],
+     "claves": [
+      "msh_blackheart"
+     ]
+    }
+   ],
+   "rondas": 6
   },
   {
    "quark": "1793315762382-5367",
