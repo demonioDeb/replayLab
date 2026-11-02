@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02 03:34",
+ "actualizado": "2026-11-02 03:35",
  "videos": [
   {
    "quark": "1793384920163-9200",
@@ -238,58 +238,6 @@
     }
    ],
    "rondas": 17
-  },
-  {
-   "quark": "1793305212124-1984",
-   "juego": "kof98",
-   "juego_nombre": "The King of Fighters '98",
-   "juego_corto": "KOF98",
-   "fecha": "2026-10-29",
-   "youtube": "mVrIRBz0onw",
-   "titulo": "KOFKILL-ODIN7 vs ChangBR01 | The King of Fighters '98 | Lluvia de supers: 21 en total",
-   "duracion": 1646.2,
-   "marcador": [
-    3,
-    4
-   ],
-   "peleas": 8,
-   "jugadores": [
-    {
-     "nombre": "KOFKILL-ODIN7",
-     "pais": "ec",
-     "rango_letra": "B",
-     "personaje": "Kyo · Chizuru · Daimon",
-     "clave": "kof98_kyo",
-     "personajes": [
-      "Kyo",
-      "Chizuru",
-      "Daimon"
-     ],
-     "claves": [
-      "kof98_kyo",
-      "kof98_chizuru",
-      "kof98_daimon"
-     ]
-    },
-    {
-     "nombre": "ChangBR01",
-     "pais": "br",
-     "rango_letra": "B",
-     "personaje": "Kim · Chang · Choi",
-     "clave": "kof98_kim",
-     "personajes": [
-      "Kim",
-      "Chang",
-      "Choi"
-     ],
-     "claves": [
-      "kof98_kim",
-      "kof98_chang",
-      "kof98_choi"
-     ]
-    }
-   ],
-   "rondas": 37
   },
   {
    "quark": "1793279293878-1643",
@@ -666,50 +614,6 @@
     }
    ],
    "rondas": 17
-  },
-  {
-   "quark": "1793223233924-2061",
-   "juego": "ssf2xjr1",
-   "juego_nombre": "Super Street Fighter II X",
-   "juego_corto": "SSF2X",
-   "fecha": "2026-10-28",
-   "youtube": "oIxzuYjC7UU",
-   "titulo": "Zombie_Damage vs mrcarabano | SSF2X | Por un hilo: Zombie_Damage sobrevive y gana ante mrcarabano",
-   "duracion": 720.5,
-   "marcador": [
-    5,
-    4
-   ],
-   "peleas": 9,
-   "jugadores": [
-    {
-     "nombre": "Zombie_Damage",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Fei Long",
-     "clave": "feilong",
-     "personajes": [
-      "Fei Long"
-     ],
-     "claves": [
-      "feilong"
-     ]
-    },
-    {
-     "nombre": "mrcarabano",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "Guile",
-     "clave": "guile",
-     "personajes": [
-      "Guile"
-     ],
-     "claves": [
-      "guile"
-     ]
-    }
-   ],
-   "rondas": 23
   },
   {
    "quark": "1793183025953-6423",
@@ -2146,6 +2050,50 @@
    "rondas": 11
   },
   {
+   "quark": "1792259495912-4307",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-17",
+   "youtube": "K0eZGntW3gc",
+   "titulo": "Serdar80s vs yolcu | Street Fighter II' Champion Edition | yolcu no recibe ni un golpe: 1 Perfect",
+   "duracion": 982.3,
+   "marcador": [
+    3,
+    5
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "Serdar80s",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "Ryu",
+     "clave": "ryu",
+     "personajes": [
+      "Ryu"
+     ],
+     "claves": [
+      "ryu"
+     ]
+    },
+    {
+     "nombre": "yolcu",
+     "pais": "tr",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    }
+   ],
+   "rondas": 20
+  },
+  {
    "quark": "1792258982678-1558",
    "juego": "sf2ce",
    "juego_nombre": "Street Fighter II' Champion Edition",
@@ -2420,50 +2368,6 @@
     }
    ],
    "rondas": 22
-  },
-  {
-   "quark": "1792197475604-7224",
-   "juego": "sf2hf",
-   "juego_nombre": "Street Fighter II' Hyper Fighting",
-   "juego_corto": "SF2HF",
-   "fecha": "2026-10-17",
-   "youtube": "4YMeczHVHug",
-   "titulo": "Digitalinfamy vs ChoiBoy | SF2HF | ChoiBoy cierra el set por un hilo ante Digitalinfamy",
-   "duracion": 388.0,
-   "marcador": [
-    1,
-    3
-   ],
-   "peleas": 4,
-   "jugadores": [
-    {
-     "nombre": "Digitalinfamy",
-     "pais": "us",
-     "rango_letra": "B",
-     "personaje": "E. Honda",
-     "clave": "honda",
-     "personajes": [
-      "E. Honda"
-     ],
-     "claves": [
-      "honda"
-     ]
-    },
-    {
-     "nombre": "ChoiBoy",
-     "pais": "us",
-     "rango_letra": "A",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    }
-   ],
-   "rondas": 11
   },
   {
    "quark": "1792195509747-8342",
