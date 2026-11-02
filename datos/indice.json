@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02 05:27",
+ "actualizado": "2026-11-02 05:28",
  "videos": [
   {
    "quark": "1793384920163-9200",
@@ -528,54 +528,6 @@
     }
    ],
    "rondas": 26
-  },
-  {
-   "quark": "1793225597342-9253",
-   "juego": "xmcota",
-   "juego_nombre": "X-Men: Children of the Atom",
-   "juego_corto": "XMCOTA",
-   "fecha": "2026-10-28",
-   "youtube": "5Z0Mxt4luAk",
-   "titulo": "xmencota1 vs BHF | Balrogdomal | XMCOTA | xmencota1 gana un round con la vida al límite",
-   "duracion": 466.1,
-   "marcador": [
-    3,
-    1
-   ],
-   "peleas": 4,
-   "jugadores": [
-    {
-     "nombre": "xmencota1",
-     "pais": "us",
-     "rango_letra": "D",
-     "personaje": "Cyclops",
-     "clave": "xmcota_cyclops",
-     "personajes": [
-      "Cyclops"
-     ],
-     "claves": [
-      "xmcota_cyclops"
-     ]
-    },
-    {
-     "nombre": "BHF | Balrogdomal",
-     "pais": "br",
-     "rango_letra": "",
-     "personaje": "Sentinel",
-     "clave": "xmcota_sentinel",
-     "personajes": [
-      "Sentinel",
-      "Iceman",
-      "Omega Red"
-     ],
-     "claves": [
-      "xmcota_sentinel",
-      "xmcota_iceman",
-      "xmcota_omegared"
-     ]
-    }
-   ],
-   "rondas": 10
   },
   {
    "quark": "1793225356217-4058",
@@ -2010,52 +1962,6 @@
    "rondas": 14
   },
   {
-   "quark": "1792260541870-6742",
-   "juego": "sf2ce",
-   "juego_nombre": "Street Fighter II' Champion Edition",
-   "juego_corto": "SF2CE",
-   "fecha": "2026-10-17",
-   "youtube": "ucre00SiUJI",
-   "titulo": "yolcu vs DOMIT_BEG | Street Fighter II' Champion Edition | Racha de 5: yolcu no suelta a DOMIT_BEG",
-   "duracion": 530.2,
-   "marcador": [
-    5,
-    0
-   ],
-   "peleas": 5,
-   "jugadores": [
-    {
-     "nombre": "yolcu",
-     "pais": "tr",
-     "rango_letra": "A",
-     "personaje": "M. Bison",
-     "clave": "dictator",
-     "personajes": [
-      "M. Bison"
-     ],
-     "claves": [
-      "dictator"
-     ]
-    },
-    {
-     "nombre": "DOMIT_BEG",
-     "pais": "tr",
-     "rango_letra": "B",
-     "personaje": "Ken",
-     "clave": "ken",
-     "personajes": [
-      "Ken",
-      "Guile"
-     ],
-     "claves": [
-      "ken",
-      "guile"
-     ]
-    }
-   ],
-   "rondas": 11
-  },
-  {
    "quark": "1792259495912-4307",
    "juego": "sf2ce",
    "juego_nombre": "Street Fighter II' Champion Edition",
@@ -2188,6 +2094,54 @@
      ],
      "claves": [
       "dictator"
+     ]
+    }
+   ],
+   "rondas": 12
+  },
+  {
+   "quark": "1792258140164-1065",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-17",
+   "youtube": "iQq6_iX9Nwo",
+   "titulo": "((Caution)) vs Sansar | Street Fighter II' Champion Edition | Set dominado: ((Caution)) gana 5-0",
+   "duracion": 483.4,
+   "marcador": [
+    5,
+    0
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "((Caution))",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    },
+    {
+     "nombre": "Sansar",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "Guile",
+     "clave": "guile",
+     "personajes": [
+      "Guile",
+      "Zangief",
+      "E. Honda"
+     ],
+     "claves": [
+      "guile",
+      "zangief",
+      "honda"
      ]
     }
    ],
@@ -3476,62 +3430,6 @@
      "claves": [
       "ryu",
       "ken"
-     ]
-    }
-   ],
-   "rondas": 22
-  },
-  {
-   "quark": "1791335228321-7512",
-   "juego": "xmcota",
-   "juego_nombre": "X-Men: Children of the Atom",
-   "juego_corto": "XMCOTA",
-   "fecha": "2026-10-07",
-   "youtube": "6eyye_45Qxs",
-   "titulo": "lawolfy2 vs daniloquispe | XMCOTA | Por un hilo: daniloquispe sobrevive y gana ante lawolfy2",
-   "duracion": 1120.7,
-   "marcador": [
-    5,
-    3
-   ],
-   "peleas": 8,
-   "jugadores": [
-    {
-     "nombre": "lawolfy2",
-     "pais": "ar",
-     "rango_letra": "C",
-     "personaje": "Wolverine",
-     "clave": "xmcota_wolverine",
-     "personajes": [
-      "Wolverine",
-      "Silver Samurai",
-      "Spiral",
-      "Cyclops"
-     ],
-     "claves": [
-      "xmcota_wolverine",
-      "xmcota_silversamurai",
-      "xmcota_spiral",
-      "xmcota_cyclops"
-     ]
-    },
-    {
-     "nombre": "daniloquispe",
-     "pais": "pe",
-     "rango_letra": "D",
-     "personaje": "Psylocke",
-     "clave": "xmcota_psylocke",
-     "personajes": [
-      "Psylocke",
-      "Cyclops",
-      "Iceman",
-      "Spiral"
-     ],
-     "claves": [
-      "xmcota_psylocke",
-      "xmcota_cyclops",
-      "xmcota_iceman",
-      "xmcota_spiral"
      ]
     }
    ],
