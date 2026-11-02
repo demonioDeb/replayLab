@@ -1,6 +1,56 @@
 {
- "actualizado": "2026-11-02 05:28",
+ "actualizado": "2026-11-02 05:51",
  "videos": [
+  {
+   "quark": "1793421005324-2850",
+   "juego": "msh",
+   "juego_nombre": "Marvel Super Heroes",
+   "juego_corto": "MSH",
+   "fecha": "2026-10-31",
+   "youtube": "89DgdIhkAuY",
+   "titulo": "KaLuPoHzz vs Jack05 | Marvel Super Heroes | KaLuPoHzz se luce con 1 Perfect frente a Jack05",
+   "duracion": 461.4,
+   "marcador": [
+    3,
+    1
+   ],
+   "peleas": 4,
+   "jugadores": [
+    {
+     "nombre": "KaLuPoHzz",
+     "pais": "mx",
+     "rango_letra": "",
+     "personaje": "Wolverine",
+     "clave": "msh_wolverine",
+     "personajes": [
+      "Wolverine",
+      "Blackheart",
+      "Psylocke"
+     ],
+     "claves": [
+      "msh_wolverine",
+      "msh_blackheart",
+      "msh_psylocke"
+     ]
+    },
+    {
+     "nombre": "Jack05",
+     "pais": "mx",
+     "rango_letra": "",
+     "personaje": "Captain America",
+     "clave": "msh_captainamerica",
+     "personajes": [
+      "Captain America",
+      "Shuma-Gorath"
+     ],
+     "claves": [
+      "msh_captainamerica",
+      "msh_shumagorath"
+     ]
+    }
+   ],
+   "rondas": 11
+  },
   {
    "quark": "1793384920163-9200",
    "juego": "kof98",

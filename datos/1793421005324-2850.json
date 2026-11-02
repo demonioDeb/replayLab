@@ -1,0 +1,700 @@
+{
+ "version": 8,
+ "quark": "1793421005324-2850",
+ "carpeta": "20261101_KaLuPoHzz_vs_Jack05_1793421005324-2850",
+ "juego": "msh",
+ "juego_nombre": "Marvel Super Heroes",
+ "juego_corto": "MSH",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": false,
+  "guardia": false
+ },
+ "fecha": "2026-10-31",
+ "youtube": "89DgdIhkAuY",
+ "titulo": "KaLuPoHzz vs Jack05 | Marvel Super Heroes | KaLuPoHzz se luce con 1 Perfect frente a Jack05",
+ "ft": 3,
+ "jugadores": [
+  {
+   "nombre": "KaLuPoHzz",
+   "pais": "mx",
+   "rango": null,
+   "rango_letra": "",
+   "personaje": "Wolverine",
+   "clave": "msh_wolverine",
+   "personajes": [
+    "Wolverine",
+    "Blackheart",
+    "Psylocke"
+   ],
+   "claves": [
+    "msh_wolverine",
+    "msh_blackheart",
+    "msh_psylocke"
+   ],
+   "swaps": 2,
+   "super": ""
+  },
+  {
+   "nombre": "Jack05",
+   "pais": "mx",
+   "rango": null,
+   "rango_letra": "",
+   "personaje": "Captain America",
+   "clave": "msh_captainamerica",
+   "personajes": [
+    "Captain America",
+    "Shuma-Gorath"
+   ],
+   "claves": [
+    "msh_captainamerica",
+    "msh_shumagorath"
+   ],
+   "swaps": 1,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  3,
+  1
+ ],
+ "duracion": 461.4,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 13.34,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 13.34,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 50,
+     "perfect": false,
+     "dano": [
+      94,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 34,
+     "remontada": 0,
+     "fin": 57.29,
+     "vida_final": [
+      0,
+      34
+     ]
+    },
+    {
+     "n": 2,
+     "t": 61.48,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      52,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 63,
+     "remontada": 12,
+     "fin": 86.6,
+     "vida_final": [
+      0,
+      63
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Wolverine",
+    "Captain America"
+   ],
+   "claves": [
+    "msh_wolverine",
+    "msh_captainamerica"
+   ],
+   "fin": 86.6,
+   "resumen": {
+    "dano": [
+     146,
+     288
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     0,
+     2
+    ],
+    "duracion": 80
+   }
+  },
+  {
+   "n": 2,
+   "t": 100.84,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 100.84,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 0,
+     "perfect": true,
+     "dano": [
+      0,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 105.89,
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 2,
+     "t": 120.35,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 66,
+     "perfect": false,
+     "dano": [
+      129,
+      144
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 10,
+     "remontada": 30,
+     "fin": 176.08,
+     "vida_final": [
+      0,
+      10
+     ]
+    },
+    {
+     "n": 3,
+     "t": 180.23,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      144,
+      123
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 14,
+     "remontada": 9,
+     "fin": 213.19,
+     "vida_final": [
+      14,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 217.37,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 52,
+     "perfect": false,
+     "dano": [
+      144,
+      113
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 21,
+     "remontada": 28,
+     "fin": 259.54,
+     "vida_final": [
+      21,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    1
+   ],
+   "personajes": [
+    "Blackheart",
+    "Captain America"
+   ],
+   "claves": [
+    "msh_blackheart",
+    "msh_captainamerica"
+   ],
+   "fin": 259.54,
+   "resumen": {
+    "dano": [
+     417,
+     380
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     2,
+     2
+    ],
+    "duracion": 157
+   }
+  },
+  {
+   "n": 3,
+   "t": 276.11,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 276.11,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 0,
+     "perfect": true,
+     "dano": [
+      0,
+      0
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 280.49,
+     "vida_final": [
+      100,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 297.03,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      144,
+      58
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 59,
+     "remontada": 4,
+     "fin": 323.78,
+     "vida_final": [
+      59,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 328.28,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 38,
+     "perfect": false,
+     "dano": [
+      144,
+      102
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 29,
+     "remontada": 9,
+     "fin": 359.23,
+     "vida_final": [
+      29,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    1
+   ],
+   "personajes": [
+    "Psylocke",
+    "Captain America"
+   ],
+   "claves": [
+    "msh_psylocke",
+    "msh_captainamerica"
+   ],
+   "fin": 359.23,
+   "resumen": {
+    "dano": [
+     288,
+     160
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     1,
+     0
+    ],
+    "rondas": [
+     3,
+     0
+    ],
+    "duracion": 66
+   }
+  },
+  {
+   "n": 4,
+   "t": 385.92,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 385.92,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      144,
+      110
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 23,
+     "remontada": 0,
+     "fin": 420.47,
+     "vida_final": [
+      23,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 424.65,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 38,
+     "perfect": false,
+     "dano": [
+      144,
+      66
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 54,
+     "remontada": 6,
+     "fin": 455.43,
+     "vida_final": [
+      54,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    1
+   ],
+   "personajes": [
+    "Psylocke",
+    "Shuma-Gorath"
+   ],
+   "claves": [
+    "msh_psylocke",
+    "msh_shumagorath"
+   ],
+   "fin": 455.43,
+   "resumen": {
+    "dano": [
+     288,
+     176
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     0
+    ],
+    "duracion": 77
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 105.89,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 280.49,
+   "tipo": "perfect",
+   "jugador": 1
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 10,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 234,
+   "pelea_rapida": 70,
+   "swaps": 2,
+   "rondas": 7,
+   "rondas_jugadas": 11,
+   "ko": 7,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 1139,
+   "recibido": 1004,
+   "golpes": 133,
+   "golpe_max": 19,
+   "primero": 4,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 28,
+   "al_limite": 0,
+   "remontada": 28,
+   "racha": 7,
+   "contras": 2,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 5,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 43,
+   "dano_medio": 8.6,
+   "dur_avg": 33,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 63,
+   "dano_barras": 7.91,
+   "recibido_barras": 6.97,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.13
+  },
+  {
+   "meter_full": 7,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 146,
+   "pelea_rapida": 73,
+   "swaps": 1,
+   "rondas": 4,
+   "rondas_jugadas": 11,
+   "ko": 4,
+   "timeup": 0,
+   "perfects": 1,
+   "dano": 1004,
+   "recibido": 1139,
+   "golpes": 110,
+   "golpe_max": 22,
+   "primero": 5,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 0,
+   "mareos": 0,
+   "ronda_rapida": 30,
+   "al_limite": 1,
+   "remontada": 30,
+   "racha": 4,
+   "contras": 0,
+   "esquivas": 0,
+   "maxes": 0,
+   "guardias": 0,
+   "first_attack": 6,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 52,
+   "dano_medio": 9.1,
+   "dur_avg": 37,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 72,
+   "dano_barras": 6.97,
+   "recibido_barras": 7.91,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.15
+  }
+ ]
+}
