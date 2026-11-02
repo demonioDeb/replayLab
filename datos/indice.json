@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02 02:42",
+ "actualizado": "2026-11-02 03:34",
  "videos": [
   {
    "quark": "1793384920163-9200",
@@ -238,6 +238,58 @@
     }
    ],
    "rondas": 17
+  },
+  {
+   "quark": "1793305212124-1984",
+   "juego": "kof98",
+   "juego_nombre": "The King of Fighters '98",
+   "juego_corto": "KOF98",
+   "fecha": "2026-10-29",
+   "youtube": "mVrIRBz0onw",
+   "titulo": "KOFKILL-ODIN7 vs ChangBR01 | The King of Fighters '98 | Lluvia de supers: 21 en total",
+   "duracion": 1646.2,
+   "marcador": [
+    3,
+    4
+   ],
+   "peleas": 8,
+   "jugadores": [
+    {
+     "nombre": "KOFKILL-ODIN7",
+     "pais": "ec",
+     "rango_letra": "B",
+     "personaje": "Kyo · Chizuru · Daimon",
+     "clave": "kof98_kyo",
+     "personajes": [
+      "Kyo",
+      "Chizuru",
+      "Daimon"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_chizuru",
+      "kof98_daimon"
+     ]
+    },
+    {
+     "nombre": "ChangBR01",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Kim · Chang · Choi",
+     "clave": "kof98_kim",
+     "personajes": [
+      "Kim",
+      "Chang",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_kim",
+      "kof98_chang",
+      "kof98_choi"
+     ]
+    }
+   ],
+   "rondas": 37
   },
   {
    "quark": "1793279293878-1643",

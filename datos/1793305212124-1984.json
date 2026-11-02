@@ -1,0 +1,2467 @@
+{
+ "version": 8,
+ "quark": "1793305212124-1984",
+ "carpeta": "20261101_KOFKILL-ODIN7_vs_ChangBR01_1793305212124-1984",
+ "juego": "kof98",
+ "juego_nombre": "The King of Fighters '98",
+ "juego_corto": "KOF98",
+ "datos": {
+  "super": true,
+  "stun": true,
+  "combos": false,
+  "guardia": true
+ },
+ "fecha": "2026-10-29",
+ "youtube": "mVrIRBz0onw",
+ "titulo": "KOFKILL-ODIN7 vs ChangBR01 | The King of Fighters '98 | Lluvia de supers: 21 en total",
+ "ft": 5,
+ "jugadores": [
+  {
+   "nombre": "KOFKILL-ODIN7",
+   "pais": "ec",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Kyo · Chizuru · Daimon",
+   "clave": "kof98_kyo",
+   "equipo": [
+    "Kyo",
+    "Chizuru",
+    "Daimon"
+   ],
+   "equipo_claves": [
+    "kof98_kyo",
+    "kof98_chizuru",
+    "kof98_daimon"
+   ],
+   "personajes": [
+    "Kyo",
+    "Chizuru",
+    "Daimon"
+   ],
+   "claves": [
+    "kof98_kyo",
+    "kof98_chizuru",
+    "kof98_daimon"
+   ],
+   "swaps": 1,
+   "super": ""
+  },
+  {
+   "nombre": "ChangBR01",
+   "pais": "br",
+   "rango": 4,
+   "rango_letra": "B",
+   "personaje": "Kim · Chang · Choi",
+   "clave": "kof98_kim",
+   "equipo": [
+    "Kim",
+    "Chang",
+    "Choi"
+   ],
+   "equipo_claves": [
+    "kof98_kim",
+    "kof98_chang",
+    "kof98_choi"
+   ],
+   "personajes": [
+    "Kim",
+    "Chang",
+    "Choi"
+   ],
+   "claves": [
+    "kof98_kim",
+    "kof98_chang",
+    "kof98_choi"
+   ],
+   "swaps": 0,
+   "super": ""
+  }
+ ],
+ "marcador": [
+  3,
+  4
+ ],
+ "duracion": 1646.2,
+ "peleas": [
+  {
+   "n": 1,
+   "t": 11.24,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 11.24,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 43,
+     "perfect": false,
+     "dano": [
+      33,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 67,
+     "remontada": 0,
+     "fin": 52.6,
+     "personajes": [
+      "Kyo",
+      "Kim"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_kim"
+     ],
+     "vida_final": [
+      0,
+      67
+     ]
+    },
+    {
+     "n": 2,
+     "t": 56.47,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 40,
+     "perfect": false,
+     "dano": [
+      86,
+      35
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 66,
+     "remontada": 0,
+     "fin": 96.84,
+     "personajes": [
+      "Chizuru",
+      "Kim"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_kim"
+     ],
+     "vida_final": [
+      66,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 101.33,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 42,
+     "perfect": false,
+     "dano": [
+      101,
+      88
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 1,
+     "remontada": 7,
+     "fin": 143.05,
+     "personajes": [
+      "Chizuru",
+      "Chang"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_chang"
+     ],
+     "vida_final": [
+      0,
+      1
+     ]
+    },
+    {
+     "n": 4,
+     "t": 147.23,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 9,
+     "perfect": false,
+     "dano": [
+      18,
+      1
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 99,
+     "remontada": 0,
+     "fin": 160.57,
+     "personajes": [
+      "Daimon",
+      "Chang"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_chang"
+     ],
+     "vida_final": [
+      99,
+      0
+     ]
+    },
+    {
+     "n": 5,
+     "t": 164.5,
+     "ganador": 2,
+     "motivo": "time",
+     "duracion": 60,
+     "perfect": true,
+     "dano": [
+      0,
+      80
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 220.59,
+     "personajes": [
+      "Daimon",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      22,
+      100
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    1
+   ],
+   "personajes": [
+    "Kyo · Chizuru · Daimon",
+    "Kim · Chang · Choi"
+   ],
+   "claves": [
+    "kof98_kyo",
+    "kof98_kim"
+   ],
+   "equipos": [
+    [
+     "Kyo",
+     "Chizuru",
+     "Daimon"
+    ],
+    [
+     "Kim",
+     "Chang",
+     "Choi"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_kyo",
+     "kof98_chizuru",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_kim",
+     "kof98_chang",
+     "kof98_choi"
+    ]
+   ],
+   "fin": 220.59,
+   "resumen": {
+    "dano": [
+     238,
+     307
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 194
+   }
+  },
+  {
+   "n": 2,
+   "t": 253.82,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 253.82,
+     "ganador": 2,
+     "motivo": "time",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      70,
+      98
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 32,
+     "remontada": 3,
+     "fin": 308.6,
+     "personajes": [
+      "Kyo",
+      "Kim"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_kim"
+     ],
+     "vida_final": [
+      4,
+      32
+     ]
+    },
+    {
+     "n": 2,
+     "t": 314.36,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 15,
+     "perfect": false,
+     "dano": [
+      45,
+      31
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 69,
+     "remontada": 0,
+     "fin": 333.49,
+     "personajes": [
+      "Chizuru",
+      "Kim"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_kim"
+     ],
+     "vida_final": [
+      69,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 338.02,
+     "ganador": 1,
+     "motivo": "time",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      97,
+      89
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 10,
+     "remontada": 2,
+     "fin": 394.27,
+     "personajes": [
+      "Chizuru",
+      "Chang"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_chang"
+     ],
+     "vida_final": [
+      10,
+      5
+     ]
+    },
+    {
+     "n": 4,
+     "t": 401.93,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 2,
+     "perfect": true,
+     "dano": [
+      0,
+      23
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 100,
+     "remontada": 0,
+     "fin": 409.45,
+     "personajes": [
+      "Chizuru",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      0,
+      100
+     ]
+    },
+    {
+     "n": 5,
+     "t": 414.42,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 47,
+     "perfect": false,
+     "dano": [
+      94,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      2
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 8,
+     "remontada": 57,
+     "fin": 460.7,
+     "personajes": [
+      "Daimon",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      0,
+      8
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    0,
+    2
+   ],
+   "personajes": [
+    "Kyo · Chizuru · Daimon",
+    "Kim · Chang · Choi"
+   ],
+   "claves": [
+    "kof98_kyo",
+    "kof98_kim"
+   ],
+   "equipos": [
+    [
+     "Kyo",
+     "Chizuru",
+     "Daimon"
+    ],
+    [
+     "Kim",
+     "Chang",
+     "Choi"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_kyo",
+     "kof98_chizuru",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_kim",
+     "kof98_chang",
+     "kof98_choi"
+    ]
+   ],
+   "fin": 460.7,
+   "resumen": {
+    "dano": [
+     306,
+     344
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     3
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     1
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 184
+   }
+  },
+  {
+   "n": 3,
+   "t": 480.57,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 480.57,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 38,
+     "perfect": false,
+     "dano": [
+      103,
+      86
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 16,
+     "remontada": 22,
+     "fin": 517.97,
+     "personajes": [
+      "Kyo",
+      "Kim"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_kim"
+     ],
+     "vida_final": [
+      16,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 521.85,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 17,
+     "perfect": false,
+     "dano": [
+      47,
+      37
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 54,
+     "remontada": 0,
+     "fin": 542.3,
+     "personajes": [
+      "Kyo",
+      "Chang"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_chang"
+     ],
+     "vida_final": [
+      0,
+      54
+     ]
+    },
+    {
+     "n": 3,
+     "t": 546.85,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      84,
+      66
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 35,
+     "remontada": 0,
+     "fin": 586.83,
+     "personajes": [
+      "Chizuru",
+      "Chang"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_chang"
+     ],
+     "vida_final": [
+      35,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 591.16,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      103,
+      29
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      2,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 27,
+     "remontada": 6,
+     "fin": 622.84,
+     "personajes": [
+      "Chizuru",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      27,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    1,
+    2
+   ],
+   "personajes": [
+    "Kyo · Chizuru · Daimon",
+    "Kim · Chang · Choi"
+   ],
+   "claves": [
+    "kof98_kyo",
+    "kof98_kim"
+   ],
+   "equipos": [
+    [
+     "Kyo",
+     "Chizuru",
+     "Daimon"
+    ],
+    [
+     "Kim",
+     "Chang",
+     "Choi"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_kyo",
+     "kof98_chizuru",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_kim",
+     "kof98_chang",
+     "kof98_choi"
+    ]
+   ],
+   "fin": 622.84,
+   "resumen": {
+    "dano": [
+     337,
+     218
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     3,
+     2
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     1
+    ],
+    "duracion": 124
+   }
+  },
+  {
+   "n": 4,
+   "t": 646.05,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 646.05,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 44,
+     "perfect": false,
+     "dano": [
+      103,
+      78
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 24,
+     "remontada": 0,
+     "fin": 687.81,
+     "personajes": [
+      "Kyo",
+      "Kim"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_kim"
+     ],
+     "vida_final": [
+      24,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 691.92,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 33,
+     "perfect": false,
+     "dano": [
+      84,
+      41
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 18,
+     "remontada": 0,
+     "fin": 726.48,
+     "personajes": [
+      "Kyo",
+      "Chang"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_chang"
+     ],
+     "vida_final": [
+      0,
+      18
+     ]
+    },
+    {
+     "n": 3,
+     "t": 730.41,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 19,
+     "perfect": false,
+     "dano": [
+      39,
+      77
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 25,
+     "remontada": 0,
+     "fin": 752.92,
+     "personajes": [
+      "Chizuru",
+      "Chang"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_chang"
+     ],
+     "vida_final": [
+      25,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 756.97,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 10,
+     "perfect": false,
+     "dano": [
+      11,
+      54
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 89,
+     "remontada": 0,
+     "fin": 771.67,
+     "personajes": [
+      "Chizuru",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      0,
+      89
+     ]
+    },
+    {
+     "n": 5,
+     "t": 775.63,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 40,
+     "perfect": false,
+     "dano": [
+      95,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 7,
+     "remontada": 0,
+     "fin": 815.86,
+     "personajes": [
+      "Daimon",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      0,
+      7
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    1,
+    3
+   ],
+   "personajes": [
+    "Kyo · Chizuru · Daimon",
+    "Kim · Chang · Choi"
+   ],
+   "claves": [
+    "kof98_kyo",
+    "kof98_kim"
+   ],
+   "equipos": [
+    [
+     "Kyo",
+     "Chizuru",
+     "Daimon"
+    ],
+    [
+     "Kim",
+     "Chang",
+     "Choi"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_kyo",
+     "kof98_chizuru",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_kim",
+     "kof98_chang",
+     "kof98_choi"
+    ]
+   ],
+   "fin": 815.86,
+   "resumen": {
+    "dano": [
+     332,
+     353
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     3
+    ],
+    "duracion": 146
+   }
+  },
+  {
+   "n": 5,
+   "t": 836.55,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 836.55,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 44,
+     "perfect": false,
+     "dano": [
+      103,
+      75
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 27,
+     "remontada": 31,
+     "fin": 879.03,
+     "personajes": [
+      "Kyo",
+      "Kim"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_kim"
+     ],
+     "vida_final": [
+      27,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 882.98,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 14,
+     "perfect": false,
+     "dano": [
+      103,
+      8
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      0
+     ],
+     "mareos": [
+      1,
+      0
+     ],
+     "vida_fin": 34,
+     "remontada": 0,
+     "fin": 901.45,
+     "personajes": [
+      "Kyo",
+      "Chang"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_chang"
+     ],
+     "vida_final": [
+      34,
+      0
+     ]
+    },
+    {
+     "n": 3,
+     "t": 905.45,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 41,
+     "perfect": false,
+     "dano": [
+      17,
+      64
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 83,
+     "remontada": 0,
+     "fin": 946.67,
+     "personajes": [
+      "Kyo",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      0,
+      83
+     ]
+    },
+    {
+     "n": 4,
+     "t": 950.84,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      1,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 98,
+     "remontada": 0,
+     "fin": 982.67,
+     "personajes": [
+      "Chizuru",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      0,
+      98
+     ]
+    },
+    {
+     "n": 5,
+     "t": 986.56,
+     "ganador": 1,
+     "motivo": "time",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      97,
+      71
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 31,
+     "remontada": 17,
+     "fin": 1042.67,
+     "personajes": [
+      "Daimon",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      31,
+      5
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    2,
+    3
+   ],
+   "personajes": [
+    "Kyo · Chizuru · Daimon",
+    "Kim · Chang · Choi"
+   ],
+   "claves": [
+    "kof98_kyo",
+    "kof98_kim"
+   ],
+   "equipos": [
+    [
+     "Kyo",
+     "Chizuru",
+     "Daimon"
+    ],
+    [
+     "Kim",
+     "Chang",
+     "Choi"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_kyo",
+     "kof98_chizuru",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_kim",
+     "kof98_chang",
+     "kof98_choi"
+    ]
+   ],
+   "fin": 1042.67,
+   "resumen": {
+    "dano": [
+     321,
+     321
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     2,
+     1
+    ],
+    "mareos": [
+     1,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     3,
+     2
+    ],
+    "duracion": 189
+   }
+  },
+  {
+   "n": 6,
+   "t": 1068.23,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 1068.23,
+     "ganador": 1,
+     "motivo": "time",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      97,
+      81
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 21,
+     "remontada": 10,
+     "fin": 1122.93,
+     "personajes": [
+      "Kyo",
+      "Kim"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_kim"
+     ],
+     "vida_final": [
+      21,
+      5
+     ]
+    },
+    {
+     "n": 2,
+     "t": 1129.26,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 11,
+     "perfect": false,
+     "dano": [
+      16,
+      34
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 84,
+     "remontada": 0,
+     "fin": 1144.59,
+     "personajes": [
+      "Kyo",
+      "Chang"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_chang"
+     ],
+     "vida_final": [
+      0,
+      84
+     ]
+    },
+    {
+     "n": 3,
+     "t": 1148.46,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 35,
+     "perfect": false,
+     "dano": [
+      35,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 66,
+     "remontada": 8,
+     "fin": 1184.27,
+     "personajes": [
+      "Chizuru",
+      "Chang"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_chang"
+     ],
+     "vida_final": [
+      0,
+      66
+     ]
+    },
+    {
+     "n": 4,
+     "t": 1189.11,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 39,
+     "perfect": false,
+     "dano": [
+      88,
+      68
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 33,
+     "remontada": 33,
+     "fin": 1228.69,
+     "personajes": [
+      "Daimon",
+      "Chang"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_chang"
+     ],
+     "vida_final": [
+      33,
+      0
+     ]
+    },
+    {
+     "n": 5,
+     "t": 1232.58,
+     "ganador": 0,
+     "motivo": "time",
+     "duracion": 60,
+     "perfect": false,
+     "dano": [
+      102,
+      54
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 0,
+     "remontada": 0,
+     "fin": 1288.57,
+     "personajes": [
+      "Daimon",
+      "Choi"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_choi"
+     ],
+     "vida_final": [
+      47,
+      0
+     ]
+    }
+   ],
+   "ganador": 1,
+   "marcador": [
+    3,
+    3
+   ],
+   "personajes": [
+    "Kyo · Chizuru · Daimon",
+    "Kim · Chang · Choi"
+   ],
+   "claves": [
+    "kof98_kyo",
+    "kof98_kim"
+   ],
+   "equipos": [
+    [
+     "Kyo",
+     "Chizuru",
+     "Daimon"
+    ],
+    [
+     "Kim",
+     "Chang",
+     "Choi"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_kyo",
+     "kof98_chizuru",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_kim",
+     "kof98_chang",
+     "kof98_choi"
+    ]
+   ],
+   "fin": 1327.1,
+   "resumen": {
+    "dano": [
+     338,
+     340
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     2,
+     2
+    ],
+    "duracion": 205
+   }
+  },
+  {
+   "n": 7,
+   "t": 1344.06,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 1344.06,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 52,
+     "perfect": false,
+     "dano": [
+      103,
+      78
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      1,
+      1
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 24,
+     "remontada": 34,
+     "fin": 1393.15,
+     "personajes": [
+      "Kyo",
+      "Kim"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_kim"
+     ],
+     "vida_final": [
+      24,
+      0
+     ]
+    },
+    {
+     "n": 2,
+     "t": 1397.08,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 10,
+     "perfect": false,
+     "dano": [
+      20,
+      37
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 80,
+     "remontada": 0,
+     "fin": 1412.13,
+     "personajes": [
+      "Kyo",
+      "Chang"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_chang"
+     ],
+     "vida_final": [
+      0,
+      80
+     ]
+    },
+    {
+     "n": 3,
+     "t": 1416.08,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 46,
+     "perfect": false,
+     "dano": [
+      84,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 18,
+     "remontada": 0,
+     "fin": 1461.41,
+     "personajes": [
+      "Chizuru",
+      "Chang"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_chang"
+     ],
+     "vida_final": [
+      0,
+      18
+     ]
+    },
+    {
+     "n": 4,
+     "t": 1465.73,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 21,
+     "perfect": false,
+     "dano": [
+      22,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 12,
+     "remontada": 0,
+     "fin": 1490.3,
+     "personajes": [
+      "Daimon",
+      "Chang"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_chang"
+     ],
+     "vida_final": [
+      0,
+      12
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    4
+   ],
+   "personajes": [
+    "Kyo · Chizuru · Daimon",
+    "Kim · Chang · Choi"
+   ],
+   "claves": [
+    "kof98_kyo",
+    "kof98_kim"
+   ],
+   "equipos": [
+    [
+     "Kyo",
+     "Chizuru",
+     "Daimon"
+    ],
+    [
+     "Kim",
+     "Chang",
+     "Choi"
+    ]
+   ],
+   "equipos_claves": [
+    [
+     "kof98_kyo",
+     "kof98_chizuru",
+     "kof98_daimon"
+    ],
+    [
+     "kof98_kim",
+     "kof98_chang",
+     "kof98_choi"
+    ]
+   ],
+   "fin": 1490.3,
+   "resumen": {
+    "dano": [
+     229,
+     321
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     1,
+     1
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     3
+    ],
+    "duracion": 129
+   }
+  },
+  {
+   "n": 8,
+   "t": 1510.82,
+   "rondas": [
+    {
+     "n": 1,
+     "t": 1510.82,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 28,
+     "perfect": false,
+     "dano": [
+      46,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 55,
+     "remontada": 13,
+     "fin": 1538.92,
+     "personajes": [
+      "Kyo",
+      "Kim"
+     ],
+     "claves": [
+      "kof98_kyo",
+      "kof98_kim"
+     ],
+     "vida_final": [
+      0,
+      55
+     ]
+    },
+    {
+     "n": 2,
+     "t": 1546.25,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 30,
+     "perfect": false,
+     "dano": [
+      77,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 3,
+     "remontada": 15,
+     "fin": 1578.28,
+     "personajes": [
+      "Chizuru",
+      "Kim"
+     ],
+     "claves": [
+      "kof98_chizuru",
+      "kof98_kim"
+     ],
+     "vida_final": [
+      0,
+      3
+     ]
+    },
+    {
+     "n": 3,
+     "t": 1582.81,
+     "ganador": 1,
+     "motivo": "ko",
+     "duracion": 5,
+     "perfect": false,
+     "dano": [
+      28,
+      2
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 98,
+     "remontada": 0,
+     "fin": 1592.95,
+     "personajes": [
+      "Daimon",
+      "Kim"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_kim"
+     ],
+     "vida_final": [
+      98,
+      0
+     ]
+    },
+    {
+     "n": 4,
+     "t": 1596.85,
+     "ganador": 2,
+     "motivo": "ko",
+     "duracion": 43,
+     "perfect": false,
+     "dano": [
+      93,
+      103
+     ],
+     "combos": [
+      0,
+      0
+     ],
+     "supers": [
+      0,
+      0
+     ],
+     "mareos": [
+      0,
+      0
+     ],
+     "vida_fin": 9,
+     "remontada": 0,
+     "fin": 1640.15,
+     "personajes": [
+      "Daimon",
+      "Chang"
+     ],
+     "claves": [
+      "kof98_daimon",
+      "kof98_chang"
+     ],
+     "vida_final": [
+      0,
+      9
+     ]
+    }
+   ],
+   "ganador": 2,
+   "marcador": [
+    3,
+    5
+   ],
+   "personajes": [
+    "Kyo",
+    "Kim · Chang · Choi"
+   ],
+   "claves": [
+    "kof98_kyo",
+    "kof98_kim"
+   ],
+   "equipos": [
+    null,
+    [
+     "Kim",
+     "Chang",
+     "Choi"
+    ]
+   ],
+   "equipos_claves": [
+    null,
+    [
+     "kof98_kim",
+     "kof98_chang",
+     "kof98_choi"
+    ]
+   ],
+   "fin": 1640.15,
+   "resumen": {
+    "dano": [
+     244,
+     311
+    ],
+    "combos": [
+     0,
+     0
+    ],
+    "supers": [
+     0,
+     0
+    ],
+    "mareos": [
+     0,
+     0
+    ],
+    "perfects": [
+     0,
+     0
+    ],
+    "rondas": [
+     1,
+     3
+    ],
+    "duracion": 106
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "t": 52.27,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 67.54,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 96.51,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 136.99,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 142.72,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 160.25,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 220.01,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 220.59,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 330.82,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 333.15,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 350.84,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 371.43,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 409.11,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 409.45,
+   "tipo": "perfect",
+   "jugador": 2
+  },
+  {
+   "t": 435.03,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 451.03,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 460.36,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 460.7,
+   "tipo": "remontada",
+   "jugador": 2,
+   "dato": 57
+  },
+  {
+   "t": 515.19,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 517.65,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 541.97,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 558.68,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 578.47,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 586.5,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 615.97,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 621.92,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 622.49,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 686.54,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 687.49,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 726.15,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 752.59,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 771.35,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 799.78,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 815.51,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 866.84,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 878.69,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 893.4,
+   "tipo": "mareo",
+   "jugador": 1
+  },
+  {
+   "t": 895.67,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 901.12,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 946.33,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 982.35,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 999.59,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1144.26,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1183.93,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1223.53,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1228.36,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1387.26,
+   "tipo": "super",
+   "jugador": 1
+  },
+  {
+   "t": 1392.17,
+   "tipo": "super",
+   "jugador": 2
+  },
+  {
+   "t": 1392.82,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1411.8,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1461.08,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1489.97,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1538.58,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1577.95,
+   "tipo": "ko",
+   "jugador": 2
+  },
+  {
+   "t": 1592.62,
+   "tipo": "ko",
+   "jugador": 1
+  },
+  {
+   "t": 1639.81,
+   "tipo": "ko",
+   "jugador": 2
+  }
+ ],
+ "stats": [
+  {
+   "meter_full": 0,
+   "stun_frames": 0,
+   "stun_peor": 0,
+   "mareado_veces": 0,
+   "dur_sum": 568,
+   "pelea_rapida": 142,
+   "swaps": 1,
+   "rondas": 16,
+   "rondas_jugadas": 37,
+   "ko": 13,
+   "timeup": 3,
+   "perfects": 0,
+   "dano": 2345,
+   "recibido": 2515,
+   "golpes": 319,
+   "golpe_max": 23,
+   "primero": 13,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 11,
+   "mareos": 1,
+   "ronda_rapida": 5,
+   "al_limite": 1,
+   "remontada": 34,
+   "racha": 3,
+   "contras": 10,
+   "esquivas": 8,
+   "maxes": 7,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 40,
+   "dano_medio": 7.4,
+   "dur_avg": 36,
+   "stun_seg": 0.0,
+   "stun_peor_seg": 0.0,
+   "vida_perdida_ronda": 66,
+   "dano_barras": 22.77,
+   "recibido_barras": 24.42,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.22
+  },
+  {
+   "meter_full": 0,
+   "stun_frames": 102,
+   "stun_peor": 102,
+   "mareado_veces": 1,
+   "dur_sum": 649,
+   "pelea_rapida": 129,
+   "swaps": 0,
+   "rondas": 20,
+   "rondas_jugadas": 37,
+   "ko": 18,
+   "timeup": 2,
+   "perfects": 2,
+   "dano": 2515,
+   "recibido": 2345,
+   "golpes": 492,
+   "golpe_max": 20,
+   "primero": 24,
+   "combos": 0,
+   "combo_max": 0,
+   "combo_dano": 0,
+   "supers": 10,
+   "mareos": 0,
+   "ronda_rapida": 2,
+   "al_limite": 5,
+   "remontada": 57,
+   "racha": 5,
+   "contras": 11,
+   "esquivas": 2,
+   "maxes": 9,
+   "guardias": 0,
+   "first_attack": 0,
+   "reversals": 0,
+   "combos_cartel": 0,
+   "tech_hit": 0,
+   "vida_al_ganar": 49,
+   "dano_medio": 5.1,
+   "dur_avg": 32,
+   "stun_seg": 1.7,
+   "stun_peor_seg": 1.7,
+   "vida_perdida_ronda": 62,
+   "dano_barras": 24.42,
+   "recibido_barras": 22.77,
+   "combo_dano_barras": 0.0,
+   "golpe_max_barras": 0.19
+  }
+ ]
+}
