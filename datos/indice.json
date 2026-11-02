@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02 03:35",
+ "actualizado": "2026-11-02 04:05",
  "videos": [
   {
    "quark": "1793384920163-9200",
@@ -238,6 +238,60 @@
     }
    ],
    "rondas": 17
+  },
+  {
+   "quark": "1793302610761-5800",
+   "juego": "kf2k2pls",
+   "juego_nombre": "The King of Fighters 2002 Plus",
+   "juego_corto": "KOF2002+",
+   "fecha": "2026-10-29",
+   "youtube": "qZApPKDTzfc",
+   "titulo": "rawoord vs baixada-sp | The King of Fighters 2002 Plus | Lluvia de supers: 41 en total",
+   "duracion": 768.9,
+   "marcador": [
+    2,
+    3
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "rawoord",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Iori · Mary · Kim",
+     "clave": "kof2002_iori",
+     "personajes": [
+      "Mary",
+      "Iori",
+      "Kim"
+     ],
+     "claves": [
+      "kof2002_mary",
+      "kof2002_iori",
+      "kof2002_kim"
+     ]
+    },
+    {
+     "nombre": "baixada-sp",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Iori · Yuri · Kim",
+     "clave": "kof2002_iori",
+     "personajes": [
+      "Iori",
+      "Yuri",
+      "Kim",
+      "Takuma"
+     ],
+     "claves": [
+      "kof2002_iori",
+      "kof2002_yuri",
+      "kof2002_kim",
+      "kof2002_takuma"
+     ]
+    }
+   ],
+   "rondas": 23
   },
   {
    "quark": "1793279293878-1643",
