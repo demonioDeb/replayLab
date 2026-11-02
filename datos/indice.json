@@ -1,6 +1,52 @@
 {
- "actualizado": "2026-11-02 01:46",
+ "actualizado": "2026-11-02 02:04",
  "videos": [
+  {
+   "quark": "1793387523727-3280",
+   "juego": "sfa2u",
+   "juego_nombre": "Street Fighter Alpha 2",
+   "juego_corto": "SFA2",
+   "fecha": "2026-10-30",
+   "youtube": "0m5-LW05Ecc",
+   "titulo": "nethunt vs Mun-Ra | Street Fighter Alpha 2 | Relámpago: KO de nethunt en 9 segundos",
+   "duracion": 426.7,
+   "marcador": [
+    3,
+    1
+   ],
+   "peleas": 4,
+   "jugadores": [
+    {
+     "nombre": "nethunt",
+     "pais": "br",
+     "rango_letra": "A",
+     "personaje": "Akuma",
+     "clave": "sfa2_akuma",
+     "personajes": [
+      "Akuma",
+      "Ken"
+     ],
+     "claves": [
+      "sfa2_akuma",
+      "sfa2_ken"
+     ]
+    },
+    {
+     "nombre": "Mun-Ra",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Ken",
+     "clave": "sfa2_ken",
+     "personajes": [
+      "Ken"
+     ],
+     "claves": [
+      "sfa2_ken"
+     ]
+    }
+   ],
+   "rondas": 11
+  },
   {
    "quark": "1793384920163-9200",
    "juego": "kof98",
