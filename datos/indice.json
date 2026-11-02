@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-02 04:26",
+ "actualizado": "2026-11-02 04:45",
  "videos": [
   {
    "quark": "1793384920163-9200",
@@ -52,6 +52,50 @@
     }
    ],
    "rondas": 9
+  },
+  {
+   "quark": "1793334374555-2775",
+   "juego": "sf2hf",
+   "juego_nombre": "Street Fighter II' Hyper Fighting",
+   "juego_corto": "SF2HF",
+   "fecha": "2026-10-30",
+   "youtube": "jvZaB8SjLRI",
+   "titulo": "Loboesteparius vs Returns | SF2HF | Returns no deja respirar a Loboesteparius: 5-0",
+   "duracion": 425.2,
+   "marcador": [
+    0,
+    5
+   ],
+   "peleas": 5,
+   "jugadores": [
+    {
+     "nombre": "Loboesteparius",
+     "pais": "us",
+     "rango_letra": "B",
+     "personaje": "Sagat",
+     "clave": "sagat",
+     "personajes": [
+      "Sagat"
+     ],
+     "claves": [
+      "sagat"
+     ]
+    },
+    {
+     "nombre": "Returns",
+     "pais": "br",
+     "rango_letra": "B",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken"
+     ],
+     "claves": [
+      "ken"
+     ]
+    }
+   ],
+   "rondas": 13
   },
   {
    "quark": "1793332418220-1938",
