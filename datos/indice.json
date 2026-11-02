@@ -1,50 +1,6 @@
 {
- "actualizado": "2026-11-02 04:25",
+ "actualizado": "2026-11-02 04:26",
  "videos": [
-  {
-   "quark": "1793396507151-6452",
-   "juego": "sf2hf",
-   "juego_nombre": "Street Fighter II' Hyper Fighting",
-   "juego_corto": "SF2HF",
-   "fecha": "2026-10-30",
-   "youtube": "STC4j5qZfbQ",
-   "titulo": "KnockTsuKow vs VegetableChopper | SF2HF | VegetableChopper marea a KnockTsuKow 6 veces",
-   "duracion": 427.4,
-   "marcador": [
-    3,
-    2
-   ],
-   "peleas": 5,
-   "jugadores": [
-    {
-     "nombre": "KnockTsuKow",
-     "pais": "us",
-     "rango_letra": "B",
-     "personaje": "Blanka",
-     "clave": "blanka",
-     "personajes": [
-      "Blanka"
-     ],
-     "claves": [
-      "blanka"
-     ]
-    },
-    {
-     "nombre": "VegetableChopper",
-     "pais": "us",
-     "rango_letra": "B",
-     "personaje": "Ryu",
-     "clave": "ryu",
-     "personajes": [
-      "Ryu"
-     ],
-     "claves": [
-      "ryu"
-     ]
-    }
-   ],
-   "rondas": 12
-  },
   {
    "quark": "1793384920163-9200",
    "juego": "kof98",
@@ -2232,6 +2188,52 @@
     }
    ],
    "rondas": 12
+  },
+  {
+   "quark": "1792258071010-6678",
+   "juego": "sf2ce",
+   "juego_nombre": "Street Fighter II' Champion Edition",
+   "juego_corto": "SF2CE",
+   "fecha": "2026-10-17",
+   "youtube": "jCEg8kSok1E",
+   "titulo": "Leakage vs yolcu | Street Fighter II' Champion Edition | Set dominado: yolcu gana 5-1",
+   "duracion": 876.7,
+   "marcador": [
+    1,
+    5
+   ],
+   "peleas": 6,
+   "jugadores": [
+    {
+     "nombre": "Leakage",
+     "pais": "tr",
+     "rango_letra": "B",
+     "personaje": "Ken",
+     "clave": "ken",
+     "personajes": [
+      "Ken",
+      "Ryu"
+     ],
+     "claves": [
+      "ken",
+      "ryu"
+     ]
+    },
+    {
+     "nombre": "yolcu",
+     "pais": "tr",
+     "rango_letra": "A",
+     "personaje": "M. Bison",
+     "clave": "dictator",
+     "personajes": [
+      "M. Bison"
+     ],
+     "claves": [
+      "dictator"
+     ]
+    }
+   ],
+   "rondas": 16
   },
   {
    "quark": "1792220353871-8960",
